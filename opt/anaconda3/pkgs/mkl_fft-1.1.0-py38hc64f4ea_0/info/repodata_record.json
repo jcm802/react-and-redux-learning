@@ -1,0 +1,28 @@
+{
+  "build": "py38hc64f4ea_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "blas 1.0 mkl",
+    "libcxx >=10.0.0",
+    "mkl >=2019.4,<2020.0a0",
+    "mkl-service >=2,<3.0a0",
+    "numpy >=1.14.6,<2.0a0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "mkl_fft-1.1.0-py38hc64f4ea_0.conda",
+  "legacy_bz2_md5": "9f92ee34ed5845b2aa80f1d7f4de628c",
+  "legacy_bz2_size": 161151,
+  "license": "BSD 3-Clause",
+  "md5": "9a483370143e0e292013156f59d98c62",
+  "name": "mkl_fft",
+  "sha256": "2bf5333307e652bba9d3aa7e9e5ff46f4ea47f1140abb56a9793e0ea746a2fe4",
+  "size": 141202,
+  "subdir": "osx-64",
+  "timestamp": 1592407010988,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/mkl_fft-1.1.0-py38hc64f4ea_0.conda",
+  "version": "1.1.0"
+}

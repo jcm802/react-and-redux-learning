@@ -1,0 +1,50 @@
+commit 2a3cf08438541a1cf815d76bd8b9242d8bfa6453
+Merge: b14ca06 eb99224
+Author: Olivier Grisel <olivier.grisel@gmail.com>
+Date:   Fri May 29 15:14:26 2020 +0200
+
+    Merge pull request #1 from conda-forge/2.1.0
+    
+    2.1.0
+
+commit eb99224cc040dd040b094c8f4e8b557bd1748a88
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Fri May 29 13:09:14 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.3, and conda-forge-pinning 2020.05.27.14.19.32
+
+commit 7874642c34de176970121726fc8c5819500f180e
+Author: Olivier Grisel <olivier.grisel@ensta.org>
+Date:   Fri May 29 15:06:11 2020 +0200
+
+    2.1.0
+
+commit b14ca0610e4844173cad94e36c58b86cbba7d1a1
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Thu May 21 22:44:38 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit afd4befd94337e1fd9ab1c6160664bc36addad08
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon May 18 10:22:49 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit 1bb764713e78cdb33c83feba19e19116224b0861
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue Mar 3 05:30:54 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit b2e39fc53b3ce89820cc7b1b987976ef10ccc440
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Feb 25 19:17:07 2020 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 9dcba716fba4a6c8a81e9678835289911ad3d287
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Feb 25 19:09:27 2020 +0000
+
+    Initial feedstock commit with conda-smithy 3.6.8.

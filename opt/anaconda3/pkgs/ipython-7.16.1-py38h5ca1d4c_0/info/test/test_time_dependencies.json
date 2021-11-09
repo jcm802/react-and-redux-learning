@@ -1,0 +1,1 @@
+["pip", "ipykernel", "requests", "testpath", "nbformat", "nose >=0.10.1", "curio", "pygments", "numpy"]

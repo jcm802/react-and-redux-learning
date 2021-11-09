@@ -1,0 +1,26 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "qdarkstyle-2.8.1-py_0.conda",
+  "legacy_bz2_md5": "4a7004c4b3316e0fb11ce71ceae37318",
+  "legacy_bz2_size": 160204,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "acf57f4dc04438e54eb81aa30e27512a",
+  "name": "qdarkstyle",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "2da6050d878df5f31e5c0ec13f224965fb5322eeb1a314254b887fcd0b0354d5",
+  "size": 179719,
+  "subdir": "noarch",
+  "timestamp": 1587400228507,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/qdarkstyle-2.8.1-py_0.conda",
+  "version": "2.8.1"
+}

@@ -1,0 +1,26 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "heapdict",
+    "python"
+  ],
+  "features": "",
+  "fn": "zict-2.0.0-py_0.conda",
+  "legacy_bz2_md5": "3613ea748b04624b9e3f26aeeecd9a15",
+  "legacy_bz2_size": 12691,
+  "license": "BSD 3-Clause",
+  "md5": "ef0dbd0d409928b8708321ec37d72c17",
+  "name": "zict",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "fc51ab7699379aa9c562b140fecabd816c51c494675571d02476467a0e716e35",
+  "size": 13075,
+  "subdir": "noarch",
+  "timestamp": 1584459490453,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/zict-2.0.0-py_0.conda",
+  "version": "2.0.0"
+}

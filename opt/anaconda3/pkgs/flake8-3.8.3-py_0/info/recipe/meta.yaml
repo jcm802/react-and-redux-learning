@@ -1,0 +1,87 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/flake8-3.8.3-on-linux_canary, last modified Mon Jun 15 21:54:38 2020
+# ------------------------------------------------
+
+package:
+    name: flake8
+    version: 3.8.3
+source:
+    sha256: f04b9fcbac03b0a3e58c0ab3a0ecc462e023a9faf046d57794184028123aa208
+    url: https://pypi.io/packages/source/f/flake8/flake8-3.8.3.tar.gz
+build:
+    entry_points:
+        - flake8 = flake8.main.cli:main
+    noarch: python
+    number: '0'
+    script: /tmp/build/80754af9/flake8_1592258334065/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/bin/python
+        -m pip install . --no-deps -vv
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - attrs 19.3.0 py_0
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.4.5.1 py36_0
+        - importlib-metadata 1.6.0 py36_0
+        - importlib_metadata 1.6.0 0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.3 he6710b0_1
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - more-itertools 8.3.0 py_0
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1g h7b6447c_0
+        - packaging 20.3 py_0
+        - pip 20.0.2 py36_3
+        - pluggy 0.13.1 py36_0
+        - py 1.8.1 py_0
+        - pyparsing 2.4.7 py_0
+        - pytest 5.4.2 py36_0
+        - pytest-runner 5.2 py_0
+        - python 3.6.10 h7579374_2
+        - readline 8.0 h7b6447c_0
+        - setuptools 47.1.1 py36_0
+        - six 1.15.0 py_0
+        - sqlite 3.31.1 h62c20be_1
+        - tk 8.6.8 hbc83047_0
+        - wcwidth 0.1.9 py_0
+        - wheel 0.34.2 py36_0
+        - xz 5.2.5 h7b6447c_0
+        - zipp 3.1.0 py_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - importlib-metadata
+        - mccabe >=0.6.0,<0.7.0
+        - pycodestyle >=2.6.0,<2.7.0
+        - pyflakes >=2.2.0,<2.3.0
+        - python >=3
+        - setuptools >=30.0.0
+test:
+    commands:
+        - flake8 --ignore=D203,W503,E203 src/flake8 tests/integration tests/unit setup.py
+    imports:
+        - flake8
+    source_files:
+        - setup.py
+        - src/flake8
+        - tests/integration
+        - tests/unit
+about:
+    dev_url: https://gitlab.com/pycqa/flake8
+    doc_url: http://flake8.pycqa.org/
+    home: http://flake8.pycqa.org/
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: Your Tool For Style Guide Enforcement
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - aydinhan
+        - croth1
+        - dopplershift
+        - goanpeca
+        - sigmavirus24

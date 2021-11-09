@@ -1,0 +1,98 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/398b58ce-6656-4c0f-46f6-bb51237524f6/volume/rsync-recipes/pyqt-5.9.2-python_3.8-on-osx, last modified Wed Jan 29 12:52:27 2020
+# ------------------------------------------------
+
+package:
+    name: pyqt
+    version: 5.9.2
+source:
+    sha1: 058c5b37981b515cc4e16faa04a4a6d8892cdaa9
+    url: http://sourceforge.net/projects/pyqt/files/PyQt5/PyQt-5.9.2/PyQt5_gpl-5.9.2.tar.gz
+build:
+    number: '2'
+    run_exports: pyqt >=5.9.2,<5.10.0a0
+    string: py38h655552a_2
+requirements:
+    build:
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_18
+        - clangxx 4.0.1 1
+        - clangxx_osx-64 4.0.1 h22b1bf0_18
+        - compiler-rt 4.0.1 hcfea43d_1
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libiconv 1.15 hdd342a3_7
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+        - pkg-config 0.29.2 h3efe00b_8
+    host:
+        - ca-certificates 2019.11.27 0
+        - dbus 1.13.12 h90a0687_0
+        - expat 2.2.6 h0a44026_0
+        - gettext 0.19.8.1 h15daf44_3
+        - glib 2.63.1 hd977a24_0
+        - icu 58.2 h4b95b61_1
+        - jpeg 9b he5867d9_2
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20181209 hb402a30_0
+        - libffi 3.2.1 h475c297_4
+        - libiconv 1.15 hdd342a3_7
+        - libpng 1.6.37 ha441bb4_0
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1d h1de35cc_3
+        - pcre 8.43 h0a44026_0
+        - python 3.8.1 h359304d_1
+        - qt 5.9.7 h468cd18_1
+        - readline 7.0 h1de35cc_5
+        - sip 4.19.8 py38h0a44026_0
+        - sqlite 3.30.1 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - dbus >=1.13.12,<2.0a0
+        - libcxx >=4.0.1
+        - python >=3.8,<3.9.0a0
+        - qt 5.9.*
+        - qt >=5.9.7,<5.10.0a0
+        - sip >=4.19.4,<=4.19.8
+test:
+    files:
+        - pyqt_test.py
+    imports:
+        - PyQt5.QtCore
+        - PyQt5.QtGui
+        - PyQt5.QtWebEngineWidgets
+about:
+    description: '"PyQt is a set of Python v2 and v3 bindings for The Qt Company''s
+        Qt
+
+        application framework and runs on all platforms supported by Qt including
+
+        Windows, MacOS/X and Linux. PyQt5 supports Qt v5. PyQt4 supports Qt v4 and
+
+        will build against Qt v5. The bindings are implemented as a set of Python
+
+        modules and contain over 1,000 classes."
+
+        '
+    dev_url: https://github.com/pyqt
+    doc_url: https://www.riverbankcomputing.com/software/pyqt/
+    home: http://www.riverbankcomputing.co.uk/software/pyqt
+    license: Commercial, GPL-2.0, GPL-3.0
+    license_family: GPL
+    license_file: LICENSE
+    summary: Python binding of the cross-platform GUI toolkit Qt.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ccordoba12
+        - gillins
+        - mingwandroid
+        - msarahan
+        - ocefpaf

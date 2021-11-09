@@ -1,0 +1,53 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "notebook >=4.4.1",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/widgetsnbextension-3.5.1-py38_0",
+  "features": "",
+  "files": [
+    "etc/jupyter/nbconfig/notebook.d/widgetsnbextension.json",
+    "lib/python3.8/site-packages/widgetsnbextension-3.5.1.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/widgetsnbextension-3.5.1.dist-info/LICENSE",
+    "lib/python3.8/site-packages/widgetsnbextension-3.5.1.dist-info/METADATA",
+    "lib/python3.8/site-packages/widgetsnbextension-3.5.1.dist-info/RECORD",
+    "lib/python3.8/site-packages/widgetsnbextension-3.5.1.dist-info/WHEEL",
+    "lib/python3.8/site-packages/widgetsnbextension-3.5.1.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/widgetsnbextension/__init__.py",
+    "lib/python3.8/site-packages/widgetsnbextension/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/widgetsnbextension/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/widgetsnbextension/_version.py",
+    "lib/python3.8/site-packages/widgetsnbextension/static/extension.js",
+    "lib/python3.8/site-packages/widgetsnbextension/static/extension.js.map",
+    "share/jupyter/nbextensions/jupyter-js-widgets/extension.js",
+    "share/jupyter/nbextensions/jupyter-js-widgets/extension.js.map"
+  ],
+  "fn": "widgetsnbextension-3.5.1-py38_0.conda",
+  "legacy_bz2_md5": "5ecb531cc80a051076f708cd69792dd4",
+  "legacy_bz2_size": 1897179,
+  "license": "BSD 3-clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/widgetsnbextension-3.5.1-py38_0",
+    "type": 1
+  },
+  "md5": "37e30884ba07a23aa5084cc0ea0ebd2f",
+  "name": "widgetsnbextension",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/widgetsnbextension-3.5.1-py38_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "widgetsnbextension==3.5.1=py38_0",
+  "sha256": "35292a585a40ce0aa5317f48e7f770c35d869e65abc51a41e06b07bd5cb47c86",
+  "size": 887536,
+  "subdir": "osx-64",
+  "timestamp": 1580237132108,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/widgetsnbextension-3.5.1-py38_0.conda",
+  "version": "3.5.1"
+}

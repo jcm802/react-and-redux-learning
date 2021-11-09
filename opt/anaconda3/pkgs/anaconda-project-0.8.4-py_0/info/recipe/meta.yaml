@@ -1,0 +1,74 @@
+# This file created by conda-build 3.18.10
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/anaconda-project-0.8.4-on-linux_64, last modified Thu Oct 24 22:55:04 2019
+# ------------------------------------------------
+
+package:
+    name: anaconda-project
+    version: 0.8.4
+source:
+    sha256: 0b57e51e0d75f63602e8929c612b128d5a0704fdd38354c52c150f3007dbebfb
+    url: https://github.com/Anaconda-Platform/anaconda-project/archive/v0.8.4.tar.gz
+build:
+    entry_points:
+        - anaconda-project = anaconda_project.cli:main
+    noarch: python
+    number: '0'
+    script: /tmp/build/80754af9/anaconda-project_1571960077540/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/bin/python
+        -m pip install . -vv
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2019.10.16 0
+        - certifi 2019.9.11 py27_0
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.1 he6710b0_1
+        - openssl 1.1.1d h7b6447c_3
+        - pip 19.3.1 py27_0
+        - python 2.7.17 h9bab390_0
+        - readline 7.0 h7b6447c_5
+        - setuptools 41.4.0 py27_0
+        - sqlite 3.30.0 h7b6447c_0
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.33.6 py27_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - anaconda-client
+        - python
+        - requests
+        - ruamel_yaml
+        - tornado >=4.2
+test:
+    commands:
+        - echo "First of test commands"
+        - anaconda-project --help
+        - anaconda-project --version
+        - echo "Last of test commands"
+    imports:
+        - anaconda_project
+about:
+    description: 'By adding an anaconda-project.yml to a project directory, a single
+
+        anaconda-project runcommand will be able to set up all dependencies
+
+        and then launch the project.
+
+        '
+    dev_url: https://github.com/Anaconda-Platform/anaconda-project
+    doc_url: http://anaconda-project.readthedocs.io
+    home: https://github.com/Anaconda-Platform/anaconda-project
+    license: BSD 3-Clause
+    license_family: BSD
+    license_file: LICENSE.txt
+    summary: Tool for encapsulating, running, and reproducing data science projects
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - fpliger
+        - goanpeca
+        - mingwandroid

@@ -1,0 +1,15 @@
+--- work/src/gmpy.h.orig	2018-08-02 16:41:04.762636100 -0500
++++ work/src/gmpy.h	2018-08-02 16:43:44.829570400 -0500
+@@ -113,8 +113,12 @@
+ #  else
+ #    pragma comment(lib,"gmp.lib")
+ #  endif
++# ifndef isnan
+ #  define isnan _isnan
++# endif
++# ifndef isinf
+ #  define isinf !_finite
++# endif
+ #  define USE_ALLOCA 1
+ #  define inline __inline
+ #endif

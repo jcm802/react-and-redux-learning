@@ -1,0 +1,59 @@
+{% set version = "3.8.3" %}
+
+package:
+  name: flake8
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/f/flake8/flake8-{{ version }}.tar.gz
+  sha256: f04b9fcbac03b0a3e58c0ab3a0ecc462e023a9faf046d57794184028123aa208
+
+build:
+  number: 0
+  noarch: python
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  entry_points:
+    - flake8 = flake8.main.cli:main
+
+requirements:
+  host:
+    - python
+    - pip
+    - pytest-runner
+    - setuptools >=30.0.0
+  run:
+    - mccabe >=0.6.0,<0.7.0
+    - pycodestyle >=2.6.0,<2.7.0
+    - pyflakes >=2.2.0,<2.3.0
+    - python >=3
+    - importlib-metadata
+    - setuptools >=30.0.0
+test:
+  imports:
+    - flake8
+  source_files:
+    - src/flake8
+    - tests/integration
+    - tests/unit
+    - setup.py
+
+  commands:
+    - flake8 --ignore=D203,W503,E203 src/flake8 tests/integration tests/unit setup.py  # [unix]
+    - flake8 --ignore=D203,W503,E203 src\\flake8 tests\\integration tests\\unit setup.py  # [win]
+
+about:
+  home: http://flake8.pycqa.org/
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: Your Tool For Style Guide Enforcement
+  doc_url: http://flake8.pycqa.org/
+  dev_url: https://gitlab.com/pycqa/flake8
+
+extra:
+  recipe-maintainers:
+    - sigmavirus24
+    - croth1
+    - dopplershift
+    - goanpeca
+    - aydinhan

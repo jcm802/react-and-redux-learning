@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "py_1001",
+  "build_number": 1001,
+  "depends": [
+    "python"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "et_xmlfile",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1594352151282,
+  "version": "1.0.1"
+}

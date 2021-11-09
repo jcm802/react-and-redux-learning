@@ -1,0 +1,26 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "filelock-3.0.12-py_0.conda",
+  "legacy_bz2_md5": "e4dc56729eccc8ad5932a332bd1cbf82",
+  "legacy_bz2_size": 12462,
+  "license": "Public Domain",
+  "license_family": "Public-Domain",
+  "md5": "dbade75b5023da90f954ec6ab620bde3",
+  "name": "filelock",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "d010359068d27d6b2568efc89662ec2b458cec8f6aabbcaa28af90f85fb83293",
+  "size": 13198,
+  "subdir": "noarch",
+  "timestamp": 1559860745800,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/filelock-3.0.12-py_0.conda",
+  "version": "3.0.12"
+}

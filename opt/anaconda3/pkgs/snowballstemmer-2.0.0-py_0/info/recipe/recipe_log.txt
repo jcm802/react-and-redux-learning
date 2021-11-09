@@ -1,0 +1,152 @@
+commit 23b25863e0fad20e4e4626453f734d9ef727d1c9
+Merge: 7b69e63 4f49dcd
+Author: chris <mail@chohner.com>
+Date:   Thu Oct 3 11:41:05 2019 +0200
+
+    Merge pull request #7 from regro-cf-autotick-bot/2.0.0
+    
+    snowballstemmer v2.0.0
+
+commit 4f49dcd50d112071c42b7c5804c6ef31b255d9cc
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Oct 3 08:15:24 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.5.0, and conda-forge-pinning 2019.10.01
+
+commit a2456226b07a7067a406ece2a4f6cccb5ee7c842
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Oct 3 08:15:00 2019 +0000
+
+    updated v2.0.0
+
+commit 7b69e63fed3573a0cdf5c4e1d15cc432b67e04ac
+Merge: 1dad0bf 813b108
+Author: chris <mail@chohner.com>
+Date:   Mon Sep 9 08:38:48 2019 +0100
+
+    Merge pull request #6 from regro-cf-autotick-bot/1.9.1
+    
+    snowballstemmer v1.9.1
+
+commit 813b1087ac6628b941ff1e032a7fe3c27c5c35b3
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Sep 5 17:44:45 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.2, and conda-forge-pinning 2019.08.27
+
+commit e2356bb3922c71924e7278ffcda0bf52f52c75cc
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Sep 5 17:44:33 2019 +0000
+
+    updated v1.9.1
+
+commit 1dad0bf710ee32f4afc5f710502247b04e93bfee
+Merge: 8d6912c 387a2fa
+Author: chris <mail@chohner.com>
+Date:   Mon Jul 1 12:33:35 2019 +0430
+
+    Merge pull request #5 from regro-cf-autotick-bot/1.9.0
+    
+    snowballstemmer v1.9.0
+
+commit 387a2fa8c8a50b3cb6605f2600d18b383c54eafd
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jun 26 11:27:05 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.5, conda-smithy 3.4.0, and conda-forge-pinning 2019.06.19
+
+commit 993bf8e5a38bfae6f725f354f15b2e14a8fe3104
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jun 26 11:26:44 2019 +0000
+
+    updated v1.9.0
+
+commit 8d6912c0260b3fa035620f56a3a1711dcfd5b399
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:25:59 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit cda61fb0e80e278cc05c828384aa43562ba99791
+Merge: adb6379 7cace24
+Author: chris <mail@chohner.com>
+Date:   Sun Jul 8 10:46:07 2018 +0200
+
+    Merge pull request #4 from regro-cf-autotick-bot/noarch_migration
+    
+    Suggestion: add noarch
+
+commit 7cace2403ef5596a1ea7c585fba1520e15ddef86
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jul 6 16:15:14 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.01
+
+commit f401706b94fd4cbcec823e3f3321c1152bc53b14
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jul 6 16:15:09 2018 +0000
+
+    add noarch
+
+commit adb637992e22d1c402de1fa440cdaf13c62efa1d
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 20:11:24 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 75472dc192b71cb241bf83a79d32b1f9450f2282
+Merge: a3b6d4d 1e35ff9
+Author: chris <mail@chohner.com>
+Date:   Fri Apr 7 08:18:42 2017 +0200
+
+    Merge pull request #3 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 1e35ff9ef34fbcce8e71ced0f7cfdb7e15570e5d
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Apr 7 01:40:03 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.2.2.
+
+commit a3b6d4d9037bc18d5daca1792d985216d4f6a873
+Merge: ffec66b 3d497c5
+Author: chris <mail@chohner.com>
+Date:   Thu Mar 2 19:28:14 2017 +0100
+
+    Merge pull request #2 from lexual/rerender_py36
+    
+    MNT: Re-rendered with conda-smithy 2.1.1
+
+commit 3d497c500c027d1fc355ed872f93cbdd16fc457f
+Author: lexual <a.hider@bom.gov.au>
+Date:   Wed Mar 1 19:55:53 2017 +1100
+
+    MNT: Re-rendered with conda-smithy 2.1.1
+
+commit ffec66ba822cc2cc03d0b63ed9c2e7c480210bc5
+Merge: 6931f65 51a9b21
+Author: chris <mail@chohner.com>
+Date:   Sun Oct 16 12:11:41 2016 +0200
+
+    Merge pull request #1 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 51a9b21e2a14922d1cd198f258a119252a020b8e
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Oct 16 01:41:20 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.3.3.
+
+commit 6931f65faffb8db012cc54590b9c422a6d3f81d5
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Aug 10 14:51:18 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 3f3f8862697153c294d15a6df40fd3a008e0d180
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Aug 10 14:49:23 2016 +0000
+
+    Initial commit of the snowballstemmer feedstock.

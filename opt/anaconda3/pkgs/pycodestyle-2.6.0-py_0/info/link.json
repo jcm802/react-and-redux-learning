@@ -1,0 +1,9 @@
+{
+  "noarch": {
+    "entry_points": [
+      "pycodestyle = pycodestyle:_main"
+    ],
+    "type": "python"
+  },
+  "package_metadata_version": 1
+}

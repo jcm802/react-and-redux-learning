@@ -1,0 +1,373 @@
+commit e7d39c893c6cb57f1070887ba138798b3b4e37f8
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Sep 19 15:40:38 2018 -0500
+
+    QtX11Extras is linux only
+
+commit 5513cd87492d210081e345c57625af93fa623eb8
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Sep 19 15:40:20 2018 -0500
+
+    skip on ppc64le
+
+commit c34425f1dbdb3126cae7f60f8ba224dcf718ca24
+Merge: d79b758 44c8241
+Author: Jonathan J. Helmus <jjhelmus@gmail.com>
+Date:   Tue Sep 18 15:11:38 2018 -0500
+
+    Merge pull request #2 from ccordoba12/patch-1
+    
+    Setting max sip version that it's compatible with PyQt 5.9
+
+commit 44c8241d1c80ca4f91c31e2e567b295565e92912
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sat Sep 8 23:41:36 2018 -0500
+
+    Bump build number
+
+commit 1ef071a518b1d8264d65ad535778edfac314f4f9
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sat Sep 8 23:38:41 2018 -0500
+
+    Setting max sip version that it's compatible with PyQt 5.9
+
+commit d79b758e76d1ba0c8ecdafda2ad77cc1d2a479b5
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Aug 30 08:56:16 2018 -0500
+
+    Force list of modules on Windows
+
+commit bc39a8a326605f4b0d7b62b78ce470cffe32ce5c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Aug 24 11:11:58 2018 +0000
+
+    Be explicit about modules to build, detection in configure is not working on Linux
+    
+    I need to ensure that the OpenGL API version so files get built. I believe they do not.
+
+commit 62fdc158e247c739e854c1544e4d8959521f7f75
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Mar 23 11:54:37 2018 +0000
+
+    Add mesa-libgbm CDT package for PyQtWebEingine
+
+commit 8d9f8f60e0eb2e168198d5016fb023bd01d9707c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Mar 22 17:21:54 2018 -0700
+
+    Add run_exports
+
+commit b3d40340405568d8c2338cc827aa718d67034cb3
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Mar 22 17:21:05 2018 -0700
+
+    Windows also has QtWebEngineWidgets + do not build for py27
+
+commit 6c3f50815bf11a16ece314485e77886c5cc1951c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Mar 12 01:05:00 2018 +0000
+
+    Use .tar.gz on Windows too
+
+commit 9c31299a090d448fd5591238a83ed9914025b5be
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Mar 12 00:20:16 2018 +0000
+
+    Update to 5.9.2
+
+commit d6b16e5ddfe8279528d336df1abd711b4ce5db98
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Oct 13 06:29:25 2017 -0700
+
+    Bump build to sync it with released tarball (on macOS)
+
+commit 47f9f979da33883593eb212eccc4dfc2b5975d6f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Sep 21 00:12:42 2017 -0700
+
+    No dbus nor pkg-config for win
+
+commit 6882104a6a48e1ecd7524aead291c1ff851f6c68
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Sep 14 11:28:45 2017 -0700
+
+    Another bit of that
+
+commit 44543b5375ce47c4a790c03e7361355f3c0f3de8
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Sep 14 11:27:52 2017 -0700
+
+    Avoid the 'need' for Xcode
+
+commit 09d3f18d33d1575d8b55609373033dc0f816a11d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 5 22:05:27 2017 +0000
+
+    We also need a C compiler
+
+commit 928a9b0523a076bb3ca87ae6504cbeeb6ff740a8
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 5 21:40:53 2017 +0000
+
+    sip 4.19 is too new for PyQt 5.6
+
+commit 7ec07c19055b1e75db52638a7ff0b330c3c2c078
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Sep 4 22:46:33 2017 +0000
+
+    Update sip dependency version
+
+commit 0b44deaf50e14c0e7b032607e387a865ecffa758
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Aug 28 23:51:36 2017 +0100
+
+    cdts are linux-only
+
+commit 7d816ebefb43487422c9e502d48252f5816fc248
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Aug 27 01:39:36 2017 +0100
+
+    Generalize logging
+
+commit 8ebe226e5041966cd771767255c2b8965d3b2bba
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Aug 25 13:17:21 2017 +0100
+
+    Add cdts, remove strange output logging
+
+commit d085619ca79284c7da7d6a25b0f335b6f6de916c
+Merge: 462e46c a1efb59
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Jun 7 14:11:34 2017 -0500
+
+    Merge pull request #29 from ccordoba12/rebuild
+    
+    Trigger a rebuild because of a rebuild in Qt5 on Linux
+
+commit a1efb5915b381d49c5e574d0abbacf6fc78f2513
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Jun 7 11:02:21 2017 -0500
+
+    Trigger a rebuild because of a rebuild in Qt5 on Linux
+
+commit 462e46c1a73009f88d4b40435b5f948cfd5b33b2
+Merge: 4b67f1b 5e079fe
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Fri May 26 12:00:07 2017 -0500
+
+    Merge pull request #27 from ccordoba12/rebuild-py-361
+    
+    Trigger a rebuild to build with Python 3.6.1
+
+commit 5e079febacdebabdfa471c28b8995e30b2d5a48f
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Fri May 26 08:07:17 2017 -0500
+
+    Trigger a rebuild to build with Python 3.6.1
+
+commit 4b67f1b27f85523072c0a2623b274874a5001fa1
+Merge: eebcace f99d27d
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Mon Apr 24 12:52:38 2017 -0500
+
+    Merge pull request #23 from astaric/webkit
+    
+    Add test for PyQt5.QtWebKitWidgets
+
+commit f99d27d8adc27582441e94bce125ed00c3c8e912
+Author: astaric <anze.staric@gmail.com>
+Date:   Mon Apr 24 18:30:28 2017 +0200
+
+    Bump build number
+
+commit aa85f4f335547fa422ea0f48d50bcd0f575fdb9f
+Author: astaric <anze.staric@gmail.com>
+Date:   Wed Apr 19 12:49:34 2017 +0200
+
+    Add test for PyQt5.QtWebKitWidgets
+
+commit eebcace3a66018885a6cd9acc2dfa71061eb5ee7
+Merge: c937187 7b6b6d5
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Thu Apr 13 15:31:42 2017 -0500
+
+    Merge pull request #22 from ccordoba12/rebuild-for-macos
+    
+    Trigger a rebuild to use the new conda-forge macOS Qt5 package
+
+commit 7b6b6d588b6a3d62dbfbf60d6ffcc0aff239e2b5
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Thu Apr 13 13:39:16 2017 -0500
+
+    Trigger a rebuild to use the new conda-forge macOS build
+
+commit c93718795e185096cd10a7159aa78788f43116ab
+Merge: 4c75e02 f62f80e
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Mar 30 22:08:29 2017 -0400
+
+    Merge pull request #17 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit f62f80eb92c92956e215901aae33be7111dadffb
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Mar 30 01:39:17 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.2.2.
+
+commit 4c75e024f1592d347e83e14e4066d1372b7de000
+Merge: b5936c0 269e880
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Mar 17 11:02:29 2017 -0300
+
+    Merge pull request #16 from ocefpaf/update_5.6.0
+    
+    Update 5.6.0
+
+commit 269e8807ea4864b83105a143162bf19c7d731570
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Mar 14 12:18:34 2017 -0300
+
+    Try the log workaround from gdal
+
+commit c51d2545a780f6086c835cc0feaf0047d77fc728
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Mar 14 10:12:41 2017 -0300
+
+    x server
+
+commit 17a295e1b3e28c8b48440ea59c868b4105932e1a
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Mon Mar 13 17:07:44 2017 -0300
+
+    update to 5.6.0
+
+commit 257683ab169d32da6bff6c90e081fe940700c6ea
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Mon Mar 13 17:03:51 2017 -0300
+
+    rerender with auto
+
+commit b5936c0fa35e03024f772a58f4fc53f958efcbf9
+Merge: 8939f67 e2d3bd1
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Feb 8 07:16:55 2017 -0300
+
+    Merge pull request #14 from ocefpaf/rerender
+    
+    Re-render...
+
+commit e2d3bd14248b31cf1d76f284c2df09555badf716
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Feb 7 11:25:21 2017 -0300
+
+    conda inspect
+
+commit 9d7332cd172323ecb60c4e5647488153498d9b5f
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Mon Feb 6 20:46:59 2017 -0300
+
+    re-render with auto
+
+commit 8939f675c8698e15805190db37f420a4d59df76f
+Merge: 06ce483 d53effd
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Jan 2 16:19:09 2017 -0300
+
+    Merge pull request #11 from ocefpaf/py36
+    
+    rerender with auto
+
+commit d53effd2ecb23414094c6cb3e673acf23dc4a3ea
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Mon Jan 2 09:49:26 2017 -0300
+
+    R-erender with auto
+
+commit 06ce4834a8c11ab3a428aed120ddd20102c47182
+Merge: 20180b9 a54103b
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Dec 16 08:02:05 2016 -0300
+
+    Merge pull request #10 from ocefpaf/refresh
+    
+    Refresh
+
+commit a54103bba0cce9705617bb24f5588cf100832235
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Wed Dec 14 10:33:21 2016 -0300
+
+    Fix test
+
+commit b3d8bda4f9dd33327bb8a40c91423e936ffea118
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Wed Dec 14 10:12:34 2016 -0300
+
+    Add an extra test
+
+commit f8f0236d6dd2ba70f18869e0dee667b02edc8cab
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Wed Dec 14 10:12:06 2016 -0300
+
+    rerendered with auto with conda-build 2
+
+commit 20180b9ae02fe9bce3e04fedb41022fa814cccfd
+Merge: 0aadb1e ca60daa
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Mon Oct 24 13:43:21 2016 -0500
+
+    Merge pull request #7 from ccordoba12/session-manager
+    
+    Bump build number to add session management after re-building Qt with it
+
+commit ca60daac2b767f28fae61d206b9a978905f515b1
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Oct 23 23:11:25 2016 -0500
+
+    MNT: Re-rendered with conda-smithy 1.3.3
+
+commit b2bd24cb2c381e3d05261589706dfba6eb8a4d33
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Oct 23 21:42:21 2016 -0500
+
+    Don't split build number
+
+commit d2ec23057e5c895dd83b3ccc4131801fa50ca0ee
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sat Oct 15 17:34:37 2016 -0500
+
+    Add a test for QSessionManager
+
+commit e58c824ab394f345102e6cd6c31a727f8d591e90
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sat Oct 15 17:26:36 2016 -0500
+
+    Bump build number on Linux to add session management after building Qt with it [skip appveyor]
+
+commit 0aadb1e7ae9a60ff618e26aa01d287ab7630d543
+Merge: 2c81721 c98e162
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Sep 14 15:08:37 2016 -0300
+
+    Merge pull request #3 from ocefpaf/osx
+    
+    Enable OS X
+
+commit c98e16298c0795b88a27d22213fcbc5109882f49
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Wed Sep 14 12:52:26 2016 -0300
+
+    Enable OS X
+
+commit 2c8172115cf6fc4dd92f4305c40ad86ea63f0497
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Sep 14 11:33:51 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit da7eab483058e4f47c975aec038e7734a2e3c885
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Sep 14 11:31:39 2016 +0000
+
+    Initial commit of the pyqt feedstock.

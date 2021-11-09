@@ -1,0 +1,62 @@
+{
+  "build": "py38h1de35cc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/wrapt-1.11.2-py38h1de35cc_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/__pycache__/_sysconfigdata_x86_64_apple_darwin13_4_0.cpython-38.pyc",
+    "lib/python3.8/site-packages/wrapt-1.11.2.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/wrapt-1.11.2.dist-info/LICENSE",
+    "lib/python3.8/site-packages/wrapt-1.11.2.dist-info/METADATA",
+    "lib/python3.8/site-packages/wrapt-1.11.2.dist-info/RECORD",
+    "lib/python3.8/site-packages/wrapt-1.11.2.dist-info/WHEEL",
+    "lib/python3.8/site-packages/wrapt-1.11.2.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/wrapt/__init__.py",
+    "lib/python3.8/site-packages/wrapt/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/wrapt/__pycache__/decorators.cpython-38.pyc",
+    "lib/python3.8/site-packages/wrapt/__pycache__/importer.cpython-38.pyc",
+    "lib/python3.8/site-packages/wrapt/__pycache__/wrappers.cpython-38.pyc",
+    "lib/python3.8/site-packages/wrapt/_wrappers.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/wrapt/decorators.py",
+    "lib/python3.8/site-packages/wrapt/importer.py",
+    "lib/python3.8/site-packages/wrapt/wrappers.py"
+  ],
+  "fn": "wrapt-1.11.2-py38h1de35cc_0.conda",
+  "legacy_bz2_md5": "2adbaf45b079378f057771d9b85c31b1",
+  "legacy_bz2_size": 50846,
+  "license": "BSD 2-Clause",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/wrapt-1.11.2-py38h1de35cc_0",
+    "type": 1
+  },
+  "md5": "98b6ca19f0c515a487ed3ddc2e9817fc",
+  "name": "wrapt",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/wrapt-1.11.2-py38h1de35cc_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/wrapt/_wrappers.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/3c6d9722-e63c-4936-6a03-7c470ea8f9f0/volume/wrapt_1573201207547/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "17d0dc4f84577c3e0a420e0a62ce2f6e68cc9acb6d5020d596912226d08e219d",
+        "sha256_in_prefix": "0151441d7275ea6ddd9b4e46b3d91af08c56da4cb7de4599837572305591953b",
+        "size_in_bytes": 42200
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "wrapt==1.11.2=py38h1de35cc_0",
+  "sha256": "700aecf528af466f3d6841a80713b6045b19968d4675676d75f2103c1e28b304",
+  "size": 50689,
+  "subdir": "osx-64",
+  "timestamp": 1573201291301,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/wrapt-1.11.2-py38h1de35cc_0.conda",
+  "version": "1.11.2"
+}

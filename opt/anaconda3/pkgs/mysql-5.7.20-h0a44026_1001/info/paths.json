@@ -1,0 +1,2109 @@
+{
+  "paths": [
+    {
+      "_path": "bin/innochecksum",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "a47b013f3e4e107c8c14bf4f90c0300c451fade475eeb8de59286cc7aaf80ec8",
+      "size_in_bytes": 4240544
+    },
+    {
+      "_path": "bin/lz4_decompress",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "c2b4536a4edc8527bda9c76c6cadfe7cf859d944e115fcda01cdc65e9539321b",
+      "size_in_bytes": 76820
+    },
+    {
+      "_path": "bin/my_print_defaults",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "9941dd50ff61c29eb1a06a4c4c7aae8f6d9487a1c8915697ade8317223e35541",
+      "size_in_bytes": 3647952
+    },
+    {
+      "_path": "bin/myisam_ftdump",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "5639fa994a25be39e4dcfad079e26ac0399f1b397a0441043da556adf1ee6a04",
+      "size_in_bytes": 3942920
+    },
+    {
+      "_path": "bin/myisamchk",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "969efc2999a76c4e8f9d3447265f724bfd01c18ffe6aa34d1efb84303d7e3f9e",
+      "size_in_bytes": 4045740
+    },
+    {
+      "_path": "bin/myisamlog",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "9607f9ac0669ba3b77b0d3c8908b70dbeb889bdb30e7261a6f820bfbb7234517",
+      "size_in_bytes": 3899208
+    },
+    {
+      "_path": "bin/myisampack",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "046faef9f926f1e65e7d655b118cc144365716ada9401220c80f757fbc608388",
+      "size_in_bytes": 3973232
+    },
+    {
+      "_path": "bin/mysql",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "61793bdb85b84716ef1d5de0e7d5f7b2617ba4d3b0777c699348eb20921a07de",
+      "size_in_bytes": 4652088
+    },
+    {
+      "_path": "bin/mysql.server",
+      "file_mode": "text",
+      "path_type": "softlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "677e3fdeaf5b36bbd33a7e7a42427e42e04aa35749714eb3aae0a00b51b89886",
+      "size_in_bytes": 10681
+    },
+    {
+      "_path": "bin/mysql_client_test",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "cc6a27627b35099d89dfb88cf60a9fc8e0dcec753f5e145760bc080c66e20786",
+      "size_in_bytes": 4798960
+    },
+    {
+      "_path": "bin/mysql_client_test_embedded",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "f81a86e8d41b2b0a182dd6adeb95351c06f5e15b081dab7eefddd465a1b15b08",
+      "size_in_bytes": 22560160
+    },
+    {
+      "_path": "bin/mysql_config",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "0360c1ab0a5cc66e3cf7a6468bc99ea344b7959124e354ca9f9736ebfbcbeb7f",
+      "size_in_bytes": 4865
+    },
+    {
+      "_path": "bin/mysql_config_editor",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "84b5012cf08d1b871ac7234ed754f053c30337d14746b3f6ffce9187191fa66a",
+      "size_in_bytes": 4131808
+    },
+    {
+      "_path": "bin/mysql_embedded",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "411feab408b2dba27daa3d7185d56f8ece1a3d9dc11ea5f4811a47a5ebc70dde",
+      "size_in_bytes": 22386528
+    },
+    {
+      "_path": "bin/mysql_install_db",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "a2031b42a2236b21344f40d7df93b59c0c5a2905b1c87d41b2ee8a6bdf478cac",
+      "size_in_bytes": 5630444
+    },
+    {
+      "_path": "bin/mysql_plugin",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "2b47ee63663eacf081895de52b4c94176dc0522f1b57f76a3cc5e507d0c9ddc6",
+      "size_in_bytes": 3656904
+    },
+    {
+      "_path": "bin/mysql_secure_installation",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "a79759b2d222803667642cac3cd19f8a6052ef7f8d4f7925f44012af491822cb",
+      "size_in_bytes": 4345912
+    },
+    {
+      "_path": "bin/mysql_ssl_rsa_setup",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "67f6961826bec0165967f8c3805be59fc0277552ac7939b4d4c838abe828fa1e",
+      "size_in_bytes": 3717484
+    },
+    {
+      "_path": "bin/mysql_tzinfo_to_sql",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "e46b5744169bcb6680533b3cdf24efc715f1d810a85f5fab6cd89381110b294d",
+      "size_in_bytes": 3594060
+    },
+    {
+      "_path": "bin/mysql_upgrade",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "aa7f9293ae9334ba92d58733239ccefc8d74f6dd4b8bc2808e4dcc4f37d574f4",
+      "size_in_bytes": 5068656
+    },
+    {
+      "_path": "bin/mysqladmin",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "f2c27e2dcaf69b83c9aee2a338839f60d5d5263e6a97a409efabb6372155384d",
+      "size_in_bytes": 4359112
+    },
+    {
+      "_path": "bin/mysqlbinlog",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "964963c5e3756612592d7211fc404c310e807d81a9d5bb15c367c4f7283561ce",
+      "size_in_bytes": 4698388
+    },
+    {
+      "_path": "bin/mysqlcheck",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "0a3e1559b90c2ac5cce72e4c916a434be2f6796da9b3fdd158b600aff27932c2",
+      "size_in_bytes": 4378492
+    },
+    {
+      "_path": "bin/mysqld",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "bb30e56fc2686f8d32237a6820133c57863dd3a205cf851020e3241ff9e33c26",
+      "size_in_bytes": 24062888
+    },
+    {
+      "_path": "bin/mysqld_multi",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "2dbf7d1a518446fd4c9b4f580d0f16629ec392e9ec9071773729d2561d201781",
+      "size_in_bytes": 27154
+    },
+    {
+      "_path": "bin/mysqld_safe",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "381d376b86ad0dc6edd1d30f377e3a39ebd9fdb1903aae642cd6fa64f1e365e3",
+      "size_in_bytes": 28597
+    },
+    {
+      "_path": "bin/mysqldump",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "355d9429d371a968931f5d123ab3b970d744f81c0eb6cada887b16585891d02c",
+      "size_in_bytes": 4432096
+    },
+    {
+      "_path": "bin/mysqldumpslow",
+      "path_type": "hardlink",
+      "sha256": "43a8f6ba5fa99b66cb4d1630b4659cbd706be47e666c8ad12a6dc0c995a44098",
+      "size_in_bytes": 7464
+    },
+    {
+      "_path": "bin/mysqlimport",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "a53f1a7a6d0843cbc264e8aab8625857917446e9627ccca7f99658e7da8142f5",
+      "size_in_bytes": 4350672
+    },
+    {
+      "_path": "bin/mysqlpump",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "a410189ca300772d0344fb981139db12bd5197c51e4348788eb2253fbf40dd8c",
+      "size_in_bytes": 5042536
+    },
+    {
+      "_path": "bin/mysqlshow",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "c804cb4871452209c4d1928dbc45fb39cbebedb7d3f4ca469461d5732959fd45",
+      "size_in_bytes": 4344904
+    },
+    {
+      "_path": "bin/mysqlslap",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "5d60dc53160902b66012728f674a8245f614cae887c7600678a7ac03e83c5b20",
+      "size_in_bytes": 4370620
+    },
+    {
+      "_path": "bin/mysqltest",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "d6fcae49729382b6881b086a335bdb3818e0d687c3a6ff3e9c54d6e883b2596b",
+      "size_in_bytes": 4651792
+    },
+    {
+      "_path": "bin/mysqltest_embedded",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "6b2c51362fe3c05779ebe768a3ea95bcbf8fc7c0fc3e45acec1cd4bb6f57eb07",
+      "size_in_bytes": 22363460
+    },
+    {
+      "_path": "bin/mysqlxtest",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "7451ef34568558a4e7b92e827b9d6fd3d76bd3f28f75472d238147fe0ebad58b",
+      "size_in_bytes": 6329832
+    },
+    {
+      "_path": "bin/perror",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "aee3573d3461daefddd690b8a800d3654e32a40fadd350fe8a7253e29875a495",
+      "size_in_bytes": 3781240
+    },
+    {
+      "_path": "bin/replace",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "d4309527ba7df2611edce430502131bf0c183c546239390b4aeaa50e5d14575e",
+      "size_in_bytes": 3604148
+    },
+    {
+      "_path": "bin/resolve_stack_dump",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "197d8b299b30189a3ebca8da327d45d982851b18a5c8ab6df15ece469a7cfe94",
+      "size_in_bytes": 3653856
+    },
+    {
+      "_path": "bin/resolveip",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "a369195a8a7c712e313faa4514ea2887e66eb92535b19a1c5023375282ddfee4",
+      "size_in_bytes": 3647876
+    },
+    {
+      "_path": "bin/zlib_decompress",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "a5a92d28c64502b2eae635c7315ba7d480422d2b1709f62e1a1cb043060f6d30",
+      "size_in_bytes": 55784
+    },
+    {
+      "_path": "include/mysql/big_endian.h",
+      "path_type": "hardlink",
+      "sha256": "d1f39cf98e060a7a5ceb877189cd11d2524d375c29012635217fab71d4214167",
+      "size_in_bytes": 3654
+    },
+    {
+      "_path": "include/mysql/binary_log_types.h",
+      "path_type": "hardlink",
+      "sha256": "a847d3b7ae3c5fcebbcea822f1b2a70f94202d838d6254834d16fb08437b79a6",
+      "size_in_bytes": 1967
+    },
+    {
+      "_path": "include/mysql/byte_order_generic.h",
+      "path_type": "hardlink",
+      "sha256": "c08c86a32b2cf358970ddad01466a41d5d6bde448ce472a97bf05bdaf6ecb03b",
+      "size_in_bytes": 2555
+    },
+    {
+      "_path": "include/mysql/byte_order_generic_x86.h",
+      "path_type": "hardlink",
+      "sha256": "834b4bfb519cb85a6b4a9022d808025ce56b9b1f5f635ea131594b6542e5129b",
+      "size_in_bytes": 2190
+    },
+    {
+      "_path": "include/mysql/decimal.h",
+      "path_type": "hardlink",
+      "sha256": "d3c7990b6d7efb52aa3facf63b7216821704c0b6faeaa0ee65d6ba3891dae72f",
+      "size_in_bytes": 5175
+    },
+    {
+      "_path": "include/mysql/errmsg.h",
+      "path_type": "hardlink",
+      "sha256": "917238380177d78b536a1d100a60d7469b8ea1fab9035f0aa31f4383bd7ab25a",
+      "size_in_bytes": 4350
+    },
+    {
+      "_path": "include/mysql/keycache.h",
+      "path_type": "hardlink",
+      "sha256": "9ee2a951957aaf2edb929a06625af480e18f18ace3e7b88a5075eed085c0352c",
+      "size_in_bytes": 7489
+    },
+    {
+      "_path": "include/mysql/little_endian.h",
+      "path_type": "hardlink",
+      "sha256": "1883b585f398cf045d55ffd61c7ebae010e5180c03ccc86b4533728ec2e72fa9",
+      "size_in_bytes": 3233
+    },
+    {
+      "_path": "include/mysql/m_ctype.h",
+      "path_type": "hardlink",
+      "sha256": "b2f6b3d0f0a13cb6a36c955328a0b6dbdccdbe0363675ffd0a94fff426074693",
+      "size_in_bytes": 34282
+    },
+    {
+      "_path": "include/mysql/m_string.h",
+      "path_type": "hardlink",
+      "sha256": "befac2934d0f7ec031c2a3f524f54a5fbbd1b80a29a72558ef2dc20b732006e6",
+      "size_in_bytes": 10722
+    },
+    {
+      "_path": "include/mysql/my_alloc.h",
+      "path_type": "hardlink",
+      "sha256": "a4b1bbb0666e357f76e128965f9e508f6cb222f82e1bb49eebb93d65b35f33e4",
+      "size_in_bytes": 2312
+    },
+    {
+      "_path": "include/mysql/my_byteorder.h",
+      "path_type": "hardlink",
+      "sha256": "3d4df713a3acde4d5c0eca188763c7572156fce2b6317efd2a12bb620f624a84",
+      "size_in_bytes": 5488
+    },
+    {
+      "_path": "include/mysql/my_command.h",
+      "path_type": "hardlink",
+      "sha256": "a60aca78e8b7f8209a96d44927f3f5e37c77b34bb0905f78aadd4ac173ae138f",
+      "size_in_bytes": 1667
+    },
+    {
+      "_path": "include/mysql/my_compiler.h",
+      "path_type": "hardlink",
+      "sha256": "4e560a7e14f5bdde2f95fa30dc5c876e8d9937f4d76f5c2c7680dcc1c2b90f95",
+      "size_in_bytes": 5130
+    },
+    {
+      "_path": "include/mysql/my_config.h",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "b162a60015cb59506f893a77fae79be845dd398ec6aec94e1184843a812532d0",
+      "size_in_bytes": 12169
+    },
+    {
+      "_path": "include/mysql/my_dbug.h",
+      "path_type": "hardlink",
+      "sha256": "8f398e1e4d63933b75ce6758334cca2ed23503401dec1de3564a517ccac45c0b",
+      "size_in_bytes": 9391
+    },
+    {
+      "_path": "include/mysql/my_dir.h",
+      "path_type": "hardlink",
+      "sha256": "5f1e282241f5686d25f9f2e62d814d84b1ba0acf2580ccfdf65e87eb0406c64f",
+      "size_in_bytes": 3012
+    },
+    {
+      "_path": "include/mysql/my_getopt.h",
+      "path_type": "hardlink",
+      "sha256": "f2c38fc597d17d1393f1eda08419033bcbdb6a572d51441faa7d4a76ec54d89e",
+      "size_in_bytes": 6456
+    },
+    {
+      "_path": "include/mysql/my_global.h",
+      "path_type": "hardlink",
+      "sha256": "b0a97635f696002221df28ebf847a8fa8ec7fda22242d68d4ed68fa1343ec7d9",
+      "size_in_bytes": 22619
+    },
+    {
+      "_path": "include/mysql/my_list.h",
+      "path_type": "hardlink",
+      "sha256": "27caa9e42ed26ff8d8503e7ee0a55b0dc7974e265bdc621c406e928f9c122020",
+      "size_in_bytes": 1506
+    },
+    {
+      "_path": "include/mysql/my_sys.h",
+      "path_type": "hardlink",
+      "sha256": "ce9d7572efaf04fecdefa0a417bf815c02a3cc71f74dba4f292656ce2ceda992",
+      "size_in_bytes": 39667
+    },
+    {
+      "_path": "include/mysql/my_thread.h",
+      "path_type": "hardlink",
+      "sha256": "d4b955b2c9b32c5185306f9b60a50c26e723233c2f7934c8e21e41d225455b3f",
+      "size_in_bytes": 4877
+    },
+    {
+      "_path": "include/mysql/my_thread_local.h",
+      "path_type": "hardlink",
+      "sha256": "2dd58ba6c33fbe21ce9eecb238c42fa1a3ce33d52a86c2e4251c786b2795e992",
+      "size_in_bytes": 2566
+    },
+    {
+      "_path": "include/mysql/my_xml.h",
+      "path_type": "hardlink",
+      "sha256": "01dc6adcbd31dc1f74105eeda0d5cf42dbb295dcc5abe68f4dc59d0a7370b572",
+      "size_in_bytes": 2821
+    },
+    {
+      "_path": "include/mysql/mysql.h",
+      "path_type": "hardlink",
+      "sha256": "59483075c4de7e420d610859c6532f6321bcffb06b6bc0c039a000b3c7e7d360",
+      "size_in_bytes": 29172
+    },
+    {
+      "_path": "include/mysql/mysql/client_authentication.h",
+      "path_type": "hardlink",
+      "sha256": "ec0ed40a628e156749dbcb8b9c6993b2ad37e3d327ae7f18d2d11c51d46908f9",
+      "size_in_bytes": 1077
+    },
+    {
+      "_path": "include/mysql/mysql/client_plugin.h",
+      "path_type": "hardlink",
+      "sha256": "5f57316b03d7ae3e6a014718660a5b3444e068b0596134395fc59f96be6affd6",
+      "size_in_bytes": 6460
+    },
+    {
+      "_path": "include/mysql/mysql/client_plugin.h.pp",
+      "path_type": "hardlink",
+      "sha256": "dded22f677386584b82181e684d93db48edd6259fa8172edcd3c78e00407c4bd",
+      "size_in_bytes": 1988
+    },
+    {
+      "_path": "include/mysql/mysql/com_data.h",
+      "path_type": "hardlink",
+      "sha256": "7973d9fdc6f80a7d6558da4bd449bd40b58d25ba30668810b6104445d87f0e50",
+      "size_in_bytes": 3105
+    },
+    {
+      "_path": "include/mysql/mysql/get_password.h",
+      "path_type": "hardlink",
+      "sha256": "6d7b09e3089b692afe147e7c95f0a720b947839cc723cf50c9c645c61fe7a221",
+      "size_in_bytes": 1198
+    },
+    {
+      "_path": "include/mysql/mysql/group_replication_priv.h",
+      "path_type": "hardlink",
+      "sha256": "521acca646387d45f3de7ad5b545e487dffb395c21bfdd909e190b3878f8a831",
+      "size_in_bytes": 4727
+    },
+    {
+      "_path": "include/mysql/mysql/innodb_priv.h",
+      "path_type": "hardlink",
+      "sha256": "ba06130b05a8d81cf66d2bf70958b3dd0749205df530ca45f729068832e6dd27",
+      "size_in_bytes": 2167
+    },
+    {
+      "_path": "include/mysql/mysql/mysql_lex_string.h",
+      "path_type": "hardlink",
+      "sha256": "2693ef423608f7d4f682e66834187a8d64f90da80ec20d7be31e3a3491fb235a",
+      "size_in_bytes": 1096
+    },
+    {
+      "_path": "include/mysql/mysql/plugin.h",
+      "path_type": "hardlink",
+      "sha256": "7829e0b27a861e87297a770014c03d9ac198bb537ab2f4c19b54b77186b7456f",
+      "size_in_bytes": 26206
+    },
+    {
+      "_path": "include/mysql/mysql/plugin_audit.h",
+      "path_type": "hardlink",
+      "sha256": "add4ee3a0284999e2f2c3909f0a9901d617f2ffa9d00bf5c3e69c98e9c35de03",
+      "size_in_bytes": 17543
+    },
+    {
+      "_path": "include/mysql/mysql/plugin_audit.h.pp",
+      "path_type": "hardlink",
+      "sha256": "6b4d5204c55be47fe631bcf7b35af9365fd9ff7f6947749662f2ee095440495c",
+      "size_in_bytes": 13897
+    },
+    {
+      "_path": "include/mysql/mysql/plugin_auth.h",
+      "path_type": "hardlink",
+      "sha256": "b15473d977b0ba927a64367f9e30d6ceb010f3dd3e9e32696f709ab8e91f3c50",
+      "size_in_bytes": 5363
+    },
+    {
+      "_path": "include/mysql/mysql/plugin_auth.h.pp",
+      "path_type": "hardlink",
+      "sha256": "1bf769e224d2b7df156187a0751e4255f812b932d57a7ef937e7c7abc5f2a666",
+      "size_in_bytes": 5147
+    },
+    {
+      "_path": "include/mysql/mysql/plugin_auth_common.h",
+      "path_type": "hardlink",
+      "sha256": "560574293904ff25fe12b848a17fbe02c559670747dc466406bf6b9406732f77",
+      "size_in_bytes": 4846
+    },
+    {
+      "_path": "include/mysql/mysql/plugin_ftparser.h",
+      "path_type": "hardlink",
+      "sha256": "b33ea6bb455e99aedd10959da0b2d702ddead8bc22cd61e1b3421ee2b4c9a738",
+      "size_in_bytes": 7644
+    },
+    {
+      "_path": "include/mysql/mysql/plugin_ftparser.h.pp",
+      "path_type": "hardlink",
+      "sha256": "0978c9e36c70e4e276402ca957f73e7d7b5cbf22465242945256ad2c0511f38b",
+      "size_in_bytes": 4871
+    },
+    {
+      "_path": "include/mysql/mysql/plugin_group_replication.h",
+      "path_type": "hardlink",
+      "sha256": "179a406d28902918a854594bb56c5f9e351ee42619635e9fa0bcf1b75c6ec6cf",
+      "size_in_bytes": 5669
+    },
+    {
+      "_path": "include/mysql/mysql/plugin_keyring.h",
+      "path_type": "hardlink",
+      "sha256": "20d6462afe3f9ff1990e1973f65e518848aea7d546e515ffff0eeaa61b8604a5",
+      "size_in_bytes": 3741
+    },
+    {
+      "_path": "include/mysql/mysql/plugin_keyring.h.pp",
+      "path_type": "hardlink",
+      "sha256": "e7f75c31380eec7c55431d7a0067b9eb3935a82d983b1141d776ef3c2f5a1fb3",
+      "size_in_bytes": 4258
+    },
+    {
+      "_path": "include/mysql/mysql/plugin_trace.h",
+      "path_type": "hardlink",
+      "sha256": "4083ea89cd22aa2d0ba7ed20ae52b4399dc861884d51e08492795f7678eff5d8",
+      "size_in_bytes": 12150
+    },
+    {
+      "_path": "include/mysql/mysql/plugin_validate_password.h",
+      "path_type": "hardlink",
+      "sha256": "f9f88da6c951bff4ed18f7749c96a83395363069fbcfedb58b91c6a66f0e3bea",
+      "size_in_bytes": 1583
+    },
+    {
+      "_path": "include/mysql/mysql/psi/mysql_file.h",
+      "path_type": "hardlink",
+      "sha256": "24a8589eaa3ba1b68a171d0e35d9291f003b937a702c07684659fc752db66937",
+      "size_in_bytes": 39355
+    },
+    {
+      "_path": "include/mysql/mysql/psi/mysql_idle.h",
+      "path_type": "hardlink",
+      "sha256": "8d5fbf636697fcf69277421ad55948cc55e1a18a97ca5d95843af8d938fd3e49",
+      "size_in_bytes": 2590
+    },
+    {
+      "_path": "include/mysql/mysql/psi/mysql_mdl.h",
+      "path_type": "hardlink",
+      "sha256": "42feb0a12697d79740e90b015a58b824ef63ee949d0e927fe4d5737123a26f1a",
+      "size_in_bytes": 3309
+    },
+    {
+      "_path": "include/mysql/mysql/psi/mysql_memory.h",
+      "path_type": "hardlink",
+      "sha256": "5f5c5ad6c5030bc6ec0c1bff4fc9e6ebd809acf8440eb802c6dc2a83f6d618ef",
+      "size_in_bytes": 1679
+    },
+    {
+      "_path": "include/mysql/mysql/psi/mysql_ps.h",
+      "path_type": "hardlink",
+      "sha256": "a8c79cf0268390df1baae8431e6a851e21e5aabab0c5145b3ebc0995fa05af28",
+      "size_in_bytes": 3149
+    },
+    {
+      "_path": "include/mysql/mysql/psi/mysql_socket.h",
+      "path_type": "hardlink",
+      "sha256": "91a784cfd7cae00811c10f7016d57a9cf363984409d21b51627cf55304973f7d",
+      "size_in_bytes": 33220
+    },
+    {
+      "_path": "include/mysql/mysql/psi/mysql_sp.h",
+      "path_type": "hardlink",
+      "sha256": "fafa8a73b206821277cf830afe9bf032ef3c828267db54fa43df6679b11189f0",
+      "size_in_bytes": 2837
+    },
+    {
+      "_path": "include/mysql/mysql/psi/mysql_stage.h",
+      "path_type": "hardlink",
+      "sha256": "43c9be881544a68ef314f1ddb7ff8e42abaad362a8e73771b5ed92471ee8093b",
+      "size_in_bytes": 4791
+    },
+    {
+      "_path": "include/mysql/mysql/psi/mysql_statement.h",
+      "path_type": "hardlink",
+      "sha256": "de04fda1f85c6f94f305af627ed5067b0b294dcb2f17932beaf7866618875bb4",
+      "size_in_bytes": 6618
+    },
+    {
+      "_path": "include/mysql/mysql/psi/mysql_table.h",
+      "path_type": "hardlink",
+      "sha256": "b90e93e4397c7ef48a85aa6ef11a617ef00c86db8b99726cf5ced77867925bf0",
+      "size_in_bytes": 4041
+    },
+    {
+      "_path": "include/mysql/mysql/psi/mysql_thread.h",
+      "path_type": "hardlink",
+      "sha256": "e6f83e7e84dd2a4fad1af9e65c299516d1792c263c8eed19acbc106f1662ac0d",
+      "size_in_bytes": 33304
+    },
+    {
+      "_path": "include/mysql/mysql/psi/mysql_transaction.h",
+      "path_type": "hardlink",
+      "sha256": "af5d4a979a73557a52cd3b3b6f6511cdf332ed264a11cebbd84a283011d15819",
+      "size_in_bytes": 6828
+    },
+    {
+      "_path": "include/mysql/mysql/psi/psi.h",
+      "path_type": "hardlink",
+      "sha256": "d0517443af85cd4e102803daacdaa274c0f6fe8df1534ecc124b733be9b16b54",
+      "size_in_bytes": 85815
+    },
+    {
+      "_path": "include/mysql/mysql/psi/psi_base.h",
+      "path_type": "hardlink",
+      "sha256": "d4b1311935851e3e2a078af02800ce3071d3b4050febb00470f63953c67837f4",
+      "size_in_bytes": 3485
+    },
+    {
+      "_path": "include/mysql/mysql/psi/psi_memory.h",
+      "path_type": "hardlink",
+      "sha256": "99f34621dc67221bbe4c7d114e9aeeded5ef458622774a4332a2b8ab723ba490",
+      "size_in_bytes": 4076
+    },
+    {
+      "_path": "include/mysql/mysql/service_command.h",
+      "path_type": "hardlink",
+      "sha256": "88ede73f8f54410eaa8598cf5bfb7bf237a19c68ef5cfa8b4d6a81e534eacd9f",
+      "size_in_bytes": 13470
+    },
+    {
+      "_path": "include/mysql/mysql/service_locking.h",
+      "path_type": "hardlink",
+      "sha256": "5c3f1211201226c178098b37b395774a788b7b4891ee6212d08109e7911ba5bf",
+      "size_in_bytes": 4334
+    },
+    {
+      "_path": "include/mysql/mysql/service_my_plugin_log.h",
+      "path_type": "hardlink",
+      "sha256": "795c07eb95e6d709b1e71f307338feaf7bd847ca0f15dd101a4f5df88dbf8884",
+      "size_in_bytes": 1678
+    },
+    {
+      "_path": "include/mysql/mysql/service_my_snprintf.h",
+      "path_type": "hardlink",
+      "sha256": "3dca75af53d5ec37cb38383551b726b0bf121ec90390a0f39cb074927bfb7d62",
+      "size_in_bytes": 3409
+    },
+    {
+      "_path": "include/mysql/mysql/service_mysql_alloc.h",
+      "path_type": "hardlink",
+      "sha256": "56c822388a65d0025644302a302c87cb154bda84271098238430f26e6198d599",
+      "size_in_bytes": 2760
+    },
+    {
+      "_path": "include/mysql/mysql/service_mysql_keyring.h",
+      "path_type": "hardlink",
+      "sha256": "5248fa5dfe36aadf277f73cb44a8757cbf3a53eb46af2a88b57c6142a9335c00",
+      "size_in_bytes": 2454
+    },
+    {
+      "_path": "include/mysql/mysql/service_mysql_password_policy.h",
+      "path_type": "hardlink",
+      "sha256": "994a4817713f6cfadff02555cd61292db2d089dcc8f5de263461061b126c4316",
+      "size_in_bytes": 2436
+    },
+    {
+      "_path": "include/mysql/mysql/service_mysql_string.h",
+      "path_type": "hardlink",
+      "sha256": "04ce3feddc014452a02b7412b4df71b6a4b4f4f0b40b95deaa5d0c5bc92fca63",
+      "size_in_bytes": 5355
+    },
+    {
+      "_path": "include/mysql/mysql/service_parser.h",
+      "path_type": "hardlink",
+      "sha256": "d0eede4dac994572de02122db5013eb408dff1a3d2fd619ec8c0a06172f2e98b",
+      "size_in_bytes": 9402
+    },
+    {
+      "_path": "include/mysql/mysql/service_rpl_transaction_ctx.h",
+      "path_type": "hardlink",
+      "sha256": "1234d2fbe1490d2ba97585f75310d9d90ee02cfe07c2be4fd1d0e5df74e066db",
+      "size_in_bytes": 2361
+    },
+    {
+      "_path": "include/mysql/mysql/service_rpl_transaction_write_set.h",
+      "path_type": "hardlink",
+      "sha256": "0c970d978440121c248965dc0fd37b2babd9c6f70d6b35202df4d6417c8c31ed",
+      "size_in_bytes": 2520
+    },
+    {
+      "_path": "include/mysql/mysql/service_rules_table.h",
+      "path_type": "hardlink",
+      "sha256": "d2e71e2f27432fd5d6a5d775c99d2905c10a5f37fd88cfca724755c15e30aaad",
+      "size_in_bytes": 5087
+    },
+    {
+      "_path": "include/mysql/mysql/service_security_context.h",
+      "path_type": "hardlink",
+      "sha256": "8333ac350c193d68da36414eb49101a5fc0c0f792b51c17f4060b56e90ac89dd",
+      "size_in_bytes": 4058
+    },
+    {
+      "_path": "include/mysql/mysql/service_srv_session.h",
+      "path_type": "hardlink",
+      "sha256": "4bdc2d4afe75a9ece90ec7cf36ef35fc2f6fb3e88dec05b76f9b4ff8035395e9",
+      "size_in_bytes": 4888
+    },
+    {
+      "_path": "include/mysql/mysql/service_srv_session_info.h",
+      "path_type": "hardlink",
+      "sha256": "8cc80b7b3a36c6f3fa8ac6e7dbceb1cedf696b054e257e9b1e0a9e6114d7a067",
+      "size_in_bytes": 5234
+    },
+    {
+      "_path": "include/mysql/mysql/service_ssl_wrapper.h",
+      "path_type": "hardlink",
+      "sha256": "a4bf973f6393273d8e2aede1afdcc77aae55ff3261fb4874a595179084ac3b8f",
+      "size_in_bytes": 5149
+    },
+    {
+      "_path": "include/mysql/mysql/service_thd_alloc.h",
+      "path_type": "hardlink",
+      "sha256": "7dde21d5c071c9c4445c94d978ed1658a061655357c2b0e7044ffcd792138d00",
+      "size_in_bytes": 4331
+    },
+    {
+      "_path": "include/mysql/mysql/service_thd_engine_lock.h",
+      "path_type": "hardlink",
+      "sha256": "c9dd2efac84db38d9549fde7ef7ceaf3c897d0e2836dd0750a24a03c3ba54dfa",
+      "size_in_bytes": 1489
+    },
+    {
+      "_path": "include/mysql/mysql/service_thd_wait.h",
+      "path_type": "hardlink",
+      "sha256": "4dc960c6f8d3afbfe673a8c618fa6940df5e15050998e3778e5d0579e9f2bc06",
+      "size_in_bytes": 3945
+    },
+    {
+      "_path": "include/mysql/mysql/service_thread_scheduler.h",
+      "path_type": "hardlink",
+      "sha256": "da8c5bd27cfa8a6559e7006954e2913eb73fddc6afdf7bf28b71945cbc0d3496",
+      "size_in_bytes": 2682
+    },
+    {
+      "_path": "include/mysql/mysql/services.h",
+      "path_type": "hardlink",
+      "sha256": "67f2ef107007c2e90d720eb9873edc040afdbcc8cbbc9546a0a1359ebc48b0e5",
+      "size_in_bytes": 1948
+    },
+    {
+      "_path": "include/mysql/mysql/services.h.pp",
+      "path_type": "hardlink",
+      "sha256": "1736ec67f40010cbca4f104a1239624ae2663e901a7cfc6f6d3548f042b92598",
+      "size_in_bytes": 21953
+    },
+    {
+      "_path": "include/mysql/mysql/thread_pool_priv.h",
+      "path_type": "hardlink",
+      "sha256": "5089f1e0f412cbd6f4adfe1367799d517b00e8ebce21e47f046796ad2586bf91",
+      "size_in_bytes": 6132
+    },
+    {
+      "_path": "include/mysql/mysql/thread_type.h",
+      "path_type": "hardlink",
+      "sha256": "6a0447da0a2e9c3ff074344038d8c3d6e94e2a062ad3bd5cccf9bbfd814a9757",
+      "size_in_bytes": 1384
+    },
+    {
+      "_path": "include/mysql/mysql_com.h",
+      "path_type": "hardlink",
+      "sha256": "7cdf7eeffa5684538eda56f4d0728785d7e687d0271b8b054d11f4723a993313",
+      "size_in_bytes": 24501
+    },
+    {
+      "_path": "include/mysql/mysql_com_server.h",
+      "path_type": "hardlink",
+      "sha256": "f61cde5eccb0901cafdd51e0edc4cd02fed2c95f0dcf4e7bc65df6c36d2930f7",
+      "size_in_bytes": 1313
+    },
+    {
+      "_path": "include/mysql/mysql_embed.h",
+      "path_type": "hardlink",
+      "sha256": "2572d2f7c9e9e9f5cb1434770a56fc79650cf22ae9735367714dfaac42ffc4e2",
+      "size_in_bytes": 1142
+    },
+    {
+      "_path": "include/mysql/mysql_time.h",
+      "path_type": "hardlink",
+      "sha256": "05fc13390a61ef37d44a2e12da173f0fb37eb9fba59009f4586a1fe30c3cb8d4",
+      "size_in_bytes": 2172
+    },
+    {
+      "_path": "include/mysql/mysql_version.h",
+      "path_type": "hardlink",
+      "sha256": "99a544f52780009c6673ab4b330617662fed1ed48541a9fd75881fdc66face39",
+      "size_in_bytes": 996
+    },
+    {
+      "_path": "include/mysql/mysqld_ername.h",
+      "path_type": "hardlink",
+      "sha256": "9d78a683b13a94d030b301a95b5b5a6c10eb3bf6864f5e6869aa383acee98f4c",
+      "size_in_bytes": 119862
+    },
+    {
+      "_path": "include/mysql/mysqld_error.h",
+      "path_type": "hardlink",
+      "sha256": "f3b04b84ec16818ca30c71a47850c63828a6ad5cef608a53bcab23c7e847fd8a",
+      "size_in_bytes": 43628
+    },
+    {
+      "_path": "include/mysql/mysqlx_ername.h",
+      "path_type": "hardlink",
+      "sha256": "016c4663d6350713c4fbabbf2233be4f0126e0295479e1dd2edd114cb744f750",
+      "size_in_bytes": 3310
+    },
+    {
+      "_path": "include/mysql/mysqlx_error.h",
+      "path_type": "hardlink",
+      "sha256": "19d96229d51b3e2f4568177ae7ea97d909fa3032d8f108249af8c48ba2fe0b15",
+      "size_in_bytes": 2791
+    },
+    {
+      "_path": "include/mysql/mysqlx_version.h",
+      "path_type": "hardlink",
+      "sha256": "57d0526ec7cea4d267446a142d0e83702ca8973199ff6746598af59d057e4a99",
+      "size_in_bytes": 1394
+    },
+    {
+      "_path": "include/mysql/plugin.h",
+      "path_type": "hardlink",
+      "sha256": "7829e0b27a861e87297a770014c03d9ac198bb537ab2f4c19b54b77186b7456f",
+      "size_in_bytes": 26206
+    },
+    {
+      "_path": "include/mysql/plugin_audit.h",
+      "path_type": "hardlink",
+      "sha256": "add4ee3a0284999e2f2c3909f0a9901d617f2ffa9d00bf5c3e69c98e9c35de03",
+      "size_in_bytes": 17543
+    },
+    {
+      "_path": "include/mysql/plugin_ftparser.h",
+      "path_type": "hardlink",
+      "sha256": "b33ea6bb455e99aedd10959da0b2d702ddead8bc22cd61e1b3421ee2b4c9a738",
+      "size_in_bytes": 7644
+    },
+    {
+      "_path": "include/mysql/plugin_group_replication.h",
+      "path_type": "hardlink",
+      "sha256": "179a406d28902918a854594bb56c5f9e351ee42619635e9fa0bcf1b75c6ec6cf",
+      "size_in_bytes": 5669
+    },
+    {
+      "_path": "include/mysql/plugin_keyring.h",
+      "path_type": "hardlink",
+      "sha256": "20d6462afe3f9ff1990e1973f65e518848aea7d546e515ffff0eeaa61b8604a5",
+      "size_in_bytes": 3741
+    },
+    {
+      "_path": "include/mysql/plugin_validate_password.h",
+      "path_type": "hardlink",
+      "sha256": "f9f88da6c951bff4ed18f7749c96a83395363069fbcfedb58b91c6a66f0e3bea",
+      "size_in_bytes": 1583
+    },
+    {
+      "_path": "include/mysql/sql_common.h",
+      "path_type": "hardlink",
+      "sha256": "b921a13a3e7df36fd372bda0b3ee39791b8b8ca5e419985b3a6ade9b1fe419ea",
+      "size_in_bytes": 7711
+    },
+    {
+      "_path": "include/mysql/sql_state.h",
+      "path_type": "hardlink",
+      "sha256": "8b3bf424ba46ddb12380f17c1fbdd215cfc3529a3371409ab392996200f96f85",
+      "size_in_bytes": 15020
+    },
+    {
+      "_path": "include/mysql/sslopt-case.h",
+      "path_type": "hardlink",
+      "sha256": "9d52fba7cb14877201009edfadafa45b00faf50e23af0746dd44e9aa3cc750b3",
+      "size_in_bytes": 2222
+    },
+    {
+      "_path": "include/mysql/sslopt-longopts.h",
+      "path_type": "hardlink",
+      "sha256": "17f82eeaca67df4d5f4c9868df67f6102873077532b130a09372f131064bf9cf",
+      "size_in_bytes": 2878
+    },
+    {
+      "_path": "include/mysql/sslopt-vars.h",
+      "path_type": "hardlink",
+      "sha256": "6913a2d5e1f402e0343f1da2716dbe37431370426cafd7e78f24fb2f91e7a497",
+      "size_in_bytes": 2902
+    },
+    {
+      "_path": "include/mysql/thr_cond.h",
+      "path_type": "hardlink",
+      "sha256": "9a064f3f1315f1375ecbff81b147638fdfb3b263746ab3ab89924715c795603f",
+      "size_in_bytes": 5148
+    },
+    {
+      "_path": "include/mysql/thr_mutex.h",
+      "path_type": "hardlink",
+      "sha256": "8f81b0fc36705586a210e2eee45d9ce21154958c9297c753d6863441ce729259",
+      "size_in_bytes": 5679
+    },
+    {
+      "_path": "include/mysql/thr_rwlock.h",
+      "path_type": "hardlink",
+      "sha256": "308badc3d8ed724213187e3eafe61a96361711b9d974950c714e8ca986d57209",
+      "size_in_bytes": 6044
+    },
+    {
+      "_path": "include/mysql/typelib.h",
+      "path_type": "hardlink",
+      "sha256": "269b5b7daedd41cda7a22dc91d51536f15e1d983f47872fbed7a2c23f2812cf3",
+      "size_in_bytes": 2282
+    },
+    {
+      "_path": "lib/libmysqlclient.20.dylib",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "0d813a55319cfb14f659cf4f4edffd7c2910effbf5035f64d7a5f27cfe8e0feb",
+      "size_in_bytes": 4334840
+    },
+    {
+      "_path": "lib/libmysqlclient.a",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "007602fce33583ef12c53a07d5baacbd24aa11f61a0298e5c8ea2b74d96e7c53",
+      "size_in_bytes": 5206504
+    },
+    {
+      "_path": "lib/libmysqlclient.dylib",
+      "file_mode": "binary",
+      "path_type": "softlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "0d813a55319cfb14f659cf4f4edffd7c2910effbf5035f64d7a5f27cfe8e0feb",
+      "size_in_bytes": 4334840
+    },
+    {
+      "_path": "lib/libmysqld.a",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "9cbd5a9a27e798b853b8c21d634c10e01d609800add49663b959f2304e11e2d1",
+      "size_in_bytes": 35708168
+    },
+    {
+      "_path": "lib/libmysqlservices.a",
+      "path_type": "hardlink",
+      "sha256": "1f289c00d28a77f1b3255b038497e8c1fb8d0bcd15ab5dfdf4978f36a0e471ad",
+      "size_in_bytes": 9608
+    },
+    {
+      "_path": "lib/pkgconfig/mysqlclient.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "e7c75c6cf299a41c55dc719a12fe19c2e2fefa7d088b79347e0254e5a6134287",
+      "size_in_bytes": 988
+    },
+    {
+      "_path": "lib/plugin/adt_null.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "16535fa8c8eea4030a0b2b94cab32849a9829d553329cb98d493ad88a79067f0",
+      "size_in_bytes": 19744
+    },
+    {
+      "_path": "lib/plugin/auth.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "18a56e54651eea5b68c551e91aaafe69ed75f2cb3e60f8b15d85e26848de4a35",
+      "size_in_bytes": 13796
+    },
+    {
+      "_path": "lib/plugin/auth_test_plugin.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "e49f3dece7b7959b45576cc8a5323615e368eb308064a80958d78b8990a2f75e",
+      "size_in_bytes": 9352
+    },
+    {
+      "_path": "lib/plugin/authentication_ldap_sasl_client.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "e10dfe9fe1d44c167095d03078495ab74a17bc891232e58e79e4a1f8c40a8d65",
+      "size_in_bytes": 43160
+    },
+    {
+      "_path": "lib/plugin/connection_control.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "b1964dd7ba2f775782384e03037a7a42a3bbb8db7ad8bfadc7e567897ed87db5",
+      "size_in_bytes": 48876
+    },
+    {
+      "_path": "lib/plugin/daemon_example.ini",
+      "path_type": "hardlink",
+      "sha256": "bf48bf5bab050e8222a5e05b6f82d278286d62511c5aa300ed4938bc425de038",
+      "size_in_bytes": 227
+    },
+    {
+      "_path": "lib/plugin/group_replication.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "989a88a46400c350759a201eebd6908f5ffabb84b93255f99b19b3cf5e79482d",
+      "size_in_bytes": 927000
+    },
+    {
+      "_path": "lib/plugin/ha_example.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "d0c1d4de402ce8466323da95a097f3a37ead6c603683e96359420f7155b4545d",
+      "size_in_bytes": 31744
+    },
+    {
+      "_path": "lib/plugin/keyring_file.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "67b1f343a0a82ffa210c21f3ba1caf87ab6d1f1edf3ad6d64d746366032a74e1",
+      "size_in_bytes": 82900
+    },
+    {
+      "_path": "lib/plugin/keyring_udf.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "a22522dfc83555fbae45d315c6d9464f7bc19dd124a677248e111a2476efa34e",
+      "size_in_bytes": 20160
+    },
+    {
+      "_path": "lib/plugin/libdaemon_example.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "407ffc61d55b5c7396b1bcd67a67b80fed1238073b552b4a0860c824eab666da",
+      "size_in_bytes": 14268
+    },
+    {
+      "_path": "lib/plugin/libtest_framework.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "8520a876cd25fa7a59271f43450f50ddcf7c92532b715179fc3d3e112e043849",
+      "size_in_bytes": 8664
+    },
+    {
+      "_path": "lib/plugin/libtest_services.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "85435e1c4f133ab54ad26c998a06f404fa0d36a1ca2abf92537f4f24011fa3b5",
+      "size_in_bytes": 13836
+    },
+    {
+      "_path": "lib/plugin/libtest_services_threaded.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "fe135fd9f94d9d2873d5fb9b3d61a586f494b2e391a9b7ed51328dbea979b971",
+      "size_in_bytes": 14412
+    },
+    {
+      "_path": "lib/plugin/libtest_session_detach.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "194bd3c488a157164378fddddaf9f4c09a6fa9c920e7fbeb500836eb69e4f907",
+      "size_in_bytes": 19440
+    },
+    {
+      "_path": "lib/plugin/libtest_session_in_thd.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "ac0cb777a40c4738bc1a127c5bd82221a28662212aa5b4d9a1294a269d17c676",
+      "size_in_bytes": 13996
+    },
+    {
+      "_path": "lib/plugin/libtest_session_info.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "deb046d6b556233d8de64eb7b7e0ee5653d4a92c66a91fc1b5f6f0a48704d9a4",
+      "size_in_bytes": 32164
+    },
+    {
+      "_path": "lib/plugin/libtest_sql_2_sessions.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "886b9610e34a5706065b49c8d98c3619d0f5b543857cb575fb4ffbed1642f4e6",
+      "size_in_bytes": 23904
+    },
+    {
+      "_path": "lib/plugin/libtest_sql_all_col_types.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "6abb9344b250f68436fd51637813e2e4d263b10f8ca83b418ef270c2e98c74f3",
+      "size_in_bytes": 27944
+    },
+    {
+      "_path": "lib/plugin/libtest_sql_cmds_1.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "01fdd71243b078761cb77708c0a765ddbca0d4570346e034ff02c57e349d2575",
+      "size_in_bytes": 29484
+    },
+    {
+      "_path": "lib/plugin/libtest_sql_commit.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "e94f6083a29d653659a6765b17006a1c4a25c4db04d449dde23c11ea70ecae24",
+      "size_in_bytes": 28064
+    },
+    {
+      "_path": "lib/plugin/libtest_sql_complex.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "dc185df57cc107f467a2fdaf77f90842086c095606adc6ea032baa071973f1ae",
+      "size_in_bytes": 28224
+    },
+    {
+      "_path": "lib/plugin/libtest_sql_errors.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "f78a4e70b73c8a22fea3202ba13df284a73900411965bf87ba31c45c9ae4bbcf",
+      "size_in_bytes": 24056
+    },
+    {
+      "_path": "lib/plugin/libtest_sql_lock.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "0f2f821af88c4f14011632d70d2fd9a893f446e985a897374cf3dbc1bbaee5c0",
+      "size_in_bytes": 27704
+    },
+    {
+      "_path": "lib/plugin/libtest_sql_processlist.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "d8483928f972eedc033ecb1b90c3441ae60424134246ef759e1096623f44a885",
+      "size_in_bytes": 23752
+    },
+    {
+      "_path": "lib/plugin/libtest_sql_replication.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "9697a590d3b66c83cb348ab5a2eaefbed179d69fff51af0d78adf65ed4723d56",
+      "size_in_bytes": 23896
+    },
+    {
+      "_path": "lib/plugin/libtest_sql_shutdown.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "857223537ae8d23d7068bb5aa89bc1f62f76a24600156a7c0066c4568fbfe1c7",
+      "size_in_bytes": 19776
+    },
+    {
+      "_path": "lib/plugin/libtest_sql_sqlmode.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "8b10a204ccbef67335d47ee8fabf93f507b729f3881f90f4dd368a6c0e3457b4",
+      "size_in_bytes": 28152
+    },
+    {
+      "_path": "lib/plugin/libtest_sql_stored_procedures_functions.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "51b6949cb6d71e301636acf9ee092f36727596ece2a824c37a316b10c77da34b",
+      "size_in_bytes": 28144
+    },
+    {
+      "_path": "lib/plugin/libtest_sql_views_triggers.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "659e239ced9b4673ad2e03c44416f498b017929ca5dff8349d50aab655b97c99",
+      "size_in_bytes": 28144
+    },
+    {
+      "_path": "lib/plugin/libtest_x_sessions_deinit.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "0f2f57ea691630b83726950055ce4bb2856010839e7ad5f9d44d7737e84e8f58",
+      "size_in_bytes": 14060
+    },
+    {
+      "_path": "lib/plugin/libtest_x_sessions_init.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "6a2c78554ed5c77ff7c87dd69ce9d0bd2e00d53eca9b47b0bcf1e640f41a9b8c",
+      "size_in_bytes": 14560
+    },
+    {
+      "_path": "lib/plugin/locking_service.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "11efdfffd4ba39d94e36b14b4dbd434e069ca92464fa05ce847861116bad706d",
+      "size_in_bytes": 9024
+    },
+    {
+      "_path": "lib/plugin/mypluglib.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "7ec75ddad040896c7387dbbd03962ce59eaded9e65401d045a4250188bdbec77",
+      "size_in_bytes": 9128
+    },
+    {
+      "_path": "lib/plugin/mysql_no_login.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "29dc4b92f07139123ea94682a3cc954a764d82fb7d4cceea7865d664b8e59c7a",
+      "size_in_bytes": 8768
+    },
+    {
+      "_path": "lib/plugin/mysqlx.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "08f891dd0cdfdde9b18f348c9223c97dd6c77beef3049fdf93496cb326ee8c47",
+      "size_in_bytes": 1548788
+    },
+    {
+      "_path": "lib/plugin/qa_auth_client.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "a8032282fc6f14017864eff22d93ba170906ff44d572e7f767bf6838aeb78a97",
+      "size_in_bytes": 8472
+    },
+    {
+      "_path": "lib/plugin/qa_auth_interface.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "89624c70c1f4166c6ee93f68230cf19445d7008c991ad1cf882e059af87b8b5e",
+      "size_in_bytes": 9128
+    },
+    {
+      "_path": "lib/plugin/qa_auth_server.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "519f14121b80d0a5bc0a07c75bc5a5c15817888de3284f01afc0f63e26f9cb0c",
+      "size_in_bytes": 8944
+    },
+    {
+      "_path": "lib/plugin/replication_observers_example_plugin.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "909f854f31dbc66ff17e24ce22497378b9be40573eb0f359ff094d96935ad4bc",
+      "size_in_bytes": 26228
+    },
+    {
+      "_path": "lib/plugin/rewrite_example.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "37473d56a63efb59b4b2db5cb844f3cbd8175f4e3fb1d73e4bfdbd396d82774d",
+      "size_in_bytes": 8964
+    },
+    {
+      "_path": "lib/plugin/rewriter.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "321f25431340ea761b7a45ce7fabecc3f2a29346f66015c26d7a0697b91087d0",
+      "size_in_bytes": 44588
+    },
+    {
+      "_path": "lib/plugin/semisync_master.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "0e0698432c9752f49a6c83f3776ef82c8767dd866f7d3b5078b9a2210814c48e",
+      "size_in_bytes": 57908
+    },
+    {
+      "_path": "lib/plugin/semisync_slave.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "dd691eb8b1a47fb3be0e00c39e9f70adbd2704505bcceb94d26ced99ff751df6",
+      "size_in_bytes": 16444
+    },
+    {
+      "_path": "lib/plugin/test_security_context.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "b0ea40c5cc6cb78c9838fbe9cee5f734c7e9fd3233bbed7908194e71b0d88f0a",
+      "size_in_bytes": 8936
+    },
+    {
+      "_path": "lib/plugin/test_udf_services.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "4de21dee432fd538a5cd1769377e5a5e9f0e2a06dfac44dd159a94743177b762",
+      "size_in_bytes": 8908
+    },
+    {
+      "_path": "lib/plugin/validate_password.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "2d1d7842860786dfbb2f3208a9e91d335f8af672c87c0b4b3b8fd4605a602b50",
+      "size_in_bytes": 38040
+    },
+    {
+      "_path": "lib/plugin/version_token.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "d255d735db03f2cb3117ade8fdf59d3af57be47f69661b020ff002fdb1b15e7a",
+      "size_in_bytes": 40160
+    },
+    {
+      "_path": "mysql/COPYING",
+      "path_type": "hardlink",
+      "sha256": "ab15fd526bd8dd18a9e77ebc139656bf4d33e97fc7238cd11bf60e2b9b8666c6",
+      "size_in_bytes": 17987
+    },
+    {
+      "_path": "mysql/COPYING-test",
+      "path_type": "hardlink",
+      "sha256": "ab15fd526bd8dd18a9e77ebc139656bf4d33e97fc7238cd11bf60e2b9b8666c6",
+      "size_in_bytes": 17987
+    },
+    {
+      "_path": "mysql/README",
+      "path_type": "hardlink",
+      "sha256": "1a48825ec76a7f496cf05f7957b20202c4c203ffa578cb9bbc4e1012b35541bd",
+      "size_in_bytes": 2478
+    },
+    {
+      "_path": "mysql/README-test",
+      "path_type": "hardlink",
+      "sha256": "1a48825ec76a7f496cf05f7957b20202c4c203ffa578cb9bbc4e1012b35541bd",
+      "size_in_bytes": 2478
+    },
+    {
+      "_path": "mysql/support-files/magic",
+      "path_type": "hardlink",
+      "sha256": "c1a9bb09d1872706da59ef362a9b69fcc04d9ed961f876a735b00d85199bbe9c",
+      "size_in_bytes": 773
+    },
+    {
+      "_path": "mysql/support-files/mysql-log-rotate",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "b5a8168f7a87d006383e1ec71965033bfda65b1f4f7649eb23465cbd8be83a31",
+      "size_in_bytes": 974
+    },
+    {
+      "_path": "mysql/support-files/mysql.server",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "677e3fdeaf5b36bbd33a7e7a42427e42e04aa35749714eb3aae0a00b51b89886",
+      "size_in_bytes": 10681
+    },
+    {
+      "_path": "mysql/support-files/mysqld_multi.server",
+      "path_type": "hardlink",
+      "sha256": "6a784dc307a8d540759d9a5f1fe96f06714435db47c7aef0fcb94c36d73a8e48",
+      "size_in_bytes": 1061
+    },
+    {
+      "_path": "share/aclocal/mysql.m4",
+      "path_type": "hardlink",
+      "sha256": "9106d1a896ea3d97b773ab27d9465eaeec0087642645a992701e8dbb5583b555",
+      "size_in_bytes": 4221
+    },
+    {
+      "_path": "share/doc/mysql/ChangeLog",
+      "path_type": "hardlink",
+      "sha256": "2da98cfcff9cd711128f28cd1440efe089314a46218f988d5c12b858cfaeca0f",
+      "size_in_bytes": 118038
+    },
+    {
+      "_path": "share/doc/mysql/INFO_BIN",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "a5d39e53c30c681cb1acbd910dcc652dd4eff11bf90d9b9b0081d802dbd221ee",
+      "size_in_bytes": 5984
+    },
+    {
+      "_path": "share/doc/mysql/INFO_SRC",
+      "path_type": "hardlink",
+      "sha256": "1a8296bde77c7be7e470483cd5b0499ee4c50ee991ca37c6527593239637f1cb",
+      "size_in_bytes": 184
+    },
+    {
+      "_path": "share/man/man1/comp_err.1",
+      "path_type": "hardlink",
+      "sha256": "088c23364a63c6eb0c2a5ebc35f1e5c6071d3a0fc1d99b1ad8faa0fdad3cc710",
+      "size_in_bytes": 5759
+    },
+    {
+      "_path": "share/man/man1/innochecksum.1",
+      "path_type": "hardlink",
+      "sha256": "6c9817dedccb7bd4f9729006d8b49505191e3f589ec3ef8bedbbf1ffe67f4c1f",
+      "size_in_bytes": 18786
+    },
+    {
+      "_path": "share/man/man1/lz4_decompress.1",
+      "path_type": "hardlink",
+      "sha256": "db6041d3fe39b013fc7c8dc2b6c2339f8e19114098152cfd35df31b5ab3e942b",
+      "size_in_bytes": 3294
+    },
+    {
+      "_path": "share/man/man1/my_print_defaults.1",
+      "path_type": "hardlink",
+      "sha256": "0d87dab8c6dff320bc550c7f3f50b98c7ec8bf162446b55263bf3d355c2e72bc",
+      "size_in_bytes": 5867
+    },
+    {
+      "_path": "share/man/man1/myisam_ftdump.1",
+      "path_type": "hardlink",
+      "sha256": "bbc7fc1d7d11df4e44cbb0f3a531973887ff2911233cf3b74db20ca700947199",
+      "size_in_bytes": 6073
+    },
+    {
+      "_path": "share/man/man1/myisamchk.1",
+      "path_type": "hardlink",
+      "sha256": "67e0564b61dd4968b5137039564f48fbb4271ea2dfdaf2af661e12ee89b434e9",
+      "size_in_bytes": 49831
+    },
+    {
+      "_path": "share/man/man1/myisamlog.1",
+      "path_type": "hardlink",
+      "sha256": "6c423b55b2ffe11216e9915bf69275c0a1615aa804e9b5933c78766b3eaefa73",
+      "size_in_bytes": 5192
+    },
+    {
+      "_path": "share/man/man1/myisampack.1",
+      "path_type": "hardlink",
+      "sha256": "02a2d8c49ddbb19efe5d81e3cff5e2c6b2285238a3df238118ad7fdcc4c26821",
+      "size_in_bytes": 19785
+    },
+    {
+      "_path": "share/man/man1/mysql-stress-test.pl.1",
+      "path_type": "hardlink",
+      "sha256": "acf127c73ad5a23312bb25762ab1454a4a6a655ab89f1b9b29614168791d46b9",
+      "size_in_bytes": 9345
+    },
+    {
+      "_path": "share/man/man1/mysql-test-run.pl.1",
+      "path_type": "hardlink",
+      "sha256": "d364e78d21ba31a659aa9526c022e9739d4d7ad13500e1d976132b91785d388b",
+      "size_in_bytes": 56363
+    },
+    {
+      "_path": "share/man/man1/mysql.1",
+      "path_type": "hardlink",
+      "sha256": "fe8cf71cb405b737546f2bb796618386eca6b4008b33b0d15e73c98a3a3ccb44",
+      "size_in_bytes": 76353
+    },
+    {
+      "_path": "share/man/man1/mysql.server.1",
+      "path_type": "hardlink",
+      "sha256": "342c50784e147ea3a82ca5af008de486fbc49b491b945b6e11cec01fa256bff0",
+      "size_in_bytes": 10359
+    },
+    {
+      "_path": "share/man/man1/mysql_client_test.1",
+      "path_type": "hardlink",
+      "sha256": "32ba37c4d61d71f2611952a69a4a1c330417013acbd2e0ef2ef83d66ca21f86b",
+      "size_in_bytes": 7625
+    },
+    {
+      "_path": "share/man/man1/mysql_client_test_embedded.1",
+      "path_type": "hardlink",
+      "sha256": "7af647b5e869f4878a4b8138b9a84fde1cb5d02c7f2c013b43feacd6a87d582b",
+      "size_in_bytes": 24
+    },
+    {
+      "_path": "share/man/man1/mysql_config.1",
+      "path_type": "hardlink",
+      "sha256": "c80d2b3bd9c2c11a347e9728083e3a22cebcc020e46dc7b5e3b1fcdfe3f61f64",
+      "size_in_bytes": 7928
+    },
+    {
+      "_path": "share/man/man1/mysql_config_editor.1",
+      "path_type": "hardlink",
+      "sha256": "56e32e5f927d86ab9b9a45b24f707a9d5cd06cfd8b0a48475e3b43e5580ffab2",
+      "size_in_bytes": 23347
+    },
+    {
+      "_path": "share/man/man1/mysql_install_db.1",
+      "path_type": "hardlink",
+      "sha256": "646a4e4a18738882a2dbc74b1380da0a68345db162c7dbb42b904905bf32f3cb",
+      "size_in_bytes": 35245
+    },
+    {
+      "_path": "share/man/man1/mysql_plugin.1",
+      "path_type": "hardlink",
+      "sha256": "1b479f052501b625b612eb4f5cec08be2aafdaec5d35244a53307bb96d84861b",
+      "size_in_bytes": 9324
+    },
+    {
+      "_path": "share/man/man1/mysql_secure_installation.1",
+      "path_type": "hardlink",
+      "sha256": "b50b62db567976cb02417a8ffa9f1637b5b931601f6ddcbec2bc36d810bbf7a8",
+      "size_in_bytes": 10106
+    },
+    {
+      "_path": "share/man/man1/mysql_ssl_rsa_setup.1",
+      "path_type": "hardlink",
+      "sha256": "a733143c47fed68c9219b469259619d4dbb2b0f6e4e2b03f5275a8e6d2b7106b",
+      "size_in_bytes": 11657
+    },
+    {
+      "_path": "share/man/man1/mysql_tzinfo_to_sql.1",
+      "path_type": "hardlink",
+      "sha256": "8dac6d3deffdd6a45bd12793f18bde857357ca8bf7074a0bc94773d4f6e921f3",
+      "size_in_bytes": 4635
+    },
+    {
+      "_path": "share/man/man1/mysql_upgrade.1",
+      "path_type": "hardlink",
+      "sha256": "18abeb5be1749aa2646c5f5277a213e578cf767d7124688e8c23e39834476200",
+      "size_in_bytes": 23954
+    },
+    {
+      "_path": "share/man/man1/mysqladmin.1",
+      "path_type": "hardlink",
+      "sha256": "a4b18fa33363a1b530287d99fd1bbfd85495873776dd1b0206c9f3110b34dd19",
+      "size_in_bytes": 25666
+    },
+    {
+      "_path": "share/man/man1/mysqlbinlog.1",
+      "path_type": "hardlink",
+      "sha256": "5d23c65943631590661bc751c2bc842452dc8993f4640a10ca622047952fdd4d",
+      "size_in_bytes": 71186
+    },
+    {
+      "_path": "share/man/man1/mysqlcheck.1",
+      "path_type": "hardlink",
+      "sha256": "af09de71706031912893b643c81eb42e888f7bbefe73f06b63597f5c7de732e7",
+      "size_in_bytes": 23536
+    },
+    {
+      "_path": "share/man/man1/mysqld_multi.1",
+      "path_type": "hardlink",
+      "sha256": "dba309d565aae72dd5227c8a9eb2fad738ced186688f4ec7c985242cfce7d8a4",
+      "size_in_bytes": 16031
+    },
+    {
+      "_path": "share/man/man1/mysqld_safe.1",
+      "path_type": "hardlink",
+      "sha256": "e1270c4749db3b21c1395cba1370aea6781c9753dc6add1238f27373e9937269",
+      "size_in_bytes": 22346
+    },
+    {
+      "_path": "share/man/man1/mysqldump.1",
+      "path_type": "hardlink",
+      "sha256": "5b0d4db5384ac6809e9fbb991de4320fddc483ea8f7208fc222fd30cea637080",
+      "size_in_bytes": 63483
+    },
+    {
+      "_path": "share/man/man1/mysqldumpslow.1",
+      "path_type": "hardlink",
+      "sha256": "37f663626ab239e9871a7c054c46bf3211527a0d3e4e190cd6e90c8bdf2d8a1d",
+      "size_in_bytes": 6537
+    },
+    {
+      "_path": "share/man/man1/mysqlimport.1",
+      "path_type": "hardlink",
+      "sha256": "dcd587805ffd945992f36f12911f0861203d92067a5c34cdff0cf200de0beebb",
+      "size_in_bytes": 18944
+    },
+    {
+      "_path": "share/man/man1/mysqlman.1",
+      "path_type": "hardlink",
+      "sha256": "72d31c5d65c9ae676ed9fef72a5f6684748f67049ba19354d5c0bc3fcdad2460",
+      "size_in_bytes": 675
+    },
+    {
+      "_path": "share/man/man1/mysqlpump.1",
+      "path_type": "hardlink",
+      "sha256": "d3e0fe0bbcbccbe5235b304a55bd799213968a6015a5d46e8be623d92cfa6627",
+      "size_in_bytes": 48397
+    },
+    {
+      "_path": "share/man/man1/mysqlshow.1",
+      "path_type": "hardlink",
+      "sha256": "811c4866de0e83f3f6d0954319fe7ee484327f018833f9ff1f9fa22450591e11",
+      "size_in_bytes": 15994
+    },
+    {
+      "_path": "share/man/man1/mysqlslap.1",
+      "path_type": "hardlink",
+      "sha256": "c3f49afd491b3b2fccb666ccaf615559417fcec7cfaf5f107e5ab5a447382a5f",
+      "size_in_bytes": 22825
+    },
+    {
+      "_path": "share/man/man1/mysqltest.1",
+      "path_type": "hardlink",
+      "sha256": "d0bc7750174535aa9dadaf36984605e420d0c4373940cda288d63e81611e6a19",
+      "size_in_bytes": 18089
+    },
+    {
+      "_path": "share/man/man1/mysqltest_embedded.1",
+      "path_type": "hardlink",
+      "sha256": "7f57309ff561361916e2e70a0380e226b8eaf6bef95d601a51bf23895b1b79bb",
+      "size_in_bytes": 16
+    },
+    {
+      "_path": "share/man/man1/perror.1",
+      "path_type": "hardlink",
+      "sha256": "72e55c2daba64f58db8fd0117717c5909957804daeeb6c7fc797d9d3e6bcb00a",
+      "size_in_bytes": 4662
+    },
+    {
+      "_path": "share/man/man1/replace.1",
+      "path_type": "hardlink",
+      "sha256": "c3f51fbdbbfcc6f8ed406e3786a593edfa13d481ec2a23c43c780388f0acf292",
+      "size_in_bytes": 4932
+    },
+    {
+      "_path": "share/man/man1/resolve_stack_dump.1",
+      "path_type": "hardlink",
+      "sha256": "f801f4e08424b8211ff5d4edf03f5874f387dc547894a3971fdc1f46f98d997a",
+      "size_in_bytes": 4124
+    },
+    {
+      "_path": "share/man/man1/resolveip.1",
+      "path_type": "hardlink",
+      "sha256": "3083ea6ac3bae603ab903c233ed3685fa8b6bff916cc37e3f5f5e26a78ca71c1",
+      "size_in_bytes": 3467
+    },
+    {
+      "_path": "share/man/man1/zlib_decompress.1",
+      "path_type": "hardlink",
+      "sha256": "8c93b1eeea9e05ec5c8d64a703d43abea70390ed204688bf1a807a8541dafd3b",
+      "size_in_bytes": 3306
+    },
+    {
+      "_path": "share/man/man8/mysqld.8",
+      "path_type": "hardlink",
+      "sha256": "62eb6247c25662db498c88f1c97bdda96da3604d6fb5312241a086e6e9814009",
+      "size_in_bytes": 3847
+    },
+    {
+      "_path": "share/mysql/bulgarian/errmsg.sys",
+      "path_type": "hardlink",
+      "sha256": "9f0606b6b34f8946f3af3480384a75f75e2c3d626379f1a1f809962f89ce91a9",
+      "size_in_bytes": 76745
+    },
+    {
+      "_path": "share/mysql/charsets/Index.xml",
+      "path_type": "hardlink",
+      "sha256": "87167c19c6436fa504c69fa532be5314b87e8a3f9b0d4d13bccfac7ca25db271",
+      "size_in_bytes": 18710
+    },
+    {
+      "_path": "share/mysql/charsets/README",
+      "path_type": "hardlink",
+      "sha256": "0af62ce1ae651e980006f2e9d29bd2f24e1cd18c6a0b1914e9c437cc80e990ab",
+      "size_in_bytes": 1749
+    },
+    {
+      "_path": "share/mysql/charsets/armscii8.xml",
+      "path_type": "hardlink",
+      "sha256": "a192a694c175652d20972d39d474d54c979e1512a17aabd3cd6e213a807ad627",
+      "size_in_bytes": 5525
+    },
+    {
+      "_path": "share/mysql/charsets/ascii.xml",
+      "path_type": "hardlink",
+      "sha256": "53895aa72be3c01befc423e8c34869f960f78b058ab2bf57f75357e9664e8da7",
+      "size_in_bytes": 5511
+    },
+    {
+      "_path": "share/mysql/charsets/cp1250.xml",
+      "path_type": "hardlink",
+      "sha256": "ee409d1778a9369395b4004f3f32db880dc5e414752a32a38412e7f29da0088e",
+      "size_in_bytes": 8240
+    },
+    {
+      "_path": "share/mysql/charsets/cp1251.xml",
+      "path_type": "hardlink",
+      "sha256": "c3573cec09dd0f4f0ce59559c1ad99666d4560641ebffa63f2d7d1683b35dfd5",
+      "size_in_bytes": 8365
+    },
+    {
+      "_path": "share/mysql/charsets/cp1256.xml",
+      "path_type": "hardlink",
+      "sha256": "be63c7010860d742679e175a98ac2fe9ad6aa58898900c9e5c1be2ff7229cf88",
+      "size_in_bytes": 5568
+    },
+    {
+      "_path": "share/mysql/charsets/cp1257.xml",
+      "path_type": "hardlink",
+      "sha256": "719133f919fed79e9dd945b763a02f04db2421abfd596648d51a56f84694cfbe",
+      "size_in_bytes": 8901
+    },
+    {
+      "_path": "share/mysql/charsets/cp850.xml",
+      "path_type": "hardlink",
+      "sha256": "7365a38eed3698d37d2460d8cbcd3973df60acadab931a00930e2f60b88a22ad",
+      "size_in_bytes": 5505
+    },
+    {
+      "_path": "share/mysql/charsets/cp852.xml",
+      "path_type": "hardlink",
+      "sha256": "84652eeb8e4f78edd76fcb241f8eeee0b0884bd04584a773370723edcee4754e",
+      "size_in_bytes": 5527
+    },
+    {
+      "_path": "share/mysql/charsets/cp866.xml",
+      "path_type": "hardlink",
+      "sha256": "a31347b41c8d1a60be745d77b95ab087fd160fca6724ec742bbe8f7ee7916d33",
+      "size_in_bytes": 5612
+    },
+    {
+      "_path": "share/mysql/charsets/dec8.xml",
+      "path_type": "hardlink",
+      "sha256": "3071db78cd99b01e2a8ef7cf1d692df48a217f2dc3ca9e8fc27780c943833a2e",
+      "size_in_bytes": 6528
+    },
+    {
+      "_path": "share/mysql/charsets/geostd8.xml",
+      "path_type": "hardlink",
+      "sha256": "1abc46c919148f246b1305b2ecca01c8ef58e946d167dffb4c7854c612aad51a",
+      "size_in_bytes": 5515
+    },
+    {
+      "_path": "share/mysql/charsets/greek.xml",
+      "path_type": "hardlink",
+      "sha256": "a5b882c5262141f7b9cf71fef094494fd717e84fc1f0c17de6c6c710b29334b0",
+      "size_in_bytes": 5727
+    },
+    {
+      "_path": "share/mysql/charsets/hebrew.xml",
+      "path_type": "hardlink",
+      "sha256": "f1139fe4410becd1b403e38afee770aa1a876e0d5fb72f0a2ab0a02958834678",
+      "size_in_bytes": 5516
+    },
+    {
+      "_path": "share/mysql/charsets/hp8.xml",
+      "path_type": "hardlink",
+      "sha256": "ec8d83608c7bd5c5fef9c347baba29e88093a8a4f411c5971027f03203df87db",
+      "size_in_bytes": 5501
+    },
+    {
+      "_path": "share/mysql/charsets/keybcs2.xml",
+      "path_type": "hardlink",
+      "sha256": "fdc496d0c447f5b557be6a570273cff529a2872d84dcc1602d6195da2a4bae28",
+      "size_in_bytes": 5528
+    },
+    {
+      "_path": "share/mysql/charsets/koi8r.xml",
+      "path_type": "hardlink",
+      "sha256": "fb1da11cf9efd530b0b8488cf60d463ead7f8574e223d84c2b5dcc7685e4a0ea",
+      "size_in_bytes": 5509
+    },
+    {
+      "_path": "share/mysql/charsets/koi8u.xml",
+      "path_type": "hardlink",
+      "sha256": "e03bad75dd80c70323c1ee10ae42ac4ec7791e7f874bd4af314f60aecbad4155",
+      "size_in_bytes": 6531
+    },
+    {
+      "_path": "share/mysql/charsets/latin1.xml",
+      "path_type": "hardlink",
+      "sha256": "5f673506668bbf2be9e8fccd843cbf284d13e84a38351b52bd9319265e27cb19",
+      "size_in_bytes": 9815
+    },
+    {
+      "_path": "share/mysql/charsets/latin2.xml",
+      "path_type": "hardlink",
+      "sha256": "f430c3f85731a238317aedcdedd36f794547c5238b82f614d117abf2e3deabb7",
+      "size_in_bytes": 7237
+    },
+    {
+      "_path": "share/mysql/charsets/latin5.xml",
+      "path_type": "hardlink",
+      "sha256": "673c4308fe92e5da246551407d6fc10a8f5b35ad2c2c0775f8a047519d6582eb",
+      "size_in_bytes": 5514
+    },
+    {
+      "_path": "share/mysql/charsets/latin7.xml",
+      "path_type": "hardlink",
+      "sha256": "6b0397f4ffb8dca69319893093405fc47cd9da6c92175b339137c142bf2e5ed8",
+      "size_in_bytes": 7437
+    },
+    {
+      "_path": "share/mysql/charsets/macce.xml",
+      "path_type": "hardlink",
+      "sha256": "18394e078c95da22db6df3f28c0f21bffa146bbc98bb3526af553a8c40b6d660",
+      "size_in_bytes": 8046
+    },
+    {
+      "_path": "share/mysql/charsets/macroman.xml",
+      "path_type": "hardlink",
+      "sha256": "0f39efaf0718f6188ecf31daa36681f7de33bb86129c53d08d11f7ce3a66715a",
+      "size_in_bytes": 8057
+    },
+    {
+      "_path": "share/mysql/charsets/swe7.xml",
+      "path_type": "hardlink",
+      "sha256": "1508f42a32fbf1c8943a25edbace1064ee4dd1b50b71313d94237d9c636976a1",
+      "size_in_bytes": 6529
+    },
+    {
+      "_path": "share/mysql/czech/errmsg.sys",
+      "path_type": "hardlink",
+      "sha256": "4a2e2f6419d74a2b411c1e0f55f73891acafed55278c67eda4196e8f002cd4ee",
+      "size_in_bytes": 77252
+    },
+    {
+      "_path": "share/mysql/danish/errmsg.sys",
+      "path_type": "hardlink",
+      "sha256": "f73046350cc5664516711ae0b3f69a401e40c273ddc66b53d3f7a13ade3d97db",
+      "size_in_bytes": 77252
+    },
+    {
+      "_path": "share/mysql/dictionary.txt",
+      "path_type": "hardlink",
+      "sha256": "d031a0f90d77595abe02112adf69a86560e3168ba379fd450176a8e070763077",
+      "size_in_bytes": 25575
+    },
+    {
+      "_path": "share/mysql/dutch/errmsg.sys",
+      "path_type": "hardlink",
+      "sha256": "6c8d67be72921d9bfd99c638fe29028cbbee1a45f935781f6e284e6f3769d93e",
+      "size_in_bytes": 78272
+    },
+    {
+      "_path": "share/mysql/english/errmsg.sys",
+      "path_type": "hardlink",
+      "sha256": "435a12e091014a506e810eba1e11aaedd3f8b98b95b79b9e7a4197eea74afd38",
+      "size_in_bytes": 76492
+    },
+    {
+      "_path": "share/mysql/errmsg-utf8.txt",
+      "path_type": "hardlink",
+      "sha256": "10d6af0a61dbab53511a211cf5dcb81e06c674a396dc77baaa170fc573d77f4a",
+      "size_in_bytes": 525731
+    },
+    {
+      "_path": "share/mysql/estonian/errmsg.sys",
+      "path_type": "hardlink",
+      "sha256": "cf1f86933445a30fe2d91cad05a3e5129e887a5ba73fd34d7ad501f45abef068",
+      "size_in_bytes": 76757
+    },
+    {
+      "_path": "share/mysql/fill_help_tables.sql",
+      "path_type": "hardlink",
+      "sha256": "78336f76187b57ee203f4d3805aff4ef227ce562da3fce3b41c13a92e9e66834",
+      "size_in_bytes": 932622
+    },
+    {
+      "_path": "share/mysql/french/errmsg.sys",
+      "path_type": "hardlink",
+      "sha256": "786cae59b723a5dedbb1cfa988cc81c7638a362b5de71362c166062d189c63c6",
+      "size_in_bytes": 77900
+    },
+    {
+      "_path": "share/mysql/german/errmsg.sys",
+      "path_type": "hardlink",
+      "sha256": "30bdf97be799b1f1454f39f77ad8a61191c0089cef212cae804eb1dd5794c594",
+      "size_in_bytes": 84214
+    },
+    {
+      "_path": "share/mysql/greek/errmsg.sys",
+      "path_type": "hardlink",
+      "sha256": "75c4aed4be36c43924b7b8f0a659b07a3c28f9df528ad29eaa96fa93fb4492b3",
+      "size_in_bytes": 83284
+    },
+    {
+      "_path": "share/mysql/hungarian/errmsg.sys",
+      "path_type": "hardlink",
+      "sha256": "be6598afe127396eedfeecf5eb9b4270621783ad595204d9078979c669cb9414",
+      "size_in_bytes": 77134
+    },
+    {
+      "_path": "share/mysql/innodb_memcached_config.sql",
+      "path_type": "hardlink",
+      "sha256": "a9f848f907b99799a434f3ea12b34bc8f2e86c9efbefb8bfccc145326d34e00a",
+      "size_in_bytes": 3999
+    },
+    {
+      "_path": "share/mysql/install_rewriter.sql",
+      "path_type": "hardlink",
+      "sha256": "369e79c92663d558836865d381c9f66475700ea31725541d859a963a622ee867",
+      "size_in_bytes": 1812
+    },
+    {
+      "_path": "share/mysql/italian/errmsg.sys",
+      "path_type": "hardlink",
+      "sha256": "899c6a1ce4d9af896b200ce1b49e764e763ae0e26116c02f8e8e75124171a659",
+      "size_in_bytes": 78263
+    },
+    {
+      "_path": "share/mysql/japanese/errmsg.sys",
+      "path_type": "hardlink",
+      "sha256": "00383481d992cc71ce0a9dfc55031a09dd143674bebb9e378004077926e5c52d",
+      "size_in_bytes": 83939
+    },
+    {
+      "_path": "share/mysql/korean/errmsg.sys",
+      "path_type": "hardlink",
+      "sha256": "460446d44a95324fb0b768e52848ec773d881e5845d315583cad69fbd4370b10",
+      "size_in_bytes": 79533
+    },
+    {
+      "_path": "share/mysql/mysql_security_commands.sql",
+      "path_type": "hardlink",
+      "sha256": "e3b3714840d8c9f56eec03e488b5a37d040296e5bc5806ffff4fd0cbb897711c",
+      "size_in_bytes": 1760
+    },
+    {
+      "_path": "share/mysql/mysql_sys_schema.sql",
+      "path_type": "hardlink",
+      "sha256": "494c232357a57bad864b9af5f52fe24bd72cded97e58ca0f2d4ebccbb886daed",
+      "size_in_bytes": 287110
+    },
+    {
+      "_path": "share/mysql/mysql_system_tables.sql",
+      "path_type": "hardlink",
+      "sha256": "6a59858f7dd95631c72bf4eb96dea04c80eab9a7f6971bab20c724c71e8a528a",
+      "size_in_bytes": 154624
+    },
+    {
+      "_path": "share/mysql/mysql_system_tables_data.sql",
+      "path_type": "hardlink",
+      "sha256": "4e1b0475b103112527e1318bdf1fc4b5ce2a4486de99deaa446caf0d880d9407",
+      "size_in_bytes": 811
+    },
+    {
+      "_path": "share/mysql/mysql_test_data_timezone.sql",
+      "path_type": "hardlink",
+      "sha256": "ddd2e646ed4bd2ab5fae9de47e5df51f2fd638ea0ecd9c5758c4f886f4f85fef",
+      "size_in_bytes": 10410
+    },
+    {
+      "_path": "share/mysql/norwegian-ny/errmsg.sys",
+      "path_type": "hardlink",
+      "sha256": "e1bbb4e65b71e4e2b3485fb4e53a8c99075b10304dff87776f3ec46b21132dd5",
+      "size_in_bytes": 76616
+    },
+    {
+      "_path": "share/mysql/norwegian/errmsg.sys",
+      "path_type": "hardlink",
+      "sha256": "80bc296466ede8028e4b49a199c475f0a1791ac786b681fca46f03a022f569a0",
+      "size_in_bytes": 76563
+    },
+    {
+      "_path": "share/mysql/polish/errmsg.sys",
+      "path_type": "hardlink",
+      "sha256": "8732d3f6840badd66e87880edf139c5b44279703e452aa8b26779e9d7923cd5d",
+      "size_in_bytes": 77211
+    },
+    {
+      "_path": "share/mysql/portuguese/errmsg.sys",
+      "path_type": "hardlink",
+      "sha256": "6321acc196558265f7ca965452593385b1969c62f637a8861047e0334a1e4619",
+      "size_in_bytes": 79455
+    },
+    {
+      "_path": "share/mysql/romanian/errmsg.sys",
+      "path_type": "hardlink",
+      "sha256": "0b9f70e19e7f87b7e5eeda993853db8ecc55c16016d6f44b77d3865f14472937",
+      "size_in_bytes": 78205
+    },
+    {
+      "_path": "share/mysql/russian/errmsg.sys",
+      "path_type": "hardlink",
+      "sha256": "6de36b6570a8dad01bd4ad629cebc2f658e3901436fd594a6c90876163e4e732",
+      "size_in_bytes": 91830
+    },
+    {
+      "_path": "share/mysql/serbian/errmsg.sys",
+      "path_type": "hardlink",
+      "sha256": "2660a14c7c57d75ed8b3504f097c3da5431e367a025ca5d211d137ba7c7ffbb6",
+      "size_in_bytes": 78874
+    },
+    {
+      "_path": "share/mysql/slovak/errmsg.sys",
+      "path_type": "hardlink",
+      "sha256": "fc170a47e34b97b902764558c7cabcc76082bfb2820e51cb6911a15f226871d5",
+      "size_in_bytes": 77019
+    },
+    {
+      "_path": "share/mysql/spanish/errmsg.sys",
+      "path_type": "hardlink",
+      "sha256": "e5af96275739a6afab99979ddc6829dea4c4e9f77ce5c127ccc5abaa1e8e0d5b",
+      "size_in_bytes": 78147
+    },
+    {
+      "_path": "share/mysql/swedish/errmsg.sys",
+      "path_type": "hardlink",
+      "sha256": "9783d6ba16c3f240fb646f794162b8965d18ba17c196a66ec9a9fc6fe39ce65e",
+      "size_in_bytes": 77346
+    },
+    {
+      "_path": "share/mysql/ukrainian/errmsg.sys",
+      "path_type": "hardlink",
+      "sha256": "4473ca3799a731b879730b945bfaa67e59755b8d26e642d5d16f2501e0ba6e39",
+      "size_in_bytes": 86405
+    },
+    {
+      "_path": "share/mysql/uninstall_rewriter.sql",
+      "path_type": "hardlink",
+      "sha256": "3d0e3c2c103a774e4309590c337359615bbf520e3fde1ee21a992aa123241c43",
+      "size_in_bytes": 834
+    }
+  ],
+  "paths_version": 1
+}

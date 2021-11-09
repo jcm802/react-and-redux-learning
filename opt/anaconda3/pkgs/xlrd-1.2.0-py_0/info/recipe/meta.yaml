@@ -1,0 +1,62 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/4730850e-afae-49b3-6714-bbb94b787ad6/volume/aggregate/xlrd-feedstock/recipe, last modified Wed Nov 13 10:26:34 2019
+# ------------------------------------------------
+
+package:
+    name: xlrd
+    version: 1.2.0
+source:
+    sha256: 546eb36cee8db40c3eaa46c351e67ffee6eeb5fa2650b71bc4c758a29a1b29b2
+    url: https://pypi.io/packages/source/x/xlrd/xlrd-1.2.0.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: /opt/concourse/worker/volumes/live/4730850e-afae-49b3-6714-bbb94b787ad6/volume/xlrd_1573662546795/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_/bin/python
+        -m pip install . --no-deps -vv
+    string: py_0
+requirements:
+    host:
+        - ca-certificates 2019.10.16 0
+        - certifi 2019.9.11 py38_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20181209 hb402a30_0
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1d h1de35cc_3
+        - pip 19.3.1 py38_0
+        - python 3.8.0 h359304d_2
+        - readline 7.0 h1de35cc_5
+        - setuptools 41.6.0 py38_0
+        - sqlite 3.30.1 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.33.6 py38_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - python
+test:
+    files:
+        - test.xlsx
+about:
+    description: 'xlrd is a library for reading data and formatting information from
+        Excel files,
+
+        whether they are .xls or .xlsx files.
+
+        '
+    dev_url: https://github.com/python-excel/xlrd/
+    doc_source_url: https://github.com/python-excel/xlrd/blob/master/docs/index.rst
+    doc_url: http://xlrd.readthedocs.io/en/latest/
+    home: http://www.python-excel.org/
+    license: BSD 3-Clause and BSD with advertising
+    license_family: BSD
+    license_file: LICENSE
+    summary: Library for developers to extract data from Microsoft Excel (tm) spreadsheet
+        files
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - cokelaer

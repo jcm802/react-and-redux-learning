@@ -1,0 +1,101 @@
+commit a4d1560f0c99ac73dcab9dccd6a87284198954ac
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Apr 23 20:31:13 2019 -0500
+
+    0.6.0
+
+commit d901a23df9e0c2f3f8b9290f0801af282f022e67
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Apr 23 20:31:05 2019 -0500
+
+    build -> host
+
+commit 4024c6eeb0b5f5f6167bb20354f8d6fe3b716820
+Merge: 16a85c2 88b62dc
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Oct 8 11:51:05 2018 -0300
+
+    Merge pull request #4 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit 88b62dc208d0ba5092ab7eeee9c2255d08736dce
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Oct 8 14:31:37 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.03
+
+commit 913c5ee7b08ba69fdb76fd64469d77a78f02c61a
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Oct 8 11:30:32 2018 -0300
+
+    Update meta.yaml
+
+commit 1f86ddfcdce9256c6ebafae397794a08d60deded
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Oct 8 07:51:39 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.03
+
+commit 153845dc5c473ec3941d3be6ea372cdefbd60301
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Sep 23 06:11:02 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.20
+
+commit 767fd7eb21c9c6391ffe777cc72f552406f2e000
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Sep 23 06:10:55 2018 +0000
+
+    bump build number
+
+commit 16a85c2270e0d681b98e78b2b0199ce47a005b3b
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:33:56 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit aa6ff228418afa46e6803203fee981f9c25c2000
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 22:13:33 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 500255d4e40a27e48d8079bb33f4f1eed8374e03
+Merge: 9e2e0e5 fd8632b
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Wed Feb 22 00:57:38 2017 -0800
+
+    Merge pull request #1 from pmlandwehr/master
+    
+    Tick version to 0.5.0, rerender
+
+commit fd8632b81bf81fc8beb5868236c9dc2079382def
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Tue Feb 21 09:14:44 2017 -0800
+
+    Added setuptools to build reqs
+
+commit 15daf84c698332641e386adef051e76b92c003d7
+Author: Peter Landwehr <pmlandwehr@gmail.com>
+Date:   Mon Feb 20 22:06:58 2017 -0800
+
+    MNT: Re-rendered with conda-smithy 2.1.0
+
+commit a3c24c311c93aebefd8d2b2942f121e38e1c8f41
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Mon Feb 20 21:47:57 2017 -0800
+
+    Tick version to 0.5.0
+
+commit 9e2e0e585bd7b9934c191303f061c61e2799c14f
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Sep 22 01:47:11 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit e4dd9632c9ae455c72ac7870e1960f5f05d48c4a
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Sep 22 01:44:19 2016 +0000
+
+    Initial commit of the defusedxml feedstock.

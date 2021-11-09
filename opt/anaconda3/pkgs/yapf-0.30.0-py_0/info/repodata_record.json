@@ -1,0 +1,25 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "yapf-0.30.0-py_0.conda",
+  "legacy_bz2_md5": "5e04d1bc0b4142aebec027e3b460e572",
+  "legacy_bz2_size": 130363,
+  "license": "Apache 2.0",
+  "md5": "261c39a6172cba9060703ecf9a26fe29",
+  "name": "yapf",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "462df49b9e5ab52a0f6359bb3bea6e037dc412ef4cf11cace2f74e68ac2a1697",
+  "size": 130189,
+  "subdir": "noarch",
+  "timestamp": 1593528205000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/yapf-0.30.0-py_0.conda",
+  "version": "0.30.0"
+}

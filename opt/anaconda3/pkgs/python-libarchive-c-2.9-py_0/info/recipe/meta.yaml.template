@@ -1,0 +1,76 @@
+{% set pypi = "libarchive-c" %}
+{% set name = "python-libarchive-c" %}
+{% set version = "2.9" %}
+{% set sha256 = "9919344cec203f5db6596a29b5bc26b07ba9662925a05e24980b84709232ef60" %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ pypi[0] }}/{{ pypi }}/{{ pypi }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+  patches:
+    #
+    # I (Ray) do not think this patch should be applied. The thing it addresses should have been long fixed by:
+    # https://github.com/AnacondaRecipes/python-libarchive-c-feedstock/blob/master/recipe/0002-prefer-to-load-libarchive-from-conda-pkg-path.patch
+    # .. and if it is not, then that is what needs fixing. If libarchive fails to load due to issues in ctype's find_library
+    #    then this issue that people reported can only be considered a knock-on of the real bug.
+    #
+    # I have tested the above python patch in the face of homebrew, and the only way I can get it to break
+    # is by forcibly setting the `LIBARCHIVE` env. var to homebrew's dylib. Also, Apple have a system libarchive
+    # and I verified also that that does not get loaded.
+    # For reference, to see what dylibs python has loaded on macOS, you can use this shell code:
+    #
+    # lsof -p $(ps aux | grep python | sort | head -1 | tr -s " " | cut -f2 -d' ') |  \
+    #     grep "\.so\|.dylib" | tr -s " " | cut -f9 -d' ' | sort | xargs md5 |  \
+    #     sed -E 's|(MD5 \()([0-9a-zA-Z/.+\_-]*)\) = ([0-9a-f]*)|\3 \2|g' | sort
+    # Applying for now though:
+    - 0002-prefer-to-load-libarchive-from-conda-pkg-path.patch
+
+build:
+  number: 0
+  noarch: python
+  script:
+    - rd /s /q tests  # [win]
+    - "{{ PYTHON }} -m pip install . -vv"
+
+requirements:
+  host:
+    - pip
+    - python
+  run:
+    - libarchive
+    - python
+
+test:
+  source_files:
+    - tests  # [unix]
+    - README.rst
+  files:
+    - test/hello_world.xar
+  imports:
+    - libarchive
+  requires:
+    - mock
+    - pytest-cov
+  commands:
+    - python -c "import libarchive; libarchive.extract_file('test/hello_world.xar')"  # [not win]
+    - python -c "import libarchive; libarchive.extract_file('test\\hello_world.xar')"  # [win]
+    - python -c "import os, shutil, libarchive; shutil.copytree(os.path.dirname(libarchive.__file__), 'libarchive')"  # [unix]
+    - pytest --cov libarchive -vv  # [linux]
+    - pytest --cov libarchive -vv -k "not test_fd and not test_files and not test_buffers"  # [osx]
+
+about:
+  home: https://github.com/Changaco/python-libarchive-c
+  license: CC0-1.0
+  license_family: CC
+  summary: Python interface to libarchive
+  license_file: cc0-1.0.txt
+
+
+extra:
+  recipe-maintainers:
+    - bollwyvl
+    - mingwandroid
+    - ocefpaf

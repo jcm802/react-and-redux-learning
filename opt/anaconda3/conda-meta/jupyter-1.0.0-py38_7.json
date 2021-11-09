@@ -1,0 +1,48 @@
+{
+  "build": "py38_7",
+  "build_number": 7,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "ipykernel",
+    "ipywidgets",
+    "jupyter_console",
+    "nbconvert",
+    "notebook",
+    "python >=3.8,<3.9.0a0",
+    "qtconsole"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/jupyter-1.0.0-py38_7",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/jupyter-1.0.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/jupyter-1.0.0.dist-info/LICENSE",
+    "lib/python3.8/site-packages/jupyter-1.0.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/jupyter-1.0.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/jupyter-1.0.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/jupyter-1.0.0.dist-info/top_level.txt"
+  ],
+  "fn": "jupyter-1.0.0-py38_7.conda",
+  "legacy_bz2_md5": "f0059237a06d1a6404f4776f6e9d06fe",
+  "legacy_bz2_size": 7390,
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/jupyter-1.0.0-py38_7",
+    "type": 1
+  },
+  "md5": "91bd7ef1882071085b3eb9a5a64c5bfb",
+  "name": "jupyter",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/jupyter-1.0.0-py38_7.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "jupyter==1.0.0=py38_7",
+  "sha256": "a5a40cf7b81696450985c41d3e5d6e4cd90b8ba5501f43744376322128c2524d",
+  "size": 7370,
+  "subdir": "osx-64",
+  "timestamp": 1580327555189,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/jupyter-1.0.0-py38_7.conda",
+  "version": "1.0.0"
+}

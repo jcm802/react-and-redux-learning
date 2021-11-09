@@ -1,0 +1,59 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/mock-4.0.2.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/mock-4.0.2.dist-info/LICENSE.txt",
+      "path_type": "hardlink",
+      "sha256": "5831ee149d3850b28df8ff02fb7bd07cecda81e85cc8435c20827d3922202d34",
+      "size_in_bytes": 1342
+    },
+    {
+      "_path": "site-packages/mock-4.0.2.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "57834b3364af550ef3520069680208913ada22653533e50aae676140b6e8914c",
+      "size_in_bytes": 2819
+    },
+    {
+      "_path": "site-packages/mock-4.0.2.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "80b8b93de55e48b80fd6d530734b3052fe46ea90f068635bceb745ee50895ae5",
+      "size_in_bytes": 813
+    },
+    {
+      "_path": "site-packages/mock-4.0.2.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+      "size_in_bytes": 92
+    },
+    {
+      "_path": "site-packages/mock-4.0.2.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "61b1946176b6d6031da0cac42e0f359e77e47c121de491809bb2bc6cc53c8564",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/mock/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "ebd3c27dee9ce566c060d34391255982390e34ee989a8cbff41e8baf0531d4cb",
+      "size_in_bytes": 334
+    },
+    {
+      "_path": "site-packages/mock/backports.py",
+      "path_type": "hardlink",
+      "sha256": "cf1bb71671643c54febf2f4b4d870447e7610d87104b01ed6c62186af113deaf",
+      "size_in_bytes": 2808
+    },
+    {
+      "_path": "site-packages/mock/mock.py",
+      "path_type": "hardlink",
+      "sha256": "9f3591d6adca2f5a58a134f081d3e3cff85b1eb4891586ac4a10ca92eac6cb67",
+      "size_in_bytes": 100579
+    }
+  ],
+  "paths_version": 1
+}

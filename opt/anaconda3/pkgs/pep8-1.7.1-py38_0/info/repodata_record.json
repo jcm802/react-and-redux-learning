@@ -1,0 +1,23 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "pep8-1.7.1-py38_0.conda",
+  "legacy_bz2_md5": "451fa85d5cfdd4bba83467d064dd829b",
+  "legacy_bz2_size": 53180,
+  "license": "MIT",
+  "md5": "0126a627fc5cc670194a341ecaf0d2d7",
+  "name": "pep8",
+  "sha256": "f1776cb313ba639775e8340a96139de6bb4056770a9cd59963a2d5ac67eb4fd0",
+  "size": 54307,
+  "subdir": "osx-64",
+  "timestamp": 1573490527108,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pep8-1.7.1-py38_0.conda",
+  "version": "1.7.1"
+}

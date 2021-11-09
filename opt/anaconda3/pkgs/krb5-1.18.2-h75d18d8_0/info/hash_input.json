@@ -1,0 +1,8 @@
+{
+  "cxx_compiler": "clangxx",
+  "c_compiler": "clang",
+  "c_compiler_version": "10",
+  "cxx_compiler_version": "10",
+  "tk": "8.6",
+  "openssl": "1.1.1"
+}

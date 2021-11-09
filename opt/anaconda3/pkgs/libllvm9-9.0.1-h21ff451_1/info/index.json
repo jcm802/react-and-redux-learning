@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "h21ff451_1",
+  "build_number": 1,
+  "depends": [
+    "libcxx >=4.0.1"
+  ],
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "Apache",
+  "name": "libllvm9",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1594479074350,
+  "version": "9.0.1"
+}

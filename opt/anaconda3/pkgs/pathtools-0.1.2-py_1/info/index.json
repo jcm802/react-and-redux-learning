@@ -1,0 +1,15 @@
+{
+  "arch": null,
+  "build": "py_1",
+  "build_number": 1,
+  "depends": [
+    "python"
+  ],
+  "license": "MIT",
+  "name": "pathtools",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1575416069044,
+  "version": "0.1.2"
+}

@@ -1,0 +1,61 @@
+# This file created by conda-build 3.18.9
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/snowballstemmer-2.0.0-on-linux_64, last modified Mon Oct  7 16:02:48 2019
+# ------------------------------------------------
+
+package:
+    name: snowballstemmer
+    version: 2.0.0
+source:
+    fn: snowballstemmer-2.0.0.tar.gz
+    sha256: df3bac3df4c2c01363f3dd2cfa78cce2840a79b9f1c2d2de9ce8d31683992f52
+    url: https://pypi.io/packages/source/s/snowballstemmer/snowballstemmer-2.0.0.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: /tmp/build/80754af9/snowballstemmer_1570464832510/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/bin/python
+        -m pip install . --no-deps -vv
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2019.8.28 0
+        - certifi 2019.9.11 py27_0
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.1 he6710b0_1
+        - openssl 1.1.1d h7b6447c_2
+        - pip 19.2.3 py27_0
+        - python 2.7.16 h9bab390_7
+        - readline 7.0 h7b6447c_5
+        - setuptools 41.4.0 py27_0
+        - sqlite 3.30.0 h7b6447c_0
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.33.6 py27_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python
+test:
+    imports:
+        - snowballstemmer
+about:
+    description: 'Snowball is a small string processing language designed for creating
+
+        stemming algorithms for use in Information Retrieval. The Snowball
+
+        compiler translates a Snowball script into another language - currently
+
+        ISO C, Java and Python are supported.
+
+        '
+    dev_url: https://github.com/shibukawa/snowball_py
+    home: https://github.com/shibukawa/snowball_py
+    license: BSD-2-Clause
+    summary: Snowball stemming library collection for Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - chohner

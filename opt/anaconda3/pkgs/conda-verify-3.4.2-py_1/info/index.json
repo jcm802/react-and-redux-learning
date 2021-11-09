@@ -1,0 +1,24 @@
+{
+  "arch": null,
+  "build": "py_1",
+  "build_number": 1,
+  "depends": [
+    "backports.functools_lru_cache",
+    "backports.tempfile",
+    "click",
+    "conda-package-handling >=1.0.4",
+    "future",
+    "jinja2",
+    "python",
+    "pyyaml",
+    "six",
+    "tqdm"
+  ],
+  "license": "BSD 3-Clause",
+  "name": "conda-verify",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1563467235318,
+  "version": "3.4.2"
+}

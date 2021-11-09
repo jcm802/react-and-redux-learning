@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.4"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "more-itertools",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1592330643115,
+  "version": "8.4.0"
+}

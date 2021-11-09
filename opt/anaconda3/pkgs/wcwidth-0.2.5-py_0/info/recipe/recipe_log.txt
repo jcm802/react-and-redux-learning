@@ -1,0 +1,336 @@
+commit 3cd92f9af044c93391d5758c6e4cca3af1a45a7d
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Jul 13 12:20:25 2017 +0000
+
+    Make recipe cross-compile capable
+
+commit 68169511497ce6d1a1928c1bd7f0f5f097fc926e
+Merge: 600cd62 b013fa0
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Tue Jun 23 17:00:58 2020 +0000
+
+    [bot-automerge] wcwidth v0.2.5
+    
+    automerged PR by conda-forge/automerge-action
+
+commit b013fa07d748047dd95d79523fb3e8d824fc2131
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jun 23 16:55:33 2020 +0000
+
+    updated v0.2.5
+
+commit 600cd62f23782e38bb0bec2af77c383ff6daa782
+Merge: 459f3bd d47dac9
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Mon Jun 8 07:11:50 2020 +0000
+
+    [bot-automerge] wcwidth v0.2.4
+    
+    automerged PR by conda-forge/automerge-action
+
+commit d47dac95d65a9a2a5a730a2a51573483f9074df3
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jun 8 07:06:45 2020 +0000
+
+    updated v0.2.4
+
+commit 459f3bd955e6fc8df9da60b3405e8afd411cddc7
+Merge: 46d2047 900c45b
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Tue Jun 2 17:09:38 2020 +0000
+
+    [bot-automerge] wcwidth v0.2.3
+    
+    automerged PR by conda-forge/automerge-action
+
+commit 900c45ba709404f8c97f2e1579a543f53b7fd1db
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jun 2 17:04:45 2020 +0000
+
+    updated v0.2.3
+
+commit 46d2047e648a4d1697eaa9f42b4fc550ce96fcee
+Merge: 846573f 30cb17e
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Mon Jun 1 17:51:51 2020 +0000
+
+    [bot-automerge] wcwidth v0.2.2
+    
+    automerged PR by conda-forge/automerge-action
+
+commit 30cb17e958c384b7f95076027e3b43670c092c3c
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Jun 1 14:47:14 2020 -0300
+
+    update metadata
+
+commit 1004d5a13ef517dc86f71d62d2007c06ddec2116
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jun 1 17:33:16 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.3, and conda-forge-pinning 2020.06.01.14.18.30
+
+commit 609100c4c75bff793a4bdfe2cefd00872788f6ba
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jun 1 17:32:51 2020 +0000
+
+    updated v0.2.2
+
+commit 846573fe98a32399d5e38b8f7d7a7250aa4677c7
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Wed May 20 12:25:42 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit ff565628eec22cad17b4742c683f20b6ff951cdc
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon May 18 10:47:42 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit 57ad2d6375885a985482f7e7cd1ea10dc10cbc29
+Merge: e34ada5 3bf78a8
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Mar 26 11:06:31 2020 -0300
+
+    Merge pull request #12 from conda-forge-linter/conda_forge_admin_11
+    
+    [ci skip] [cf admin skip] ***NO_CI*** adding bot automerge
+
+commit 3bf78a800ce317eda7a35c439c7a16e63bf3ae56
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Mar 26 13:54:57 2020 +0000
+
+    [ci skip] ***NO_CI*** added bot automerge
+
+commit e34ada5b23adde59cf259fd50b75f22dfe9ad661
+Merge: db5e467 5809a73
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Mar 26 10:54:42 2020 -0300
+
+    Merge pull request #10 from regro-cf-autotick-bot/0.1.9
+    
+    wcwidth v0.1.9
+
+commit 5809a73612caa3ec13ddffcd51d21f28684d0be4
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Mar 25 21:36:11 2020 +0000
+
+    updated v0.1.9
+
+commit db5e467c9a9cf255bbe6a6a685b2c0b51ca3e6de
+Merge: ee9d71b 7a0025c
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Wed Mar 25 20:16:42 2020 +0000
+
+    BUG duplicate key
+    
+    automerged PR by regro-cf-autotick-bot-action
+
+commit 7a0025cd23cc6590a06b61771f949f9f697af231
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Wed Mar 25 20:11:50 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.1, conda-smithy 3.6.15, and conda-forge-pinning 2020.03.24
+
+commit 83308d3972652ae30ce602f6b3558e0fea083afd
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Wed Mar 25 15:09:49 2020 -0500
+
+    BUG duplicate key
+
+commit ee9d71b030332bbd78e06df814d498176c9a67fd
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue Mar 3 05:49:53 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit aceb9f9b5cfd3c05d28b852e2051bbe7a406424f
+Merge: 2984d2b 464190d
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Jan 4 09:27:37 2020 -0300
+
+    Merge pull request #8 from regro-cf-autotick-bot/0.1.8
+    
+    wcwidth v0.1.8
+
+commit 464190d3490e01ffb76f80b7e453b0e57173c79b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jan 3 22:12:00 2020 +0000
+
+    updated v0.1.8
+
+commit e72103b1efba33d6734d8951963dece51df003f9
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jan 3 22:03:42 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2019.12.18
+
+commit 9eb1f9a9827bdfb7317014653c58a5988e39f053
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jan 3 22:03:27 2020 +0000
+
+    updated v0.1.8
+
+commit 2984d2b569f224a52acac28e8f47564f12b4d4af
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:06:17 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 0d636a7ca0a53de8977892ea17f2f981c113a7de
+Merge: 79ca4a9 1995126
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Jul 8 15:42:00 2018 -0300
+
+    Merge pull request #7 from regro-cf-autotick-bot/noarch_migration
+    
+    Suggestion: add noarch
+
+commit 1995126ac98994e2b3b134e9af3aad885ea22894
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Jul 8 13:34:01 2018 -0500
+
+    Update meta.yaml
+
+commit 87b3fa61ed0ff47025565285efc2129c41731b84
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 8 07:42:49 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.01
+
+commit a6d414dc8ed0355b562ae6161124075f8a1a1048
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 8 07:42:43 2018 +0000
+
+    add noarch
+
+commit 79ca4a9decce23539a9c8185cb87b1e1ab9e6eaa
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 18:48:33 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit d6cbf191a89f6ed69c3c9c87c4b448fea4de99a8
+Merge: d133a74 d4a82e2
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Mar 2 13:31:58 2017 -0300
+
+    Merge pull request #6 from lexual/rerender_py36
+    
+    MNT: Re-rendered with conda-smithy 2.1.1
+
+commit d4a82e2691a62a7067ea4f7bf34633d1e01ee659
+Author: lexual <a.hider@bom.gov.au>
+Date:   Wed Mar 1 20:06:46 2017 +1100
+
+    MNT: Re-rendered with conda-smithy 2.1.1
+
+commit d133a7450ebd7ac0689e3280602d9e6f7ce3db81
+Merge: 4eb1d0f af3ccd3
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Oct 25 03:07:15 2016 -0400
+
+    Merge pull request #5 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit af3ccd3e0127b08d362055400457b5b21a0d54ed
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Oct 25 01:38:39 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.3.3.
+
+commit 4eb1d0febf52559951cf21212c357d0a5826c4ca
+Merge: b7c22ab 9557ff5
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Jul 5 08:49:29 2016 -0300
+
+    Merge pull request #4 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit 9557ff573a0b1367e977982ff2c99b58dd743025
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Jul 5 01:34:50 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.4.
+    
+    [ci skip]
+
+commit b7c22ab9a4c2d8cd09dc85d4922ff1931c2284d3
+Merge: b02a01e d74c4d2
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Jul 4 10:12:39 2016 -0300
+
+    Merge pull request #3 from conda-forge/update
+    
+    Update to 0.1.7
+
+commit d74c4d2d30c09f32cc642ab597b30f0aaefaddc4
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Mon Jul 4 10:04:03 2016 -0300
+
+    Update to 0.1.7
+
+commit b02a01e96f3b0d44ae00009f5be76d16e95a292a
+Merge: 8af31a0 143be27
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue May 17 10:04:56 2016 -0300
+
+    Merge pull request #2 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit 143be27e75e7e59cec382faf221d4b87b475a86f
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue May 17 12:57:41 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.3.
+    
+    [ci skip]
+
+commit 8af31a0e24e11dd68d34ca6b9330312482856ff1
+Merge: f09026e af62e29
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Mar 17 19:25:26 2016 -0300
+
+    Merge pull request #1 from conda-forge-admin/feedstock_rerender
+    
+    MNT: Re-render the feedstock
+
+commit af62e297902619e028e6b6f2348cc11a4828e787
+Author: Phil Elson <pelson.pub@gmail.com>
+Date:   Wed Mar 9 19:29:46 2016 +0100
+
+    MNT: Updated the feedstock for conda-smithy version 0.5.1.
+
+commit f09026e93126ccdbda15196a1335c0c19853d6cf
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Feb 10 05:46:17 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 32b7e2cb34f729d821b8a58fc1947e522c00279a
+Author: Travis CI <noreply@travis-ci.com>
+Date:   Wed Feb 10 05:31:43 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 6caa2f426745d368866dd5727b0fc31b174c9432
+Author: Travis CI <noreply@travis-ci.com>
+Date:   Wed Feb 10 05:27:59 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 81bb63f1a5a9f21c23b3b69468290533963c4ef5
+Author: Travis CI <noreply@travis-ci.com>
+Date:   Tue Feb 9 16:50:15 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit d7779658c60287decd0ffd1540b66c5986e7fcba
+Author: Travis CI <noreply@travis-ci.com>
+Date:   Tue Feb 9 16:49:38 2016 +0000
+
+    Initial commit of the wcwidth feedstock.

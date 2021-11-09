@@ -1,0 +1,529 @@
+commit bac7864fb6d8032595dc41ceab931246f6649848
+Merge: 68b4403 55a9c98
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Jun 16 06:59:08 2020 -0500
+
+    Merge pull request #24 from bluescarni/run_exports
+    
+    Remove gmp/mpir from the run section
+
+commit 55a9c98119e21c5ce118402951e83514091dea65
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Wed Jun 3 12:50:40 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.3, and conda-forge-pinning 2020.06.03.11.59.27
+
+commit 6de5d6a008573ead1e7de4be467970a732a5f096
+Merge: 294f240 68b4403
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Wed Jun 3 14:48:35 2020 +0200
+
+    Merge branch 'master' into run_exports
+
+commit 68b44036da27d97d1c4d94a0ca3737f242820b64
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 07:57:13 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit d1d9045e89ec54676c348e3d55abb11f052503fd
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat May 16 22:44:26 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 8d117ad4cdca80be6ea1ada8dc905f6fb9debcb9
+Merge: e9813bd 90a021a
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Wed Apr 8 22:00:24 2020 +0000
+
+    ENH move to azure
+    
+    automerged PR by regro-cf-autotick-bot-action
+
+commit 90a021a12bae300977fbcafc86b5b104d10650a2
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 8 16:39:42 2020 -0500
+
+    Delete conda_build_config.yaml
+
+commit 7aa3c6deb8cbad6c562b53dd1e952eb9b7d79a68
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Wed Apr 8 18:19:17 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.6.16, and conda-forge-pinning 2020.04.09
+
+commit a11bd68d811db369e56eb6c633bbd47c542bebed
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Wed Apr 8 13:17:01 2020 -0500
+
+    Update meta.yaml
+
+commit d20177f586354454212ae40c323c4d79dde902c4
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Wed Apr 8 13:03:51 2020 -0500
+
+    Update meta.yaml
+
+commit 3bb2e71fb978baeaafb529433d72306cd05cad7a
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Tue Mar 31 10:30:37 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.1, conda-smithy 3.6.15, and conda-forge-pinning 2020.03.30
+
+commit 7636c817a28c4a44d9ff74f6a9fa494ade13d147
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Tue Mar 31 05:28:15 2020 -0500
+
+    Create conda_build_config.yaml
+
+commit 00303a13725a3cae1b72b18abf0db8af45e42798
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Tue Mar 31 05:27:17 2020 -0500
+
+    Update meta.yaml
+
+commit 18db095da0be3537262fccb77879565830a43430
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Tue Mar 31 05:26:34 2020 -0500
+
+    Update meta.yaml
+
+commit 362e2f1355b197c5212fa3d76eac1741b2112776
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Tue Mar 31 05:25:57 2020 -0500
+
+    DO NOT MERGE testing azure w/ new windows compiler
+
+commit e9813bddf51c8dcaf70da1b08ca4d9fedea85e46
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 22:13:35 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 294f2408e32e240b16a18296e290834c7aefb577
+Merge: c4ed78e 5b2e678
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Fri Jan 31 17:03:53 2020 +0100
+
+    Merge branch 'run_exports' of github.com:bluescarni/mpfr-feedstock into run_exports
+
+commit c4ed78e50c3862956e9ae25dd4e5304c459021d9
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Fri Jan 31 17:03:23 2020 +0100
+
+    Restore build number to 0.
+
+commit 5b2e678a3deff0942507a4ae5ea4ea1d5ad84ca4
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Jan 31 11:00:00 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.6, and conda-forge-pinning 2020.01.27
+
+commit b1a4d8466b4edd3876fa03ea82bf42c998609dc4
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Fri Jan 31 11:57:27 2020 +0100
+
+    Remove gmp/mpir from the run section.
+
+commit f90410446794b0ee438676ceecb76a31928da92f
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Oct 2 16:54:19 2019 -0500
+
+    [ci skip] ***NO_CI*** Keep using appveyor.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit 9725cd48d17a307e9dd046b8dcc76af532f52ca0
+Merge: 025bde1 51eab6f
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Sep 22 09:05:15 2019 -0500
+
+    Merge pull request #22 from hmaarrfk/patch-1
+    
+    Add aarch64 and ppc64le
+
+commit 51eab6fd4a6ca3a5ee51ee71d07a9dc09e7288bd
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Sep 21 14:20:30 2019 -0700
+
+    Add make dependency
+
+commit 0e96fe921b33c34932ccbb6d4cd9702653aab5c9
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Sep 21 21:11:39 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.8, and conda-forge-pinning 2019.09.08
+
+commit 73f8b6304be079797a724e39c366897ae4bde279
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Sep 21 14:09:35 2019 -0700
+
+    Add aarch64 and ppc64le
+
+commit 025bde1136ab14ae9167c5d97834edc6bb011a59
+Merge: 52683ab 6c001b7
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Apr 6 14:38:27 2019 -0500
+
+    Merge pull request #21 from regro-cf-autotick-bot/4.0.2
+    
+    mpfr v4.0.2
+
+commit 6c001b7d96900645a22f6f4be676230823cd9a67
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jan 31 23:12:54 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.12, and conda-forge-pinning 2019.01.29
+
+commit 3d91f6604e00a4f76733b917493c1ab58a700d53
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jan 31 23:12:44 2019 +0000
+
+    updated v4.0.2
+
+commit 52683ab3e48a7ab9e726c4fe7fec387a51dfb175
+Merge: 6891e40 4f70d56
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Oct 5 14:24:16 2018 -0300
+
+    Merge pull request #20 from marcelotrevisani/migration-rebuild
+    
+    Migration
+
+commit 4f70d56e839a459ab6f84913550ab2bc33a5b022
+Author: Marcelo Duarte Trevisani <marceloduartetrevisani@gmail.com>
+Date:   Thu Oct 4 12:22:18 2018 +0200
+
+    Delete linux_.yaml
+
+commit 7fba16aca38d266a87d202e609a438ddde1aea44
+Author: Marcelo Duarte Trevisani <marceloduartetrevisani@gmail.com>
+Date:   Thu Oct 4 12:06:57 2018 +0200
+
+    Migration
+
+commit 6891e405a55f138971b59575db11031b8edc6e5c
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:03:01 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 3bffc8ba29931864af60abadb60f29499304511d
+Merge: 2e07c14 9b89c09
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Jun 26 23:46:09 2018 -0600
+
+    Merge pull request #18 from regro-cf-autotick-bot/compiler_migration2
+    
+    Migrate to Jinja2 compiler syntax
+
+commit 9b89c09a92fe15000831b079083cc2aa733f0af5
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Jun 25 22:22:30 2018 -0600
+
+    Update meta.yaml
+
+commit 9a7b69759c4b91d77553de85e24a5f1451f3aacd
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Jun 26 01:35:08 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.06.19
+
+commit 91e3fac1dc5d15c417382a1a19fee298f52f70ce
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Jun 25 19:33:37 2018 -0600
+
+    Update meta.yaml
+
+commit 78f141194fd3648b25915be12eb30a4e4f0855d3
+Author: Travis CI User <travis@example.org>
+Date:   Tue Jun 26 01:14:56 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.06.19
+
+commit e5e45cdc9841017373da01238e5868eb9cf9fc7e
+Author: Travis CI User <travis@example.org>
+Date:   Tue Jun 26 01:14:51 2018 +0000
+
+    migrated to Jinja2 compiler syntax build
+
+commit 2e07c14c983649c5b6bfe0c34ba26e1192839ac8
+Merge: a3765e4 cd28347
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Apr 20 13:43:09 2018 -0500
+
+    Merge pull request #17 from saraedum/4.0.1
+    
+    Upgrade to 4.0.1
+
+commit cd28347704d5535a4f95ef1bf9e7e8f4f53285eb
+Author: Julian Rüth <julian.rueth@fsfe.org>
+Date:   Fri Apr 20 19:36:52 2018 +0200
+
+    Add corei5 mparam.h
+    
+    required by the Windows build
+
+commit b445be29f2d69be93168ff79a0119f9b3b53a303
+Author: Julian Rüth <julian.rueth@fsfe.org>
+Date:   Fri Apr 20 19:16:52 2018 +0200
+
+    Add error handling to bld.bat
+    
+    This seems to be the most sane way to do this for Windows Batch files
+
+commit 5dd586bb93d70d546f704d81fbc5c5fa02efd051
+Author: Julian Rüth <julian.rueth@fsfe.org>
+Date:   Fri Apr 20 19:04:48 2018 +0200
+
+    Create files without the b/ prefix
+
+commit 56dc8888b2cd7b47e5d56fadcacb498c7dd809ac
+Author: Julian Rüth <julian.rueth@fsfe.org>
+Date:   Fri Apr 20 18:51:02 2018 +0200
+
+    Tweak patch to create files in the correct directory
+
+commit f1efd1bdf86f8caf433467daf6088f77983aa57e
+Author: Julian Rüth <julian.rueth@fsfe.org>
+Date:   Fri Apr 20 18:28:24 2018 +0200
+
+    Bundle Windows build files as a patch
+    
+    as BrianGladman's repository is not following upstream's released versions
+    exactly.
+
+commit f5e85d49116059d73d67836b23f4499a41fec415
+Author: Travis CI User <travis@example.org>
+Date:   Sat Mar 17 03:50:37 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit 018a09b1a9096c73d715b30562af358b6981c4fc
+Author: Travis CI User <travis@example.org>
+Date:   Sat Mar 17 03:49:08 2018 +0000
+
+    updated v4.0.1
+
+commit a3765e472ef26bb2e10b338cdab7411a5bab7a48
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:16:06 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 0246e9f80c5f58056c3405b30e647c85f3e7a553
+Merge: 7b25f15 ada265b
+Author: Isuru Fernando <isuru.11@cse.mrt.ac.lk>
+Date:   Sun Jul 30 12:47:35 2017 +0530
+
+    [ci skip] Merge pull request #14 from jakirkham/re-render__master__2.3.2
+    
+    MNT: Re-rendered with conda-smithy 2.3.2 [ci skip]
+
+commit ada265b2b1203791789243502b8593a56476c70a
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Jul 29 16:15:24 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.3.2
+
+commit 7b25f151d99fb4cb4b6b83f32b0d331c9e867051
+Merge: a96a744 7443f8d
+Author: Isuru Fernando <isuru.11@cse.mrt.ac.lk>
+Date:   Tue Jan 3 11:38:28 2017 +0530
+
+    Merge pull request #6 from isuruf/update
+    
+    Update to 3.1.5
+
+commit 7443f8d3535ad07fc84e255a9a326cd3db2c62d2
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Jan 2 19:37:36 2017 +0530
+
+    MNT: Re-rendered with conda-smithy 1.6.1
+
+commit e1e7911b117b1886d052aa2fe83f521d9a473df5
+Merge: eddf2b5 a96a744
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Jan 2 19:30:57 2017 +0530
+
+    Merge remote-tracking branch 'upstream/master' into update
+
+commit a96a7443c2e1af666dcee20268bffa052866776f
+Merge: 3f4d929 63289e7
+Author: Isuru Fernando <isuru.11@cse.mrt.ac.lk>
+Date:   Sat Dec 3 21:46:19 2016 +0530
+
+    Merge pull request #10 from isuruf/license
+    
+    Add license
+
+commit 63289e7f7cb26c6b59f526c0a6c18d29792ff7ee
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Nov 29 18:50:57 2016 +0530
+
+    Copy config.h and longlong.h from mpir
+
+commit 2d14c6b6e7d6b34006454c66bb6b7c5fcbdd0cba
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Nov 27 08:43:04 2016 +0530
+
+    Find in SRC_DIR
+
+commit 36f8c66561ce23c0246fb32ee83719aea1159b3c
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Nov 26 16:20:46 2016 +0530
+
+    Add license
+
+commit 3f4d929015218497645fb26a1efc7ac7ba7b1fca
+Merge: 642f5b4 5ae5f0c
+Author: Isuru Fernando <isuru.11@cse.mrt.ac.lk>
+Date:   Sun Nov 20 10:56:21 2016 +0530
+
+    Merge pull request #9 from isuruf/osx
+    
+    Use 10.9 as the minimum version
+
+commit 5ae5f0c67c6e58a18600e60b820944f5adc7cc86
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Nov 20 07:57:43 2016 +0530
+
+    Add toolchain
+
+commit 47a0250ccc275a2a63be41d6403a33fd2a43bf13
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Nov 15 20:00:19 2016 +0530
+
+    Bump build number
+
+commit 931a811a5510c7687c580df92dc8f95e4809596b
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Nov 15 19:59:51 2016 +0530
+
+    rename source archive name
+
+commit e6d7e7a7ce6a252f8ea9bdf7927017078784b1a2
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Nov 15 17:51:51 2016 +0530
+
+    MNT: Re-rendered with conda-smithy 1.5.1
+
+commit d084b0e2890751659e6bf8c2a4ef4add1fed703d
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Nov 15 17:46:08 2016 +0530
+
+    Fix meta.yaml so that appveyor.yml is not removed when rerendering
+
+commit 520efa921290754c0d835912b898caddf6e865bc
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Nov 15 17:43:48 2016 +0530
+
+    Use 10.9 as the minimum version
+
+commit eddf2b5870ab3cf835d5356b9e2f07905b081ad9
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Oct 14 10:39:35 2016 +0530
+
+    Add appveyor back in
+
+commit 71f00c8ecbd006e0fa54d4233100f130b35c22fe
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Oct 14 10:32:14 2016 +0530
+
+    MNT: Re-rendered with conda-smithy 1.3.2
+
+commit 88fb1fb58e9df3d088d959f49f3bd1035401dfb6
+Author: Isuru Fernando <isuru.11@cse.mrt.ac.lk>
+Date:   Fri Oct 14 10:11:08 2016 +0530
+
+    Update meta.yaml
+
+commit 92daae94d16d7097b0454da03919a252c2c8a597
+Author: Isuru Fernando <isuru.11@cse.mrt.ac.lk>
+Date:   Fri Oct 14 10:10:05 2016 +0530
+
+    Update to 3.1.5
+
+commit 642f5b43377100b7f7314a5b866bf5e687d14ed6
+Merge: b0c86fd b887a5e
+Author: Isuru Fernando <isuru.11@cse.mrt.ac.lk>
+Date:   Sun Jun 12 20:19:07 2016 +0530
+
+    Merge pull request #3 from isuruf/windows
+    
+    Windows build for mpfr
+
+commit b887a5e6fe522feba82e001c82c162a2206413df
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Jun 5 21:01:16 2016 +0530
+
+    Replace python requirement with vc 14
+
+commit 25206b287cff250908b6a6c8da2c8779f1cd8684
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Jun 5 14:07:24 2016 +0530
+
+    Fix bld.bat
+
+commit 073f1bdda2af897e82034c0ecc6799af5283bf56
+Author: Isuru Fernando <isuru.11@cse.mrt.ac.lk>
+Date:   Sun Jun 5 13:19:04 2016 +0530
+
+    Update meta.yaml
+
+commit b018dffb1c280b1af974e6c95cca5d7c7e53ee76
+Author: Isuru Fernando <isuru.11@cse.mrt.ac.lk>
+Date:   Sun Jun 5 13:08:19 2016 +0530
+
+    Update bld.bat
+
+commit b0c86fd1343a3440084b2dbc8631e5f2e46bfe89
+Merge: a8be557 0c5208a
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon May 16 07:11:05 2016 -0400
+
+    Merge pull request #4 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit 0c5208a454b56d60c81b2101c691e7df8936b588
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon May 16 06:43:59 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.3.
+    
+    [ci skip]
+
+commit bc42d388aeea746a0d7567fcbde18c04b2606429
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Mar 30 21:12:05 2016 +0530
+
+    Windows build for mpfr
+
+commit a8be55727531204a38dffbae73e6a51dc4e07c16
+Merge: b07a2c9 994f35e
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Mar 27 19:12:40 2016 -0400
+
+    Merge pull request #1 from jakirkham/use_clang
+    
+    Use `clang` on Mac
+
+commit 994f35e3ed2e38635293cac9f674fc8935d330c1
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Mar 27 18:49:51 2016 -0400
+
+    recipe: Use `clang` on Mac.
+
+commit b07a2c984a191cf71385bf4ba47a0a375f0a49d2
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Mar 27 20:10:00 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit cb15b576074dd6442d1118f56fd952823b483687
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Mar 27 20:09:25 2016 +0000
+
+    Initial commit of the mpfr feedstock.

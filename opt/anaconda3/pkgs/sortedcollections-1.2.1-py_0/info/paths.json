@@ -1,0 +1,59 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/sortedcollections-1.2.1.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/sortedcollections-1.2.1.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "eb8178fd2d080e56088eb0c7ab43079ceca7105ccbc2843220ee895f4ca4836b",
+      "size_in_bytes": 557
+    },
+    {
+      "_path": "site-packages/sortedcollections-1.2.1.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "949787688fd473237b6bd83b2486e076ccf747cb2a84375ce61ad756e6c2a8bb",
+      "size_in_bytes": 4811
+    },
+    {
+      "_path": "site-packages/sortedcollections-1.2.1.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "76a492fd83f3f5da65588b265708e10783a815fdd29460e65dd003a8590b474a",
+      "size_in_bytes": 974
+    },
+    {
+      "_path": "site-packages/sortedcollections-1.2.1.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+      "size_in_bytes": 92
+    },
+    {
+      "_path": "site-packages/sortedcollections-1.2.1.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "edb9fc8d56a96ae486411243d44e52be105e7f25a7d9aa374d17271687f73c62",
+      "size_in_bytes": 18
+    },
+    {
+      "_path": "site-packages/sortedcollections/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "93d3329c9eb3a00bfd85e82fc1df5b08decacac8f7ea7cd346d704c4826adb33",
+      "size_in_bytes": 662
+    },
+    {
+      "_path": "site-packages/sortedcollections/ordereddict.py",
+      "path_type": "hardlink",
+      "sha256": "1dec52430df20e4bb98f097f3c2ee378a556f360b4a9d5a2539b8b01b67c05c9",
+      "size_in_bytes": 6574
+    },
+    {
+      "_path": "site-packages/sortedcollections/recipes.py",
+      "path_type": "hardlink",
+      "sha256": "062cd01580cc1bd93748e0b69418e03c326a1283103dd9934b0803d141c9f0a8",
+      "size_in_bytes": 10421
+    }
+  ],
+  "paths_version": 1
+}

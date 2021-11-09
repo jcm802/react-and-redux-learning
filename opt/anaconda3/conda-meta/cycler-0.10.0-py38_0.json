@@ -1,0 +1,44 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "six"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/cycler-0.10.0-py38_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/__pycache__/cycler.cpython-38.pyc",
+    "lib/python3.8/site-packages/cycler-0.10.0-py3.8.egg-info/PKG-INFO",
+    "lib/python3.8/site-packages/cycler-0.10.0-py3.8.egg-info/SOURCES.txt",
+    "lib/python3.8/site-packages/cycler-0.10.0-py3.8.egg-info/dependency_links.txt",
+    "lib/python3.8/site-packages/cycler-0.10.0-py3.8.egg-info/requires.txt",
+    "lib/python3.8/site-packages/cycler-0.10.0-py3.8.egg-info/top_level.txt",
+    "lib/python3.8/site-packages/cycler.py"
+  ],
+  "fn": "cycler-0.10.0-py38_0.conda",
+  "legacy_bz2_md5": "5e97fb5ba80a08883badb351a5a767aa",
+  "legacy_bz2_size": 14002,
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/cycler-0.10.0-py38_0",
+    "type": 1
+  },
+  "md5": "1c053f691ee4be4fcaa8733ebfa9ef07",
+  "name": "cycler",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/cycler-0.10.0-py38_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "cycler==0.10.0=py38_0",
+  "sha256": "2518df519dd1e98cc247ed0673a3674c89a992a4067a27ecbc81a0832c87dd76",
+  "size": 14003,
+  "subdir": "osx-64",
+  "timestamp": 1573741649705,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/cycler-0.10.0-py38_0.conda",
+  "version": "0.10.0"
+}

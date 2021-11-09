@@ -1,0 +1,32 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "clyent >=1.2.0",
+    "nbformat >=4.4.0",
+    "python >=3.8,<3.9.0a0",
+    "python-dateutil >=2.6.1",
+    "pytz",
+    "pyyaml >=3.12",
+    "requests >=2.9.1",
+    "setuptools",
+    "six"
+  ],
+  "features": "",
+  "fn": "anaconda-client-1.7.2-py38_0.conda",
+  "legacy_bz2_md5": "f13e28641cadba56def9f2d756d8cf68",
+  "legacy_bz2_size": 153475,
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "b3b287754007d2fc3f2713f2324de6d5",
+  "name": "anaconda-client",
+  "sha256": "f669c321333b21e4aca088ba68e7fa6951ff5a8fe232a7e695e2b6a05581ed33",
+  "size": 157268,
+  "subdir": "osx-64",
+  "timestamp": 1580246643510,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/anaconda-client-1.7.2-py38_0.conda",
+  "version": "1.7.2"
+}

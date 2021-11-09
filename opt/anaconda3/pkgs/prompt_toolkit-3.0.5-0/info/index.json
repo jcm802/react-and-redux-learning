@@ -1,0 +1,15 @@
+{
+  "arch": null,
+  "build": "0",
+  "build_number": 0,
+  "depends": [
+    "prompt-toolkit >=3.0.5,<3.0.6.0a0"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "prompt_toolkit",
+  "noarch": "generic",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1591120837213,
+  "version": "3.0.5"
+}

@@ -1,0 +1,83 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/9739f82e-63cd-49f5-4e90-a0329ac7d75c/volume/rsync-recipes/lz4-c-1.9.2-on-osx, last modified Wed Apr 15 23:32:14 2020
+# ------------------------------------------------
+
+package:
+    name: lz4-c
+    version: 1.9.2
+source:
+    fn: lz4-1.9.2.tar.gz
+    patches:
+        - patches/0001-Add-WindowsTargetPlatformVersion-of-10.0-and-lz4-exe.1.patch
+        - patches/0001-Add-WindowsTargetPlatformVersion-of-10.0-and-lz4-exe.2.patch
+    sha256: 658ba6191fa44c92280d4aa2c271b0f4fbc0e34d249578dd05e50e76d0e5efcc
+    url: https://github.com/lz4/lz4/archive/v1.9.2.tar.gz
+build:
+    number: '0'
+    run_exports:
+        - lz4-c >=1.9.2,<1.10.0a0
+    string: h0a44026_0
+requirements:
+    build:
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_18
+        - clangxx 4.0.1 1
+        - clangxx_osx-64 4.0.1 h22b1bf0_18
+        - compiler-rt 4.0.1 hcfea43d_1
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+        - make 4.2.1 h3efe00b_1
+        - patch 2.7.6 h1de35cc_1001
+    host:
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - ripgrep 11.0.2 he32d670_0
+    run:
+        - libcxx >=4.0.1
+test:
+    commands:
+        - lz4 -h
+        - lz4c -h
+        - lz4cat -h
+        - unlz4 -h
+        - test -f ${PREFIX}/include/lz4.h
+        - test -f ${PREFIX}/include/lz4hc.h
+        - test -f ${PREFIX}/include/lz4frame.h
+        - test -f ${PREFIX}/lib/liblz4.a
+        - test -f ${PREFIX}/lib/liblz4.dylib
+        - test -f ${PREFIX}/lib/pkgconfig/liblz4.pc
+        - pkg-config --cflags --libs liblz4
+    requires:
+        - pkg-config
+about:
+    description: 'LZ4 is lossless compression algorithm, providing compression speed
+        at 400
+
+        MB/s per core (0.16 Bytes/cycle). It features an extremely fast decoder,
+
+        with speed in multiple GB/s per core (0.71 Bytes/cycle). A high compression
+
+        derivative, called LZ4_HC, is available, trading customizable CPU time for
+
+        compression ratio. LZ4 library is provided as open source software using a
+
+        BSD license.
+
+        '
+    home: https://www.lz4.org
+    license: BSD-2-Clause
+    license_file: lib/LICENSE
+    summary: Extremely Fast Compression algorithm
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - mingwandroid
+        - rmax
+        - wesm
+        - xhochy

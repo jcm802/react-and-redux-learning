@@ -1,0 +1,55 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/applaunchservices-0.2.1-on-linux_64, last modified Tue Dec  3 22:55:07 2019
+# ------------------------------------------------
+
+package:
+    name: applaunchservices
+    version: 0.2.1
+source:
+    sha256: 3da9d5435aec18eb70000f51cdf5ca428ba4bf03f36d922eb04635f8b5af4296
+    url: https://pypi.io/packages/source/a/applaunchservices/applaunchservices-0.2.1.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: /tmp/build/80754af9/applaunchservices_1575415265700/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/bin/python
+        -m pip install . -vv
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2019.11.27 0
+        - certifi 2019.11.28 py27_0
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.1 he6710b0_1
+        - openssl 1.1.1d h7b6447c_3
+        - pip 19.3.1 py27_0
+        - python 2.7.17 h9bab390_0
+        - readline 7.0 h7b6447c_5
+        - setuptools 42.0.2 py27_0
+        - sqlite 3.30.1 h7b6447c_0
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.33.6 py27_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python
+test:
+    imports:
+        - applaunchservices
+about:
+    dev_url: https://github.com/impact27/applaunchservices
+    home: https://github.com/impact27/applaunchservices
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE.txt
+    summary: Simple package for registering an app with apple Launch Services to handle
+        UTI and URL
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - goanpeca
+        - impact27

@@ -1,0 +1,26 @@
+{
+  "build": "py38h3134771_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "hdf5 >=1.10.4,<1.10.5.0a0",
+    "numpy >=1.11.3,<2.0a0",
+    "python >=3.8,<3.9.0a0",
+    "six"
+  ],
+  "features": "",
+  "fn": "h5py-2.10.0-py38h3134771_0.conda",
+  "legacy_bz2_md5": "3269cfe46186a1ca7d14bea2dcd463dd",
+  "legacy_bz2_size": 1042733,
+  "license": "BSD-3-Clause",
+  "md5": "31e6914490e921b26408214809ff5835",
+  "name": "h5py",
+  "sha256": "b310ca82ef56bffb09b9e1908e51ddb73f0dc7c6b2f62546790a676d47f73dfc",
+  "size": 852835,
+  "subdir": "osx-64",
+  "timestamp": 1580260243150,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/h5py-2.10.0-py38h3134771_0.conda",
+  "version": "2.10.0"
+}

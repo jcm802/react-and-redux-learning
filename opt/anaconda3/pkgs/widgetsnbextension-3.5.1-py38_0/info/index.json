@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py38_0",
+  "build_number": 0,
+  "depends": [
+    "notebook >=4.4.1",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "license": "BSD 3-clause",
+  "license_family": "BSD",
+  "name": "widgetsnbextension",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1580237132108,
+  "version": "3.5.1"
+}

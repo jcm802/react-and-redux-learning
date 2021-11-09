@@ -1,0 +1,301 @@
+commit 148b55ff591f58b930afec97830f9c0cc62e7780
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 08:14:42 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit 5345e11e433902e0944555a8b8fcb2c62ed09050
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sun May 17 11:16:17 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 6a4652b80ab5e05cb1b236c86425e6c30919fd74
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 23:32:52 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit b64b55529df61332c54d5e8a249f737842571b6e
+Merge: 06abc30 cf8afee
+Author: Ryan May <rmay31@gmail.com>
+Date:   Fri Jan 10 08:19:09 2020 -0700
+
+    Merge pull request #16 from regro-cf-autotick-bot/5.0.2
+    
+    pydocstyle v5.0.2
+
+commit cf8afee4c3de2f33ab87d4837a6a42346e7a7ee9
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jan 10 09:14:17 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2020.01.08
+
+commit 38b53875fb9d4e75ee79370109334bb27163e9fe
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jan 10 09:13:47 2020 +0000
+
+    updated v5.0.2
+
+commit 06abc30d2ac4eed8a808668b587f68693e1eac14
+Merge: 74d0d83 79041aa
+Author: Ryan May <rmay31@gmail.com>
+Date:   Mon Dec 9 16:30:23 2019 -0800
+
+    Merge pull request #15 from regro-cf-autotick-bot/5.0.1
+    
+    pydocstyle v5.0.1
+
+commit 79041aaef8d4999a7bac88a543abe8fec88a9e6b
+Author: Ryan May <rmay@ucar.edu>
+Date:   Mon Dec 9 16:21:05 2019 -0800
+
+    Bump Python dependency
+    
+    5.x series has dropped Python 3.4
+
+commit 2693dae3cfd2fe78e3ad31a8e3c28ecb9582c3df
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Dec 9 20:16:35 2019 +0000
+
+    updated v5.0.1
+
+commit 74d0d83c0f26705461f6d0d60e8e24519e3ab31f
+Merge: 02e1814 a529031
+Author: Ryan May <rmay@ucar.edu>
+Date:   Thu Aug 15 18:03:12 2019 -0500
+
+    Merge pull request #13 from dopplershift/bump
+    
+    Bump to 4.0.1
+
+commit a52903161ad5ab5d8639c612c1cc11662912e244
+Author: Ryan May <rmay@ucar.edu>
+Date:   Thu Aug 15 17:48:42 2019 -0500
+
+    Clean up recipe
+    
+    Improve test and address some of the linter's suggestions.
+
+commit f9ac2a329c326bd00988c4acadd0c3f81b323beb
+Author: Ryan May <rmay@ucar.edu>
+Date:   Thu Aug 15 17:06:06 2019 -0500
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.08.11
+
+commit c6c9ea01b689439c3096ce76d2cc4c07fd8b1cf3
+Author: Ryan May <rmay@ucar.edu>
+Date:   Thu Aug 15 17:05:34 2019 -0500
+
+    Convert to noarch:python
+
+commit dfc2dad94b605803f66956dfb37190d4dd3eaef1
+Author: Ryan May <rmay@ucar.edu>
+Date:   Thu Aug 15 16:25:52 2019 -0500
+
+    Update to 4.0.1
+    
+    The 4.x series dropped support for Python 2.7.
+
+commit 02e1814c7ac99f0db961b84f185b4bebee8cef48
+Merge: b264736 b1fdb73
+Author: Ryan May <rmay31@gmail.com>
+Date:   Tue Oct 16 17:28:35 2018 -0600
+
+    Merge pull request #11 from regro-cf-autotick-bot/3.0.0
+    
+    pydocstyle v3.0.0
+
+commit b1fdb73093c3529a8f59d088ac0dce305b42a149
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Oct 14 12:27:54 2018 +0000
+
+    updated v3.0.0
+
+commit b264736029a9fd337997cea391913241a2627d39
+Merge: fc28e32 a732ad0
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Wed Oct 3 13:15:11 2018 -0400
+
+    Merge pull request #10 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit a732ad0d8be40fe070b3a5d8e6f1d76c72b1d57d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Oct 3 06:13:40 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.01
+
+commit e64588ea7eda703b3ac9359ba3bbe6e572af73a1
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Oct 3 06:13:14 2018 +0000
+
+    bump build number
+
+commit fc28e320ca5fe678f4b73d419ba6af6fa129945f
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:21:12 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 49ffa9a367076b83e6559265c82548bba04b500b
+Merge: 3815d72 ce142df
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Jan 4 14:34:11 2018 -0800
+
+    Merge pull request #9 from dopplershift/update
+    
+    Update to 2.1.1
+
+commit ce142df8f5b7d2a85efd31236be80e74ffd83f54
+Author: Ryan May <rmay@ucar.edu>
+Date:   Thu Jan 4 11:43:56 2018 -0700
+
+    ENH: Update to 2.1.1
+
+commit e0f4152b0686cf49649bd0047e1defbd305e575e
+Author: Ryan May <rmay@ucar.edu>
+Date:   Thu Jan 4 11:43:34 2018 -0700
+
+    Re-rendered with conda-smithy 2.4.5.
+
+commit 3815d72b494d0109106ce5972700a2af364e7e5d
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:55:30 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit c36c6301dd62ee93cf7c6e73994d9fbb810c5bd6
+Merge: eb43354 a78dbce
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu May 4 23:10:58 2017 -0400
+
+    Merge pull request #8 from dopplershift/update
+    
+    Update to 2.0.0
+
+commit a78dbce347b12de091dd89e6a8b822e4781d1ce3
+Author: Ryan May <rmay@ucar.edu>
+Date:   Thu May 4 11:26:57 2017 -0600
+
+    ENH: Update to 2.0.0
+
+commit d10cbbbb3c729c885e9217c952463e75d5453e36
+Author: Ryan May <rmay@ucar.edu>
+Date:   Thu May 4 11:23:25 2017 -0600
+
+    ENH: Add dopplershift to maintainers
+
+commit 5561feb7fc5b670960a40522110074692c27a2e7
+Author: Ryan May <rmay@ucar.edu>
+Date:   Thu May 4 11:23:05 2017 -0600
+
+    MNT: Re-rendered with conda-smithy 2.3.0
+
+commit eb43354142bf5ff0542ef19704144fc80fd35a41
+Merge: 24196b6 f72f163
+Author: Gonzalo Peña-Castellanos <goanpeca@gmail.com>
+Date:   Fri Jan 20 12:16:17 2017 -0500
+
+    Merge pull request #6 from goanpeca/regenerate
+    
+    MNT: Re-rendered with conda-smithy 2.0.0
+
+commit f72f1637cf1f75975cae2eb2a9930dbe626edb67
+Author: Gonzalo Pena-Castellanos <goanpeca@gmail.com>
+Date:   Wed Jan 18 18:09:54 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 2.0.0
+
+commit 24196b64d6f3d19e82a55c7c27ba11d27568b30a
+Merge: fbe8baa 934142f
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Nov 21 09:35:55 2016 -0500
+
+    Merge pull request #5 from jakirkham/fix_lint
+    
+    Fix lint
+
+commit 934142fb7c7c2886dd94b0a56465f6b14c659e0c
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Nov 18 01:51:03 2016 -0500
+
+    MNT: Re-rendered with conda-smithy 1.5.3
+    
+    Re-rendered as the `license` metadata has changed.
+
+commit 4c8f3fd9edbc56933ecf142b3cdc955ef8cd743b
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Nov 18 01:49:03 2016 -0500
+
+    recipe: Drop "License" from `license` metadata.
+
+commit fbe8baaa12854ad539ca650c147118e517c175ba
+Merge: d14809d 19c962a
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Nov 18 01:47:45 2016 -0500
+
+    Merge pull request #4 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 19c962a915bb0aeed817d17ec819ea28ea517294
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Nov 18 01:35:10 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.5.3.
+
+commit d14809dcc994266f6340cd1763988b397c4e6782
+Merge: 04096e7 baa711a
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Oct 20 09:17:48 2016 -0400
+
+    Merge pull request #3 from goanpeca/update-1.1.1
+    
+    Update to version 1.1.1
+
+commit baa711a3c473b0ea8c94a625cf208dba5330ac59
+Author: Gonzalo Pena-Castellanos <goanpeca@gmail.com>
+Date:   Wed Oct 19 15:07:33 2016 -0400
+
+    MNT: Re-rendered with conda-smithy 1.3.3
+
+commit 48395e16728e30dce9bf28e6da3adb39ce0ce867
+Author: Gonzalo Pena-Castellanos <goanpeca@gmail.com>
+Date:   Thu Oct 13 21:07:58 2016 -0400
+
+    MNT: Re-rendered with conda-smithy 1.3.2
+
+commit b9766499adf9903e10bd6cb0a42d1399d97a2bc2
+Author: Gonzalo Pena-Castellanos <goanpeca@gmail.com>
+Date:   Thu Oct 13 20:51:25 2016 -0400
+
+    Update to version 1.1.1
+
+commit 04096e7698bf3fa404e0c4f858f9c2009670652c
+Merge: cc70534 1b22b01
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Aug 10 02:20:51 2016 -0400
+
+    Merge pull request #1 from jakirkham/add_jakirkham
+    
+    Add @jakirkham
+
+commit 1b22b01ddad3fcfeb5ca2b2e2a6ef58510b72fa2
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Aug 9 18:27:01 2016 -0400
+
+    recipe: Add @jakirkham as a maintainer.
+
+commit cc705340fad276b36d6a843c57a0c83fbdf022dd
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Jul 2 15:43:14 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 403dd0ab39b4d8dd8232df7ac2b4e7fc39101d16
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Jul 2 15:41:46 2016 +0000
+
+    Initial commit of the pydocstyle feedstock.

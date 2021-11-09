@@ -1,0 +1,26 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "sphinx"
+  ],
+  "features": "",
+  "fn": "numpydoc-1.1.0-py_0.conda",
+  "legacy_bz2_md5": "69f9085b7bbe4067163fcb338444f61d",
+  "legacy_bz2_size": 42249,
+  "license": "BSD 3-Clause",
+  "md5": "6303edcb01e121e5126185b4ac60800a",
+  "name": "numpydoc",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "36680fd241758e00e962a8c85044153d14cd71ac6c7b6b2d58a27ccdaf311dc5",
+  "size": 42562,
+  "subdir": "noarch",
+  "timestamp": 1594166787672,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/numpydoc-1.1.0-py_0.conda",
+  "version": "1.1.0"
+}

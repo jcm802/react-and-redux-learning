@@ -1,0 +1,24 @@
+{
+  "build": "ha233b18_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libpng >=1.6.37,<1.7.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "features": "",
+  "fn": "freetype-2.10.2-ha233b18_0.conda",
+  "legacy_bz2_md5": "a48f3d82143a926e167af7e1997bff47",
+  "legacy_bz2_size": 896657,
+  "license": "GPL-2.0-only and LicenseRef-FreeType",
+  "md5": "f562bc9f707dc6eca57e4fbe3e3d96ab",
+  "name": "freetype",
+  "sha256": "a9ddf0de7fa7571982be1609a9802cff44230cda5df1ea6e191fa1173a80e8c0",
+  "size": 583373,
+  "subdir": "osx-64",
+  "timestamp": 1592507677937,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/freetype-2.10.2-ha233b18_0.conda",
+  "version": "2.10.2"
+}

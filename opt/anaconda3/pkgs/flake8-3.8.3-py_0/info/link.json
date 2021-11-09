@@ -1,0 +1,9 @@
+{
+  "noarch": {
+    "entry_points": [
+      "flake8 = flake8.main.cli:main"
+    ],
+    "type": "python"
+  },
+  "package_metadata_version": 1
+}

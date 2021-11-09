@@ -1,0 +1,24 @@
+{
+  "build": "py38h1de35cc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "toolz >=0.10.0"
+  ],
+  "features": "",
+  "fn": "cytoolz-0.10.1-py38h1de35cc_0.conda",
+  "legacy_bz2_md5": "441743c1d7931046db3429fd2d3d0b99",
+  "legacy_bz2_size": 369407,
+  "license": "BSD-3-Clause",
+  "md5": "abe3407f77030cca3af96ce4a86f6958",
+  "name": "cytoolz",
+  "sha256": "389eb26897c79014aa6b4a1db262db2f9dc3b6a8997b80cffd26b74859a76c29",
+  "size": 323904,
+  "subdir": "osx-64",
+  "timestamp": 1573938363195,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/cytoolz-0.10.1-py38h1de35cc_0.conda",
+  "version": "0.10.1"
+}

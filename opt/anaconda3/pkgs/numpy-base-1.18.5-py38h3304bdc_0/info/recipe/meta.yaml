@@ -1,0 +1,88 @@
+# This file created by conda-build 3.18.11
+# ------------------------------------------------
+
+package:
+    name: numpy-base
+    version: 1.18.5
+source:
+    -   patches:
+            - 0001-intel_mkl-version.patch
+            - 0003-intel_init_mkl.patch
+            - 0007-Obtain-and-prefer-custom-gfortran-from-env-variable.patch
+        sha256: 34e96e9dae65c4839bd80012023aadd6ee2ccb73ce7fdf3074c62f301e63120b
+        url: https://pypi.io/packages/source/n/numpy/numpy-1.18.5.zip
+build:
+    force_use_keys:
+        - python
+    noarch: false
+    number: '0'
+    script: install_base.sh
+    string: py38h3304bdc_0
+requirements:
+    build:
+        - cctools 927.0.2 h5ba7a2e_4
+        - clang 10.0.0 default_hf57f61e_0
+        - clang_osx-64 10.0.0 h05bbb7f_1
+        - clangxx 10.0.0 default_hf57f61e_0
+        - compiler-rt 10.0.0 h47ead80_0
+        - compiler-rt_osx-64 10.0.0 hbcc88fd_0
+        - gfortran_osx-64 4.8.5 h22b1bf0_8
+        - ld64 450.3 h3c32e8a_4
+        - libcxx 10.0.0 1
+        - libgfortran 3.0.1 h93005f0_2
+        - libllvm10 10.0.0 h21ff451_0
+        - llvm-openmp 10.0.0 h28b9765_0
+        - llvm-tools 10.0.0 h21ff451_0
+        - tapi 1000.10.8 ha1b3eb9_0
+    host:
+        - blas 1.0 mkl
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.4.5.2 py38_0
+        - cython 0.29.20 py38hb1e8313_0
+        - intel-openmp 2019.4 233
+        - libcxx 10.0.0 1
+        - libedit 3.1.20181209 hb402a30_0
+        - libffi 3.3 h0a44026_1
+        - libgfortran 3.0.1 h93005f0_2
+        - mkl 2019.4 233
+        - mkl-devel 2019.4 233
+        - mkl-include 2019.4 233
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - python 3.8.3 h26836e1_1
+        - readline 8.0 h1de35cc_0
+        - setuptools 47.3.0 py38_0
+        - sqlite 3.31.1 h5c1f38d_1
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - blas 1.0 mkl
+        - libgfortran >=3.0.1,<4.0.0.a0
+        - mkl >=2019.4,<2020.0a0
+        - mkl-service >=2,<3.0a0
+        - python >=3.8,<3.9.0a0
+test:
+    commands:
+        - test -e $SP_DIR/numpy/distutils/site.cfg
+about:
+    description: 'NumPy is the fundamental package needed for scientific computing
+        with Python.
+
+        '
+    dev_source_url: https://github.com/numpy/numpy/tree/master/doc
+    dev_url: https://github.com/numpy/numpy
+    doc_url: https://docs.scipy.org/doc/numpy-1.18.5/reference/
+    home: http://numpy.scipy.org/
+    license: BSD 3-Clause
+    license_file: LICENSE.txt
+    summary: Array processing for numbers, strings, records, and objects.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - msarahan
+        - ocefpaf
+        - pelson
+        - rgommers

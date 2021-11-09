@@ -1,0 +1,15 @@
+etc/jupyter/nbconfig/notebook.d/widgetsnbextension.json
+lib/python3.8/site-packages/widgetsnbextension-3.5.1.dist-info/INSTALLER
+lib/python3.8/site-packages/widgetsnbextension-3.5.1.dist-info/LICENSE
+lib/python3.8/site-packages/widgetsnbextension-3.5.1.dist-info/METADATA
+lib/python3.8/site-packages/widgetsnbextension-3.5.1.dist-info/RECORD
+lib/python3.8/site-packages/widgetsnbextension-3.5.1.dist-info/WHEEL
+lib/python3.8/site-packages/widgetsnbextension-3.5.1.dist-info/top_level.txt
+lib/python3.8/site-packages/widgetsnbextension/__init__.py
+lib/python3.8/site-packages/widgetsnbextension/__pycache__/__init__.cpython-38.pyc
+lib/python3.8/site-packages/widgetsnbextension/__pycache__/_version.cpython-38.pyc
+lib/python3.8/site-packages/widgetsnbextension/_version.py
+lib/python3.8/site-packages/widgetsnbextension/static/extension.js
+lib/python3.8/site-packages/widgetsnbextension/static/extension.js.map
+share/jupyter/nbextensions/jupyter-js-widgets/extension.js
+share/jupyter/nbextensions/jupyter-js-widgets/extension.js.map

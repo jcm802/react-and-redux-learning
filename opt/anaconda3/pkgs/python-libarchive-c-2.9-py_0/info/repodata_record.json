@@ -1,0 +1,27 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "libarchive",
+    "python"
+  ],
+  "features": "",
+  "fn": "python-libarchive-c-2.9-py_0.conda",
+  "legacy_bz2_md5": "ad1a251a8fa04894e04ddb49b6d4eddc",
+  "legacy_bz2_size": 51080,
+  "license": "CC0-1.0",
+  "license_family": "CC",
+  "md5": "17117f74dd274d0a25f53d1376cb9b10",
+  "name": "python-libarchive-c",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "38019f42fa40d94cf8c42a79aa95165a858a9424e719afc5cdbcdf992f1d3bfa",
+  "size": 47614,
+  "subdir": "noarch",
+  "timestamp": 1587221098138,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/python-libarchive-c-2.9-py_0.conda",
+  "version": "2.9"
+}

@@ -1,0 +1,55 @@
+{% set name = "appscript" %}
+{% set version = "1.1.1" %}
+{% set sha256 = "8f634853ed3c9b823e3a8d5615fedade98d64d0a89443c2fa8f8d1f08a5e134e" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+  patches:
+    - 0001-Mark-AEDeterminePermissionToAutomateTarget-extern-in.patch
+
+build:
+  number: 0
+  skip: true  # [not osx]
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+  host:
+    - python
+    - pip
+    - setuptools
+
+  run:
+    - python
+
+test:
+  imports:
+    - aem
+    - appscript
+    - mactypes
+    - osax
+    - aem.ae
+
+about:
+  home: http://appscript.sourceforge.net
+  license: Public Domain
+  summary: Control AppleScriptable applications from Python.
+  description: |
+    Appscript is a user-friendly Apple event bridge that allows users to
+    control scriptable Mac OS X applications from Python, Ruby and Objective-C.
+    Appscript makes these languages serious alternatives to Apple's own
+    AppleScript language for automating your Mac.
+  dev_url: http://svn.code.sf.net/p/appscript/code/py-appscript/
+  doc_url: https://pypi.python.org/pypi/appscript
+  doc_source_url: http://appscript.sourceforge.net/py-appscript/index.html
+
+extra:
+  recipe-maintainers:
+    - nehaljwani

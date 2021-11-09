@@ -1,0 +1,26 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.4"
+  ],
+  "features": "",
+  "fn": "more-itertools-8.4.0-py_0.conda",
+  "legacy_bz2_md5": "eba9e9f484ef183601fb601a253ffb68",
+  "legacy_bz2_size": 41113,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "64d0dd06c15036d4fce34251ae2f96d9",
+  "name": "more-itertools",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "25508df98dbe94402f750c3781af88d0e2b844a856c90c145eff8c1bfa93a18a",
+  "size": 42644,
+  "subdir": "noarch",
+  "timestamp": 1592330643115,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/more-itertools-8.4.0-py_0.conda",
+  "version": "8.4.0"
+}

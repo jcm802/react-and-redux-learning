@@ -1,0 +1,62 @@
+{
+  "build": "he5867d9_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/jpeg-9b-he5867d9_2",
+  "features": "",
+  "files": [
+    "bin/cjpeg",
+    "bin/djpeg",
+    "bin/jpegtran",
+    "bin/rdjpgcom",
+    "bin/wrjpgcom",
+    "include/jconfig.h",
+    "include/jerror.h",
+    "include/jmorecfg.h",
+    "include/jpeglib.h",
+    "lib/libjpeg.9.dylib",
+    "lib/libjpeg.a",
+    "lib/libjpeg.dylib",
+    "lib/libjpeg.la",
+    "share/man/man1/cjpeg.1",
+    "share/man/man1/djpeg.1",
+    "share/man/man1/jpegtran.1",
+    "share/man/man1/rdjpgcom.1",
+    "share/man/man1/wrjpgcom.1"
+  ],
+  "fn": "jpeg-9b-he5867d9_2.conda",
+  "legacy_bz2_md5": "6673bf8de2e92f337afbde69c363e240",
+  "legacy_bz2_size": 241897,
+  "license": "Custom free software license",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/jpeg-9b-he5867d9_2",
+    "type": 1
+  },
+  "md5": "1fb8a721dfc523a6fc794b8fcaea8d79",
+  "name": "jpeg",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/jpeg-9b-he5867d9_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libjpeg.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "46c5b97009693104c512d2ee7f23c67b576e27f7397df1995f0dc5ec65b66bb8",
+        "sha256_in_prefix": "6199926640d727d53853b032e28ace558e71e3be30606c519613155b07e43a22",
+        "size_in_bytes": 932
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "jpeg==9b=he5867d9_2",
+  "sha256": "f83345eb598ae3431e63a3a65d7bb4f054b2a5531a2f5efefecfed219311d230",
+  "size": 205697,
+  "subdir": "osx-64",
+  "timestamp": 1510202854203,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/jpeg-9b-he5867d9_2.conda",
+  "version": "9b"
+}

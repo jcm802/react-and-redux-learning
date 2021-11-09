@@ -1,0 +1,1249 @@
+commit ae25870deaba6db8e2639495a69f924ec35d43fe
+Merge: 1741d2e 237539d
+Author: Steven Silvester <steven.silvester@gmail.com>
+Date:   Wed Jul 8 07:07:21 2020 -0500
+
+    Merge pull request #60 from regro-cf-autotick-bot/5.3.2_ha5e2ed
+    
+    ipykernel v5.3.2
+
+commit 237539d561888176de89d49247a06bc89ac314cb
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Wed May 20 08:44:27 2020 -0400
+
+    pin conda-build 3.18.11 for json path rewrite on windows
+
+commit 45673018a2b7d94bfe612270b99cd1c8a0a183ee
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jul 8 11:49:51 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.4, and conda-forge-pinning 2020.07.07.19.27.52
+
+commit 626a6c937b8eb549aa151201aa8c07961e2a4453
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jul 8 11:49:37 2020 +0000
+
+    updated v5.3.2
+
+commit 1741d2ea1435985411c537a336a264156e80e252
+Merge: 9c569b6 cb56ba9
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Jul 5 15:47:50 2020 -0400
+
+    Merge pull request #59 from regro-cf-autotick-bot/5.3.1_h3ad594
+    
+    ipykernel v5.3.1
+
+commit cb56ba901b7362682698a0ad002b874cadf688fa
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Jul 5 15:33:44 2020 -0400
+
+    pin windows builds to conda-build 3.18.11
+
+commit 71cf5ca8265eeb013107f4561285f32b802334e9
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 5 11:11:58 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.4, and conda-forge-pinning 2020.07.03.10.54.45
+
+commit 1df53ff3d4e970f40fe98244f8ba3de8e13c7d36
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 5 11:11:44 2020 +0000
+
+    updated v5.3.1
+
+commit 9c569b6fba0164d37bfde3b3ccf77c935cd84a16
+Merge: 49ba59b cf34c7f
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Wed May 20 20:15:06 2020 -0400
+
+    Merge pull request #58 from regro-cf-autotick-bot/5.3.0_hfbb6e8
+    
+    ipykernel v5.3.0
+
+commit cf34c7f794dd8c9f011f381ae7eedab4e0f58749
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Wed May 20 08:44:27 2020 -0400
+
+    pin conda-build 3.18.11 for json path rewrite on windows
+
+commit 1023e19483269ca0102d6005f23760868d120e7e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed May 20 10:34:00 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.3, and conda-forge-pinning 2020.05.20.09.40.28
+
+commit 8e6603fe292f728b23ba0ccc7e262aaf894e2163
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed May 20 10:33:34 2020 +0000
+
+    updated v5.3.0
+
+commit 49ba59b93ee835fa7c1b19bf750db6519d0d123a
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 07:37:12 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit c81d6f3f36bceef2c9fb1597c2cee56206289009
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat May 16 12:39:07 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit fd21d4d158ecb9113c360ff6d9cfbe8d1b9c0be7
+Merge: 34f2478 c9055d4
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Mon Apr 20 21:50:20 2020 -0400
+
+    Merge pull request #57 from regro-cf-autotick-bot/5.2.1_h098876
+    
+    ipykernel v5.2.1
+
+commit c9055d4ee27cbecad89cc9c9e670561d7cc5efdb
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Mon Apr 20 21:01:02 2020 -0400
+
+    apply -k not if single skip
+
+commit 16828925ed3bfb225841153c1beee0dea95abde8
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Mon Apr 20 20:47:09 2020 -0400
+
+    handle more kinds of skip args
+
+commit 34341b190fa0264dc4385cc7a838828c484df483
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Mon Apr 20 20:38:23 2020 -0400
+
+    fix quotes
+
+commit da12a97cd4d85fd4ea233ddf5019d628a264684b
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Mon Apr 20 20:34:27 2020 -0400
+
+    build one big or of skips
+
+commit e76357d31735e4b652ef17d7c04ce898b84f442c
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Mon Apr 20 20:23:34 2020 -0400
+
+    use pkgutil instead of site
+
+commit 373ca8ddf14bb3a9abf4698bd3f5cae520cfb67b
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Tue Apr 14 21:31:51 2020 -0400
+
+    get rid of pyargs
+
+commit abc06afb4a8525d0f5c1b69c58cd3a40b8497681
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Tue Apr 14 21:15:08 2020 -0400
+
+    skip test_sys_path_profile_dir on windows
+
+commit 37b820339d4095964f130e2aceffd59b2ee34115
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Tue Apr 14 20:57:09 2020 -0400
+
+    try full test skip name
+
+commit 472b7567c9792dd893e65faebd5218a44a31612e
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Tue Apr 14 20:38:58 2020 -0400
+
+    skip unc path tests on osx
+
+commit f9202205a0ee450650bbb09ea6f51a3054f3a869
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Tue Apr 14 20:10:11 2020 -0400
+
+    pin conda-build to 3.18 for JSON paths on win-64
+
+commit 2a687dfaa48415afb370ff35630dcb6507e283a5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Apr 14 20:32:43 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.6.16, and conda-forge-pinning 2020.04.14.12.02.49
+
+commit d43613cec9311a5a55dc89bc0e28d527ef0596ea
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Apr 14 20:32:16 2020 +0000
+
+    updated v5.2.1
+
+commit 34f247822eacbbf6caf5ef086de8127aed982a0f
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Thu Mar 26 20:49:48 2020 -0400
+
+    whitespace to trigger ci
+
+commit 25704c18b04d38bb73b86f8524bd0e42da26393f
+Merge: ec2a845 4e13b31
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Thu Mar 26 20:36:18 2020 -0400
+
+    Merge pull request #55 from regro-cf-autotick-bot/rebuild-pypy-0-1
+    
+    Rebuild for pypy
+
+commit 4e13b31b420eda2e56c5db37edf21045804cf278
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Wed Mar 25 22:07:08 2020 -0400
+
+    clean up the pytest args, more output
+
+commit 27a16592e16b8b59e1773441743b2a16b5772819
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Wed Mar 25 21:55:22 2020 -0400
+
+    add conditional skip of test_io_api (upstream PR made)
+
+commit 37d9801480550d36a7e1e8b37a45a4af77262545
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Wed Mar 25 21:22:59 2020 -0400
+
+    unpin jupyter_kernel, restore pinned conda-build
+
+commit cf06295369eab944184aa13a5decfbaeb340972f
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Wed Mar 25 07:38:25 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.1, conda-smithy 3.6.15, and conda-forge-pinning 2020.03.24
+
+commit f17bb6a0758ca71a68208326f46f69ae32c08459
+Merge: afeb878 ec2a845
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Mar 25 02:36:23 2020 -0500
+
+    Merge branch 'master' into rebuild-pypy-0-1
+
+commit ec2a8453208f9e13028e9b71a8966d0a8c6663ea
+Merge: ec68726 529cb8d
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Mar 22 15:27:31 2020 -0400
+
+    Merge pull request #56 from regro-cf-autotick-bot/5.2.0
+    
+    ipykernel v5.2.0
+
+commit 529cb8d1c496227332a542f2b7a61ab550d45701
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Mar 22 14:57:21 2020 -0400
+
+    add conda-build pin for kernelspec rewriting
+
+commit afeb878536835922b1f7dc830300244575d81074
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Mar 22 12:51:42 2020 -0400
+
+    pin conda-build on azure
+
+commit 7c05f94444f5e0efcf10d16d0f125a7b230b4f3b
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Mar 22 12:01:59 2020 -0400
+
+    restore kernelspec hack script
+
+commit 7b2675ba5da186c1bfb9eef8ac37efcfc9a82173
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Mar 22 11:49:48 2020 -0400
+
+    comment out prefix fixer, for now
+
+commit c2bda35c04cee3e4a369c29f82c3535aaf5ae4af
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Mar 22 11:28:27 2020 -0400
+
+    fix path calls
+
+commit 6016acbe2fb5690035f6d8264750fc26f5334eeb
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Mar 22 11:23:00 2020 -0400
+
+    try rewriting to posix
+
+commit 186aabe618dfeddfa96c95639aaaaaa7541eb594
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Mar 22 11:03:46 2020 -0400
+
+    try has_prefix_files
+
+commit 158f1ef5a5a2980b673942ff565dbb924c4f4cef
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Mar 22 07:34:48 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.1, conda-smithy 3.6.15, and conda-forge-pinning 2020.03.20
+
+commit beaa9275e4b8350f65362b34855fd670d07e913d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Mar 22 07:34:26 2020 +0000
+
+    updated v5.2.0
+
+commit 3bcf0345823ef696efb7f10305e4f65e7a169087
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sat Mar 21 18:43:47 2020 -0400
+
+    add top pin for jupyter_client
+
+commit d23a3046eb1bf6b26cdb0a0c480f97c9c0b72510
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Sat Mar 21 21:03:27 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.1, conda-smithy 3.6.14, and conda-forge-pinning 2020.03.20
+
+commit 1dfe95422924fe36aacb3ac57774f9f7ef1cc382
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Mar 11 20:51:51 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.0, conda-smithy 3.6.12, and conda-forge-pinning 2020.03.10
+
+commit c3fc305238aca06089224da69aad7ba9e84a98ce
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Mar 11 20:51:25 2020 +0000
+
+    Rebuild for pypy
+
+commit ec687267c61a02243d09cc743b8c1008bc98e3c7
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 20:50:09 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 366760c691b463cc675170b9c5c0c79ba70fc583
+Merge: 222f9ee 5a8acbc
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Jan 28 12:21:59 2020 +0100
+
+    Merge pull request #52 from regro-cf-autotick-bot/5.1.4
+    
+    ipykernel v5.1.4
+
+commit 5a8acbcbf3d428702e020ef9364329ddf40d1259
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Mon Jan 27 22:41:35 2020 -0500
+
+    restore osx skips
+
+commit fedda5a23889e41231b994d8e090497f2f7c2ed7
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Mon Jan 27 22:37:23 2020 -0500
+
+    re-add osx skips
+
+commit 52529ea1eae8fd1e940846d8f4bdd97c78bce7d1
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Mon Jan 27 22:24:20 2020 -0500
+
+    actually call the tests, add cov
+
+commit a710738792df662137d4ad4627a1e1c702734518
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Mon Jan 27 22:08:02 2020 -0500
+
+    try apply asyncio patch in test script
+
+commit bb4c145ccb31ccf55656e1c570b63ae03daf3436
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Mon Jan 27 09:42:28 2020 -0500
+
+    output not better, try fast fail so we get _something_
+
+commit c8fdbcc92bd4ec50e3676f1283e193bab1a17ea3
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Mon Jan 27 09:15:15 2020 -0500
+
+    don't capture output on win, tests are timing out without printing summary
+
+commit 812e9a84256532bd80da99620fb2014bf7ee14af
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Mon Jan 27 08:58:28 2020 -0500
+
+    increase test verbosity on win
+
+commit 014e76f802662194a7136da9ff729653858ab184
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Mon Jan 27 08:30:48 2020 -0500
+
+    restore windows async skip
+
+commit 2b5c32cca93d995f4dbe718d87b59e1e7f32cd55
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Mon Jan 27 08:09:56 2020 -0500
+
+    pin pytest, uncomment windows async test comments
+
+commit 122b37d8ae17ee9f116c3c8620b1183cbab8e0cc
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jan 27 11:14:26 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.6, and conda-forge-pinning 2020.01.27
+
+commit f1dc469c1a5387c570cefe2106d32d45a7d16d22
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jan 27 11:14:05 2020 +0000
+
+    updated v5.1.4
+
+commit 222f9ee6f9b8cb3c977b64bfbdf7bb074c074758
+Merge: 50a639f af42b67
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Tue Nov 5 10:13:45 2019 -0600
+
+    Merge pull request #50 from regro-cf-autotick-bot/rebuild-python3801
+    
+    Rebuild for python38
+
+commit af42b67f92954c59a25f83f89fdb74dfcbb1c196
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Tue Nov 5 10:30:07 2019 -0500
+
+    quotes'
+
+commit 58bbe154d3df9aa2ecf1a0376db7736f8f488314
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Tue Nov 5 10:18:35 2019 -0500
+
+    fix lint
+
+commit a80e445bd39cfc4807a1e9e08e73ac606deeae73
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Tue Nov 5 10:12:04 2019 -0500
+
+    skip some tests
+
+commit 26bc0cfa814d8876596cb599bd36037354c84817
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Tue Nov 5 09:51:21 2019 -0500
+
+    skip flaky tests
+
+commit 39798de14f5f5e3372bc434cdc77abbddba57cf4
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Nov 5 12:20:07 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.1, and conda-forge-pinning 2019.11.01
+
+commit ac05b86582127d58c5292a828cd7b00ce3bea93c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Nov 5 12:19:37 2019 +0000
+
+    bump build number
+
+commit 50a639f14327c66145dac853210d7526d646ee11
+Merge: d3dc678 bd10bb0
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Sun Oct 20 07:35:13 2019 -0500
+
+    Merge pull request #49 from regro-cf-autotick-bot/5.1.3
+    
+    ipykernel v5.1.3
+
+commit bd10bb04c0ed28a8e0dc084e2501697aaf716e3e
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Sun Oct 20 07:23:18 2019 -0500
+
+    add flaky for tests
+
+commit 4d1136364cc7866bcfaad839c52f24b13c06208a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Oct 20 12:14:09 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.10, conda-smithy 3.6.0, and conda-forge-pinning 2019.10.11
+
+commit 1b059741f95bba480c72e9c03c8588cf17bbed0d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Oct 20 12:13:43 2019 +0000
+
+    updated v5.1.3
+
+commit d3dc67870e17d07b23c6a1e80dbd5dad8a8f38a1
+Merge: f2efe91 5a544c7
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Aug 8 14:41:01 2019 +0200
+
+    Merge pull request #48 from regro-cf-autotick-bot/5.1.2
+    
+    ipykernel v5.1.2
+
+commit 5a544c7fe1c31a7c730186ec8c461fb9c294cc66
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Aug 8 12:58:19 2019 +0200
+
+    use azure for Windows
+    
+    removes appveyor builds
+
+commit b48d98abc297cbbc593f9527684f1c9d2ef5d207
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Wed Aug 7 23:15:09 2019 -0400
+
+    don't need canary
+
+commit 30caac9e03ac9d300718f3cdce09999e6d3c4f2e
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Wed Aug 7 22:28:28 2019 -0400
+
+    write and test for a file after kernelspec check
+
+commit 8d4077bc740bb3329d2d883efb0cd108c8315377
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Wed Aug 7 21:59:22 2019 -0400
+
+    try harder to get test to fail on windows, quote install prefix
+
+commit 10b1f1159a3ddbddefa27460f02f07f6bc8f4160
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Wed Aug 7 21:17:51 2019 -0400
+
+    clean up test output for mismatched windows paths
+
+commit d440850992c68f0d2ed299e966308b799c8d9189
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Aug 7 21:25:04 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.07.26
+
+commit f51b8b7907866256b06e5150ed9518df57d2f424
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Aug 7 21:24:49 2019 +0000
+
+    updated v5.1.2
+
+commit f2efe917e8089fc8e69d55cc1a5aafa17b9e4513
+Merge: 6dc63cb 4f95370
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Jul 16 14:37:10 2019 +0200
+
+    Merge pull request #47 from xhochy/rebuildaarch64_and_ppc64le_addition1_arch
+    
+    Rebuild for aarch64 and ppc64le
+
+commit 4f95370ba5af26d182d8ac772605be842748c507
+Author: Uwe L. Korn <uwelk@xhochy.com>
+Date:   Sun Jul 14 17:27:17 2019 +0200
+
+    MNT: Re-rendered with conda-build 3.18.7, conda-smithy 3.4.0, and conda-forge-pinning 2019.07.13
+
+commit e06f85e6367f0483f3a1a34446d94095ebced991
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Sun Jul 14 16:03:15 2019 +0200
+
+    Update conda-forge.yml
+    
+    Co-Authored-By: Mark Harfouche <mark.harfouche@gmail.com>
+
+commit c19834f31f3e9261372ab2ac74f77a4dbbcb8553
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Sun Jul 14 10:35:00 2019 +0200
+
+    Remove matplotlib and trio from test requirements
+
+commit 72a6cf41c2ae30c3d7c53ec031a7fdb82854ef49
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jun 18 01:37:34 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.2, conda-smithy 3.3.7, and conda-forge-pinning 2019.06.17
+
+commit c2f9891839f34e6f872dd4f9b5fd4028515c3daa
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jun 18 01:37:21 2019 +0000
+
+    bump build number
+
+commit 6dc63cbee5ddc37d6945bf880ab1123016352f5a
+Merge: 0737757 ab4e064
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu May 16 07:56:25 2019 -0500
+
+    Merge pull request #45 from regro-cf-autotick-bot/5.1.1
+    
+    ipykernel v5.1.1
+
+commit ab4e0641b5ae4b4d2d4c85020e89416da6cfe66c
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu May 16 07:38:30 2019 -0500
+
+    run tests on unix only
+
+commit d4c9c47b447f0863b8a6cceedec1edcb20cab678
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Thu May 16 08:17:45 2019 -0400
+
+    #45: restore embed tests, unpin ipykernel
+
+commit 2523521445377f410a307e4356a91d8f9fd4ab76
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Thu May 16 08:04:04 2019 -0400
+
+    #45: also skip embed tests on windows
+
+commit 68151decf6425247e255290511d7114e12ac6596
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu May 16 08:29:44 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.4, and conda-forge-pinning 2019.05.11
+
+commit 3bef0dfb0cf4cfabf149910d17d867f781d828db
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu May 16 08:29:32 2019 +0000
+
+    updated v5.1.1
+
+commit 07377570c9a7549b61e58a0840d74858eed7ff45
+Merge: 33f87a9 12d3f77
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Jan 30 07:58:38 2019 -0200
+
+    Merge pull request #43 from ocefpaf/re-render
+    
+    Re render
+
+commit 12d3f772c10d26ffd2b2af4deeb4bdb0991ba3f4
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Tue Jan 29 14:50:29 2019 -0500
+
+    more (un)quoting stuff for windows
+
+commit 17568010ce04ad42382814a35892b49c253dbd61
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Tue Jan 29 11:35:30 2019 -0500
+
+    Build and install wheel explictly to appease PEP 517
+
+commit f15fbfe0b71d6dad015ed272dddb891c70fd8008
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Tue Jan 29 10:07:44 2019 -0500
+
+    pin test version of ipython
+
+commit d6c43e6058aaf14455083d51031d77104fff2a39
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Jan 28 11:39:37 2019 -0200
+
+    MNT: Re-rendered with conda-build 3.17.5, conda-smithy 3.2.9, and conda-forge-pinning 2019.01.21
+
+commit 9ec0a7a65538c37f7821e14fc4817d3bcdb4da40
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Jan 28 11:39:35 2019 -0200
+
+    bump
+
+commit 33f87a97bf1dde50e6523a1de8f1c9c6eabb7d0b
+Merge: a545eef 9923fe0
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Nov 11 14:17:04 2018 -0500
+
+    Merge pull request #42 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit 9923fe0bf6fe99de490f84de04a82c46dc70c046
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Nov 11 17:14:27 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.11.9
+
+commit a9836adbf993fbab8b80e9cde6bc061b533de8d0
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Nov 11 17:14:12 2018 +0000
+
+    bump build number
+
+commit a545eef731d8ed980f3adf4309c4804d031e9c24
+Merge: ae7f523 64663a2
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Nov 11 11:23:11 2018 -0500
+
+    Merge pull request #40 from bollwyvl/rearch/5.1.0
+    
+    Re-arch 5.1.0, rerender, skip test_async on windows
+
+commit 64663a2d3e307980f3b8283c2cde32e0c177124f
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Nov 11 15:55:21 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.11.9
+
+commit f88a92acb41b88a186586391511852d189c69429
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Nov 11 10:04:54 2018 -0500
+
+    use skip instead of version spec
+
+commit 162dc85399e19ceebf9fc77bbdd1e216bdef24cc
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Nov 11 09:19:11 2018 -0500
+
+    on window, delete test_async.py during test
+
+commit 77c9e11c5ef2e492241da3f9f4315e356659c530
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Thu Nov 8 23:16:16 2018 -0500
+
+    skip async tests on windows
+
+commit 80e6a756f540727f60e5cb4194423c4582a62789
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Thu Nov 8 18:38:06 2018 -0500
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.11.3
+
+commit 437fba7d7ae8614db3b5dcb3887eee989303ebc3
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Thu Nov 8 18:35:50 2018 -0500
+
+    remove noarch because windows
+
+commit ae7f5236e583b6213268fe0bbc55f378828d4230
+Merge: 4aa4ad8 2020503
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Oct 9 11:38:44 2018 -0500
+
+    Merge pull request #36 from regro-cf-autotick-bot/5.1.0
+    
+    ipykernel v5.1.0
+
+commit 20205038a87cef63f4fdc4da84cd85a913b621f2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Oct 9 13:57:30 2018 +0000
+
+    updated v5.1.0
+
+commit 4aa4ad8b1f6374a40bd97e5c6212f129e15695b8
+Merge: 1dadb87 6ccf31c
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Sat Sep 29 12:55:32 2018 -0500
+
+    Merge pull request #35 from bollwyvl/add-tests
+    
+    add tests and metadata
+
+commit 6ccf31ccba283086ebff0aaa257d40f3646c3ef3
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sat Sep 29 10:01:48 2018 -0400
+
+    fix metadata name
+
+commit 3b4ea1ce55c8c5bbbeffb51e1de23cef8e9a1ab6
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sat Sep 29 09:54:38 2018 -0400
+
+    add tests and metadata, Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.27
+
+commit 1dadb8786835f429085c1b4a67e3d5ab7a8ec471
+Merge: cdc5e25 732207c
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Sep 28 05:05:06 2018 -0500
+
+    Merge pull request #34 from blink1073/5.0.0
+    
+    5.0.0
+
+commit 732207ce0eacc2d115cb6cb679d9f6e32ddfed33
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 28 09:59:01 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.27
+
+commit 227b6cc37689fb9e116f4dfecf0036ab5c018811
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Thu Sep 27 12:17:16 2018 -0400
+
+    MAINT: make 5.0.0 noarch
+
+commit dfe16da488eb85c153618859187ea79564f1b4e6
+Author: Matthias Bussonnier <bussonniermatthias@gmail.com>
+Date:   Wed Sep 26 18:46:35 2018 -0700
+
+    Release 5.0.0.
+    
+    Unlike 4.10.0 that was just released this is Python 3 only (drop 3.4
+    support and bump the compatibility with IPython to IPython 5+ required).
+    
+    It also have all the machinery to have async/await top level.
+    
+    I believe the modification I've done to the recipe are sufficient, but
+    I'd appreciate if one can be extra careful
+
+commit cdc5e25270faebdd56fc546688b57b82f74dfa40
+Merge: 0cdecd6 5345d79
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Sep 28 04:52:07 2018 -0500
+
+    Merge pull request #33 from hmaarrfk/rm-post-link
+    
+    MAINT: Remove post-link for windows
+
+commit 5345d7960b23e3e1aa3f9eaf61ee40456162ce8c
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Thu Sep 27 20:33:52 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.27
+
+commit 34bf6b8e8f0407473d8932c1eebff968d77f7e19
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Thu Sep 27 20:26:28 2018 -0400
+
+    MAINT: Remove post-link
+
+commit 0cdecd644c406928fbb6b255751b2b6a93bc55eb
+Merge: c9f1317 4abf9f6
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Sep 27 05:37:58 2018 -0500
+
+    Merge pull request #30 from Carreau/4.10.0
+    
+    Release 4.10.0
+
+commit 4abf9f6537fe3dd00ab3f5b4635d6937b6a9d438
+Author: Matthias Bussonnier <bussonniermatthias@gmail.com>
+Date:   Wed Sep 26 18:29:58 2018 -0700
+
+    Release 4.10.0
+    
+    Minor release, almost no changes beside some compatibility with Spyder
+    on windows and IPython 7+ (coming soon)
+    
+    Httpsify link, adds me as maintainer.
+
+commit c9f1317a4761bd3c456514dcdc2c273238c35c5b
+Merge: 463e41a 2e3123c
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Aug 29 17:48:18 2018 -0500
+
+    Merge pull request #29 from regro-cf-autotick-bot/4.9.0
+    
+    ipykernel v4.9.0
+
+commit 2e3123ce139b6f72c4531856f9d657d588553c37
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Aug 29 19:20:48 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.08.28
+
+commit 84f2ad453b00244e41d56a24b50dc9b0c37b916e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Aug 29 19:20:40 2018 +0000
+
+    updated v4.9.0
+
+commit 463e41a86fe6eeaffbeff721dca53031e1d1b3d6
+Merge: 9623cae c6dc358
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Aug 25 15:54:34 2018 -0700
+
+    Merge pull request #28 from ocefpaf/py37
+    
+    Py37
+
+commit c6dc358686ba146c6dfe4ecc5840d2ef836eb722
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Aug 25 16:13:15 2018 -0500
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.08.21
+
+commit 84f4cb08dd9f23d519ec613fc4439880901148a5
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Aug 25 16:10:55 2018 -0500
+
+    update recipe
+
+commit 9623caee8ec2a1e95562b9731e825f5937be41b3
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:07:23 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 70f6ba5ed15962ba6c168a2e271495e01fa59d6a
+Merge: 87a016a 8bc0721
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Mon Feb 19 18:19:47 2018 +0100
+
+    Merge pull request #24 from minrk/482
+    
+    4.8.2
+
+commit 8bc07214e4c145231669a53da829107c816975c1
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Mon Feb 19 17:20:49 2018 +0100
+
+    4.8.2
+
+commit 87a016a9a42c9310a13e9339bf5cc1d8fab18b9e
+Merge: 3337636 58f228d
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Feb 8 19:04:10 2018 +0100
+
+    Merge pull request #23 from minrk/481
+    
+    4.8.1
+
+commit 58f228d888bd886bbd7adb6fc028073cce0163d5
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Feb 8 18:01:55 2018 +0100
+
+    4.8.1
+
+commit 3337636af7dc3a62d026d4462eb345cba4196f8a
+Merge: 7798019 c2f831c
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Mon Feb 5 10:10:54 2018 +0100
+
+    Merge pull request #22 from minrk/48
+    
+    4.8.0
+
+commit c2f831cd2f822e6f2025db414fe2084b10c7a091
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Feb 1 15:57:51 2018 +0100
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit 9dfe0fde17eeb0e0d4555d155d84a5df702f87b5
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Feb 1 13:20:31 2018 +0100
+
+    4.8.0
+
+commit 7798019fa9bf1bddc915b55df4cbf4d0a35f33af
+Merge: e51b153 6fd72df
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Dec 7 09:52:34 2017 -0200
+
+    Merge pull request #20 from blink1073/release-4.8.0.dev0
+    
+    Release 4.7.0
+
+commit 6fd72df124210ed8fa6ace1dbd44930013d19d62
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Dec 6 12:35:02 2017 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.4
+
+commit 1e6c90ea58e3a7ba0ff13eae83e14a72df2ec6a5
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Dec 6 06:30:00 2017 -0600
+
+    Add myself to maintainers
+
+commit b4adc0ff42bafbab364b530ac53f59795433c008
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Dec 6 06:28:56 2017 -0600
+
+    Release 4.7.0
+
+commit e51b15340397623c91c731689d73aa75b3a8f830
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:21:40 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 6deb1f579aa6289f2a8eb3a2b95c0ec47252295b
+Merge: 489e50d 5481519
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Apr 27 15:06:14 2017 +0200
+
+    Merge pull request #19 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 5481519ab5cef4f53c7dfbd610567e0db3d69be9
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Apr 25 01:36:47 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.3.0.
+
+commit 489e50db427b529400829e105bbd2614c5c4a6d6
+Merge: fe75e21 d0c85e9
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Wed Apr 12 08:54:18 2017 +0200
+
+    Merge pull request #18 from minrk/461
+    
+    4.6.1
+
+commit d0c85e94fbd466ee8d1032080f35cf8098c3559e
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Apr 11 18:36:14 2017 +0200
+
+    4.6.1
+
+commit fe75e21dd310eafb0403f329812218db8f80c2f3
+Merge: b5b4d4d 390f00b
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Wed Apr 5 11:05:58 2017 +0200
+
+    Merge pull request #17 from minrk/46
+    
+    4.6
+
+commit 390f00bde3a9a21f6367d7171c871ca915a11f06
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Apr 4 13:39:17 2017 +0200
+
+    release 4.6
+
+commit 3d81c9894e03c90fe699f56a801a14df045fac06
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Apr 4 14:09:55 2017 +0200
+
+    MNT: Re-rendered with conda-smithy 2.2.2
+
+commit b5b4d4d5f0500a884a196f310402cdc80b07e6ec
+Merge: d10b6e3 5ce1add
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Jan 8 16:18:09 2017 -0300
+
+    Merge pull request #16 from ocefpaf/py36
+    
+    Py36
+
+commit 5ce1addfdad7019ae71e3aa8b2e4f7c33d686ea5
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Sun Jan 8 12:59:40 2017 -0300
+
+    Add maintainer
+
+commit 8949f880eda93d33d4650fac497c882021bc6ea0
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Sun Jan 8 12:59:35 2017 -0300
+
+    PY36
+
+commit d10b6e3b44852ee6bae34ea70c57241f67d6f2ea
+Merge: ee3e0fb 36d1db9
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Mon Dec 5 10:19:30 2016 +0100
+
+    Merge pull request #15 from minrk/452
+    
+    release 4.5.2
+
+commit 36d1db984f434b8892e4914fb854b36916cab397
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Wed Nov 30 10:16:02 2016 +0100
+
+    4.5.2
+
+commit 59c94a43bd69055ede49684d71b3821a1d3cb3b7
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Wed Nov 30 10:14:21 2016 +0100
+
+    MNT: Re-rendered with conda-smithy 1.6.1 [ci skip]
+
+commit ee3e0fb21483b889e1bf1b518170261785898a64
+Merge: b3bde6b b647d20
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Nov 18 16:50:45 2016 -0300
+
+    Merge pull request #14 from minrk/451
+    
+    Release 4.5.1
+
+commit b647d20bcbefb0380072d4b77f0104a8147fc057
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Wed Nov 16 17:17:28 2016 +0100
+
+    add license file
+
+commit 0e92b59536880803525678189fa8468f4740dcb1
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Wed Nov 16 15:28:41 2016 +0100
+
+    MNT: Re-rendered with conda-smithy 1.5.3
+
+commit 822d032bfa36de1d3eef3b270e30b083ce918bf5
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Wed Nov 16 15:27:48 2016 +0100
+
+    release 4.5.1
+
+commit b3bde6b7446413e17bc186ca802488e245709261
+Merge: 719b558 173ad04
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Sep 2 13:58:45 2016 -0300
+
+    Merge pull request #12 from minrk/4.5
+    
+    release 4.5.0
+
+commit 173ad047807379ad2c34f726fab270462612d00b
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Sep 2 16:29:45 2016 +0200
+
+    release 4.5.0
+
+commit 719b558bfdb6cec3653f3293fa9b0e24a9dfe128
+Merge: 124165b 0d906c0
+Author: Phil Elson <pelson.pub@gmail.com>
+Date:   Wed Aug 31 07:55:58 2016 +0100
+
+    Merge pull request #11 from minrk/test-kernel-prefix
+    
+    revive kernel prefix test
+
+commit 0d906c041e0deca3011adaf5985f9007961c6a44
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Aug 30 16:21:08 2016 +0200
+
+    re-install kernel spec in post-link on Windows
+    
+    because conda doesn't rewrite paths correctly in JSON files
+    
+    [ circle skip ]
+    [ travis skip ]
+
+commit 58d7defc168ce4db1c7d50a2cfe868c4eb269bda
+Author: Phil Elson <pelson.pub@gmail.com>
+Date:   Tue May 17 07:02:54 2016 +0100
+
+    Added a test for prefix in the kernelspec.
+
+commit 124165b9918f32c00a11761955db6795b87e1a55
+Merge: 76db719 60cc708
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Aug 30 15:53:56 2016 +0200
+
+    Merge pull request #8 from minrk/4.4
+    
+    release 4.4
+
+commit 60cc70854dae138aa68b0ea98a79031862e4afc1
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Aug 30 15:12:36 2016 +0200
+
+    add pip to build dependencies
+    
+    since condo-forge removes it with:
+    
+        --set add_pip_as_python_dependency False
+    
+    creating a broken Python environment
+
+commit c7fba1b9a7b07df2bb771c0e45217aa08d52a6da
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Aug 30 15:08:16 2016 +0200
+
+    re-render with condo-smithy 1.1.2
+
+commit 0ce9581603325c030f92893a471176c9e1dd6642
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Mon Aug 8 17:06:33 2016 +0200
+
+    release 4.4
+    
+    tornado is needed in build for the kernelspec install invocation
+    
+    update to standard pip install command
+
+commit 76db719406b37950ca732afb55e31be984de79c0
+Merge: 5755568 0d289d5
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Aug 9 01:57:21 2016 -0400
+
+    Merge pull request #10 from jakirkham/re_render_1_0_3
+    
+    Re-render with `conda-smithy` version `1.0.3`
+
+commit 0d289d526c83361fa966e6e1262a1028bf65f87d
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Aug 8 11:48:00 2016 -0400
+
+    Re-render with `conda-smithy` version `1.0.3`.
+
+commit 575556885c2b7292fbd2c4f2906b27953558881e
+Merge: 894cd9e a69a8ab
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun May 15 12:08:01 2016 -0400
+
+    Merge pull request #5 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit a69a8ab7cf9da146244dd15190b8499eea24b886
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun May 15 06:44:03 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.3.
+    
+    [ci skip]
+
+commit 894cd9e164118064f1991e527761810021f42d51
+Merge: 1d2415e e53b4e9
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Apr 30 21:28:49 2016 -0400
+
+    Merge pull request #4 from ocefpaf/rerender
+    
+    Re-render
+
+commit e53b4e94d1e5c0832a412c20b69161d2e18297a6
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Apr 26 18:14:18 2016 -0300
+
+    Re-render
+
+commit 1d2415e76f2c23ba6e448dc3c626d7b7b1c09ef3
+Merge: fb70f85 39b2105
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Apr 26 18:37:38 2016 -0300
+
+    Merge pull request #3 from ocefpaf/rerender
+    
+    rerender
+
+commit 39b21052f14ee75ce000c8bc31b8a53f04f68a32
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Apr 26 18:14:18 2016 -0300
+
+    rerender
+
+commit fb70f8589559705a09a55c64fbe112e1593341b5
+Merge: a63a514 a01424f
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Apr 20 07:26:12 2016 -0300
+
+    Merge pull request #2 from minrk/install-kernelspec
+    
+    install kernelspec as part of the package
+
+commit a01424f2df943fd3a31eedc23938037c89ebd692
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Apr 19 16:22:27 2016 +0200
+
+    win not-win
+
+commit b8eb6bf931d3a2fe68b10877aea0f4fdd8e4db71
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Apr 19 14:53:56 2016 +0200
+
+    install kernelspec as part of the package
+
+commit a63a514ce3c8aaa3bf980ff690b956f1b0754007
+Merge: 9570320 9d66b53
+Author: Phil Elson <pelson.pub@gmail.com>
+Date:   Mon Apr 18 18:34:30 2016 +0100
+
+    Merge pull request #1 from jakirkham/add_jakirkham
+    
+    Add @jakirkham as a maintainer
+
+commit 9d66b5389e0e8ecabfc3e1c4c3a0e273365346b6
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Apr 18 12:04:27 2016 -0400
+
+    recipe: Add @jakirkham as a maintainer. [ci skip]
+
+commit 95703204ef9238e29eeee105e7b0feeb29997b8d
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Apr 8 08:03:51 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 67fb006961d52cce11c91ac237b9f4d709af7628
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Apr 8 08:02:53 2016 +0000
+
+    Initial commit of the ipykernel feedstock.

@@ -1,0 +1,27 @@
+{
+  "build": "py38h959d312_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=10.0.0",
+    "numpy >=1.14.6,<2.0a0",
+    "python >=3.8,<3.9.0a0",
+    "python-dateutil >=2.6.1",
+    "pytz >=2017.2"
+  ],
+  "features": "",
+  "fn": "pandas-1.0.5-py38h959d312_0.conda",
+  "legacy_bz2_md5": "528027f97e5b17fdd52702a401cbc019",
+  "legacy_bz2_size": 10241496,
+  "license": "BSD-3-Clause",
+  "md5": "5bad1590fb981c4ab4ccb1043e9c64ea",
+  "name": "pandas",
+  "sha256": "7246eb2e12392dd3d544ac43ed1ca3901e063e68b65ba576dd4d39a394286458",
+  "size": 7967226,
+  "subdir": "osx-64",
+  "timestamp": 1592842919259,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pandas-1.0.5-py38h959d312_0.conda",
+  "version": "1.0.5"
+}

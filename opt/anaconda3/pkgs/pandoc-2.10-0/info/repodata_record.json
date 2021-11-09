@@ -1,0 +1,22 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "pandoc-2.10-0.conda",
+  "legacy_bz2_md5": "ad55d02c3fbcc0eed5b25f98400fd6e5",
+  "legacy_bz2_size": 20881699,
+  "license": "GPL-2.0",
+  "license_family": "GPL",
+  "md5": "45cfb0fff42a97a6d4acf3c2aae96ef4",
+  "name": "pandoc",
+  "sha256": "d9cbed3a06ddeb62226532b5a82f684b55b4208c1d0dad8d88d01700923e33a2",
+  "size": 14097988,
+  "subdir": "osx-64",
+  "timestamp": 1594830546000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pandoc-2.10-0.conda",
+  "version": "2.10"
+}

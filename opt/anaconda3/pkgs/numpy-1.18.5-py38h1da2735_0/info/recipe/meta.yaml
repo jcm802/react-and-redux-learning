@@ -1,0 +1,82 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/1553efa1-a376-4ba5-787e-47b693a85e2e/volume/rsync-recipes/numpy-1.18.5-python_3.8-blas_impl_mkl-on-osx, last modified Wed Jun 24 09:24:10 2020
+# ------------------------------------------------
+
+package:
+    name: numpy
+    version: 1.18.5
+build:
+    string: py38h1da2735_0
+requirements:
+    build:
+        - cctools 927.0.2 h5ba7a2e_4
+        - clang 10.0.0 default_hf57f61e_0
+        - clang_osx-64 10.0.0 h05bbb7f_1
+        - clangxx 10.0.0 default_hf57f61e_0
+        - compiler-rt 10.0.0 h47ead80_0
+        - compiler-rt_osx-64 10.0.0 hbcc88fd_0
+        - gfortran_osx-64 4.8.5 h22b1bf0_8
+        - ld64 450.3 h3c32e8a_4
+        - libcxx 10.0.0 1
+        - libgfortran 3.0.1 h93005f0_2
+        - libllvm10 10.0.0 h21ff451_0
+        - llvm-openmp 10.0.0 h28b9765_0
+        - llvm-tools 10.0.0 h21ff451_0
+        - tapi 1000.10.8 ha1b3eb9_0
+    host:
+        - blas 1.0 mkl
+        - ca-certificates 2020.1.1 0
+        - intel-openmp 2019.4 233
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 haf1e3a3_0
+        - libffi 3.3 h0a44026_1
+        - libgfortran 3.0.1 h93005f0_2
+        - mkl 2019.4 233
+        - mkl-devel 2019.4 233
+        - mkl-include 2019.4 233
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - python 3.8.3 h26836e1_1
+        - readline 8.0 h1de35cc_0
+        - sqlite 3.32.3 hffcf06c_0
+        - tk 8.6.10 hb0a8c7a_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - blas 1.0 mkl
+        - libgfortran >=3.0.1,<4.0.0.a0
+        - mkl >=2019.4,<2020.0a0
+        - mkl-service >=2,<3.0a0
+        - mkl_fft
+        - mkl_random
+        - numpy-base 1.18.5.*
+        - python >=3.8,<3.9.0a0
+test:
+    commands:
+        - f2py -h
+        - python -c "import numpy; numpy.show_config()"
+        - export LDFLAGS="$LDFLAGS -undefined dynamic_lookup"
+        - export CFLAGS="$CFLAGS -fno-lto"
+        - pytest -v --pyargs numpy
+    imports:
+        - numpy
+        - numpy.linalg.lapack_lite
+    requires:
+        - clang_osx-64 10.*
+        - gfortran_osx-64
+        - pytest
+about:
+    description: 'NumPy is the fundamental package needed for scientific computing
+        with Python.
+
+        '
+    dev_source_url: https://github.com/numpy/numpy/tree/master/doc
+    dev_url: https://github.com/numpy/numpy
+    doc_url: https://docs.scipy.org/doc/numpy-1.18.5/reference/
+    home: http://numpy.scipy.org/
+    license: BSD 3-Clause
+    summary: Array processing for numbers, strings, records, and objects.
+extra:
+    copy_test_source_files: true
+    final: true

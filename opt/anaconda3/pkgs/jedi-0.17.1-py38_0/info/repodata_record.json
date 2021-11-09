@@ -1,0 +1,25 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "parso >=0.7.0,<0.8.0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "jedi-0.17.1-py38_0.conda",
+  "legacy_bz2_md5": "6060eb1ec90b46e13e2c461585c95b2f",
+  "legacy_bz2_size": 975023,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "d0657d0471088ab6b36c5af115c4c6c8",
+  "name": "jedi",
+  "sha256": "60de7eea7bc7253222a871fcce3bbaf6cb14aa36a43240627f741b7032261fb0",
+  "size": 941896,
+  "subdir": "osx-64",
+  "timestamp": 1592842075939,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/jedi-0.17.1-py38_0.conda",
+  "version": "0.17.1"
+}

@@ -1,0 +1,282 @@
+commit d82a05907b64d78bdbe0d8923492bfad986e5b8d
+Merge: bb5df12 d7ae7eb
+Author: Jan Stürtz <stuertz@users.noreply.github.com>
+Date:   Sat Nov 2 20:00:06 2019 +0100
+
+    Merge pull request #17 from regro-cf-autotick-bot/1.6.1
+    
+    backports.functools_lru_cache v1.6.1
+
+commit d7ae7eb45f3ebd33bf9d9ab6e13db4bebdc7967f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 2 17:18:34 2019 +0000
+
+    updated v1.6.1
+
+commit bb5df12c0df7be99c8aabdd4d8bfbd5b847d4476
+Merge: 1e89685 a2527f1
+Author: Jan Stürtz <stuertz@users.noreply.github.com>
+Date:   Sat Nov 2 08:39:56 2019 +0100
+
+    Merge pull request #16 from regro-cf-autotick-bot/1.6.0
+    
+    backports.functools_lru_cache v1.6.0
+
+commit a2527f1b774b0076d8361a437e502f9d857eb522
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 2 05:18:42 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.1, and conda-forge-pinning 2019.11.01
+
+commit f62feae9bd8760d2be951ada19c1ff2b8432728b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 2 05:18:26 2019 +0000
+
+    updated v1.6.0
+
+commit 1e89685fd8a2b7f2158defd6950c03acc08c322b
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:18:20 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 9caa5aaddc2f99a70c062214e70859a6f40ec80d
+Merge: 2763ba9 269bf7e
+Author: Jan Stürtz <stuertz@users.noreply.github.com>
+Date:   Wed Jul 11 14:26:25 2018 +0200
+
+    Merge pull request #15 from regro-cf-autotick-bot/noarch_migration
+    
+    Suggestion: add noarch
+
+commit 269bf7e6647d0d430bbb524c88a7f9a8089647de
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 8 01:43:01 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.01
+
+commit c650c34b9b1d0f6317547ca1382885bb0bffcb0c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 8 01:42:56 2018 +0000
+
+    add noarch
+
+commit 2763ba9f4981ccc31e6162ffaefbb96c658aa044
+Merge: 5ad07fd d8d56a7
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Feb 11 20:32:45 2018 -0200
+
+    Merge pull request #14 from ocefpaf/update_to_1.5
+    
+    Update to 1.5
+
+commit d8d56a781c3810b984f9cc065582cd60622ed8c0
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun Feb 11 10:39:37 2018 -0800
+
+    update to 1.5
+
+commit 25ab6fa35c8430d2fc71dce7f46e3afcad4ec0e0
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun Feb 11 10:39:23 2018 -0800
+
+    rerender
+
+commit 5ad07fd5e239e506f0a32df76e2e40c85c7425c6
+Merge: 7ffc141 ed0d78a
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Oct 2 03:40:11 2017 -0400
+
+    Merge pull request #13 from jakirkham-feedstocks/req_backports
+    
+    Require backports
+
+commit ed0d78a67e391b62b8b391198460b86eba247df9
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Oct 2 03:12:32 2017 -0400
+
+    Bump build number to 1
+    
+    Rebuild now that `backports` is a dependency.
+
+commit 07d3333457f4a2bbcb2f597d48e2a6b2fe052ac4
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Oct 2 03:11:55 2017 -0400
+
+    Require backports
+    
+    Provides the namespace package, `backports`, which contains
+    `backports.functools_lru_cache`.
+
+commit 6388039871d2e04a243e6cabc701186f7d850d0c
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Oct 2 03:10:37 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.4.2
+
+commit 7ffc141e3f1e25562a8c7f8e339bf1cd13d03677
+Merge: 171b5e0 a6c6d7e
+Author: Jan Stürtz <stuertz@users.noreply.github.com>
+Date:   Tue Aug 29 19:39:55 2017 +0200
+
+    Merge pull request #12 from nehaljwani/bump-version-1.4
+    
+    Bump version to 1.4
+
+commit a6c6d7ecfcb934b53451a0e5e1a03d2a8c766de2
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Aug 29 13:07:42 2017 +0000
+
+    Bump version to 1.4
+
+commit 626f360c94c449e2c62288db1e7d837d07ba1746
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Aug 29 13:09:55 2017 +0000
+
+    Update about section
+
+commit 171b5e09cc6564f1406dd66b7f551a7c4ce31819
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:51:44 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit d56bd80d0f14b46bc8577bbf7c3b3424e1f4f333
+Merge: 5096f95 e55d976
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Aug 1 00:04:16 2017 -0400
+
+    Merge pull request #11 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit e55d9762e3b67cd82d5e1a7b89fc18fa3ea7c071
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Aug 1 01:54:43 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.3.2.
+
+commit 5096f950c4e6b2a44e96da0dd5df1c881e16afa5
+Merge: 4440903 4750146
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Mon Mar 13 00:25:48 2017 -0400
+
+    Merge pull request #9 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 4750146cb8d1490f54c64feb69f7a3d9510c8d93
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Mar 13 01:44:55 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.1.1.
+
+commit 4440903e166aba89886a8b0a17b1071c3d6b7346
+Merge: a47b3c3 3b2e9f6
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Thu Feb 23 07:35:07 2017 -0500
+
+    Merge pull request #8 from stuertz/master
+    
+    Updated to backports.functools_lru_cache version 1.3
+
+commit 3b2e9f6a57fab1f030c3d74234d10d5c641a9bed
+Author: stuertz <js@contact.de>
+Date:   Wed Feb 22 11:54:48 2017 +0100
+
+    Fixed linter issue "The recipe license should not include the word "License"."
+
+commit 4a422d5d57b29863a3b6a42413db72aa0e23a83e
+Author: Jan Stürtz <js@contact.de>
+Date:   Wed Feb 22 10:26:11 2017 +0100
+
+    Updated to Version 1.3
+
+commit a47b3c343784b68d1c41ee7bbba1e06511ca19f6
+Merge: e27c6e3 cd7bdac
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Feb 10 00:41:28 2017 -0500
+
+    Merge pull request #7 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit cd7bdac7d9f2a47e5852ff11f553e9165a3c5e3a
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Jan 20 01:44:03 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.0.0.
+
+commit e27c6e3033c29bba20d470278ff726cce4fbd09a
+Merge: da7da6a a8cc470
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Jan 10 00:31:46 2017 -0500
+
+    Merge pull request #6 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit a8cc470deecdf13a04de90565d753a71a443ce2a
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Jan 9 01:37:41 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.7.0.
+
+commit da7da6a1b57dcbb26be46a155ef0492b7914cd3c
+Merge: 1072dc7 5bb711b
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Oct 9 16:08:56 2016 -0400
+
+    Merge pull request #4 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 5bb711b0ec069649825397d6f34fbfae5a27589c
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Oct 9 19:55:05 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.3.2.
+
+commit 1072dc7b95165b3c53c3a0357044734597f093a9
+Merge: a290996 5593f50
+Author: Phil Elson <pelson.pub@gmail.com>
+Date:   Fri Sep 30 06:10:51 2016 +0100
+
+    Merge pull request #3 from jakirkham/fix_line_endings
+    
+    Fix `meta.yaml` line endings
+
+commit 5593f506f303a20a3002709cc4250d68e2a5f158
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Sep 29 18:28:48 2016 -0400
+
+    meta.yaml: Fix line endings.
+
+commit a2909967cb4d77369c5701cc181e558a2f41ead9
+Merge: 524ae0c fbd18a2
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Sep 29 16:44:35 2016 -0400
+
+    Merge pull request #2 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit fbd18a2051462f4796a3cfccc32cd4ae02f79135
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Sep 29 20:41:03 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.3.0.
+    
+    [ci skip]
+
+commit 524ae0c73472698c5d3898f6151a57241189b361
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Jun 25 23:08:52 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 6dd94605e42578f2bf6ac8638694a08e73e51959
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Jun 25 23:08:05 2016 +0000
+
+    Initial commit of the backports.functools_lru_cache feedstock.

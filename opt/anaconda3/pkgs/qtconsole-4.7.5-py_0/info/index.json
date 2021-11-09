@@ -1,0 +1,27 @@
+{
+  "app_entry": "jupyter-qtconsole",
+  "app_type": "desk",
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "ipykernel >=4.1",
+    "ipython_genutils",
+    "jupyter_client >=4.1",
+    "jupyter_core",
+    "pygments",
+    "pyqt",
+    "python",
+    "qtpy",
+    "traitlets"
+  ],
+  "license": "BSD 3-Clause",
+  "name": "qtconsole",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "summary": "Jupyter Qt Console",
+  "timestamp": 1592848642590,
+  "type": "app",
+  "version": "4.7.5"
+}

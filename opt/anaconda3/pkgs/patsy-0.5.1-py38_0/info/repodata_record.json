@@ -1,0 +1,27 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.4.0",
+    "python >=3.8,<3.9.0a0",
+    "scipy",
+    "six"
+  ],
+  "features": "",
+  "fn": "patsy-0.5.1-py38_0.conda",
+  "legacy_bz2_md5": "5ffa0cfeea3081845ca4d97d41219fee",
+  "legacy_bz2_size": 389275,
+  "license": "BSD-2-Clause, PSF2",
+  "license_family": "BSD",
+  "md5": "b720eaeb57357ed3829f1fb6d8598845",
+  "name": "patsy",
+  "sha256": "44ee623461ec1c261d4f4667307dc4cd2da7b66f2d3dc890b3dcf5a15e83f5c2",
+  "size": 281172,
+  "subdir": "osx-64",
+  "timestamp": 1574355282174,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/patsy-0.5.1-py38_0.conda",
+  "version": "0.5.1"
+}

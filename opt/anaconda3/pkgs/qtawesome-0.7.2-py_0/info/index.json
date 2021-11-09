@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "python",
+    "qtpy",
+    "six"
+  ],
+  "license": "MIT",
+  "name": "qtawesome",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1592328360667,
+  "version": "0.7.2"
+}

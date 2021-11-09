@@ -1,0 +1,555 @@
+commit fe929ad6d3167e0d429e943107a3d47d074b373d
+Merge: 36fa2c2 5f2e4c5
+Author: Aaron Meurer <asmeurer@gmail.com>
+Date:   Thu Jul 2 13:05:00 2020 -0600
+
+    Merge pull request #29 from regro-cf-autotick-bot/1.6.1_h2d4e10
+    
+    sympy v1.6.1
+
+commit 5f2e4c5e58315b9d6c9466d98afecd87bc806886
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jul 2 18:09:34 2020 +0000
+
+    updated v1.6.1
+
+commit 36fa2c24666077a96b74a127d4beb0ee1fd42d26
+Merge: dbef152 2bddb97
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Sun May 24 11:50:16 2020 -0400
+
+    Merge pull request #28 from regro-cf-autotick-bot/1.6_h0344f2
+    
+    sympy v1.6
+
+commit 2bddb97913701d2ada84a1eeef0640b9cafc54c4
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun May 24 11:11:16 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.3, and conda-forge-pinning 2020.05.20.21.21.18
+
+commit 016e96dc17044241b16505a590991220f8d5f2f3
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun May 24 11:10:38 2020 +0000
+
+    updated v1.6
+
+commit dbef152f1012470523c320bc0e9fe94fe0091d96
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Wed May 20 03:39:44 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit c53d968facebcde22e160f53049fe644c29b4303
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon May 18 10:12:24 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit 0baf996d03c9bc2817baa092ca83223cbe8e6fd8
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Wed May 13 01:26:13 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TurnOff
+
+commit eb2549319dcae380cb0b18d2ac7a7c31048e9fd5
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue May 12 10:44:55 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 79593037c84e42aee6a5b622622ef2b66b7e9f11
+Merge: 5c1f8b8 f0e2aea
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Mon Mar 16 11:08:31 2020 -0500
+
+    Merge pull request #27 from conda-forge-linter/conda_forge_admin_26
+    
+    MNT: rerender
+
+commit f0e2aea6eb84bbe95d362fcdc7181a0b1f07ffdf
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Mar 16 10:35:31 2020 -0500
+
+    Update meta.yaml
+
+commit da5832ee01e7b1beceeacdb7e4f2634a9b6d8d44
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Mon Mar 16 15:34:23 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.0, conda-smithy 3.6.12, and conda-forge-pinning 2020.03.14
+
+commit d534dae73306551c62f682c78a2d984a00cf2605
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Mar 16 15:32:34 2020 +0000
+
+    [ci skip] dummy commit for rerendering
+
+commit 5c1f8b8d02bc5b73d3a6e336f683493b3171e6d9
+Merge: 8279fec 632287a
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Sun Mar 15 23:59:26 2020 -0500
+
+    Merge pull request #25 from regro-cf-autotick-bot/rebuild-pypy-0-1
+    
+    Rebuild for pypy
+
+commit 632287af76355cd770efa802abf99722545e5db9
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Mar 15 23:18:12 2020 -0500
+
+    gmpy2 and fastcache are cpython only
+
+commit b48755c0e9e9e0cab66b7097d2bfab65400b744e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Mar 16 02:49:01 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.0, conda-smithy 3.6.12, and conda-forge-pinning 2020.03.14
+
+commit 7da95da576bb8b5358a78a3dcde10d3afd927849
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Mar 16 02:48:20 2020 +0000
+
+    Rebuild for pypy
+
+commit 8279fec43bc7e5b1e948a52377100077764a6e9d
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue Mar 3 05:22:16 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit f56c3beee91cb5d97edbe6261889eca6620f2bfd
+Merge: 9b95e14 75e8aa0
+Author: Aaron Meurer <asmeurer@gmail.com>
+Date:   Sat Jan 18 19:52:53 2020 -0700
+
+    Merge pull request #24 from bollwyvl/run-constrain-antlr-runtime
+    
+    run_constrain antlr-python-runtime, remove setuptools runtime dep
+
+commit 75e8aa067b247a12e01ab6e9e68f0c371b7b6a85
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sat Jan 18 01:22:38 2020 -0500
+
+    remove antlr-python-runtime from test deps
+
+commit c252efaae2c03ea4b715696f2f53e7d1a9469828
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sat Jan 18 01:09:54 2020 -0500
+
+    remove aarch/ppc selector
+
+commit 0513ea0e49df084ce16774de5d3bc4bbc31a5169
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sat Jan 18 00:00:46 2020 -0500
+
+    skip runtime constraints on aarch/ppc
+
+commit dbf60d19fd6d9f4f6643fa50cba5842b45b41639
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Fri Jan 17 23:53:42 2020 -0500
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2020.01.10
+
+commit 8d87ce7cd88b8a18ffc45a538cdd0488e4fa58ec
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Fri Jan 17 23:48:12 2020 -0500
+
+    run_constrain antlr-python-runtime, remove setuptools runtime dep
+
+commit 9b95e148df28c29f3f63c56597ba5d0760889b84
+Merge: 5c27a15 d0bf889
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Sun Jan 5 11:53:45 2020 -0800
+
+    Merge pull request #23 from regro-cf-autotick-bot/1.5.1
+    
+    sympy v1.5.1
+
+commit d0bf889cd40b64f5b61da1203cfaf81f43151590
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jan 5 16:10:43 2020 +0000
+
+    updated v1.5.1
+
+commit 5c27a15f371d2ef2a2b95a7e240be8abeb3d9eee
+Merge: f4dc573 2daeaa7
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Jan 1 17:10:44 2020 +0530
+
+    Merge pull request #22 from conda-forge-linter/conda_forge_admin_21
+    
+    MNT: rerender
+
+commit 2daeaa709c628526f3643b88c89157b02c67574e
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Jan 1 11:27:57 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2019.12.18
+
+commit f4dc57335ab982095101cac9fe59d4a99885621e
+Merge: 52788f8 99b73ce
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Jan 1 16:42:06 2020 +0530
+
+    Merge pull request #17 from regro-cf-autotick-bot/rebuildaarch64_and_ppc64le_addition1_arch
+    
+    Arch Migrator
+
+commit 52788f8f29298fc3f9997d85c4ecc3020c246be1
+Merge: 9bb5594 1c6d332
+Author: Aaron Meurer <asmeurer@gmail.com>
+Date:   Fri Dec 13 17:11:56 2019 -0600
+
+    Merge pull request #19 from regro-cf-autotick-bot/1.5
+    
+    sympy v1.5
+
+commit 1c6d3327aa5706227774aba1e795d5d547980d17
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Dec 13 22:17:32 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2019.12.02
+
+commit b2f06ce016b84d9320843970b428219a74dae5c6
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Dec 13 22:17:13 2019 +0000
+
+    updated v1.5
+
+commit 99b73ce219b018e22b5703f56776048ceeb18bb4
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Nov 3 02:01:32 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.10, conda-smithy 3.6.1, and conda-forge-pinning 2019.11.01
+
+commit 74c6bcfa8ff3252161dded6b77ba5d0af9128404
+Merge: d4afe33 9bb5594
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Nov 2 21:00:18 2019 -0500
+
+    Merge branch 'master' into rebuildaarch64_and_ppc64le_addition1_arch
+
+commit 9bb559450e38568618dc75dd27a392e755041bc2
+Merge: 0a1aa56 75c4e3a
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Nov 2 17:39:39 2019 -0400
+
+    Rebuild for python38 (#18)
+    
+    Rebuild for python38
+
+commit 75c4e3ac8937c8417b6c4d95f82713519d5a2776
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 2 21:22:54 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.1, and conda-forge-pinning 2019.11.01
+
+commit 27aad1c4bd66bb2234a3306b5a976f5685c11f20
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 2 21:22:36 2019 +0000
+
+    bump build number
+
+commit d4afe33f113a4b0cfcdc9bb9bb4d27957302ccb5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Oct 31 01:23:34 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.10, conda-smithy 3.6.0, and conda-forge-pinning 2019.10.28
+
+commit 49b7c1f704beccf516c473d4b429f60aa6d4d5f7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Oct 31 01:23:13 2019 +0000
+
+    bump build number
+
+commit 0a1aa562e135a9936c10a8c9bcdf7d07d63a0436
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 18:32:37 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit 952871f480c453404e1089901efd93d588ea6736
+Merge: c85adc0 96f7b9f
+Author: Aaron Meurer <asmeurer@gmail.com>
+Date:   Wed Apr 10 14:22:02 2019 -0600
+
+    Merge pull request #16 from regro-cf-autotick-bot/1.4
+    
+    sympy v1.4
+
+commit 96f7b9f343a31e61d2cf9bccb4e71178f4cfd094
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Apr 10 04:27:42 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.2, and conda-forge-pinning 2019.03.17
+
+commit 814559fa00c1608701bea815420fb921bee68142
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Apr 10 04:27:30 2019 +0000
+
+    updated v1.4
+
+commit c85adc08ee2308bbe94001cd5d1422a88deee9c7
+Merge: fdfc8ec 4c9c3bd
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Oct 15 08:49:22 2018 -0300
+
+    Merge pull request #14 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit 4c9c3bd524aa1a65cafe564fa95e23f5a2ded5ef
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Oct 14 17:29:58 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.11
+
+commit 96ae944eb27c66b386e18628ed1ace220d66c833
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Oct 14 17:29:45 2018 +0000
+
+    bump build number
+
+commit fdfc8ec4c4fab07cd5b6fc829352345240552956
+Merge: 47429f4 eb15d57
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Oct 7 06:38:35 2018 -0300
+
+    Merge pull request #13 from ocefpaf/py37
+    
+    Py37
+
+commit eb15d578454821ce77c152483ef6aebb6a01935d
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Oct 6 12:43:09 2018 -0300
+
+    declare entrypoints
+
+commit 42e55111b01fdfcd953eed1c32a6afbccfa9f900
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Oct 6 12:42:06 2018 -0300
+
+    imports pkg_resources
+
+commit a42da3927be3fe7d89929be5176f8d9faa3bdc34
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Oct 6 11:26:30 2018 -0300
+
+    add pip
+
+commit 86556c9afb29acb14539ada0ff42fb3623a1090e
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Oct 6 11:01:05 2018 -0300
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.01
+
+commit 69669d424a551c15bb81eed165ce491bbff7ce57
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Oct 6 11:01:00 2018 -0300
+
+    py37
+
+commit 8e4396f28c6ee45853e8695a36748258a783658a
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Oct 6 11:00:50 2018 -0300
+
+    update-cb3
+
+commit 47429f4058626d269cc8bdf9f5aa001722eea13f
+Merge: bf36a30 bf2ab1a
+Author: Aaron Meurer <asmeurer@gmail.com>
+Date:   Fri Sep 14 18:23:43 2018 -0600
+
+    Merge pull request #12 from regro-cf-autotick-bot/1.3
+    
+    sympy v1.3
+
+commit bf2ab1add67971dff93954568ae4fa1bcab55b81
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Sep 14 23:11:20 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.11
+
+commit 894a565f8fb76a73b8ba6f4a9d22a767e026525d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Sep 14 23:11:11 2018 +0000
+
+    updated v1.3
+
+commit bf36a30530ed364b19ba4d7f5c64415f06bdc08e
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:10:46 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit c30dd20542931e8e2200a8b4f0c8d201bca89902
+Merge: 46c05df b7e8050
+Author: Aaron Meurer <asmeurer@gmail.com>
+Date:   Sun Jul 15 16:52:22 2018 -0500
+
+    Merge pull request #11 from regro-cf-autotick-bot/1.2
+    
+    sympy v1.2
+
+commit b7e805087324f8f896eb391f2a4ec69566b16e39
+Author: Aaron Meurer <asmeurer@gmail.com>
+Date:   Sun Jul 15 11:43:54 2018 -0500
+
+    Fix typo in test command
+
+commit 8d15f4731ea0be25b976ebfe191f5889bddfb3ed
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 15 15:12:40 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.01
+
+commit 7f36d8fd79073c48844bcc7e850a6ccc9086eb1a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 15 15:12:34 2018 +0000
+
+    updated v1.2
+
+commit 46c05df86cdabcb198c0aabae4b5b4780dbf1ed2
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:36:37 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 45c1af0e95f055bcaf542a0bc9d7e3d503ecbd3c
+Merge: 60ba743 6b049ef
+Author: Aaron Meurer <asmeurer@gmail.com>
+Date:   Wed Jul 26 22:53:57 2017 -0500
+
+    Merge pull request #8 from asmeurer/1.1.1
+    
+    Update SymPy to 1.1.1
+
+commit 6b049eff0a3d19da254c14b38bf208be2341e991
+Author: Aaron Meurer <asmeurer@gmail.com>
+Date:   Wed Jul 26 21:59:42 2017 -0400
+
+    Update SymPy to 1.1.1
+
+commit 60ba743f3b0b2ae0f6573d860434318827557339
+Merge: 2e701a0 24c245f
+Author: Aaron Meurer <asmeurer@gmail.com>
+Date:   Sat Jul 8 02:51:22 2017 -0400
+
+    Merge pull request #2 from isuruf/patch-1
+    
+    Use gmpy2
+
+commit 24c245f9f00b4e81932c36ac5cdb8ad62c96ab2d
+Author: Isuru Fernando <isuru.11@cse.mrt.ac.lk>
+Date:   Sat Jul 8 09:16:49 2017 +0530
+
+    Fix typo
+
+commit 356a8ac26b4da656025d3eb8db1406b80e84ceec
+Author: Isuru Fernando <isuru.11@cse.mrt.ac.lk>
+Date:   Sat Jul 8 08:55:28 2017 +0530
+
+    Have a lower limit for gmpy2
+
+commit 73d6ebd18825a4dd93745dc367c9c50ecf91ad43
+Author: Isuru Fernando <isuru.11@cse.mrt.ac.lk>
+Date:   Fri Jul 7 06:18:20 2017 +0530
+
+    Skip win because 2.0.* is buggy when MPIR is used.
+    
+    Windows can be enabled once 2.1.0 is out.
+
+commit 2e701a09e94c165967222bd9e335e3e81e67d870
+Merge: 915f93a 12fcc52
+Author: Aaron Meurer <asmeurer@gmail.com>
+Date:   Thu Jul 6 17:37:52 2017 -0500
+
+    Merge pull request #7 from asmeurer/1.1
+    
+    Update recipe to 1.1
+
+commit 12fcc52c867fd9c70a456e7fc230f8efa6804268
+Author: Aaron Meurer <asmeurer@gmail.com>
+Date:   Thu Jul 6 17:43:21 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.3.2
+
+commit 83a56abb82f147a299789a8296c7cf8861ed3490
+Author: Aaron Meurer <asmeurer@gmail.com>
+Date:   Thu Jul 6 16:33:40 2017 -0400
+
+    Use the pypi.io URL
+
+commit 63793d995317fdf0dc83e5cc9d78fd730a5162fe
+Author: Aaron Meurer <asmeurer@gmail.com>
+Date:   Thu Jul 6 16:27:01 2017 -0400
+
+    Update recipe to 1.1
+
+commit 915f93abf063e3d1f5b865116032153be1cd153c
+Merge: aa33001 8968caa
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Jan 11 17:31:42 2017 -0300
+
+    Merge pull request #5 from astrofrog/conda-smithy-170
+    
+    MNT: Re-rendered with conda-smithy 1.7.0
+
+commit 8968caa490924063e26c581d35ec314bd1a36f43
+Author: Thomas Robitaille <thomas.robitaille@gmail.com>
+Date:   Wed Jan 11 09:59:56 2017 +0000
+
+    MNT: Re-rendered with conda-smithy 1.7.0
+
+commit aa33001baa0061608a0cc3d8122d3e45304f4bbe
+Merge: 1d3ff23 0ac87a6
+Author: Aaron Meurer <asmeurer@gmail.com>
+Date:   Wed Oct 12 00:01:07 2016 -0500
+
+    Merge pull request #3 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 0ac87a6700edc235a31643be0c44a3d2c2746479
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Oct 12 04:13:55 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.3.2.
+
+commit 301027531e19cbbe10126279b68878ebfc020200
+Author: Isuru Fernando <isuru.11@cse.mrt.ac.lk>
+Date:   Sun Jul 3 08:45:43 2016 +0530
+
+    Use gmpy2
+
+commit 1d3ff23f1e46c4e9edc91acd50d347d5064844a8
+Merge: 0cee1f4 885196b
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Tue May 17 00:30:37 2016 -0400
+
+    Merge pull request #1 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit 885196b09ef63e30d42873c8b8841f10134e100a
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue May 17 02:43:22 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.3.
+    
+    [ci skip]
+
+commit 0cee1f4bf955c3d770acdfc960136c8eb6cb4f6e
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue May 3 22:06:47 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit e1a5826bf09c24cc8713ad753ce6593b9e77e6f1
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue May 3 22:05:26 2016 +0000
+
+    Initial commit of the sympy feedstock.

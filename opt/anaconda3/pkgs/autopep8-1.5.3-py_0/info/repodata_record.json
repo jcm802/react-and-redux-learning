@@ -1,0 +1,28 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "pycodestyle >=2.6",
+    "python",
+    "toml"
+  ],
+  "features": "",
+  "fn": "autopep8-1.5.3-py_0.conda",
+  "legacy_bz2_md5": "9c24446d3c10399da283f1d919c3cc1c",
+  "legacy_bz2_size": 44872,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "dbb67a66d2f41d23ad6126cff63fef86",
+  "name": "autopep8",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "5b44534991e81cd65ae918efe7037d0c4caa1a343f806376ba2ab6c0f9f1705d",
+  "size": 46071,
+  "subdir": "noarch",
+  "timestamp": 1592412915322,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/autopep8-1.5.3-py_0.conda",
+  "version": "1.5.3"
+}

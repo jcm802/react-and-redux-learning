@@ -1,0 +1,25 @@
+{
+  "build": "py38h1de35cc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "six"
+  ],
+  "features": "",
+  "fn": "pyrsistent-0.16.0-py38h1de35cc_0.conda",
+  "legacy_bz2_md5": "703d3571b05c32b772ede765e7431043",
+  "legacy_bz2_size": 93541,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "349ce9f677ce30286c77a975b5f18d63",
+  "name": "pyrsistent",
+  "sha256": "9a670c35615d61b8153c216a7e988336fefb2e32a7775b10298354b448165c5b",
+  "size": 94470,
+  "subdir": "osx-64",
+  "timestamp": 1585588102636,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pyrsistent-0.16.0-py38h1de35cc_0.conda",
+  "version": "0.16.0"
+}

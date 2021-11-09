@@ -1,0 +1,83 @@
+commit 22def54c335eed025e0ae79c93d51fa23bc66d3f
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu Sep 20 10:25:05 2018 -0500
+
+    build 7, remove .pyc files on unix
+
+commit d60e455856803f8894c35abbc6cf3966ab4a0154
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Sep 17 16:02:31 2018 -0500
+
+    build 6, remove pyc/__pycache on windows
+
+commit 9c10a12afad37517c077f3eccc9b81b97624f74f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Jul 13 16:46:08 2018 +0000
+
+    Fix more overlapping files
+
+commit 3b87aa1766a4b1a12f44fb21918df17666ab2860
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Wed Feb 7 14:11:12 2018 -0600
+
+    rm jupyter.py when installing to avoid conflicts with jupyter_core
+
+commit 2bb50a53beadaaea70bb13b14bb808bf71d4e552
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Wed Feb 7 13:09:26 2018 -0600
+
+    bump build number to be ahead of older free channel pkg
+
+commit c6a06ad023c645549dfffaad0005ecef657dc236
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 12:25:52 2017 -0700
+
+    3rd time lucky?
+
+commit fc6410acff83f86ebdb493b163a4fd3c531dce42
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 12:02:49 2017 -0700
+
+    oops
+
+commit 52dc4feb86c5ee860d0a14376d2a7bfcd97f317d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 11:53:08 2017 -0700
+
+    Remove entry point as it is part of jupyter_core, a transitive dep
+
+commit 221feb0be6cc060792a4f9835d0a883f202fa51b
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Sep 21 12:52:06 2017 -0700
+
+    Needs pip
+
+commit ecb8f21618ac3c64dd65b1d86884bf46a8a845a0
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Aug 13 12:11:29 2017 +0000
+
+    Add selector for powerpc
+
+commit 7cba314ceb03f5b7995d1dce1b6fcef846edf5c9
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Aug 13 12:10:55 2017 +0000
+
+    Update about section
+
+commit 2f3bb3895c3dd536364566d53edf385afaf50c0d
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Jul 13 11:30:13 2017 +0000
+
+    Make recipe cross-compile capable
+
+commit 5cfde0dfd6bc5baa7566ef5fca2deb5657026b5b
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Jan 23 11:10:14 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit aea00afab92463f65ff3b0d48bd01bb5f6ba9077
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Jan 23 11:07:25 2017 +0000
+
+    Initial feedstock commit with conda-smithy 2.0.1.

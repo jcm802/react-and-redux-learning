@@ -1,0 +1,254 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/xlsxwriter-1.2.9-py_0",
+  "features": "",
+  "files": [
+    "bin/vba_extract.py",
+    "lib/python3.8/site-packages/XlsxWriter-1.2.9.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/XlsxWriter-1.2.9.dist-info/LICENSE.txt",
+    "lib/python3.8/site-packages/XlsxWriter-1.2.9.dist-info/METADATA",
+    "lib/python3.8/site-packages/XlsxWriter-1.2.9.dist-info/RECORD",
+    "lib/python3.8/site-packages/XlsxWriter-1.2.9.dist-info/WHEEL",
+    "lib/python3.8/site-packages/XlsxWriter-1.2.9.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/xlsxwriter/__init__.py",
+    "lib/python3.8/site-packages/xlsxwriter/app.py",
+    "lib/python3.8/site-packages/xlsxwriter/chart.py",
+    "lib/python3.8/site-packages/xlsxwriter/chart_area.py",
+    "lib/python3.8/site-packages/xlsxwriter/chart_bar.py",
+    "lib/python3.8/site-packages/xlsxwriter/chart_column.py",
+    "lib/python3.8/site-packages/xlsxwriter/chart_doughnut.py",
+    "lib/python3.8/site-packages/xlsxwriter/chart_line.py",
+    "lib/python3.8/site-packages/xlsxwriter/chart_pie.py",
+    "lib/python3.8/site-packages/xlsxwriter/chart_radar.py",
+    "lib/python3.8/site-packages/xlsxwriter/chart_scatter.py",
+    "lib/python3.8/site-packages/xlsxwriter/chart_stock.py",
+    "lib/python3.8/site-packages/xlsxwriter/chartsheet.py",
+    "lib/python3.8/site-packages/xlsxwriter/comments.py",
+    "lib/python3.8/site-packages/xlsxwriter/compatibility.py",
+    "lib/python3.8/site-packages/xlsxwriter/contenttypes.py",
+    "lib/python3.8/site-packages/xlsxwriter/core.py",
+    "lib/python3.8/site-packages/xlsxwriter/custom.py",
+    "lib/python3.8/site-packages/xlsxwriter/drawing.py",
+    "lib/python3.8/site-packages/xlsxwriter/exceptions.py",
+    "lib/python3.8/site-packages/xlsxwriter/format.py",
+    "lib/python3.8/site-packages/xlsxwriter/packager.py",
+    "lib/python3.8/site-packages/xlsxwriter/relationships.py",
+    "lib/python3.8/site-packages/xlsxwriter/shape.py",
+    "lib/python3.8/site-packages/xlsxwriter/sharedstrings.py",
+    "lib/python3.8/site-packages/xlsxwriter/styles.py",
+    "lib/python3.8/site-packages/xlsxwriter/table.py",
+    "lib/python3.8/site-packages/xlsxwriter/theme.py",
+    "lib/python3.8/site-packages/xlsxwriter/utility.py",
+    "lib/python3.8/site-packages/xlsxwriter/vml.py",
+    "lib/python3.8/site-packages/xlsxwriter/workbook.py",
+    "lib/python3.8/site-packages/xlsxwriter/worksheet.py",
+    "lib/python3.8/site-packages/xlsxwriter/xmlwriter.py",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/app.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/chart.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/chart_area.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/chart_bar.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/chart_column.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/chart_doughnut.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/chart_line.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/chart_pie.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/chart_radar.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/chart_scatter.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/chart_stock.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/chartsheet.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/comments.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/compatibility.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/contenttypes.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/core.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/custom.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/drawing.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/exceptions.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/format.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/packager.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/relationships.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/shape.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/sharedstrings.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/styles.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/table.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/theme.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/utility.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/vml.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/workbook.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/worksheet.cpython-38.pyc",
+    "lib/python3.8/site-packages/xlsxwriter/__pycache__/xmlwriter.cpython-38.pyc"
+  ],
+  "fn": "xlsxwriter-1.2.9-py_0.conda",
+  "legacy_bz2_md5": "ad57df9315c1e83d4cc01d952b480e5c",
+  "legacy_bz2_size": 110705,
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/xlsxwriter-1.2.9-py_0",
+    "type": 1
+  },
+  "md5": "8dad41212bf59bff813cc3ddfd73577f",
+  "name": "xlsxwriter",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/xlsxwriter-1.2.9-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/vba_extract.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "d1de0bf45458f97acefe1f552ef9b746d37120cfd3eb8e7d1bd62b5cc7cfa9b5",
+        "sha256_in_prefix": "de290f2db713be381904d275c5bae808f855c0f71f0aa3089af2e75b9dd35f85",
+        "size_in_bytes": 1840
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/app.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/chart.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/chart_area.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/chart_bar.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/chart_column.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/chart_doughnut.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/chart_line.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/chart_pie.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/chart_radar.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/chart_scatter.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/chart_stock.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/chartsheet.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/comments.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/compatibility.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/contenttypes.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/core.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/custom.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/drawing.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/exceptions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/format.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/packager.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/relationships.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/shape.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/sharedstrings.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/styles.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/table.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/theme.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/utility.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/vml.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/workbook.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/worksheet.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xlsxwriter/__pycache__/xmlwriter.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "xlsxwriter==1.2.9=py_0",
+  "sha256": "922a8f6164da36cd7a2ff4ab3036aed5fe13712029d0f2366b274e980f8c32d5",
+  "size": 114637,
+  "subdir": "noarch",
+  "timestamp": 1591726564188,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/xlsxwriter-1.2.9-py_0.conda",
+  "version": "1.2.9"
+}

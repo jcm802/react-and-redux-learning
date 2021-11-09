@@ -1,0 +1,26 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "werkzeug-1.0.1-py_0.conda",
+  "legacy_bz2_md5": "21ee1f79262926f82609b519304b9e47",
+  "legacy_bz2_size": 248780,
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "e2bbf09c9e0344b7213a6e75237f16ad",
+  "name": "werkzeug",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "48a96ccf86f9299683de7606a1223f2377e1651eff9fff1aafe6c79a20b59143",
+  "size": 246061,
+  "subdir": "noarch",
+  "timestamp": 1586640957016,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/werkzeug-1.0.1-py_0.conda",
+  "version": "1.0.1"
+}

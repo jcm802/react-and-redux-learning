@@ -1,0 +1,504 @@
+commit f2e30f8c560d403352c79eff5a9ee2392597e1ed
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 07:16:09 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit a73ad8adb1dfba194380ca7e2427d76d5fb750a2
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat May 16 06:43:30 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 543baf6f72d5ce726dd2c5d7da31c7ffc7dd9e6b
+Merge: 2a1145e 50982f3
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed May 13 14:42:27 2020 -0300
+
+    Merge pull request #35 from regro-cf-autotick-bot/2.10.2_h8e345e
+
+commit 50982f3f2529558d1772c423a270dd14a200660c
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Tue May 12 11:02:00 2020 -0300
+
+    update patches
+
+commit 9c517fbf466c226da4e1ab8c1d62e1682522f604
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat May 9 15:30:46 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.0, and conda-forge-pinning 2020.05.09.00.08.03
+
+commit a5aade66c8065c59e45ce83cbb043e80f2ba4c59
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat May 9 15:30:18 2020 +0000
+
+    updated v2.10.2
+
+commit 2a1145ed8695aa9f18232459f7d8c63240b24f76
+Merge: 80e8897 b24208a
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Mar 19 09:41:51 2020 -0300
+
+    Merge pull request #34 from regro-cf-autotick-bot/2.10.1
+    
+    freetype v2.10.1
+
+commit b24208a321c1d31a7feb70ce3054c8f46e31d238
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Mar 19 02:28:00 2020 +0000
+
+    updated v2.10.1
+
+commit 80e88972d5f544b2c335278272f6d683c826d535
+Merge: e490b76 336156e
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Mar 18 17:58:54 2020 -0300
+
+    Merge pull request #33 from ocefpaf/azure
+    
+    Use Azure to builds Windows pkgs
+
+commit 336156e094d374c01939e2ad72b0b9d60054bf35
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Wed Mar 18 17:35:32 2020 -0300
+
+    Arghhhh
+
+commit 4f7606a29dd9ac0a4c2080dfe4345fd260149c09
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Wed Mar 18 15:53:02 2020 -0300
+
+    I 8 win
+
+commit e6c174736e723fa3da9a1e6e05a2c4ecb9c5a9a3
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Wed Mar 18 15:41:09 2020 -0300
+
+    not sure how to do this on Windows
+
+commit 2d37ca55b639db37f551c707c1303afae18f2e8e
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Wed Mar 18 14:34:59 2020 -0300
+
+    add lic files
+
+commit f171337ca9c90982856f5c96bc0cde4dac188139
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Wed Mar 18 14:25:30 2020 -0300
+
+    MNT: Re-rendered with conda-build 3.19.1, conda-smithy 3.6.12, and conda-forge-pinning 2020.03.16
+
+commit 68ec9de05e8012c96c7c77ac5514cd0969082365
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Wed Mar 18 14:25:28 2020 -0300
+
+    use azure for windows
+
+commit 9598c24f4017a89471c26633b2317f1ea925b1da
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Wed Mar 18 14:25:20 2020 -0300
+
+    use ninja
+
+commit e490b76359a764aba91bcadbc8298e4af23c7c13
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 19:55:59 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 5c69e24238a236da494a48e02ad3cb3d8340dc73
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Oct 2 16:54:45 2019 -0500
+
+    [ci skip] ***NO_CI*** Keep using appveyor.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit 864c17421aecbd33a91b21202b2b82f3985771c6
+Merge: 650156e 5c0636a
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Aug 9 10:45:34 2019 -0300
+
+    MNT: rerender (#31)
+    
+    MNT: rerender
+
+commit 5c0636a316f31ca2a9755e26d9adc8a00f0e62a7
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Aug 9 09:03:12 2019 -0300
+
+    Update meta.yaml
+
+commit 09bbad7f840938d5c3c5d67f3f37a0e612938c2f
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Aug 9 02:10:44 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.08.08
+
+commit 650156e522bc712bcdd9c6b1a9281b3b444bbade
+Merge: f6ffbc1 a23fbd8
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Mar 15 13:07:52 2019 -0300
+
+    Merge pull request #27 from regro-cf-autotick-bot/2.10.0
+    
+    freetype v2.10.0
+
+commit a23fbd8c6b236d8d2def7e1609d274e3c1220b20
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Mar 15 08:19:07 2019 -0300
+
+    drop upstreamed patches
+
+commit 7adb562f8f2037c0cb112077abf4b4a5b862e0ca
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Mar 15 09:29:06 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.03.14
+
+commit 88935834781b67ae5ea9f038527a239b38eebad4
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Mar 15 09:28:53 2019 +0000
+
+    updated v2.10.0
+
+commit f6ffbc10baf7b5b65b32b5ba189e93eb33e50260
+Merge: 55ca8fe add81a2
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Mon Mar 4 21:27:14 2019 -0500
+
+    Merge pull request #26 from regro-cf-autotick-bot/rebuildaarch64_and_ppc64le_addition1_arch
+    
+    Arch Migrator
+
+commit add81a210f5228b776f94e0a5194f81e5a193eff
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 5 02:06:33 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.03.04
+
+commit fa5f40c1da3a6e137b54a25cbc0bb1ddf7e2b069
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 5 02:06:22 2019 +0000
+
+    bump build number
+
+commit 55ca8fecd56fb3a4565dbbad29baf4013db08b78
+Merge: 0efd74e 11bd7e6
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Jan 19 15:10:17 2019 -0200
+
+    Merge pull request #25 from mariusvniekerk/pins
+    
+    Update pins and rerendered
+
+commit 11bd7e635ef88f7f09b9bfdcc2f933a62c13e698
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sat Jan 19 11:18:59 2019 -0500
+
+    bump build number
+
+commit 7169ad7de4177eaaf101aa24eaeb7cbf37d0dc61
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sat Jan 19 11:17:20 2019 -0500
+
+    MNT: Re-rendered with conda-build 3.17.5, conda-smithy 3.2.9, and conda-forge-pinning 2019.01.18
+
+commit 0efd74e199c1bbcfbc052ae273ab5e49886e03b2
+Merge: 2204581 df12e43
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Sep 14 09:38:12 2018 -0300
+
+    Merge pull request #24 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit df12e431340a407e97500298bff469b724c0961b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Sep 13 18:14:01 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.11
+
+commit 9a523e5e5e841533794735778ba33fa19c98c0c9
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Sep 13 18:13:53 2018 +0000
+
+    bump build number
+
+commit 22045819bb3feec1ac15976780091209b774c6d8
+Merge: 9c422b6 276821e
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Sep 6 08:52:10 2018 -0300
+
+    Merge pull request #23 from pkgw/windows-versioning
+    
+    Fix the CMake (Windows) versioning information.
+
+commit 276821e707248459cbe4455bbaf1ce3d13eb6155
+Author: Peter Williams <peter@newton.cx>
+Date:   Wed Sep 5 21:46:35 2018 -0400
+
+    Fix the CMake (Windows) versioning information.
+    
+    First, the CMake build scripts have a shared-object version that's simply
+    inconsistent with the autotools-based build. Second, they were embedding the
+    wrong version in the pkg-config file: it should by the Libtool version number
+    rather than the package version number. Fun times. The file docs/VERSIONS.TXT
+    logs some of the key info and helps show the relation between the Libtool
+    version and the shlib version.
+
+commit 9c422b6feb5ce4fb2935a17d0617e0806796541b
+Merge: 3eae87e 5cff80f
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Sep 5 20:30:06 2018 -0300
+
+    Merge pull request #22 from pkgw/windows-pkgconfig
+    
+    Install the pkg-config file on Windows too.
+
+commit 5cff80f7d96cede14386b702e88d17fd5d30c73d
+Author: Peter Williams <peter@newton.cx>
+Date:   Wed Sep 5 17:05:11 2018 -0400
+
+    Install the pkg-config file on Windows too.
+
+commit 3eae87eea60690be1cbb6da79bc5c19eff022223
+Merge: bd37b58 2a9979b
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Sep 3 13:38:02 2018 -0300
+
+    Merge pull request #21 from ocefpaf/remove_la
+    
+    Remove la
+
+commit 2a9979b69df066e4bf4eb8c9476d3f98b6ddec8f
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Sep 3 11:34:31 2018 -0300
+
+    MNT: Re-rendered with conda-smithy 3.1.12.post.dev2 and pinning 2018.08.31
+
+commit 0d05aaf0897eb91e6f338591252e8d2af1042fc5
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Sep 3 11:34:27 2018 -0300
+
+    remove .la
+
+commit bd37b58773c3ce8eaf37b25d35b66d2bb90fe5a8
+Merge: 1e688f6 fa46112
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Aug 20 17:21:25 2018 -0500
+
+    Merge pull request #20 from ocefpaf/re-render
+    
+    Re render
+
+commit fa46112eac28a5403e5e465a1b11a228f8e7f3d3
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Aug 20 14:22:45 2018 -0700
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.08.14
+
+commit 365fed43d5929b2e5dac35251ad026759d1868f9
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Aug 20 14:22:39 2018 -0700
+
+    bump
+
+commit 1e688f62bfbf5a4dc7cd9394b25e0892653734ab
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:19:50 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 22568befacfd82c9275876c885bab9af934e5f4e
+Merge: 979e519 81b4a46
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Jul 27 14:08:12 2018 -0300
+
+    Merge pull request #17 from ocefpaf/update_recipe
+    
+    update recipe
+
+commit 81b4a4694735edcb6222ad031c188e039da03558
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Jul 27 08:37:13 2018 -0300
+
+    update recipe
+
+commit 979e519c54f301dbc374bb3798fd1b75b6ae5ccb
+Merge: 882e16d 9ba4e0a
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Nov 25 09:57:49 2017 -0200
+
+    Merge pull request #14 from ocefpaf/update_to_2.8
+    
+    update to 2.8.1
+
+commit 9ba4e0abb701d99a5b226ed660e8f97dc0de0c22
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Nov 24 15:59:18 2017 -0200
+
+    update to 2.8.1
+
+commit 882e16d6dfbfb1479693381675c8bc88bf5f0822
+Merge: 7a76f5c b7a755f
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Nov 5 07:36:43 2017 -0200
+
+    Merge pull request #13 from ocefpaf/pin_zlib_1.2.11
+    
+    Pin zlib 1.2.11
+
+commit b7a755fb7f8789f3b488c8896a5726359e25f194
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Nov 4 20:36:30 2017 -0200
+
+    pin zlib 1.2.11
+
+commit 0fc175f023539693e3d7984f468cdadda1a32395
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Nov 4 20:36:27 2017 -0200
+
+    rerender
+
+commit 7a76f5c03a0529853aaa0d65be4d6e0e8a246360
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:38:29 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit eaf710f0ab660b590104557552ce711051bebe4b
+Merge: 148b4b6 7c992b9
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Apr 9 01:47:38 2017 -0400
+
+    Merge pull request #11 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 7c992b9c271c16d34cec6324e43d784152638923
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Apr 6 01:40:53 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.2.2.
+
+commit 148b4b6c39577499fbbe485d1027dfb35f0603e5
+Merge: d4a3804 380e39a
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Feb 2 09:49:26 2017 -0300
+
+    Merge pull request #10 from ocefpaf/update_pin
+    
+    Update pin
+
+commit 380e39a4983d833dac85a2ca89026c18cb0efa1c
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Wed Feb 1 15:40:43 2017 -0300
+
+    Update pin
+
+commit d4a380408ff334f41ac3bf86d18ad683d9760a21
+Merge: 8499f10 d2b2b5f
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Dec 7 09:02:03 2016 -0300
+
+    Merge pull request #9 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit d2b2b5f0590915dfee68c36b813d662e6bc6e5e0
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Dec 1 01:36:58 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.6.1.
+
+commit 8499f10e465279393fb5c4b50211624f78f44721
+Merge: 00c30a2 dea90a7
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Oct 12 06:01:43 2016 -0300
+
+    Merge pull request #8 from ocefpaf/refresh
+    
+    Refresh
+
+commit dea90a705a296e94d8299b310e92f3501bd516b9
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Oct 11 14:47:04 2016 -0300
+
+    Updated to 2.7
+
+commit 632d84b047a20db970f8adcb65e6dba184ed9250
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Oct 11 12:52:13 2016 -0300
+
+    rerender
+
+commit 00c30a22d643ea7a75e4cbf5b8e667d69b246146
+Merge: 7773a1b 2d3dbe9
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Jun 22 23:04:02 2016 -0300
+
+    Merge pull request #6 from ocefpaf/pin
+    
+    Update pinning. Closes #5
+
+commit 2d3dbe94a10843132975ff93e5189a3592ac997e
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Wed Jun 22 06:41:48 2016 -0300
+
+    Update pinning. Closes #5
+
+commit 7773a1b099fb1e42d63720e128e53bcf4da930f5
+Merge: 379c703 b8a9fbd
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat May 14 09:09:18 2016 -0300
+
+    Merge pull request #3 from ocefpaf/win_part2
+    
+    WORK IN PROGRESS :: WIP :: DO NOT MERGE :: Fix Windows build
+
+commit b8a9fbd8574d2439b247850ed87f3bec1e28a1e3
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Fri May 13 16:52:22 2016 -0300
+
+    Build Shared
+
+commit 7cccf860bc4bce04ef4aead1fd198eadbb8c40d3
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Fri May 13 16:52:02 2016 -0300
+
+    rerender
+
+commit 619768d5bf32107ccafada17030ef61cf7500193
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue May 10 12:21:09 2016 -0300
+
+    Fix Windows build
+
+commit 379c70380ec05de84ee4490e95bcb84407093e62
+Merge: 959e772 dd11fce
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue May 10 09:37:07 2016 -0400
+
+    Merge pull request #2 from ocefpaf/win
+    
+    Windows build
+
+commit dd11fcebd73b26bc6d46d3b6962550d8e2084c0f
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue May 10 10:10:36 2016 -0300
+
+    Windows build
+
+commit 959e772305adb6439837bd203525b1cf47bd9d8b
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue May 10 11:58:56 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit d6ed4f15d6742bc58067184daa98e06428c445c8
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue May 10 11:58:17 2016 +0000
+
+    Initial commit of the freetype feedstock.

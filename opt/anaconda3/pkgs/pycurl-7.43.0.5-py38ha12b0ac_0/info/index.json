@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "py38ha12b0ac_0",
+  "build_number": 0,
+  "depends": [
+    "libcurl >=7.67.0,<8.0a0",
+    "openssl >=1.1.1d,<1.1.2a",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "license": "LGPL, MIT",
+  "license_family": "LGPL",
+  "name": "pycurl",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1580835683680,
+  "version": "7.43.0.5"
+}

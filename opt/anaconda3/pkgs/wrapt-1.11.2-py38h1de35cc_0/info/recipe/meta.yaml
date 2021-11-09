@@ -1,0 +1,73 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/3c6d9722-e63c-4936-6a03-7c470ea8f9f0/volume/aggregate/wrapt-feedstock/recipe, last modified Fri Nov  8 02:13:36 2019
+# ------------------------------------------------
+
+package:
+    name: wrapt
+    version: 1.11.2
+source:
+    sha256: 565a021fd19419476b9362b05eeaa094178de64f8361e44468f9e9d7843901e1
+    url: https://pypi.io/packages/source/w/wrapt/wrapt-1.11.2.tar.gz
+build:
+    number: '0'
+    script: /opt/concourse/worker/volumes/live/3c6d9722-e63c-4936-6a03-7c470ea8f9f0/volume/wrapt_1573201207547/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin/python
+        -m pip install . --no-deps -vv
+    string: py38h1de35cc_0
+requirements:
+    build:
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_18
+        - compiler-rt 4.0.1 hcfea43d_1
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+    host:
+        - ca-certificates 2019.10.16 0
+        - certifi 2019.9.11 py38_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20181209 hb402a30_0
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1d h1de35cc_3
+        - pip 19.3.1 py38_0
+        - python 3.8.0 h359304d_2
+        - readline 7.0 h1de35cc_5
+        - setuptools 41.6.0 py38_0
+        - sqlite 3.30.1 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.33.6 py38_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - python >=3.8,<3.9.0a0
+test:
+    imports:
+        - wrapt
+about:
+    description: 'The aim of the wrapt module is to provide a transparent object proxy
+        for
+
+        Python, which can be used as the basis for the construction of function
+
+        wrappers and decorator functions.
+
+        '
+    dev_url: https://github.com/GrahamDumpleton/wrapt
+    doc_source_url: https://github.com/GrahamDumpleton/wrapt/blob/master/docs/index.rst
+    doc_url: http://wrapt.readthedocs.org/en/latest/
+    home: https://github.com/GrahamDumpleton/wrapt
+    license: BSD 2-Clause
+    license_file: LICENSE
+    summary: Module for decorators, wrappers and monkey patching
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - nehaljwani
+        - ocefpaf

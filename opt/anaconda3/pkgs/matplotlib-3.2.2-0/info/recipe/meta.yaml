@@ -1,0 +1,47 @@
+# This file created by conda-build 3.18.11
+# ------------------------------------------------
+
+package:
+    name: matplotlib
+    version: 3.2.2
+source:
+    sha256: dd4ff3e19f507a5a07612fa642e6e66fadbaf303483a43dc3acb04067f7ac522
+    url: https://github.com/matplotlib/matplotlib/archive/v3.2.2.tar.gz
+build:
+    number: 0
+    string: '0'
+requirements:
+    run:
+        - matplotlib-base >=3.2.2,<3.2.3.0a0
+test:
+    imports:
+        - matplotlib
+about:
+    description: 'matplotlib is a python 2D plotting library which produces publication
+
+        quality figures in a variety of hardcopy formats and interactive
+
+        environments across platforms. matplotlib can be used in Python scripts,
+
+        the Python and IPython shell (ala MATLAB or Mathematica), web
+
+        application servers, and six graphical user interface toolkits.
+
+        '
+    dev_url: https://github.com/matplotlib/matplotlib/
+    doc_url: http://matplotlib.org/contents.html
+    home: http://matplotlib.org/
+    license: PSF-based
+    license_family: PSF
+    license_file: LICENSE/LICENSE
+    license_url: http://matplotlib.sourceforge.net/users/license.html
+    summary: Publication quality figures in Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - dopplershift
+        - mdboom
+        - ocefpaf
+        - pelson
+        - tacaswell

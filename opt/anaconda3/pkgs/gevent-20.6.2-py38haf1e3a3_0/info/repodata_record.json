@@ -1,0 +1,29 @@
+{
+  "build": "py38haf1e3a3_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "cffi >=1.11.5",
+    "greenlet >=0.4.14",
+    "python >=3.8,<3.9.0a0",
+    "setuptools",
+    "zope.event",
+    "zope.interface"
+  ],
+  "features": "",
+  "fn": "gevent-20.6.2-py38haf1e3a3_0.conda",
+  "legacy_bz2_md5": "c637d381fb4071001c53123a0f612d7e",
+  "legacy_bz2_size": 1713578,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "d1c532ee75d9513d4d60ad87bfadd41b",
+  "name": "gevent",
+  "sha256": "27b1ec8ef817892f60ea7e16ae1336b3377d00acbbc3bacc851e248ee7aca45d",
+  "size": 1504897,
+  "subdir": "osx-64",
+  "timestamp": 1593009876440,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/gevent-20.6.2-py38haf1e3a3_0.conda",
+  "version": "20.6.2"
+}

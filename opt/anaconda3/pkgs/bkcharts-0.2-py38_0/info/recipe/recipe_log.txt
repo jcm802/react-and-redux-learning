@@ -1,0 +1,37 @@
+commit 14b4610123aedcd668eb27eef69f7865f94fa3be
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Sep 7 20:56:35 2017 +0000
+
+    Remove cyclic dependency
+    
+    Unfortunately this means we cannot test this
+
+commit 293265f3e809996cca3eb63bae01820d3ea2d9c9
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Aug 29 14:11:54 2017 +0000
+
+    Add dev_url
+
+commit 570b1f2b7c98b498622a698dedad2833ad803b4a
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Jul 13 09:16:26 2017 +0000
+
+    Make recipe cross-compile capable
+
+commit c2edd1d86baf3768da682230531b44c49b631da3
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 21:54:31 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit f792e6ab4573dcdc338324c929f87592811c2399
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Jun 16 23:51:19 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 75330f2855c3603dccd94113a383445e8d0c3640
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Jun 16 23:48:50 2017 +0000
+
+    Initial feedstock commit with conda-smithy 2.3.2.

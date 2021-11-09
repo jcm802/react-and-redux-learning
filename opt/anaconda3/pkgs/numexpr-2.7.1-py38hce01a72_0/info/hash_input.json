@@ -1,0 +1,7 @@
+{
+  "c_compiler": "clang",
+  "blas_impl": "mkl",
+  "mkl": "2019",
+  "cxx_compiler": "clangxx",
+  "numpy": "1.14"
+}

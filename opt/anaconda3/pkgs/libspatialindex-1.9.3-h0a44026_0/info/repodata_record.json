@@ -1,0 +1,23 @@
+{
+  "build": "h0a44026_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1"
+  ],
+  "features": "",
+  "fn": "libspatialindex-1.9.3-h0a44026_0.conda",
+  "legacy_bz2_md5": "b413162bb4075605d0e50cb93d88b66a",
+  "legacy_bz2_size": 431254,
+  "license": "MIT",
+  "md5": "5b021c9351fdfe96d5d402028d90095a",
+  "name": "libspatialindex",
+  "sha256": "dacf1d9ea81e68ff53a19a2fef5eb1104bfeaa842ebd5c8126c6b588d703085c",
+  "size": 335978,
+  "subdir": "osx-64",
+  "timestamp": 1573155370709,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/libspatialindex-1.9.3-h0a44026_0.conda",
+  "version": "1.9.3"
+}

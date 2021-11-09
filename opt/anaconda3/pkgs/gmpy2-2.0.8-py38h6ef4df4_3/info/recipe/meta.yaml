@@ -1,0 +1,66 @@
+# This file created by conda-build 3.18.10
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/deed6fc3-8838-432b-51f2-d2bd67451c2e/volume/aggregate/gmpy2-feedstock/recipe, last modified Mon Nov  4 08:32:21 2019
+# ------------------------------------------------
+
+package:
+    name: gmpy2
+    version: 2.0.8
+source:
+    fn: gmpy2-2.0.8.zip
+    patches:
+        - 0001-Do-not-redefine-isnan-isinf.patch
+        - 0002-PySlice_GetIndicesEx-is-a-macro.patch
+    sha256: dd233e3288b90f21b0bb384bcc7a7e73557bb112ccf0032ad52aa614eb373d3f
+    url: https://pypi.io/packages/source/g/gmpy2/gmpy2-2.0.8.zip
+build:
+    number: '3'
+    script:
+        - python setup.py install --shared=$PREFIX
+    string: py38h6ef4df4_3
+requirements:
+    build:
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_18
+        - compiler-rt 4.0.1 hcfea43d_1
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+    host:
+        - ca-certificates 2019.10.16 0
+        - gmp 6.1.2 hb37e062_1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20181209 hb402a30_0
+        - libffi 3.2.1 h475c297_4
+        - mpc 1.1.0 h6ef4df4_1
+        - mpfr 4.0.1 h3018a27_3
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1d h1de35cc_3
+        - python 3.8.0 h359304d_1
+        - readline 7.0 h1de35cc_5
+        - sqlite 3.30.1 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - gmp >=6.1.2
+        - mpc
+        - mpfr >=4.0.1,<5.0a0
+        - python >=3.8,<3.9.0a0
+test:
+    imports:
+        - gmpy2
+about:
+    home: https://pypi.python.org/pypi/gmpy2
+    license: LGPL 3
+    license_file: COPYING.LESSER
+    summary: GMP/MPIR, MPFR, and MPC interface to Python 2.6+ and 3.x
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - isuruf

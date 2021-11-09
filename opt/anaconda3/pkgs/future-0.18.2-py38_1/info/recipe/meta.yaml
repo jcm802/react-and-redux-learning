@@ -1,0 +1,68 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/aafc2b24-b82e-4ac2-419a-0b8b9cb9a087/volume/rsync-recipes/future-0.18.2-python_3.8-on-osx, last modified Wed Jun 10 10:41:20 2020
+# ------------------------------------------------
+
+package:
+    name: future
+    version: 0.18.2
+source:
+    sha256: b1bead90b70cf6ec3f0710ae53a525360fa360d306a86583adc6bf83a4db537d
+    url: https://pypi.io/packages/source/f/future/future-0.18.2.tar.gz
+build:
+    entry_points:
+        - futurize = libfuturize.main:main
+        - pasteurize = libpasteurize.main:main
+    number: '1'
+    script: /opt/concourse/worker/volumes/live/aafc2b24-b82e-4ac2-419a-0b8b9cb9a087/volume/future_1591810715402/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/bin/python
+        -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+    string: py38_1
+requirements:
+    host:
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.4.5.1 py38_0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20181209 hb402a30_0
+        - libffi 3.3 h0a44026_1
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - pip 20.0.2 py38_3
+        - python 3.8.3 h26836e1_1
+        - readline 8.0 h1de35cc_0
+        - setuptools 47.1.1 py38_0
+        - sqlite 3.31.1 h5c1f38d_1
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - python >=3.8,<3.9.0a0
+test:
+    commands:
+        - futurize -h
+        - pasteurize -h
+    imports:
+        - future
+about:
+    description: 'Python-future  is the missing compatibility layer between Python
+        2 and
+
+        Python 3. It allows you to use a single, clean Python 3.x-compatible
+
+        codebase to support both Python 2 and Python 3 with minimal overhead.
+
+        '
+    dev_url: https://github.com/PythonCharmers/python-future
+    doc_url: http://python-future.org
+    home: http://python-future.org
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE.txt
+    summary: Clean single-source support for Python 3 and 2
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - mmysinger
+        - ocefpaf

@@ -1,0 +1,70 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/143dedb7-a810-4064-6e47-436d4dbcc943/volume/pull-recipes-jsonschema/recipe, last modified Fri Jul 10 01:45:45 2020
+# ------------------------------------------------
+
+package:
+    name: jsonschema
+    version: 3.2.0
+source:
+    sha256: c8a85b28d377cc7737e46e2d9f2b4f44ee3c0e1deac6bf46ddefc7187d30797a
+    url: https://pypi.io/packages/source/j/jsonschema/jsonschema-3.2.0.tar.gz
+build:
+    entry_points:
+        - jsonschema = jsonschema.cli:main
+    number: '1'
+    script: /opt/concourse/worker/volumes/live/143dedb7-a810-4064-6e47-436d4dbcc943/volume/jsonschema_1594363611216/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac/bin/python
+        -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+    string: py38_1
+requirements:
+    host:
+        - ca-certificates 2020.6.24 0
+        - certifi 2020.6.20 py38_0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 haf1e3a3_0
+        - libffi 3.3 hb1e8313_2
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - pip 20.1.1 py38_1
+        - python 3.8.3 h26836e1_2
+        - readline 8.0 h1de35cc_0
+        - setuptools 47.3.1 py38_0
+        - setuptools-scm 4.1.2 py_0
+        - setuptools_scm 4.1.2 0
+        - sqlite 3.32.3 hffcf06c_0
+        - tk 8.6.10 hb0a8c7a_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - attrs >=17.4.0
+        - importlib_metadata
+        - pyrsistent >=0.14.0
+        - python >=3.8,<3.9.0a0
+        - setuptools
+        - six >=1.11.0
+test:
+    commands:
+        - jsonschema --help
+    imports:
+        - jsonschema
+about:
+    description: 'jsonschema is an implementation of JSON Schema for Python
+
+        (supporting 2.7+ including Python 3)
+
+        '
+    dev_url: https://github.com/Julian/jsonschema/
+    doc_source_url: https://github.com/Julian/jsonschema/blob/master/docs/index.rst
+    doc_url: https://python-jsonschema.readthedocs.org
+    home: https://github.com/Julian/jsonschema
+    license: MIT
+    license_file: COPYING
+    summary: An implementation of JSON Schema validation for Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - minrk
+        - nehaljwani
+        - ocefpaf

@@ -1,0 +1,24 @@
+{
+  "build": "hb1e8313_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=10.0.0",
+    "libsodium >=1.0.18,<1.0.19.0a0"
+  ],
+  "features": "",
+  "fn": "zeromq-4.3.2-hb1e8313_2.conda",
+  "legacy_bz2_md5": "6b1728f622b93842f12aee7a8ed2804e",
+  "legacy_bz2_size": 587599,
+  "license": "LGPL 3",
+  "md5": "d7869c6fd8cd38b64114daf2bf8ebb4a",
+  "name": "zeromq",
+  "sha256": "32270a993210c28277621c03e91c06156d93c756f3b987b463444bdabb39e896",
+  "size": 435729,
+  "subdir": "osx-64",
+  "timestamp": 1593027199444,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/zeromq-4.3.2-hb1e8313_2.conda",
+  "version": "4.3.2"
+}

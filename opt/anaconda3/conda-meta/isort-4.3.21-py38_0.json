@@ -1,0 +1,77 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "setuptools"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/isort-4.3.21-py38_0",
+  "features": "",
+  "files": [
+    "bin/isort",
+    "lib/python3.8/site-packages/isort-4.3.21.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/isort-4.3.21.dist-info/LICENSE",
+    "lib/python3.8/site-packages/isort-4.3.21.dist-info/METADATA",
+    "lib/python3.8/site-packages/isort-4.3.21.dist-info/RECORD",
+    "lib/python3.8/site-packages/isort-4.3.21.dist-info/WHEEL",
+    "lib/python3.8/site-packages/isort-4.3.21.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/isort-4.3.21.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/isort/__init__.py",
+    "lib/python3.8/site-packages/isort/__main__.py",
+    "lib/python3.8/site-packages/isort/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/isort/__pycache__/__main__.cpython-38.pyc",
+    "lib/python3.8/site-packages/isort/__pycache__/finders.cpython-38.pyc",
+    "lib/python3.8/site-packages/isort/__pycache__/hooks.cpython-38.pyc",
+    "lib/python3.8/site-packages/isort/__pycache__/isort.cpython-38.pyc",
+    "lib/python3.8/site-packages/isort/__pycache__/main.cpython-38.pyc",
+    "lib/python3.8/site-packages/isort/__pycache__/natural.cpython-38.pyc",
+    "lib/python3.8/site-packages/isort/__pycache__/pie_slice.cpython-38.pyc",
+    "lib/python3.8/site-packages/isort/__pycache__/pylama_isort.cpython-38.pyc",
+    "lib/python3.8/site-packages/isort/__pycache__/settings.cpython-38.pyc",
+    "lib/python3.8/site-packages/isort/__pycache__/utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/isort/finders.py",
+    "lib/python3.8/site-packages/isort/hooks.py",
+    "lib/python3.8/site-packages/isort/isort.py",
+    "lib/python3.8/site-packages/isort/main.py",
+    "lib/python3.8/site-packages/isort/natural.py",
+    "lib/python3.8/site-packages/isort/pie_slice.py",
+    "lib/python3.8/site-packages/isort/pylama_isort.py",
+    "lib/python3.8/site-packages/isort/settings.py",
+    "lib/python3.8/site-packages/isort/utils.py"
+  ],
+  "fn": "isort-4.3.21-py38_0.conda",
+  "legacy_bz2_md5": "091f452601b9c68c9b5064efb74e97a0",
+  "legacy_bz2_size": 65909,
+  "license": "MIT",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/isort-4.3.21-py38_0",
+    "type": 1
+  },
+  "md5": "9471ff82d54b756924b8a740def640d0",
+  "name": "isort",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/isort-4.3.21-py38_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/isort",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "685ec3d18406debcef2f3aa22ca8affbe72ddf293cf79d379d4474103889e3a9",
+        "sha256_in_prefix": "2eeaacf6073ad995bb7c957cb445c0308e0c86aaef2fc53568c8641e089893d3",
+        "size_in_bytes": 240
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "isort==4.3.21=py38_0",
+  "sha256": "1c811bb3d39dc8f1850f9b3dcc20ec6743c7170b23109ea38db79fb47dd861cb",
+  "size": 66360,
+  "subdir": "osx-64",
+  "timestamp": 1574157851771,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/isort-4.3.21-py38_0.conda",
+  "version": "4.3.21"
+}

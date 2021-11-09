@@ -1,0 +1,25 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "sortedcontainers-2.2.2-py_0.conda",
+  "legacy_bz2_md5": "324083d5dc73f00a00d0aeef6132e440",
+  "legacy_bz2_size": 30284,
+  "license": "Apache-2.0",
+  "md5": "f5e15e97b0457358e404b446b0b18f80",
+  "name": "sortedcontainers",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "64cddf4b292c676ede4023987d0accdd958c75bff7b3d27ea811ca2b30f2a67e",
+  "size": 29935,
+  "subdir": "noarch",
+  "timestamp": 1592330865638,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/sortedcontainers-2.2.2-py_0.conda",
+  "version": "2.2.2"
+}

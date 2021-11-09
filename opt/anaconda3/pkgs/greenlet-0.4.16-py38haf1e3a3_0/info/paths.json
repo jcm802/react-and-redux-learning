@@ -1,0 +1,67 @@
+{
+  "paths": [
+    {
+      "_path": "include/python3.8/greenlet/greenlet.h",
+      "path_type": "hardlink",
+      "sha256": "ee0303feb54ea0a346349e34b1e9fa3aed596c374355ef7314affdf452f7d98b",
+      "size_in_bytes": 3972
+    },
+    {
+      "_path": "lib/python3.8/site-packages/greenlet-0.4.16.dist-info/AUTHORS",
+      "path_type": "hardlink",
+      "sha256": "ba8447b9511e8d5242a7db2425ad4c7c7eb1093c7a63aca38fd1d5dffb7c2413",
+      "size_in_bytes": 835
+    },
+    {
+      "_path": "lib/python3.8/site-packages/greenlet-0.4.16.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.8/site-packages/greenlet-0.4.16.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "bbde55d5456a1e912633ed3f66d1dbd9504e3e3dce4f4c2015043cdcbc56e697",
+      "size_in_bytes": 1408
+    },
+    {
+      "_path": "lib/python3.8/site-packages/greenlet-0.4.16.dist-info/LICENSE.PSF",
+      "path_type": "hardlink",
+      "sha256": "e5ff3c23c110e494cd7d736c10fd96d462457bafeca310840db6527298c7d46b",
+      "size_in_bytes": 2424
+    },
+    {
+      "_path": "lib/python3.8/site-packages/greenlet-0.4.16.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "506b6211ec4674abea84dea07686d14684aef18b6fab683ed6b510fd087c0734",
+      "size_in_bytes": 3404
+    },
+    {
+      "_path": "lib/python3.8/site-packages/greenlet-0.4.16.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "401de12e182f232002f46215ca15b7ee4c676d16b64d6fe107f2851d326c56b7",
+      "size_in_bytes": 868
+    },
+    {
+      "_path": "lib/python3.8/site-packages/greenlet-0.4.16.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "1e273806bec7caa425a3f5818962b9f14bc4a200a75a79f4d13387274314aa97",
+      "size_in_bytes": 109
+    },
+    {
+      "_path": "lib/python3.8/site-packages/greenlet-0.4.16.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "6129d1b024683bad491a53f9ee8f2228beab74b5835ae8b2283f1e929594b037",
+      "size_in_bytes": 9
+    },
+    {
+      "_path": "lib/python3.8/site-packages/greenlet.cpython-38-darwin.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/571bc08e-053e-4231-7266-50e35ded8305/volume/greenlet_1592330944319/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "00f9b2250c285406fe8771a1c8e71296ce979a870be19a449bef7fe6dab9db92",
+      "size_in_bytes": 27068
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,24 @@
+{
+  "build": "py38_1004",
+  "build_number": 1004,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "setuptools"
+  ],
+  "features": "",
+  "fn": "nose-1.3.7-py38_1004.conda",
+  "legacy_bz2_md5": "d67f29943057591cc1a5637b933cca9e",
+  "legacy_bz2_size": 219901,
+  "license": "LGPL-2.1",
+  "md5": "54e1bcde7a619f5cf9197af45a15531b",
+  "name": "nose",
+  "sha256": "ee78c201acec0c46acfe16de1279f52dd179128f4eddcbe3cf9a1d39edd3b1df",
+  "size": 222699,
+  "subdir": "osx-64",
+  "timestamp": 1594377965867,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/nose-1.3.7-py38_1004.conda",
+  "version": "1.3.7"
+}

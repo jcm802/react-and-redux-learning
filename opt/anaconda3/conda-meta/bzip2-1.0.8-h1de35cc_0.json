@@ -1,0 +1,95 @@
+{
+  "build": "h1de35cc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/bzip2-1.0.8-h1de35cc_0",
+  "features": "",
+  "files": [
+    "bin/bunzip2",
+    "bin/bzcat",
+    "bin/bzcmp",
+    "bin/bzdiff",
+    "bin/bzegrep",
+    "bin/bzfgrep",
+    "bin/bzgrep",
+    "bin/bzip2",
+    "bin/bzip2recover",
+    "bin/bzless",
+    "bin/bzmore",
+    "include/bzlib.h",
+    "lib/libbz2.1.0.8.dylib",
+    "lib/libbz2.a",
+    "lib/libbz2.dylib",
+    "man/man1/bzcmp.1",
+    "man/man1/bzdiff.1",
+    "man/man1/bzegrep.1",
+    "man/man1/bzfgrep.1",
+    "man/man1/bzgrep.1",
+    "man/man1/bzip2.1",
+    "man/man1/bzless.1",
+    "man/man1/bzmore.1"
+  ],
+  "fn": "bzip2-1.0.8-h1de35cc_0.conda",
+  "legacy_bz2_md5": "ab3b4e83407001e7f1603ca1fa0f4873",
+  "legacy_bz2_size": 106284,
+  "license": "bzip2",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/bzip2-1.0.8-h1de35cc_0",
+    "type": 1
+  },
+  "md5": "19fcb113b170fe2a0be96b47801fed7d",
+  "name": "bzip2",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/bzip2-1.0.8-h1de35cc_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/bunzip2",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/e6a76c4c-5f7c-4fcd-79bf-b27bb826a020/volume/bzip2_1563219594000/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "16d5b5ac7a2def27ecdfcec53c5949e8abe6a94b74fc9a976f415c2e7536e249",
+        "sha256_in_prefix": "b0e94cc1468879768b8b2ff889277a4d64b8bb7b1ef05cebc2b7889ce3cd030d",
+        "size_in_bytes": 108868
+      },
+      {
+        "_path": "bin/bzcat",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/e6a76c4c-5f7c-4fcd-79bf-b27bb826a020/volume/bzip2_1563219594000/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "16d5b5ac7a2def27ecdfcec53c5949e8abe6a94b74fc9a976f415c2e7536e249",
+        "sha256_in_prefix": "b0e94cc1468879768b8b2ff889277a4d64b8bb7b1ef05cebc2b7889ce3cd030d",
+        "size_in_bytes": 108868
+      },
+      {
+        "_path": "bin/bzip2",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/e6a76c4c-5f7c-4fcd-79bf-b27bb826a020/volume/bzip2_1563219594000/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "16d5b5ac7a2def27ecdfcec53c5949e8abe6a94b74fc9a976f415c2e7536e249",
+        "sha256_in_prefix": "b0e94cc1468879768b8b2ff889277a4d64b8bb7b1ef05cebc2b7889ce3cd030d",
+        "size_in_bytes": 108868
+      },
+      {
+        "_path": "bin/bzip2recover",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/e6a76c4c-5f7c-4fcd-79bf-b27bb826a020/volume/bzip2_1563219594000/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "e25468eafa5fd5d8e7c2f346d929712d82481ae041caeb3bbe32019d6de5e7e4",
+        "sha256_in_prefix": "cf5442be0150042cce4fdb9ef51df0e9797046b18984ff08be2582eceda3df22",
+        "size_in_bytes": 18032
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "bzip2==1.0.8=h1de35cc_0",
+  "sha256": "ddd0949cda5e6db367d713797b297568c5f156d5a63cef9b001edaa95cf0282f",
+  "size": 76593,
+  "subdir": "osx-64",
+  "timestamp": 1563219666100,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/bzip2-1.0.8-h1de35cc_0.conda",
+  "version": "1.0.8"
+}

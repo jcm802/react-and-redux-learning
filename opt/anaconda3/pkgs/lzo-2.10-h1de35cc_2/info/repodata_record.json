@@ -1,0 +1,22 @@
+{
+  "build": "h1de35cc_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "lzo-2.10-h1de35cc_2.conda",
+  "legacy_bz2_md5": "e21d621e38d16751aba68c744867fc49",
+  "legacy_bz2_size": 183884,
+  "license": "GPL v2+",
+  "license_family": "GPL2",
+  "md5": "f8edb9b421f23287391550fc331bce4b",
+  "name": "lzo",
+  "sha256": "a88d56c3b2cdbd474f1bfaf4586f308f894ca4b61599f7bea7694121151149b2",
+  "size": 141649,
+  "subdir": "osx-64",
+  "timestamp": 1587075909161,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/lzo-2.10-h1de35cc_2.conda",
+  "version": "2.10"
+}

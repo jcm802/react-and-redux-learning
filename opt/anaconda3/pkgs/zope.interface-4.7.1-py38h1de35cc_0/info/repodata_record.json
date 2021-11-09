@@ -1,0 +1,25 @@
+{
+  "build": "py38h1de35cc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "zope"
+  ],
+  "features": "",
+  "fn": "zope.interface-4.7.1-py38h1de35cc_0.conda",
+  "legacy_bz2_md5": "288bf4fc9a7d47ae5c185bf5dbcd571c",
+  "legacy_bz2_size": 226226,
+  "license": "ZPL 2.1",
+  "license_family": "Other",
+  "md5": "e7f07370f4aee0dd84ac56da974c8af0",
+  "name": "zope.interface",
+  "sha256": "bb8c60f294e8b28902f6470ef06ae9398e262f25caaef0a68b916a3ffe5ee4bd",
+  "size": 216207,
+  "subdir": "osx-64",
+  "timestamp": 1574380075566,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/zope.interface-4.7.1-py38h1de35cc_0.conda",
+  "version": "4.7.1"
+}

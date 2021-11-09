@@ -1,0 +1,47 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/xmltodict-0.12.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "site-packages/xmltodict-0.12.0.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "d66d5eb8f83a0ba21d3dd04318b8817588e8764daabea852d1035e3f07ffda55",
+      "size_in_bytes": 1085
+    },
+    {
+      "_path": "site-packages/xmltodict-0.12.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "c95f1286d7c13fa8bc527c37041c5a46019d6c4f17447e7e7400864ac455d612",
+      "size_in_bytes": 6339
+    },
+    {
+      "_path": "site-packages/xmltodict-0.12.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "6c66048e856036a4b5ed3d55013ff7f76fdd6c696d31cd5e84cc4f624f2d3d79",
+      "size_in_bytes": 586
+    },
+    {
+      "_path": "site-packages/xmltodict-0.12.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "1d7faff7e9e8524c94a31c99d4f312b92edab94c43011e1505da182ea0f4c70b",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "site-packages/xmltodict-0.12.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "532f8331f61e927063218c0ea566686c41f4569679f41467ebe70bec25a69e30",
+      "size_in_bytes": 10
+    },
+    {
+      "_path": "site-packages/xmltodict.py",
+      "path_type": "hardlink",
+      "sha256": "8473eacdec11835a7e2916c284842512c625a05d43c5c035107aeb93540aec8f",
+      "size_in_bytes": 17406
+    }
+  ],
+  "paths_version": 1
+}

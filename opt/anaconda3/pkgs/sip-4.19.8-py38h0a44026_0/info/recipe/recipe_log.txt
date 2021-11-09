@@ -1,0 +1,97 @@
+commit f35dc49461d4073e7985099d75a8f830f561877d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Mar 12 00:26:27 2018 +0000
+
+    Update to 4.19.8
+
+commit 245b26350e1e86299f29fcb1962c2412d3e6905f
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Jan 14 03:24:05 2018 -0500
+
+    Move 'python' under 'host' section
+
+commit 959813c8881e3a77f482c9bd0d5d6ee338277814
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Sep 20 08:07:33 2017 -0700
+
+    Do not apply patch on Windows, nmake does not understand ?=
+
+commit 5a62400de56160e4f05c42b2585dfb9f8b86ef9a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Sep 18 11:23:17 2017 +0000
+
+    Fix sha256
+
+commit 21b77a205f4400847fe5f6ee568f02e4e46029eb
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 5 21:39:50 2017 +0000
+
+    4.19.3 is too new, so use 4.18.1 instead
+    
+    https://riverbankcomputing.com/pipermail/pyqt/2017-July/039419.html
+
+commit 10faffe871356088063c024db7c93becfc94be1b
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Sep 4 08:17:10 2017 +0000
+
+    Do not override CC, CXX, LINK so we can use our compilers
+
+commit e8626988775154847532d71f43a8c477e9287c8c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 1 14:01:09 2017 +0100
+
+    Update to 4.19.3
+
+commit 59e38136e24630ccf070361f2aa5dc3bb169f99d
+Merge: 6319c40 66e1227
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Jan 2 08:19:52 2017 -0300
+
+    Merge pull request #2 from ocefpaf/rerender
+    
+    rerender
+
+commit 66e12276ffdc24589639c65ea8c38270c0ba977f
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Sat Dec 31 16:51:23 2016 -0300
+
+    rerender
+
+commit 6319c405587cf2936d8e291035ca1ae2bacd2999
+Merge: bc9ceef 65b3533
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Dec 31 16:18:47 2016 -0300
+
+    Merge pull request #1 from ocefpaf/py36
+    
+    Py36
+
+commit 65b3533573adb4208f9b6e7f44bc1930424cdc40
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Dec 27 15:07:50 2016 -0300
+
+    Just testing...
+
+commit de6018a85a596322085e5b36eda9267ecead6021
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Dec 27 14:55:17 2016 -0300
+
+    update recipe
+
+commit 94621355edbd59a4184da5099c92c995e54bcd4b
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Dec 27 14:55:05 2016 -0300
+
+    rerender with auto
+
+commit bc9ceefe7f9d9dc79d2f9fd5e662d1bdf114101f
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Jun 7 01:59:32 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit d8b79e0fa120225b474ab138d46227bf44ed139e
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Jun 7 01:58:36 2016 +0000
+
+    Initial commit of the sip feedstock.

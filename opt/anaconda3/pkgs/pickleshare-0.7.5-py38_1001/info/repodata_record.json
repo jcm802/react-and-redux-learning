@@ -1,0 +1,23 @@
+{
+  "build": "py38_1001",
+  "build_number": 1001,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "pickleshare-0.7.5-py38_1001.conda",
+  "legacy_bz2_md5": "b62d0e29b6b03f7de4619a417beabb72",
+  "legacy_bz2_size": 12831,
+  "license": "MIT",
+  "md5": "7a64a501fdbe4f4b58874a9735f6101e",
+  "name": "pickleshare",
+  "sha256": "7d1fef4f76d3e914bb162dbaf47a7dbfa5b223bdb7f21ffaa520289053510352",
+  "size": 12830,
+  "subdir": "osx-64",
+  "timestamp": 1594384148997,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pickleshare-0.7.5-py38_1001.conda",
+  "version": "0.7.5"
+}

@@ -1,0 +1,47 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "six"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/singledispatch-3.4.0.3-py38_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/__pycache__/singledispatch.cpython-38.pyc",
+    "lib/python3.8/site-packages/__pycache__/singledispatch_helpers.cpython-38.pyc",
+    "lib/python3.8/site-packages/singledispatch-3.4.0.3-py3.8.egg-info/PKG-INFO",
+    "lib/python3.8/site-packages/singledispatch-3.4.0.3-py3.8.egg-info/SOURCES.txt",
+    "lib/python3.8/site-packages/singledispatch-3.4.0.3-py3.8.egg-info/dependency_links.txt",
+    "lib/python3.8/site-packages/singledispatch-3.4.0.3-py3.8.egg-info/requires.txt",
+    "lib/python3.8/site-packages/singledispatch-3.4.0.3-py3.8.egg-info/top_level.txt",
+    "lib/python3.8/site-packages/singledispatch-3.4.0.3-py3.8.egg-info/zip-safe",
+    "lib/python3.8/site-packages/singledispatch.py",
+    "lib/python3.8/site-packages/singledispatch_helpers.py"
+  ],
+  "fn": "singledispatch-3.4.0.3-py38_0.conda",
+  "legacy_bz2_md5": "0423a3ef705aa76e7fb3b45a8d9aeb44",
+  "legacy_bz2_size": 15961,
+  "license": "MIT",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/singledispatch-3.4.0.3-py38_0",
+    "type": 1
+  },
+  "md5": "df7a8523644626f5287fe154821c8b7c",
+  "name": "singledispatch",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/singledispatch-3.4.0.3-py38_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "singledispatch==3.4.0.3=py38_0",
+  "sha256": "e956fa1b5160cbef10545a44d1c65ab348bacc6c439c2d2afab87d2a55dd0bd3",
+  "size": 16303,
+  "subdir": "osx-64",
+  "timestamp": 1574080543849,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/singledispatch-3.4.0.3-py38_0.conda",
+  "version": "3.4.0.3"
+}

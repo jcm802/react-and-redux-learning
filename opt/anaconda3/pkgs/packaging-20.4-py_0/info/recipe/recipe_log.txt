@@ -1,0 +1,276 @@
+commit 986166382715b74122aeec39f04d5cddc4cb89b3
+Author: Maggie-M <maggie.mari@continuum.io>
+Date:   Wed Aug 30 17:01:04 2017 -0500
+
+    Update meta.yaml
+
+commit 7c6a16798cdc3cb655c9cdc38c87c35425d36b4e
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Apr 9 12:52:15 2017 +0100
+
+    Add cross-compilation support.
+
+commit 23a84f3cca623bcf5f4dfd4fe995065805d986eb
+Merge: 2b228f5 1f36a8e
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue May 19 18:52:02 2020 -0300
+
+    Merge pull request #14 from regro-cf-autotick-bot/20.4_he3439b
+
+commit 1f36a8e013f28658dc8de00d0d0ba426808af2c6
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue May 19 21:26:11 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.3, and conda-forge-pinning 2020.05.19.19.39.08
+
+commit a8c0f37792afb0496f4bfa8ba838e775bc26d6d3
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue May 19 21:25:50 2020 +0000
+
+    updated v20.4
+
+commit 2b228f5bf8cdec9c4eb8495746aeae2b308dca42
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 08:09:25 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit 97793d3618afe695bbc7922c1249ee5f162d07f8
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sun May 17 04:43:14 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 16fb446380cf821f1f541409b392f034244daf01
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 22:46:02 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 88c0e7d8b6bfbdb22922b224eabd214a316e41b6
+Merge: 423d4a4 77cefb2
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Fri Jan 24 08:19:36 2020 -0300
+
+    packaging v20.1 (#12)
+    
+    packaging v20.1
+
+commit 77cefb2548f1a42dca8dc85647e46bd4b90bc20c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jan 24 11:13:15 2020 +0000
+
+    updated v20.1
+
+commit 423d4a4451069a942fe5a5632e2f42ee887e74c0
+Merge: c6fba28 afc416c
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Mon Jan 6 08:34:16 2020 -0300
+
+    packaging v20.0 (#11)
+    
+    packaging v20.0
+
+commit afc416c365d803098bca596e87af7d300bf96f47
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jan 6 07:13:54 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2020.01.05
+
+commit 7d077135d9908bcb64cb62dfef2fb1fe4177225a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jan 6 07:13:22 2020 +0000
+
+    updated v20.0
+
+commit c6fba28a84e59641a1eac4a4e522024bbc31ceef
+Merge: c0c0672 20679bc
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Sep 19 11:07:07 2019 -0300
+
+    packaging v19.2 (#10)
+    
+    packaging v19.2
+
+commit 20679bc8a65a5d5730a136fec683cd227cf69848
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Sep 19 10:56:55 2019 -0300
+
+    Update deps/pinnings
+
+commit 883b3e7587de69580f4123e7ca322df80e35eb2b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Sep 19 02:15:27 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.7, and conda-forge-pinning 2019.09.08
+
+commit a243a7d1a9a3bf8a2044c6eabc3285a6bfde86fa
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Sep 19 02:15:14 2019 +0000
+
+    updated v19.2
+
+commit c0c06722c8629fe0094de007e555e71dcf22ac7a
+Merge: 11917a2 63ddb26
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Jul 30 12:50:04 2019 -0300
+
+    packaging v19.1 (#9)
+    
+    packaging v19.1
+
+commit 63ddb26b0df851e772530360af4771c261c460e6
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jul 30 07:26:44 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.07.26
+
+commit d8ea3bd937c45bca4cca6e9da0b933a4bad78c7b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jul 30 07:26:32 2019 +0000
+
+    updated v19.1
+
+commit 11917a246e5a3f6e62d8f05a9153a0c96884e84b
+Merge: 7081dae 6dd78b4
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Sun Jan 20 11:38:14 2019 -0200
+
+    Merge pull request #8 from regro-cf-autotick-bot/19.0
+    
+    packaging v19.0
+
+commit 6dd78b4dc1e520ec36a9fae9917efed446184657
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jan 20 11:15:43 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.5, conda-smithy 3.2.9, and conda-forge-pinning 2019.01.18
+
+commit cfe085bfbc4861e04b9a2d600dbaa6a6b8de983e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jan 20 11:15:39 2019 +0000
+
+    updated v19.0
+
+commit 7081daec534b977794298e4878b2240314e32ff3
+Merge: 7a267b9 b38e357
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed Sep 26 08:22:41 2018 -0300
+
+    Merge pull request #7 from regro-cf-autotick-bot/18.0
+    
+    packaging v18.0
+
+commit b38e35742dbc592f29ce4736a063ec535b08dff4
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 26 06:11:01 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.20
+
+commit 4e38b4382d1e8602f93b0a4af5835be644e973c4
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 26 06:10:55 2018 +0000
+
+    updated v18.0
+
+commit 7a267b946d6761fcd834c22dba360adcb78e157c
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:24:36 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 144ff06e3411930ee58574bec7ea6a1c954bd747
+Merge: 87d45e6 438b764
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed Feb 28 17:16:24 2018 -0300
+
+    Merge pull request #6 from ocefpaf/update_17.1
+    
+    Update 17.1
+
+commit 438b764173c66b67ccf3ae59d1789393f7d3ff9f
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Wed Feb 28 16:38:02 2018 -0300
+
+    update_to_17.1
+
+commit d5cbc92c4be2bc0d16a63d10e89a1d166d9301c4
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Wed Feb 28 16:37:57 2018 -0300
+
+    rerender
+
+commit 87d45e64f51bf342c61772850af77501c388037d
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:49:35 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 719bbfed04f04a613b911b0c8734a4890ba9eba4
+Merge: 6a89059 223b326
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Dec 27 00:23:05 2016 -0200
+
+    Merge pull request #4 from nicoddemus/release-16.8
+    
+    MNT: Re-rendered with conda-smithy 1.7.0
+
+commit 223b3265810e28b666de3525b6b0bc37092832f3
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Mon Dec 26 21:51:53 2016 +0000
+
+    MNT: Re-rendered with conda-smithy 1.7.0
+
+commit 6a89059c6b99267327f3c6af844ffd6ac9aed175
+Merge: ee18c00 b66e680
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Nov 7 13:34:27 2016 -0500
+
+    Merge pull request #2 from nicoddemus/release-16.8
+    
+    Update to version 16.8
+
+commit b66e6807aa0435c4ed6d6f3eb62ce04abca5d83b
+Author: Bruno Oliveira <bruno@esss.com.br>
+Date:   Thu Nov 3 11:08:40 2016 -0200
+
+    Update to version 16.8 and add nicoddemus as maintainer
+
+commit ee18c00561f996612c67e9d67caa185a09dd1385
+Merge: 626496d 8e531a4
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Nov 6 19:39:05 2016 -0500
+
+    Merge pull request #3 from jakirkham/re-render_master_1.4.6
+    
+    MNT: Re-rendered with conda-smithy 1.4.6 [ci skip]
+
+commit 8e531a472f0f47d82bc2758aaa243c7b89c132b0
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Nov 3 11:34:08 2016 -0400
+
+    MNT: Re-rendered with conda-smithy 1.4.6
+
+commit 626496d164b18a0df3108de631807a4a32c2b4a0
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Jun 20 14:21:26 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 26c91ebe909f2ea8f65f978b19b0512dbc9b4137
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Jun 20 13:57:31 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 5d4cf36121cb889140bb1079df51ae4627defe2e
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Jun 20 13:39:56 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit b4e0444452a06ef13e6fedb91153696e8aa522ed
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Jun 20 13:37:22 2016 +0000
+
+    Initial commit of the packaging feedstock.

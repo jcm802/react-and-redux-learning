@@ -1,0 +1,25 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "pathtools-0.1.2-py_1.conda",
+  "legacy_bz2_md5": "c009e8fa5e8c167d0625c11f6ec621ea",
+  "legacy_bz2_size": 10694,
+  "license": "MIT",
+  "md5": "b2c7f06f3d61c78e29f24fb86f1915aa",
+  "name": "pathtools",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "3ed62a8a24cd920ca2a807b2470caa1b34ba0c333630c2478444168edf2a1331",
+  "size": 10224,
+  "subdir": "noarch",
+  "timestamp": 1575416069044,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/pathtools-0.1.2-py_1.conda",
+  "version": "0.1.2"
+}

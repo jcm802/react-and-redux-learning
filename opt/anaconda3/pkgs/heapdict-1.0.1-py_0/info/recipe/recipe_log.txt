@@ -1,0 +1,146 @@
+commit a77f6f13bd59b6daa9d3f0fc5c6a986bec792e8e
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Wed Sep 25 20:50:10 2019 -0500
+
+    update to 1.0.1, noarch: python
+
+commit 4bc2b6ce7beef1d391cac98e7c83eb5cc5ba0c50
+Merge: 2748df8 0c2f792
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Wed Sep 25 20:40:46 2019 -0500
+
+    Merge branch 'master' of github.com:conda-forge/heapdict-feedstock
+
+commit 0c2f7923c347503c6e8622c9e22330cbbe9d8b5a
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 18:48:57 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit 7e16aa4a451181df0526f036bf86e4d730533583
+Merge: 249c409 b79695c
+Author: Jonathan J. Helmus <jjhelmus@gmail.com>
+Date:   Thu Feb 21 08:39:47 2019 -0600
+
+    Merge pull request #5 from regro-cf-autotick-bot/rebuildaarch64_and_ppc64le_addition_arch
+    
+    Arch Migrator
+
+commit b79695c1b1042903c1d73750f22db50fa9e5b786
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Feb 21 08:22:35 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.13, and conda-forge-pinning 2019.02.15
+
+commit a44d84c6003ca1d09d6c3ce5c0aeabf76ad28ed2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Feb 21 08:22:23 2019 +0000
+
+    bump build number
+
+commit 249c4099e0a7dc38f313f2d2b321e75e7012d19a
+Merge: 1cea80d a5e48e3
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Sep 26 07:52:34 2018 -0300
+
+    Merge pull request #3 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit a5e48e38c3f8a4806b3f110a5e4e288b4abc86cd
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Sep 25 14:16:59 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.20
+
+commit c880bc8e8352e83b894b3ef6ea5db96c584e8970
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Sep 25 11:15:48 2018 -0300
+
+    Update meta.yaml
+
+commit 95baba636bcfd696c14910c10cba04a3406475f7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Sep 23 01:17:01 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.20
+
+commit 9f958fce5892ab0c7c749a17343c43e465c8e36c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Sep 23 01:16:54 2018 +0000
+
+    bump build number
+
+commit 1cea80dde60232f90567dd53d2ef44d68c3cd46c
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:31:33 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 2748df8d754f817b592e807a87e831a11976163c
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Wed Feb 7 12:48:55 2018 -0600
+
+    bump build number to be ahead of older free channel pkg
+
+commit 5b2be11a93e27e106829b934380756c52b842307
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 22:12:08 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 4dd55b1a70d33e12da675457b241baa3dcd63c37
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Aug 13 08:37:27 2017 +0000
+
+    Update about section
+
+commit f028af966d9006a07761daaa252d33a1e730e4b9
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Jul 13 17:57:43 2017 +0000
+
+    Make recipe cross-compile capable
+
+commit 25aa2b464b6303cbdb4076fcb78b6f08f21bcf41
+Merge: c753770 57ccb7d
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Feb 25 03:08:44 2017 -0500
+
+    Merge pull request #2 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit 57ccb7d0e2da2682f5371dc27aab82d036463d7a
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Feb 23 01:35:36 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.1.0.
+
+commit c7537704064385cc14302125363c7b232788254c
+Merge: 8511a9d 27d1c53
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Dec 18 01:27:52 2016 -0500
+
+    Merge pull request #1 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 27d1c53d7dfb6b63d70db2221e32d610b62588c0
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Dec 12 01:42:09 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.6.1.
+
+commit 8511a9d68cf47325c20fd13c986581dd97e6a4ab
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Sep 10 13:36:14 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit cea49a532b59f9dc088058630ff2815bdddde584
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Sep 10 13:34:55 2016 +0000
+
+    Initial commit of the heapdict feedstock.

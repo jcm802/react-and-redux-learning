@@ -1,0 +1,313 @@
+commit db33d2ce008bc0c19a3521c9441b933e41344433
+Author: Angela Gloyna <angela.gloyna@gmail.com>
+Date:   Sun May 3 22:19:32 2020 -0500
+
+    update to 1.13.14
+
+commit 4396d5f861698c05238a7f80a47eed91c3c31a71
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu Oct 24 15:43:16 2019 -0500
+
+    move patches into patches dir
+
+commit eedf7e757187720b7fc1bb2b0730934333c396a0
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu Oct 24 15:37:04 2019 -0500
+
+    remove .la files
+
+commit 3ca8c6ff2cd13418179ffb64d029e7e3a16ee434
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu Oct 24 15:36:36 2019 -0500
+
+    specify --without-x explicitly
+
+commit 334398b865b59547e5c25dbce651f9fc3b8065c6
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu Oct 24 15:13:06 2019 -0500
+
+    add make as build requirement
+
+commit d45f51f2440ca2d76dfa3ae0a25f021b80cfa84b
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Oct 22 09:52:26 2019 -0500
+
+    1.13.12
+
+commit 657c2b2ae448507cb1b2c42ebef2dca1b677501a
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Jan 28 05:19:51 2019 -0600
+
+    Bump version to 1.13.6
+
+commit 1a96cd8bf19453cff8da7820f9667501c2518dca
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Apr 14 11:08:18 2018 +0100
+
+    Bump build number to get new glib host requirement version
+
+commit e163356f466c52eb28b04634cb9f8e615a265b1d
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Mon Apr 2 13:15:55 2018 -0500
+
+    1.13.2; fix test for docker
+
+commit 6d1d99c326e9517283ce87898b8b02dc1efbe87c
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Fri Feb 9 11:45:53 2018 -0600
+
+    remove post-link script on darwin
+
+commit 8a9e89b9f1a61b9d5f45f034b6bb1239b11d8fa1
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Wed Jan 24 11:46:12 2018 -0600
+
+    update to 1.12.2
+
+commit 4ddab9bb539c4d2f85725c51b5e680723eb2f3d3
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Sep 11 10:13:43 2017 +0000
+
+    Build without X on Linux too
+
+commit 201ffc05a56078a5d7881d7fcbe910edf935cb10
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Aug 31 02:07:34 2017 -0700
+
+    Remove unneeded python requirements/build
+
+commit 495dd18a6bd6371739d3ad3a4ac819a7ac8f2b75
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Aug 31 01:55:36 2017 -0700
+
+    Disable tests of Darwin
+    
+    I cannot get them to work. Tried messing around with launchctl:
+    
+    launchctl load -F /bus/org.freedesktop.dbus-session.plist
+    
+    .. to no avail, from the log:
+    
+    ERROR: test-dbus-daemon - too few tests run (expected 8, got 2)
+    ERROR: test-dbus-daemon - exited with status 134 (terminated by signal 6?)
+    ERROR: test-fdpass - missing test plan
+    ERROR: test-fdpass - exited with status 77
+    ERROR: test-refs - too few tests run (expected 4, got 0)
+    ERROR: test-refs - exited with status 134 (terminated by signal 6?)
+    
+    .. in work/test/test-suite.log:
+    
+    ERROR: test-dbus-daemon
+    =======================
+    
+    1..8
+    ok 1 /creds
+    PASS: test-dbus-daemon 1 /creds
+    Dynamic session lookup supported but failed: launchd did not provide a socket path, verify that org.freedesktop.dbus-session.plist is loaded!
+      D-Bus not built with -rdynamic so unable to print a backtrace
+    ../build-aux/tap-driver.sh: line 639: 50072 Abort trap: 6           "$@"
+    ok 2 /processid
+    PASS: test-dbus-daemon 2 /processid
+    ERROR: test-dbus-daemon - too few tests run (expected 8, got 2)
+    ERROR: test-dbus-daemon - exited with status 134 (terminated by signal 6?)
+    
+    ERROR: test-fdpass
+    ==================
+    
+    ** Message: not enough RLIMIT_NOFILE to run this test
+    ERROR: test-fdpass - missing test plan
+    ERROR: test-fdpass - exited with status 77
+    
+    ERROR: test-refs
+    ================
+    
+    1..4
+    ../build-aux/tap-driver.sh: line 639: 50507 Abort trap: 6           "$@"
+    ERROR: test-refs - too few tests run (expected 4, got 0)
+    ERROR: test-refs - exited with status 134 (terminated by signal 6?)
+
+commit 332929a6269af6e7bfc97299de2ce2770fc5ae89
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Aug 31 01:09:56 2017 -0700
+
+    Back to stable 1.10.22 version, darwin fixes
+
+commit 76e11c518437b66cf2fa64ab1751d404587689fc
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Aug 27 01:32:49 2017 +0100
+
+    Generalize logging
+
+commit 0c571faa83881d8a5150d4d31a576ebf4c3a228e
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Aug 26 20:55:10 2017 +0100
+
+    Generalized pinning and update to 1.11.16
+
+commit 7157b5162200de1880bcf5de140de06928128292
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Aug 24 10:19:46 2017 +0100
+
+    Add missing glib dependency
+
+commit befab234d4bf654466da91359c564fd34af5d942
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Jul 24 05:26:07 2017 +0000
+
+    Make recipe cross-compile capable
+
+commit fa2725a2f91c7c94254d8ef37d7e0a9c3ed42562
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Aug 25 15:35:52 2017 +0100
+
+    Linux does not need the post-link script anymore
+
+commit 777efeaa9577a230a5738869f04cc9e464172776
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Aug 14 07:23:10 2017 +0000
+
+    Bump version to 1.10.22
+
+commit 6cbbea850de63baf8c0d99876c73f4e26544b77c
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Aug 15 01:12:17 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit be780f6e2501f481be5f73dd2f6678dbf1785848
+Merge: d438b86 fc13fd4
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Mon May 1 10:50:04 2017 -0500
+
+    Merge pull request #7 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit fc13fd4cf874123ab2ae5c2339196345b839a572
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon May 1 01:39:17 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.3.0.
+
+commit d438b86f6973933a40d60b09dd826ba1edc5d7f1
+Merge: f072b41 4756f48
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Mon Mar 6 19:24:11 2017 -0500
+
+    Merge pull request #6 from gqmelo/update-patch-zero-size-files
+    
+    Update patch to read zero size files
+
+commit 4756f48a34364fd04e7913359c036e522aa80128
+Author: Guilherme Quentel Melo <gqmelo@gmail.com>
+Date:   Wed Feb 15 12:40:14 2017 -0200
+
+    Update patch to read zero size files
+    
+    The previous merged PR was not updated with the latest patch. This just
+    update the patch as it was discussed in the original PR.
+
+commit f072b419c5f85f5bf7420af9b9bfacf70dab5942
+Merge: bfbc383 34c5baa
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Feb 15 14:07:38 2017 +0100
+
+    Merge pull request #5 from gqmelo/search-var-lib
+    
+    Linux patches to add more fallbacks to machine-id location
+
+commit 34c5baac09a81d364dc953337d2c784208e6c561
+Author: Guilherme Quentel Melo <gqmelo@gmail.com>
+Date:   Tue Feb 7 16:49:23 2017 -0200
+
+    Linux patches to add more fallbacks to machine-id location
+    
+    By default dbus look for machine-id on the following paths:
+    
+    - $PREFIX/var/lib/dbus/machine-id
+    - /etc/machine-id (FALLBACK)
+    
+    This works fine as long as the dbus package is used in a conda
+    environment.
+    But a problem arises when someone tries to ship this dbus package with
+    an application (e.g. a Qt5 application):
+    
+    - $PREFIX/var/lib/dbus/machine-id does not exist as it would be inside a
+    conda env (customer has no conda)
+    - /etc/machine-id exists only on systems with systemd
+    
+    Systems without systemd will normally have this file in
+    /var/lib/dbus/machine-id, so it seems reasonable to use this file as
+    another fallback.
+    
+    Last, on systems without dbus, it will fallback to
+    /proc/sys/kernel/random/boot_id
+
+commit 3b8b59b570643984f2b622553cf979526458fec9
+Author: Guilherme Quentel Melo <gqmelo@gmail.com>
+Date:   Tue Feb 7 16:40:11 2017 -0200
+
+    Build in parallel
+
+commit bfbc3830929ccafe3ca57149bff14707c3a84345
+Merge: 82243e5 4d7a954
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Dec 6 19:43:26 2016 -0300
+
+    Merge pull request #4 from jjhelmus/long_prefix
+    
+    Build long prefix package using conda-build 2.x
+
+commit 4d7a95433e90b4af817176b69321ffa3503db8c9
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Sat Dec 3 12:53:08 2016 -0600
+
+    Build long prefix package using conda-build 2.x
+
+commit 78d969fb0e513a35cf747e63bc7ac4ef7780b81d
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Sat Dec 3 12:51:20 2016 -0600
+
+    MNT: Re-rendered with conda-smithy 1.6.1
+
+commit 82243e5c91a6bfa9109b09db11d37f8fca6f4d90
+Merge: 7eda66b 9c75f84
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sat Nov 19 21:21:27 2016 -0500
+
+    Merge pull request #3 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 9c75f847ffb4e8bb4395702cbf546cf9284ceb5a
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Nov 20 01:43:57 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.5.3.
+
+commit 7eda66b0175fa164254605759e1bb300e75ea3c0
+Merge: 08c0de4 ae1d5f2
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Oct 25 03:01:52 2016 -0400
+
+    Merge pull request #2 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit ae1d5f2e48c100529cef8989d38378cc27946354
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Oct 25 01:35:26 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.3.3.
+
+commit 08c0de4aed933b63b3997c64905fd91de70af476
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Aug 29 17:21:33 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 445c3ce4f3a210a427b7bec312cb2b42818ca8e1
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Aug 29 17:19:59 2016 +0000
+
+    Initial commit of the dbus feedstock.

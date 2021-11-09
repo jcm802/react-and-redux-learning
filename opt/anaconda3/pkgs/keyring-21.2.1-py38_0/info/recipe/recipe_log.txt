@@ -1,0 +1,838 @@
+commit 2cb50d1707434601ad9d3cb463fdc498a6ce1181
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Apr 2 15:32:51 2018 -0500
+
+    run unit tests
+
+commit 8e6c77740cb7b435e40fba3984e561168c1ec377
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Apr 2 15:32:09 2018 -0500
+
+    update about section
+
+commit 4a8baca7382c8f93efa0aa3776f8c50fb70fcd82
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 07:42:30 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit c5d1cfc46a64de545b30b694f329ad4718be2e20
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat May 16 15:25:15 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 8a44f122509bb100ca102e309ffb4481b64a3aca
+Merge: 45f061a e09c897
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sat May 2 10:37:35 2020 -0500
+
+    Merge pull request #44 from regro-cf-autotick-bot/21.2.1_h894caf
+    
+    keyring v21.2.1
+
+commit e09c8975badffc7cc6a70a3eda34327cab301b88
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri May 1 14:23:46 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.0, and conda-forge-pinning 2020.05.01.13.16.44
+
+commit fd6f739b84eaa983ab48417ddef2f81af77fb074
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri May 1 14:23:20 2020 +0000
+
+    updated v21.2.1
+
+commit 45f061afd51e2a17fb0c06486d2761f56c255b20
+Merge: e598b3e 6561393
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Thu Mar 26 11:06:43 2020 -0500
+
+    Merge pull request #42 from beckermr/beckermr-patch-1
+    
+    REF remove duplicate keys
+
+commit 656139301311ee65bebb2ddafde806b448f2c9cd
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Thu Mar 26 15:01:40 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.1, conda-smithy 3.6.15, and conda-forge-pinning 2020.03.24
+
+commit b103c67e0d21e951fbd1073e5f33527aabf8755d
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Thu Mar 26 09:59:02 2020 -0500
+
+    Update meta.yaml
+
+commit 870374a00b830532d24119a869967b6ce67970cd
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Thu Mar 26 09:58:32 2020 -0500
+
+    REF remove duplicate keys
+
+commit e598b3e6174e2bd9d8ab5799c68dd74fbd7f5bc4
+Merge: 50d9095 392bf9f
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Tue Mar 17 18:32:17 2020 -0500
+
+    Merge pull request #41 from regro-cf-autotick-bot/rebuild-pypy-0-1
+    
+    Rebuild for pypy
+
+commit 392bf9fe26b5aa0a748ae3e2af51fa34d1616ac7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 17 21:24:51 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.0, conda-smithy 3.6.12, and conda-forge-pinning 2020.03.16
+
+commit 2a6ca26e8c107cb9f185baba62a5b6b3866dbc7b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 17 21:24:26 2020 +0000
+
+    Rebuild for pypy
+
+commit 50d909546af6cddf0b0b61625a7420e3586b69bf
+Merge: 247c618 cfd5542
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Mar 6 13:28:09 2020 -0300
+
+    Merge pull request #40 from regro-cf-autotick-bot/21.1.1
+    
+    keyring v21.1.1
+
+commit cfd55423c59e48b4cdec3e4e2443873879360505
+Merge: a1d9102 247c618
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Mar 6 12:46:44 2020 -0300
+
+    Merge branch 'master' into 21.1.1
+
+commit a1d9102bb7ba668e50b1ad8db55eadf93a5b0242
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Mar 6 12:43:27 2020 -0300
+
+    fix deps
+
+commit 247c6180adca444e93e2f9f83d79cebd28f699af
+Merge: 74f4ee1 ce3047d
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Mar 6 12:15:32 2020 -0300
+
+    Merge pull request #38 from nerohmot/aarch64
+    
+    added aarch64 support
+
+commit ce3047d28e92e91a4ccb31a4bfd97e8037776851
+Merge: ed823db 74f4ee1
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Mar 6 12:01:31 2020 -0300
+
+    merge
+
+commit ed823db45a5adf487abd8466172162a516e45cf5
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Mar 6 09:49:01 2020 -0300
+
+    MNT: Re-rendered with conda-build 3.18.12, conda-smithy 3.6.9, and conda-forge-pinning 2020.03.04
+
+commit 58ca328f27bbe819f7e055269fc90508674d0354
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Mar 6 09:48:54 2020 -0300
+
+    no need to bump
+
+commit ede6159646326e2badfd834bc5caf66417569e76
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Mar 6 09:48:46 2020 -0300
+
+    remove extra lines
+
+commit 4d2b30d20b4392773c72778746da8ba1ae508e6a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Mar 6 03:20:09 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.12, conda-smithy 3.6.9, and conda-forge-pinning 2020.03.06
+
+commit 35cb6db038197cb051a04bdedc7499a3748b59fa
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Mar 6 03:19:29 2020 +0000
+
+    updated v21.1.1
+
+commit 74f4ee18ba87c1df90b797a4280715c348f8cf60
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 21:16:16 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit f20b6ff734552982c053063eacb984bde521b0ef
+Merge: c84c526 4042e22
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Thu Feb 6 11:40:40 2020 -0500
+
+    Merge pull request #39 from regro-cf-autotick-bot/bot-pr_arch
+    
+    Arch Migrator
+
+commit 4042e22cdb71ff3947d2aa5af218e0a4d5f0e484
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Feb 6 15:33:19 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.8, and conda-forge-pinning 2020.01.28
+
+commit 6b669f038303d78029402968d554b6f4ab4e1768
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Feb 6 15:32:53 2020 +0000
+
+    migration: ArchRebuild
+
+commit 2fef674760f5aa5e661de3340b889c620017eee3
+Author: Tom Hören <horen.tom@gmail.com>
+Date:   Fri Jan 17 15:21:51 2020 +0100
+
+    added aarch64 support
+
+commit c84c5267d6a1979d07177c51be22b235d88d2716
+Merge: 980eac8 4b51711
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Mon Jan 13 14:13:59 2020 -0500
+
+    Merge pull request #37 from regro-cf-autotick-bot/21.1.0
+    
+    keyring v21.1.0
+
+commit 4b51711f1b9f683e398b79cde521acb33a0e45c1
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jan 11 23:11:43 2020 +0000
+
+    updated v21.1.0
+
+commit 980eac80aefa98f8685aa7b58e43729eaa88e1dd
+Merge: 4fda2df 57bd0cb
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Dec 25 10:33:43 2019 -0500
+
+    Merge pull request #36 from regro-cf-autotick-bot/21.0.0
+    
+    keyring v21.0.0
+
+commit 57bd0cbb744f3e77bcdd77f86035bb5b0795b651
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Dec 25 10:24:43 2019 -0500
+
+    Don't build for Python less than 3.6
+
+commit 2154ef36a6f98d17812ffb4670a6b685b03f2ee2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Dec 24 20:11:51 2019 +0000
+
+    updated v21.0.0
+
+commit 4fda2df74cfb47d052cfd9910942bf360fe3b167
+Merge: 75aace1 89dfcf9
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Dec 8 12:38:37 2019 -0500
+
+    Merge pull request #35 from regro-cf-autotick-bot/20.0.0
+    
+    keyring v20.0.0
+
+commit 89dfcf9022dee7dcd34f3faa56edd3df973ec89b
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Dec 8 12:24:29 2019 -0500
+
+    Add importlib_metadata as a dependency for Python < 3.8
+
+commit d41252caa10de62d458eddaaab8d7b1896f990df
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Dec 8 11:40:29 2019 -0500
+
+    Update tests because keyring.tests was removed
+
+commit 28b2ea8349cf4feb06ea16f00806820f1d8af3a6
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Dec 8 16:17:09 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.3, and conda-forge-pinning 2019.12.02
+
+commit 8743823d5ba04966b16bcda00427d2a0fb949f25
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Dec 8 16:16:40 2019 +0000
+
+    updated v20.0.0
+
+commit 75aace116ac94c922b0b807b5100fed77a48231f
+Merge: ab04e70 26009fd
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sun Nov 3 10:18:44 2019 -0600
+
+    Merge pull request #33 from regro-cf-autotick-bot/rebuild-python3801
+    
+    Rebuild for python38
+
+commit 26009fd2f61cfc7ef383142845235224903ec2e1
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Nov 3 14:24:43 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.1, and conda-forge-pinning 2019.11.01
+
+commit 03838fd75ba91390c768c39df3174d9f70aa0328
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Nov 3 14:24:25 2019 +0000
+
+    bump build number
+
+commit ab04e70a648beac30e7aff61b3ef6c0ed5fbaec8
+Merge: 116615f fc1d744
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Sep 11 12:07:39 2019 -0500
+
+    Merge pull request #32 from regro-cf-autotick-bot/19.2.0
+    
+    keyring v19.2.0
+
+commit fc1d7448e67c0a209cc35e3863aae3833a90262c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 11 16:15:16 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.5, and conda-forge-pinning 2019.09.08
+
+commit a2c714e8946284a9f9aafd26db6af437e5c06017
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 11 16:14:52 2019 +0000
+
+    updated v19.2.0
+
+commit 116615f24a4c60b0251407130ac3ff7f126f9ef4
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 18:35:22 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit e99499011bc0e0d1aa5a3627d5f70c6772ee450c
+Merge: 640a9c6 9005985
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Thu Aug 22 03:18:33 2019 -0500
+
+    Merge pull request #31 from regro-cf-autotick-bot/19.1.0
+    
+    keyring v19.1.0
+
+commit 900598556c216c12a1bed7057e336c54ff7e81ca
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Aug 22 02:23:23 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.08.19
+
+commit 7d414ba9befb7f95a74c5825223dd986818fe962
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Aug 22 02:22:55 2019 +0000
+
+    updated v19.1.0
+
+commit 640a9c62dcea739006e44a8b07e1f22e4bbc4902
+Merge: 9610979 8de7448
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Fri May 17 23:35:52 2019 -0400
+
+    Merge pull request #30 from regro-cf-autotick-bot/19.0.2
+    
+    keyring v19.0.2
+
+commit 8de7448b561394bab8886cd6243a337d2e880967
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri May 17 21:25:58 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.4, and conda-forge-pinning 2019.05.11
+
+commit 07e111406e1308e6d111bfffe964ca72285df52f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri May 17 21:25:43 2019 +0000
+
+    updated v19.0.2
+
+commit 96109792dd61cd943173ec9cfa2128fbf756318e
+Merge: 299bf77 652a6e5
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Mon Mar 25 04:18:25 2019 -0500
+
+    Merge pull request #29 from regro-cf-autotick-bot/19.0.1
+    
+    keyring v19.0.1
+
+commit 652a6e529f89df9267a20742c24e5755e9fdef3d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Mar 24 18:26:24 2019 +0000
+
+    updated v19.0.1
+
+commit 299bf77ad6ac7dd040b6f142b97b57641b1565bc
+Merge: 42ddb1e b2c8cfe
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Fri Mar 22 14:34:50 2019 -0500
+
+    Merge pull request #28 from regro-cf-autotick-bot/19.0.0
+    
+    keyring v19.0.0
+
+commit b2c8cfeac4fda60ae92d4456f3d9ad25545330cb
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Fri Mar 22 18:33:06 2019 +0100
+
+    Restore linux selector for secretstorage
+
+commit 1c1dc22a04714c4b8a7c4260e9c4d67f06fa7395
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Mar 22 17:20:24 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.2, and conda-forge-pinning 2019.03.17
+
+commit d85542c01a578c38efe463d9911b4ca71a5be61d
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Fri Mar 22 18:17:18 2019 +0100
+
+    Skip Python 2 because it's not supported by keyring anymore
+
+commit a7015291508215f3a0d6c2e8aa1202b2bcc1c4c7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Mar 22 16:28:48 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.2, and conda-forge-pinning 2019.03.17
+
+commit 406540e1886743e109467465f3529f5a8df5c693
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Mar 22 16:28:36 2019 +0000
+
+    updated v19.0.0
+
+commit 42ddb1e492ae0a2473f99b8a06bc62aaf79f093d
+Merge: 0be3f70 73cefa7
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Thu Feb 14 14:03:02 2019 +0100
+
+    Merge pull request #27 from regro-cf-autotick-bot/18.0.0
+    
+    keyring v18.0.0
+
+commit 73cefa760182fa7aadb75217390ed01e01316a37
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Feb 13 22:17:50 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.13, and conda-forge-pinning 2019.02.11
+
+commit 085fbd8fc342e6a4b386bbab91cece0381b88e43
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Feb 13 22:17:38 2019 +0000
+
+    updated v18.0.0
+
+commit 0be3f70c1c6c00b0714bdfb29e6d9c58d816d054
+Merge: 34e41fe fd7eb6f
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Dec 23 18:20:40 2018 -0500
+
+    Merge pull request #26 from regro-cf-autotick-bot/17.1.1
+    
+    keyring v17.1.1
+
+commit fd7eb6f10722a06506600cc9fd00e865d5adfca2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Dec 23 21:13:18 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2018.12.18
+
+commit 235ecf8f25ebf08935bf2c5396a98e5336d6b774
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Dec 23 21:13:12 2018 +0000
+
+    updated v17.1.1
+
+commit 34e41fe4df55fb3e4f5c8f1e8c9339b09aa5efce
+Merge: 50b75ac 2713e62
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Fri Nov 30 08:49:35 2018 -0500
+
+    Merge pull request #25 from regro-cf-autotick-bot/17.0.0
+    
+    keyring v17.0.0
+
+commit 2713e62d80758b738159b30d9f57336d4d453368
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Nov 30 01:14:50 2018 +0000
+
+    updated v17.0.0
+
+commit 50b75ac56d075bd016dca723e2b3f774d0a1f44b
+Merge: ae8e3ef 0be5363
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sat Nov 17 14:36:46 2018 -0500
+
+    Merge pull request #23 from regro-cf-autotick-bot/16.1.0
+    
+    keyring v16.1.0
+
+commit 0be536318c2ba8c8c78b2521f4ce5581756c0666
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 17 16:13:02 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.11.17
+
+commit 9bb5952545fc761da17ce20d05ae26a87c79e0fb
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 17 16:12:57 2018 +0000
+
+    updated v16.1.0
+
+commit ae8e3efc8e664955482b2a32f1b974e6f4fdc0f1
+Merge: bb3f4a9 d8a5cf4
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Thu Nov 8 14:29:33 2018 -0500
+
+    Merge pull request #22 from regro-cf-autotick-bot/16.0.2
+    
+    keyring v16.0.2
+
+commit d8a5cf40b58d169763b87e29cbe494074caff1a6
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Nov 8 18:15:23 2018 +0000
+
+    updated v16.0.2
+
+commit bb3f4a932798535fecc017cb5b01934f79223f02
+Merge: d77bd69 3349799
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Nov 7 13:50:37 2018 -0500
+
+    Merge pull request #18 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit d77bd692b7bbcfacd6c1a71a7ed85b21b7579406
+Merge: b540d14 ab34072
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Tue Nov 6 17:00:46 2018 -0500
+
+    Merge pull request #21 from regro-cf-autotick-bot/16.0.1
+    
+    keyring v16.0.1
+
+commit ab340727474c23fa6a8d4723d3f965dcc70e2ff3
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Nov 6 20:15:20 2018 +0000
+
+    updated v16.0.1
+
+commit b540d147a3735c8cbdc98f663fceffad74dca1b1
+Merge: 9340cce 5117c15
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Oct 28 17:58:30 2018 -0500
+
+    Merge pull request #20 from regro-cf-autotick-bot/16.0.0
+    
+    keyring v16.0.0
+
+commit 5117c151c4eee84d7d800b3d6b66a798d2ef34f1
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Oct 28 21:15:58 2018 +0000
+
+    updated v16.0.0
+
+commit 9340cceb140605c322d6d2e932b1e473e0e33cfa
+Merge: fd4d2c0 e5a3559
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sat Oct 27 19:20:21 2018 -0500
+
+    Merge pull request #19 from regro-cf-autotick-bot/15.2.0
+    
+    keyring v15.2.0
+
+commit e5a355940727b1654b2be60935306e3745b8a092
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Oct 27 23:12:53 2018 +0000
+
+    updated v15.2.0
+
+commit 3349799eefceacea5589fe58983ade1fecc0937d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Oct 12 20:59:02 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.11
+
+commit f523d27ad77dc19bf1ea25245b4e4327380674bf
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Oct 12 20:58:43 2018 +0000
+
+    bump build number
+
+commit fd4d2c04e87f755632c2edd7f359d6fa6d85d0a8
+Merge: c15c635 eafa3eb
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Oct 7 18:05:15 2018 -0500
+
+    Merge pull request #17 from regro-cf-autotick-bot/15.1.0
+    
+    keyring v15.1.0
+
+commit eafa3eb286864fb08e0934e559a3728a2617b5e2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Oct 7 19:55:46 2018 +0000
+
+    updated v15.1.0
+
+commit c15c63553de936819ae65055cc0cdd17eb8eed69
+Merge: 4f6142b 96e53c5
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Oct 7 06:37:07 2018 -0300
+
+    Merge pull request #16 from ocefpaf/py37
+    
+    Py37
+
+commit 96e53c56fe6e762e63ed4afbb64ef261790bc0a7
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Oct 6 13:58:30 2018 -0300
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.03
+
+commit 3d158ad830d3ca7618b79451cc36e2257c1d97ff
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Oct 6 13:58:28 2018 -0300
+
+    py37
+
+commit 38c2c58eceefb1af0c2b5639dbdb5cda388cbdc1
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Oct 6 13:58:24 2018 -0300
+
+    update-cb3
+
+commit 4f6142be6193c2fb854f81475b38f2dfef975a8a
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:15:04 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 72f5609e8120a31f9ce6bba07e6c31721102f429
+Merge: 24f67b0 0e98de3
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Fri Jul 6 11:05:30 2018 -0500
+
+    Merge pull request #15 from regro-cf-autotick-bot/13.2.1
+    
+    keyring v13.2.1
+
+commit 0e98de3e90b5c59a73225a63ea1f88426e2f6c33
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jul 6 09:07:16 2018 +0000
+
+    updated v13.2.1
+
+commit 24f67b0af9d3b9a07dd01058826c1b690bee69bc
+Merge: b46dc1f 66248bd
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Jun 24 20:19:00 2018 -0500
+
+    Merge pull request #13 from regro-cf-autotick-bot/13.0.0
+    
+    keyring v13.0.0
+
+commit 66248bd045406f8a1c41fb611fa535bf0eeb605b
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Jun 24 19:25:29 2018 -0500
+
+    Improve selector for secretstorage
+
+commit c468857fed88a6afa6645565660b3634479331e0
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Jun 24 19:23:44 2018 -0500
+
+    Fix secretstorage dependency
+
+commit da180322c1c599f207aa4f24f79a09598a2ab75e
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Jun 24 19:17:27 2018 -0500
+
+    Add secretstorage as a new dependency on Linux
+
+commit cd335441c3e9775215fd439f459c61d371ce0076
+Author: Travis CI User <travis@example.org>
+Date:   Mon Jun 18 10:49:02 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.5 and pinning 2018.05.22
+
+commit 5586646dd8972067d7d72b727cbb785ed4b16a35
+Author: Travis CI User <travis@example.org>
+Date:   Mon Jun 18 10:48:55 2018 +0000
+
+    updated v13.0.0
+
+commit b46dc1fd6cfa86a2dd978480656a66d45ef5c393
+Merge: f4b3dc2 170228a
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Tue May 15 14:13:57 2018 -0500
+
+    Merge pull request #12 from regro-cf-autotick-bot/12.2.1
+    
+    keyring v12.2.1
+
+commit 170228a2971bb977f64ec2ca3d6a9a74c6e30629
+Author: Travis CI User <travis@example.org>
+Date:   Tue May 15 17:32:56 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.4 and pinning 2018.05.07
+
+commit c4e24380c3f1f2070fd6e8df1ea70cee96bb61f7
+Author: Travis CI User <travis@example.org>
+Date:   Tue May 15 17:32:47 2018 +0000
+
+    updated v12.2.1
+
+commit f4b3dc2840d5d265c279aadbe3d7ab988ae27aaa
+Merge: de31cd6 10e13ba
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Thu Apr 26 18:53:06 2018 -0500
+
+    Merge pull request #11 from regro-cf-autotick-bot/12.2.0
+    
+    keyring v12.2.0
+
+commit 10e13ba98b3e8df8ca7f6ccbd4f3cfb58b1ca068
+Author: Travis CI User <travis@example.org>
+Date:   Thu Apr 26 22:59:53 2018 +0000
+
+    updated v12.2.0
+
+commit de31cd6551259a96f26aac830533f4910aa871cf
+Merge: f52e472 4eeed3b
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Tue Apr 24 14:31:45 2018 -0500
+
+    Merge pull request #10 from regro-cf-autotick-bot/12.1.0
+    
+    keyring v12.1.0
+
+commit 4eeed3b369da833a6286155a687aca781da2ee84
+Author: Travis CI User <travis@example.org>
+Date:   Tue Apr 24 18:35:05 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.2 and pinning 2018.04.19
+
+commit c424ea4c8e62015725a7f264aa7bcafd45b3a931
+Author: Travis CI User <travis@example.org>
+Date:   Tue Apr 24 18:33:56 2018 +0000
+
+    updated v12.1.0
+
+commit f52e472b3bb41d5998b603c5dafe173398af8a99
+Merge: de36f8b 69af2d1
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Fri Apr 6 09:49:17 2018 -0500
+
+    Merge pull request #7 from regro-cf-autotick-bot/12.0.1
+    
+    keyring v12.0.1
+
+commit 69af2d18a6459db4d257ae92baa79f43a56a7e00
+Author: Travis CI User <travis@example.org>
+Date:   Fri Apr 6 04:05:56 2018 +0000
+
+    updated v12.0.1
+
+commit de36f8bae226b474a4e346d510556ffe2de6392b
+Merge: 80db14d 558da59
+Author: Eric Dill <ericdill@users.noreply.github.com>
+Date:   Mon Mar 26 10:57:46 2018 -0400
+
+    Merge pull request #6 from ccordoba12/update-12.0.0
+    
+    Update to 12.0.0
+
+commit 558da59f2cd0821bc12a955c96d63736d6621772
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Mar 25 11:52:03 2018 -0500
+
+    Add entrypoints package to build and run
+
+commit 746cbd66b56ad309b7bfb3a3e0a288a29cb99ff4
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Mar 25 11:47:19 2018 -0500
+
+    Remove old patch
+
+commit 3cee668ad06f9354f4557cc76cd6c0403a145e13
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Mar 25 16:46:35 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit 7ceb5040c886c9d3e1e4ba31b4279225e5ce105e
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Mar 25 11:39:39 2018 -0500
+
+    Update to 12.0.0
+
+commit 80db14d3729dd671942defc7cfe9690cdc2f3d9d
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:43:15 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit fdde86045f3f2ca0ed693cc417d6512d4f1f24bc
+Merge: bbbff7b 2b821fa
+Author: Thomas A Caswell <tcaswell@gmail.com>
+Date:   Sat Feb 4 20:50:27 2017 -0500
+
+    Merge pull request #3 from astaric/py36
+    
+    Build packages for python3.6
+
+commit 2b821faf62ddb5de7a85c3faa73b2cd5b0e77d4f
+Author: astaric <anze.staric@gmail.com>
+Date:   Mon Jan 30 15:19:18 2017 +0100
+
+    Do not test with python setup.py test.
+    
+    Source is not found after the feedstock was rerendered. As the tests
+    were run form the source directory, they were not testing the built
+    package anyway so I opted for removing them.
+
+commit ece40218cf233b2bac95e7cddac160e71c5c7845
+Author: astaric <anze.staric@gmail.com>
+Date:   Mon Jan 30 15:13:13 2017 +0100
+
+    LINT: Remove word License from license
+
+commit 629c6ccb774e56dc25d80165325e57eadaad64ce
+Author: astaric <anze.staric@gmail.com>
+Date:   Mon Jan 30 12:34:28 2017 +0100
+
+    MNT: Re-rendered with conda-smithy 2.0.1
+
+commit bbbff7bd29f0f5e3ce0f561430441ee7e49fac5c
+Merge: b32153a e57b224
+Author: Thomas A Caswell <tcaswell@gmail.com>
+Date:   Mon Oct 3 13:44:32 2016 -0400
+
+    Merge pull request #1 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit e57b224280b7aaf51a2c3aba7419559106906a29
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Oct 3 01:34:49 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.3.1.
+
+commit b32153a7dc0d49534914124604357023d4dd06a1
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed May 25 13:10:15 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit e0031d6bbdfa7ca98cbac9e6aaed6f64cd6b70da
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed May 25 13:09:04 2016 +0000
+
+    Initial commit of the keyring feedstock.

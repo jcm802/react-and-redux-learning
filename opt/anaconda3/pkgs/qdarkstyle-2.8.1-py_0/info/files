@@ -1,0 +1,16 @@
+python-scripts/qdarkstyle
+site-packages/QDarkStyle-2.8.1.dist-info/AUTHORS.rst
+site-packages/QDarkStyle-2.8.1.dist-info/INSTALLER
+site-packages/QDarkStyle-2.8.1.dist-info/LICENSE.rst
+site-packages/QDarkStyle-2.8.1.dist-info/METADATA
+site-packages/QDarkStyle-2.8.1.dist-info/RECORD
+site-packages/QDarkStyle-2.8.1.dist-info/WHEEL
+site-packages/QDarkStyle-2.8.1.dist-info/entry_points.txt
+site-packages/QDarkStyle-2.8.1.dist-info/top_level.txt
+site-packages/qdarkstyle/__init__.py
+site-packages/qdarkstyle/__main__.py
+site-packages/qdarkstyle/palette.py
+site-packages/qdarkstyle/style_rc.py
+site-packages/qdarkstyle/utils/__init__.py
+site-packages/qdarkstyle/utils/images.py
+site-packages/qdarkstyle/utils/scss.py

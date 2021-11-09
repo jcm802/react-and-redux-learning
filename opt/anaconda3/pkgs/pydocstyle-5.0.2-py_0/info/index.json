@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.5",
+    "snowballstemmer"
+  ],
+  "license": "MIT",
+  "name": "pydocstyle",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1592848049299,
+  "version": "5.0.2"
+}

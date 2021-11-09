@@ -1,0 +1,25 @@
+{
+  "build": "h1de35cc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libedit >=3.1.20170329,<3.2.0a0",
+    "libiconv >=1.15,<2.0a0"
+  ],
+  "features": "",
+  "fn": "unixodbc-2.3.7-h1de35cc_0.conda",
+  "legacy_bz2_md5": "14e6f0c0fd15f6d6b7717b1760893a0d",
+  "legacy_bz2_size": 277386,
+  "license": "LGPL-2.1",
+  "license_family": "LGPL",
+  "md5": "6d164f7df03fe258d72a01eb7f655384",
+  "name": "unixodbc",
+  "sha256": "5191e9be64cd84d493e9a135b44b4eb97fa6c0a5d2900bcf2b0e4e45b912265c",
+  "size": 250605,
+  "subdir": "osx-64",
+  "timestamp": 1535134411178,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/unixodbc-2.3.7-h1de35cc_0.conda",
+  "version": "2.3.7"
+}

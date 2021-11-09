@@ -1,0 +1,113 @@
+{
+  "paths": [
+    {
+      "_path": "bin/lz4",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9739f82e-63cd-49f5-4e90-a0329ac7d75c/volume/lz4-c_1587012372606/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+      "sha256": "8e0929268ed7a64be155c7ffdbcc378abdeb76b6976f51f4d3aa8121ee7e6db1",
+      "size_in_bytes": 207892
+    },
+    {
+      "_path": "bin/lz4c",
+      "path_type": "softlink",
+      "sha256": "8e0929268ed7a64be155c7ffdbcc378abdeb76b6976f51f4d3aa8121ee7e6db1",
+      "size_in_bytes": 207892
+    },
+    {
+      "_path": "bin/lz4cat",
+      "path_type": "softlink",
+      "sha256": "8e0929268ed7a64be155c7ffdbcc378abdeb76b6976f51f4d3aa8121ee7e6db1",
+      "size_in_bytes": 207892
+    },
+    {
+      "_path": "bin/unlz4",
+      "path_type": "softlink",
+      "sha256": "8e0929268ed7a64be155c7ffdbcc378abdeb76b6976f51f4d3aa8121ee7e6db1",
+      "size_in_bytes": 207892
+    },
+    {
+      "_path": "include/lz4.h",
+      "path_type": "hardlink",
+      "sha256": "13dee89947a6e2adc051072861a0da1a938ee26d0fdf177777f8aba2a46fd435",
+      "size_in_bytes": 39943
+    },
+    {
+      "_path": "include/lz4frame.h",
+      "path_type": "hardlink",
+      "sha256": "85ec247097470f227ef27d6291a49fe475d0d779d67679b72dfd8d38a102a395",
+      "size_in_bytes": 28657
+    },
+    {
+      "_path": "include/lz4frame_static.h",
+      "path_type": "hardlink",
+      "sha256": "1662c6453229a8d65bfa349b9cd3c01d1fee440ada16a8e99a7083d6cb08a4c0",
+      "size_in_bytes": 2044
+    },
+    {
+      "_path": "include/lz4hc.h",
+      "path_type": "hardlink",
+      "sha256": "12d5d9424059d5b6d7570e7a3cb54ed6e8b4b5ed5bb51977bb150c68c056f228",
+      "size_in_bytes": 21357
+    },
+    {
+      "_path": "lib/liblz4.1.9.2.dylib",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9739f82e-63cd-49f5-4e90-a0329ac7d75c/volume/lz4-c_1587012372606/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+      "sha256": "150b5c8b0d7962b7346b02baf72c111c1b355d687961056833d00cd5522fcdda",
+      "size_in_bytes": 147468
+    },
+    {
+      "_path": "lib/liblz4.1.dylib",
+      "path_type": "softlink",
+      "sha256": "150b5c8b0d7962b7346b02baf72c111c1b355d687961056833d00cd5522fcdda",
+      "size_in_bytes": 147468
+    },
+    {
+      "_path": "lib/liblz4.a",
+      "path_type": "hardlink",
+      "sha256": "baa5180302a845778c43c3de1da672e25741369a9632f5a67287fd14f29ba72b",
+      "size_in_bytes": 160048
+    },
+    {
+      "_path": "lib/liblz4.dylib",
+      "path_type": "softlink",
+      "sha256": "150b5c8b0d7962b7346b02baf72c111c1b355d687961056833d00cd5522fcdda",
+      "size_in_bytes": 147468
+    },
+    {
+      "_path": "lib/pkgconfig/liblz4.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "c4572b2d433a212013a136bff1070132d281bcd331dd6ad03039a252cd6a25e4",
+      "size_in_bytes": 517
+    },
+    {
+      "_path": "share/man/man1/lz4.1",
+      "path_type": "hardlink",
+      "sha256": "22796ed3ff4fa56da7fee26a4e5f8407bb758f99183a3283cfd1a93c68373017",
+      "size_in_bytes": 9077
+    },
+    {
+      "_path": "share/man/man1/lz4c.1",
+      "path_type": "softlink",
+      "sha256": "22796ed3ff4fa56da7fee26a4e5f8407bb758f99183a3283cfd1a93c68373017",
+      "size_in_bytes": 9077
+    },
+    {
+      "_path": "share/man/man1/lz4cat.1",
+      "path_type": "softlink",
+      "sha256": "22796ed3ff4fa56da7fee26a4e5f8407bb758f99183a3283cfd1a93c68373017",
+      "size_in_bytes": 9077
+    },
+    {
+      "_path": "share/man/man1/unlz4.1",
+      "path_type": "softlink",
+      "sha256": "22796ed3ff4fa56da7fee26a4e5f8407bb758f99183a3283cfd1a93c68373017",
+      "size_in_bytes": 9077
+    }
+  ],
+  "paths_version": 1
+}

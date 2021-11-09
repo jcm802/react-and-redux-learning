@@ -1,0 +1,28 @@
+{
+  "build": "py38haf1e3a3_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.14.6,<2.0a0",
+    "pandas >=0.21",
+    "patsy >=0.5.1",
+    "python >=3.8,<3.9.0a0",
+    "scipy >=1.0"
+  ],
+  "features": "",
+  "fn": "statsmodels-0.11.1-py38haf1e3a3_0.conda",
+  "legacy_bz2_md5": "5afa539c5bc64f549e2470cb73d1ad20",
+  "legacy_bz2_size": 9958979,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "9c8349d41ebdde27fd03ba86a65c68aa",
+  "name": "statsmodels",
+  "sha256": "f02dfccf89d207f7b99fc0bd3c41ccfbe5e8c3ff61f1ddad13a16d23a2fc9c78",
+  "size": 7842790,
+  "subdir": "osx-64",
+  "timestamp": 1590093246446,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/statsmodels-0.11.1-py38haf1e3a3_0.conda",
+  "version": "0.11.1"
+}

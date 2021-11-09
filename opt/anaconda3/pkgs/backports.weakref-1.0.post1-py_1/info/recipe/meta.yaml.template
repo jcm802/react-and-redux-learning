@@ -1,0 +1,45 @@
+{% set name = "backports.weakref" %}
+{% set version = "1.0.post1" %}
+{% set sha256 = "bc4170a29915f8b22c9e7c4939701859650f2eb84184aee80da329ac0b9825c2" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  number: 1
+  script: {{ PYTHON }} setup.py install --single-version-externally-managed --record record.txt
+  noarch: python
+
+requirements:
+  host:
+    - python
+    - setuptools
+    - setuptools_scm
+    - backports
+  run:
+    - python
+    - backports
+
+test:
+  imports:
+    - backports.weakref
+
+about:
+  home: https://github.com/pjdelport/backports.weakref
+  license: Python-2.0
+  license_family: PSF
+  summary: 'Backport of new features in Python''s weakref module'
+  description: |
+    This package provides backports of new features in Python's weakref
+    module under the backports namespace.
+  dev_url: https://github.com/pjdelport/backports.weakref
+
+extra:
+  recipe-maintainers:
+    - adrianchia

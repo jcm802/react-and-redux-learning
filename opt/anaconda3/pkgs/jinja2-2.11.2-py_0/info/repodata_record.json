@@ -1,0 +1,27 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "markupsafe >=0.23",
+    "python",
+    "setuptools"
+  ],
+  "features": "",
+  "fn": "jinja2-2.11.2-py_0.conda",
+  "legacy_bz2_md5": "4a4fc89f9879933d7a948221c3db2ba0",
+  "legacy_bz2_size": 98931,
+  "license": "3-Clause BSD",
+  "md5": "9d77f247a7af567167e8edfd6e058fcb",
+  "name": "jinja2",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "c2c7369f8982426d65edb2b5dcb5d829b24c05585fd990a56486fe03dcad36db",
+  "size": 105906,
+  "subdir": "noarch",
+  "timestamp": 1588170725981,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/jinja2-2.11.2-py_0.conda",
+  "version": "2.11.2"
+}

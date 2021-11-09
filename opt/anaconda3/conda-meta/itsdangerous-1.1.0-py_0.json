@@ -1,0 +1,106 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/itsdangerous-1.1.0-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/itsdangerous-1.1.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/itsdangerous-1.1.0.dist-info/LICENSE.rst",
+    "lib/python3.8/site-packages/itsdangerous-1.1.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/itsdangerous-1.1.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/itsdangerous-1.1.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/itsdangerous-1.1.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/itsdangerous/__init__.py",
+    "lib/python3.8/site-packages/itsdangerous/_compat.py",
+    "lib/python3.8/site-packages/itsdangerous/_json.py",
+    "lib/python3.8/site-packages/itsdangerous/encoding.py",
+    "lib/python3.8/site-packages/itsdangerous/exc.py",
+    "lib/python3.8/site-packages/itsdangerous/jws.py",
+    "lib/python3.8/site-packages/itsdangerous/serializer.py",
+    "lib/python3.8/site-packages/itsdangerous/signer.py",
+    "lib/python3.8/site-packages/itsdangerous/timed.py",
+    "lib/python3.8/site-packages/itsdangerous/url_safe.py",
+    "lib/python3.8/site-packages/itsdangerous/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/itsdangerous/__pycache__/_compat.cpython-38.pyc",
+    "lib/python3.8/site-packages/itsdangerous/__pycache__/_json.cpython-38.pyc",
+    "lib/python3.8/site-packages/itsdangerous/__pycache__/encoding.cpython-38.pyc",
+    "lib/python3.8/site-packages/itsdangerous/__pycache__/exc.cpython-38.pyc",
+    "lib/python3.8/site-packages/itsdangerous/__pycache__/jws.cpython-38.pyc",
+    "lib/python3.8/site-packages/itsdangerous/__pycache__/serializer.cpython-38.pyc",
+    "lib/python3.8/site-packages/itsdangerous/__pycache__/signer.cpython-38.pyc",
+    "lib/python3.8/site-packages/itsdangerous/__pycache__/timed.cpython-38.pyc",
+    "lib/python3.8/site-packages/itsdangerous/__pycache__/url_safe.cpython-38.pyc"
+  ],
+  "fn": "itsdangerous-1.1.0-py_0.conda",
+  "legacy_bz2_md5": "434eda64f30c5a497afba0726d8e7dbd",
+  "legacy_bz2_size": 17382,
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/itsdangerous-1.1.0-py_0",
+    "type": 1
+  },
+  "md5": "7ed0a03ce72cfd2555445e5926c4763c",
+  "name": "itsdangerous",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/itsdangerous-1.1.0-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/itsdangerous/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/itsdangerous/__pycache__/_compat.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/itsdangerous/__pycache__/_json.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/itsdangerous/__pycache__/encoding.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/itsdangerous/__pycache__/exc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/itsdangerous/__pycache__/jws.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/itsdangerous/__pycache__/serializer.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/itsdangerous/__pycache__/signer.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/itsdangerous/__pycache__/timed.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/itsdangerous/__pycache__/url_safe.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "itsdangerous==1.1.0=py_0",
+  "sha256": "cba71b7e2d9e2167eedd0774099fc406c5d79a7f0a80e725d6f9386bc6b56e54",
+  "size": 17864,
+  "subdir": "noarch",
+  "timestamp": 1572439204184,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/itsdangerous-1.1.0-py_0.conda",
+  "version": "1.1.0"
+}

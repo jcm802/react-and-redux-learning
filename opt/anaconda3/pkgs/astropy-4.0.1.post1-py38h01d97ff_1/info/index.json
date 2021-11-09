@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "py38h01d97ff_1",
+  "build_number": 1,
+  "depends": [
+    "numpy >=1.16.6,<2.0a0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "astropy",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1589560866008,
+  "version": "4.0.1.post1"
+}

@@ -1,0 +1,23 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "boto-2.49.0-py38_0.conda",
+  "legacy_bz2_md5": "f11491192220a076e146e7c0bfb13f48",
+  "legacy_bz2_size": 1647073,
+  "license": "MIT",
+  "md5": "a5f043abfed071af4a8a1685ce02bb92",
+  "name": "boto",
+  "sha256": "9cf335c25dd22813c150b971c894a22c7d9e43d40f3eabd7fb79f0741b8055bf",
+  "size": 1288685,
+  "subdir": "osx-64",
+  "timestamp": 1572358044265,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/boto-2.49.0-py38_0.conda",
+  "version": "2.49.0"
+}

@@ -1,0 +1,266 @@
+{
+  "build": "h18a8e69_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "expat >=2.2.6,<3.0a0",
+    "glib >=2.63.1,<3.0a0"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/dbus-1.13.16-h18a8e69_0",
+  "features": "",
+  "files": [
+    "bin/dbus-cleanup-sockets",
+    "bin/dbus-daemon",
+    "bin/dbus-launch",
+    "bin/dbus-monitor",
+    "bin/dbus-run-session",
+    "bin/dbus-send",
+    "bin/dbus-test-tool",
+    "bin/dbus-update-activation-environment",
+    "bin/dbus-uuidgen",
+    "etc/dbus-1/session.conf",
+    "etc/dbus-1/system.conf",
+    "include/dbus-1.0/dbus/dbus-address.h",
+    "include/dbus-1.0/dbus/dbus-bus.h",
+    "include/dbus-1.0/dbus/dbus-connection.h",
+    "include/dbus-1.0/dbus/dbus-errors.h",
+    "include/dbus-1.0/dbus/dbus-macros.h",
+    "include/dbus-1.0/dbus/dbus-memory.h",
+    "include/dbus-1.0/dbus/dbus-message.h",
+    "include/dbus-1.0/dbus/dbus-misc.h",
+    "include/dbus-1.0/dbus/dbus-pending-call.h",
+    "include/dbus-1.0/dbus/dbus-protocol.h",
+    "include/dbus-1.0/dbus/dbus-server.h",
+    "include/dbus-1.0/dbus/dbus-shared.h",
+    "include/dbus-1.0/dbus/dbus-signature.h",
+    "include/dbus-1.0/dbus/dbus-syntax.h",
+    "include/dbus-1.0/dbus/dbus-threads.h",
+    "include/dbus-1.0/dbus/dbus-types.h",
+    "include/dbus-1.0/dbus/dbus.h",
+    "lib/cmake/DBus1/DBus1Config.cmake",
+    "lib/cmake/DBus1/DBus1ConfigVersion.cmake",
+    "lib/dbus-1.0/include/dbus/dbus-arch-deps.h",
+    "lib/libdbus-1.3.dylib",
+    "lib/libdbus-1.a",
+    "lib/libdbus-1.dylib",
+    "lib/pkgconfig/dbus-1.pc",
+    "libexec/dbus-daemon-launch-helper",
+    "org.freedesktop.dbus-session.plist",
+    "share/dbus-1/session.conf",
+    "share/dbus-1/system.conf",
+    "share/doc/dbus/diagram.png",
+    "share/doc/dbus/diagram.svg",
+    "share/doc/dbus/examples/GetAllMatchRules.py",
+    "share/doc/dbus/examples/example-session-disable-stats.conf",
+    "share/doc/dbus/examples/example-system-enable-stats.conf",
+    "share/doc/dbus/examples/example-system-hardening-without-traditional-activation.conf",
+    "share/doc/dbus/system-activation.txt",
+    "share/xml/dbus-1/busconfig.dtd",
+    "share/xml/dbus-1/introspect.dtd"
+  ],
+  "fn": "dbus-1.13.16-h18a8e69_0.conda",
+  "legacy_bz2_md5": "13055f577dd7e710d705919dff42101d",
+  "legacy_bz2_size": 574152,
+  "license": "GPL2",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/dbus-1.13.16-h18a8e69_0",
+    "type": 1
+  },
+  "md5": "ad44064fce428aa348387dc0155e62c3",
+  "name": "dbus",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/dbus-1.13.16-h18a8e69_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/dbus-cleanup-sockets",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/c75931f5-f716-4583-44f8-f155376238bf/volume/dbus_1593111183015/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "101ace3f645b38eef6e0271e5b911bcababdd9ec2053707a232e8ece8f1d8818",
+        "sha256_in_prefix": "60b9232d8773fdfdbfba0a1dd43e4253e82dfe8da179d4aaeec67b88f2bcf256",
+        "size_in_bytes": 13968
+      },
+      {
+        "_path": "bin/dbus-daemon",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/c75931f5-f716-4583-44f8-f155376238bf/volume/dbus_1593111183015/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "1cf3fa11220269083ae4836638d549614e9d277c6f4ad5afbf12a437feb037c4",
+        "sha256_in_prefix": "416faf2aaa03a3ad0b37efd0bbd185ffee640e38b71cdce7b05ed18050adddf4",
+        "size_in_bytes": 225940
+      },
+      {
+        "_path": "bin/dbus-launch",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/c75931f5-f716-4583-44f8-f155376238bf/volume/dbus_1593111183015/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "0b00a7768614725249f06b82e27a838f448f4f19baa65bd8247a5810fe90b388",
+        "sha256_in_prefix": "e13d6e3cc50cec1380b87360a1a8d84b4b15c08266c650e63eb04e2c3199f6c7",
+        "size_in_bytes": 23804
+      },
+      {
+        "_path": "bin/dbus-monitor",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/c75931f5-f716-4583-44f8-f155376238bf/volume/dbus_1593111183015/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "c44b0134c0cfeb6c818597c19bc8d4d50752d2254712ee1f56300df77da162ac",
+        "sha256_in_prefix": "b88b57f8296f3cc9358edd355e576b54bd89095faf66afc1d4a7fd9f659b34fc",
+        "size_in_bytes": 25596
+      },
+      {
+        "_path": "bin/dbus-run-session",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/c75931f5-f716-4583-44f8-f155376238bf/volume/dbus_1593111183015/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "97f118e538e9bdfcc2048dfa13fb2335f548b4afd397323539cd8123eac8cf05",
+        "sha256_in_prefix": "4924bd11ed2ad5adee3628d1e332e591a32d62f66d21aca5ff57b624bebb5f2f",
+        "size_in_bytes": 18060
+      },
+      {
+        "_path": "bin/dbus-send",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/c75931f5-f716-4583-44f8-f155376238bf/volume/dbus_1593111183015/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "5d1d70a1d09007b13ee74859aa613550f2a0a16f8ddf23fb13866016db804361",
+        "sha256_in_prefix": "cb0c60f9114068eb2353a813c1ad75dd306650b7bff325c6bf8574874c955efd",
+        "size_in_bytes": 29892
+      },
+      {
+        "_path": "bin/dbus-test-tool",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/c75931f5-f716-4583-44f8-f155376238bf/volume/dbus_1593111183015/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "cff13fe353d427ce092fc1131a1a97f42522207336df9e782e6731f7af62c5b5",
+        "sha256_in_prefix": "9ff55f5d572a6a8f8e270f0b68efa5c0116bcfb80c7449ed52781a0611397fa7",
+        "size_in_bytes": 24716
+      },
+      {
+        "_path": "bin/dbus-update-activation-environment",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/c75931f5-f716-4583-44f8-f155376238bf/volume/dbus_1593111183015/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "a17bbe674beb15fba7a0c66baabf491768fba59d5fe206f2375ddad1e5a53bb0",
+        "sha256_in_prefix": "75cef65095cdfc3783d09a04213b17cf70807820505727fe90a7d3c103b6d933",
+        "size_in_bytes": 14400
+      },
+      {
+        "_path": "bin/dbus-uuidgen",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/c75931f5-f716-4583-44f8-f155376238bf/volume/dbus_1593111183015/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "67971dae5410c9d204d049525da82d81ec8e6ff3df2930613b702ce5acd03b4d",
+        "sha256_in_prefix": "59b4adb79d9bfd3b1b44e2314c526d8fa47c8993e58b47d037c8ca5a2f5e2dfb",
+        "size_in_bytes": 13332
+      },
+      {
+        "_path": "etc/dbus-1/session.conf",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "5f4e777d6844e45a159f66cf008d9ad757d8311c0fab458936a2f4368f2157cd",
+        "sha256_in_prefix": "1e433b59707252da2508de8dea381be8ed00c1e69e77b743f491614005e3e519",
+        "size_in_bytes": 894
+      },
+      {
+        "_path": "etc/dbus-1/system.conf",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "87bff83e095b0d8fc1d2a220b70d46087f116503e5dbd1d7b8b9eb50e5a91822",
+        "sha256_in_prefix": "e427b4868c3e92558d211de673f57242c8e84b81caab057b14a0379290f2ab0e",
+        "size_in_bytes": 889
+      },
+      {
+        "_path": "lib/libdbus-1.3.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/c75931f5-f716-4583-44f8-f155376238bf/volume/dbus_1593111183015/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "830c6a33c93419bed11d52c5ebbfe7af62b5e22fe5b7876eba8f809ef757dff2",
+        "sha256_in_prefix": "7296d596fb94b468636a4885daa293ab61ee2d0401f661e0b6260af694a14d88",
+        "size_in_bytes": 313720
+      },
+      {
+        "_path": "lib/libdbus-1.a",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/c75931f5-f716-4583-44f8-f155376238bf/volume/dbus_1593111183015/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "2c9fbed2683854839da153b109b5d7452b67d2fe36449745c76e15b488bf02d6",
+        "sha256_in_prefix": "ad5f74cd850418b8681857f5d134749af65a4ebfd68856bdc8879a5a7085704d",
+        "size_in_bytes": 566272
+      },
+      {
+        "_path": "lib/pkgconfig/dbus-1.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "c0f8fb18f997ac177da9f2e3ecd55553f6cdcbd0523690b04a74b3260d89025d",
+        "sha256_in_prefix": "2251b441c30ab40e0cd0e583349ea351cc351947a15ad387a9f850a9315239f7",
+        "size_in_bytes": 704
+      },
+      {
+        "_path": "libexec/dbus-daemon-launch-helper",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/c75931f5-f716-4583-44f8-f155376238bf/volume/dbus_1593111183015/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "3b4d05745d82d3ba5b5b767ab53761049d26e51d75bc4079bd7cb00150d67bfb",
+        "sha256_in_prefix": "b98321072843ef3f1d6e8dbd4aebd1039a3347cb6b0019be8d59db9fe15aab67",
+        "size_in_bytes": 56948
+      },
+      {
+        "_path": "org.freedesktop.dbus-session.plist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "9e4191f88b311ce1e03c7162a4ae86a5d41bf5a9bb973d350c8fc9f0a57d4e8d",
+        "sha256_in_prefix": "5913c5aee01976d58185c5e1c942f13ababb7b5bb138893ae0e6db9d84432beb",
+        "size_in_bytes": 755
+      },
+      {
+        "_path": "share/dbus-1/session.conf",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "91d0aa7a2920c699c3c1da0824c1461ec0c3762a4eb5841dbfd98e9e898a1ab2",
+        "sha256_in_prefix": "9c189cf89f75d20b3e6e4048297ac8173cedfe0bb847015a503806de9013453a",
+        "size_in_bytes": 4016
+      },
+      {
+        "_path": "share/dbus-1/system.conf",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "61b0ec64b637c2bade4c0d8db0e33e6b94e3421efd2c320f6d85387d5eb11edd",
+        "sha256_in_prefix": "29fa0175b4c1fa42bde796e87f1a205401986bd19f70bd200aa6e9d229b29ac7",
+        "size_in_bytes": 6242
+      },
+      {
+        "_path": "share/doc/dbus/examples/example-session-disable-stats.conf",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "423389941ae4aaeddb38b9487f3fdb0a938939aa53a9d8fad9ac0dc8c3c3c374",
+        "sha256_in_prefix": "c151d3cfd6205e5ec5929d46cff4ceeb43e795e8a1dda015d3d6aebb38ae5a16",
+        "size_in_bytes": 638
+      },
+      {
+        "_path": "share/doc/dbus/examples/example-system-enable-stats.conf",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "9b556bc8dd5076f1a11914dfce0f82b0bad1ec7195892ef95131e1e9a8a63aab",
+        "sha256_in_prefix": "0c6a5cd9588a62d13e70034b375e7c3cce71befe4d5752c5d5abfeea34e25d18",
+        "size_in_bytes": 604
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "dbus==1.13.16=h18a8e69_0",
+  "sha256": "cf57374ba178498607add100710cf16c7746f802bc21fb87a715686482f7f2b5",
+  "size": 461865,
+  "subdir": "osx-64",
+  "timestamp": 1593111381234,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/dbus-1.13.16-h18a8e69_0.conda",
+  "version": "1.13.16"
+}

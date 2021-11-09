@@ -1,0 +1,59 @@
+{
+  "build": "hb1e8313_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=10.0.0"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/snappy-1.1.8-hb1e8313_0",
+  "features": "",
+  "files": [
+    "include/snappy-c.h",
+    "include/snappy-sinksource.h",
+    "include/snappy-stubs-public.h",
+    "include/snappy.h",
+    "lib/cmake/Snappy/SnappyConfig.cmake",
+    "lib/cmake/Snappy/SnappyConfigVersion.cmake",
+    "lib/cmake/Snappy/SnappyTargets-noconfig.cmake",
+    "lib/cmake/Snappy/SnappyTargets.cmake",
+    "lib/libsnappy.1.1.8.dylib",
+    "lib/libsnappy.1.dylib",
+    "lib/libsnappy.a",
+    "lib/libsnappy.dylib"
+  ],
+  "fn": "snappy-1.1.8-hb1e8313_0.conda",
+  "legacy_bz2_md5": "f6dd1146df6d9822a0c7f98a0d5214b7",
+  "legacy_bz2_size": 61512,
+  "license": "BSD 3-clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/snappy-1.1.8-hb1e8313_0",
+    "type": 1
+  },
+  "md5": "89cd66f90b1100cac596ac88ea25fca5",
+  "name": "snappy",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/snappy-1.1.8-hb1e8313_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libsnappy.1.1.8.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/17f29d61-5ea3-4c89-5652-e89dade6f19c/volume/snappy_1592866340488/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "918dc8ff49559416a01854a5732f7bf18764793125a4be00d0a66fb8d7db0e8c",
+        "sha256_in_prefix": "50a46f9d9c48078a15d1f1af4d4ba4fe1244ea4bb2746ad4b5cad7851bdaea42",
+        "size_in_bytes": 77340
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "snappy==1.1.8=hb1e8313_0",
+  "sha256": "2708b6f70d541c52127441e067559f2921b8c33c1a291f6185da32d403544192",
+  "size": 55237,
+  "subdir": "osx-64",
+  "timestamp": 1592866420165,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/snappy-1.1.8-hb1e8313_0.conda",
+  "version": "1.1.8"
+}

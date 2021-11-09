@@ -1,0 +1,315 @@
+commit da87647cbd6ff4ecfa8ddcbe836d7fafc4181548
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Apr 17 03:10:11 2020 +0200
+
+    Make noarch: python, apply the conda-pkg-path patch again (for now)
+
+commit 7ab5df8ec33e7c668854bbb98a4e8257a0118bc1
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue Mar 3 00:18:29 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 79cc689e1361c9c443ea0b1114da0e0721eceaa4
+Merge: 1db1ab8 d0c4cf5
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sat Nov 2 14:44:19 2019 -0400
+
+    Merge pull request #16 from regro-cf-autotick-bot/rebuild-python3801
+    
+    Rebuild for python38
+
+commit d0c4cf5702bcfb6df05ce8683789d9700cdeeaef
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 2 09:39:24 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.1, and conda-forge-pinning 2019.11.01
+
+commit 67e92195376420e94d98287f195cfedfe8973f30
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 2 09:39:06 2019 +0000
+
+    bump build number
+
+commit 1db1ab8d254b366dad95ca8a6928d96a3d190638
+Merge: 5f7bef1 6ef3668
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Thu Oct 24 19:54:09 2019 -0400
+
+    Merge pull request #15 from regro-cf-autotick-bot/2.9
+    
+    python-libarchive-c v2.9
+
+commit 6ef36685fad8385f97a0fd5ceeb902878df35688
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Oct 20 15:18:37 2019 -0400
+
+    delete files with bat
+
+commit 70f93df7e4b9637dfe82ad50c10415006f4c58fa
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Oct 20 14:41:56 2019 -0400
+
+    invert selector
+
+commit 94b50d8d50c3a7bc0184fc3f7920e75f6386e2b2
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Oct 20 14:34:03 2019 -0400
+
+    generally skip windows tests
+
+commit 11ab399337e0f89cb46ce7f0ab3705d8d562e389
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Oct 20 14:10:33 2019 -0400
+
+    linting and skipping
+
+commit 9f12c4078fb041df525d76ff05151a62d041276f
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Oct 20 13:58:29 2019 -0400
+
+    skip some tests on windows/osx
+
+commit 6cb37e4b17d37f125a58c805c45b3abee571832c
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Oct 20 11:29:05 2019 -0400
+
+    run the tests
+
+commit e4bc66927b55728abbbdda54f4da1ab1ee3560bb
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Oct 20 10:48:13 2019 -0400
+
+    remove unneeded patch, add proper license meta
+
+commit 1075342420a62c5b877eb629a9e622af7eb5f671
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Oct 20 13:18:12 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.10, conda-smithy 3.6.0, and conda-forge-pinning 2019.10.11
+
+commit db96c2bfad1545a87ee520c6c66751d628e0a807
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Oct 20 13:17:55 2019 +0000
+
+    updated v2.9
+
+commit 5f7bef1626622aa77b0af25438952afbee81863c
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 19:19:46 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit 7e4aba3b54f27e624b2b0afd26670dcbff5269dc
+Merge: 15a14a9 3afef5d
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Mar 11 11:51:24 2019 -0500
+
+    Merge pull request #14 from regro-cf-autotick-bot/rebuildaarch64_and_ppc64le_addition1_arch
+    
+    Arch Migrator
+
+commit 3afef5d6401c36a36815519dfa3f9bcd50e7914e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Mar 11 08:28:27 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.03.10
+
+commit 768fd8cb7a6b8b1e18760c8e9c5042b36f80f039
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Mar 11 08:28:14 2019 +0000
+
+    bump build number
+
+commit 15a14a90d435625ceee43a66ca58f88a97a8af24
+Merge: 16b5e60 77ad426
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sat Oct 27 21:50:48 2018 -0400
+
+    Merge pull request #10 from jakirkham-feedstocks/use_setuptools
+    
+    Use setuptools
+
+commit 77ad4265ca6c1c2d1d6d246fd5f3d60a3e5cebbb
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Oct 27 20:11:45 2018 -0400
+
+    Bump build number to 1004
+    
+    Needed as this switches back to using `setuptools` for the build.
+
+commit 36eb7c2cc237e30ba292e71103664469b578fefc
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Oct 27 20:10:36 2018 -0400
+
+    Try using setuptools
+    
+    While we prefer `pip`, using `setuptools` is the only way we know of to
+    circumvent the nasty Windows Python 2.7 Unicode path errors.
+
+commit 16b5e6002455e6d266effc5e60970e2f1b3852a8
+Merge: 534db81 ebf606e
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Oct 9 09:55:02 2018 -0300
+
+    Merge pull request #7 from AnacondaRecipes/cf_pr
+    
+    Get rid of broken activate scripts
+
+commit ebf606eb5013d052d2216da4b3e71814250ee77e
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Tue Oct 9 08:48:16 2018 -0400
+
+    whoops
+
+commit e1da765307c901e1bfef1f703d9592a8854b9c0f
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Tue Oct 9 08:46:16 2018 -0400
+
+    Remove unneeded build scripts
+
+commit 4f4682e33a807c90eb65e18da0e2693422ad3e73
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Oct 9 01:56:21 2018 +0100
+
+    Get rid of broken activate scripts
+
+commit 534db81fb4662b56742d5d726a9f50c1754cc3a0
+Merge: a218cf5 43822ab
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Oct 8 08:06:23 2018 -0300
+
+    Merge pull request #5 from ocefpaf/activation_scripts
+    
+    activate
+
+commit 43822ab43d98b66fc4f7f74efd6da5871129ab07
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun Oct 7 19:00:19 2018 -0300
+
+    I 8 Windows
+
+commit 541a586e75a575abafe09a6c73a2d476e40cbf48
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun Oct 7 16:56:07 2018 -0300
+
+    add test
+
+commit 94119c8c2c9f54ef8fbf1575de304925e40ffafa
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun Oct 7 16:38:48 2018 -0300
+
+    activate
+
+commit a218cf5ca1bc57728392878874fd312b88aafee0
+Merge: 94b54bf 044a33d
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Oct 6 12:44:08 2018 -0300
+
+    Merge pull request #4 from ocefpaf/win
+    
+    Win
+
+commit 044a33d4ad77d7921d1dfc56cd3c4e99c6c7b58e
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Oct 5 15:14:30 2018 -0300
+
+    add the patch
+
+commit 65a9d4a973248d08f80e9fc18d6c4459e6a349a4
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Oct 5 15:08:59 2018 -0300
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.01
+
+commit 6adc3890517848032af0225d818c5dde81a97901
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Oct 5 15:08:50 2018 -0300
+
+    Windows support
+
+commit 71a90c5249e99ae51fdc8bb72ad85e121ed5136a
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Oct 5 15:07:07 2018 -0300
+
+    remove build script
+
+commit d078689fca33f9ec7805a788c6c7bb665c191b7e
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Oct 5 15:06:51 2018 -0300
+
+    remove activation scripts
+
+commit 94b54bf103f1565686f1c0b09af8d81a5f3d76fa
+Merge: 1c0b1d9 1aca5ed
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Sep 23 21:42:46 2018 -0400
+
+    Merge pull request #2 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit 1aca5ed30c7d29c4f2577c411cf89d873113dd08
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Sep 23 23:11:58 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.20
+
+commit c470802ab6a1cbc7fd055a4772e83e041fcb33b6
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Sep 23 23:11:51 2018 +0000
+
+    bump build number
+
+commit 1c0b1d99dc93760375ce9902ec4ecb450cb4d57b
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 18:19:49 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 705c9e02dc9d05d23cccd53974153eef371dafbe
+Merge: 8d3606c 27f0c84
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Mon Jun 11 07:11:57 2018 -0400
+
+    Merge pull request #1 from regro-cf-autotick-bot/2.8
+    
+    python-libarchive-c v2.8
+
+commit 27f0c84314851f0efdaad3afcd6c9e67030ca8f1
+Author: Travis CI User <travis@example.org>
+Date:   Sun Jun 10 17:49:47 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.5 and pinning 2018.05.22
+
+commit 965efeb227326a5777dad4fd21f3be768e8f40a4
+Author: Travis CI User <travis@example.org>
+Date:   Sun Jun 10 17:49:42 2018 +0000
+
+    updated v2.8
+
+commit 8d3606c06f71e5ac17246ab255660d3d7b7c0c40
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 22:02:53 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit c19a9ab7448ed741a827067ea7adee5baedb3921
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Jul 27 04:25:52 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit c37ad7701c5b01e6c30ae934e9b87f300094b252
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Jul 27 03:11:30 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit d143c2aaa46e3a18d8096915d0efd8e05d0459c0
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Jul 27 02:55:39 2017 +0000
+
+    Initial feedstock commit with conda-smithy 2.3.2.

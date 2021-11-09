@@ -1,0 +1,30 @@
+{
+  "build": "haa3ed63_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "bzip2 >=1.0.8,<2.0a0",
+    "libiconv >=1.15,<2.0a0",
+    "libxml2 >=2.9.9,<2.10.0a0",
+    "lz4-c >=1.9.2,<1.10.0a0",
+    "xz >=5.2.5,<6.0a0",
+    "zlib >=1.2.11,<1.3.0a0",
+    "zstd >=1.4.4,<1.5.0a0"
+  ],
+  "features": "",
+  "fn": "libarchive-3.4.2-haa3ed63_0.conda",
+  "legacy_bz2_md5": "a17cee66842b2fa127ddb135a7e67761",
+  "legacy_bz2_size": 1704686,
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "md5": "261c7a119cac2b983deef701d37f72ee",
+  "name": "libarchive",
+  "sha256": "c8efd27c995ff013c9ea52e4f78ac3a9caa82473bc3cb659fd2b568aae4da5ae",
+  "size": 728420,
+  "subdir": "osx-64",
+  "timestamp": 1587211638114,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/libarchive-3.4.2-haa3ed63_0.conda",
+  "version": "3.4.2"
+}

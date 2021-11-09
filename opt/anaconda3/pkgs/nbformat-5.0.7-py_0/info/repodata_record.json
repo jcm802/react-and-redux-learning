@@ -1,0 +1,29 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "ipython_genutils",
+    "jsonschema >=2.4,!=2.5.0",
+    "jupyter_core",
+    "python >=3.5",
+    "traitlets >=4.1"
+  ],
+  "features": "",
+  "fn": "nbformat-5.0.7-py_0.conda",
+  "legacy_bz2_md5": "0c819597e9ba89e57a9e0d5f8894ccde",
+  "legacy_bz2_size": 105475,
+  "license": "BSD-3-Clause",
+  "md5": "a79a6b8519be83d6fcc541b73d6b9135",
+  "name": "nbformat",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "eb37b0597ad8c67db95a9bddca452c0f8d834c78990daecb86c22c693e4d3831",
+  "size": 91350,
+  "subdir": "noarch",
+  "timestamp": 1592327265225,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/nbformat-5.0.7-py_0.conda",
+  "version": "5.0.7"
+}

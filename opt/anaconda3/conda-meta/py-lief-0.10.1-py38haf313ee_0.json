@@ -1,0 +1,50 @@
+{
+  "build": "py38haf313ee_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1",
+    "liblief 0.10.1 h0a44026_0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/py-lief-0.10.1-py38haf313ee_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/lief.cpython-38-darwin.so"
+  ],
+  "fn": "py-lief-0.10.1-py38haf313ee_0.conda",
+  "legacy_bz2_md5": "d7858e24c6bf88a14ea78affc4786084",
+  "legacy_bz2_size": 1496969,
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/py-lief-0.10.1-py38haf313ee_0",
+    "type": 1
+  },
+  "md5": "70113c4ca7f4af9157f30d1b69671e08",
+  "name": "py-lief",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/py-lief-0.10.1-py38haf313ee_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/lief.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/bd5268bb-a94e-46e8-44ea-4c8d7cfeed86/volume/lief_1588591056343/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "a42614dc0d4a88912e20260a88838583b26b609321b35351f50e7e6053febcf5",
+        "sha256_in_prefix": "5ef357eaf4fda684e415f423c9e04185a179165fca6f3c50da1e90f17b737736",
+        "size_in_bytes": 9501648
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "py-lief==0.10.1=py38haf313ee_0",
+  "sha256": "58ba3ee454d9f4f0446902edebfe6e5b8703efbc12d30c767a76db6b69c22c65",
+  "size": 1166610,
+  "subdir": "osx-64",
+  "timestamp": 1588592423628,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/py-lief-0.10.1-py38haf313ee_0.conda",
+  "version": "0.10.1"
+}

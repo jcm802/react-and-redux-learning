@@ -1,0 +1,26 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "appscript >=1.0.1",
+    "psutil >=2.0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "xlwings-0.19.5-py38_0.conda",
+  "legacy_bz2_md5": "7614cf71ff28183cd3b676b867287369",
+  "legacy_bz2_size": 432207,
+  "license": "3-clause BSD",
+  "license_family": "BSD",
+  "md5": "4d953fccb2e372791c4dc8115c50cc70",
+  "name": "xlwings",
+  "sha256": "4a986b7bdb4e5fa1d20cdca07e2873d75a951d08b160f9b941c71eaca3ad8bb3",
+  "size": 399517,
+  "subdir": "osx-64",
+  "timestamp": 1594237352749,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/xlwings-0.19.5-py38_0.conda",
+  "version": "0.19.5"
+}

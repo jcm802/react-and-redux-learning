@@ -1,0 +1,69 @@
+{% set version = "21.2.1" %}
+
+package:
+  name: keyring
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/k/keyring/keyring-{{ version }}.tar.gz
+  sha256: c53e0e5ccde3ad34284a40ce7976b5b3a3d6de70344c3f8ee44364cc340976ec
+
+build:
+  number: 0
+  skip: true  # [py<36]
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  entry_points:
+    - keyring = keyring.cli:main
+
+requirements:
+  host:
+    - python
+    - pip
+    - setuptools_scm >=3.4.1
+    - setuptools >=42
+    - toml
+  run:
+    - python
+    - pywin32-ctypes  # [win]
+    - entrypoints
+    - secretstorage  # [linux]
+    - importlib_metadata  # [py<38]
+
+test:
+  requires:
+    - pip
+    - pytest >=2.8
+    - pytest-runner
+    - setuptools_scm >=1.15.0
+  source_files:
+      - tests/*
+  imports:
+    - keyring
+    - keyring.backends
+    - keyring.util
+  commands:
+    - pip check
+    # skip tests on OS-X, the default keychain is not available in the
+    # build environment
+    - py.test -v tests  # [not osx]
+    - keyring --help
+
+about:
+  home: https://github.com/jaraco/keyring
+  license: Python Software Foundation or MIT
+  license_file: LICENSE
+  license_family: MIT
+  summary: Store and access your passwords safely
+  description: |
+    the python keyring lib provides a easy way to access the system keyring
+    service from python.  it can be used in any application that needs safe
+    password storage.
+  doc_url: https://pypi.org/project/keyring/
+  doc_source_url: https://github.com/jaraco/keyring/blob/master/readme.rst
+
+extra:
+  recipe-maintainers:
+    - ericdill
+    - licode
+    - tacaswell
+    - ccordoba12

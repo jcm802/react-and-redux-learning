@@ -1,0 +1,279 @@
+commit cb80c13b306ec00e1fdbac2b8ef94e944a60d940
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Aug 13 17:38:02 2017 +0000
+
+    Update about section
+
+commit 896c982dfde86a96ebdd5a9103dbeff88807b733
+Merge: c9db596 9dc7d36
+Author: Erik Welch <erik.n.welch@gmail.com>
+Date:   Fri Jul 12 13:57:46 2019 -0500
+
+    Merge pull request #13 from regro-cf-autotick-bot/0.10.0
+    
+    toolz v0.10.0
+
+commit 9dc7d362385bfa6403197a14c82173c93a4930a9
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Fri Jul 12 01:11:42 2019 -0500
+
+    Drop upstreamed patch
+
+commit 562e4f021cfc771b642d7f3bacfa54354df48694
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jul 11 21:25:33 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.4.0, and conda-forge-pinning 2019.07.10
+
+commit 69ff87ad044a5a6dfbc4406e8c941db45066f3fe
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jul 11 21:25:23 2019 +0000
+
+    updated v0.10.0
+
+commit c9db596a67524368925f0832d71e300e0f5afb86
+Merge: 9b3b7e0 ce4fad0
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Oct 2 11:26:02 2018 -0300
+
+    Merge pull request #11 from ocefpaf/fix_py37
+    
+    Fix py37
+
+commit ce4fad0b962708790624ffe153c3bc0272417a5c
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Tue Oct 2 11:12:35 2018 -0300
+
+    add patch
+
+commit faf93cf6a628c51541d49cd1d6c34d79ea254a7f
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Tue Oct 2 11:10:50 2018 -0300
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.01
+
+commit 546143b54f2eaf8d77d520bc1a97cf3391cb1e52
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Tue Oct 2 11:10:18 2018 -0300
+
+    patch for py37
+
+commit 9b3b7e02a675b7b99e84bf2f509011a60a905c1f
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 19:24:40 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 03fd5697d73328c18bf56fd886bcb00d41b83a3d
+Merge: dc6c18b 2c50894
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Mar 5 23:58:27 2018 -0500
+
+    Merge pull request #10 from regro-cf-autotick-bot/0.9.0
+    
+    toolz v0.9.0
+
+commit 2c50894daf17ef4f9f67bcc1caa21c04d8e7f30c
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Mar 5 23:52:56 2018 -0500
+
+    Use pip
+    
+    As this is a noarch Python package and the preferred way to install
+    noarch Python packages is now with pip, switch over to using pip to do
+    the install.
+
+commit a40efb28e6163802420d9ed5fa451f3852f1b15c
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Mar 5 23:52:25 2018 -0500
+
+    Swap order of python and setuptools in build
+
+commit 6c354197ed3751be9ff14df03771e49cb893ebc7
+Author: Travis CI User <travis@example.org>
+Date:   Tue Mar 6 03:49:27 2018 +0000
+
+    updated v0.9.0
+
+commit dc6c18b9acb584652be2ec109fbb04351b5943f7
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Sep 28 08:58:33 2017 -0400
+
+    Bump the build number to 2
+    
+    Rebuild the package under a new build number now that it is noarch
+    Python so as to disambiguate it from the arch specific builds.
+
+commit d1a838433a884c57bebbe077badc2a8fa080d732
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Sep 28 08:55:57 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.4.2
+    
+    Now that this is a noarch Python recipe, re-render to switch the build
+    over to CircleCI only and drop the Python matrix there.
+
+commit a24f8fbbaf43697daa1f3287aec5e383622f9cbf
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Sep 28 08:54:02 2017 -0400
+
+    Switch the recipe over to noarch Python
+    
+    As this is a pure Python package with no OS or Python version specific
+    dependencies, it is a good candidate for a noarch Python build.
+
+commit 3b9948c3c4f3af51d040a2557c947810a3c02f5d
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Sep 28 01:15:43 2017 -0400
+
+    Bump build number to 1
+    
+    Rebuild package so that the license file is included in these packages.
+
+commit de959eb5bdfa759a562265bbd52accd98e427825
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Sep 28 01:14:52 2017 -0400
+
+    Include the license file
+    
+    Make sure the license file is included in the `conda` package so that it
+    is available for the user's inspection per the terms of the BSD 3-Clause
+    license.
+
+commit 3c6009d0c5afcca55f5ada73e7ca4b056256edce
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Sep 28 01:14:07 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.4.2
+
+commit 1c39ef91d4e08ee0dde07b8d7c33903c0c03a865
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:44:36 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit a0c70515189408aece47dbfa09c5293d5149cb40
+Merge: 6deccd2 bad446a
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Mar 2 09:44:31 2017 -0500
+
+    Merge pull request #6 from lexual/rerender_py36
+    
+    MNT: Re-rendered with conda-smithy 2.1.1
+
+commit bad446afc4cff9bf46934f3786745b7355cd25a0
+Author: lexual <a.hider@bom.gov.au>
+Date:   Wed Mar 1 20:03:30 2017 +1100
+
+    MNT: Re-rendered with conda-smithy 2.1.1
+
+commit 6deccd2ca8880ccfbf425af2c66f27f19f5d1c57
+Merge: 9e7c7e0 302c8b9
+Author: Erik Welch <erik.n.welch@gmail.com>
+Date:   Sun Dec 11 16:35:34 2016 -0600
+
+    Merge pull request #5 from eriknw/update/v0.8.2
+    
+    Bump to 0.8.2, a bugfix release.
+
+commit 302c8b9168e2765bc9d740b643ae6bad6105c26c
+Author: Erik Welch <erik.n.welch@gmail.com>
+Date:   Sun Dec 11 16:22:46 2016 -0600
+
+    Bump to 0.8.2, a bugfix release.
+
+commit 9e7c7e0d06ca3860503b252ec9f49bfefaf63e5c
+Merge: 15d7409 e72a2d4
+Author: Erik Welch <erik.n.welch@gmail.com>
+Date:   Mon Dec 5 10:09:21 2016 -0600
+
+    Merge pull request #4 from eriknw/update/v0.8.1
+    
+    Bump to version 0.8.1
+
+commit e72a2d4fc243ba86955062b2ab1933dd40a29dde
+Author: Erik Welch <erik.n.welch@gmail.com>
+Date:   Mon Dec 5 08:29:39 2016 -0600
+
+    MNT: Re-rendered with conda-smithy 1.6.1
+
+commit 38f1c81850fb3166e1aaffd7beb3a93c4c9150d2
+Author: Erik Welch <erik.n.welch@gmail.com>
+Date:   Sun Dec 4 23:03:57 2016 -0600
+
+    appveyor fix?
+
+commit 617edb5b977518eadc53d899c1447f207742b0c9
+Author: Erik Welch <erik.n.welch@gmail.com>
+Date:   Sun Dec 4 22:55:50 2016 -0600
+
+    Change hash checksum from md5 to sha256
+
+commit acfc59432babb40f5ce83b1b50903b7011970194
+Author: Erik Welch <erik.n.welch@gmail.com>
+Date:   Sun Dec 4 22:52:21 2016 -0600
+
+    Use https to download miniconda
+
+commit 15ee851ee82197ae5d063e3d81d01e3211bd2987
+Author: Erik Welch <erik.n.welch@gmail.com>
+Date:   Sun Dec 4 22:43:08 2016 -0600
+
+    Bump to version 0.8.1
+
+commit 15d74094cee19256ebf63cc722e7cff1a8281416
+Merge: 5ec999b 7e10db8
+Author: Jim Crist <crist042@umn.edu>
+Date:   Thu Nov 10 00:36:29 2016 -0500
+
+    Merge pull request #2 from jakirkham/add_jakirkham
+    
+    Add @jakirkham
+
+commit 7e10db888a3fdbce49d7c86c3a54e84fd346c2c5
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Oct 20 11:17:31 2016 -0400
+
+    recipe: Add @jakirkham as a maintainer.
+
+commit 5ec999b821143c0a5a8f2ae275ed832ed6ee5873
+Merge: 56681f7 c1ae85d
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu Oct 20 17:41:15 2016 -0400
+
+    Merge pull request #3 from jakirkham/re-render_master_1.3.3
+    
+    MNT: Re-rendered with conda-smithy 1.3.3 [ci skip]
+
+commit c1ae85d5bc48db5f18a2262a93bd9c9be0971c56
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Oct 20 11:21:45 2016 -0400
+
+    MNT: Re-rendered with conda-smithy 1.3.3
+
+commit 56681f7d554ebf7c80cc70d67ba664282f0bbe77
+Merge: c5ca8bf 4889fd1
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Jun 2 22:26:42 2016 -0400
+
+    Merge pull request #1 from jcrist/ver-080
+    
+    Update for 0.8.0 release
+
+commit 4889fd1741947bd42375ab6c1dc57b8136e32b87
+Author: Jim Crist <crist042@umn.edu>
+Date:   Thu Jun 2 19:21:42 2016 -0500
+
+    Update for 0.8.0 release
+
+commit c5ca8bfc95f272237b2de5d2b4e9cf8b83c8132d
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Jun 2 21:17:12 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 151ec7ff2d8be4e8022e18b92cc656c53c261331
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Jun 2 21:16:00 2016 +0000
+
+    Initial commit of the toolz feedstock.

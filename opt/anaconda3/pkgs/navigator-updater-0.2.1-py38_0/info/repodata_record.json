@@ -1,0 +1,27 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "pyqt >=5.6",
+    "python >=3.8,<3.9.0a0",
+    "python.app",
+    "qtpy >=1.2"
+  ],
+  "features": "",
+  "fn": "navigator-updater-0.2.1-py38_0.conda",
+  "legacy_bz2_md5": "7ad056416609fb2a9ebb898a02177ce2",
+  "legacy_bz2_size": 1338653,
+  "license": "proprietary - Continuum Analytics, Inc.",
+  "license_family": "Proprietary",
+  "md5": "b4955d72dc7e815275d44ba47a0499b8",
+  "name": "navigator-updater",
+  "sha256": "266af3b253e0b74db414de9454968fdf08674b749877c6e02bb86cf8ded7f038",
+  "size": 740092,
+  "subdir": "osx-64",
+  "timestamp": 1593556159585,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/navigator-updater-0.2.1-py38_0.conda",
+  "version": "0.2.1"
+}

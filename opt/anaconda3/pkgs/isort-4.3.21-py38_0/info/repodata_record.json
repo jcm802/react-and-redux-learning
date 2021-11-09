@@ -1,0 +1,24 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "setuptools"
+  ],
+  "features": "",
+  "fn": "isort-4.3.21-py38_0.conda",
+  "legacy_bz2_md5": "091f452601b9c68c9b5064efb74e97a0",
+  "legacy_bz2_size": 65909,
+  "license": "MIT",
+  "md5": "9471ff82d54b756924b8a740def640d0",
+  "name": "isort",
+  "sha256": "1c811bb3d39dc8f1850f9b3dcc20ec6743c7170b23109ea38db79fb47dd861cb",
+  "size": 66360,
+  "subdir": "osx-64",
+  "timestamp": 1574157851771,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/isort-4.3.21-py38_0.conda",
+  "version": "4.3.21"
+}

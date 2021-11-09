@@ -1,0 +1,3 @@
+/opt/anaconda1anaconda2anaconda3 text bin/curl-config
+/opt/anaconda1anaconda2anaconda3 text lib/pkgconfig/libcurl.pc
+/opt/concourse/worker/volumes/live/5664c699-031b-4723-42a4-3dc1b3b1955d/volume/curl_split_recipe_1594834805463/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho binary lib/libcurl.4.dylib

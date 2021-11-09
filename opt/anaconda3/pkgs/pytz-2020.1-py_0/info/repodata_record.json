@@ -1,0 +1,25 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "pytz-2020.1-py_0.conda",
+  "legacy_bz2_md5": "ed81825324989d8f8f77a4ffd6ad1fdc",
+  "legacy_bz2_size": 244916,
+  "license": "MIT",
+  "md5": "01cec12ecd4a6e162d4ed2349929e81b",
+  "name": "pytz",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "6c087870f033360c426906fe74a597f5236e23843d82f7c2859d797a1912120d",
+  "size": 188417,
+  "subdir": "noarch",
+  "timestamp": 1588612723334,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/pytz-2020.1-py_0.conda",
+  "version": "2020.1"
+}

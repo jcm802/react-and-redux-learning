@@ -1,0 +1,26 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "pyflakes-2.2.0-py_0.conda",
+  "legacy_bz2_md5": "17b80451a13b373e63e415c0ac7d1db4",
+  "legacy_bz2_size": 60496,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "40fa0e3b3c660d7ea3c65f151441e5b4",
+  "name": "pyflakes",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "c59494755192e47c09feb030772975ca93d0cb5cd6e5c8fe67981e94e2a66093",
+  "size": 62210,
+  "subdir": "noarch",
+  "timestamp": 1588193162334,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/pyflakes-2.2.0-py_0.conda",
+  "version": "2.2.0"
+}

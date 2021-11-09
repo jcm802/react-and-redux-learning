@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.6",
+    "pyyaml"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "dask-core",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1594156335654,
+  "version": "2.20.0"
+}

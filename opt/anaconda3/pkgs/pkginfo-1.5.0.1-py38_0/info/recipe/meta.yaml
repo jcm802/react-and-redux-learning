@@ -1,0 +1,66 @@
+# This file created by conda-build 3.18.10
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/f79823e2-9e39-48fa-76ef-ee229e5f6355/volume/aggregate/pkginfo-feedstock/recipe, last modified Wed Nov  6 05:42:22 2019
+# ------------------------------------------------
+
+package:
+    name: pkginfo
+    version: 1.5.0.1
+source:
+    fn: pkginfo-1.5.0.1.tar.gz
+    sha256: 7424f2c8511c186cd5424bbf31045b77435b37a8d604990b79d4e70d741148bb
+    url: https://pypi.io/packages/source/p/pkginfo/pkginfo-1.5.0.1.tar.gz
+build:
+    entry_points:
+        - pkginfo = pkginfo.commandline:main
+    number: '0'
+    script: python setup.py install  --single-version-externally-managed --record=record.txt
+    string: py38_0
+requirements:
+    host:
+        - ca-certificates 2019.10.16 0
+        - certifi 2019.9.11 py38_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20181209 hb402a30_0
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1d h1de35cc_3
+        - python 3.8.0 h359304d_1
+        - readline 7.0 h1de35cc_5
+        - setuptools 41.6.0 py38_0
+        - sqlite 3.30.1 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - python >=3.8,<3.9.0a0
+test:
+    commands:
+        - pkginfo --help
+    imports:
+        - pkginfo
+        - pkginfo.tests
+about:
+    description: 'This package provides an API for querying the distutils metadata
+        written in
+
+        the ``PKG-INFO`` file inside a source distriubtion (an ``sdist``) or
+
+        a binary distribution (e.g., created by running ``bdist_egg``)
+
+        '
+    dev_url: https://code.launchpad.net/~tseaver/pkginfo/trunk
+    doc_url: http://pythonhosted.org/pkginfo/
+    home: https://code.launchpad.net/~tseaver/pkginfo/trunk
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE.txt
+    summary: Query metadatdata from sdists / bdists / installed packages.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - jankatins
+        - mingwandroid

@@ -1,0 +1,25 @@
+{
+  "build": "h28b9765_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [
+    "clangdev 10.0.0|10.0.0.*",
+    "llvmdev 10.0.0|10.0.0.*",
+    "openmp 10.0.0|10.0.0.*"
+  ],
+  "depends": [],
+  "features": "",
+  "fn": "llvm-openmp-10.0.0-h28b9765_0.conda",
+  "legacy_bz2_md5": "e6386ef5a42b05a7fffde559a1783a53",
+  "legacy_bz2_size": 276005,
+  "license": "NCSA",
+  "md5": "9a2dac13a763101c1c4b2bf74a74a834",
+  "name": "llvm-openmp",
+  "sha256": "ab43085c2d8c71140c5f42a970f78a71167de7dbaf91518a4c1597cfa2240e8d",
+  "size": 242019,
+  "subdir": "osx-64",
+  "timestamp": 1589550841331,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/llvm-openmp-10.0.0-h28b9765_0.conda",
+  "version": "10.0.0"
+}

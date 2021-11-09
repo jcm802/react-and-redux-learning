@@ -1,0 +1,20 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "click",
+    "joblib",
+    "python >=3.5",
+    "regex",
+    "tqdm"
+  ],
+  "license": "Apache 2.0",
+  "license_family": "Apache",
+  "name": "nltk",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1592496121693,
+  "version": "3.5"
+}

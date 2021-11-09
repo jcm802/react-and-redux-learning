@@ -1,0 +1,24 @@
+{
+  "build": "h21ff451_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1"
+  ],
+  "features": "",
+  "fn": "libllvm9-9.0.1-h21ff451_1.conda",
+  "legacy_bz2_md5": "f50c3e9cbf1623930dbd1f334e63c55a",
+  "legacy_bz2_size": 20055618,
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "Apache",
+  "md5": "8e90a8399631150d34c1b02dddc80260",
+  "name": "libllvm9",
+  "sha256": "15aa7df715c11ed112c42ef8bc263545806df1003c86250d812bcea4f69af94e",
+  "size": 16119811,
+  "subdir": "osx-64",
+  "timestamp": 1594479074350,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/libllvm9-9.0.1-h21ff451_1.conda",
+  "version": "9.0.1"
+}

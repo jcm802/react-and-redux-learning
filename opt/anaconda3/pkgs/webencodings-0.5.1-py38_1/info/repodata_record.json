@@ -1,0 +1,24 @@
+{
+  "build": "py38_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "webencodings-0.5.1-py38_1.conda",
+  "legacy_bz2_md5": "816a3f635267b70b6a1b00c00c282a15",
+  "legacy_bz2_size": 20010,
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "06bf5fe6b42bc9d00c96f4be7beaaf26",
+  "name": "webencodings",
+  "sha256": "8dbe8f3a0fdcf4e0bc62c2755cfd9559d48e4efebd8b5a50e6d4232f621f3fbb",
+  "size": 19969,
+  "subdir": "osx-64",
+  "timestamp": 1573201122722,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/webencodings-0.5.1-py38_1.conda",
+  "version": "0.5.1"
+}

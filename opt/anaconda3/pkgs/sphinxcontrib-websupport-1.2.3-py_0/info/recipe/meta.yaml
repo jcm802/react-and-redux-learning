@@ -1,0 +1,64 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/sphinxcontrib-websupport-1.2.3-on-linux_64, last modified Mon Jun 29 15:57:39 2020
+# ------------------------------------------------
+
+package:
+    name: sphinxcontrib-websupport
+    version: 1.2.3
+source:
+    fn: sphinxcontrib-websupport-1.2.3.tar.gz
+    sha256: ee1d43e6e0332558a66fcb4005b9ba7313ad9764d0df0e6703ae869a028e451f
+    url: https://pypi.io/packages/source/s/sphinxcontrib-websupport/sphinxcontrib-websupport-1.2.3.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: /tmp/build/80754af9/sphinxcontrib-websupport_1593446360927/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin/python
+        -m pip install . --no-deps -vv
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.6.20 py36_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20191231 h7b6447c_0
+        - libffi 3.3 he6710b0_1
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1g h7b6447c_0
+        - pip 20.1.1 py36_1
+        - python 3.6.10 h7579374_2
+        - readline 8.0 h7b6447c_0
+        - setuptools 47.3.1 py36_0
+        - sphinxcontrib 1.0 py36_1
+        - sqlite 3.32.3 h62c20be_0
+        - tk 8.6.10 hbc83047_0
+        - wheel 0.34.2 py36_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python
+        - sphinxcontrib
+test:
+    imports:
+        - sphinxcontrib
+about:
+    description: 'sphinxcontrib-websupport provides a Python API to easily integrate
+
+        Sphinx documentation into your Web application
+
+        '
+    dev_url: https://github.com/sphinx-doc/sphinxcontrib-websupport
+    doc_url: http://www.sphinx-doc.org/en/stable/
+    home: https://pypi.python.org/pypi/sphinxcontrib-websupport
+    license: BSD-2-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: Sphinx API for Web Apps
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - chohner

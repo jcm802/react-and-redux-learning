@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "hab81aa3_0",
+  "build_number": 0,
+  "depends": [
+    "libcxx >=10.0.0",
+    "lz4-c >=1.9.2,<1.10.0a0",
+    "snappy >=1.1.7,<2.0a0",
+    "zlib >=1.2.11,<1.3.0a0",
+    "zstd >=1.4.4,<1.4.5.0a0"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "blosc",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1592516237520,
+  "version": "1.19.0"
+}

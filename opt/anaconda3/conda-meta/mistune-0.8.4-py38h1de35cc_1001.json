@@ -1,0 +1,46 @@
+{
+  "build": "py38h1de35cc_1001",
+  "build_number": 1001,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/mistune-0.8.4-py38h1de35cc_1001",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/__pycache__/mistune.cpython-38.pyc",
+    "lib/python3.8/site-packages/mistune-0.8.4.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/mistune-0.8.4.dist-info/LICENSE",
+    "lib/python3.8/site-packages/mistune-0.8.4.dist-info/METADATA",
+    "lib/python3.8/site-packages/mistune-0.8.4.dist-info/RECORD",
+    "lib/python3.8/site-packages/mistune-0.8.4.dist-info/WHEEL",
+    "lib/python3.8/site-packages/mistune-0.8.4.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/mistune-0.8.4.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/mistune.py"
+  ],
+  "fn": "mistune-0.8.4-py38h1de35cc_1001.conda",
+  "legacy_bz2_md5": "702227bd4bbf517ed707701ee2142cb5",
+  "legacy_bz2_size": 54586,
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/mistune-0.8.4-py38h1de35cc_1001",
+    "type": 1
+  },
+  "md5": "14552fbbea9538d0aa2686a3c7cba628",
+  "name": "mistune",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/mistune-0.8.4-py38h1de35cc_1001.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "mistune==0.8.4=py38h1de35cc_1001",
+  "sha256": "d9bb61e0e16ba54f11b149d71d28f88208f02bf5cacdd8e73be81b87a79a0505",
+  "size": 55190,
+  "subdir": "osx-64",
+  "timestamp": 1594373290398,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/mistune-0.8.4-py38h1de35cc_1001.conda",
+  "version": "0.8.4"
+}

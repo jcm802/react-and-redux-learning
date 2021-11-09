@@ -1,0 +1,64 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/8c3ad396-5c0e-4d00-5d0d-cb6d2d5b99c0/volume/rsync-recipes/tbb-2020.0-on-osx, last modified Tue Feb  4 14:26:51 2020
+# ------------------------------------------------
+
+package:
+    name: tbb
+    version: '2020.0'
+source:
+    fn: tbb2020_oss_src.tgz
+    sha256: db80f4f7abb95c2d08fe64abdc0a9250903e4c725f1c667ac517450de426023a
+    url: https://github.com/intel/tbb/archive/2020.tar.gz
+build:
+    number: '0'
+    script: python build/build.py --build-args="stdver=c++11 runtime=conda" --install-libs
+    string: h04f5b5a_0
+requirements:
+    build:
+        - ca-certificates 2020.1.1 0
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_18
+        - clangxx 4.0.1 1
+        - clangxx_osx-64 4.0.1 h22b1bf0_18
+        - compiler-rt 4.0.1 hcfea43d_1
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20181209 hb402a30_0
+        - libffi 3.2.1 h475c297_4
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+        - make 4.2.1 h3efe00b_1
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1d h1de35cc_3
+        - python 3.8.1 h359304d_1
+        - readline 7.0 h1de35cc_5
+        - sqlite 3.31.1 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    host:
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+    run:
+        - libcxx >=4.0.1
+test:
+    commands:
+        - python -c "import ctypes; assert 11100 == ctypes.cdll[r'libtbb${SHLIB_EXT}']['TBB_runtime_interface_version']()"
+    requires:
+        - python *
+about:
+    dev_url: https://github.com/01org/tbb
+    doc_url: https://software.intel.com/en-us/node/506039
+    home: http://www.threadingbuildingblocks.org
+    license: Apache 2.0
+    license_file: LICENSE
+    summary: High level abstract threading library
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - anton-malakhov
+        - jschueller

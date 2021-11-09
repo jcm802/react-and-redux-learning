@@ -1,0 +1,63 @@
+{% set version = "3.4.2" %}
+
+package:
+  name: conda-verify
+  version: {{ version }}
+
+source:
+  fn: conda-verify-{{ version }}.tar.gz
+  url: https://github.com/conda/conda-verify/archive/{{ version }}.tar.gz
+  sha256: 0fc0af337ffcdfcb88b61e5411c9b7e56448fc6701522b4119bdbd65063311ae
+
+build:
+  number: 1
+  script: {{ PYTHON }} -m pip install . --no-deps
+  noarch: python
+  entry_points:
+    - conda-verify = conda_verify.cli:cli
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - pip
+  run:
+    - python
+    - jinja2
+    - click
+    - pyyaml
+    - future
+    - backports.functools_lru_cache  # [py<33]
+    - backports.tempfile
+    - conda-package-handling >=1.0.4
+    - six
+    - tqdm
+
+test:
+  imports:
+    - conda_verify
+  commands:
+    # return code of version and help is 1 on windows !?
+    - conda-verify --version  # [unix]
+    - conda-verify --help     # [unix]
+
+about:
+  home: https://github.com/conda/conda-verify
+  license: BSD 3-Clause
+  license_file: LICENSE.txt
+  summary: tool for validating conda recipes and conda packages
+  description: |
+    conda-verify is a tool for (passively) verifying conda recipes and conda
+    packages.
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - jjhelmus
+    - msarahan
+    - mwcraig
+    - ocefpaf
+    - patricksnape
+    - pelson
+    - scopatz
+    - mandeep

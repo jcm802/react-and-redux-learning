@@ -1,0 +1,23 @@
+{
+  "build": "py38_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "sphinxcontrib-1.0-py38_1.conda",
+  "legacy_bz2_md5": "a5aacac74d41e06402b5ca1b8d79998a",
+  "legacy_bz2_size": 3596,
+  "license": "BSD",
+  "md5": "43ba444d91a04190dd9d56f0746a7172",
+  "name": "sphinxcontrib",
+  "sha256": "73a724ed008f5a9c23d6a94d263ac2291764846ff35b7d152adb3cb04f83d2bd",
+  "size": 4103,
+  "subdir": "osx-64",
+  "timestamp": 1573662692137,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/sphinxcontrib-1.0-py38_1.conda",
+  "version": "1.0"
+}

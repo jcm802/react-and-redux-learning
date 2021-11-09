@@ -1,0 +1,8 @@
+{
+  "c_compiler_version": "10",
+  "cxx_compiler": "clangxx",
+  "c_compiler": "clang",
+  "libffi": "3.3",
+  "cxx_compiler_version": "10",
+  "zlib": "1.2"
+}

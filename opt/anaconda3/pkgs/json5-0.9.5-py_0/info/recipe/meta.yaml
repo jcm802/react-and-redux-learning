@@ -1,0 +1,57 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/json5-0.9.5-on-linux_64, last modified Tue Jun  9 18:22:16 2020
+# ------------------------------------------------
+
+package:
+    name: json5
+    version: 0.9.5
+source:
+    sha256: 703cfee540790576b56a92e1c6aaa6c4b0d98971dc358ead83812aa4d06bdb96
+    url: https://pypi.io/packages/source/j/json5/json5-0.9.5.tar.gz
+build:
+    entry_points:
+        - pyjson5 = json5.tool:main
+    noarch: python
+    number: '0'
+    script: '/tmp/build/80754af9/json5_1591726999606/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/bin/python
+        -m pip install . --no-deps -vv '
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.4.5.1 py36_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.3 he6710b0_1
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1g h7b6447c_0
+        - pip 20.0.2 py36_3
+        - python 3.6.10 h7579374_2
+        - readline 8.0 h7b6447c_0
+        - setuptools 47.1.1 py36_0
+        - sqlite 3.31.1 h62c20be_1
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.34.2 py36_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python
+test:
+    imports:
+        - json5
+about:
+    dev_url: https://github.com/dpranke/pyjson5
+    home: https://github.com/dpranke/pyjson5
+    license: Apache-2.0
+    license_family: Apache
+    license_file: LICENSE
+    summary: A Python implementation of the JSON5 data format
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ian-r-rose

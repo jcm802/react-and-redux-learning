@@ -1,0 +1,28 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "lazy-object-proxy 1.4.*",
+    "python >=3.8,<3.9.0a0",
+    "setuptools",
+    "six >=1.12,<2",
+    "wrapt 1.11.*"
+  ],
+  "features": "",
+  "fn": "astroid-2.4.2-py38_0.conda",
+  "legacy_bz2_md5": "8c6ebd3bb471123d1fe0b8796c647454",
+  "legacy_bz2_size": 309618,
+  "license": "LGPL-2.1-only",
+  "license_family": "LGPL",
+  "md5": "954ca761f52da8b5ddfce5eea2fdddbf",
+  "name": "astroid",
+  "sha256": "8f21a79921eebf2e3a7a0bee416b0c166d73db460ad85fe3e82a26c840710252",
+  "size": 287315,
+  "subdir": "osx-64",
+  "timestamp": 1592498512384,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/astroid-2.4.2-py38_0.conda",
+  "version": "2.4.2"
+}

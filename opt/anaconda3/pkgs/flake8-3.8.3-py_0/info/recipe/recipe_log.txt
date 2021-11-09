@@ -1,0 +1,815 @@
+commit 757a1f14ea8aeb30819cd8e52d88ac6e20eaed3f
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue May 26 12:55:32 2020 -0500
+
+    restrict to python >=3
+
+commit e835b4b0cb2f583463ac03e0f283a868955fbc05
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri Nov 2 13:43:29 2018 -0500
+
+    build -> host
+
+commit f2163fbcf1089ee4d6e0f0d8937d92695cc10f6e
+Merge: 0dca323 c5b3c5c
+Author: Ryan May <rmay31@gmail.com>
+Date:   Thu Jun 11 12:57:25 2020 -0500
+
+    Merge pull request #44 from regro-cf-autotick-bot/3.8.3_he62927
+    
+    flake8 v3.8.3
+
+commit c5b3c5c494e7b333f38c4b9d0752e49555b959b6
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jun 8 19:43:36 2020 +0000
+
+    updated v3.8.3
+
+commit 0dca32300e524924062cac272886a97b94872fe1
+Merge: 98fd16c ac528f9
+Author: Ryan May <rmay31@gmail.com>
+Date:   Mon May 25 18:26:15 2020 -0600
+
+    Merge pull request #43 from regro-cf-autotick-bot/3.8.2_h9b84e7
+    
+    flake8 v3.8.2
+
+commit ac528f90ecd97d2d56f99999edd191da609f0ece
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat May 23 02:09:38 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.3, and conda-forge-pinning 2020.05.20.21.21.18
+
+commit b93a0b993f368ea3a97a55e884d3b46cb669ff14
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat May 23 02:09:07 2020 +0000
+
+    updated v3.8.2
+
+commit 98fd16c929d3d5689b9b65f650da797035c55670
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 07:12:45 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit cc9e7f9bd14faa2397d8010f2a5c21b8f6db75e7
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat May 16 05:19:32 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 5d834808cc2da76aceaf1f639232d7cee134b24b
+Merge: 16509ff 37c8927
+Author: Ryan May <rmay31@gmail.com>
+Date:   Tue May 12 22:15:49 2020 -0600
+
+    Merge pull request #41 from regro-cf-autotick-bot/3.8.1_h3c040c
+    
+    flake8 v3.8.1
+
+commit 37c89273da9ed30dace2c003a3d3aab4c039c9ba
+Author: Ryan May <rmay@ucar.edu>
+Date:   Tue May 12 22:11:06 2020 -0600
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.7.1, and conda-forge-pinning 2020.05.12.18.03.58
+
+commit 017dcb91f34e2a2bb8d4e6e7f4f8505ea6ac5df0
+Author: Ryan May <rmay@ucar.edu>
+Date:   Tue May 12 22:07:57 2020 -0600
+
+    Convert to noarch:python
+    
+    Now that we're no longer worried about Python 2.7 deps. Also update pip
+    invocation to current best practice.
+
+commit 45a462f100a1bf2e908729a54b0779b247430bca
+Author: Ryan May <rmay@ucar.edu>
+Date:   Tue May 12 21:53:59 2020 -0600
+
+    Update dependencies
+
+commit 356a707f5899136559936d74ffab01951c129cac
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue May 12 22:21:22 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.1, and conda-forge-pinning 2020.05.12.18.03.58
+
+commit cf457956346cd5e6ed7e9b1799886b31f7cb7e89
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue May 12 22:20:56 2020 +0000
+
+    updated v3.8.1
+
+commit 16509ff1fab1b3ed25d96c67dc40debee852951d
+Merge: f644052 47e00cb
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Sun Mar 15 07:02:37 2020 -0500
+
+    Merge pull request #40 from regro-cf-autotick-bot/rebuild-pypy-0-1
+    
+    Rebuild for pypy
+
+commit 47e00cbfc0757ba8743bb9b231c99ec5139b5329
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Mar 13 08:48:28 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.0, conda-smithy 3.6.12, and conda-forge-pinning 2020.03.12
+
+commit 4e3c83bbab9108c65f324e97a434e3c6014dc99e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Mar 13 08:48:00 2020 +0000
+
+    Rebuild for pypy
+
+commit f644052766fbbb568a428cac2d37133b0c61141c
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 19:44:35 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 2bcfadce521887376e270226ee3c61cd6be3ff1a
+Merge: 04b7a9a 1b21f15
+Author: Ryan May <rmay31@gmail.com>
+Date:   Thu Jan 23 18:41:59 2020 -0700
+
+    Merge pull request #39 from regro-cf-autotick-bot/bot-pr_arch
+    
+    Arch Migrator
+
+commit 1b21f15ee36e89bf8133c10e4cb948511c0c04d5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jan 24 00:21:33 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2020.01.16
+
+commit 7b32b8fc617e8d4a2a5bc1b8912f990b9ff75d35
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jan 24 00:21:13 2020 +0000
+
+    migration: ArchRebuild
+
+commit 04b7a9ad66261646ff5c327caece34a972fb3059
+Merge: f0a5534 e1dc9ed
+Author: Ryan May <rmay@ucar.edu>
+Date:   Sat Nov 2 13:52:41 2019 -0400
+
+    Merge pull request #38 from regro-cf-autotick-bot/rebuild-python3801
+    
+    Rebuild for python38
+
+commit e1dc9ed5f884eb4c1f7b7ac246760b2ad54822e5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 2 17:22:43 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.1, and conda-forge-pinning 2019.11.01
+
+commit 483dc5ab41a0cf8b83168e6427eef0ee99ffaa60
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 2 17:22:25 2019 +0000
+
+    bump build number
+
+commit f0a553450665a3f2bf40dc25d96eedc5078f43e9
+Merge: 4f4e6e2 a20bcf7
+Author: Ryan May <rmay@ucar.edu>
+Date:   Mon Oct 28 14:57:13 2019 -0600
+
+    Merge pull request #37 from regro-cf-autotick-bot/3.7.9
+    
+    flake8 v3.7.9
+
+commit a20bcf74b356714a5696b193b0ee42e078951d0e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Oct 28 18:35:55 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.10, conda-smithy 3.6.0, and conda-forge-pinning 2019.10.28
+
+commit fe0b79383f44850432c42a2206305a5a45d14d00
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Oct 28 18:35:38 2019 +0000
+
+    updated v3.7.9
+
+commit 4f4e6e2cd7db10194fffc84435fda2d3ebc89ed8
+Merge: da84dd7 761b326
+Author: Ryan May <rmay@ucar.edu>
+Date:   Thu Sep 19 13:06:38 2019 -0600
+
+    Merge pull request #36 from jakirkham-feedstocks/bld_multiarch
+    
+    Build multiarch packages
+
+commit 761b326679787146b1366d4b4e200829b8980477
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Thu Sep 19 20:06:55 2019 +0200
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.7, and conda-forge-pinning 2019.09.08
+    
+    Now that multiarch builds are enabled, re-render to update the CI
+    configuration files and other feedstock content to reflect this.
+
+commit f09324e8ca96be625d0f88d8ca353ad251992478
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Thu Sep 19 20:06:54 2019 +0200
+
+    Enable multiarch builds
+
+commit da84dd73fe9122680ac198018b64d288c8450925
+Merge: 1d1bd29 78f07f3
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Sep 19 20:06:22 2019 +0200
+
+    Merge pull request #35 from conda-forge-linter/conda_forge_admin_34
+    
+    MNT: rerender
+
+commit 78f07f3c643b1a8a8d104dcb553d32a9234c2829
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Sep 19 17:56:13 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.7, and conda-forge-pinning 2019.09.08
+
+commit 1d1bd290faf2c3118c9eae92ed6912151456d7fa
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 18:38:13 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit fa990eda3f6d32234ba4edfca9afaae5e4244a95
+Merge: fabf23e 537e549
+Author: Ryan May <rmay@ucar.edu>
+Date:   Thu Jul 25 23:53:41 2019 -0600
+
+    Merge pull request #33 from dopplershift/fix-windows
+    
+    Fix windows
+
+commit 537e549cef1b0f738c855be8c9126fb2b30786dc
+Author: Ryan May <rmay@ucar.edu>
+Date:   Thu Jul 25 23:37:33 2019 -0600
+
+    Re-enable running utility as windows test
+
+commit 5d9c6a58ad6f51f5acd94f444dbf55946554480c
+Author: Ryan May <rmay@ucar.edu>
+Date:   Thu Jul 25 23:37:01 2019 -0600
+
+    Set up proper entry_point
+    
+    This is needed to run the utility on Windows.
+
+commit fabf23ed66af13f8c9824a602041ec69a0397b8a
+Merge: 354d077 73d476b
+Author: Ryan May <rmay@ucar.edu>
+Date:   Wed Jul 24 13:39:22 2019 -0600
+
+    Merge pull request #32 from regro-cf-autotick-bot/3.7.8
+    
+    flake8 v3.7.8
+
+commit 73d476b0a44e2213b0434caae40ca0796599f2da
+Author: Ryan May <rmay@ucar.edu>
+Date:   Tue Jul 23 14:29:03 2019 -0600
+
+    Don't run tests with running scripts on windows
+    
+    On windows, the error code is not consistently detected as success even
+    for runs that do succeed. Just disable them on windows for now and use
+    the tests on linux/mac to check for bad packaging.
+
+commit 8ea6081cc08a398df6c9c354fb68b640a7bb0ee5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jul 8 19:29:48 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.4.0, and conda-forge-pinning 2019.07.04
+
+commit baf515b41937caedf2ce8df2c6318662f254cc27
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jul 8 19:29:36 2019 +0000
+
+    updated v3.7.8
+
+commit 354d077a376e6f9cebc5a12828539600ab661e4f
+Merge: c9bc870 c917263
+Author: Ryan May <rmay31@gmail.com>
+Date:   Mon Feb 25 13:39:44 2019 -0700
+
+    Merge pull request #31 from regro-cf-autotick-bot/3.7.7
+    
+    flake8 v3.7.7
+
+commit c917263122e5fa48550a329ea74cfb968f8b4cc2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 25 17:29:00 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.14, and conda-forge-pinning 2019.02.24
+
+commit 0803d3a26406c7da9a2e6b6c7e2bb77885a353b4
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 25 17:28:48 2019 +0000
+
+    updated v3.7.7
+
+commit c9bc87059809a380b15c4e9dcf44c6eef954ab86
+Merge: ec4726d b997dfa
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Mon Feb 18 21:39:59 2019 -0500
+
+    Merge pull request #30 from regro-cf-autotick-bot/3.7.6
+    
+    flake8 v3.7.6
+
+commit b997dfa5d17a4acbdc21949121b7a77d9a5aa8bb
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 18 20:15:39 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.13, and conda-forge-pinning 2019.02.15
+
+commit e4088591f5743c1f0e45230aee8ee6cbf9c8f059
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 18 20:15:27 2019 +0000
+
+    updated v3.7.6
+
+commit ec4726dcbbfac2139c96688f7c828a558ae5ab41
+Merge: f65f08d 5778f87
+Author: Ryan May <rmay31@gmail.com>
+Date:   Mon Feb 4 21:41:22 2019 -0700
+
+    Merge pull request #29 from regro-cf-autotick-bot/3.7.5
+    
+    flake8 v3.7.5
+
+commit 5778f8712d3181716c088b84887911d22dc1350e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 4 18:16:17 2019 +0000
+
+    updated v3.7.5
+
+commit f65f08d7254f5a8cce7462168029ffeff3ae992f
+Merge: 33aae4a ce5dfc2
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sat Feb 2 15:38:28 2019 -0500
+
+    Merge pull request #28 from regro-cf-autotick-bot/3.7.4
+    
+    flake8 v3.7.4
+
+commit ce5dfc262a9041eb06b305fb8733e973fcaa3d3d
+Author: Ryan May <rmay@ucar.edu>
+Date:   Fri Feb 1 15:44:59 2019 -0700
+
+    Add needed dependency on functools32 on py2k
+
+commit ed7d847faf7911a3048d4c39821f79367e55ed33
+Merge: ebf0a6d 33aae4a
+Author: Ryan May <rmay31@gmail.com>
+Date:   Fri Feb 1 15:10:39 2019 -0700
+
+    Merge branch 'master' into 3.7.4
+
+commit 33aae4a1de645bd256a48e3cd2fbd1d1a877ff48
+Merge: 98c2e9d 92c646c
+Author: Ryan May <rmay31@gmail.com>
+Date:   Fri Feb 1 14:45:27 2019 -0700
+
+    Merge pull request #27 from regro-cf-autotick-bot/3.7.3
+    
+    flake8 v3.7.3
+
+commit ebf0a6d983ec0166e97d6f2145da998f9e3cacb9
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Feb 1 04:13:44 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.12, and conda-forge-pinning 2019.01.29
+
+commit bb1db68fd676e47c40e0a8600d552a2f649bcba5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Feb 1 04:13:33 2019 +0000
+
+    updated v3.7.4
+
+commit 92c646ce07cb15244e339648fad9cf55493a25a6
+Merge: a1938ef 98c2e9d
+Author: Ryan May <rmay31@gmail.com>
+Date:   Thu Jan 31 19:50:51 2019 -0700
+
+    Merge branch 'master' into 3.7.3
+
+commit 98c2e9d44fca6335eafe55b6243a1cb300140c20
+Merge: c450bf0 8a90988
+Author: Ryan May <rmay31@gmail.com>
+Date:   Thu Jan 31 18:42:03 2019 -0700
+
+    Merge pull request #26 from regro-cf-autotick-bot/3.7.2
+    
+    flake8 v3.7.2
+
+commit 8a9098863cfad1e20e15b2f225cccfdee48ee0ec
+Merge: baff3d8 c450bf0
+Author: Ryan May <rmay31@gmail.com>
+Date:   Thu Jan 31 17:49:24 2019 -0700
+
+    Merge branch 'master' into 3.7.2
+
+commit c450bf0cee224fbbe672613657e2cc145fa03291
+Merge: b71e9a9 d6a6d0c
+Author: Ryan May <rmay31@gmail.com>
+Date:   Thu Jan 31 17:48:36 2019 -0700
+
+    Merge pull request #25 from dopplershift/bump
+    
+    updated v3.7.1
+
+commit a1938ef944ebbfddbadadc28cc4f7a5a487354f9
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jan 31 04:13:09 2019 +0000
+
+    updated v3.7.3
+
+commit baff3d8bb269ee4907b1a317b523e62986fa1935
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jan 30 21:13:33 2019 +0000
+
+    updated v3.7.2
+
+commit d6a6d0cd718e485c7e661c099d1fa24504719b26
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jan 30 08:14:11 2019 +0000
+
+    updated v3.7.1
+
+commit b71e9a95b875ccdc5df7d6150bff0c3af96759ad
+Merge: 84dba0e cf8d887
+Author: Ryan May <rmay31@gmail.com>
+Date:   Wed Jan 30 10:02:00 2019 -0700
+
+    Merge pull request #23 from regro-cf-autotick-bot/3.7.0
+    
+    flake8 v3.7.0
+
+commit cf8d8877e53c44d4c98dcf810d2d7a476fe5bd98
+Author: Ryan May <rmay@ucar.edu>
+Date:   Tue Jan 29 22:53:20 2019 -0700
+
+    Update dependencies
+
+commit c0d6b9a221c49cfbf85ca05ae17f92cab89d3e97
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jan 30 05:13:51 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.10, and conda-forge-pinning 2019.01.29
+
+commit b2941f22177ba7e6de0ea333ccf5882a58c0922c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jan 30 05:13:39 2019 +0000
+
+    updated v3.7.0
+
+commit 84dba0e437b095db646e9892693a08330933830a
+Merge: f461a77 ba87f4d
+Author: Ryan May <rmay31@gmail.com>
+Date:   Thu Oct 25 17:04:29 2018 -0600
+
+    Merge pull request #22 from dopplershift/update
+    
+    Update to 3.6.0
+
+commit ba87f4d8aa18536804a267f2a3ea706c8af4c2b1
+Author: Ryan May <rmay@ucar.edu>
+Date:   Thu Oct 25 13:51:04 2018 -0600
+
+    Update tests to match how upstream runs
+    
+    Otherwise we get failures that upstream ignores.
+
+commit de53ff7b67eb24dcab40762d3de5bb96013b3f58
+Author: Ryan May <rmay@ucar.edu>
+Date:   Thu Oct 25 13:34:59 2018 -0600
+
+    Update dependencies to the correct version ranges
+
+commit 90b618522aa76091d25df8d5bd6eac4d91110492
+Author: Ryan May <rmay@ucar.edu>
+Date:   Wed Oct 24 11:46:53 2018 -0600
+
+    MNT: No longer need to patch for new pycodestyle
+
+commit bcbec3d43eb1fe4663a5ded077e53c0f227f3455
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Oct 24 04:17:44 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.16
+
+commit 32a2e7e4195becb931c80c5a0dc9b534764d8264
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Oct 24 04:17:39 2018 +0000
+
+    updated v3.6.0
+
+commit f461a77e6cc4f10d019b8463a3c3e297ec63f159
+Merge: 82e93c3 babf918
+Author: Ryan May <rmay31@gmail.com>
+Date:   Thu Oct 4 19:58:14 2018 -0700
+
+    Merge pull request #20 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit babf918b0bf8950fab4712934dbb584ef85b74b8
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Oct 4 11:12:47 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.01
+
+commit e1d6b4098ef0fc0a6376231c01d92824c9a00d1b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Oct 4 11:12:41 2018 +0000
+
+    bump build number
+
+commit 82e93c33fbe8fb1b44776a92aaca037278789cb5
+Merge: d92783a 95431f6
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Aug 5 15:26:17 2018 -0300
+
+    Merge pull request #18 from ocefpaf/add_py37
+    
+    Add py37
+
+commit 95431f6ade6d2b00f4a0f0fbc5aad841e2eccdc3
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun Aug 5 13:23:40 2018 -0300
+
+    MNT: Re-rendered with conda-smithy 3.1.10 and pinning 2018.07.24
+
+commit 412b417ffb61bf352307629ca7a2444401257bb0
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun Aug 5 13:23:38 2018 -0300
+
+    patch for latest pycodestyle
+
+commit d92783a87bcefff31f709d241bd2979ded2b0711
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:18:37 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit fd5a5a499e1d9096d85b436c781e02eef0326086
+Merge: 619eccf 94ce2b2
+Author: Ryan May <rmay31@gmail.com>
+Date:   Wed Oct 25 09:55:34 2017 -0600
+
+    Merge pull request #16 from dopplershift/update
+    
+    Update to 3.5.0
+
+commit 94ce2b2d262a1c893861b29d022c4897bc908942
+Author: Ryan May <rmay@ucar.edu>
+Date:   Tue Oct 24 10:08:58 2017 -0600
+
+    ENH: Update to 3.5.0
+
+commit f5aea6d0026a971dd27b623bedeb7cbecbeb8521
+Author: Ryan May <rmay@ucar.edu>
+Date:   Tue Oct 24 10:02:38 2017 -0600
+
+    MNT: Re-rendered with conda-smithy 2.4.2
+
+commit 619eccf14a7cbc1a34648e67ec6e3f01ce19c9cf
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Aug 22 13:48:18 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 3302ea3abe4ca43c34c5947658e9e92a3352f81d
+Merge: e66be8c b504378
+Author: Ryan May <rmay31@gmail.com>
+Date:   Mon Aug 7 17:48:57 2017 -0600
+
+    Merge pull request #15 from dopplershift/update
+    
+    Update
+
+commit b50437849e5f19ff9683fcbd56bca3d81f8345bd
+Author: Ryan May <rmay@ucar.edu>
+Date:   Mon Aug 7 16:32:05 2017 -0600
+
+    ENH: Update to 3.4.1
+
+commit 267d5f68dd054905f819d3d1b93904a891a40f26
+Author: Ryan May <rmay@ucar.edu>
+Date:   Mon Aug 7 16:19:47 2017 -0600
+
+    MNT: Re-rendered with conda-smithy 2.3.3
+
+commit e66be8c52ecc71414cf605b176203996c7d0ee2a
+Merge: 4c66cfb 2e31db1
+Author: Christian Roth <christian.roth@mpibpc.mpg.de>
+Date:   Wed Apr 19 06:34:54 2017 +0200
+
+    Merge pull request #14 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 2e31db1f7c46c51ec3e3672c05a790cb9aa60d1f
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Apr 19 01:37:02 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.3.0.
+
+commit 4c66cfbca28a099ea871ac4f91170f5e05584c64
+Merge: 58942c2 8413c39
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Feb 21 00:59:12 2017 -0500
+
+    Merge pull request #13 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 8413c39fd4bb077db7910d8ff3812337e9d58a43
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Feb 20 01:37:26 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.1.0.
+
+commit 58942c23365d979935c7f019cb7a8701c16f9c44
+Merge: a6af213 9f95f2a
+Author: Ryan May <rmay31@gmail.com>
+Date:   Sat Feb 11 07:43:00 2017 -0700
+
+    Merge pull request #12 from aydinhan/master
+    
+    ENH: Update to flake8 3.3.0
+
+commit 9f95f2a458401090b7c19dede25dc5b80c744f83
+Author: Aydin Han <aydinhan@gmail.com>
+Date:   Fri Feb 10 17:20:42 2017 +0300
+
+    Update to flake8 3.3.0
+
+commit a6af213173b1c5b852a568d95950acfeeb88c28f
+Merge: 75dcd3a b2eca89
+Author: Christian Roth <christian.roth@mpibpc.mpg.de>
+Date:   Sat Jan 21 22:45:32 2017 +0100
+
+    Merge pull request #11 from goanpeca/regenerate
+    
+    MNT: Re-rendered with conda-smithy 2.0.0
+
+commit b2eca892a786d56d502fbfb37c9f8d35b3a74d8a
+Author: Gonzalo Pena-Castellanos <goanpeca@gmail.com>
+Date:   Sat Jan 21 14:17:20 2017 -0500
+
+    Update recipe, add source files/folders for tests
+
+commit b03f52ec0ed128f639f290995a21a6a896f7a4a2
+Author: Gonzalo Pena-Castellanos <goanpeca@gmail.com>
+Date:   Wed Jan 18 18:05:21 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 2.0.0
+
+commit 75dcd3a045269c79792ccb2c1a7bb9e77fd422de
+Merge: fedf37a d918947
+Author: Christian Roth <christian.roth@mpibpc.mpg.de>
+Date:   Tue Dec 27 07:54:20 2016 +0100
+
+    Merge pull request #10 from ocefpaf/py36
+    
+    rerender with auto
+
+commit d9189476af128fc1b2c495fb103913b6fc4ccb46
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Mon Dec 26 19:46:18 2016 -0300
+
+    rerender with auto
+
+commit fedf37a5aff63b47b38d98ace23161ed8440a3c5
+Merge: 67f629b 98333ff
+Author: Ryan May <rmay31@gmail.com>
+Date:   Wed Nov 23 00:08:48 2016 -0700
+
+    Merge pull request #9 from dopplershift/bump-3.2.1
+    
+    ENH: Update to flake8 3.2.1
+
+commit 98333ff48339aec54b088c4c313e6d27650b2767
+Author: Ryan May <rmay31@gmail.com>
+Date:   Tue Nov 22 15:43:06 2016 -0700
+
+    BUG: Fix running tests on windows.
+    
+    Need to use proper environment variable and path syntax for windows.
+
+commit ad57eb167a948e0e4e15066923610c60d1f5a252
+Author: Ryan May <rmay31@gmail.com>
+Date:   Mon Nov 21 16:03:02 2016 -0700
+
+    ENH: Update to flake8 3.2.1
+
+commit 67f629b1d202e360a2557abafb6ffc036c6c7f3e
+Merge: b595c33 bdf921e
+Author: Ryan May <rmay31@gmail.com>
+Date:   Tue Nov 15 10:57:15 2016 -0700
+
+    Merge pull request #8 from dopplershift/bump-3.1.1
+    
+    ENH: Update to version 3.2.0
+
+commit bdf921ec94f7e71780fc9a4d024d7da6979bb8dc
+Author: Ryan May <rmay31@gmail.com>
+Date:   Mon Nov 14 16:45:11 2016 -0700
+
+    MNT: Reset build to 0.
+
+commit 3d0ea7104c7bdad02919ff110fb1d1901556a7e8
+Author: Ryan May <rmay31@gmail.com>
+Date:   Mon Nov 14 16:37:17 2016 -0700
+
+    ENH: Update to 3.2.0.
+
+commit 2633ef1a6ff9b5fad30db6f02701ff060d82e033
+Author: Ryan May <rmay31@gmail.com>
+Date:   Mon Nov 14 13:22:49 2016 -0700
+
+    MNT: Re-rendered with conda-smithy 1.5.3
+
+commit 6ee14ffc3c88ce4a295b48ea9bda2c1649bacff8
+Author: Ryan May <rmay31@gmail.com>
+Date:   Mon Nov 14 13:15:05 2016 -0700
+
+    ENH: Update to version 3.1.1
+
+commit b595c3392636116f6c9738e66e536c1055b72507
+Merge: 14cf42b 38e2666
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Nov 1 16:13:43 2016 -0300
+
+    Merge pull request #7 from dopplershift/add-me
+    
+    Add dopplershift as maintainer
+
+commit 38e2666249e2bf0f3508c5b10aeaf6354d4906ce
+Author: Ryan May <rmay31@gmail.com>
+Date:   Tue Nov 1 13:12:05 2016 -0600
+
+    Add dopplershift as maintainer [ci skip]
+
+commit 14cf42b8d0133580370525d152576420819c0158
+Merge: a248043 7e7372f
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Nov 1 16:04:02 2016 -0300
+
+    Merge pull request #5 from dopplershift/rerender
+    
+    MNT: Re-rendered with conda-smithy 1.4.3
+
+commit 7e7372f5648cecaaf8b54d8d10bf44728388d3e1
+Author: Ryan May <rmay31@gmail.com>
+Date:   Sat Oct 29 12:45:47 2016 -0600
+
+    MNT: Re-rendered with conda-smithy 1.4.3
+
+commit a248043f2d023f49bc99423238a5e7f592fd58c1
+Merge: fc086a1 e70f42e
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Aug 23 10:23:04 2016 -0300
+
+    Merge pull request #4 from croth1/small_fixup
+    
+    dependency update
+
+commit e70f42e1da490d8d3b799412994cd83ab52a6cf3
+Author: Christian Roth <christian.roth@mpibpc.mpg.de>
+Date:   Tue Aug 23 07:14:08 2016 +0200
+
+    dependency update
+
+commit fc086a1e9d313822998817d6206310307e802850
+Merge: 6e2bf5b 0ed7bd3
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Aug 20 08:31:31 2016 -0300
+
+    Merge pull request #2 from croth1/update_flake8
+    
+    flake8: update to 3.0.4
+
+commit 0ed7bd3d65bd8924e55a9970200e691debbd4f6e
+Author: Christian Roth <christian.roth@mpibpc.mpg.de>
+Date:   Fri Aug 19 23:15:43 2016 +0200
+
+    flake8: update to 3.0.4
+
+commit 6e2bf5b1edda9ea032b01f3bf657e8bb665744e0
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Jun 28 02:11:06 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit d8b8aff037821801a08e6e33937c2b6610c6dc1d
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Jun 28 02:09:36 2016 +0000
+
+    Initial commit of the flake8 feedstock.

@@ -1,0 +1,89 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.8/site-packages/zope.event-4.4-py3.8-nspkg.pth",
+      "path_type": "hardlink",
+      "sha256": "4961151fe8c45ac298acbd2aa02e86049692b71fe22b11a8018f4f432705542e",
+      "size_in_bytes": 529
+    },
+    {
+      "_path": "lib/python3.8/site-packages/zope.event-4.4-py3.8.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "a8aca4b17b577e065bbb9488ba03b12ce0779d12b87cb63685177c954816ec2b",
+      "size_in_bytes": 5039
+    },
+    {
+      "_path": "lib/python3.8/site-packages/zope.event-4.4-py3.8.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "5cc75b0dffa638c68cde88ab9f3d96b167892cc537f6fb98d9301e50b75c9d3b",
+      "size_in_bytes": 687
+    },
+    {
+      "_path": "lib/python3.8/site-packages/zope.event-4.4-py3.8.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.8/site-packages/zope.event-4.4-py3.8.egg-info/namespace_packages.txt",
+      "path_type": "hardlink",
+      "sha256": "429507be93b8c08b990de120298f2a642b43fad02e901d1f9ff7fabadce56fdf",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.8/site-packages/zope.event-4.4-py3.8.egg-info/not-zip-safe",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.8/site-packages/zope.event-4.4-py3.8.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "2245558da1e770033e5b8c9be96b22e1ece9f7e1d319993ac3bdd834118f03c8",
+      "size_in_bytes": 50
+    },
+    {
+      "_path": "lib/python3.8/site-packages/zope.event-4.4-py3.8.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "429507be93b8c08b990de120298f2a642b43fad02e901d1f9ff7fabadce56fdf",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.8/site-packages/zope/event/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "f865bef0f30bffafcbb23083bcbcc55642f8b13611b652ebfd92ad3dbb3e470e",
+      "size_in_bytes": 1141
+    },
+    {
+      "_path": "lib/python3.8/site-packages/zope/event/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "ab32b961c7d6f91fe34c6602b7aabe245acc0010aeb8be171f16d2c547302128",
+      "size_in_bytes": 390
+    },
+    {
+      "_path": "lib/python3.8/site-packages/zope/event/__pycache__/classhandler.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "1101794aaaa2c5664bba7fc66abbee45b015c23efd202340682ab34cf26d62df",
+      "size_in_bytes": 2015
+    },
+    {
+      "_path": "lib/python3.8/site-packages/zope/event/__pycache__/tests.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "afa4e1d283f33be56054ded810c8180bd46e3e417f48de32a0eccf88444d928a",
+      "size_in_bytes": 1959
+    },
+    {
+      "_path": "lib/python3.8/site-packages/zope/event/classhandler.py",
+      "path_type": "hardlink",
+      "sha256": "084c7a8acb0a59289ad16aeea1bfe321023611f617e3992ba24a131f256c2454",
+      "size_in_bytes": 1816
+    },
+    {
+      "_path": "lib/python3.8/site-packages/zope/event/tests.py",
+      "path_type": "hardlink",
+      "sha256": "6ef133bce98fa1011332a622aac47d11e56c0bc0f3cbe1ce7257e94055630e11",
+      "size_in_bytes": 1871
+    }
+  ],
+  "paths_version": 1
+}

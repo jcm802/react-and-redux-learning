@@ -1,0 +1,59 @@
+commit 010e1fc233571f4969837897d61fd17395c5929b
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue Mar 3 05:13:43 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 6fc2a676b1abff9c37f9921b13ad346e38c675f9
+Merge: ace2815 522695e
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Mar 1 11:04:53 2020 -0300
+
+    Merge pull request #3 from conda-forge-linter/conda_forge_admin_2
+    
+    [ci skip] ***NO_CI*** adding bot automerge
+
+commit ace2815ad0c2d0f9e296fee210fe66b826555985
+Merge: 90826f4 b4c0b38
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Mar 1 11:04:01 2020 -0300
+
+    Merge pull request #1 from regro-cf-autotick-bot/1.0.2
+    
+    sphinxcontrib-devhelp v1.0.2
+
+commit 522695e348c5e66a0a37a0f0b6a7e4fe2d277859
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Mar 1 14:00:04 2020 +0000
+
+    [ci skip] ***NO_CI*** added bot automerge
+
+commit b4c0b38c0f56127d7b8bc508bd7727f820e4f69d
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun Mar 1 10:57:40 2020 -0300
+
+    add pip check
+
+commit 9928dabb69a506cf33b624d9ee2175b587a9a259
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Feb 29 04:32:54 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.8, and conda-forge-pinning 2020.02.20
+
+commit cc70a500a2108c38cb281133f40767f7fd919ff9
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Feb 29 04:32:36 2020 +0000
+
+    updated v1.0.2
+
+commit 90826f4bf31be60f755965162aa75e0d4504bcc4
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Mar 29 15:33:24 2019 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 3b41fdd72c680c5602df4a0bafe006dccf89e639
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Mar 29 15:23:03 2019 +0000
+
+    Initial feedstock commit with conda-smithy 3.3.2.

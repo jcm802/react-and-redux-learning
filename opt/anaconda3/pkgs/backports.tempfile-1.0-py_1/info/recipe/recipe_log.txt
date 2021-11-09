@@ -1,0 +1,23 @@
+commit f62bfd5fda1de70d3ba1916102b4e2b95c37b516
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Jun 11 15:41:32 2019 +0200
+
+    backports.tempfile: Make noarch: python and add missing deps
+
+commit 3013b7d1783e68a85e1b0c4761da5ad1780924f2
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 18:57:59 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit eafe0412d755da4d533f802693b7a0907a7fa969
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Apr 10 10:52:57 2018 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit f7987491db0b54288276b59e145bf2a90fd7ff7c
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Apr 10 10:49:32 2018 +0000
+
+    Initial feedstock commit with conda-smithy 2.4.5.

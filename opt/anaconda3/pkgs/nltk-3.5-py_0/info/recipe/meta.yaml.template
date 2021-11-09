@@ -1,0 +1,72 @@
+{% set version = "3.5" %}
+
+package:
+  name: nltk
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/n/nltk/nltk-{{ version }}.zip
+  sha256: 845365449cd8c5f9731f7cb9f8bd6fd0767553b9d53af9eb1b3abf7700936b35
+
+build:
+  number: 0
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+
+requirements:
+  host:
+    - python >=3.5
+    - pip
+  run:
+    - python >=3.5
+    - click
+    - joblib
+    - regex
+    - tqdm
+
+test:
+  imports:
+    - nltk
+    - nltk.app
+    - nltk.ccg
+    - nltk.chat
+    - nltk.chunk
+    - nltk.classify
+    - nltk.cluster
+    - nltk.corpus
+    - nltk.corpus.reader
+    - nltk.draw
+    - nltk.inference
+    - nltk.metrics
+    - nltk.misc
+    - nltk.parse
+    - nltk.sem
+    - nltk.sentiment
+    - nltk.stem
+    - nltk.tag
+    - nltk.tbl
+    - nltk.test
+    - nltk.test.unit
+    - nltk.test.unit.translate
+    - nltk.tokenize
+    - nltk.translate
+    - nltk.twitter
+
+about:
+  home: http://nltk.org/
+  license_file: LICENSE.txt
+  license: Apache 2.0
+  license_family: Apache
+  summary: 'Natural Language Toolkit'
+  description: |
+    NLTK has been called a wonderful tool for teaching and working in
+    computational linguistics using Python and an amazing library to play with
+    natural language.
+  doc_source_url: https://github.com/nltk/nltk/blob/develop/web/index.rst
+  dev_url: https://github.com/nltk/nltk
+  doc_url: http://www.nltk.org/
+
+extra:
+  recipe-maintainers:
+    - pmlandwehr
+    - quartox

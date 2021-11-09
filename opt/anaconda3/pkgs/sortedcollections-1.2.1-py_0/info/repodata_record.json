@@ -1,0 +1,27 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "sortedcontainers >=2.0"
+  ],
+  "features": "",
+  "fn": "sortedcollections-1.2.1-py_0.conda",
+  "legacy_bz2_md5": "a0b6c2c949b894f56b6675b3761dbe2a",
+  "legacy_bz2_size": 12992,
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "f54f0237ba6e665cf14576acad384e9e",
+  "name": "sortedcollections",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "2e5df4033be54f111814c1dfc994eb2a518cf335f28aafa1479e58700a23a0c8",
+  "size": 12953,
+  "subdir": "noarch",
+  "timestamp": 1592328091058,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/sortedcollections-1.2.1-py_0.conda",
+  "version": "1.2.1"
+}

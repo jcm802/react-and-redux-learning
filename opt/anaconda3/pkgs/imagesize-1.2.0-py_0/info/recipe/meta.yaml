@@ -1,0 +1,59 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/imagesize-1.2.0-on-linux_64, last modified Tue Jan  7 15:25:11 2020
+# ------------------------------------------------
+
+package:
+    name: imagesize
+    version: 1.2.0
+source:
+    sha256: b1f6b5a4eab1f73479a50fb79fcf729514a900c341d8503d62a62dbc4127a2b1
+    url: https://pypi.io/packages/source/i/imagesize/imagesize-1.2.0.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: /tmp/build/80754af9/imagesize_1578411972230/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac/bin/python
+        -m pip install . --no-deps -vv
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2019.11.27 0
+        - certifi 2019.11.28 py27_0
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.1 he6710b0_1
+        - openssl 1.1.1d h7b6447c_3
+        - pip 19.3.1 py27_0
+        - python 2.7.17 h9bab390_0
+        - readline 7.0 h7b6447c_5
+        - setuptools 44.0.0 py27_0
+        - sqlite 3.30.1 h7b6447c_0
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.33.6 py27_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python
+test:
+    imports:
+        - imagesize
+about:
+    description: 'This module analyzes jpeg/jpeg2000/png/gif image header and
+
+        return image size.
+
+        '
+    dev_url: https://github.com/shibukawa/imagesize_py
+    doc_source_url: https://github.com/shibukawa/imagesize_py/blob/master/README.rst
+    doc_url: https://pypi.python.org/pypi/imagesize
+    home: https://github.com/shibukawa/imagesize_py
+    license: MIT
+    license_file: LICENSE.rst
+    summary: Getting image size from png/jpeg/jpeg2000/gif file
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - chohner

@@ -1,0 +1,24 @@
+{
+  "build": "h0a44026_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1"
+  ],
+  "features": "",
+  "fn": "liblief-0.10.1-h0a44026_0.conda",
+  "legacy_bz2_md5": "f58e06f9d6f9393220a4bd342050216a",
+  "legacy_bz2_size": 2001908,
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "b1761e15843e0a48cb05d7ae40092f30",
+  "name": "liblief",
+  "sha256": "7f426c0bbe7ba4df0974d412393a9a14e3062357559eb7ab7d654077ef37d17c",
+  "size": 1625126,
+  "subdir": "osx-64",
+  "timestamp": 1588591428979,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/liblief-0.10.1-h0a44026_0.conda",
+  "version": "0.10.1"
+}

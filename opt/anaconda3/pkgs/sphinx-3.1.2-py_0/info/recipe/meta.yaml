@@ -1,0 +1,104 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/sphinx-3.1.2-on-linux_64, last modified Wed Jul  8 15:47:53 2020
+# ------------------------------------------------
+
+package:
+    name: sphinx
+    version: 3.1.2
+source:
+    sha256: b9daeb9b39aa1ffefc2809b43604109825300300b987a24f45976c001ba1a8fd
+    url: https://pypi.io/packages/source/S/Sphinx/Sphinx-3.1.2.tar.gz
+build:
+    entry_points:
+        - sphinx-apidoc = sphinx.ext.apidoc:main
+        - sphinx-autogen = sphinx.ext.autosummary.generate:main
+        - sphinx-build = sphinx.cmd.build:main
+        - sphinx-quickstart = sphinx.cmd.quickstart:main
+    noarch: python
+    number: '0'
+    script: /tmp/build/80754af9/sphinx_1594223420021/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/bin/python
+        -m pip install . --no-deps -vv
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.6.24 0
+        - certifi 2020.6.20 py38_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20191231 h7b6447c_0
+        - libffi 3.3 he6710b0_2
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1g h7b6447c_0
+        - pip 20.1.1 py38_1
+        - python 3.8.3 hcff3b4d_2
+        - readline 8.0 h7b6447c_0
+        - setuptools 47.3.1 py38_0
+        - sqlite 3.32.3 h62c20be_0
+        - tk 8.6.10 hbc83047_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - alabaster >=0.7,<0.8
+        - babel >=1.3,!=2.0
+        - docutils >=0.12
+        - imagesize
+        - jinja2 >=2.3
+        - packaging
+        - pygments >=2.0
+        - python >=3.5
+        - requests >=2.5.0
+        - setuptools
+        - snowballstemmer >=1.1
+        - sphinxcontrib-applehelp
+        - sphinxcontrib-devhelp
+        - sphinxcontrib-htmlhelp
+        - sphinxcontrib-jsmath
+        - sphinxcontrib-qthelp
+        - sphinxcontrib-serializinghtml
+test:
+    commands:
+        - pip check
+        - sphinx-build -h
+        - sphinx-quickstart --version
+        - sphinx-quickstart -h
+        - sphinx-apidoc -h
+        - sphinx-autogen -h
+    imports:
+        - sphinx
+        - sphinx.pycode
+    requires:
+        - pip
+about:
+    description: 'Sphinx is a tool that makes it easy to create intelligent and beautiful
+        documentation,
+
+        written by Georg Brandl and licensed under the BSD license.
+
+        It was originally created for the new Python documentation, and it has excellent
+
+        facilities for the documentation of Python projects, but C/C++ is already
+        supported
+
+        as well, and it is planned to add special support for other languages as well.
+
+        '
+    dev_url: https://github.com/sphinx-doc/sphinx
+    doc_source_url: https://github.com/sphinx-doc/sphinx/blob/master/doc/contents.rst
+    doc_url: http://www.sphinx-doc.org/en/stable/contents.html
+    home: http://www.sphinx-doc.org
+    license: BSD-2-Clause
+    license_file: LICENSE
+    summary: Sphinx is a tool that makes it easy to create intelligent and beautiful
+        documentation
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - blink1073
+        - chohner
+        - jakirkham
+        - ocefpaf

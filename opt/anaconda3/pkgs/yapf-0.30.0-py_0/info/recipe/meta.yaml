@@ -1,0 +1,57 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/yapf-0.30.0-on-linux_64, last modified Tue Jun 30 14:39:34 2020
+# ------------------------------------------------
+
+package:
+    name: yapf
+    version: 0.30.0
+source:
+    fn: yapf-0.30.0.tar.gz
+    sha256: 9f561af26f8d27c3a334d3d2ee8947b8826a86691087e447ce483512d834682c
+    url: https://github.com/google/yapf/archive/v0.30.0.tar.gz
+build:
+    entry_points:
+        - yapf = yapf:run_main
+    noarch: python
+    number: '0'
+    script: /tmp/build/80754af9/yapf_1593528177422/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin/python
+        -m pip install . --no-deps -vv
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.6.24 0
+        - certifi 2020.6.20 py36_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20191231 h7b6447c_0
+        - libffi 3.3 he6710b0_1
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1g h7b6447c_0
+        - pip 20.1.1 py36_1
+        - python 3.6.10 h7579374_2
+        - readline 8.0 h7b6447c_0
+        - setuptools 47.3.1 py36_0
+        - sqlite 3.32.3 h62c20be_0
+        - tk 8.6.10 hbc83047_0
+        - wheel 0.34.2 py36_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python
+test:
+    commands:
+        - yapf --help
+        - yapf --version
+about:
+    home: https://github.com/google/yapf
+    license: Apache 2.0
+    summary: A formatter for Python files
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ericdill
+        - vamega

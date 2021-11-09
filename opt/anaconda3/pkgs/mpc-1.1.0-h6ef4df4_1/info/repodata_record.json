@@ -1,0 +1,24 @@
+{
+  "build": "h6ef4df4_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "gmp >=6.1.2",
+    "mpfr >=4.0.1,<5.0a0"
+  ],
+  "features": "",
+  "fn": "mpc-1.1.0-h6ef4df4_1.conda",
+  "legacy_bz2_md5": "e3f4e5825d7495329009da2529626af2",
+  "legacy_bz2_size": 92037,
+  "license": "LGPL 3",
+  "md5": "0e14a992fa619dc477cc7c18f83e3460",
+  "name": "mpc",
+  "sha256": "5648edaa914976acec65c775cb7900b6ad84bd7274e6e59cb1897b90c9f658e4",
+  "size": 85790,
+  "subdir": "osx-64",
+  "timestamp": 1527612755603,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/mpc-1.1.0-h6ef4df4_1.conda",
+  "version": "1.1.0"
+}

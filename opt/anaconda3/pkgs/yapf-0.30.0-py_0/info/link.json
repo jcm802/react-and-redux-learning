@@ -1,0 +1,9 @@
+{
+  "noarch": {
+    "entry_points": [
+      "yapf = yapf:run_main"
+    ],
+    "type": "python"
+  },
+  "package_metadata_version": 1
+}

@@ -1,0 +1,120 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/0e97f897-b36b-4f78-7283-e99903208a48/volume/rsync-recipes/spyder-4.1.4-python_3.8-on-osx, last modified Wed Jul 15 11:26:19 2020
+# ------------------------------------------------
+
+package:
+    name: spyder
+    version: 4.1.4
+source:
+    patches:
+        - osx-zmq.patch
+    sha256: 6946b2128afaf1b64e878a74d33f9abd60c91f75949b3d05f305b3c3f5fec1e2
+    url: https://pypi.io/packages/source/s/spyder/spyder-4.1.4.tar.gz
+build:
+    entry_points:
+        - spyder = spyder.app.start:main
+    number: '0'
+    osx_is_app: true
+    string: py38_0
+requirements:
+    host:
+        - ca-certificates 2020.6.24 0
+        - certifi 2020.6.20 py38_0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 h1de35cc_1
+        - libffi 3.3 hb1e8313_2
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - pip 20.1.1 py38_1
+        - python 3.8.3 h26836e1_2
+        - readline 8.0 h1de35cc_0
+        - setuptools 49.2.0 py38_0
+        - sqlite 3.32.3 hffcf06c_0
+        - tk 8.6.10 hb0a8c7a_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - applaunchservices >=0.1.7
+        - atomicwrites >=1.2.0
+        - chardet >=2.0.0
+        - cloudpickle >=0.5.0
+        - diff-match-patch >=20181111
+        - intervaltree
+        - jedi 0.17.1.*
+        - keyring
+        - nbconvert >=4.0
+        - numpydoc >=0.6.0
+        - parso 0.7.0.*
+        - pexpect >=4.4.0
+        - pickleshare >=0.4
+        - psutil >=5.3
+        - pygments >=2.0
+        - pylint >=1.0
+        - pyqt >=5.6,<5.13
+        - python >=3.8,<3.9.0a0
+        - python-language-server >=0.34.0,<1.0.0
+        - python.app
+        - pyzmq >=17
+        - qdarkstyle >=2.8
+        - qtawesome >=0.5.7
+        - qtconsole >=4.6.0
+        - qtpy >=1.5.0
+        - rtree >=0.8.3
+        - sphinx >=0.6.6
+        - spyder-kernels >=1.9.2,<1.10.0
+        - watchdog
+test:
+    commands:
+        - USER=test spyder -h
+    imports:
+        - spyder
+app:
+    entry: spyder
+    icon: logo.png
+    summary: The Scientific Python Development Environment
+    type: desk
+about:
+    description: 'Spyder is a powerful scientific environment written in Python, for
+        Python,
+
+        and designed by and for scientists, engineers and data analysts.
+
+        It features a unique combination of the advanced editing, analysis,
+
+        debugging and profiling functionality of a comprehensive development tool
+
+        with the data exploration, interactive execution, deep inspection and
+
+        beautiful visualization capabilities of a scientific package.\n
+
+        Furthermore, Spyder offers built-in integration with many popular
+
+        scientific packages, including NumPy, SciPy, Pandas, IPython, QtConsole,
+
+        Matplotlib, SymPy, and more.\n
+
+        Beyond its many built-in features, Spyder can be extended even further via
+
+        third-party plugins.\n
+
+        Spyder can also be used as a PyQt5 extension library, allowing you to build
+
+        upon its functionality and embed its components, such as the interactive
+
+        console or advanced editor, in your own software.
+
+        '
+    dev_url: https://github.com/spyder-ide/spyder
+    doc_url: https://docs.spyder-ide.org/
+    home: https://www.spyder-ide.org/
+    license: MIT
+    license_file: LICENSE.txt
+    summary: The Scientific Python Development Environment
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ccordoba12
+        - dalthviz

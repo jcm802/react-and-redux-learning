@@ -1,0 +1,28 @@
+{
+  "build": "h468cd18_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "icu >=58.2,<59.0a0",
+    "jpeg >=9b,<10a",
+    "libcxx >=4.0.1",
+    "libpng >=1.6.35,<1.7.0a0",
+    "sqlite >=3.25.3,<4.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "features": "",
+  "fn": "qt-5.9.7-h468cd18_1.conda",
+  "legacy_bz2_md5": "c9357bdb42c8d8a3b643ddbd8d0d9730",
+  "legacy_bz2_size": 80514387,
+  "license": "LGPL-3.0",
+  "md5": "f3750c5a63838098436a19567f76b1e9",
+  "name": "qt",
+  "sha256": "ce8302fd86def36af996828a1c1c645ec34adcadf404620854d2e284fb2eeab3",
+  "size": 65037767,
+  "subdir": "osx-64",
+  "timestamp": 1544762999070,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/qt-5.9.7-h468cd18_1.conda",
+  "version": "5.9.7"
+}

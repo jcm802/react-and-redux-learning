@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "locket",
+    "python >=3.5",
+    "toolz"
+  ],
+  "license": "BSD 3-Clause",
+  "name": "partd",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1574700037855,
+  "version": "1.1.0"
+}

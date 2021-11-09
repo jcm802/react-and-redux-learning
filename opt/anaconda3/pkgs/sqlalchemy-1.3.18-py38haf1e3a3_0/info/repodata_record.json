@@ -1,0 +1,23 @@
+{
+  "build": "py38haf1e3a3_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "sqlalchemy-1.3.18-py38haf1e3a3_0.conda",
+  "legacy_bz2_md5": "6afcb13da48cf0471e8b4814eec894a5",
+  "legacy_bz2_size": 1925246,
+  "license": "MIT",
+  "md5": "c3d429a064cfd46f4266f510849cffe0",
+  "name": "sqlalchemy",
+  "sha256": "a3530dead9c5eb791adc4a4fac1629f7a91fcdfa50434c8e78d73a46933d6de1",
+  "size": 1562450,
+  "subdir": "osx-64",
+  "timestamp": 1593446346937,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/sqlalchemy-1.3.18-py38haf1e3a3_0.conda",
+  "version": "1.3.18"
+}

@@ -1,0 +1,69 @@
+{% set version = "0.11.1" %}
+
+package:
+  name: statsmodels
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/s/statsmodels/statsmodels-{{ version }}.tar.gz
+  sha256: 5bde3fa0a35a91b45dba7cbc28270b5b649ff1d721c89290883f6e831672d5f0
+
+build:
+  number: 0
+  skip: True  # [py2k]  
+  script:
+    - "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv"                # [not win]
+    - "rm -f ${PREFIX}/LICENSE.txt"                                                    # [not win]
+    - "rm -f ${PREFIX}/setup.cfg"                                                      # [not win]
+    - python setup.py install --single-version-externally-managed --record record.txt  # [win]
+    - "del /f /q %PREFIX%\\LICENSE.txt"                                                 # [win]
+    - "del /f /q %PREFIX%\\setup.cfg"                                                   # [win]
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+  host:
+    - python
+    - pip
+    - cython
+    - numpy 1.14
+    - scipy >=1.0
+    - pandas >=0.21
+    - patsy >=0.5.1
+  run:
+    - python
+    - {{ pin_compatible('numpy') }}
+    - scipy >=1.0
+    - pandas >=0.21
+    - patsy >=0.5.1
+
+test:
+  requires:
+    - pip
+  commands:
+    - pip check
+  imports:
+    - statsmodels
+
+about:
+  home: https://www.statsmodels.org
+  license: BSD-3-Clause
+  license_file: INSTALL.txt
+  license_family: BSD
+  summary: 'Statistical computations and models for use with SciPy'
+  dev_url: https://github.com/statsmodels/statsmodels
+  doc_url: https://www.statsmodels.org/stable/
+  description: |
+    Statsmodels is a Python module that allows users to explore data, estimate
+    statistical models, and perform statistical tests. An extensive list of
+    descriptive statistics, statistical tests, plotting functions, and result
+    statistics are available for different types of data and each estimator.
+    Researchers across fields may find that statsmodels fully meets their
+    needs for statistical computing and data analysis in Python.
+  doc_source_url: https://github.com/statsmodels/statsmodels/blob/master/docs/source/index.rst
+
+extra:
+  recipe-maintainers:
+    - tomaugspurger
+    - croth1
+    - ocefpaf

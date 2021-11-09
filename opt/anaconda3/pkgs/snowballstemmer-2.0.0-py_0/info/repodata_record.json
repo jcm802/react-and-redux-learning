@@ -1,0 +1,25 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "snowballstemmer-2.0.0-py_0.conda",
+  "legacy_bz2_md5": "d0390fa676005886634cab986bb50b40",
+  "legacy_bz2_size": 59220,
+  "license": "BSD-2-Clause",
+  "md5": "3a54aa015cdcb6680160f83766472df1",
+  "name": "snowballstemmer",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "8e702fb277b4fe1e1392b3802c9cfb9a4927c9ebab3e227ba5e15af22e268b94",
+  "size": 63434,
+  "subdir": "noarch",
+  "timestamp": 1570464870792,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/snowballstemmer-2.0.0-py_0.conda",
+  "version": "2.0.0"
+}

@@ -1,0 +1,106 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/eb4a1f42-db74-4fc3-7f34-0189ef49c1a1/volume/rsync-recipes/bokeh-2.1.1-python_3.8-on-osx, last modified Fri Jun 26 11:04:36 2020
+# ------------------------------------------------
+
+package:
+    name: bokeh
+    version: 2.1.1
+source:
+    sha256: 2dfabf228f55676b88acc464f416e2b13ee06470a8ad1dd3e609bb789425fbad
+    url: https://pypi.io/packages/source/b/bokeh/bokeh-2.1.1.tar.gz
+build:
+    entry_points:
+        - bokeh = bokeh.__main__:main
+    number: '0'
+    script:
+        - /opt/concourse/worker/volumes/live/eb4a1f42-db74-4fc3-7f34-0189ef49c1a1/volume/bokeh_1593187606262/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin/python
+            -m pip install . -vv
+    string: py38_0
+requirements:
+    host:
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.6.20 py38_0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 haf1e3a3_0
+        - libffi 3.3 h0a44026_1
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - pip 20.1.1 py38_1
+        - python 3.8.3 h26836e1_1
+        - readline 8.0 h1de35cc_0
+        - setuptools 47.3.1 py38_0
+        - sqlite 3.32.3 hffcf06c_0
+        - tk 8.6.10 hb0a8c7a_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - jinja2 >=2.7
+        - numpy >=1.11.3
+        - packaging >=16.8
+        - pillow >=4.0
+        - python >=3.8,<3.9.0a0
+        - python-dateutil >=2.1
+        - pyyaml >=3.10
+        - tornado >=5.1
+        - typing_extensions >=3.7.4
+test:
+    commands:
+        - pip check
+        - bokeh --help
+    imports:
+        - bokeh
+        - bokeh.application
+        - bokeh.application.handlers
+        - bokeh.client
+        - bokeh.command
+        - bokeh.command.subcommands
+        - bokeh.core
+        - bokeh.core.property
+        - bokeh.core.validation
+        - bokeh.models
+        - bokeh.models.widgets
+        - bokeh.plotting
+        - bokeh.protocol
+        - bokeh.protocol.messages
+        - bokeh.sampledata
+        - bokeh.server
+        - bokeh.server.views
+        - bokeh.sphinxext
+        - bokeh.themes
+        - bokeh.util
+    requires:
+        - pip
+about:
+    description: 'Bokeh is a Python interactive visualization library that targets
+
+        modern web browsers for presentation. Its goal is to provide elegant,
+
+        concise  construction of novel graphics in the style of D3.js, and to
+
+        extend this capability with high-performance interactivity over very
+
+        large or streaming datasets. Bokeh can help anyone who would like to
+
+        quickly and easily create interactive plots, dashboards, and data
+
+        applications.
+
+        '
+    dev_url: http://github.com/bokeh/bokeh
+    doc_url: http://bokeh.pydata.org/en/latest/docs/user_guide.html
+    home: http://bokeh.pydata.org/
+    license: BSD-3-Clause
+    license_family: BSD
+    license_file: LICENSE.txt
+    summary: Statistical and novel interactive HTML plots for Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - almarklein
+        - jakirkham
+        - mattpap
+        - ocefpaf
+        - philippjfr

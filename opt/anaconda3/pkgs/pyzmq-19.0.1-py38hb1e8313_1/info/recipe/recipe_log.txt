@@ -1,0 +1,936 @@
+commit a0c53f5ec3a6e08ccaa4548c33b6a5e7e1448f32
+Author: Cheng H. Lee <clee@anaconda.com>
+Date:   Wed Jun 24 15:30:15 2020 -0500
+
+    Remove over-linking to libsodium and C++ runtime
+
+commit c6838137f5388434b93275459cdef11cf076dfb6
+Merge: 5dcca0f 7c2d570
+Author: Cheng H. Lee <clee@anaconda.com>
+Date:   Wed Jun 24 15:16:59 2020 -0500
+
+    Update to PyZMQ 19.0.1
+    
+    Use 'conda-forge/master' recipe, but drop PyPy support
+
+commit 7c2d57064c20c0b09d65011fe4ba666d9bdc4f5a
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sun May 17 20:35:39 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit a15b29a0c81546f08160d0f2aed14fbbfca42933
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sun May 17 20:35:36 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 1fdadfebac60258c2d3d902cab06490630727b06
+Merge: f94dcb9 f07ef55
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu May 7 14:42:14 2020 +0200
+
+    Merge pull request #53 from regro-cf-autotick-bot/19.0.1_h99c56d
+
+commit f07ef55e911d721f8ceb032c4799e25a137dbf90
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu May 7 12:21:46 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.0, and conda-forge-pinning 2020.05.06.22.15.02
+
+commit 228fde939e23c86b9b6b032b6bd74c35e53eda0d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu May 7 12:21:02 2020 +0000
+
+    updated v19.0.1
+
+commit f94dcb98e685ada40b188fbffdd5bdc094ba3cff
+Merge: bc0a330 2cec709
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Sat Mar 14 21:35:02 2020 +0100
+
+    Merge pull request #52 from regro-cf-autotick-bot/rebuild-pypy-0-1
+    
+    Rebuild for pypy
+
+commit 2cec709aa02b41d7d15b32022759a031fcccf83e
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Sat Mar 14 21:14:48 2020 +0100
+
+    skip test_large_send on pypy
+
+commit 1c825331a1fd93f5ae38ade25fb08b3d3b005373
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Mar 14 13:53:58 2020 -0500
+
+    Update meta.yaml
+
+commit f21bed887c8d2008ace380bd62705e125cc48f08
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Mar 14 12:40:14 2020 -0500
+
+    Update meta.yaml
+
+commit b98165f5aa4bc08ee9cef51e76c4c35f4f31f442
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Mar 14 12:01:35 2020 -0500
+
+    Skip TestSocket.test_large_send
+
+commit ff6411f77cf7873cf58df8ad6961601573c32576
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Sat Mar 14 16:51:55 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.0, conda-smithy 3.6.12, and conda-forge-pinning 2020.03.14
+
+commit 943b10b016795e7cd56d164ea6807eb28e78693f
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Mar 14 11:50:08 2020 -0500
+
+    Use python_impl
+
+commit 1f3116ce29b61a5d97f01b22f6a2ff0caef59d3c
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Sat Mar 14 11:27:22 2020 +0100
+
+    update dependences for pypy
+
+commit 88bb4c960ec37aa99255f7554dfef515b4ad2361
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Mar 13 08:47:43 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.0, conda-smithy 3.6.12, and conda-forge-pinning 2020.03.12
+
+commit 263b1ee56b2c9619223db4acb757d555116e5a8e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Mar 13 08:47:11 2020 +0000
+
+    Rebuild for pypy
+
+commit bc0a33068277763d6200499c85cfac432654f7c0
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue Mar 3 00:27:20 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit c9831876d55827e87eefe541f2a5f063a809fd1d
+Merge: d848bc3 bf64895
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Feb 25 15:04:21 2020 +0100
+
+    pyzmq v19.0.0 (#51)
+    
+    pyzmq v19.0.0
+
+commit bf6489509ea153dd9225c5cadafe0ae67898a41c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Feb 25 13:24:46 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.8, and conda-forge-pinning 2020.02.20
+
+commit 32026642b1c9268de7fe61d3723ebcfe9afd6209
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Feb 25 13:24:07 2020 +0000
+
+    updated v19.0.0
+
+commit 5dcca0fbc84ff8ba0df1122aa576e740fb584986
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Feb 4 13:39:56 2020 -0600
+
+    18.1.1
+
+commit d848bc36e9df4e23ec8f7dc6a057cb16ee16a05c
+Merge: 0a47151 db64f09
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Nov 14 11:24:48 2019 +0100
+
+    pyzmq v18.1.1 (#50)
+    
+    pyzmq v18.1.1
+
+commit db64f0911e650e4ed8b9f80b4a198c3d87c21cd2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Nov 14 09:24:24 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.2, and conda-forge-pinning 2019.11.13
+
+commit cf87ea0a482e775e8b8d92a4324ea9d8db39f752
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Nov 14 09:24:05 2019 +0000
+
+    updated v18.1.1
+
+commit 0a47151647f032d4b6cabdf48edcdf40bb81269a
+Merge: 83021f6 ddf4ff4
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Nov 2 08:29:38 2019 -0300
+
+    Merge pull request #49 from regro-cf-autotick-bot/rebuild-python3801
+    
+    Rebuild for python38
+
+commit ddf4ff4b4fb968c1ccaed3258ae873f51343f105
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 2 09:29:33 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.1, and conda-forge-pinning 2019.11.01
+
+commit 20337c45e3be856748cb3865617865fe05923185
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 2 09:29:15 2019 +0000
+
+    bump build number
+
+commit 83021f6ca38cfbd0d2f99a0da4100511ba77f3a6
+Merge: b44d382 766c52d
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Sep 11 22:44:07 2019 -0500
+
+    Merge pull request #48 from regro-cf-autotick-bot/18.1.0
+    
+    pyzmq v18.1.0
+
+commit b44d38272fb04ff77982a0dac43a093f2a71871d
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 18:28:29 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit 194057d9b8dba250b3a09e6d4c01c42c9203846e
+Author: Forrest Waters <fwaters@0609.local>
+Date:   Mon Aug 19 13:23:55 2019 -0500
+
+    version 18.1.0
+
+commit 766c52d9a092a8f7c33d5d7826222bc11e57b468
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Aug 8 13:33:53 2019 +0000
+
+    updated v18.1.0
+
+commit 9cae63c9cefb1eb2fc430f7d8619fd0d6d34b38e
+Merge: f661a07 8f7112a
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Jul 18 15:52:57 2019 +0200
+
+    Merge pull request #47 from minrk/zmq432
+    
+    rerender & rebuild with zeromq 4.3.2
+
+commit 8f7112a80728d563eeca3289a74cc97be6c6fc8f
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Jul 18 15:28:22 2019 +0200
+
+    add license_file
+
+commit 4548c8de81c1343b01680e09ceec1a8a0732bf0c
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Jul 18 15:24:48 2019 +0200
+
+    bump build number
+
+commit e7d63ec87ac6c32ea8ad3d309a3a4da1ecda7bab
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Jul 18 15:24:22 2019 +0200
+
+    MNT: Re-rendered with conda-build 3.18.7, conda-smithy 3.4.1, and conda-forge-pinning 2019.07.15
+
+commit f661a07625ef3719cb3c58aa3a503e3f164ee1c1
+Merge: 968e3f0 e286ee9
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Jul 12 13:12:20 2019 +0200
+
+    Merge pull request #46 from minrk/rebuild
+    
+    bump build number
+
+commit e286ee91dba502c0f7e9e68842f307c3ca32084e
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Jul 12 12:54:14 2019 +0200
+
+    MNT: Re-rendered with conda-build 3.18.7, conda-smithy 3.4.0, and conda-forge-pinning 2019.07.10
+
+commit a0a81250f731fc8000adabacb0ba2d93c62f4b1f
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Jul 12 12:33:42 2019 +0200
+
+    strict pinning for zeromq on windows
+
+commit b028e94b4d273775ddd72b61ec9550d74780d89e
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Jul 11 15:05:46 2019 +0200
+
+    bump build number
+    
+    to get rebuild with fixed run_exports from zeromq
+
+commit 968e3f01c111b53147f2767289bb114c897c8468
+Merge: 71eea62 8c12049
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Jun 27 20:01:27 2019 +0200
+
+    Merge pull request #45 from regro-cf-autotick-bot/18.0.2
+    
+    pyzmq v18.0.2
+
+commit 8c12049bad28764c8c54f297276f1fce367fd673
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jun 27 16:24:15 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.6, conda-smithy 3.4.0, and conda-forge-pinning 2019.06.27
+
+commit e410b6c99f1cc88ea5696a5b3a301138766f7083
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jun 27 16:23:53 2019 +0000
+
+    updated v18.0.2
+
+commit 71eea62c92de4fe102b6e6408ceda8e02a54186c
+Merge: 244ce74 285f2fa
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Apr 19 09:28:59 2019 -0300
+
+    Merge pull request #44 from regro-cf-autotick-bot/rebuildzeromq-4.3.10
+    
+    Rebuild for zeromq-4.3.1
+
+commit 285f2faade98eaa64ba87121656b95ecfe967569
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Apr 18 21:40:34 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.3, and conda-forge-pinning 2019.04.18
+
+commit 87a7759b7fccc623a10374539a8af2d9e58f4729
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Apr 18 21:40:20 2019 +0000
+
+    bump build number
+
+commit 244ce74784723b073a43415cb01b678efbe2b171
+Merge: 6eaacde a75ddae
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Mar 5 14:17:36 2019 +0100
+
+    Merge pull request #43 from regro-cf-autotick-bot/18.0.1
+    
+    pyzmq v18.0.1
+
+commit a75ddaecb279383118c668a410c83df89b30f75a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 5 11:30:57 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.03.04
+
+commit baa46a8d3fed25ced9b25c36194784d558cd71dc
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 5 11:30:42 2019 +0000
+
+    updated v18.0.1
+
+commit 8ddecc263fe00d27cd23809def12082228341cc1
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Feb 26 11:33:27 2019 -0600
+
+    18.0.0
+
+commit 6eaacdea17885c2f255205b531035b975610d19f
+Merge: 4b91f52 3cda59c
+Author: Jonathan J. Helmus <jjhelmus@gmail.com>
+Date:   Sat Feb 23 22:28:39 2019 -0600
+
+    Merge pull request #42 from regro-cf-autotick-bot/rebuildaarch64_and_ppc64le_addition_arch
+    
+    Arch Migrator
+
+commit 3cda59c9fc0bf11b1437d0dbbbfb930eec093118
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Feb 21 15:08:42 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.13, and conda-forge-pinning 2019.02.21
+
+commit 70bcf84e9df9ef3329ca3aee7ac06af680830134
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Thu Feb 21 10:07:58 2019 -0500
+
+    Update conda_build_config.yaml
+
+commit b9c7bc046fcbfe057a80383034b2d5c024c04f78
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Feb 21 08:21:20 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.13, and conda-forge-pinning 2019.02.15
+
+commit a1b8346eb67028ed70a18e5956b26b44284c346d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Feb 21 08:21:08 2019 +0000
+
+    bump build number
+
+commit 4b91f522406137306acaee662b9cd80739a1e3ad
+Merge: 6b4756e 1c55087
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Tue Feb 19 22:35:54 2019 +0100
+
+    Merge pull request #41 from regro-cf-autotick-bot/18.0.0
+    
+    pyzmq v18.0.0
+
+commit 1c55087d9c8aecdc01d1418b75969b95c53d56c8
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Feb 19 13:14:32 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.13, and conda-forge-pinning 2019.02.15
+
+commit 3d2d04035952aa429ca0148f4f6ad03ba9e8de26
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Feb 19 13:14:19 2019 +0000
+
+    updated v18.0.0
+
+commit ddf77d47b6377111697e01e9d013f2873432b33c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Feb 2 00:55:10 2019 +0000
+
+    Get rid of libsodium dep and conda_build_config.yaml
+
+commit 6b4756e4a279c94c527076bab7a55091cd836073
+Merge: cfd29f8 10d6c9c
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Wed Oct 10 10:15:44 2018 +0200
+
+    Merge pull request #40 from minrk/pin-libsodium
+    
+    pin_run_as_build libsodium
+
+commit 10d6c9c6ddaefcc820824255ca4fdb58da893e50
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Oct 9 14:37:51 2018 +0200
+
+    pin_run_as_build libsodium
+    
+    since libsodium can make ABI changes in patch releases
+
+commit cfd29f8c3608ee73f4b56b8dae5662bc99b27381
+Merge: ad3ca9e 575bf33
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Wed Oct 3 08:05:28 2018 +0200
+
+    Merge pull request #37 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit 575bf33c9978bfa5c00d77e630222923a4eab3e3
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Oct 2 21:14:31 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.01
+
+commit b15d80fe3c52d20bfe77fb1506e87b853d09d06d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Oct 2 21:14:22 2018 +0000
+
+    bump build number
+
+commit ad3ca9e7a0065180fc9e043ce060a0b427612774
+Merge: 562e44e 9cf81d3
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Aug 27 19:42:51 2018 -0500
+
+    Merge pull request #36 from ocefpaf/py37
+    
+    Py37
+
+commit 9cf81d3683f6eeb297b3fbe32c4de11c4f3a4973
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Aug 27 20:11:52 2018 -0300
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.08.21
+
+commit a3242d9e9045630cbf51b3cc792882a7d1b096e1
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Aug 27 20:11:50 2018 -0300
+
+    update recipe
+
+commit 562e44e55bb2a0dfd004bddaf04ce394846146df
+Merge: 8a7a10d 0ceed17
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Aug 10 12:44:15 2018 -0300
+
+    Merge pull request #35 from regro-cf-autotick-bot/17.1.2
+    
+    pyzmq v17.1.2
+
+commit 0ceed170826ef892669f75549858ed62052c755a
+Merge: f2eeec5 8a7a10d
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Aug 10 11:15:20 2018 -0300
+
+    Merge branch 'master' into 17.1.2
+
+commit 8a7a10d30745e67609e0bfa8adb90222962d1209
+Merge: 7628176 d70497c
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Aug 10 11:14:47 2018 -0300
+
+    Merge pull request #34 from regro-cf-autotick-bot/17.1.1
+    
+    pyzmq v17.1.1
+
+commit f2eeec52c5d2a7c3392ae2f09179556566943ae3
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Aug 10 14:10:46 2018 +0000
+
+    updated v17.1.2
+
+commit d70497c9fd66356095eee35f95e5cc0c7435f2ca
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Aug 10 13:10:59 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.10 and pinning 2018.08.05
+
+commit 01165fb60965d11ea02b93a1502d8b0514996e04
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Aug 10 13:10:52 2018 +0000
+
+    updated v17.1.1
+
+commit 762817693961b636b6fc7364c2c3105d2a08fe8c
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:05:40 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 7d304816e683d1e6ce4fabd5d28cf925164c8137
+Merge: 4c825c2 a12b2d2
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Jul 13 13:23:10 2018 -0500
+
+    Merge pull request #33 from regro-cf-autotick-bot/17.1.0
+    
+    pyzmq v17.1.0
+
+commit a12b2d284ce32ab8864f8c842bbc288f7d9eaaae
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jul 13 16:09:56 2018 +0000
+
+    updated v17.1.0
+
+commit 4c825c295e5b4643445e5b90922037921a1fec3c
+Merge: 21d14b8 1c6748c
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Jul 13 11:24:27 2018 -0500
+
+    Merge pull request #32 from regro-cf-autotick-bot/compiler_migration2
+    
+    Migrate to Jinja2 compiler syntax
+
+commit 1c6748cd0634e3cef4c17cf239354aad61ea709d
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Sun Jul 1 11:51:14 2018 +0200
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.06.29
+
+commit 957d619fffe19cfb5f20b691346d55ed48015dd3
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Sun Jul 1 11:47:40 2018 +0200
+
+    pin zeromq in conda_build_config.yaml
+
+commit 2bf1baa8d7292bf68876ecb07f64df094b15c87e
+Author: Travis CI User <travis@example.org>
+Date:   Fri Jun 29 23:39:46 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.06.29
+
+commit b9f1e151a0d15e4fc111a761e8fc81b74c17b645
+Author: Travis CI User <travis@example.org>
+Date:   Fri Jun 29 23:39:40 2018 +0000
+
+    migrated to Jinja2 compiler syntax build
+
+commit 21d14b82678261e4de42fea73eeb149bff483420
+Merge: 0d90817 7b09c62
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Sun Apr 1 10:18:17 2018 +0200
+
+    Merge pull request #30 from SylvainCorlay/no-bundle
+    
+    Attempt using zeromq on windows
+
+commit 7b09c622ea94d3e831008ffe04703e7b4e197782
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Wed Mar 28 12:08:41 2018 +0200
+
+    Use conda package for zeromq instead of bundled version.
+
+commit 0d90817e8c8117b00e8ac3683f8076553a9bfa16
+Merge: d60fbb4 a1b2d53
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Sat Feb 10 14:30:39 2018 +0100
+
+    Merge pull request #28 from minrk/17
+    
+    pyzmq 17
+
+commit a1b2d538336801c4eb87d03bc1a7039316fd1bbe
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Sat Feb 10 14:07:15 2018 +0100
+
+    pyzmq 17
+    
+    pin zeromq to 4.2.x after ABI fix
+
+commit d60fbb4f4875d6872d0ac99b83d4289901081c4b
+Merge: 4eb79b0 dc83967
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Jan 10 12:44:15 2018 -0200
+
+    Merge pull request #25 from SylvainCorlay/pin-zeromq-4.2.1
+    
+    Pin to zeromq 4.2.1
+
+commit dc83967bba1fc91426ff0cbc98e2822aac81715f
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Jan 10 10:21:32 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit 02afd7455ff2c87f74a5ba0c8923d271df55aef6
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Wed Jan 10 10:55:00 2018 +0100
+
+    Pin to zeromq 4.2.1
+
+commit 4eb79b008d68ce7e32cf49efdf77f9862892acab
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:23:26 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit c3d030270066b15391bbdee8d9ec507c96147cb1
+Merge: 6b097e5 ebb3cd6
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Wed May 3 11:31:53 2017 +0200
+
+    Merge pull request #24 from minrk/pip
+    
+    install with pip
+
+commit ebb3cd618208e0e047983adce865cb5214266a7b
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Apr 20 10:06:47 2017 +0200
+
+    quotes!
+
+commit 5b9ad8a95622ae95dcc7160005502c6b7ab6eb9a
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Wed Apr 19 11:15:09 2017 +0200
+
+    toolchain
+
+commit 9e892837a8bb9990d96185ccdef998e0569526bf
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Apr 18 11:32:21 2017 +0200
+
+    install with pip
+
+commit 6b097e5e7b3bd13d103b5dfdc5da6b49e6a98268
+Merge: bcc8d2b 81838c8
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Sun Mar 5 09:29:54 2017 -0800
+
+    Merge pull request #23 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 81838c88e2ba586eb7e291f113074c5e08c7cdc7
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Mar 5 01:37:52 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.1.1.
+
+commit bcc8d2bd90dc69d6e57292942e802dc7de7b6caa
+Merge: c30129c 6799d33
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Mon Feb 6 10:03:44 2017 +0100
+
+    Merge pull request #20 from minrk/zeromq-4.2
+    
+    link zeromq 4.2
+
+commit 6799d33b4be0cdef34ab8c4e517e70df4d9a53f8
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Jan 31 11:07:17 2017 +0100
+
+    test socket only
+
+commit 07900903cc2cdf5a500501400fddf940eb8f58d2
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Jan 24 16:03:33 2017 +0100
+
+    MNT: Re-rendered with conda-smithy 2.0.1
+
+commit ee7757971baa19a5f45fc4032c79e89d3744a19c
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Jan 24 11:22:32 2017 +0100
+
+    link zeromq 4.2
+
+commit c30129c5b3acc01e8426fa548f43c38f812f00ef
+Merge: 9559b9c 7431467
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Jan 6 10:19:47 2017 +0100
+
+    Merge pull request #19 from jakirkham/re-render__master__1.7.0
+    
+    MNT: Re-rendered with conda-smithy 1.7.0 (Python 3.6)
+
+commit 74314674336164c49f083fc192946e744d049f08
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Jan 6 01:10:57 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 1.7.0
+
+commit 9559b9caba9312450e5dc166f543657d95f7a83c
+Merge: ae4f83e 419d429
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Nov 29 10:06:06 2016 +0100
+
+    Merge pull request #18 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 419d429d625da40bbe823fd0475f139a9434f30d
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Nov 29 01:37:58 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.6.0.
+
+commit ae4f83e7b68cde90915935d6d90baf980bfd23bd
+Merge: 8170f89 6abc472
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Nov 22 10:35:47 2016 -0500
+
+    Merge pull request #17 from minrk/16.0.2
+    
+    16.0.2
+
+commit 6abc4721cb60bcfff7467455c07d89199b20976b
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Nov 22 15:35:05 2016 +0100
+
+    16.0.2
+
+commit 8170f89f377e3133cb0ca0047d8c6e0f31f744e6
+Merge: 85eace5 8306a7a
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Nov 12 15:08:59 2016 -0500
+
+    Merge pull request #16 from minrk/16.0.1
+    
+    16.0.1
+
+commit 8306a7aee7304bc811a15ed6ddbd1c683e40f391
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Sat Nov 12 10:24:35 2016 -0800
+
+    16.0.1
+
+commit 0d58ec31d129c0e981269fc5a9a0b2c086c9127a
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Sat Nov 12 10:22:35 2016 -0800
+
+    MNT: Re-rendered with conda-smithy 1.5.1
+
+commit 85eace5f86236337cd5d0cf494253a5a8ca0e12a
+Merge: 8188bd5 d7954f2
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Oct 20 00:10:43 2016 -0400
+
+    Merge pull request #14 from minrk/16
+    
+    release 16.0
+
+commit d7954f25711b6e1a5e2aec2f7b0504e6c9d45778
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Mon Oct 10 16:21:48 2016 +0200
+
+    release 16.0
+
+commit 8188bd56d06834e68313bfea45bcd799f2fd8598
+Merge: 0eb5abf 6527ad8
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Mon Oct 17 20:01:34 2016 +0200
+
+    Merge pull request #15 from jakirkham/re-render_master_1.3.3
+    
+    MNT: Re-rendered with conda-smithy 1.3.3 [ci skip]
+
+commit 6527ad809e18c78f083fb4cae9673047abf7ca5c
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Oct 17 13:36:36 2016 -0400
+
+    MNT: Re-rendered with conda-smithy 1.3.3
+
+commit 0eb5abfbc5a174a35f92d146fd79311200bd3453
+Merge: e6ac002 fd79a18
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Oct 7 01:09:45 2016 -0400
+
+    Merge pull request #13 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit fd79a181ad6830fe66219d4666e2b4fc723bf2c7
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Oct 7 01:34:48 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.3.2.
+
+commit e6ac0024ebebc861e813a0576ed468b31a3435a0
+Merge: eee32fe 70915c2
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Wed Aug 10 14:18:40 2016 +0200
+
+    Merge pull request #12 from minrk/15.4
+    
+    release 15.4
+
+commit 70915c23bd734b9f83e9ac1c15cf7b9f76989e66
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Wed Aug 3 11:08:42 2016 +0200
+
+    release 15.4
+    
+    patches are no longer necessary
+
+commit eee32fe46327e3ac9a5afddf5ce9f978f5a6a71c
+Merge: f8d4f96 fba3b2b
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Mon Aug 8 15:51:00 2016 +0200
+
+    Merge pull request #11 from minrk/pin-zeromq
+    
+    pin minor zeromq version
+
+commit fba3b2b4dd7cbe3811d3193dcfdbef01d5c15f3d
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Wed Aug 3 16:54:01 2016 +0200
+
+    pin minor zeromq version
+    
+    avoids ABI conflicts when installing with the wrong zeromq version
+    
+    The 'right' fix is to pin the zeromq ABI runtime dependency
+    based on what is loaded at build time,
+    but I don't think that's possible.
+
+commit f8d4f965dcc9461cfa860550f94c6223d3dbcfcd
+Merge: 78f0850 681f74a
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Tue Jul 26 17:57:25 2016 -0500
+
+    Merge pull request #8 from minrk/always-bundle-win-py35
+    
+    15.3.0, bundle zeromq on Windows + py35
+
+commit 681f74a9b96b9034849edc692979f9cc1c4009ed
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Jul 26 15:55:15 2016 +0200
+
+    patch out unimportable asyncio files on py2
+    
+    because conda-build aborts if compileall sets an exit code,
+    even though these files are never used.
+
+commit a14c355c61360ba8acbb74ad988a1ee593ddb03f
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Jul 26 13:45:34 2016 +0200
+
+    bump to 15.3
+
+commit 846b610129451417188bad6ebb26cb39e1c4c299
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Jul 15 13:44:51 2016 -0500
+
+    bundle zeromq on Windows + py35
+    
+    win+py35 isn't importing in downstream packages,
+    so try building it the same as everything else.
+
+commit 78f0850c2315555a6cea0af8f5b7168f1e3e704f
+Merge: 3e40e8b 356462e
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Jun 21 09:59:41 2016 +0200
+
+    Merge pull request #6 from bollwyvl/14.7.0_1
+    
+    bump rebuild
+
+commit 356462ed1aa4a3ba39c330de717eb52cbba8e267
+Author: Nicholas Bollweg <nbollweg@continuum.io>
+Date:   Mon Jun 20 23:46:40 2016 -0400
+
+    another forced build
+
+commit 2fc332ca24b80bd1b7e7c4eab66810ab7eacd295
+Author: Nicholas Bollweg <nbollweg@continuum.io>
+Date:   Mon Jun 20 22:33:43 2016 -0400
+
+    force another ci build
+
+commit d8f8a224b4217d3bb78a1ac4d1d1af1c8d9adb78
+Author: Nicholas Bollweg <nbollweg@continuum.io>
+Date:   Mon Jun 20 16:33:45 2016 -0400
+
+    bump rebuild
+
+commit 3e40e8bdc843180b68763f9fa6c1ab0900195924
+Merge: 25c5791 1817802
+Author: Phil Elson <pelson.pub@gmail.com>
+Date:   Sat May 14 11:26:48 2016 +0100
+
+    Merge pull request #4 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit 1817802ab3c100b736d838054e28948a1242634a
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri May 13 21:44:06 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.3.
+    
+    [ci skip]
+
+commit 25c5791c3d5771e4f95430e8b4711f5e4d1cddf1
+Merge: 4c7af8e 3cec582
+Author: Phil Elson <pelson.pub@gmail.com>
+Date:   Wed May 11 19:49:20 2016 +0100
+
+    Merge pull request #3 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit 3cec582323b3978bfe8a1f526c7cf0ef23b23b7f
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed May 11 18:45:42 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.9.2.
+    
+    [ci skip]
+
+commit 4c7af8eeb56d140f48d218155f759cfd732c1557
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Apr 11 10:28:25 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 3f955259270b3383d48bffea2fce6065f8c0c838
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Apr 11 10:27:36 2016 +0000
+
+    Initial commit of the pyzmq feedstock.

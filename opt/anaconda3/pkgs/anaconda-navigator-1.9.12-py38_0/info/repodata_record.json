@@ -1,0 +1,32 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "anaconda-client >=1.6.14",
+    "chardet",
+    "pillow",
+    "psutil",
+    "pyqt >=5.6,<6.0a0",
+    "python >=3.8,<3.9.0a0",
+    "pyyaml >=5.1",
+    "qtpy >=1.4.1",
+    "requests",
+    "setuptools",
+    "xmltodict"
+  ],
+  "features": "",
+  "fn": "anaconda-navigator-1.9.12-py38_0.tar.bz2",
+  "license": "proprietary - Continuum Analytics, Inc.",
+  "license_family": "Proprietary",
+  "md5": "e82396ad01729d3dbaa4d7d888635f66",
+  "name": "anaconda-navigator",
+  "sha256": "74624b855ae7720fd74dc77741fb3e829e20d8d15b7027da2140ad6ac7347515",
+  "size": 6840965,
+  "subdir": "osx-64",
+  "timestamp": 1582836401360,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/anaconda-navigator-1.9.12-py38_0.tar.bz2",
+  "version": "1.9.12"
+}

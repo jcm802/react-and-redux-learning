@@ -1,0 +1,50 @@
+{% set version = "4.3.3" %}
+
+package:
+  name: traitlets
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/t/traitlets/traitlets-{{ version }}.tar.gz
+  sha256: d023ee369ddd2763310e4c3eae1ff649689440d4ae59d7485eb4cfbbe3e359f7
+
+build:
+  number: 0
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+
+requirements:
+  host:
+    - python
+    - pip
+  run:
+    - python
+    - ipython_genutils
+    - six
+    - decorator
+    - enum34  # [py<34]
+
+test:
+  imports:
+    - traitlets
+    - traitlets.config
+
+about:
+  home: http://ipython.org/
+  license: BSD-3-Clause
+  license_file: COPYING.md
+  summary: Configuration system for Python applications
+  description: |
+    Traitlets is a framework that lets Python classes have attributes with
+    type checking, dynamically calculated default values, and "on change"
+    callbacks.
+  dev_url: https://github.com/ipython/traitlets
+  doc_url: http://traitlets.readthedocs.org/en/stable/
+  doc_source_url: https://github.com/ipython/traitlets/blob/master/docs/source/index.rst
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - pelson
+    - minrk
+    - SylvainCorlay
+    - ocefpaf

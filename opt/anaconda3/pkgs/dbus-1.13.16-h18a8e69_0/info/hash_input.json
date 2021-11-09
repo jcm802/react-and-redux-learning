@@ -1,0 +1,6 @@
+{
+  "c_compiler": "clang",
+  "c_compiler_version": "10",
+  "glib": "2",
+  "expat": "2.2"
+}

@@ -1,0 +1,15 @@
+site-packages/zict-2.0.0-py3.6.egg-info/PKG-INFO
+site-packages/zict-2.0.0-py3.6.egg-info/SOURCES.txt
+site-packages/zict-2.0.0-py3.6.egg-info/dependency_links.txt
+site-packages/zict-2.0.0-py3.6.egg-info/not-zip-safe
+site-packages/zict-2.0.0-py3.6.egg-info/requires.txt
+site-packages/zict-2.0.0-py3.6.egg-info/top_level.txt
+site-packages/zict/__init__.py
+site-packages/zict/buffer.py
+site-packages/zict/common.py
+site-packages/zict/file.py
+site-packages/zict/func.py
+site-packages/zict/lmdb.py
+site-packages/zict/lru.py
+site-packages/zict/sieve.py
+site-packages/zict/zip.py

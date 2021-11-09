@@ -1,0 +1,49 @@
+{
+  "build": "py38_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libspatialindex >=1.9.3,<1.9.4.0a0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/rtree-0.9.4-py38_1",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/Rtree-0.9.4.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/Rtree-0.9.4.dist-info/LICENSE.txt",
+    "lib/python3.8/site-packages/Rtree-0.9.4.dist-info/METADATA",
+    "lib/python3.8/site-packages/Rtree-0.9.4.dist-info/RECORD",
+    "lib/python3.8/site-packages/Rtree-0.9.4.dist-info/WHEEL",
+    "lib/python3.8/site-packages/Rtree-0.9.4.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/rtree/__init__.py",
+    "lib/python3.8/site-packages/rtree/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/rtree/__pycache__/core.cpython-38.pyc",
+    "lib/python3.8/site-packages/rtree/__pycache__/index.cpython-38.pyc",
+    "lib/python3.8/site-packages/rtree/core.py",
+    "lib/python3.8/site-packages/rtree/index.py"
+  ],
+  "fn": "rtree-0.9.4-py38_1.conda",
+  "legacy_bz2_md5": "7aef629d8ebf1d4274fa720e55302253",
+  "legacy_bz2_size": 49452,
+  "license": "MIT",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/rtree-0.9.4-py38_1",
+    "type": 1
+  },
+  "md5": "6d5f1491ff4f61d221f95294db2c5975",
+  "name": "rtree",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/rtree-0.9.4-py38_1.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "rtree==0.9.4=py38_1",
+  "sha256": "b07312e6acd4a4eb822386fe1675841dd6bce928bd72d53489b3affe187ff5c0",
+  "size": 48706,
+  "subdir": "osx-64",
+  "timestamp": 1588549689698,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/rtree-0.9.4-py38_1.conda",
+  "version": "0.9.4"
+}

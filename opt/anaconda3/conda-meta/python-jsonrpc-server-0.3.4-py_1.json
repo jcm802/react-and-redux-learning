@@ -1,0 +1,85 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "future",
+    "python",
+    "ujson <=1.35"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/python-jsonrpc-server-0.3.4-py_1",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/pyls_jsonrpc/__init__.py",
+    "lib/python3.8/site-packages/pyls_jsonrpc/_version.py",
+    "lib/python3.8/site-packages/pyls_jsonrpc/dispatchers.py",
+    "lib/python3.8/site-packages/pyls_jsonrpc/endpoint.py",
+    "lib/python3.8/site-packages/pyls_jsonrpc/exceptions.py",
+    "lib/python3.8/site-packages/pyls_jsonrpc/streams.py",
+    "lib/python3.8/site-packages/python_jsonrpc_server-0.3.4.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/python_jsonrpc_server-0.3.4.dist-info/LICENSE",
+    "lib/python3.8/site-packages/python_jsonrpc_server-0.3.4.dist-info/METADATA",
+    "lib/python3.8/site-packages/python_jsonrpc_server-0.3.4.dist-info/RECORD",
+    "lib/python3.8/site-packages/python_jsonrpc_server-0.3.4.dist-info/WHEEL",
+    "lib/python3.8/site-packages/python_jsonrpc_server-0.3.4.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/python_jsonrpc_server-0.3.4.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/pyls_jsonrpc/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls_jsonrpc/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls_jsonrpc/__pycache__/dispatchers.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls_jsonrpc/__pycache__/endpoint.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls_jsonrpc/__pycache__/exceptions.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls_jsonrpc/__pycache__/streams.cpython-38.pyc"
+  ],
+  "fn": "python-jsonrpc-server-0.3.4-py_1.conda",
+  "legacy_bz2_md5": "010abc441468f070aa713312aca9df99",
+  "legacy_bz2_size": 10998,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/python-jsonrpc-server-0.3.4-py_1",
+    "type": 1
+  },
+  "md5": "064cd7150a1bd8ea99346ecc899c96dd",
+  "name": "python-jsonrpc-server",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/python-jsonrpc-server-0.3.4-py_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/pyls_jsonrpc/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls_jsonrpc/__pycache__/_version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls_jsonrpc/__pycache__/dispatchers.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls_jsonrpc/__pycache__/endpoint.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls_jsonrpc/__pycache__/exceptions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls_jsonrpc/__pycache__/streams.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "python-jsonrpc-server==0.3.4=py_1",
+  "sha256": "37db313810ed26c70958b551ba8b549ed5f662d22d1a7eb3ed26296cb4c81d93",
+  "size": 11222,
+  "subdir": "noarch",
+  "timestamp": 1594397560711,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/python-jsonrpc-server-0.3.4-py_1.conda",
+  "version": "0.3.4"
+}

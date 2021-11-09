@@ -1,0 +1,325 @@
+commit f07fa0e9494e5f2fb7571b4f1abd4b0285530301
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Jan 28 05:14:57 2019 -0600
+
+    Make recipe cross-compile capable
+
+commit c603bf895cd5d41dc965ec642abe38ecb249786a
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue May 19 23:27:06 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit d09dc03822e4d863d5052e56e4f80380185e12f4
+Merge: 23e4b5c 5ca5a3d
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Mon May 18 07:06:31 2020 +0200
+
+    Merge pull request #17 from regro-cf-autotick-bot/2.0.1_h4358fe
+    
+    soupsieve v2.0.1
+
+commit 5ca5a3d93755db69cfe496502bbdd4fe3486e482
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun May 17 19:09:55 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.2, and conda-forge-pinning 2020.05.14.17.14.20
+
+commit 9f13fa9a786173992fa4c4fa7e4f59262cf49809
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun May 17 19:09:12 2020 +0000
+
+    updated v2.0.1
+
+commit 23e4b5c638937a68877c80215b030cefd7cbd7d8
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Wed May 13 01:09:51 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TurnOff
+
+commit 49637243b3c52b749012db499c7bc9262b6e7b3f
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue May 12 08:22:29 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit a59287a76cd3e0a47aa9bfc21132ace52e7489d1
+Merge: 0ed9aa1 037bfa7
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Mar 14 12:30:37 2020 -0500
+
+    Merge pull request #16 from regro-cf-autotick-bot/rebuild-pypy-0-1
+    
+    Rebuild for pypy
+
+commit 037bfa7c0321d49222d3ac98d2e7f87144757f26
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Mar 13 00:48:08 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.0, conda-smithy 3.6.12, and conda-forge-pinning 2020.03.12
+
+commit 76db258c166faa68e779528abccb6264cdd6290d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Mar 13 00:47:43 2020 +0000
+
+    Rebuild for pypy
+
+commit 0ed9aa1f99c223dde42ea0808bf66f7cfd20f494
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue Mar 3 05:09:54 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit a78c4c6ee81d7e970ef6437ab1c86ffdd4c97681
+Merge: 7a37bf5 09e3593
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sat Nov 2 10:37:15 2019 -0500
+
+    Merge pull request #13 from regro-cf-autotick-bot/rebuild-python3801
+    
+    Rebuild for python38
+
+commit 09e3593afa4170e4f55e3f822486fccd664124ec
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 2 09:34:39 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.1, and conda-forge-pinning 2019.11.01
+
+commit 7ac60ea468af62e6952370a9a4f53f94c496ed63
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 2 09:34:21 2019 +0000
+
+    bump build number
+
+commit 7a37bf5de3d2dfb042a27e0884815bb9878f27f4
+Merge: 74f6c95 1aa7cb0
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Thu Sep 26 17:39:54 2019 +0200
+
+    Merge pull request #12 from regro-cf-autotick-bot/1.9.4
+    
+    soupsieve v1.9.4
+
+commit 1aa7cb01c83accc43e7c0147b0ea8c94de25196e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Sep 26 13:16:01 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.8, and conda-forge-pinning 2019.09.25
+
+commit 7bc7ac16de86c01df967d1257e5097c50e242a6a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Sep 26 13:15:34 2019 +0000
+
+    updated v1.9.4
+
+commit 74f6c95336c9af17f9588468d08b78359abc367c
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 20:07:42 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit ca677ccd67e5fc9deb106e81eaeaac29ad3b74d7
+Merge: 3bc17c8 0d2ba9a
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Tue Aug 20 09:56:21 2019 +0200
+
+    Merge pull request #11 from regro-cf-autotick-bot/1.9.3
+    
+    soupsieve v1.9.3
+
+commit 0d2ba9a3eda355087bde43c46f386d58e5031d4e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Aug 18 01:36:12 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.08.12
+
+commit 25411e5d78f56b310704ed8af2818e9758a28b6f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Aug 18 01:35:34 2019 +0000
+
+    updated v1.9.3
+
+commit 3bc17c8a26897490cf7452f2849dbd5d9a194e87
+Merge: ec12572 69a5812
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Mon Jun 24 08:12:54 2019 +0200
+
+    Merge pull request #10 from regro-cf-autotick-bot/1.9.2
+    
+    soupsieve v1.9.2
+
+commit 69a5812449871fe16c1ec29539cf56a73518a4ef
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jun 23 22:33:36 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.4, conda-smithy 3.3.7, and conda-forge-pinning 2019.06.19
+
+commit 826ba4f36da696b8ebeeec7c4c852cdc41c2e4ff
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jun 23 22:33:14 2019 +0000
+
+    updated v1.9.2
+
+commit ec125728c01cdc72ea39018444397d32e1ade466
+Merge: d8b56b0 de83d4d
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Sun Apr 14 08:05:40 2019 +0200
+
+    Merge pull request #9 from regro-cf-autotick-bot/1.9.1
+    
+    soupsieve v1.9.1
+
+commit de83d4d978cf1fbb58f8fe6159e55df6c8766d70
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Apr 13 21:31:39 2019 +0000
+
+    updated v1.9.1
+
+commit d8b56b080dd5e3b95dfaf9c60d9867ee45a0c341
+Merge: f4f6bc2 1e678eb
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Tue Mar 26 08:08:56 2019 +0100
+
+    Merge pull request #8 from regro-cf-autotick-bot/1.9
+    
+    soupsieve v1.9
+
+commit 1e678eb78b3f78babc1e86f15b6f1f803b9c8889
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 26 02:26:10 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.2, and conda-forge-pinning 2019.03.17
+
+commit de668e08e94cd69f91d5aa305ed05a180860a155
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 26 02:25:55 2019 +0000
+
+    updated v1.9
+
+commit f4f6bc26c6688317e3fd8cc6d6bec2fce00cb182
+Merge: 9310450 360f6c0
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sat Mar 2 01:34:29 2019 -0500
+
+    Merge pull request #7 from regro-cf-autotick-bot/rebuildaarch64_and_ppc64le_addition1_arch
+    
+    Arch Migrator
+
+commit 360f6c0eea77d6c1085f3b9e50f9bbcfa33ef086
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Mar 2 05:45:16 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.02.24
+
+commit 3558ba2ba1d5245a410c3f4f461f7bfdf1583081
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Mar 2 05:44:59 2019 +0000
+
+    bump build number
+
+commit 931045043ad97dc52d7ad966e8c58b8f36a02cd9
+Merge: f248ff7 60bc838
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Sun Feb 17 08:44:42 2019 +0100
+
+    Merge pull request #6 from regro-cf-autotick-bot/1.8
+    
+    soupsieve v1.8
+
+commit 60bc8385ce175756a82781f0d1f9bbbbcf89ed25
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Feb 17 04:12:06 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.13, and conda-forge-pinning 2019.02.15
+
+commit e0e7375134a8f0f8e0198a0bc6885c8a76022af0
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Feb 17 04:11:56 2019 +0000
+
+    updated v1.8
+
+commit f248ff7ff5498fc8669251a2269a04c7a0e84e6d
+Merge: 75518a4 3744902
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sat Feb 2 12:57:26 2019 -0500
+
+    Merge pull request #5 from regro-cf-autotick-bot/1.7.3
+    
+    soupsieve v1.7.3
+
+commit 37449021f8471f220160ad2e0dc29053effb3a1e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jan 25 19:24:46 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.7, conda-smithy 3.2.9, and conda-forge-pinning 2019.01.21
+
+commit c55a7b176a46fe22187ca5597628f21d942b51fe
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jan 25 19:24:41 2019 +0000
+
+    updated v1.7.3
+
+commit 75518a4fb5df5568150a02c7af1cee56381a25d6
+Merge: eea87f0 c84b8df
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Sun Jan 13 18:07:13 2019 +0100
+
+    Merge pull request #3 from regro-cf-autotick-bot/1.7.1
+    
+    soupsieve v1.7.1
+
+commit c84b8df7e5a715f1ab3a08655e310e0f54d06016
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jan 13 16:18:54 2019 +0000
+
+    updated v1.7.1
+
+commit eea87f0bca70366c144c67ea2d1e7fd20174b9be
+Merge: 6cdadbb 476f0b3
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Thu Jan 10 17:38:36 2019 +0100
+
+    Merge pull request #2 from regro-cf-autotick-bot/1.7
+    
+    soupsieve v1.7
+
+commit 476f0b3cff931b419a41ff2e9b7a427e98bd676e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jan 10 15:20:41 2019 +0000
+
+    updated v1.7
+
+commit 6cdadbb0f01ceda4d197a27246a8012117105a16
+Merge: d537b5d 19d2183
+Author: Björn Grüning <bjoern@gruenings.eu>
+Date:   Tue Jan 8 19:15:06 2019 +0100
+
+    Merge pull request #1 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit 19d2183fc983ca7850201180082616db0e126c60
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jan 8 17:21:46 2019 +0000
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2019.01.05
+
+commit 15aa667066a27ff39dee3fe134e065420b5105fe
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jan 8 17:21:40 2019 +0000
+
+    bump build number
+
+commit d537b5d0f43871b93b1f334ebde67360d7b90d98
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Jan 8 16:32:19 2019 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 89a29ff021f79375b4ed112e46bebd8110da3c44
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Jan 8 16:24:16 2019 +0000
+
+    Initial feedstock commit with conda-smithy 3.2.2.

@@ -1,0 +1,134 @@
+commit 466fd7890f1681e0462df373c9276bc2b6cd543e
+Author: Maggie-M <maggie.mari@continuum.io>
+Date:   Thu Aug 31 19:18:07 2017 -0500
+
+    Update meta.yaml
+
+commit 24930853d97a482f66cf9465ee4ca87e5cf0c066
+Merge: 0d371d9 aa68706
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sat Jun 15 09:20:24 2019 -0400
+
+    glob2 v0.7 (#6)
+    
+    glob2 v0.7
+
+commit aa687061dcd77dc9e888c2a4a4cc2cf4a56e74d4
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jun 11 00:36:26 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.2, conda-smithy 3.3.7, and conda-forge-pinning 2019.06.09
+
+commit 79165c55618e736b91eab7e9560afe3c3d0234c2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jun 11 00:36:13 2019 +0000
+
+    updated v0.7
+
+commit 0d371d97148bacb85861a493f9fbe8e239c4767e
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 19:26:05 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 3a4672e921c385659271bb8945c4e6fe3fae369c
+Merge: 7c4c361 0187fc6
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Jun 2 13:25:47 2018 -0600
+
+    Merge pull request #4 from isuruf/update
+    
+    Update to 0.6
+
+commit 0187fc655e183e46a7166e154d8b24b85ebe11a7
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Jun 2 12:33:56 2018 -0600
+
+    Update meta.yaml
+
+commit d053ae1bf6a316a2f292e67a8706460e055afc25
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Jun 2 12:11:54 2018 -0600
+
+    Update meta.yaml
+
+commit dadc07d6f01d0c85dab1bbc9cefd01eb53fe7c43
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Jun 2 12:07:15 2018 -0600
+
+    Update meta.yaml
+
+commit 755855b76939ab6fbd423f17bc302290ab6c6f66
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Jun 2 12:00:10 2018 -0600
+
+    MNT: Re-rendered with conda-smithy 3.1.5 and pinning 2018.05.22
+
+commit 0bba73804c2563b2948d4914e82e4f99ee5166d4
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Jun 2 11:58:38 2018 -0600
+
+    Update to 0.6 and add noarch
+
+commit 7c4c361dcc4799600e4afe9b528c49fb2cf9faac
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 21:36:00 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit f2692a10de69407cd233338881d5bbceaabf1697
+Merge: e6ff54c 91c4619
+Author: Froger David <david.froger.ml@mailoo.org>
+Date:   Sat Apr 29 18:51:59 2017 +0200
+
+    Merge pull request #3 from dfroger/rerender
+    
+    MNT: Re-rendered with conda-smithy 2.3.0
+
+commit 91c4619fe38c980625fa0319450480312c34d3a4
+Author: David Froger <david.froger@mailoo.org>
+Date:   Sat Apr 29 18:41:58 2017 +0200
+
+    MNT: Re-rendered with conda-smithy 2.3.0
+
+commit e6ff54cd33feaa03ba292eb86576d35efb326ca8
+Merge: f3608c7 5e9903c
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Mar 10 00:07:14 2017 -0500
+
+    Merge pull request #2 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 5e9903c00b903376320bf0a1a48a402a2c20d087
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Mar 8 01:40:23 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.1.1.
+
+commit f3608c7b30bd469fe0a9f6bf21e4f37a06152787
+Merge: 3a357ac 5395b45
+Author: Froger David <david.froger.ml@mailoo.org>
+Date:   Mon Jan 30 12:46:50 2017 +0100
+
+    Merge pull request #1 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 5395b459b57c705d3dd19c2739e353313322cdd2
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Jan 29 01:36:19 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.0.1.
+
+commit 3a357ac8a885c6c6d48003d8c2bbe5bd577589e2
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Dec 6 05:54:43 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit f8588b6c495649cdf53b566cd973762294bf94a1
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Dec 6 05:51:33 2016 +0000
+
+    Initial feedstock commit with conda-smithy 1.6.1.

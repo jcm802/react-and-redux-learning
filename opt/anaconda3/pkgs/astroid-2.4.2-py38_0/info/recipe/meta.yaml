@@ -1,0 +1,81 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/21fd14a9-2a7e-484b-7394-5a9912cdcf80/volume/rsync-recipes/astroid-2.4.2-python_3.8-on-osx, last modified Thu Jun 18 10:28:19 2020
+# ------------------------------------------------
+
+package:
+    name: astroid
+    version: 2.4.2
+source:
+    sha256: 2f4078c2a41bf377eea06d71c9d2ba4eb8f6b1af2135bec27bbbb7d8f12bb703
+    url: https://pypi.io/packages/source/a/astroid/astroid-2.4.2.tar.gz
+build:
+    number: '0'
+    script: /opt/concourse/worker/volumes/live/21fd14a9-2a7e-484b-7394-5a9912cdcf80/volume/astroid_1592498459180/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/bin/python
+        -m pip install . --no-deps -vv
+    string: py38_0
+requirements:
+    host:
+        - attrs 19.3.0 py_0
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.4.5.2 py38_0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20181209 hb402a30_0
+        - libffi 3.3 h0a44026_1
+        - more-itertools 8.4.0 py_0
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - packaging 20.4 py_0
+        - pip 20.1.1 py38_1
+        - pluggy 0.13.1 py38_0
+        - py 1.8.2 py_0
+        - pyparsing 2.4.7 py_0
+        - pytest 5.4.3 py38_0
+        - pytest-runner 5.2 py_0
+        - python 3.8.3 h26836e1_1
+        - readline 8.0 h1de35cc_0
+        - setuptools 47.3.0 py38_0
+        - six 1.15.0 py_0
+        - sqlite 3.31.1 h5c1f38d_1
+        - tk 8.6.8 ha441bb4_0
+        - wcwidth 0.2.4 py_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - lazy-object-proxy ==1.4.*
+        - python >=3.8,<3.9.0a0
+        - setuptools
+        - six >=1.12,<2
+        - wrapt ==1.11.*
+test:
+    commands:
+        - python -m pip check
+    imports:
+        - astroid
+        - astroid.modutils
+    requires:
+        - pip
+about:
+    description: 'Astroid provide a common base representation of python source code
+        for
+
+        projects such as pychecker, pyreverse, pylint.
+
+        '
+    dev_url: https://github.com/PyCQA/astroid
+    doc_source_url: https://github.com/PyCQA/astroid/blob/master/doc/index.rst
+    doc_url: http://astroid.readthedocs.io/en/latest/?badge=latest
+    home: https://www.astroid.org/
+    license: LGPL-2.1-only
+    license_family: LGPL
+    license_file: COPYING.LESSER
+    summary: A abstract syntax tree for Python with inference support.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ericdill
+        - jakirkham
+        - jjhelmus
+        - ocefpaf

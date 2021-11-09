@@ -1,0 +1,74 @@
+commit 3b5feb22c18972818f8fc6ba37fd633bfe6c833f
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue Mar 3 05:13:56 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 67269420e66eea03097ea6ef7ce329a69c928b8d
+Merge: d451a2e 22a9362
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Feb 21 17:50:45 2020 -0300
+
+    Merge pull request #4 from conda-forge-linter/conda_forge_admin_3
+    
+    [ci skip] ***NO_CI*** adding bot automerge
+
+commit 22a9362879d761700e84ca2c012201d7c9094ffc
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Feb 21 20:45:05 2020 +0000
+
+    [ci skip] ***NO_CI*** added bot automerge
+
+commit d451a2e28365d612b0c3c7cbeb7d922fb29793e1
+Merge: 6bf814d 00a8636
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Feb 21 17:41:55 2020 -0300
+
+    Merge pull request #2 from regro-cf-autotick-bot/1.0.3
+    
+    sphinxcontrib-htmlhelp v1.0.3
+
+commit 00a863656a6aa3ae650ec5ad9dc02302aa1e6330
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Feb 21 17:35:29 2020 -0300
+
+    add pip check
+
+commit c6c8f945d47cf69dced11cdb61bda3214a54e24c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Feb 21 17:20:35 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.8, and conda-forge-pinning 2020.02.20
+
+commit f37dc06ec52d0998433fd55fcd3ae5fe207c3573
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Feb 21 17:19:58 2020 +0000
+
+    updated v1.0.3
+
+commit 6bf814d23ef60f6837d0b424d6121861ee55cab9
+Merge: 5117412 e306f5f
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Apr 11 14:50:18 2019 -0300
+
+    Merge pull request #1 from regro-cf-autotick-bot/1.0.2
+    
+    sphinxcontrib-htmlhelp v1.0.2
+
+commit e306f5fb07b9ddd3c772a68072a2442fbd8468f6
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Apr 11 16:30:43 2019 +0000
+
+    updated v1.0.2
+
+commit 51174124b53eee5d26f52d408f4e5a1f961cd39f
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Mar 29 15:28:11 2019 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 0301982d26de59460bb9bacf850a8155b249066f
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Mar 29 15:22:55 2019 +0000
+
+    Initial feedstock commit with conda-smithy 3.3.2.

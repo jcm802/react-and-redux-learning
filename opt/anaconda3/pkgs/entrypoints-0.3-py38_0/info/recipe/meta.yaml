@@ -1,0 +1,61 @@
+# This file created by conda-build 3.18.10
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/e49dcbd5-cd24-46fa-55f8-d4cea17a3301/volume/aggregate/entrypoints-feedstock/recipe, last modified Thu Oct 31 04:58:37 2019
+# ------------------------------------------------
+
+package:
+    name: entrypoints
+    version: '0.3'
+source:
+    fn: entrypoints-0.3.tar.gz
+    sha256: c70dd71abe5a8c85e55e12c19bd91ccfeec11a6e99044204511f9ed547d48451
+    url: https://pypi.io/packages/source/e/entrypoints/entrypoints-0.3.tar.gz
+build:
+    number: '0'
+    script: python setup.py install
+    string: py38_0
+requirements:
+    host:
+        - ca-certificates 2019.10.16 0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20181209 hb402a30_0
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1d h1de35cc_3
+        - python 3.8.0 h359304d_0
+        - readline 7.0 h1de35cc_5
+        - sqlite 3.30.1 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - python >=3.8,<3.9.0a0
+about:
+    description: 'Entry points are a way for Python packages to advertise objects
+        with
+
+        some common interface. The most common examples are console_scripts
+
+        entry points, which define shell commands by identifying a Python
+
+        function to run
+
+        '
+    dev_url: https://github.com/takluyver/entrypoints
+    doc_source_url: https://github.com/takluyver/entrypoints/tree/master/doc
+    doc_url: https://entrypoints.readthedocs.io/en/latest/
+    home: https://github.com/takluyver/entrypoints
+    license: MIT License
+    license_family: MIT
+    license_file: LICENSE
+    summary: Discover and load entry points from installed packages.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - mingwandroid
+        - minrk
+        - ocefpaf
+        - pelson
+        - takluyver

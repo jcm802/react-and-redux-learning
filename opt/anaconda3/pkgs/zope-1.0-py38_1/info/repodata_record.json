@@ -1,0 +1,23 @@
+{
+  "build": "py38_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "zope-1.0-py38_1.conda",
+  "legacy_bz2_md5": "37cd2d842dacbeb49a34f59ddb36126f",
+  "legacy_bz2_size": 3724,
+  "license": "BSD",
+  "md5": "d34d88ba7274fdd5644fdfbb7e13f941",
+  "name": "zope",
+  "sha256": "23eee3f0cebbe27d8ff1ca5c5b4726f32145a9cee8cead4cb514ee661ecd650d",
+  "size": 4189,
+  "subdir": "osx-64",
+  "timestamp": 1573662592666,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/zope-1.0-py38_1.conda",
+  "version": "1.0"
+}

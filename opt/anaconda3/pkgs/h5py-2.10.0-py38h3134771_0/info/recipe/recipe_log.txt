@@ -1,0 +1,471 @@
+commit 04b16ded8904b27ce1aa31fca9c6bcd6b2c0a4d2
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri Dec 21 17:16:33 2018 -0600
+
+    update to 2.9.0
+
+commit 22e5de329310e0a045c67d08f9b8e540c3d0fdd2
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Sep 4 12:08:32 2018 -0500
+
+    replace numpy hard pin with variant
+
+commit b3114e7e5782fbe0547fda83648f53850811fa61
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Aug 22 07:35:36 2018 +0000
+
+    Remove pin_compatible
+
+commit 0e4780fd8ebdd7f91a66f8aefc6100884f95437a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Aug 20 12:41:55 2018 +0000
+
+    Force numpy version, add pin_compat
+
+commit f4edbfbf54229e728989a056fa7dc5eedc2e3536
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Aug 14 17:21:27 2018 -0500
+
+    Bump build
+
+commit 59ef10d9b1af969fdca5b158411e6a1a5fcac04f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Aug 4 20:51:43 2018 -0500
+
+    Use run_exports for hdf5
+
+commit 17169342aca2b3f92c610d6bf869894f0002071e
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu May 31 18:56:30 2018 -0500
+
+    remove unused patches
+    
+    5950dff90cf9d9b6a89e5928c95dda1c68d74131.patch was merged upstream in:
+    https://github.com/h5py/h5py/pull/970
+    
+    0001-Remove-opt-local-and-usr-local-dirs.patch is unneeded as h5py now only
+    includes the fallback paths (/opt/local and /usr/local) when a custome hdf5
+    location is not specified see:
+    https://github.com/h5py/h5py/pull/947
+
+commit 146f31fc4c31c7331180cbafe9b549744e210b60
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu May 31 18:56:21 2018 -0500
+
+    update to version 2.8.0
+
+commit 95ee5f8f87d3a8c9b09926530848a42b1eef7f1c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue May 15 12:09:17 2018 +0100
+
+    Bump build number
+
+commit e9a4f18a6c00a00d954f9209fdb626f7b03ccf7d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Apr 28 16:35:01 2018 -0700
+
+    Remove opt/local and /usr/local dirs
+    
+    It is complete madness to include these.
+
+commit ecbedea7fed6613287fa5932ef751bd9218b758c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Apr 28 16:24:55 2018 -0700
+
+    Fix numpy 1.14 compat. via https://github.com/h5py/h5py/pull/970
+
+commit 5278c98e4d2034de18044b147da99803f9d3b01b
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Wed Jan 10 11:49:09 2018 -0600
+
+    add file attribute test for windows crash
+
+commit 0f6f50e3c3e4779d9cc481ccd85789669ab5bcc4
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Nov 22 10:12:50 2017 -0600
+
+    update to version 2.7.1
+
+commit 21c57d55364946fda474cdedfa8da41306b3f2c2
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Sep 21 15:59:39 2017 -0500
+
+    fix/add dynamic detection of hdf5 with batch script
+
+commit 4135f5c69ffd746152b334569e19a95f228c2de8
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Sep 7 19:04:50 2017 +0000
+
+    Move build before host
+
+commit 424e54af9667a03fc33b1e71b7e14c5b64f74724
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Aug 14 17:29:45 2017 +0000
+
+    Update about section
+
+commit 3fde690fe687c66ce775e1582619c46200ade1a6
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Aug 14 17:29:33 2017 +0000
+
+    Make recipe cross-compile capable
+
+commit c8d4182a1b40d632cdc5d0bd3a46bddb632bc675
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Aug 1 12:38:25 2017 -0500
+
+    simplify recipe using conda-build 3
+
+commit 4d0d78b9ce257a5ccb4d23020ad968c2b5e03005
+Merge: 14a1b34 c699bec
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Jun 9 09:29:25 2017 -0400
+
+    Merge pull request #24 from jakirkham/use_np_113
+    
+    Add NumPy 1.13
+
+commit c699bec5748810b8848b41cb975a3a39f3b5ba8c
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Jun 9 02:29:40 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.3.1
+    
+    Re-render to add NumPy 1.13 support.
+
+commit a8db8f1780e72a352a19bc4f3295137b4e707224
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Jun 9 02:28:36 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.3.1
+
+commit 14a1b346fc5f19a9fc32a0eb30dc5833b6b3ff67
+Merge: 85853cd 6d1a5ab
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Jun 2 10:35:11 2017 -0300
+
+    Merge pull request #23 from qwhelan/hdf5_1.8.18
+    
+    Upgrade to hdf5 1.8.18
+
+commit 6d1a5ab6fa956e04aa4d74514ff3651c7b0bda02
+Author: Christopher Whelan <topherwhelan@gmail.com>
+Date:   Thu Jun 1 10:19:56 2017 -0700
+
+    Upgrade to hdf5 1.8.18
+
+commit 85853cd0329b3816d4666a7b9ebeb3bbf1f2bef2
+Merge: 88dfac4 c0c3c06
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Apr 4 23:51:19 2017 -0400
+
+    Merge pull request #20 from tacaswell/2.7.0
+    
+    MNT: version bump for 2.7.0
+
+commit c0c3c06a877cfb7b1399a4f78be2866c8b82432b
+Author: Thomas A Caswell <tcaswell@gmail.com>
+Date:   Tue Apr 4 19:49:52 2017 -0400
+
+    BLD: reset build number
+
+commit 88dfac4c222cdf3d3a58c669e1be4ca9afb7aa94
+Merge: 43008ca b9daa80
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Apr 4 19:39:02 2017 -0400
+
+    Merge pull request #21 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit b953d6ea0df359959ea7ceb66b7f5372135601a9
+Author: Thomas A Caswell <tcaswell@gmail.com>
+Date:   Tue Apr 4 19:00:34 2017 -0400
+
+    BLD: put the version in the right place
+
+commit 0413933cd6fe1fd19004005324449f26ef55a50c
+Author: Thomas A Caswell <tcaswell@gmail.com>
+Date:   Tue Apr 4 18:15:40 2017 -0400
+
+    BLD: correctly pin hdf5 version on windows
+
+commit b9daa807e00bb9fe4d52b715058163cde2bf2db4
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Mar 30 01:36:33 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.2.2.
+
+commit 9daf5780d42a5deb268bc3e48c200007b9b2eddf
+Author: Thomas A Caswell <tcaswell@gmail.com>
+Date:   Sat Mar 18 14:25:04 2017 -0400
+
+    MNT: add my self (Thomas Caswell) as maintainer
+
+commit 4947f863aec948e433ab1fc857bcf43e66a0819f
+Author: Thomas A Caswell <tcaswell@gmail.com>
+Date:   Sat Mar 18 14:21:25 2017 -0400
+
+    MNT: version bump for 2.7.0
+
+commit 43008cae3f36573170699122b9487de8af12ca1e
+Merge: 5c908f0 3788d42
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Mar 15 12:09:28 2017 -0400
+
+    Merge pull request #19 from jakirkham/re-render__master__2.1.1
+    
+    Re-render 2.1.1, Win + NumPy 1.12
+
+commit 3788d42127eb8ede149c399ee5953fbfb9b490df
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Mar 14 21:59:51 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.1.1
+
+commit 5c908f04224392093d8986fd76ab59642af5689e
+Merge: dc671ff 91f0477
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Feb 7 10:58:22 2017 -0300
+
+    Merge pull request #18 from Horta/master
+    
+    MNT: Re-rendered with conda-smithy 2.0.1
+
+commit 91f0477a5431cb2e4b482e969cf54729cf87ce3f
+Author: Danilo Horta <danilo.horta@gmail.com>
+Date:   Tue Feb 7 12:42:49 2017 +0000
+
+    MNT: Re-rendered with conda-smithy 2.0.1
+
+commit dc671ff0437bdcfd54c4a09b53b676388c3bb606
+Merge: f11be96 4aa16fb
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Jan 4 02:28:16 2017 -0500
+
+    Merge pull request #15 from jakirkham/re-render_master_1.7.0
+    
+    MNT: Re-rendered with conda-smithy 1.7.0
+
+commit 4aa16fb933b027ecbb38deaad77bbe558e69daba
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Jan 3 20:08:30 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 1.7.0
+
+commit f11be96eeff42852a69bf33f569eeca77ecbfe63
+Merge: 83c786b 83f7511
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Nov 17 10:16:45 2016 -0300
+
+    Merge pull request #13 from pitrou/py3_flakiness_patch
+    
+    Add patch for issue #775 (py3 issues)
+
+commit 83f7511567817b068cd3b46b0d18b5ec55f11de6
+Author: Antoine Pitrou <antoine@python.org>
+Date:   Thu Nov 17 13:44:39 2016 +0100
+
+    Add myself as maintainer
+
+commit c148fa02939951055204cec8828938734e47c2de
+Author: Antoine Pitrou <antoine@python.org>
+Date:   Thu Nov 17 00:18:23 2016 +0100
+
+    Add setuptools to build requirements (for --single-version-externally-managed)
+
+commit 8334df5003c3f645b3c10101278b29dba5e11be9
+Author: Antoine Pitrou <antoine@python.org>
+Date:   Thu Nov 17 00:13:14 2016 +0100
+
+    MNT: Re-rendered with conda-smithy 1.5.3
+
+commit c86a3724156392a00e2bfb87ab1e7e674913e59f
+Author: Antoine Pitrou <antoine@python.org>
+Date:   Wed Nov 16 23:54:26 2016 +0100
+
+    Add patch for issue #775 (py3 issues)
+
+commit 83c786b141f19631ff072515a6d9c62e49f80e9e
+Merge: 266ead6 90a390f
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Aug 11 00:19:25 2016 -0400
+
+    Merge pull request #12 from tylere/master
+    
+    Add license_file metadata.
+
+commit 90a390f3774cec4140c464daf996f7992061b16a
+Author: Tyler Erickson <tylerickson@gmail.com>
+Date:   Wed Aug 10 15:04:28 2016 -0700
+
+    Update build number.
+
+commit 460304d306252fa068efcef67e262aac77bb55b1
+Author: Tyler Erickson <tylerickson@gmail.com>
+Date:   Wed Aug 10 14:12:03 2016 -0700
+
+    Add license_file metadata.
+    
+    Add license_file metadata so that the license file is installed as part of the package.
+
+commit 266ead6e53134fe701a32d8c0221c35e39f47fff
+Merge: 61e5b98 94e8dd3
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Aug 7 23:53:25 2016 -0400
+
+    Merge pull request #11 from conda-forge-admin/feedstock_version_pin_master
+    
+    MNT: Update pinned versions.
+
+commit 94e8dd32a24b71245e86f52403291c89039d2159
+Author: conda-forge-admin <conda-forge@googlegroups.com>
+Date:   Mon Aug 8 03:32:17 2016 +0000
+
+    MNT: Updated some of the pinned versions
+
+commit 61e5b98203dfeb4187bfb8c202b91fc9d69201f4
+Merge: 7463edf 85cf279
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Jun 1 21:27:08 2016 -0300
+
+    Merge pull request #9 from ocefpaf/pinhdf5
+    
+    pin to hdf5 1.8.17*
+
+commit 85cf279f5472a7c69dffc064592ca08e08b11bdb
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Mon May 30 17:31:13 2016 -0300
+
+    pin to hdf5 1.8.17*
+
+commit 7463edf96124f9a6e20998148fc9a12ee6e1d072
+Merge: 9885dc9 aaa97a7
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue May 17 10:39:32 2016 -0400
+
+    Merge pull request #8 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit aaa97a7d0be684776083c77c110747074bcb9f32
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue May 17 07:45:45 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.3.
+    
+    [ci skip]
+
+commit 9885dc9b0d21105c14062f60641a2a92dd25452f
+Merge: b2caab9 4481a73
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Apr 19 11:36:18 2016 -0400
+
+    Merge pull request #7 from conda-forge-admin/feedstock_version_pin_master
+    
+    MNT: Update pinned versions.
+
+commit 4481a7338ffa92ef60a06ca4566c559c6a0019e5
+Author: conda-forge-admin <conda-forge@googlegroups.com>
+Date:   Tue Apr 19 14:57:04 2016 +0100
+
+    MNT: Updated some of the pinned versions
+
+commit b2caab9052304008f571b5bbcd2d108f406df223
+Merge: 4ac9f78 d5f4caf
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Apr 8 18:03:38 2016 -0400
+
+    Merge pull request #1 from jakirkham/add_windows
+    
+    Try to add Windows support
+
+commit d5f4caf5b7fbf0375da6ac1b1fca2415d576e50f
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Apr 8 17:24:35 2016 -0400
+
+    recipe: Bump build number.
+
+commit 991efba7253ecc045702941669b5a05a9549b65c
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Apr 8 16:51:07 2016 -0400
+
+    recipe: Patch `setup_build.py` for Windows support.
+
+commit dda7b5078bc76bc4db7a170fc8847ccbb165db5f
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Apr 8 16:02:05 2016 -0400
+
+    Re-render with the VS 2008 64-bit workaround.
+
+commit b734302dd6f81665526a2deaf0fd194db06742e9
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Apr 8 16:00:34 2016 -0400
+
+    Re-render with conda-smithy 0.8.5.
+
+commit 16d10c512c1c919efd348f7e84c35d0f0832b801
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Apr 2 20:54:55 2016 -0400
+
+    recipe: Fix selector to have a space.
+
+commit c2849a342d38c0a7c99fd4c519abef520917ccfc
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Apr 2 20:53:38 2016 -0400
+
+    Re-render feedstock so it uses AppVeyor again.
+
+commit e92cad8e33c802be69e84a8e421ff8d26e7b1fe9
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Mar 25 14:34:06 2016 -0400
+
+    recipe: Try to add back Windows support.
+
+commit 4ac9f78f88e62f89d690a675bacb3d74f55e2631
+Merge: 19ee09a d681c2e
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Mar 26 03:46:29 2016 -0400
+
+    Merge pull request #3 from jakirkham/bump_build_num
+    
+    Bump build number (and update CI)
+
+commit d681c2ea068ffde568a99521b71fb86eb5bbe0d5
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Mar 26 03:15:49 2016 -0400
+
+    ci: Try to fix CI to support NumPy ABI pinning.
+
+commit ff3fa3efa865efb3da49913f99531b68af7a1b9c
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Mar 26 03:08:22 2016 -0400
+
+    recipe: Bump build number after build change.
+
+commit 19ee09a6d69c90b3f09fe383b6b9fb44914cbc08
+Merge: 1bf2380 01d7575
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Mar 26 03:04:21 2016 -0400
+
+    Merge pull request #2 from jakirkham/pin_numpy
+    
+    Pin the NumPy ABI
+
+commit 01d7575c2861c57f6bc476a6b5fd5a558c6b43b9
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Mar 26 02:59:03 2016 -0400
+
+    recipe: Make sure the NumPy API is pinned against.
+
+commit 1bf238039f271ea3b7b087b279a277835dcb2a34
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Mar 25 18:07:28 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 88995874fa128d3e4d1327b74a49960896887122
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Mar 25 18:06:52 2016 +0000
+
+    Initial commit of the h5py feedstock.

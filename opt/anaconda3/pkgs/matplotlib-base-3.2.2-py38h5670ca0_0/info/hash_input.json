@@ -1,0 +1,9 @@
+{
+  "libpng": "1.6",
+  "c_compiler": "clang",
+  "freetype": "2.9",
+  "cxx_compiler": "clangxx",
+  "numpy": "1.14",
+  "cxx_compiler_version": "10",
+  "c_compiler_version": "10"
+}

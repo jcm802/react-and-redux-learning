@@ -1,0 +1,38 @@
+{
+  "build": "py38_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/sphinxcontrib-1.0-py38_1",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/sphinxcontrib/__init__.py",
+    "lib/python3.8/site-packages/sphinxcontrib/__pycache__/__init__.cpython-38.pyc"
+  ],
+  "fn": "sphinxcontrib-1.0-py38_1.conda",
+  "legacy_bz2_md5": "a5aacac74d41e06402b5ca1b8d79998a",
+  "legacy_bz2_size": 3596,
+  "license": "BSD",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/sphinxcontrib-1.0-py38_1",
+    "type": 1
+  },
+  "md5": "43ba444d91a04190dd9d56f0746a7172",
+  "name": "sphinxcontrib",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/sphinxcontrib-1.0-py38_1.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "sphinxcontrib==1.0=py38_1",
+  "sha256": "73a724ed008f5a9c23d6a94d263ac2291764846ff35b7d152adb3cb04f83d2bd",
+  "size": 4103,
+  "subdir": "osx-64",
+  "timestamp": 1573662692137,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/sphinxcontrib-1.0-py38_1.conda",
+  "version": "1.0"
+}

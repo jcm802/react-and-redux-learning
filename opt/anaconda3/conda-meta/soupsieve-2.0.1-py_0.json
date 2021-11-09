@@ -1,0 +1,81 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.5"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/soupsieve-2.0.1-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/soupsieve-2.0.1.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/soupsieve-2.0.1.dist-info/LICENSE.md",
+    "lib/python3.8/site-packages/soupsieve-2.0.1.dist-info/METADATA",
+    "lib/python3.8/site-packages/soupsieve-2.0.1.dist-info/RECORD",
+    "lib/python3.8/site-packages/soupsieve-2.0.1.dist-info/WHEEL",
+    "lib/python3.8/site-packages/soupsieve-2.0.1.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/soupsieve/__init__.py",
+    "lib/python3.8/site-packages/soupsieve/__meta__.py",
+    "lib/python3.8/site-packages/soupsieve/css_match.py",
+    "lib/python3.8/site-packages/soupsieve/css_parser.py",
+    "lib/python3.8/site-packages/soupsieve/css_types.py",
+    "lib/python3.8/site-packages/soupsieve/util.py",
+    "lib/python3.8/site-packages/soupsieve/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/soupsieve/__pycache__/__meta__.cpython-38.pyc",
+    "lib/python3.8/site-packages/soupsieve/__pycache__/css_match.cpython-38.pyc",
+    "lib/python3.8/site-packages/soupsieve/__pycache__/css_parser.cpython-38.pyc",
+    "lib/python3.8/site-packages/soupsieve/__pycache__/css_types.cpython-38.pyc",
+    "lib/python3.8/site-packages/soupsieve/__pycache__/util.cpython-38.pyc"
+  ],
+  "fn": "soupsieve-2.0.1-py_0.conda",
+  "legacy_bz2_md5": "8a616069527ab705b1947580c9c4d296",
+  "legacy_bz2_size": 33515,
+  "license": "MIT",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/soupsieve-2.0.1-py_0",
+    "type": 1
+  },
+  "md5": "ed7885f78dfa2cb62dd369f113763e0b",
+  "name": "soupsieve",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/soupsieve-2.0.1-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/soupsieve/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/soupsieve/__pycache__/__meta__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/soupsieve/__pycache__/css_match.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/soupsieve/__pycache__/css_parser.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/soupsieve/__pycache__/css_types.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/soupsieve/__pycache__/util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "soupsieve==2.0.1=py_0",
+  "sha256": "4f87567204d6f687688c3de46f66d7ade6643c02602c8a5491ab819370d20675",
+  "size": 34086,
+  "subdir": "noarch",
+  "timestamp": 1590081281472,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/soupsieve-2.0.1-py_0.conda",
+  "version": "2.0.1"
+}

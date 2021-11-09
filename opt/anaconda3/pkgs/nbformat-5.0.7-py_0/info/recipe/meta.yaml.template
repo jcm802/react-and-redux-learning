@@ -1,0 +1,57 @@
+{% set version = "5.0.7" %}
+
+package:
+  name: nbformat
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/n/nbformat/nbformat-{{ version }}.tar.gz
+  sha256: 54d4d6354835a936bad7e8182dcd003ca3dc0cedfee5a306090e04854343b340
+
+build:
+  number: 0
+  noarch: python
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  entry_points:
+    - jupyter-trust = nbformat.sign:TrustNotebookApp.launch_instance
+
+requirements:
+  host:
+    - python >=3.5
+    - pip
+  run:
+    - python >=3.5
+    - ipython_genutils
+    - traitlets >=4.1
+    - jsonschema >=2.4,!=2.5.0
+    - jupyter_core
+
+test:
+  commands:
+    - pip check
+    - jupyter-trust -h
+  requires:
+    - pip
+  imports:
+    - nbformat
+
+about:
+  home: http://jupyter.org
+  license: BSD-3-Clause
+  summary: The Jupyter Notebook format
+  license_file: COPYING.md
+  summary: The reference implementation of the Jupyter Notebook format
+  description: |
+    nbformat contains the reference implementation of the Jupyter Notebook
+    format, and Python APIs for working with notebooks.
+  doc_url: http://nbformat.readthedocs.org
+  dev_url: https://github.com/jupyter/nbformat
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - minrk
+    - pelson
+    - takluyver
+    - ocefpaf
+    - mpacer

@@ -1,0 +1,61 @@
+commit cc0a69dfa7b5cee9dd98cbfa7f0034341e3239a6
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri Oct 27 11:35:34 2017 -0500
+
+    Make recipe cross-compile capable
+
+commit 0c8c95d04ece56eebb6e0b27ad5cc93159aa9b2e
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri Oct 27 11:29:46 2017 -0500
+
+    Bump version to 1.0.post1
+
+commit c1a8d09e9df57a4dc9d0b4c44b18e83de2438a93
+Merge: d48bcde da97506
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Oct 3 00:45:55 2017 -0400
+
+    Merge pull request #1 from jakirkham-feedstocks/req_backports
+    
+    Require backports
+
+commit da975060cb8ed82211497359974cf60762d12291
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Oct 2 03:38:57 2017 -0400
+
+    Bump build number to 1
+    
+    Rebuild now that `backports` is a dependency.
+
+commit 223f950e4d2659d920084f2d5a5e5ffe9030c871
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Oct 2 03:38:23 2017 -0400
+
+    Require backports
+    
+    Provides the namespace package, `backports`, which contains
+    `backports.weakref`.
+
+commit 31c23099c859f8443b5dd52c3908c838adccf0e3
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Oct 2 03:35:21 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.4.2
+
+commit d48bcde1b53a27c032ef1291ea4db51dec5a94bc
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 21:49:00 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 63584d5117f93b9e1b527d11a550787f56eca31e
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Jun 27 21:09:08 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 0eaf6e78dd8600d77664042e652bc3033f2e41b0
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Jun 27 21:04:27 2017 +0000
+
+    Initial feedstock commit with conda-smithy 2.3.2.

@@ -1,0 +1,184 @@
+commit f088ea26ef0ad14e85a67708470b794aa595cc80
+Merge: 2b7619d aa2f988
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Tue Jun 23 16:37:05 2020 +0000
+
+    html5lib v1.1
+    
+    automerged PR by conda-forge/automerge-action
+
+commit 2b7619deb79b307225ba498ab77a00f604aa530e
+Merge: 0905cac bb5225d
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Jun 23 13:35:39 2020 -0300
+
+    Merge pull request #9 from conda-forge-linter/conda_forge_admin_8
+    
+    [ci skip] [cf admin skip] ***NO_CI*** adding bot automerge
+
+commit bb5225de7d343f826d06e9a4210389381280889a
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Jun 23 16:33:19 2020 +0000
+
+    [ci skip] ***NO_CI*** added bot automerge
+
+commit aa2f988f96f770c1aa7c2851d67b3d22548a9172
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Tue Jun 23 13:32:43 2020 -0300
+
+    update metadata
+
+commit ad26fe56fa9ce4e7bea344e42b938ea8f2d4da71
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jun 23 00:06:42 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.3, and conda-forge-pinning 2020.06.16.21.09.39
+
+commit a5e22fd4e77599b42f2ada8c8fc435e0d6b2bf94
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jun 23 00:06:18 2020 +0000
+
+    updated v1.1
+
+commit 0905cac4a3c6c9cbcf3232f3b219f75c4ac4d65e
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 07:33:40 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit fd7fdee0ea6ce2462ca59564d353989301734544
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat May 16 11:16:10 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit c8dcd4119ba288e77adacd8cc72a85986101dd6d
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 20:38:30 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 140a67deffca0a728aae6ddc190602b53ee0853f
+Merge: c6a3ea3 040d477
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Aug 27 22:42:05 2018 -0500
+
+    Merge pull request #6 from ocefpaf/update-cb3
+    
+    Update cb3
+
+commit 040d477f4c3bbda78463c0c73c3685d04255b7f8
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Tue Aug 28 00:14:15 2018 -0300
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.08.21
+
+commit f767a16266077024555bc87630d75cc78dc2117a
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Tue Aug 28 00:14:13 2018 -0300
+
+    update recipe
+
+commit c6a3ea3752701443213d34e119024da0b6af4bfd
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:47:20 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 799c8f6c16e87f33542bb02ac050b04b4025dae7
+Merge: 3889f52 dcedac2
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Dec 10 12:01:06 2017 -0500
+
+    Merge pull request #5 from AnacondaRecipes/cf_sync
+    
+    Bump version to 1.0.1
+
+commit dcedac20710c4924b146d52d8286ee9a8bf93a2f
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Dec 10 16:54:59 2017 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.4
+
+commit 870ae4ef5d02015c2fd5fd585ae6b0557819b23f
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Dec 10 16:54:24 2017 +0000
+
+    Add noarch:python option
+
+commit 1f0aed7ba7743d14dd5ae51922a7fb3461ff329e
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Dec 10 10:45:55 2017 -0600
+
+    Bump version to 1.0.1
+
+commit cd9c379746498cff562c2a80361ed4359d3a3ad5
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Jul 30 16:33:47 2017 +0000
+
+    Update about section
+
+commit 3889f52a9f0846f9e7de05ccfa865611a4dfa5e5
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 21:44:13 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit e5558fa412e9a3b1f70747506ae2ebf645663160
+Merge: 77bfe21 00f43a2
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Jul 28 10:01:08 2017 -0300
+
+    Merge pull request #4 from nehaljwani/bump-version
+    
+    html5lib: bump version
+
+commit 00f43a28d449a7850cd3c50fec56a6b8cd598e0c
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Jul 27 05:57:35 2017 +0000
+
+    html5lib: bump version
+    
+    - Add another import in test section
+
+commit 77bfe215ee8feb9d6a2240e22d6dae728d975b41
+Merge: fe853e1 e0b003b
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Jun 27 07:59:34 2017 -0300
+
+    Merge pull request #3 from hajapy/v0.9999999
+    
+    recipe for v0.9999999
+
+commit e0b003b51e9a3bb70c29b974fea6cb06b380bdb5
+Author: hajapy <hajapy@users.noreply.github.com>
+Date:   Mon Jun 26 10:28:54 2017 -0400
+
+    recipe for v0.9999999
+
+commit fe853e1cf53c2ad9891b99ad5b3b0555aca961bf
+Merge: 2ae1d12 2632431
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Sun Feb 26 20:51:55 2017 +0100
+
+    Merge pull request #1 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 263243157f9e8227b150c7b39b0a6e2b5fa62a1b
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Feb 25 20:34:29 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.1.0.
+
+commit 2ae1d1284ca799c6835d81bde7f98f243f64bc28
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Jan 31 04:29:57 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit eb0fcef8c4f7744799ace742da6b2a96c89de469
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Jan 31 04:24:15 2017 +0000
+
+    Initial feedstock commit with conda-smithy 2.0.1.

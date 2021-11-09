@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "python",
+    "sphinxcontrib"
+  ],
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "name": "sphinxcontrib-websupport",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1593446388117,
+  "version": "1.2.3"
+}

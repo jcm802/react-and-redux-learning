@@ -1,0 +1,25 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "imagesize-1.2.0-py_0.conda",
+  "legacy_bz2_md5": "3e004cdab146e4a764d58527eed10cae",
+  "legacy_bz2_size": 10310,
+  "license": "MIT",
+  "md5": "bcfd660d946ab2cc9a3ca61eb404229a",
+  "name": "imagesize",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "aba27bec03cc6940cccb34217de6d107ec75d0a0d4acb9675b51bb363313fa0d",
+  "size": 10088,
+  "subdir": "noarch",
+  "timestamp": 1578412011207,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/imagesize-1.2.0-py_0.conda",
+  "version": "1.2.0"
+}

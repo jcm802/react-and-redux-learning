@@ -1,0 +1,1092 @@
+commit 7d7f0c725d8640816c79ea92c18a99ce75edb9c8
+Merge: 2c690e5 63bc69e
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Fri Apr 10 22:51:13 2020 +0000
+
+    openmp v10.0.0
+    
+    automerged PR by regro-cf-autotick-bot-action
+
+commit 63bc69e5a59c1ae03208a50f435514d4c6012221
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Mar 26 04:24:02 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.1, conda-smithy 3.6.15, and conda-forge-pinning 2020.03.24
+
+commit 69d4a08e61e747ef690164ebaac6e8afa3c832eb
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Mar 26 04:23:22 2020 +0000
+
+    updated v10.0.0
+
+commit 2c690e56fe62c08262b3efed72512e9c9e150298
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 22:38:59 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 068baa376a5306fd133b809191b4004d81ec7728
+Merge: df245cd f138f81
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Feb 18 09:38:19 2020 -0600
+
+    Merge pull request #34 from isuruf/aarch64
+    
+    Add aarch64
+
+commit f138f81b718a377e4eefb1e78b5a6f9c30b4e278
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Feb 18 15:24:23 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.8, and conda-forge-pinning 2020.02.12
+
+commit d5d66aadc5f140ca1c7e6900ac03771b9f12aa5e
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Feb 18 09:21:39 2020 -0600
+
+    Add aarch64
+
+commit df245cdf1dd9868b6d2badabb8e776ae5c695e40
+Merge: ff7c82c 25a8d1c
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Jan 21 05:56:08 2020 -0600
+
+    Merge pull request #32 from beckermr/beckermr-patch-1
+    
+    ENH keep intel openmp so
+
+commit 25a8d1cc4d0cbb6328f94dc904055446e2e0bd0c
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Tue Jan 21 05:39:17 2020 -0600
+
+    windows?
+
+commit d5fd849a0a3926e90d0940345e5b3312198b7a40
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Tue Jan 21 05:33:16 2020 -0600
+
+    Update build-llvm-openmp.sh
+
+commit a81f628276aaffb96b139a2ef6c784ceafa1de2a
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Tue Jan 21 05:22:15 2020 -0600
+
+    Update meta.yaml
+
+commit 5e047c9e3d83f8f49d1e1447bf70b9ca8dcc7369
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Tue Jan 21 05:21:42 2020 -0600
+
+    ENH add intel openmp symlink
+
+commit ff7c82cf37a1f392a56c78df49d11de35c555120
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Mon Jan 13 11:14:55 2020 -0600
+
+    ENH add ppc64le (#31)
+    
+    * ENH add ppc64le
+    
+    * MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2020.01.10
+    
+    * add make
+    
+    * Update recipe/meta.yaml
+    
+    Co-Authored-By: Isuru Fernando <isuruf@gmail.com>
+    
+    Co-authored-by: Automatic conda-forge administrator <pelson.pub+conda-forge@gmail.com>
+    Co-authored-by: Isuru Fernando <isuruf@gmail.com>
+
+commit 008afe852081f0ed08fbfc27a6ddae69f5c153ee
+Merge: 2c66ee3 c784271
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Jan 10 14:13:15 2020 +0530
+
+    Merge pull request #29 from beckermr/swap-openmp
+    
+    ENH make openmp swapable w/ mutex
+
+commit c78427149b20cd89dac6fadc168fd3dfaeee0dc4
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Jan 10 08:25:03 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2020.01.08
+
+commit 0105fa0753d72e4c300a002f095a5dfdf068c62f
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Jan 10 13:43:05 2020 +0530
+
+    Use clangxx and update run_exports
+
+commit 03e93a99ee9d058b04929e1dbc90afefbf4f675a
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Thu Jan 9 22:53:16 2020 -0600
+
+    remove mutex
+
+commit 96c669cfdfc381d851fafbb330cc55b5f4d503b2
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu Jan 9 14:33:32 2020 +0000
+
+    Need host for symlink
+
+commit 5169e9154dd4946bdf3977be121014bb5fde9a8c
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu Jan 9 14:26:04 2020 +0000
+
+    Fix mutex recipe
+
+commit 58e8090d6f2fd1ed886640f4b2a8a08d51257c66
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu Jan 9 14:19:14 2020 +0000
+
+    Try separate recipes
+
+commit 4d7d3d16cced755c897d33e0cfbac244a1da3057
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu Jan 9 14:09:48 2020 +0000
+
+    Try again
+
+commit a650ca05555329f0a5ebb7d1fca6f47834abaa22
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu Jan 9 10:13:29 2020 +0000
+
+    Try again
+
+commit 8328565c3d563862a1ea707df6b3608afb287c2f
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Thu Jan 9 05:35:33 2020 -0600
+
+    Delete make-build-shim.sh
+
+commit 5d5135c97efe8d97f1bc3151d6d6a53e0fd80be4
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu Jan 9 07:08:29 2020 +0000
+
+    Break openmp_impl cycle
+
+commit 88177b200cce4842cc6d15473257a2a6870ea1e9
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Wed Jan 8 00:12:41 2020 -0600
+
+    make sure it fails
+
+commit 1d6885aa3ec62181a3595c3f95d4259a01eede93
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Wed Jan 8 00:12:20 2020 -0600
+
+    switch to mutex
+
+commit 570b69d11cd3dd1032101e20527bc1bf50af972d
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Tue Jan 7 21:19:15 2020 -0600
+
+    try this
+
+commit e4f07c7ed76549ed1da3e885cb6911e6f85f4de7
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Tue Jan 7 21:09:07 2020 -0600
+
+    use selector to make other builds pass
+
+commit 446fe55775a72caacbc2c33bef807c37381e5168
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Tue Jan 7 21:07:03 2020 -0600
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5.post.dev5, and conda-forge-pinning 2020.01.07
+
+commit dc548cd4bf748f64b32d636ee71aac5d15209c6a
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Tue Jan 7 20:55:28 2020 -0600
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5.post.dev5, and conda-forge-pinning 2020.01.07
+
+commit 6e2d069bd4383f1e543ab87af975b5b266e7b36b
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Tue Jan 7 20:47:03 2020 -0600
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5.post.dev5, and conda-forge-pinning 2020.01.07
+
+commit 560703d9cd659079c33d8b1308d11cc4495dcc16
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Tue Jan 7 07:02:59 2020 -0600
+
+    Update meta.yaml
+
+commit 39e65c9745ceeec4bb1ca4a2d76bc0f0e4e73cf1
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Tue Jan 7 06:56:11 2020 -0600
+
+    Update meta.yaml
+
+commit 3982eb285fdd0c48dec77e5aacd81dcbd2ac9112
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Tue Jan 7 06:50:28 2020 -0600
+
+    Update meta.yaml
+
+commit 57b5fe4c836f867c4675b9d7a56ba13a90da85cc
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Mon Jan 6 22:36:17 2020 -0600
+
+    Update win_target_platformwin-64.yaml
+
+commit 682b066641866b0ea1f2cd68e7d3e01b3bf84ced
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Mon Jan 6 22:36:01 2020 -0600
+
+    Update osx_target_platformosx-64.yaml
+
+commit 9b136a4263576232e0312598033b25a6f38d28dc
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Mon Jan 6 22:35:48 2020 -0600
+
+    Update linux_target_platformlinux-64.yaml
+
+commit 7f1f4e3aa28a23f6db3e3d75a37b108168012c8d
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Mon Jan 6 21:44:20 2020 -0600
+
+    Update recipe/meta.yaml
+    
+    Co-Authored-By: Isuru Fernando <isuruf@gmail.com>
+
+commit d9835692c9703784667722789b4e4b9a3b3fe391
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Mon Jan 6 20:56:03 2020 -0600
+
+    Update meta.yaml
+
+commit 7405e217b6c022b32ac910e4f44fea9a14fb5a83
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Mon Jan 6 20:55:19 2020 -0600
+
+    Update recipe/meta.yaml
+    
+    Co-Authored-By: Isuru Fernando <isuruf@gmail.com>
+
+commit 2846e1b2f753ba267aea8ed1d429850189b18565
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Mon Jan 6 20:31:58 2020 -0600
+
+    Update meta.yaml
+
+commit 17fa4387b4916f0dc47243ac81de07938d4be676
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon Jan 6 13:15:39 2020 -0600
+
+    use the mutext
+
+commit 760a26214ae430fe8497812baeb46c65773ded8f
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon Jan 6 08:12:58 2020 -0600
+
+    use run constrained for libgcc-ng
+
+commit 3cb349f6426f0301f8c1c271e754ae1fdcfca086
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Mon Jan 6 06:54:29 2020 -0600
+
+    Update meta.yaml
+
+commit 9a73cadea196f93bf4148099c3565afade576b04
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Sat Jan 4 15:01:13 2020 -0600
+
+    more run export fixes
+
+commit b9f22ee5db0e0889d715eff818a07af97e2e82d1
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Sat Jan 4 14:59:22 2020 -0600
+
+    run exports
+
+commit 784d5a4969ba7ae1c3d0959c62dcd17ef7e68193
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Sat Jan 4 14:51:14 2020 -0600
+
+    try testing it this way
+
+commit a99d10a28ca0a9a92a1307558763d6d89ee80da2
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Sat Jan 4 14:43:32 2020 -0600
+
+    try fixing ldd
+
+commit 9b32a9a2b2ecdb42f5ace247342001a7e56e1dc9
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Sat Jan 4 10:55:19 2020 -0600
+
+    better tests
+
+commit 56b126556a580e4ad9bfac87373ab328526eb5f4
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Sat Jan 4 10:38:22 2020 -0600
+
+    rename recipe again
+
+commit 78004346b173f4052cca345e224b5f5d1ee84488
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Sat Jan 4 10:37:40 2020 -0600
+
+    run export not working?
+
+commit f9716b73bf4a9b8292d139ba385a517bb7d6a1ae
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Sat Jan 4 10:30:08 2020 -0600
+
+    make sure it keeps the new link
+
+commit 15e2e95b8c32601ed853db6690bbf695365a5e55
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Sat Jan 4 10:25:54 2020 -0600
+
+    try again
+
+commit c8921e46b2f53e90821e4ae40cde08e651c2e3d4
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Sat Jan 4 10:02:08 2020 -0600
+
+    forc it
+
+commit c2fbdda6687d8f1796c60d96f636035f0d113ce2
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Sat Jan 4 10:01:46 2020 -0600
+
+    try again
+
+commit 7b691d8d126638d3edd36201d095e986d34905b8
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Sat Jan 4 09:43:07 2020 -0600
+
+    fix empty license
+
+commit 481404b4dba3299ef9e82b265dedab31d7aba259
+Merge: bbcfd6b 46d153b
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Sat Jan 4 09:42:00 2020 -0600
+
+    Merge branch 'swap-openmp' of https://github.com/beckermr/openmp-feedstock into swap-openmp
+
+commit bbcfd6bb0b138f92471a8646d189182b6c9d06ec
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Sat Jan 4 09:41:55 2020 -0600
+
+    try again
+
+commit e5ab0ab3f7c993146e0bada99d686eaa5c72734c
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Sat Jan 4 09:35:10 2020 -0600
+
+    use skip
+
+commit 46d153b4a430d7f78fa060fe1170792ca7684e59
+Merge: ee1d49d 2c66ee3
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Sat Jan 4 09:33:27 2020 -0600
+
+    Merge branch 'master' into swap-openmp
+
+commit ee1d49d896175a223e0aa69854389d4b7a7f53f9
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Sat Jan 4 09:31:24 2020 -0600
+
+    try llvm in host
+
+commit 2c66ee31e8f90c17c16cc876f2193cc538c2d1b8
+Merge: 0ca4745 def4251
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Jan 4 11:14:40 2020 +0530
+
+    Merge pull request #30 from chrisburr/patch-1
+    
+    Update to 9.0.1
+
+commit bb6dae183e6ef90b0c2eb693e2d79e94627eab6c
+Merge: f6a406d e74c93b
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Fri Jan 3 17:37:22 2020 -0600
+
+    Merge branch 'swap-openmp' of https://github.com/beckermr/openmp-feedstock into swap-openmp
+
+commit f6a406d69b66e956e906194817c57a3653af1d94
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Fri Jan 3 17:37:18 2020 -0600
+
+    mutex is BSD-3-Clause
+
+commit e74c93b3443bf6a696b1b7c46453b8096842adf2
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Jan 3 22:49:28 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2019.12.18
+
+commit 3a036b115e1dc1aeb4f8995fe02644180c6c3b63
+Merge: 70bab5d bdaf838
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Fri Jan 3 16:48:26 2020 -0600
+
+    Merge branch 'swap-openmp' of https://github.com/beckermr/openmp-feedstock into swap-openmp
+
+commit 70bab5daa81388e60d4cceb60fd3075b2eac18db
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Fri Jan 3 16:47:50 2020 -0600
+
+    fix up tests and names
+
+commit bdaf838124c099b547cfce527d8db2cb920a15d6
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Jan 3 22:36:14 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2019.12.18
+
+commit 5479d27c2dc2cad8df2fb564032ef99e6b2b5fad
+Merge: 8fec7a9 675172c
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Fri Jan 3 16:35:09 2020 -0600
+
+    Merge branch 'swap-openmp' of https://github.com/beckermr/openmp-feedstock into swap-openmp
+
+commit 8fec7a96e3805408f17950baf9034dc84d5d28ba
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Fri Jan 3 16:34:54 2020 -0600
+
+    this might break things
+
+commit 675172c64f9a3432f0f4149157d515f3063cfbf8
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Jan 3 22:34:01 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2019.12.18
+
+commit 15f3ecbf67de3cdc47c301c9b844166c0606d16f
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Fri Jan 3 16:32:30 2020 -0600
+
+    please the linter
+
+commit 7315cf22ec5df0e111c2e8b32c08bab1e24188c4
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Fri Jan 3 14:17:24 2020 -0600
+
+    try this version
+
+commit 0fd9eee7ebaffe7541024cc8ed725c2091f056cd
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Fri Jan 3 12:40:13 2020 -0600
+
+    BUG make sure to make the prefix
+
+commit b101599104a523d9329c30ef3cadadaca73d7559
+Merge: 3e60aa9 8110e18
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Fri Jan 3 12:34:15 2020 -0600
+
+    Merge branch 'swap-openmp' of https://github.com/beckermr/openmp-feedstock into swap-openmp
+
+commit 3e60aa955b7390fc026bfe5bde493c5a03086b66
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Fri Jan 3 12:33:55 2020 -0600
+
+    ENH try link scripts
+
+commit def425108754f8fa7c9fc204553dbf45b4737f6a
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Jan 2 07:53:36 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2019.12.18
+
+commit 92813a6af633a93c088b95d419ec492f5ed595b9
+Author: Chris Burr <chrisburr@users.noreply.github.com>
+Date:   Thu Jan 2 07:52:20 2020 +0000
+
+    Update to 9.0.1
+
+commit 8110e18a59c7a0008310d49bed8fe8a92a9707fb
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Wed Jan 1 17:05:55 2020 -0600
+
+    Update build-openmp_impl.sh
+
+commit 8bca6bd94889d24aa3146a7b32d1d76211c6fb59
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Wed Jan 1 12:41:18 2020 -0600
+
+    do not need the global about
+
+commit 989c73b5f72b11509600ac01f4880ce8a1e3c8da
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Wed Jan 1 12:40:41 2020 -0600
+
+    fix more lint
+
+commit c045bad18084790a4980748f3f8f8f7689dd4a4d
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Wed Jan 1 12:40:20 2020 -0600
+
+    fix the lint
+
+commit 9f5214df753f05d0ba56161f4e16ecebd60c8f0b
+Merge: 6327bfe e53136a
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Wed Jan 1 12:14:37 2020 -0600
+
+    Merge branch 'swap-openmp' of https://github.com/beckermr/openmp-feedstock into swap-openmp
+
+commit 6327bfe1f03e8aeabced2ee7dbfd244d642c2001
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Wed Jan 1 12:14:32 2020 -0600
+
+    TST only test shim on linux
+
+commit 4dcc6d2e3df50766f0d22ace10812bdc33ae0c62
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Wed Jan 1 12:13:48 2020 -0600
+
+    ENH reverse deps
+
+commit e53136ab3bd860c20c696876bf5db8d1f2bc8b86
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Wed Jan 1 11:42:33 2020 -0600
+
+    Update build-openmp_impl.sh
+
+commit 81ef0c3adc86a6bb3efd2d6e8de33d2ec18fe951
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Wed Jan 1 11:33:25 2020 -0600
+
+    Update build-openmp_impl.sh
+
+commit dcc910f3b8a23b2b334f93fda9f2a3d83386ef5f
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Wed Jan 1 11:24:09 2020 -0600
+
+    use full path for clairty
+
+commit 09f78370f492b4095b811456d615b5bd899441d3
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Wed Jan 1 11:02:56 2020 -0600
+
+    not sure what is going on here
+
+commit 5ebc94dfe27dc8a7161a323db927e70f7fafeb12
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Wed Jan 1 10:55:23 2020 -0600
+
+    try this?
+
+commit 3cffafbd7fe2b346defc230130d69ba87bdd7457
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Wed Jan 1 10:49:29 2020 -0600
+
+    try this
+
+commit 7e5951d8aa2e6eed243123fad9edb482280458b6
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Wed Jan 1 10:43:50 2020 -0600
+
+    BUG linux only again
+
+commit d8cd7b92c2e0ef119e76646adc5c1a954d24b75c
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Wed Jan 1 10:35:45 2020 -0600
+
+    BUG wrong dep order
+
+commit bbce89085ee271f97529868f3b6d39c29607553c
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Wed Jan 1 10:29:22 2020 -0600
+
+    Make sure this works
+
+commit c128ca832ae78741c62a47d81fc5f00d687ce336
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Wed Jan 1 10:22:22 2020 -0600
+
+    BUG linux only duh
+
+commit d44e0395a4c0d4d08870bff4347ae4bc65015a14
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Wed Jan 1 10:15:08 2020 -0600
+
+    unix only, better tests
+
+commit fa613d0850f070b894b78cbbe24c75070f1c5e05
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Wed Jan 1 10:09:48 2020 -0600
+
+    more output for debugging
+
+commit 1825a9ff51b941abf936cc52bc30546c930c9c87
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Wed Jan 1 10:08:38 2020 -0600
+
+    add tests
+
+commit e2f230e1f04c4163e3318612f576169b5def23d6
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Wed Jan 1 09:59:22 2020 -0600
+
+    BUG fix build string
+
+commit 89b66cf659b40dac742309c27f277154a7c91550
+Merge: 031c40c 580415a
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Wed Jan 1 09:52:37 2020 -0600
+
+    Merge branch 'swap-openmp' of https://github.com/beckermr/openmp-feedstock into swap-openmp
+
+commit 031c40cb2f9768685ed066f8e46aed5744d0d8ec
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Wed Jan 1 09:52:32 2020 -0600
+
+    BUG fix lib ext and get build string right?
+
+commit 580415a20919f15888dcb77c9e01d3a7f1460e5b
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Jan 1 15:42:53 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2019.12.18
+
+commit 32b3e1d688078289c577d49da3d70ee4c78c2643
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Wed Jan 1 09:41:41 2020 -0600
+
+    ENH bump the build number
+
+commit 287236f2aeacf18e41ef54e4f2bcad5aac73f659
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Wed Jan 1 09:40:14 2020 -0600
+
+    ENH make openmp swapable
+
+commit 0ca4745c3a8ec1efa2f2de1c55503293cb559462
+Merge: f0bb8c0 8d9b679
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Sep 22 22:45:54 2019 -0500
+
+    Merge pull request #25 from isuruf/9.0.0
+    
+    9.0.0
+
+commit 8d9b67913ea884541d2dc9604ade86c9df4eb5d8
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Sep 23 03:29:11 2019 +0000
+
+    Use bootstrap
+
+commit 8d35cfda3045a0bd8ca4506d23d6e5ee9e89bd29
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Sep 23 03:28:45 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.8, and conda-forge-pinning 2019.09.08
+
+commit 523571fbb40a89311dfa95223d7b3bdb4360136b
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Sep 23 03:15:34 2019 +0000
+
+    Fix for linter
+
+commit 50cc5104fab3d9e17a1f7e7869d865e09a5a5962
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Sep 23 03:14:06 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.8, and conda-forge-pinning 2019.09.08
+
+commit 0128feac62effba36ce4591d22595bf623242286
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Sep 23 03:13:44 2019 +0000
+
+    Update to 9.0.0
+
+commit f0bb8c0834630cc2fa7a51bc0dba31f0ebdf395b
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 19:18:27 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit 73e103115ef4569945c43d0d72e54a979aa634fe
+Merge: 201931a e1f1d45
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Aug 19 15:43:27 2019 -0500
+
+    Merge pull request #23 from isuruf/8.0.1
+    
+    Update to 8.0.1
+
+commit e1f1d459f01cff72670c3b7bd183cc25d571c9d9
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Aug 19 08:24:54 2019 -0500
+
+    Update to 8.0.1
+
+commit 201931ad9e143a9677845ab2268fefacdf8869cb
+Merge: 9a73324 b5ca55d
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Aug 12 14:19:55 2019 -0500
+
+    Merge pull request #22 from isuruf/D65714
+    
+    Use D65714
+
+commit b5ca55d7d9f465427127cb899b743a41a9f6ba22
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Aug 12 13:44:12 2019 -0500
+
+    Add run_exports
+
+commit 3efb34d55b7b52cd3203791570d5487768f49e2a
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Aug 12 13:17:52 2019 -0500
+
+    update patch
+
+commit 8611558a639dd0c5a6a35a6a320eea67008d020f
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Aug 12 12:52:27 2019 -0500
+
+    Use D65714
+
+commit 9a73324e9bcd014e372e00a6d1aba6be48c8b061
+Merge: 8830015 d2c7fdb
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 10 13:06:05 2019 -0500
+
+    Merge pull request #20 from regro-cf-autotick-bot/8.0.0
+    
+    openmp v8.0.0
+
+commit d2c7fdbe544d4ab7f3ebe8c651b7d8aa5db97e3a
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 10 01:13:38 2019 -0500
+
+    Fix windows build
+
+commit 089971546317d42d0deb7204ea4c42a27278df31
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 10 01:09:29 2019 -0500
+
+    Fix CPPFLAGS for linux
+
+commit 7a59c51741c646a0aa9f3099a2619a55d6437987
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 10 00:58:53 2019 -0500
+
+    Add llvm-openmp output
+
+commit ab2a8eee39c82b5ea1cd452e87d28015dfc1cb18
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 10 00:53:42 2019 -0500
+
+    Fix CPPFLAGS
+
+commit 19bab89a67e37397883992a054a1cfdad3b6ba75
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 10 00:52:30 2019 -0500
+
+    Need compiler on linux
+
+commit fa56be91e30701275d42c486f747e01e197800ad
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 10 00:32:13 2019 -0500
+
+    Add run_constrained
+
+commit 66374ff02f7ecf3ae4ea7d18571e88965dd18318
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Mar 20 10:34:28 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.0, and conda-forge-pinning 2019.03.17
+
+commit a74197fb21b0e085db6f0c0c26507db215635268
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Mar 20 10:34:16 2019 +0000
+
+    updated v8.0.0
+
+commit 883001586da92777d5917227cbc61e2550a3ad4c
+Merge: abdff0e e10bff4
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Oct 14 12:16:21 2018 -0500
+
+    Merge pull request #13 from regro-cf-autotick-bot/7.0.0
+    
+    openmp v7.0.0
+
+commit e10bff4bc00ba2ce4f29a130d4368bf992aaa8e5
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Oct 5 01:15:49 2018 -0500
+
+    Update meta.yaml
+
+commit 728bf2d54c9421814de102569407d1c1aa46087f
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Oct 5 01:13:07 2018 -0500
+
+    Need compiler for tests
+
+commit ad2efaca82d2a94ca2a21373846ec62f6e1e1ef7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 19 10:10:05 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.17
+
+commit 367d26acbd1c5da64cda3d8e3d9aebf7392bacb2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 19 10:09:58 2018 +0000
+
+    updated v7.0.0
+
+commit abdff0e4e6749e0568e8d1cafe4424c0f1b2c91b
+Merge: 65aa3d2 256ffe3
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Aug 10 23:37:17 2018 -0400
+
+    Merge pull request #10 from regro-cf-autotick-bot/6.0.1
+    
+    openmp v6.0.1
+
+commit 256ffe3b4400b850fd22cce952154580ac4d4177
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Aug 10 23:21:15 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 3.1.10 and pinning 2018.08.05
+    
+    Now that the new `compiler` syntax is in use, re-render to upgrade the
+    CIs accordingly. This also brings back Windows.
+
+commit 4bb1a709051ab01ccdfb92ade409e67061599af7
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Aug 10 23:20:04 2018 -0400
+
+    Upgrade `openmp` to use the new `compiler` syntax
+
+commit c7cd8bcf4a69210103a6896730e903c88808dd5b
+Merge: c5b7e2f 65aa3d2
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Aug 10 23:14:24 2018 -0400
+
+    Merge branch 'conda-forge/master' into 'regro-cf-autotick-bot/6.0.1'
+
+commit c5b7e2f0bf97ff9c0e2b8ac07965f743650e1522
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Aug 11 03:10:51 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.10 and pinning 2018.08.05
+
+commit 65aa3d2af40a2ec4ff19f8cbf17152675794e124
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 19:31:26 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit e69201e49dd80353003c6fd432291017849a5ca1
+Merge: d2685ba 87c3c91
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Jul 30 08:36:21 2018 -0300
+
+    Merge pull request #12 from regro-cf-autotick-bot/pinning
+    
+    Suggestion: remove version pinnings
+
+commit 87c3c912665f81b9ba91114f4e737c51b132b183
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jul 25 20:23:00 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.8 and pinning 2018.07.20
+
+commit 1cd9f7b3e13c97cc2eadf79adcb746876fa5daae
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jul 25 20:22:55 2018 +0000
+
+    remove version pinnings
+
+commit 664792f41ff61005529abdfeb3e24216675acc10
+Author: Travis CI User <travis@example.org>
+Date:   Fri Jun 29 07:07:39 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.06.28
+
+commit 48e442e78d44486001d4e56f8831474d98edd84f
+Author: Travis CI User <travis@example.org>
+Date:   Fri Jun 29 07:07:32 2018 +0000
+
+    updated v6.0.1
+
+commit d2685ba0dfb3944459860f9ce78f627848a11f53
+Merge: aa52e79 42191a3
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri May 25 23:13:19 2018 -0400
+
+    Merge pull request #9 from dhirschfeld/patch-1
+    
+    Don't clobber libiomp5md.dll
+
+commit 42191a3c1c78515481cc7c2a1ac23f44e040fe05
+Author: Dave Hirschfeld <dave.hirschfeld@gmail.com>
+Date:   Wed May 16 22:12:10 2018 +1000
+
+    Delete dll from lib directory
+
+commit 518c2165fc71872fc11c8e1a4963c8c3b6e8cdba
+Author: Dave Hirschfeld <dave.hirschfeld@gmail.com>
+Date:   Wed May 16 19:42:05 2018 +1000
+
+    Bump build number
+
+commit ebb6dd326bc26ded73092376ea84ea4a6291f157
+Author: Dave Hirschfeld <dave.hirschfeld@gmail.com>
+Date:   Wed May 16 16:27:19 2018 +1000
+
+    Remove superfluous binaries (on *nix)
+
+commit 1cbba5f5c73d2341a6a84b8f90b33c5e2164ed72
+Author: Dave Hirschfeld <dave.hirschfeld@gmail.com>
+Date:   Wed May 16 16:14:18 2018 +1000
+
+    Don't clobber libiomp5md.dll (on Windows)
+
+commit aa52e799b2b2260b44a6c5e71dcc368e498391a1
+Merge: 42656f7 97ec406
+Author: Andreas Klöckner <inform@tiker.net>
+Date:   Sat Mar 10 16:01:28 2018 -0600
+
+    Merge pull request #7 from inducer/master
+    
+    LLVM 6.0
+
+commit 97ec4065657f281bdcdf346c3af1dd0b9fa71375
+Author: Andreas Kloeckner <inform@tiker.net>
+Date:   Sat Mar 10 13:44:56 2018 -0600
+
+    LLVM 6.0
+
+commit 42656f7db3d77c6bfa65ca1ce38a791cbecf7d77
+Merge: aa2cfa5 41cb50b
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Feb 19 16:07:35 2018 -0600
+
+    Merge pull request #6 from xoviat/update-requirements
+    
+    Update requirements
+
+commit 41cb50b29c88d32e10c1c84f64edf7f47f256ad1
+Author: xoviat <xoviat@users.noreply.github.com>
+Date:   Sun Feb 18 16:39:56 2018 -0600
+
+    Add clangdev to test requirements
+    
+    Note: partly testing llvm-meta functionality
+
+commit d5b3bbd8d6d6e772b125e6d8c25ff2eb2a456076
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Feb 18 22:28:41 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit 8129741ff7d8baa7b73b0fa9c14ad5b0cbb82568
+Author: xoviat <xoviat@users.noreply.github.com>
+Date:   Sun Feb 18 16:26:13 2018 -0600
+
+    Meta: add ninja to requirements
+
+commit 8059747f71e0cf7f52456e83958f79d249377d48
+Author: xoviat <xoviat@users.noreply.github.com>
+Date:   Sun Feb 18 16:25:46 2018 -0600
+
+    build: use ninja
+
+commit 1e51e2125b36819f69d6f8d209c0a055fe1b253c
+Author: xoviat <xoviat@users.noreply.github.com>
+Date:   Sun Feb 18 16:24:45 2018 -0600
+
+    meta: update requirements
+
+commit aa2cfa53679f614664a909ee1396e060cd104ccb
+Merge: 9069e68 13bde6f
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Nov 8 00:18:49 2017 -0600
+
+    Merge pull request #4 from isuruf/update
+    
+    Update to 5.0.0
+
+commit 13bde6f594e90dc7713473eb4501efea6c9fbf76
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Nov 7 14:04:55 2017 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.2
+
+commit a2866ea5dda940cdc3347e5909b5fc68b62701ff
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Nov 7 08:01:52 2017 -0600
+
+    Skip python 2.7 on windows
+
+commit e1ddb4202a53e7b0eda50dbd55bd5bd9b263de85
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Nov 7 02:11:52 2017 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.2
+
+commit 8b7b19e0de556211af40cdc3a48942e6bcef8d58
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Nov 6 20:00:00 2017 -0600
+
+    Update to 5.0.0
+
+commit 9069e68b1094ad1409207bf1e6cb6e2326053903
+Merge: 19490e0 4d93780
+Author: Andreas Klöckner <inform@tiker.net>
+Date:   Mon Nov 6 19:22:35 2017 -0600
+
+    Merge pull request #2 from isuruf/patch-1
+    
+    Relax runtime requirments
+
+commit 4d937809a19614dccc1f167146f3e942aed4588e
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Oct 29 15:26:35 2017 -0500
+
+    Relax runtime requirments
+    
+    This changes `clangdev 4.0.0` to `clangdev 4.0.0|4.0.0.*`
+
+commit 19490e0d2f043e318e6140e9b831c0eb9010b114
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 22:01:56 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit ee2b3ca0d11b554ccc9cc9f9872f5c8c88b48565
+Merge: 1f28131 43201d3
+Author: Andreas Klöckner <inform@tiker.net>
+Date:   Sun Jul 16 17:59:17 2017 -0500
+
+    Merge pull request #1 from jakirkham/add_jakirkham
+    
+    Add @jakirkham [ci skip]
+
+commit 43201d35f48ef88fdf8623f0960e72ec8953be75
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Jul 16 18:05:05 2017 -0400
+
+    Add @jakirkham
+    
+    [ci skip]
+
+commit 1f28131e4fbb02c6f2d97aeb24b3c4ed13e30172
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Jul 15 00:09:28 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 761a90ef7daaeafbccfc777b6df6615b8ae5b089
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Jul 15 00:08:12 2017 +0000
+
+    Initial feedstock commit with conda-smithy 2.3.2.

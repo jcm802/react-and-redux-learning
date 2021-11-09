@@ -1,0 +1,59 @@
+commit b9dd8675004d8929e70dfc9a276858774ff47384
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:27:02 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit f49decb2fce1b26b9bfdcb0683ed76c078b73ecb
+Merge: dbb4501 93f8933
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sat Jul 14 15:42:41 2018 -0500
+
+    Merge pull request #5 from regro-cf-autotick-bot/noarch_migration
+    
+    Suggestion: add noarch
+
+commit 93f893380a8b9748c37bc9800982d2b58a91f38f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jul 7 14:23:01 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.01
+
+commit 7f235d5929cb02852c12d9e04182f7805c1cf956
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jul 7 14:22:42 2018 +0000
+
+    add noarch
+
+commit dbb4501d44a3a6dca28ea47c23545ff49eb7a96a
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 20:17:00 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 3c1a5e7b922247dc37c05d662694747bbf47d148
+Merge: c9137f5 b666965
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Apr 18 18:59:39 2017 -0400
+
+    Merge pull request #3 from lexual/py36
+    
+    MNT: Re-rendered with conda-smithy 2.2.2
+
+commit b666965b77b4d92a783b3bf4574cfbe1e438df83
+Author: lexual <lex.hider@bom.gov.au>
+Date:   Sun Apr 9 08:29:39 2017 +1000
+
+    MNT: Re-rendered with conda-smithy 2.2.2
+
+commit c9137f5be8a3634f9dce44cb03b306421f57e9d5
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Aug 23 04:06:51 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 96051619c2d990be370f5e4397102c00e833749e
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Aug 23 04:05:15 2016 +0000
+
+    Initial commit of the pathtools feedstock.

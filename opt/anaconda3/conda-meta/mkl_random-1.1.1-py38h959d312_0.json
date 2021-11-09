@@ -1,0 +1,72 @@
+{
+  "build": "py38h959d312_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=10.0.0",
+    "mkl >=2019.4,<2020.0a0",
+    "mkl-service >=2,<3.0a0",
+    "numpy >=1.14,<2.0a0",
+    "python >=3.8,<3.9.0a0",
+    "blas * mkl"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/mkl_random-1.1.1-py38h959d312_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/mkl_random-1.1.1.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/mkl_random-1.1.1.dist-info/LICENSE.txt",
+    "lib/python3.8/site-packages/mkl_random-1.1.1.dist-info/METADATA",
+    "lib/python3.8/site-packages/mkl_random-1.1.1.dist-info/RECORD",
+    "lib/python3.8/site-packages/mkl_random-1.1.1.dist-info/WHEEL",
+    "lib/python3.8/site-packages/mkl_random-1.1.1.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/mkl_random/__init__.py",
+    "lib/python3.8/site-packages/mkl_random/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/mkl_random/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/mkl_random/__pycache__/setup.cpython-38.pyc",
+    "lib/python3.8/site-packages/mkl_random/_version.py",
+    "lib/python3.8/site-packages/mkl_random/mkl_distributions.h",
+    "lib/python3.8/site-packages/mkl_random/mklrand.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/mkl_random/randomkit.h",
+    "lib/python3.8/site-packages/mkl_random/setup.py",
+    "lib/python3.8/site-packages/mkl_random/tests/__init__.py",
+    "lib/python3.8/site-packages/mkl_random/tests/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/mkl_random/tests/__pycache__/test_random.cpython-38.pyc",
+    "lib/python3.8/site-packages/mkl_random/tests/__pycache__/test_regression.cpython-38.pyc",
+    "lib/python3.8/site-packages/mkl_random/tests/test_random.py",
+    "lib/python3.8/site-packages/mkl_random/tests/test_regression.py"
+  ],
+  "fn": "mkl_random-1.1.1-py38h959d312_0.conda",
+  "legacy_bz2_md5": "62b3aac5796665dc0f7b3b38a925d319",
+  "legacy_bz2_size": 344922,
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/mkl_random-1.1.1-py38h959d312_0",
+    "type": 1
+  },
+  "md5": "625f1b65b2bb407c7e1f4a768ab1933d",
+  "name": "mkl_random",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/mkl_random-1.1.1-py38h959d312_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/mkl_random/mklrand.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/6b5dfc3f-6535-4b1b-6dc6-275d26fb6e1d/volume/mkl_random_1590533915325/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "313510b8036c4a1ccf62383c58e9386aec729c66e2436d8219288f6ea1073705",
+        "sha256_in_prefix": "6f1811bb8f7dd1b9d8f10d2d9c004553daceb694e6e2f05327d6bf7acd72b071",
+        "size_in_bytes": 971892
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "mkl_random==1.1.1=py38h959d312_0",
+  "sha256": "c8f8cbd7e0f03dad090e1dc87e83927b99aec8f42f61b3e0a0343db8886d2d10",
+  "size": 297332,
+  "subdir": "osx-64",
+  "timestamp": 1590534019534,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/mkl_random-1.1.1-py38h959d312_0.conda",
+  "version": "1.1.1"
+}

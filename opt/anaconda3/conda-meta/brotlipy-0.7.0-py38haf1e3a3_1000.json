@@ -1,0 +1,61 @@
+{
+  "build": "py38haf1e3a3_1000",
+  "build_number": 1000,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "cffi >=1.0.0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/brotlipy-0.7.0-py38haf1e3a3_1000",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/brotli/__init__.py",
+    "lib/python3.8/site-packages/brotli/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/brotli/__pycache__/brotli.cpython-38.pyc",
+    "lib/python3.8/site-packages/brotli/__pycache__/build.cpython-38.pyc",
+    "lib/python3.8/site-packages/brotli/_brotli.abi3.so",
+    "lib/python3.8/site-packages/brotli/brotli.py",
+    "lib/python3.8/site-packages/brotli/build.py",
+    "lib/python3.8/site-packages/brotlipy-0.7.0-py3.8.egg-info/PKG-INFO",
+    "lib/python3.8/site-packages/brotlipy-0.7.0-py3.8.egg-info/SOURCES.txt",
+    "lib/python3.8/site-packages/brotlipy-0.7.0-py3.8.egg-info/dependency_links.txt",
+    "lib/python3.8/site-packages/brotlipy-0.7.0-py3.8.egg-info/not-zip-safe",
+    "lib/python3.8/site-packages/brotlipy-0.7.0-py3.8.egg-info/requires.txt",
+    "lib/python3.8/site-packages/brotlipy-0.7.0-py3.8.egg-info/top_level.txt"
+  ],
+  "fn": "brotlipy-0.7.0-py38haf1e3a3_1000.conda",
+  "legacy_bz2_md5": "9c8345e34263e3abecc1149e025ad2d7",
+  "legacy_bz2_size": 365590,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/brotlipy-0.7.0-py38haf1e3a3_1000",
+    "type": 1
+  },
+  "md5": "180ab13ea522790b4ecaa3f7be13538b",
+  "name": "brotlipy",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/brotlipy-0.7.0-py38haf1e3a3_1000.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/brotli/_brotli.abi3.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/4531901b-56dd-49df-6c31-61b876385131/volume/brotlipy_1591177714468/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "f601e4cacddc1921d19b0b5cf597079920ce549877e0f2d56fffeebbdaa6b0ce",
+        "sha256_in_prefix": "250bfdc8dbc5ca5e5a7f67d448a93d9e809bec94cc1b9bd021d44688982a050e",
+        "size_in_bytes": 783168
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "brotlipy==0.7.0=py38haf1e3a3_1000",
+  "sha256": "7466b393418def612c8ec5d3a5700d823bea066ad102938bd3b061ba5d578d57",
+  "size": 338986,
+  "subdir": "osx-64",
+  "timestamp": 1591177802682,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/brotlipy-0.7.0-py38haf1e3a3_1000.conda",
+  "version": "0.7.0"
+}

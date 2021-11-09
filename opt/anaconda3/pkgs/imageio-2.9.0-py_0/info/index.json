@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "numpy",
+    "pillow",
+    "python >=3"
+  ],
+  "license": "BSD-2-Clause",
+  "name": "imageio",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1594161436370,
+  "version": "2.9.0"
+}

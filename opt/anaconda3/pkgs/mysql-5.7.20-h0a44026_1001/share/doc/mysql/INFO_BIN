@@ -1,0 +1,79 @@
+===== Information about the build process: =====
+Build was run at 2018-10-26 13:41:17 on host 'static.162.252.209.113.cyberlynk.net'
+
+Build was done on  Darwin-16.7.0 using x86_64
+Build was done using cmake 3.12.3 
+
+===== Compiler flags used (from the 'sql/' subdirectory): =====
+# compile C with /opt/anaconda1anaconda2anaconda3/bin/x86_64-apple-darwin13.4.0-clang
+# compile CXX with /opt/anaconda1anaconda2anaconda3/bin/x86_64-apple-darwin13.4.0-clang++
+C_FLAGS = -march=core2 -Wall -Wextra -Wformat-security -Wvla -Wwrite-strings -Wdeclaration-after-statement -O3 -DNDEBUG -DDBUG_OFF -isysroot /Applications/Xcode-9.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -mmacosx-version-min=10.9   -DHAVE_YASSL -DYASSL_PREFIX -DHAVE_OPENSSL -DMULTI_THREADED
+C_DEFINES = -DHAVE_CONFIG_H -DHAVE_LIBEVENT1 -DHAVE_REPLICATION -DMYSQL_SERVER -D_FORTIFY_SOURCE=2
+C_INCLUDES = -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/build/include -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/extra/rapidjson/include -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/build/libbinlogevents/include -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/libbinlogevents/export -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/include -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/sql/conn_handler -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/libbinlogevents/include -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/sql -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/sql/auth -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/regex -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/zlib -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/extra/yassl/include -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/extra/yassl/taocrypt/include -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/build/sql -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/extra/lz4 
+CXX_FLAGS = -fpermissive -Wall -Wextra -Wformat-security -Wvla -Woverloaded-virtual -Wno-unused-parameter -Wno-null-conversion -Wno-unused-private-field -O3 -DNDEBUG -DDBUG_OFF -isysroot /Applications/Xcode-9.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -mmacosx-version-min=10.9   -DHAVE_YASSL -DYASSL_PREFIX -DHAVE_OPENSSL -DMULTI_THREADED
+CXX_DEFINES = -DHAVE_CONFIG_H -DHAVE_LIBEVENT1 -DHAVE_REPLICATION -DMYSQL_SERVER -D_FORTIFY_SOURCE=2
+CXX_INCLUDES = -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/build/include -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/extra/rapidjson/include -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/build/libbinlogevents/include -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/libbinlogevents/export -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/include -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/sql/conn_handler -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/libbinlogevents/include -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/sql -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/sql/auth -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/regex -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/zlib -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/extra/yassl/include -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/extra/yassl/taocrypt/include -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/build/sql -I/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/extra/lz4 
+
+Pointer size: 8
+
+===== Feature flags used: =====
+-- Cache values
+BOOST_INCLUDE_DIR:PATH=/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/build/bundled/boost_1_59_0
+BUNDLE_MECAB:BOOL=ON
+CMAKE_BUILD_TYPE:STRING=Release
+CMAKE_INSTALL_PREFIX:PATH=/opt/anaconda1anaconda2anaconda3
+CMAKE_OSX_ARCHITECTURES:STRING=
+CMAKE_OSX_DEPLOYMENT_TARGET:STRING=10.9
+CMAKE_OSX_SYSROOT:PATH=/Applications/Xcode-9.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+COMMUNITY_BUILD:BOOL=ON
+CORESERVICES:FILEPATH=/Applications/Xcode-9.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework
+DOWNLOAD_BOOST:BOOL=1
+DOWNLOAD_BOOST_TIMEOUT:STRING=600
+ENABLED_PROFILING:BOOL=ON
+ENABLE_DTRACE:BOOL=ON
+ENABLE_GCOV:BOOL=OFF
+ENABLE_GPROF:BOOL=OFF
+ENABLE_MEMCACHED_SASL:BOOL=OFF
+ENABLE_MEMCACHED_SASL_PWDB:BOOL=OFF
+FEATURE_SET:STRING=community
+INSTALL_LAYOUT:STRING=STANDALONE
+INSTALL_PKGCONFIGDIR:PATH=
+LOCAL_BOOST_DIR:PATH=LOCAL_BOOST_DIR-NOTFOUND
+MUTEXTYPE:STRING=event
+MYSQL_DATADIR:PATH=/opt/anaconda1anaconda2anaconda3/data
+MYSQL_KEYRINGDIR:PATH=/opt/anaconda1anaconda2anaconda3/keyring
+MYSQL_MAINTAINER_MODE:BOOL=OFF
+OPTIMIZER_TRACE:BOOL=ON
+TMPDIR:PATH=P_tmpdir
+WITH_ARCHIVE_STORAGE_ENGINE:BOOL=ON
+WITH_ASAN:BOOL=OFF
+WITH_BLACKHOLE_STORAGE_ENGINE:BOOL=ON
+WITH_BOOST:PATH=/Users/distiller/miniconda3/conda-bld/mysql_1540583388549/work/build/bundled
+WITH_CLIENT_PROTOCOL_TRACING:BOOL=ON
+WITH_DEBUG:BOOL=OFF
+WITH_DEFAULT_COMPILER_OPTIONS:BOOL=ON
+WITH_DEFAULT_FEATURE_SET:BOOL=ON
+WITH_EMBEDDED_SERVER:BOOL=ON
+WITH_EMBEDDED_SHARED_LIBRARY:BOOL=OFF
+WITH_EXTRA_CHARSETS:STRING=all
+WITH_FEDERATED_STORAGE_ENGINE:BOOL=ON
+WITH_INNODB_EXTRA_DEBUG:BOOL=OFF
+WITH_INNODB_MEMCACHED:BOOL=OFF
+WITH_LIBEVENT:STRING=bundled
+WITH_LIBWRAP:BOOL=OFF
+WITH_LZ4:STRING=bundled
+WITH_MECAB:STRING=
+WITH_MSAN:BOOL=OFF
+WITH_NGRAM_PARSER:BOOL=ON
+WITH_NUMA:BOOL=OFF
+WITH_PARTITION_STORAGE_ENGINE:BOOL=ON
+WITH_RAPID:BOOL=ON
+WITH_SSL:STRING=bundled
+WITH_TEST_TRACE_PLUGIN:BOOL=OFF
+WITH_UBSAN:BOOL=OFF
+WITH_UNIT_TESTS:BOOL=OFF
+WITH_VALGRIND:BOOL=OFF
+WITH_ZLIB:STRING=bundled
+XPLUGIN_LOG_PROTOBUF:STRING=1
+
+===== EOF =====

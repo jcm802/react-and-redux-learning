@@ -1,0 +1,13 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.8/site-packages/lief.cpython-38-darwin.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/bd5268bb-a94e-46e8-44ea-4c8d7cfeed86/volume/lief_1588591056343/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "a42614dc0d4a88912e20260a88838583b26b609321b35351f50e7e6053febcf5",
+      "size_in_bytes": 9501648
+    }
+  ],
+  "paths_version": 1
+}

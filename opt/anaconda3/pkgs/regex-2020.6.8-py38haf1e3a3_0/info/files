@@ -1,0 +1,15 @@
+lib/python3.8/site-packages/regex-2020.6.8.dist-info/INSTALLER
+lib/python3.8/site-packages/regex-2020.6.8.dist-info/METADATA
+lib/python3.8/site-packages/regex-2020.6.8.dist-info/RECORD
+lib/python3.8/site-packages/regex-2020.6.8.dist-info/WHEEL
+lib/python3.8/site-packages/regex-2020.6.8.dist-info/direct_url.json
+lib/python3.8/site-packages/regex-2020.6.8.dist-info/top_level.txt
+lib/python3.8/site-packages/regex/__init__.py
+lib/python3.8/site-packages/regex/__pycache__/__init__.cpython-38.pyc
+lib/python3.8/site-packages/regex/__pycache__/_regex_core.cpython-38.pyc
+lib/python3.8/site-packages/regex/__pycache__/regex.cpython-38.pyc
+lib/python3.8/site-packages/regex/__pycache__/test_regex.cpython-38.pyc
+lib/python3.8/site-packages/regex/_regex.cpython-38-darwin.so
+lib/python3.8/site-packages/regex/_regex_core.py
+lib/python3.8/site-packages/regex/regex.py
+lib/python3.8/site-packages/regex/test_regex.py

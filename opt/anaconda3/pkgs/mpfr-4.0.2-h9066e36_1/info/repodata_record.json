@@ -1,0 +1,23 @@
+{
+  "build": "h9066e36_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "gmp >=6.1.2"
+  ],
+  "features": "",
+  "fn": "mpfr-4.0.2-h9066e36_1.conda",
+  "legacy_bz2_md5": "083ab8a04e706f95d97e79de976540fb",
+  "legacy_bz2_size": 607328,
+  "license": "LGPL-3.0-only",
+  "md5": "d29a69b33895ee96e98d53d55287e985",
+  "name": "mpfr",
+  "sha256": "cbc4e6e5ce29f36f49a8217328ff614bbef40f1df9655676a162c8d0c864f051",
+  "size": 443215,
+  "subdir": "osx-64",
+  "timestamp": 1593117609730,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/mpfr-4.0.2-h9066e36_1.conda",
+  "version": "4.0.2"
+}

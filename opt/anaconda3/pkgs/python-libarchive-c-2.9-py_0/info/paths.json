@@ -1,0 +1,89 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/libarchive/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "d916c147a6ee3e2c99737a61c46dc20b84439c74a7527b30fb8589dd84b880d9",
+      "size_in_bytes": 545
+    },
+    {
+      "_path": "site-packages/libarchive/entry.py",
+      "path_type": "hardlink",
+      "sha256": "2770b770d911d537154d6b729416771a7ad21464cf2178768acee2442dd5edb4",
+      "size_in_bytes": 5207
+    },
+    {
+      "_path": "site-packages/libarchive/exception.py",
+      "path_type": "hardlink",
+      "sha256": "5162aedd613b4cf1a32bb21b42e05202888a2f43e42d86d0ca3e2a7f4f6c6855",
+      "size_in_bytes": 437
+    },
+    {
+      "_path": "site-packages/libarchive/extract.py",
+      "path_type": "hardlink",
+      "sha256": "26849651ab8cf4f8274f8c3a47e733e178cef3dfc5dd35efbf44e9197715d465",
+      "size_in_bytes": 2375
+    },
+    {
+      "_path": "site-packages/libarchive/ffi.py",
+      "path_type": "hardlink",
+      "sha256": "5d4aca9ae8cc91ab286f68c0ccd108ed551e0429b63b05db8d47c143feeed3b7",
+      "size_in_bytes": 10265
+    },
+    {
+      "_path": "site-packages/libarchive/flags.py",
+      "path_type": "hardlink",
+      "sha256": "57954fa9f5c86d87fd995337dd4ae25d3e01a03984ca8de810d3ce83843446b2",
+      "size_in_bytes": 211
+    },
+    {
+      "_path": "site-packages/libarchive/read.py",
+      "path_type": "hardlink",
+      "sha256": "69569dabce56f8aa6c14c23023c0fd431be06a655bc45b8116d993cab6788a7e",
+      "size_in_bytes": 4094
+    },
+    {
+      "_path": "site-packages/libarchive/write.py",
+      "path_type": "hardlink",
+      "sha256": "3fa95bde562cdf5e58fa862842cfa7bf7096496c5f3a1524883e3120d1e2243d",
+      "size_in_bytes": 8218
+    },
+    {
+      "_path": "site-packages/libarchive_c-2.9.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/libarchive_c-2.9.dist-info/LICENSE.md",
+      "path_type": "hardlink",
+      "sha256": "bd1a963f2c77481f0a658b5fa7fe77c2515e73be3972f1e991741b72f6fd7d31",
+      "size_in_bytes": 51
+    },
+    {
+      "_path": "site-packages/libarchive_c-2.9.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "54e76f75ab8358ab516e46e215f497116e7e24cd25cfec8ba456873301ea1fc3",
+      "size_in_bytes": 2343
+    },
+    {
+      "_path": "site-packages/libarchive_c-2.9.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "ce54b32404e4f0086a2c4b01e204a6167eb08b1e40001541b5ef69476379c345",
+      "size_in_bytes": 1501
+    },
+    {
+      "_path": "site-packages/libarchive_c-2.9.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "site-packages/libarchive_c-2.9.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "e932b801d70f378801d141e8eba1fb70618948539a1cea38c7463fe074a404fa",
+      "size_in_bytes": 11
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,25 @@
+{
+  "build": "py38hb1e8313_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "zeromq >=4.3.2,<4.4.0a0"
+  ],
+  "features": "",
+  "fn": "pyzmq-19.0.1-py38hb1e8313_1.conda",
+  "legacy_bz2_md5": "d89fdf489be31ecfc1bdbaad4b7d2055",
+  "legacy_bz2_size": 484851,
+  "license": "BSD 3-clause",
+  "license_family": "BSD",
+  "md5": "42ffe178fa6719d01617d760aeef3216",
+  "name": "pyzmq",
+  "sha256": "f2472098dda17aa5279fdc0f54f35c9cea7febf7991aab0cb82be30e65a58a3e",
+  "size": 428722,
+  "subdir": "osx-64",
+  "timestamp": 1593033430364,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pyzmq-19.0.1-py38hb1e8313_1.conda",
+  "version": "19.0.1"
+}

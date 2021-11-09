@@ -1,0 +1,61 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/de518564-0d9f-405e-472b-38136f0c2169/volume/pull-recipes-pathlib2/recipe, last modified Fri Jul 10 06:35:58 2020
+# ------------------------------------------------
+
+package:
+    name: pathlib2
+    version: 2.3.5
+source:
+    sha256: 6cd9a47b597b37cc57de1c05e56fb1a1c9cc9fab04fe78c29acd090418529868
+    url: https://pypi.io/packages/source/p/pathlib2/pathlib2-2.3.5.tar.gz
+build:
+    number: '1'
+    script: /opt/concourse/worker/volumes/live/de518564-0d9f-405e-472b-38136f0c2169/volume/pathlib2_1594381084269/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/bin/python
+        -m pip install . --no-deps --ignore-installed -vv
+    string: py38_1
+requirements:
+    host:
+        - ca-certificates 2020.6.24 0
+        - certifi 2020.6.20 py38_0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 haf1e3a3_0
+        - libffi 3.3 hb1e8313_2
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - pip 20.1.1 py38_1
+        - python 3.8.3 h26836e1_2
+        - readline 8.0 h1de35cc_0
+        - setuptools 47.3.1 py38_0
+        - sqlite 3.32.3 hffcf06c_0
+        - tk 8.6.10 hb0a8c7a_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - python >=3.8,<3.9.0a0
+        - six
+test:
+    imports:
+        - pathlib2
+about:
+    description: 'The goal of pathlib2 is to provide a backport of standard pathlib
+        module which
+
+        tracks the standard library module, so all the newest features of the standard
+
+        pathlib can be used also on older Python versions.
+
+        '
+    doc_source_url: https://github.com/mcmtroffaes/pathlib2/blob/develop/README.rst
+    doc_url: https://pypi.python.org/pypi/pathlib2/
+    home: https://github.com/mcmtroffaes/pathlib2
+    license: MIT
+    license_file: LICENSE.rst
+    summary: Fork of pathlib aiming to support the full stdlib Python API
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - pelson
+        - takluyver

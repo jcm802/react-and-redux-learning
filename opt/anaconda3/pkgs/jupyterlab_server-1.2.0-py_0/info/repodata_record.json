@@ -1,0 +1,30 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "jinja2 >=2.10",
+    "json5",
+    "jsonschema >=3.0.1",
+    "notebook >=4.2.0",
+    "python >=3.5",
+    "requests"
+  ],
+  "features": "",
+  "fn": "jupyterlab_server-1.2.0-py_0.conda",
+  "legacy_bz2_md5": "314e9533e01cd4b9e5a36f83444555c1",
+  "legacy_bz2_size": 24928,
+  "license": "BSD-3-Clause",
+  "md5": "dbf166cd2dbf602281afc84feb4bae75",
+  "name": "jupyterlab_server",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "f83306102f0e30bef8adb83c7c6ebc660eea9346ae4dcfdf46e18f7c1b136731",
+  "size": 25165,
+  "subdir": "noarch",
+  "timestamp": 1594164480694,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/jupyterlab_server-1.2.0-py_0.conda",
+  "version": "1.2.0"
+}

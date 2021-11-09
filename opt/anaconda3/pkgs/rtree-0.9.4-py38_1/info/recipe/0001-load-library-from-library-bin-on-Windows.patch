@@ -1,0 +1,30 @@
+From 4e7856677383c6a8f1435fd3f97d405be04f5853 Mon Sep 17 00:00:00 2001
+From: Jonathan Helmus <jjhelmus@gmail.com>
+Date: Thu, 30 Jan 2020 09:31:37 -0600
+Subject: [PATCH] load library from library bin on Windows
+
+The logic for loading from %PREFIX%\Library\bin by detecting conda in
+the sys.version is not reliable as not all Python's add "conda" to the
+version string.  For the conda package always load the DLL from
+Library/bin directory.
+---
+ rtree/core.py | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/rtree/core.py b/rtree/core.py
+index d13c327..b405625 100644
+--- a/rtree/core.py
++++ b/rtree/core.py
+@@ -123,7 +123,8 @@ if os.name == 'nt':
+         lib_path = os.path.join(sys.prefix, "Library", "bin")
+         rt = _load_library(lib_name, ctypes.cdll.LoadLibrary, (lib_path,))
+     else:
+-        rt = _load_library(lib_name, ctypes.cdll.LoadLibrary)
++        lib_path = os.path.join(sys.prefix, "Library", "bin")
++        rt = _load_library(lib_name, ctypes.cdll.LoadLibrary, (lib_path,))
+     if not rt:
+         raise OSError("could not find or load %s" % lib_name)
+ 
+-- 
+2.20.1
+

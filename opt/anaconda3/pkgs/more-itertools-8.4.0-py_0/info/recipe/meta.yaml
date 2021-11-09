@@ -1,0 +1,61 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/more-itertools-8.4.0-on-linux_64, last modified Tue Jun 16 18:01:29 2020
+# ------------------------------------------------
+
+package:
+    name: more-itertools
+    version: 8.4.0
+source:
+    sha256: 68c70cc7167bdf5c7c9d8f6954a7837089c6a36bf565383919bb595efb8a17e5
+    url: https://pypi.io/packages/source/m/more-itertools/more-itertools-8.4.0.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: '/tmp/build/80754af9/more-itertools_1592330616360/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin/python
+        -m pip install . --no-deps --ignore-installed -vv '
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.4.5.2 py38_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.3 he6710b0_1
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1g h7b6447c_0
+        - pip 20.0.2 py38_3
+        - python 3.8.3 hcff3b4d_0
+        - readline 8.0 h7b6447c_0
+        - setuptools 47.1.1 py38_0
+        - sqlite 3.31.1 h62c20be_1
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python >=3.4
+test:
+    commands:
+        - pip check
+    imports:
+        - more_itertools
+    requires:
+        - pip
+about:
+    dev_url: https://github.com/more-itertools/more-itertools
+    doc_url: https://more-itertools.readthedocs.io/en/latest/api.html
+    home: https://github.com/more-itertools/more-itertools
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: More routines for operating on iterables, beyond itertools
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - dbast
+        - pmlandwehr

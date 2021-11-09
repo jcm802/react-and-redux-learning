@@ -1,0 +1,28 @@
+{
+  "build": "py38_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "attrs >=17.4.0",
+    "importlib_metadata",
+    "pyrsistent >=0.14.0",
+    "python >=3.8,<3.9.0a0",
+    "setuptools",
+    "six >=1.11.0"
+  ],
+  "features": "",
+  "fn": "jsonschema-3.2.0-py38_1.conda",
+  "legacy_bz2_md5": "6d28bd8f3db35a06764c9a45aba2f193",
+  "legacy_bz2_size": 91456,
+  "license": "MIT",
+  "md5": "e3acf6150148e7c2cda674553d9e6f7a",
+  "name": "jsonschema",
+  "sha256": "48fc47ef63b7375cc671a098402095945d437c7a7d70a652e41f638fa2803e8a",
+  "size": 93111,
+  "subdir": "osx-64",
+  "timestamp": 1594363662498,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/jsonschema-3.2.0-py38_1.conda",
+  "version": "3.2.0"
+}

@@ -1,0 +1,66 @@
+{
+  "build": "hab81aa3_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=10.0.0",
+    "lz4-c >=1.9.2,<1.10.0a0",
+    "snappy >=1.1.7,<2.0a0",
+    "zlib >=1.2.11,<1.3.0a0",
+    "zstd >=1.4.4,<1.5.0a0"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/blosc-1.19.0-hab81aa3_0",
+  "features": "",
+  "files": [
+    "include/blosc-export.h",
+    "include/blosc.h",
+    "lib/libblosc.1.19.0.dylib",
+    "lib/libblosc.1.dylib",
+    "lib/libblosc.a",
+    "lib/libblosc.dylib",
+    "lib/pkgconfig/blosc.pc"
+  ],
+  "fn": "blosc-1.19.0-hab81aa3_0.conda",
+  "legacy_bz2_md5": "bac1a357b3cf10a39208cc1fea34efde",
+  "legacy_bz2_size": 65956,
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/blosc-1.19.0-hab81aa3_0",
+    "type": 1
+  },
+  "md5": "ae6fdce717eb2aeff8b5cce911299c0a",
+  "name": "blosc",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/blosc-1.19.0-hab81aa3_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libblosc.1.19.0.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/3f87fe51-e7cf-45af-709e-e415e1325cff/volume/blosc_1592516136647/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "e57e276b6dc17fb8dba724145de95fdd84f5f75f7052ef1375a446c7f587b0b8",
+        "sha256_in_prefix": "f545222fe91f72671eb3b292ec96e3c531a97fbbe02152bbb623abe34369c961",
+        "size_in_bytes": 72536
+      },
+      {
+        "_path": "lib/pkgconfig/blosc.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "5905afdb2b9ee031bbc4189653fa74cefbd3f333d522ebdd1f555b63849c459e",
+        "sha256_in_prefix": "48dd2736c54360720c6e51679cce29dbb71dca123767766dc05320e06dd579f4",
+        "size_in_bytes": 339
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "blosc==1.19.0=hab81aa3_0",
+  "sha256": "b04e9cc2931c932eb141dbcdbabd28887122f842b1509624364ce1128c057163",
+  "size": 57298,
+  "subdir": "osx-64",
+  "timestamp": 1592516237520,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/blosc-1.19.0-hab81aa3_0.conda",
+  "version": "1.19.0"
+}

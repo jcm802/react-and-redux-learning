@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "python"
+  ],
+  "license": "PSF 2",
+  "license_family": "PSF",
+  "name": "contextlib2",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1573937996392,
+  "version": "0.6.0.post1"
+}

@@ -1,0 +1,26 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "parso-0.7.0-py_0.conda",
+  "legacy_bz2_md5": "5e080bc2797c8eaf0758b0a053dc568a",
+  "legacy_bz2_size": 72464,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "7b01cf30004c18ff2ac0b3caef5d77be",
+  "name": "parso",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "2af6669e0d4b082728f9161ebd8751b90f0857a4b4cfb141d4c3237cf776c38f",
+  "size": 73291,
+  "subdir": "noarch",
+  "timestamp": 1588264740582,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/parso-0.7.0-py_0.conda",
+  "version": "0.7.0"
+}

@@ -1,0 +1,82 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/06b714b0-2b4f-4a36-7d4c-41051cb97263/volume/rsync-recipes/pyyaml-5.3.1-python_3.8-on-osx, last modified Thu Jun 25 17:35:13 2020
+# ------------------------------------------------
+
+package:
+    name: pyyaml
+    version: 5.3.1
+source:
+    patches:
+        - 0001-Ensure-we-do-not-end-up-wih-CRLF-line-endings-on-tes.patch
+    sha256: b8eac752c5e14d3eca0e6dd9199cd627518cb5ec06add0de9d32baeee6fe645d
+    url: https://pypi.io/packages/source/P/PyYAML/PyYAML-5.3.1.tar.gz
+build:
+    number: '1'
+    script:
+        - python setup.py --with-libyaml build_ext --include-dirs="${PREFIX}/include"
+            --library-dirs="${PREFIX}/lib"
+        - python setup.py install
+        - python setup.py test
+    string: py38haf1e3a3_1
+requirements:
+    build:
+        - cctools 927.0.2 h5ba7a2e_4
+        - clang 10.0.0 default_hf57f61e_0
+        - clang_osx-64 10.0.0 h05bbb7f_1
+        - clangxx 10.0.0 default_hf57f61e_0
+        - compiler-rt 10.0.0 h47ead80_0
+        - compiler-rt_osx-64 10.0.0 hbcc88fd_0
+        - ld64 450.3 h3c32e8a_4
+        - libcxx 10.0.0 1
+        - libllvm10 10.0.0 h21ff451_0
+        - llvm-openmp 10.0.0 h28b9765_0
+        - llvm-tools 10.0.0 h21ff451_0
+        - tapi 1000.10.8 ha1b3eb9_0
+    host:
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.6.20 py38_0
+        - cython 0.29.20 py38hb1e8313_0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 haf1e3a3_0
+        - libffi 3.3 h0a44026_1
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - python 3.8.3 h26836e1_1
+        - readline 8.0 h1de35cc_0
+        - setuptools 47.3.1 py38_0
+        - sqlite 3.32.3 hffcf06c_0
+        - tk 8.6.10 hb0a8c7a_0
+        - xz 5.2.5 h1de35cc_0
+        - yaml 0.2.5 haf1e3a3_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - python >=3.8,<3.9.0a0
+        - yaml >=0.2.5,<0.3.0a0
+test:
+    imports:
+        - yaml
+about:
+    description: 'YAML is a data serialization format designed for human readability
+        and interaction with
+
+        scripting languages.
+
+        '
+    dev_url: https://github.com/yaml/pyyaml
+    doc_source_url: http://pyyaml.org/browser/pyyaml/trunk/README
+    doc_url: http://pyyaml.org/wiki/PyYAMLDocumentation
+    home: http://pyyaml.org/wiki/PyYAML
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: YAML parser and emitter for Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - jjhelmus
+        - msarahan
+        - ocefpaf
+        - pelson

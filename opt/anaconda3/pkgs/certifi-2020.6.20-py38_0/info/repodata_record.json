@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "certifi-2020.6.20-py38_0.tar.bz2",
+  "license": "ISC",
+  "md5": "d261ef1d968fed736056b3123a929daf",
+  "name": "certifi",
+  "platform": "darwin",
+  "sha256": "24d77f038eee41e9ad6a1dff196ac9b1379e5dcfe9f722ac763def1aa73c56a7",
+  "size": 163034,
+  "subdir": "osx-64",
+  "timestamp": 1592841354077,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/osx-64/certifi-2020.6.20-py38_0.tar.bz2",
+  "version": "2020.6.20"
+}

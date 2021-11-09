@@ -1,0 +1,109 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/670fb235-7880-4ea0-56a6-08eb4396c5f7/volume/rsync-recipes/statsmodels-0.11.1-python_3.8-on-osx, last modified Thu May 21 15:24:19 2020
+# ------------------------------------------------
+
+package:
+    name: statsmodels
+    version: 0.11.1
+source:
+    sha256: 5bde3fa0a35a91b45dba7cbc28270b5b649ff1d721c89290883f6e831672d5f0
+    url: https://pypi.io/packages/source/s/statsmodels/statsmodels-0.11.1.tar.gz
+build:
+    number: '0'
+    script:
+        - /opt/concourse/worker/volumes/live/670fb235-7880-4ea0-56a6-08eb4396c5f7/volume/statsmodels_1590092807941/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/bin/python
+            -m pip install . --no-deps --ignore-installed -vvv
+        - rm -f ${PREFIX}/LICENSE.txt
+        - rm -f ${PREFIX}/setup.cfg
+    string: py38haf1e3a3_0
+requirements:
+    build:
+        - cctools 927.0.2 h5ba7a2e_4
+        - clang 10.0.0 default_hf57f61e_0
+        - clang_osx-64 10.0.0 h05bbb7f_1
+        - clangxx 10.0.0 default_hf57f61e_0
+        - compiler-rt 10.0.0 h47ead80_0
+        - compiler-rt_osx-64 10.0.0 hbcc88fd_0
+        - ld64 450.3 h3c32e8a_4
+        - libcxx 10.0.0 1
+        - libllvm10 10.0.0 h21ff451_0
+        - llvm-openmp 10.0.0 h28b9765_0
+        - llvm-tools 10.0.0 h21ff451_0
+        - tapi 1000.10.8 ha1b3eb9_0
+    host:
+        - blas 1.0 mkl
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.4.5.1 py38_0
+        - cython 0.29.17 py38h0a44026_0
+        - intel-openmp 2019.4 233
+        - libcxx 10.0.0 1
+        - libedit 3.1.20181209 hb402a30_0
+        - libffi 3.3 h0a44026_1
+        - libgfortran 3.0.1 h93005f0_2
+        - mkl 2019.4 233
+        - mkl-service 2.3.0 py38hfbe908c_0
+        - mkl_fft 1.0.15 py38h5e564d8_0
+        - mkl_random 1.1.0 py38h6440ff4_0
+        - ncurses 6.2 h0a44026_1
+        - numpy 1.14.6 py38h5fd8802_4
+        - numpy-base 1.14.6 py38h6575580_4
+        - openssl 1.1.1g h1de35cc_0
+        - pandas 1.0.3 py38h6c726b0_0
+        - patsy 0.5.1 py38_0
+        - pip 20.0.2 py38_3
+        - python 3.8.3 h26836e1_1
+        - python-dateutil 2.8.1 py_0
+        - pytz 2020.1 py_0
+        - readline 8.0 h1de35cc_0
+        - scipy 1.3.1 py38h1410ff5_0
+        - setuptools 46.4.0 py38_0
+        - six 1.14.0 py38_0
+        - sqlite 3.31.1 h5c1f38d_1
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - numpy >=1.14.6,<2.0a0
+        - pandas >=0.21
+        - patsy >=0.5.1
+        - python >=3.8,<3.9.0a0
+        - scipy >=1.0
+test:
+    commands:
+        - pip check
+    imports:
+        - statsmodels
+    requires:
+        - pip
+about:
+    description: 'Statsmodels is a Python module that allows users to explore data,
+        estimate
+
+        statistical models, and perform statistical tests. An extensive list of
+
+        descriptive statistics, statistical tests, plotting functions, and result
+
+        statistics are available for different types of data and each estimator.
+
+        Researchers across fields may find that statsmodels fully meets their
+
+        needs for statistical computing and data analysis in Python.
+
+        '
+    dev_url: https://github.com/statsmodels/statsmodels
+    doc_source_url: https://github.com/statsmodels/statsmodels/blob/master/docs/source/index.rst
+    doc_url: https://www.statsmodels.org/stable/
+    home: https://www.statsmodels.org
+    license: BSD-3-Clause
+    license_family: BSD
+    license_file: INSTALL.txt
+    summary: Statistical computations and models for use with SciPy
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - croth1
+        - ocefpaf
+        - tomaugspurger

@@ -1,0 +1,59 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/3ea76421-fb6b-4cf8-4edf-e4bb4ed7d532/volume/rsync-recipes/libiconv-1.16-on-osx, last modified Thu Apr 23 11:17:09 2020
+# ------------------------------------------------
+
+package:
+    name: libiconv
+    version: '1.16'
+source:
+    -   patches: null
+        sha256: e6a1b1b589654277ee790cce3734f07876ac4ccfaecbee8afa0b649cf529cc04
+        url: http://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.16.tar.gz
+    -   folder: libcharset/build-aux
+        sha256: feb8b0fcf40cea5d9f464713f657ef1867dbe72df9f793af187afa13d626c3a6
+        url: ./libtool-reloc
+build:
+    detect_binary_files_with_prefix: false
+    number: '0'
+    run_exports:
+        - libiconv >=1.16,<2.0a0
+    string: h1de35cc_0
+requirements:
+    build:
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_18
+        - compiler-rt 4.0.1 hcfea43d_1
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+        - make 4.2.1 h3efe00b_1
+test:
+    commands:
+        - iconv --help
+about:
+    description: 'This library provides an iconv() implementation, for use on systems
+        which don''t have one,
+
+        or whose implementation cannot convert from/to Unicode.
+
+        '
+    dev_url: http://git.savannah.gnu.org/cgit/libiconv.git/tree/
+    doc_url: https://www.gnu.org/savannah-checkouts/gnu/libiconv/documentation/libiconv-1.15/iconv.1.html
+    home: https://www.gnu.org/software/libiconv/
+    license: GPL and LGPL
+    license_file: COPYING
+    summary: Provides iconv for systems which don't have one (or that cannot convert
+        from/to Unicode.)
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - jhamman
+        - mingwandroid
+        - ocefpaf
+        - scopatz

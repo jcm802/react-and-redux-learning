@@ -1,0 +1,77 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/pydocstyle-5.0.2-on-linux_64, last modified Mon Jun 22 17:45:48 2020
+# ------------------------------------------------
+
+package:
+    name: pydocstyle
+    version: 5.0.2
+source:
+    sha256: f4f5d210610c2d153fae39093d44224c17429e2ad7da12a8b419aba5c2f614b5
+    url: https://pypi.io/packages/source/p/pydocstyle/pydocstyle-5.0.2.tar.gz
+build:
+    entry_points:
+        - pydocstyle = pydocstyle.cli:main
+    noarch: python
+    number: '0'
+    script: /tmp/build/80754af9/pydocstyle_1592848020240/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/bin/python
+        -m pip install . --no-deps -vv
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.6.20 py38_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20191231 h7b6447c_0
+        - libffi 3.3 he6710b0_1
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1g h7b6447c_0
+        - pip 20.1.1 py38_1
+        - python 3.8.3 hcff3b4d_0
+        - readline 8.0 h7b6447c_0
+        - setuptools 47.3.1 py38_0
+        - sqlite 3.32.2 h62c20be_0
+        - tk 8.6.10 hbc83047_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python >=3.5
+        - snowballstemmer
+test:
+    commands:
+        - pydocstyle --version
+    imports:
+        - pydocstyle
+about:
+    description: 'pydocstyle is a static analysis tool for checking compliance with
+        Python
+
+        docstring conventions. pydocstyle supports most of PEP 257 out of the box,
+
+        but it should not be considered a reference implementation.
+
+        The framework for checking docstring style is flexible, and custom checks
+
+        can be easily added, for example to cover NumPy docstring conventions.
+
+        pydocstyle supports Python 3.4, 3.5, 3.6, and 3.7.
+
+        '
+    dev_url: https://github.com/PyCQA/pydocstyle
+    doc_url: http://pydocstyle.readthedocs.org
+    home: https://github.com/PyCQA/pydocstyle
+    license: MIT
+    license_file: LICENSE-MIT
+    summary: Python docstring style checker (formerly pep257)
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - Nurdok
+        - dopplershift
+        - goanpeca
+        - jakirkham

@@ -1,0 +1,75 @@
+{
+  "build": "py38hc64f4ea_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "blas 1.0 mkl",
+    "libcxx >=10.0.0",
+    "mkl >=2019.4,<2020.0a0",
+    "mkl-service >=2,<3.0a0",
+    "numpy >=1.14.6,<2.0a0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/mkl_fft-1.1.0-py38hc64f4ea_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/mkl_fft-1.1.0-py3.8.egg-info/PKG-INFO",
+    "lib/python3.8/site-packages/mkl_fft-1.1.0-py3.8.egg-info/SOURCES.txt",
+    "lib/python3.8/site-packages/mkl_fft-1.1.0-py3.8.egg-info/dependency_links.txt",
+    "lib/python3.8/site-packages/mkl_fft-1.1.0-py3.8.egg-info/requires.txt",
+    "lib/python3.8/site-packages/mkl_fft-1.1.0-py3.8.egg-info/top_level.txt",
+    "lib/python3.8/site-packages/mkl_fft/__init__.py",
+    "lib/python3.8/site-packages/mkl_fft/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/mkl_fft/__pycache__/_float_utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/mkl_fft/__pycache__/_numpy_fft.cpython-38.pyc",
+    "lib/python3.8/site-packages/mkl_fft/__pycache__/_scipy_fft.cpython-38.pyc",
+    "lib/python3.8/site-packages/mkl_fft/__pycache__/_scipy_fft_backend.cpython-38.pyc",
+    "lib/python3.8/site-packages/mkl_fft/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/mkl_fft/__pycache__/setup.cpython-38.pyc",
+    "lib/python3.8/site-packages/mkl_fft/_float_utils.py",
+    "lib/python3.8/site-packages/mkl_fft/_numpy_fft.py",
+    "lib/python3.8/site-packages/mkl_fft/_pydfti.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/mkl_fft/_scipy_fft.py",
+    "lib/python3.8/site-packages/mkl_fft/_scipy_fft_backend.py",
+    "lib/python3.8/site-packages/mkl_fft/_version.py",
+    "lib/python3.8/site-packages/mkl_fft/setup.py",
+    "lib/python3.8/site-packages/mkl_fft/tests/__pycache__/test_fft1d.cpython-38.pyc",
+    "lib/python3.8/site-packages/mkl_fft/tests/__pycache__/test_fftnd.cpython-38.pyc",
+    "lib/python3.8/site-packages/mkl_fft/tests/test_fft1d.py",
+    "lib/python3.8/site-packages/mkl_fft/tests/test_fftnd.py"
+  ],
+  "fn": "mkl_fft-1.1.0-py38hc64f4ea_0.conda",
+  "legacy_bz2_md5": "9f92ee34ed5845b2aa80f1d7f4de628c",
+  "legacy_bz2_size": 161151,
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/mkl_fft-1.1.0-py38hc64f4ea_0",
+    "type": 1
+  },
+  "md5": "9a483370143e0e292013156f59d98c62",
+  "name": "mkl_fft",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/mkl_fft-1.1.0-py38hc64f4ea_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/mkl_fft/_pydfti.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/fe9f335a-417e-4043-7c74-79722fd553d5/volume/mkl_fft_1592406945266/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "c7131cdd16b83bfe004d4af400d85fd13cf08b9c71578cb1fac848b832e8a99f",
+        "sha256_in_prefix": "82a2f395d85601b5addd12f6165e8347d0498580088b2d3dcf363e7820efeda2",
+        "size_in_bytes": 347696
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "mkl_fft==1.1.0=py38hc64f4ea_0",
+  "sha256": "2bf5333307e652bba9d3aa7e9e5ff46f4ea47f1140abb56a9793e0ea746a2fe4",
+  "size": 141202,
+  "subdir": "osx-64",
+  "timestamp": 1592407010988,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/mkl_fft-1.1.0-py38hc64f4ea_0.conda",
+  "version": "1.1.0"
+}

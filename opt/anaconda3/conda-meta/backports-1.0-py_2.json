@@ -1,0 +1,45 @@
+{
+  "build": "py_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/backports-1.0-py_2",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/backports/__init__.py",
+    "lib/python3.8/site-packages/backports/__pycache__/__init__.cpython-38.pyc"
+  ],
+  "fn": "backports-1.0-py_2.conda",
+  "legacy_bz2_md5": "9379c1f97557a38ff8541900798d66ee",
+  "legacy_bz2_size": 142380,
+  "license": "BSD",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/backports-1.0-py_2",
+    "type": 1
+  },
+  "md5": "16b062c5e47977c76e4267e74d79b292",
+  "name": "backports",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/backports-1.0-py_2.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/backports/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "backports==1.0=py_2",
+  "sha256": "490e29c2ee6b8ac0dd2d859d5849a7e56aa142f652d48b58f4dc4fe617415ece",
+  "size": 163333,
+  "subdir": "noarch",
+  "timestamp": 1560264455404,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/backports-1.0-py_2.conda",
+  "version": "1.0"
+}

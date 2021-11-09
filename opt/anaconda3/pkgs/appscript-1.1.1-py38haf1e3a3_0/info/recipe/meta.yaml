@@ -1,0 +1,81 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/50ca4c96-3090-40bb-6981-3a6114ed0af4/volume/rsync-recipes/appscript-1.1.1-python_3.8-on-osx, last modified Wed Jul 15 14:08:12 2020
+# ------------------------------------------------
+
+package:
+    name: appscript
+    version: 1.1.1
+source:
+    fn: appscript-1.1.1.tar.gz
+    patches:
+        - 0001-Mark-AEDeterminePermissionToAutomateTarget-extern-in.patch
+    sha256: 8f634853ed3c9b823e3a8d5615fedade98d64d0a89443c2fa8f8d1f08a5e134e
+    url: https://pypi.io/packages/source/a/appscript/appscript-1.1.1.tar.gz
+build:
+    number: '0'
+    script: '/opt/concourse/worker/volumes/live/50ca4c96-3090-40bb-6981-3a6114ed0af4/volume/appscript_1594840187551/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place/bin/python
+        -m pip install . --no-deps --ignore-installed -vv '
+    string: py38haf1e3a3_0
+requirements:
+    build:
+        - cctools 927.0.2 h5ba7a2e_4
+        - clang 10.0.0 default_hf57f61e_0
+        - clang_osx-64 10.0.0 h05bbb7f_1
+        - clangxx 10.0.0 default_hf57f61e_0
+        - compiler-rt 10.0.0 h47ead80_0
+        - compiler-rt_osx-64 10.0.0 hbcc88fd_0
+        - ld64 450.3 h3c32e8a_4
+        - libcxx 10.0.0 1
+        - libllvm10 10.0.0 h21ff451_1
+        - llvm-openmp 10.0.0 h28b9765_0
+        - llvm-tools 10.0.0 h21ff451_1
+        - tapi 1000.10.8 ha1b3eb9_0
+    host:
+        - ca-certificates 2020.6.24 0
+        - certifi 2020.6.20 py38_0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 h1de35cc_1
+        - libffi 3.3 hb1e8313_2
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - pip 20.1.1 py38_1
+        - python 3.8.3 h26836e1_2
+        - readline 8.0 h1de35cc_0
+        - setuptools 49.2.0 py38_0
+        - sqlite 3.32.3 hffcf06c_0
+        - tk 8.6.10 hb0a8c7a_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - python >=3.8,<3.9.0a0
+test:
+    imports:
+        - aem
+        - aem.ae
+        - appscript
+        - mactypes
+        - osax
+about:
+    description: 'Appscript is a user-friendly Apple event bridge that allows users
+        to
+
+        control scriptable Mac OS X applications from Python, Ruby and Objective-C.
+
+        Appscript makes these languages serious alternatives to Apple''s own
+
+        AppleScript language for automating your Mac.
+
+        '
+    dev_url: http://svn.code.sf.net/p/appscript/code/py-appscript/
+    doc_source_url: http://appscript.sourceforge.net/py-appscript/index.html
+    doc_url: https://pypi.python.org/pypi/appscript
+    home: http://appscript.sourceforge.net
+    license: Public Domain
+    summary: Control AppleScriptable applications from Python.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - nehaljwani

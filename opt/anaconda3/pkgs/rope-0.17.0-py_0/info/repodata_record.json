@@ -1,0 +1,25 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "rope-0.17.0-py_0.conda",
+  "legacy_bz2_md5": "49387166dc806590f5cbcc49e178b65b",
+  "legacy_bz2_size": 122902,
+  "license": "GPL 2.0",
+  "md5": "1208258ac8ba036485e7485db8b2271b",
+  "name": "rope",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "57a1cf6774ef88b60b31263362b96d2b2d2ecead656addd2087d7bddb72c8c19",
+  "size": 129605,
+  "subdir": "noarch",
+  "timestamp": 1589229717938,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/rope-0.17.0-py_0.conda",
+  "version": "0.17.0"
+}

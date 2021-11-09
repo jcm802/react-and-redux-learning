@@ -1,0 +1,371 @@
+commit 4cc72c28926307d006c76e1da41acc93700d2613
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri Jul 28 05:52:30 2017 +0000
+
+    add cdt requirements in linux
+
+commit 2eb09311bcc80e5b94def622ada01741355b9ccb
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sun May 17 21:10:43 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit 639f56197c4064d6a8c19f4c21de866e5b8c179b
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sun May 17 21:10:40 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 58cf0ccd555da9e828fab4528725fe281bf66d80
+Merge: 893c2ac cb8ec42
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Tue May 5 16:50:43 2020 -0500
+
+    Merge pull request #21 from regro-cf-autotick-bot/0.7.2_h47e3c0
+    
+    qtawesome v0.7.2
+
+commit cb8ec4285d28e3c33f2011c03665fecb5019b891
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Tue May 5 16:39:22 2020 -0500
+
+    Add dalthviz to the maintainers list
+
+commit 728717edd6df251821ef6ba61a3bbb2f1248f57f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue May 5 21:14:52 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.0, and conda-forge-pinning 2020.05.04.19.59.17
+
+commit d7d442fdff6f0e6111cb89d38df6b7ff785a09d2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue May 5 21:14:09 2020 +0000
+
+    updated v0.7.2
+
+commit 893c2ac2750e1a35982ceae9ed1cac5c955ac215
+Merge: 5ebc665 143de6f
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Apr 15 13:38:18 2020 -0500
+
+    Merge pull request #20 from regro-cf-autotick-bot/0.7.1_hd59925
+    
+    qtawesome v0.7.1
+
+commit 143de6fd6a1635b677f89c0db896601415358c3a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Apr 15 18:31:52 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.6.16, and conda-forge-pinning 2020.04.15.00.37.28
+
+commit 5d1a84b137b457a642c985f295cd4688b164da90
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Apr 15 18:31:31 2020 +0000
+
+    updated v0.7.1
+
+commit 5ebc665c72a3ff6025b3ad43a074dccd88203e7a
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue Mar 3 00:29:16 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit aba94609f9e54bf2070baef20a4a24967e11202e
+Merge: eb50145 5aea501
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Feb 12 13:51:33 2020 -0500
+
+    Merge pull request #19 from regro-cf-autotick-bot/0.7.0
+    
+    qtawesome v0.7.0
+
+commit 5aea501ebf2da0f5d71468fad0289399c1386a49
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Feb 12 13:39:04 2020 -0500
+
+    Update license file name
+
+commit 46c616e4006eadfe635101eb6ad9b34e2bdaf8bf
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Feb 12 18:17:05 2020 +0000
+
+    updated v0.7.0
+
+commit eb50145690fc6cd3ce3a06447c11a4e09358542f
+Merge: 5d6990f 6a84756
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Jan 8 16:01:40 2020 -0500
+
+    Merge pull request #18 from regro-cf-autotick-bot/0.6.1
+    
+    qtawesome v0.6.1
+
+commit 6a8475686eebe995d4739d8170b797acf82fa5db
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jan 8 17:14:21 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2020.01.07
+
+commit 3d341ee9f9eae6783fc514c8eb52234492fe25c3
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jan 8 17:14:05 2020 +0000
+
+    updated v0.6.1
+
+commit 5d6990f95c9cf1abd4d10ef76b1feb18992f6e77
+Merge: 7d2a6a6 5c03c90
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Thu Jul 25 11:05:12 2019 -0500
+
+    Merge pull request #17 from regro-cf-autotick-bot/0.6.0
+    
+    qtawesome v0.6.0
+
+commit 5c03c9036023853fcc7f218d66e19dbf17179b69
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jul 25 14:26:25 2019 +0000
+
+    updated v0.6.0
+
+commit 7d2a6a611bd1f9fb098070371f27f5dd5d738068
+Merge: 544c0c4 e5f186f
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Tue Jul 23 06:37:53 2019 -0500
+
+    Merge pull request #16 from regro-cf-autotick-bot/0.5.8
+    
+    qtawesome v0.5.8
+
+commit e5f186f5bc009d5c8cc899ad31ab7121cf13737d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jul 23 10:24:21 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.8, conda-smithy 3.4.1, and conda-forge-pinning 2019.07.22
+
+commit d8e1b4bb653821f75ed1363c999676c499b7ca4f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jul 23 10:24:10 2019 +0000
+
+    updated v0.5.8
+
+commit 544c0c4621b11d6f431b3fc14ae321faa232e012
+Merge: 1082dbb d21c723
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Thu Mar 7 12:08:34 2019 +0100
+
+    Merge pull request #15 from regro-cf-autotick-bot/0.5.7
+    
+    qtawesome v0.5.7
+
+commit d21c723a92cfe9e69878112ae6b53145bcac48d7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Mar 7 10:25:48 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.03.04
+
+commit ac333544e6c8b17df2c26b49ac5e3d52b093bbb0
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Mar 7 10:25:37 2019 +0000
+
+    updated v0.5.7
+
+commit 1082dbbb97b43f5e6335679fcf722f6cf3e4c054
+Merge: 1f1c809 c220d90
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Jan 30 00:00:45 2019 +0100
+
+    Merge pull request #13 from ccordoba12/v0.5.6
+    
+    v0.5.6
+
+commit c220d908a2211a60c51936bf03ce4c44e8e4c341
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Jan 29 15:28:51 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.7, conda-smithy 3.2.10, and conda-forge-pinning 2019.01.21
+
+commit 0c068c3f6dd1c72c6036705a7ca2df7c716a82e7
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Tue Jan 29 16:28:18 2019 +0100
+
+    Add yum_requirements for PyQt5 test
+
+commit 742331796e816118f3c789b97c239eb4d0865e43
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Jan 29 12:21:19 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.7, conda-smithy 3.2.10, and conda-forge-pinning 2019.01.21
+
+commit 03e48ab3c34100395615f7607fa230550c64be5f
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Tue Jan 29 13:19:34 2019 +0100
+
+    v0.5.6
+
+commit 1f1c809dd313bea96489de9208bae0ef9ac97587
+Merge: d3d257c a41eb9f
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Thu Jan 3 23:28:35 2019 -0500
+
+    Merge pull request #12 from regro-cf-autotick-bot/0.5.5
+    
+    qtawesome v0.5.5
+
+commit a41eb9fe7092811e5e42c442f77dfd862bf4fc22
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jan 3 22:18:35 2019 +0000
+
+    updated v0.5.5
+
+commit d3d257c0a1c4e95dfc710cefba61a4dc28f36787
+Merge: df0ee4b 5a7f83f
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Mon Nov 12 15:24:27 2018 -0500
+
+    Merge pull request #10 from regro-cf-autotick-bot/0.5.3
+    
+    qtawesome v0.5.3
+
+commit 5a7f83f2ecad17f8e9dffc97ed61c779dd0619eb
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Nov 12 19:15:43 2018 +0000
+
+    updated v0.5.3
+
+commit df0ee4becdb1e72be397140ea81023f41aaf3165
+Merge: 4d949d2 5509157
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sat Oct 27 21:40:11 2018 -0500
+
+    Merge pull request #9 from regro-cf-autotick-bot/0.5.2
+    
+    qtawesome v0.5.2
+
+commit 550915707b845ccd64898b8d7a788c47755c53a0
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Oct 28 01:16:11 2018 +0000
+
+    updated v0.5.2
+
+commit 4d949d2618cf35691ca92e82377a3c86ad16218d
+Merge: 6a5d9ac e772c58
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Oct 6 14:36:09 2018 -0300
+
+    Merge pull request #8 from ocefpaf/add_license
+    
+    add license
+
+commit e772c58203eaaeb3fa5adba29d5ddcb59382571e
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Oct 6 14:31:09 2018 -0300
+
+    add license
+
+commit 6a5d9ac38790e6ae64096a19450ef3975ddb6438
+Merge: d46bf6c ba87fda
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Sep 30 21:06:20 2018 -0500
+
+    Merge pull request #7 from regro-cf-autotick-bot/0.5.1
+    
+    qtawesome v0.5.1
+
+commit ba87fda4a31d45c69f8ca8d07fa54462012c61dd
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Sep 30 22:11:11 2018 +0000
+
+    updated v0.5.1
+
+commit d46bf6c48ea0b75624c386f2c84898a0d0e95d04
+Merge: cb06df1 0a086db
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Tue Sep 18 14:48:39 2018 -0500
+
+    Merge pull request #6 from regro-cf-autotick-bot/0.5.0
+    
+    qtawesome v0.5.0
+
+commit 0a086dbc9f31d3e26b59a72a34ef5a7f4958c3ca
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Sep 18 17:25:57 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.17
+
+commit ba94a1feac9437e95dc505c33a1160894ac413af
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Sep 18 17:25:52 2018 +0000
+
+    updated v0.5.0
+
+commit cb06df1a6216a9ca1f945ea71f7d874475334faf
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:36:48 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 9cd0704096f0601116f5b7fd1f6ad1e11a777a8e
+Merge: 8387833 69b3810
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Mon Jul 9 11:40:11 2018 +0200
+
+    Merge pull request #5 from regro-cf-autotick-bot/noarch_migration
+    
+    Suggestion: add noarch
+
+commit 69b3810d754d57e46acd786f9f7a321e1f11c067
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Mon Jul 9 11:35:55 2018 +0200
+
+    Add pip to host
+
+commit 9b3e881a40210f7b607526f87fcb1e15a7ab88ab
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 8 15:45:40 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.01
+
+commit 8dfe81fe2cd3c235840ed0892d135aee86fefeef
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 8 15:45:35 2018 +0000
+
+    add noarch
+
+commit 838783365fbf2e7047e4f4401a34a07139459f67
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 21:44:44 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 1ceea7849c8f58e66eb740381359f4f0be2b354e
+Merge: eb61281 032da87
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Tue Jan 31 09:14:24 2017 +0100
+
+    Merge pull request #3 from melund/master
+    
+    Update to 0.4.4 and rerendered
+
+commit 032da87453e4f910a220f321d9c960ca97c15055
+Author: Morten Enemark Lund <melund@gmail.com>
+Date:   Mon Jan 30 12:54:39 2017 +0100
+
+    Rerendered to update travis.yml
+
+commit cba0aa3ad8548d441edfc3ae9a7b1eaefda23c3a
+Author: Morten Enemark Lund <melund@gmail.com>
+Date:   Sun Jan 29 22:21:30 2017 +0100
+
+    Update to 0.4.4 and rerendered
+
+commit eb61281dc9a763c64687c5399d324402c37a9696
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Oct 25 19:43:12 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 05875824b82e603c393035c652636254403f18fe
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Oct 25 19:41:10 2016 +0000
+
+    Initial commit of the qtawesome feedstock.

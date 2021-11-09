@@ -1,0 +1,24 @@
+{
+  "build": "h83b36ba_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "icu >=58.2,<59.0a0",
+    "libxml2 >=2.9.10,<2.10.0a0"
+  ],
+  "features": "",
+  "fn": "libxslt-1.1.34-h83b36ba_0.conda",
+  "legacy_bz2_md5": "baad4e00ab3c01e064cc551f1bd68c2e",
+  "legacy_bz2_size": 546703,
+  "license": "MIT",
+  "md5": "1858507337aa830cc352a804ca8bebdb",
+  "name": "libxslt",
+  "sha256": "2ee29260ec977078831b4122d87326c5aa8db0c78d8a960d8333ac57dab004d3",
+  "size": 404199,
+  "subdir": "osx-64",
+  "timestamp": 1591988438360,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/libxslt-1.1.34-h83b36ba_0.conda",
+  "version": "1.1.34"
+}

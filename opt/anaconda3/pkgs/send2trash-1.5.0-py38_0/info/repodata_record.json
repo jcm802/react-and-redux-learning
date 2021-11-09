@@ -1,0 +1,24 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "send2trash-1.5.0-py38_0.conda",
+  "legacy_bz2_md5": "839053fb24c3a71c4b234499fa2a1324",
+  "legacy_bz2_size": 16606,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "e7b0bb99a45c19423f04cb3ea3092572",
+  "name": "send2trash",
+  "sha256": "88616c8f3604968e7b567902fecd8897fc899ad25ad3fdc7af1dab9a07b0c280",
+  "size": 17650,
+  "subdir": "osx-64",
+  "timestamp": 1573201093394,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/send2trash-1.5.0-py38_0.conda",
+  "version": "1.5.0"
+}

@@ -1,0 +1,26 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.7.1",
+    "pandas",
+    "python >=3.8,<3.9.0a0",
+    "six >=1.5.2"
+  ],
+  "features": "",
+  "fn": "bkcharts-0.2-py38_0.conda",
+  "legacy_bz2_md5": "976980ea1b0eb9a8f9dadfca9249a03c",
+  "legacy_bz2_size": 131469,
+  "license": "BSD 3-Clause",
+  "md5": "2a5eb15fc715e48c2a26929ee31a414b",
+  "name": "bkcharts",
+  "sha256": "687add73c0ee2321b17ffd8fa93fa47ca5a804d003c9073181c1708b4305c311",
+  "size": 135328,
+  "subdir": "osx-64",
+  "timestamp": 1580239521228,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/bkcharts-0.2-py38_0.conda",
+  "version": "0.2"
+}

@@ -1,0 +1,28 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "future",
+    "python",
+    "ujson <=1.35"
+  ],
+  "features": "",
+  "fn": "python-jsonrpc-server-0.3.4-py_1.conda",
+  "legacy_bz2_md5": "010abc441468f070aa713312aca9df99",
+  "legacy_bz2_size": 10998,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "064cd7150a1bd8ea99346ecc899c96dd",
+  "name": "python-jsonrpc-server",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "37db313810ed26c70958b551ba8b549ed5f662d22d1a7eb3ed26296cb4c81d93",
+  "size": 11222,
+  "subdir": "noarch",
+  "timestamp": 1594397560711,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/python-jsonrpc-server-0.3.4-py_1.conda",
+  "version": "0.3.4"
+}

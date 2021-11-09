@@ -1,0 +1,10 @@
+{
+  "c_compiler": "clang",
+  "fortran_compiler": "gfortran",
+  "blas_impl": "mkl",
+  "mkl": "2019",
+  "c_compiler_version": "10",
+  "cxx_compiler": "clangxx",
+  "numpy": "1.16",
+  "cxx_compiler_version": "10"
+}

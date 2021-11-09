@@ -1,0 +1,71 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/ddbc9121-8a2d-4f65-54d3-9787c03657e4/volume/rsync-recipes/zeromq-4.3.2-on-osx, last modified Wed Jun 24 14:25:40 2020
+# ------------------------------------------------
+
+package:
+    name: zeromq
+    version: 4.3.2
+source:
+    fn: zeromq-4.3.2.tar.gz
+    patches:
+        - 0003-windows-install.patch
+        - 0005-osx-test.patch
+        - rm-clang-format.patch
+    sha256: ebd7b5c830d6428956b67a0454a7f8cbed1de74b3b01e5c33c5378e22740f763
+    url: https://github.com/zeromq/libzmq/releases/download/v4.3.2/zeromq-4.3.2.tar.gz
+build:
+    number: '2'
+    run_exports:
+        - zeromq >=4.3.2,<4.4.0a0
+    string: hb1e8313_2
+requirements:
+    build:
+        - autoconf 2.69 pl526he370928_5
+        - automake 1.16.2 pl526_0
+        - cctools 927.0.2 h5ba7a2e_4
+        - clang 10.0.0 default_hf57f61e_0
+        - clang_osx-64 10.0.0 h05bbb7f_1
+        - clangxx 10.0.0 default_hf57f61e_0
+        - clangxx_osx-64 10.0.0 h05bbb7f_1
+        - compiler-rt 10.0.0 h47ead80_0
+        - compiler-rt_osx-64 10.0.0 hbcc88fd_0
+        - ld64 450.3 h3c32e8a_4
+        - libcxx 10.0.0 1
+        - libiconv 1.16 h1de35cc_0
+        - libllvm10 10.0.0 h21ff451_0
+        - libtool 2.4.6 h1de35cc_5
+        - llvm-openmp 10.0.0 h28b9765_0
+        - llvm-tools 10.0.0 h21ff451_0
+        - m4 1.4.18 h1de35cc_1
+        - make 4.2.1 h3efe00b_1
+        - perl 5.26.2 h4e221da_0
+        - pkg-config 0.29.2 h3efe00b_8
+        - tapi 1000.10.8 ha1b3eb9_0
+    host:
+        - libcxx 10.0.0 1
+        - libsodium 1.0.18 h1de35cc_0
+    run:
+        - libcxx >=10.0.0
+        - libsodium >=1.0.18,<1.0.19.0a0
+test:
+    commands:
+        - test -f ${PREFIX}/lib/libzmq.a
+        - test -f ${PREFIX}/lib/libzmq.dylib
+        - test -f ${PREFIX}/lib/libzmq.5.dylib
+        - test -f ${PREFIX}/lib/cmake/ZeroMQ/ZeroMQConfig.cmake
+        - test -f ${PREFIX}/lib/cmake/ZeroMQ/ZeroMQConfigVersion.cmake
+        - ${PREFIX}/bin/curve_keygen
+about:
+    home: http://zeromq.org
+    license: LGPL 3
+    license_file: COPYING.LESSER
+    summary: A high-performance asynchronous messaging library.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - JohanMabille
+        - SylvainCorlay
+        - jakirkham
+        - minrk

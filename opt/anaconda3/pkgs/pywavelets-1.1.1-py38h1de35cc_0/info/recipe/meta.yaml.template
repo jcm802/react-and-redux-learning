@@ -1,0 +1,55 @@
+{% set name = "PyWavelets" %}
+{% set version = "1.1.1" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 1a64b40f6acb4ffbaccce0545d7fc641744f95351f62e4c6aaa40549326008c9
+
+build:
+  number: 0
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  skip: True  # [py2k]
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+  host:
+    - python
+    - pip
+    - cython
+    # requirement is >=1.13.3, 1.14 is available for python 2.7, 3.6 and 3.7
+    - numpy 1.14
+  run:
+    - python
+    - {{ pin_compatible('numpy') }}
+
+test:
+  requires:
+    - pytest
+  imports:
+    - pywt
+
+about:
+  home: https://github.com/PyWavelets/pywt
+  license: MIT
+  license_file: LICENSE
+  summary: 'Discrete Wavelet Transforms in Python'
+  description: |
+    PyWavelets is a free Open Source library for wavelet transforms in Python.
+    Wavelets are mathematical basis functions that are localized in both time and frequency.
+    Wavelet transforms are time-frequency transforms employing wavelets. They are similar to
+    Fourier transforms, the difference being that Fourier transforms are localized only in
+    frequency instead of in time and frequency.
+  doc_url: http://pywavelets.readthedocs.io/en/latest/
+  dev_url: https://github.com/PyWavelets/pywt
+  doc_source_url: https://github.com/PyWavelets/pywt/tree/master/doc
+
+extra:
+  recipe-maintainers:
+    - grlee77
+    - jakirkham
+    - ocefpaf

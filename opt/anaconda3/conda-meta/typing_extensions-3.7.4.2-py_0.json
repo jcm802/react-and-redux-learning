@@ -1,0 +1,53 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.5"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/typing_extensions-3.7.4.2-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/typing_extensions-3.7.4.2.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/typing_extensions-3.7.4.2.dist-info/LICENSE",
+    "lib/python3.8/site-packages/typing_extensions-3.7.4.2.dist-info/METADATA",
+    "lib/python3.8/site-packages/typing_extensions-3.7.4.2.dist-info/RECORD",
+    "lib/python3.8/site-packages/typing_extensions-3.7.4.2.dist-info/WHEEL",
+    "lib/python3.8/site-packages/typing_extensions-3.7.4.2.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/typing_extensions-3.7.4.2.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/typing_extensions.py",
+    "lib/python3.8/site-packages/__pycache__/typing_extensions.cpython-38.pyc"
+  ],
+  "fn": "typing_extensions-3.7.4.2-py_0.conda",
+  "legacy_bz2_md5": "1d5846e57a2f77b7119d338e54dc1a92",
+  "legacy_bz2_size": 29246,
+  "license": "PSF-2.0",
+  "license_family": "PSF",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/typing_extensions-3.7.4.2-py_0",
+    "type": 1
+  },
+  "md5": "66298bbae2d575a32f246102be6ce93b",
+  "name": "typing_extensions",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/typing_extensions-3.7.4.2-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/__pycache__/typing_extensions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "typing_extensions==3.7.4.2=py_0",
+  "sha256": "87147d706cefad667af28a8b38c28d80f9c0d3507cf5f379078fe4d230918037",
+  "size": 28056,
+  "subdir": "noarch",
+  "timestamp": 1592847914794,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/typing_extensions-3.7.4.2-py_0.conda",
+  "version": "3.7.4.2"
+}

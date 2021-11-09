@@ -1,0 +1,62 @@
+{
+  "build": "py38haf1e3a3_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/regex-2020.6.8-py38haf1e3a3_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/regex-2020.6.8.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/regex-2020.6.8.dist-info/METADATA",
+    "lib/python3.8/site-packages/regex-2020.6.8.dist-info/RECORD",
+    "lib/python3.8/site-packages/regex-2020.6.8.dist-info/WHEEL",
+    "lib/python3.8/site-packages/regex-2020.6.8.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/regex-2020.6.8.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/regex/__init__.py",
+    "lib/python3.8/site-packages/regex/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/regex/__pycache__/_regex_core.cpython-38.pyc",
+    "lib/python3.8/site-packages/regex/__pycache__/regex.cpython-38.pyc",
+    "lib/python3.8/site-packages/regex/__pycache__/test_regex.cpython-38.pyc",
+    "lib/python3.8/site-packages/regex/_regex.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/regex/_regex_core.py",
+    "lib/python3.8/site-packages/regex/regex.py",
+    "lib/python3.8/site-packages/regex/test_regex.py"
+  ],
+  "fn": "regex-2020.6.8-py38haf1e3a3_0.conda",
+  "legacy_bz2_md5": "ffc00ff686bb7262497557d9c161eff3",
+  "legacy_bz2_size": 369616,
+  "license": "Python-2.0",
+  "license_family": "PSF",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/regex-2020.6.8-py38haf1e3a3_0",
+    "type": 1
+  },
+  "md5": "e4064dd58afa848071bb0c162a8a56e2",
+  "name": "regex",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/regex-2020.6.8-py38haf1e3a3_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/regex/_regex.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/93a9c6ee-7d77-4975-4d26-29732dd5574b/volume/regex_1593435592218/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "e2e87817b7453173e63b8d65db6da3cd7fe90cad41bc6f5ed11658f739ffcb72",
+        "sha256_in_prefix": "176781ffe98d3f536ec49d90f73ecdac199bc288dd2d85b3c0bae2cce460de1b",
+        "size_in_bytes": 699824
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "regex==2020.6.8=py38haf1e3a3_0",
+  "sha256": "72980d68404267bf6c950361d47cbf947c18e6817296c5fb7ada0c45d302002d",
+  "size": 321748,
+  "subdir": "osx-64",
+  "timestamp": 1593435645490,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/regex-2020.6.8-py38haf1e3a3_0.conda",
+  "version": "2020.6.8"
+}

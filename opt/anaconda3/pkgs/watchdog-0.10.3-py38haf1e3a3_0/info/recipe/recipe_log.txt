@@ -1,0 +1,356 @@
+commit 8a6907dc989b9c49809f5b0e0f976eb1f7edeed9
+Merge: a9a4655 2680f94
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Thu Jun 25 14:26:53 2020 -0700
+
+    Merge pull request #17 from regro-cf-autotick-bot/0.10.3_h4a5670
+    
+    watchdog v0.10.3
+
+commit 2680f940ba3fd1d2be8839fcc87aea6aed3cae4b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jun 25 21:13:36 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.3, and conda-forge-pinning 2020.06.24.16.31.11
+
+commit f593592151bfaff3b245dd8e0269581514458899
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jun 25 21:13:10 2020 +0000
+
+    updated v0.10.3
+
+commit a9a4655d4c344400e409a735d4f2b3b50a7fb827
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Wed May 20 12:19:08 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 45c1a2421fbbc138cfc1c6f8745cb2e38a93b041
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon May 18 10:47:18 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit 2d8b93668d628ff54b0577235fb0b596b5b68ae2
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue Mar 3 05:49:32 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 95530c320e701cead04807915517324a2cd565f0
+Merge: 2e6e7c3 0bea3ff
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Feb 9 10:55:46 2020 -0500
+
+    Merge pull request #16 from regro-cf-autotick-bot/0.10.2
+    
+    watchdog v0.10.2
+
+commit 0bea3ff6370cfb8ade01a7bedcd9b278c32b8164
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Feb 9 10:42:40 2020 -0500
+
+    Remove unneeded requirements
+
+commit 113096c649f1a6762b22ccbc8d2c9cfc59086b5c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Feb 9 00:14:50 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.8, and conda-forge-pinning 2020.01.28
+
+commit 7ba26514c994287db9baf1e0c6d86a26e7394ff3
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Feb 9 00:14:15 2020 +0000
+
+    updated v0.10.2
+
+commit 2e6e7c39d4ea928709c53950391db5ec10445ac9
+Merge: bdd29c4 54607c8
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Fri Jan 31 10:33:50 2020 -0500
+
+    Merge pull request #15 from regro-cf-autotick-bot/0.10.1
+    
+    watchdog v0.10.1
+
+commit 54607c86cbfcfba435b72606aef7e9c7eb4bb220
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jan 31 05:12:37 2020 +0000
+
+    updated v0.10.1
+
+commit bdd29c4168664dc466c53ca3bcf962771bbf3111
+Merge: 2e096c6 1f888e8
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Jan 29 11:35:22 2020 -0500
+
+    Merge pull request #14 from xhochy/fix-osx-requirements
+    
+    Fix OSX requirements
+
+commit 1f888e82ba030a8d967091039093b19e0c4658bc
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Wed Jan 29 12:28:23 2020 +0100
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.6, and conda-forge-pinning 2020.01.27
+
+commit 38658c2d57561447c0d98f153a10b758cff1b421
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Wed Jan 29 12:26:06 2020 +0100
+
+    Test for _watchdog_fsevents
+
+commit 4b61770a0689adcf0527db89f9fdd5f7cc47d093
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Tue Jan 28 11:27:36 2020 +0100
+
+    Update meta.yaml
+
+commit 46bd7eb881de82529865180c78bb4e9ffe2de1d6
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Tue Jan 28 11:26:02 2020 +0100
+
+    Fix OSX requirements
+
+commit 2e096c6b34dbad27161a4b8c4f209bd3394f03fd
+Merge: db07bd5 057cc3d
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Jan 26 14:59:52 2020 -0500
+
+    Merge pull request #13 from regro-cf-autotick-bot/0.10.0
+    
+    watchdog v0.10.0
+
+commit 057cc3df85f3c9cecb95827e912095d4b1570656
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jan 26 19:16:09 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.6, and conda-forge-pinning 2020.01.24
+
+commit d1ed0693140b6643dedbda339a8c95891b6686a7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jan 26 19:15:51 2020 +0000
+
+    updated v0.10.0
+
+commit db07bd58e86fde8a1586278dd88f5afff0f8924d
+Merge: 49eb830 6df70eb
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sun Nov 3 10:22:47 2019 -0600
+
+    Merge pull request #12 from regro-cf-autotick-bot/rebuild-python3801
+    
+    Rebuild for python38
+
+commit 6df70ebb973941fa8dd8655804099047315193c6
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Nov 3 15:25:55 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.1, and conda-forge-pinning 2019.11.01
+
+commit ec212b35e944029034e3f78e5f633bac0c853c4b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Nov 3 15:25:37 2019 +0000
+
+    bump build number
+
+commit 49eb830bb852282bef8b41587ef661277d6947cb
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 18:47:51 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit 36f458708c26d02d58319684f8462d09b072b7d9
+Merge: c522928 0265ba7
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Jun 12 13:09:52 2019 -0500
+
+    Merge pull request #11 from ccordoba12/remove-noarch
+    
+    Remove noarch build and add test for file needed in macOS
+
+commit 0265ba712b35f1b7ee040b773d00df713f1fe93f
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Jun 12 19:28:30 2019 +0200
+
+    Add test for macOS and Python 3
+
+commit 9b1041fad783e41a6a7553c2936dfa742de735bf
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Jun 12 18:47:20 2019 +0200
+
+    Fix macOS test
+
+commit e22cda9b962a752efe9668887a63383665802b5b
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Jun 12 15:57:58 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.2, conda-smithy 3.3.7, and conda-forge-pinning 2019.06.09
+
+commit b3c78f1a400539b42bfdb6eebb5cd2f7397af812
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Jun 12 17:55:39 2019 +0200
+
+    Remove noarch build and add test for file needed in macOS
+
+commit c52292800a08be57f75208881fdc8dfaa56a2f7d
+Merge: f1343aa b34f70c
+Author: Gonzalo Peña-Castellanos <goanpeca@gmail.com>
+Date:   Tue Jun 11 07:29:46 2019 -0500
+
+    Merge pull request #10 from ccordoba12/0.9.0
+    
+    Update to 0.9.0
+
+commit b34f70c9371a970f13f8392552e49fef904820b3
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Jun 11 12:16:50 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.2, conda-smithy 3.3.7, and conda-forge-pinning 2019.06.09
+
+commit cdc6e0861ef011007b04e3a55abc6942434b5c81
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Tue Jun 11 14:06:32 2019 +0200
+
+    Remove patch because it's no longer needed
+
+commit 0b70f7b8c73c136f80be389b1f013182940b3c3d
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Jun 11 11:55:29 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.2, conda-smithy 3.3.7, and conda-forge-pinning 2019.06.09
+
+commit d7c28d85d4f82860495c4f89795d138a68841088
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Aug 28 22:09:27 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.08.28
+
+commit 09cf9121184516730bac28fd6232052e96ad886d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Aug 28 22:09:19 2018 +0000
+
+    updated v0.9.0
+
+commit f1343aa752894af3206958218ab7ec9b3bcb2ebe
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:37:12 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 8dd4fedc1ebd971b7f5534248f59dcb2fcacdc5a
+Merge: d0d1974 308dce0
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sat Jul 14 15:40:54 2018 -0500
+
+    Merge pull request #6 from regro-cf-autotick-bot/noarch_migration
+    
+    Suggestion: add noarch
+
+commit 308dce0d64c322afb475dd6aa7a877c05c745cc1
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jul 7 14:23:27 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.01
+
+commit 52492a20fdc4ba21c35748b62b802bc6bd244341
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jul 7 14:23:21 2018 +0000
+
+    add noarch
+
+commit d0d19743d89a15bc00700fa2d881971b1ef022b0
+Merge: c304d33 295a89a
+Author: Rafael Laverde <leafar91@gmail.com>
+Date:   Sun Feb 11 06:39:15 2018 -0500
+
+    Merge pull request #5 from rlaverde/patch-setsid-macos
+    
+    PR: Add patch for setsid macos error.
+
+commit 295a89a8aa58a06c8db23eb36b4f6e48fdf79932
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Feb 10 14:25:44 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit f5adc29e3cdcc6a93f7ce7badb02e574e9dc812f
+Author: Rafael Laverde <leafar91@gmail.com>
+Date:   Fri Feb 9 17:07:36 2018 -0500
+
+    Increase build number.
+
+commit 5672471da65071f172ee1661fc5e2c439840591b
+Author: Rafael Laverde <leafar91@gmail.com>
+Date:   Fri Feb 9 17:00:36 2018 -0500
+
+    Add patch for setsid macos error.
+
+commit c304d33f0e2188f4891f6baea46479e0963dc251
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 20:26:55 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit b766dee5f5a665ad13ad2ec487fbb8a8a239c694
+Merge: 4db9448 e486d79
+Author: Gonzalo Peña-Castellanos <goanpeca@gmail.com>
+Date:   Tue Jul 11 18:35:50 2017 -0500
+
+    Merge pull request #3 from rlaverde/py3_6
+    
+    Add py36 support
+
+commit e486d79a0a8a17165f6f850709cedcfd510f99ca
+Author: Gonzalo Peña-Castellanos <goanpeca@gmail.com>
+Date:   Tue Jul 11 14:28:15 2017 -0500
+
+    Update meta.yaml
+
+commit 7ecf877b16c4870334f4f9e96e721916e9510e8c
+Author: Rafael Laverde <leafar91@gmail.com>
+Date:   Tue Jul 11 11:58:31 2017 -0500
+
+    Increase build number.
+
+commit b100a451cad622e1cc07fdd970d5331b04a2a158
+Author: Rafael Laverde <leafar91@gmail.com>
+Date:   Tue Jul 11 11:57:50 2017 -0500
+
+    Add myself to recipe mainteiners
+
+commit 40fb253f81008909211da296a9741d3c02731ce6
+Author: Rafael Laverde <leafar91@gmail.com>
+Date:   Tue Jul 11 11:50:34 2017 -0500
+
+    Re-render to add py3.6 support.
+    MNT: Re-rendered with conda-smithy 2.3.2
+
+commit 4db9448032c83608504c00e04bb025c4b3763ec6
+Merge: ff99e7e cb3b09b
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Oct 16 13:20:42 2016 -0400
+
+    Merge pull request #1 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit cb3b09b9dd22e51177db46f7f284a6d1e81c7a47
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Oct 15 22:43:59 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.3.3.
+
+commit ff99e7e694c300e3919087251185b85c8172ea87
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Aug 31 02:52:13 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 2a537e2b83ed070a37fc8c3f4b884533cfd23b23
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Aug 31 02:44:57 2016 +0000
+
+    Initial commit of the watchdog feedstock.

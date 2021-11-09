@@ -1,0 +1,65 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/backcall-0.2.0-on-linux_64, last modified Tue Jun 16 17:13:57 2020
+# ------------------------------------------------
+
+package:
+    name: backcall
+    version: 0.2.0
+source:
+    fn: backcall-0.2.0.tar.gz
+    sha256: 5cbdbf27be5e7cfadb448baf0aa95508f91f2bbc6c6437cd9cd06e2a4c215e1e
+    url: https://pypi.io/packages/source/b/backcall/backcall-0.2.0.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.4.5.2 py36_0
+        - flit-core 2.3.0 py_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.3 he6710b0_1
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1g h7b6447c_0
+        - pip 20.0.2 py36_3
+        - python 3.6.10 h7579374_2
+        - pytoml 0.1.21 py_0
+        - readline 8.0 h7b6447c_0
+        - setuptools 47.1.1 py36_0
+        - sqlite 3.31.1 h62c20be_1
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.34.2 py36_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python
+test:
+    imports:
+        - backcall
+about:
+    description: 'Backcall provides a way of specifying the parameters that callback
+        functions
+
+        need to accept, and adapting callbacks that take fewer parameters, so you
+
+        can add parameters to your callback API without breaking code that doesn''t
+
+        know about them.
+
+        '
+    home: https://github.com/takluyver/backcall/
+    license: BSD-3-Clause
+    license_family: BSD
+    summary: Specifications for callback functions passed in to an API
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - takluyver

@@ -1,0 +1,95 @@
+commit 23709ba23115c6ae927cc768005ec5cac0f52cad
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu Apr 2 12:59:58 2020 -0500
+
+    DNR 0.9.4
+
+commit 60f3fe757ec9cf8aac2347d1aa2a07bfc57ddcf3
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Mar 23 10:31:48 2020 -0500
+
+    DNR 0.9.3
+
+commit 3984b2387b9fc7195bc7999a014bba17e9409ca1
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Mar 23 10:24:53 2020 -0500
+
+    unquote
+
+commit beff00b2ae47bc990d1bf2b088c85f5c00040f95
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Mar 17 10:57:41 2020 -0500
+
+    DNR 0.9.2
+
+commit 04e44b8f194daefb887dc82b64ca8f45ea2b55fa
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Feb 10 10:41:33 2020 -0600
+
+    DNR 0.9.1
+
+commit 7f2a69df3f017f399191a34082d4d6c82f9d9678
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 20:59:04 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 0bca0a6c9bf2fbe3ce5bdb036945b525c10b432f
+Merge: 63f63f3 f5f475f
+Author: Ian Rose <ian.r.rose@gmail.com>
+Date:   Fri Jan 31 09:40:58 2020 -0800
+
+    Merge pull request #2 from regro-cf-autotick-bot/0.9.0
+    
+    json5 v0.9.0
+
+commit f5f475f8f1933142cf29b44157252e41aa564f8a
+Author: Ian Rose <ian.r.rose@gmail.com>
+Date:   Fri Jan 31 09:36:19 2020 -0800
+
+    Update sha256.
+
+commit 7b81dfe98c6361e286386e9780d43c559e305913
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jan 31 01:12:50 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.6, and conda-forge-pinning 2020.01.27
+
+commit 921a67e6a6eb91d6fff370701ebef3d042292181
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jan 31 01:12:20 2020 +0000
+
+    updated v0.9.0
+
+commit 63f63f3473cc13de48644697c803e28708693b19
+Merge: d2032ca 852f7f9
+Author: Ian Rose <ian.r.rose@gmail.com>
+Date:   Mon Jul 8 16:34:57 2019 +0100
+
+    Merge pull request #1 from regro-cf-autotick-bot/0.8.5
+    
+    json5 v0.8.5
+
+commit 852f7f995cdd95167ba4ac037fc35a763be072cb
+Author: Ian Rose <ian.r.rose@gmail.com>
+Date:   Mon Jul 8 08:24:56 2019 -0700
+
+    Update sha, remove license now that it is bundled with the package.
+
+commit 8b9cb3bbc051d1ad618005b3b95930e323d331c2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jul 5 03:24:55 2019 +0000
+
+    updated v0.8.5
+
+commit d2032ca8c6c7ba2cf0c92abd71a4e4514f0a6f05
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Jun 25 21:47:24 2019 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 99b5ed2a4fa6e373f533063d01f930d9ebcd0407
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Jun 25 21:44:13 2019 +0000
+
+    Initial feedstock commit with conda-smithy 3.4.0.

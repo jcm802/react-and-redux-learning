@@ -1,0 +1,595 @@
+commit 18a5166e6eb9dda7260af4ddf5a7f4789a82d3a9
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun May 3 21:27:15 2020 +0200
+
+    Windows fixes
+
+commit 72fd5f9bff56ee2d9576f8e8fcb40f43357cfe52
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri May 1 17:03:54 2020 +0200
+
+    It builds on macOS
+
+commit 37b5e93224888583298db547f734f44332e486a4
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri May 1 14:56:30 2020 +0200
+
+    Remove debugging stuff from back when I was fixing win-64 Python 3.8 interpreter issue
+    
+    The one about dropping the GIL before loading extension modules (not a Friend's episode)
+
+commit 800deb14634358e564d5fe8cd1eda2fdb21477b7
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri May 1 03:20:20 2020 +0200
+
+    Some fixes
+
+commit e8e515716c5ff9fe70bc3b6e5f0fef562d5fb9d9
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Mar 5 13:38:53 2020 +0100
+
+    A few fixes for Linux build
+
+commit 17eab05601ce83aba383b31413fca2f19fea1f04
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Mar 3 15:57:48 2020 +0100
+
+    Build Unix pyLIEF in separate folders per py version
+
+commit 602a0ac9dac0b0b14b3c0257914716b75e36f1df
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Mar 3 13:06:36 2020 +0100
+
+    Remove some unneeded debugging that looks a bit like an error in logs
+
+commit aa3ffd929e0966a0faa95e367460f9abe14ab9eb
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Mar 3 13:00:12 2020 +0100
+
+    Build fixes for linux
+
+commit 3fb902d3bc34e428242af2908ce0b0305869aee9
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Mar 2 22:36:52 2020 +0100
+
+    Per py-ver build folders
+
+commit a53b1c5b1d413afc6627fc8f1d5faaa6b414f2f7
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Mar 2 22:08:05 2020 +0100
+
+    Remove build_string stuff (needs pythons built with them)
+
+commit eee46f160511d867ad91dc5f504b7e5fb0bd906b
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Feb 23 21:14:35 2020 +0100
+
+    Remove debugging prints that seem to break batch syntax
+
+commit 6620b6885629d064cd9b98a88dc6f90e1258045e
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Feb 23 20:39:12 2020 +0100
+
+    Clean out stuff after mid-build patching for DEBUG_C
+
+commit 7c033cf902f893a4b7780730d46da7211742e1cc
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Feb 23 19:41:15 2020 +0100
+
+    Oops
+
+commit 57fd1e4f634476c64134125fd2b051289b85ef33
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Feb 23 18:35:54 2020 +0100
+
+    More debugging
+
+commit 84053e57643a8782fe56a0cc75989a0586e36ec3
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Feb 23 16:09:32 2020 +0100
+
+    Check examples exists before deleting in install-py-lief.bat
+
+commit e6f267e6a4863bc5201921e232d01fabba1e6183
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Feb 22 12:33:10 2020 +0100
+
+    Fix release DEBUG_SUFFIX
+
+commit 80a1c8adfe39bfe05a52c89d30fbc39f5d6d6a3e
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Feb 20 17:31:08 2020 +0100
+
+    Back to _d
+
+commit 9ce41ce3dbd819b6f72c269da99a3772872829e6
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Feb 20 15:46:36 2020 +0000
+
+    Some lost work
+
+commit d138b840440270798c5cce12ccee09be345988c6
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Feb 20 15:06:32 2020 +0100
+
+    Add some missed bits
+
+commit 7b8c533854d2f0824a276dce8be3f5684fdf35dc
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Feb 17 15:09:08 2020 +0100
+
+    Latest commits
+
+commit 178440a85a95dcff89df426907457ca96b5b2650
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Feb 12 09:59:02 2020 +0100
+
+    Build pyd statically to aid debugging
+
+commit ad82b970c4e75d6b3ffc349df212c732830079b1
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Feb 9 22:54:06 2020 +0100
+
+    Make dbg builds when PY_INTERP_DEBUG
+
+commit ebb600640f8249c29baec7e4f077c0e77c2c4474
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Feb 1 23:02:41 2020 +0100
+
+    Fix in-build tests
+
+commit 2381b35279157b94f61ca83b40f9812a1cd9c7cd
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Feb 1 11:38:41 2020 +0100
+
+    WIP testing, debug builds
+
+commit 04038a77cc21dfdd08e10203e36c0bb0a1d067ad
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Jan 21 10:46:50 2020 +0100
+
+    WIP tests for conda activation PATH management problem
+
+commit 01277c89ae9880989dc5e4305c7e1321f18addf5
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Dec 22 22:56:01 2019 +0100
+
+    Testing
+
+commit 32cdec5d65da807bdac91e2479e3d8a7edb41243
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Dec 22 22:54:27 2019 +0100
+
+    Remove old patches
+
+commit c7b1ff1d48648442b2981a26fa0965b4c8faf31c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Dec 12 20:19:27 2019 +0100
+
+    Set CC and CXX to cl.exe on Windows for now
+
+commit 2b349f3d41d758515f1f454b754d26fb856a988e
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Dec 12 19:24:58 2019 +0100
+
+    Oops
+
+commit a0406e4a5d23c000bf152a3e62815da2a6d94eae
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Dec 12 18:50:33 2019 +0100
+
+    Windows Python 3.8 investigations
+
+commit fcc11739535f575d6e6f4b4e8b74c7ef574cc30f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Dec 12 01:41:18 2019 +0100
+
+    More patches, rename LIEF.dll to libLIEF.dll to avoid clash
+
+commit ae0bc182125cd70112a88aec8f19f9ded3f8019b
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Dec 11 10:16:58 2019 +0100
+
+    Back to using build/build-PYVER folders
+
+commit 3922cd1e39184852cf7a072b16f6dae82a21588e
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Dec 11 01:11:20 2019 +0100
+
+    Back to separate dirs for each python build on Windows
+
+commit 0ee83521ed04c6613fe052aa15863bdc17a413d4
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Dec 11 01:01:36 2019 +0100
+
+    Re-render
+
+commit 2bf272a13c02b8cbf6ee25a1338bced80c44d810
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Dec 11 00:42:41 2019 +0100
+
+    More
+
+commit 0d3ff17baaf1ccc341e85d72e0b7e6b2b250aab5
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Dec 10 16:59:35 2019 -0600
+
+    Update conda_build_config.yaml
+
+commit ad8916f9ef5fcd83c8d9ba60f59c534a0bb59dcd
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 10 23:48:19 2019 +0100
+
+    Try random things
+
+commit 6e022ee9dc46960e73fa1fe81af2fd9c81c05003
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 10 23:21:34 2019 +0100
+
+    Force vs2017
+
+commit d1cbb53caec5feb65c4bdf9abe949bb281ff9fc8
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 10 23:00:50 2019 +0100
+
+    Delete examples on win
+
+commit ab500e6651e947fadd79246371cae9691c1ffd95
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 10 22:45:09 2019 +0100
+
+    Import test at end of each py build
+
+commit 118e3ddcdc727bf1eb3aa7376869378bfb004a10
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 10 22:43:58 2019 +0100
+
+    Clean up more
+
+commit cca61c0cc257b4f56bb2c0a4823a0705ea2e8ba8
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 10 22:26:33 2019 +0100
+
+    More
+
+commit b6f606a99d1f40313a1662d14187643306c294c7
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 10 22:03:42 2019 +0100
+
+    Remove build dir ref, add patch deps
+
+commit 96cc3a5ee8155b5ebc59738a5d4102246248eefe
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 10 21:06:02 2019 +0100
+
+    Remove most debugging
+
+commit 9e12276b713539a91aae1f2eda6f1d2f1b1af03a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 10 18:26:16 2019 +0100
+
+    Should work now, needs debug cleanup
+
+commit 218b7d1be8864292b1233f166ba1d7f141bd905d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 10 16:11:47 2019 +0100
+
+    Hack and tidy-up
+
+commit 27f62b711fca064af3eb77b2c2d1dd327ed9607b
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 10 14:57:40 2019 +0100
+
+    Testing more
+
+commit fffdcb8107ec5472055e6a3c2bc623f7918e94eb
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 10 15:56:57 2019 +0100
+
+    Testing
+
+commit 854b69f2bf38f677966ba31e5257e7bbbab72f4d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 10 14:47:25 2019 +0100
+
+    Trying another fix for BuildToolVersion, and adding it to the MachO Binary API
+
+commit d4ec55aa30f286b1f62fe5a7e99915094e00e106
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 10 04:08:41 2019 -0800
+
+    Typos
+
+commit 8ca5e124805ebacbf88268b1021a026212961e56
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 10 03:54:10 2019 -0800
+
+    Fix macOS objdump test a bit
+
+commit b68cabf005ae7fc208f2a75d0a29023984526c0b
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 10 02:55:55 2019 -0800
+
+    More debugging
+
+commit 4c83e85d96700969d3bab62fc188248c3be971f6
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 10 12:10:12 2019 +0100
+
+    Testing
+
+commit 4605f664f59b6c4c837aa4a6332905581781be18
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Dec 9 22:41:48 2019 +0100
+
+    Trying to fix link error
+
+commit 8b5a2e6d16778d3960fb3c58979bba9b844e0860
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Dec 9 00:17:07 2019 +0100
+
+    Ninja and stuff
+
+commit bc43a4ebb4e6239eb599e87978c17a69dcfdd77f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Dec 7 11:43:36 2019 +0100
+
+    Hack out git for now
+
+commit 316360045e1f4d3a0ce38487283e145982b8f402
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Nov 30 21:29:02 2019 +0100
+
+    Fix linux build
+
+commit 8525a123b1692892b113c010209170e6b0548ab4
+Author: Marcel Bargull <marcel.bargull@udo.edu>
+Date:   Sat Nov 30 00:56:16 2019 +0100
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.3, and conda-forge-pinning 2019.11.26
+
+commit 0a017145950473837a8941ebb345368970e2f582
+Author: Marcel Bargull <marcel.bargull@udo.edu>
+Date:   Sat Nov 30 00:51:26 2019 +0100
+
+    Skip only Python 2 on Windows
+
+commit f19da5e21fb527849336a8f8a18e2f113bcf8d63
+Merge: fe0c330 40d727b
+Author: Marcel Bargull <marcel.bargull@udo.edu>
+Date:   Sat Nov 30 00:50:39 2019 +0100
+
+    Merge branch '0.10.0' into 0.10.1
+
+commit fe0c33065bc2dbd8ec32b50699ca116389543a66
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Nov 29 21:19:12 2019 +0000
+
+    updated v0.10.1
+
+commit 40d727bfa11ced8321e51874e59924f071077769
+Author: Marcel Bargull <marcel.bargull@udo.edu>
+Date:   Fri Nov 29 19:10:05 2019 +0100
+
+    Remove outdated patches
+
+commit 03372695e98e797e967930873fd687191b612d90
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Nov 29 17:16:54 2019 +0000
+
+    updated v0.10.0
+
+commit d1fcc13b0f6e0c335076beef660c14d0499d8032
+Merge: 6db0307 22c04f6
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Nov 29 10:51:49 2019 -0600
+
+    Merge pull request #4 from regro-cf-autotick-bot/rebuild-python3801
+    
+    Rebuild for python38
+
+commit 22c04f6653182a408c023dae1948c9efc45abfb0
+Author: Marcel Bargull <marcel.bargull@udo.edu>
+Date:   Fri Nov 29 09:54:17 2019 +0100
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.3, and conda-forge-pinning 2019.11.26
+
+commit 94fd28d6c6536927c5e6d8a2fe828a753144535a
+Author: Marcel Bargull <marcel.bargull@udo.edu>
+Date:   Fri Nov 29 09:53:11 2019 +0100
+
+    force python build matrix on all platforms
+
+commit b73e67a58ecd3097996df97b365f0e7a920e8817
+Author: Marcel Bargull <marcel.bargull@udo.edu>
+Date:   Fri Nov 29 09:50:52 2019 +0100
+
+    suppress deprecation warnings for all linux builds
+
+commit e891afe4edcd140c48b5eb63e8f52b105074588c
+Author: Marcel Bargull <marcel.bargull@udo.edu>
+Date:   Fri Nov 29 09:49:16 2019 +0100
+
+    Revert "Use azure for ppc64le"
+    
+    This reverts commit fbe4ebe3a85c71ca28eecf2e2495c9883dc63d46.
+
+commit 40002be106fbabb1785dfe9fc9c1cfe602bd225b
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Nov 29 02:01:34 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.3, and conda-forge-pinning 2019.11.26
+
+commit fbe4ebe3a85c71ca28eecf2e2495c9883dc63d46
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu Nov 28 19:58:58 2019 -0600
+
+    Use azure for ppc64le
+
+commit 4e78c00646ccf2c7772d7e534c874a68e3556ec9
+Author: Marcel Bargull <marcel.bargull@udo.edu>
+Date:   Thu Nov 28 23:38:50 2019 +0100
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.3, and conda-forge-pinning 2019.11.26
+
+commit 4211cc37c1c377f4addb1b01dd3dc20f5c4dc362
+Author: Marcel Bargull <marcel.bargull@udo.edu>
+Date:   Thu Nov 28 23:37:38 2019 +0100
+
+    py-lief: use EXT_SUFFIX from sysconfig
+
+commit fe672f68913bba289e1f4fa2f86f79a14deeb443
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Nov 7 14:15:31 2019 -0300
+
+    Update meta.yaml
+
+commit aef5f89dcb8b3c34392d469c3998c547162a747d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Nov 1 22:23:27 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.10, conda-smithy 3.6.1, and conda-forge-pinning 2019.11.01
+
+commit 0742e4927977c2067fc7603469255b3288434021
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Nov 1 22:23:00 2019 +0000
+
+    bump build number
+
+commit 6db03076993cc99829653352a1f6cecb4c00965d
+Merge: 283edf7 a8abd30
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu May 23 14:50:36 2019 -0500
+
+    Merge pull request #2 from isuruf/ppc64le
+    
+    PPC64LE support
+
+commit a8abd301ee8e96baac584cf73bcf62ca8e1e679b
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu May 23 15:07:06 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.4, and conda-forge-pinning 2019.05.21
+
+commit ffec3e43c93fc1512c9ba35a0ccebcbe8bb01f2b
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu May 23 10:06:26 2019 -0500
+
+    Update meta.yaml
+
+commit 0e25b8a043431aa0d851e2f2b2cf0e06c8613e9e
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu May 23 02:20:41 2019 -0500
+
+    Delete ppc64le_build.diff
+
+commit d694d0b685f2eadf51244159184c970cec8518fc
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu May 23 02:20:24 2019 -0500
+
+    Reduce warnings
+
+commit 2be1e37e98fc87845a87de03a8dc38323142114e
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu May 23 06:51:18 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.4, and conda-forge-pinning 2019.05.21
+
+commit 2e93808a603ce5ebdcae47be7511c19d1e4b5889
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu May 23 01:50:29 2019 -0500
+
+    Update conda-forge.yml
+
+commit ea69048b6c15888ceeccef31408f279292c6414d
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu May 23 06:50:05 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.4, and conda-forge-pinning 2019.05.21
+
+commit 48da7584b9296c885b59b23329edf5469a9344c0
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu May 23 01:20:21 2019 -0500
+
+    No logging in ppc64le
+
+commit 4bc8a2f8d585588f386082a3546ec333b2b12ddc
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu May 23 01:18:47 2019 -0500
+
+    Remove patch
+
+commit c7dca947bc215cd6f35e29ca19289561620f48b5
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Mar 13 12:50:08 2019 -0500
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.03.12
+
+commit 68278aaf10bb3a5161f5aa99ba30da0490f9950d
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Mar 13 12:44:27 2019 -0500
+
+    Patch for building on ppc64le
+
+commit 283edf7f98e5c5e5ce7f3eb2da31abf5dc6b9864
+Merge: 41bc3c0 6681333
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Mar 13 03:10:28 2019 -0500
+
+    Merge pull request #1 from isuruf/arch
+    
+    aarch64, ppc64le and osx
+
+commit 6681333dfd79af4b271a05af0f6622095c7a234b
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Mar 12 23:55:22 2019 -0500
+
+    Split aarch64
+
+commit cc7d3cfd4b0d0f7f9d3f9fd95c5bffde4ddab356
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Mar 12 23:55:03 2019 -0500
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.03.11
+
+commit 1480f6c507b28d4d4e23ad05e50d98f34402a714
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Mar 12 13:20:06 2019 -0500
+
+    Update timeout
+
+commit bd9cb65b01d3db11e1bc7b0ea67a9cafbf20cb4a
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Mar 12 18:17:41 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.03.11
+
+commit bfd8865d9731490a3ee63d603172d9163ad8afd4
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Mar 12 13:16:27 2019 -0500
+
+    Skip ppc64le
+
+commit cb32fbbe739fece4c7a4f11ecad4b3583512e0cd
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Mar 12 14:04:31 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.03.11
+
+commit 69182b3a52b2dda500673ab9a47a018e23ab7624
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Mar 12 09:01:37 2019 -0500
+
+    aarch64, ppc64le and osx
+
+commit 41bc3c0c68b34f4410e516ec703d68d153a6a52d
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Mar 12 11:52:23 2019 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 1660cd99466b48eb3737d6c65f95b92609a07ead
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Mar 12 11:49:38 2019 +0000
+
+    Initial feedstock commit with conda-smithy 3.2.14.

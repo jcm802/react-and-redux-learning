@@ -1,0 +1,24 @@
+{
+  "build": "hb1e8313_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=10.0.0"
+  ],
+  "features": "",
+  "fn": "snappy-1.1.8-hb1e8313_0.conda",
+  "legacy_bz2_md5": "f6dd1146df6d9822a0c7f98a0d5214b7",
+  "legacy_bz2_size": 61512,
+  "license": "BSD 3-clause",
+  "license_family": "BSD",
+  "md5": "89cd66f90b1100cac596ac88ea25fca5",
+  "name": "snappy",
+  "sha256": "2708b6f70d541c52127441e067559f2921b8c33c1a291f6185da32d403544192",
+  "size": 55237,
+  "subdir": "osx-64",
+  "timestamp": 1592866420165,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/snappy-1.1.8-hb1e8313_0.conda",
+  "version": "1.1.8"
+}

@@ -1,0 +1,14 @@
+lib/python3.8/site-packages/zope.event-4.4-py3.8-nspkg.pth
+lib/python3.8/site-packages/zope.event-4.4-py3.8.egg-info/PKG-INFO
+lib/python3.8/site-packages/zope.event-4.4-py3.8.egg-info/SOURCES.txt
+lib/python3.8/site-packages/zope.event-4.4-py3.8.egg-info/dependency_links.txt
+lib/python3.8/site-packages/zope.event-4.4-py3.8.egg-info/namespace_packages.txt
+lib/python3.8/site-packages/zope.event-4.4-py3.8.egg-info/not-zip-safe
+lib/python3.8/site-packages/zope.event-4.4-py3.8.egg-info/requires.txt
+lib/python3.8/site-packages/zope.event-4.4-py3.8.egg-info/top_level.txt
+lib/python3.8/site-packages/zope/event/__init__.py
+lib/python3.8/site-packages/zope/event/__pycache__/__init__.cpython-38.pyc
+lib/python3.8/site-packages/zope/event/__pycache__/classhandler.cpython-38.pyc
+lib/python3.8/site-packages/zope/event/__pycache__/tests.cpython-38.pyc
+lib/python3.8/site-packages/zope/event/classhandler.py
+lib/python3.8/site-packages/zope/event/tests.py

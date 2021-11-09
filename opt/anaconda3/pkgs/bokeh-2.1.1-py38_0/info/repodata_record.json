@@ -1,0 +1,32 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "jinja2 >=2.7",
+    "numpy >=1.11.3",
+    "packaging >=16.8",
+    "pillow >=4.0",
+    "python >=3.8,<3.9.0a0",
+    "python-dateutil >=2.1",
+    "pyyaml >=3.10",
+    "tornado >=5.1",
+    "typing_extensions >=3.7.4"
+  ],
+  "features": "",
+  "fn": "bokeh-2.1.1-py38_0.conda",
+  "legacy_bz2_md5": "e1f353aad29b3e678c880e2ffff65449",
+  "legacy_bz2_size": 7306404,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "9a84927d2a01b0ed4069f6dde7d3636f",
+  "name": "bokeh",
+  "sha256": "cf61c5a8d1107ce7abff9421a2dd01c2cf5d774cf7bdc4cd800de11f95ca8389",
+  "size": 5625636,
+  "subdir": "osx-64",
+  "timestamp": 1593187658656,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/bokeh-2.1.1-py38_0.conda",
+  "version": "2.1.1"
+}

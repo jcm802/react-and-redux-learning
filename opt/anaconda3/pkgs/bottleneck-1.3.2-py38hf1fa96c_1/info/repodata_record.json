@@ -1,0 +1,25 @@
+{
+  "build": "py38hf1fa96c_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.14.6,<2.0a0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "bottleneck-1.3.2-py38hf1fa96c_1.conda",
+  "legacy_bz2_md5": "1ade250e7817d868b2a36443cf9b6d22",
+  "legacy_bz2_size": 121454,
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "md5": "6f19c7a7c27124ab0b23d9079596642e",
+  "name": "bottleneck",
+  "sha256": "b18ab62828626b077e48d265516fb3949b838485574d4a869325266c6df4a31e",
+  "size": 109327,
+  "subdir": "osx-64",
+  "timestamp": 1591780037011,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/bottleneck-1.3.2-py38hf1fa96c_1.conda",
+  "version": "1.3.2"
+}

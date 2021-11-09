@@ -1,0 +1,87 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/289ad4ec-5a12-4eb3-55ae-88863186d0db/volume/rsync-recipes/krb5-1.18.2-on-osx, last modified Mon Jun 29 08:11:55 2020
+# ------------------------------------------------
+
+package:
+    name: krb5
+    version: 1.18.2
+source:
+    sha256: 3a92fb44d06a60a79c71a031a528246bf4cf3badad150a2b91dfa7c4702c6c19
+    url: https://github.com/krb5/krb5/archive/krb5-1.18.2-final.tar.gz
+build:
+    ignore_run_exports:
+        - libcxx
+        - tk
+    missing_dso_whitelist:
+        - /usr/lib/libresolv.9.dylib
+    number: '0'
+    run_exports:
+        - krb5 >=1.18.2,<1.19.0a0
+    string: h75d18d8_0
+requirements:
+    build:
+        - autoconf 2.69 pl526he370928_5
+        - bison 3.4 h0a44026_1
+        - ca-certificates 2020.1.1 0
+        - cctools 927.0.2 h5ba7a2e_4
+        - clang 10.0.0 default_hf57f61e_0
+        - clang_osx-64 10.0.0 h05bbb7f_1
+        - clangxx 10.0.0 default_hf57f61e_0
+        - clangxx_osx-64 10.0.0 h05bbb7f_1
+        - compiler-rt 10.0.0 h47ead80_0
+        - compiler-rt_osx-64 10.0.0 hbcc88fd_0
+        - flex 2.6.4 hb56bbfa_1
+        - ld64 450.3 h3c32e8a_4
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 haf1e3a3_0
+        - libffi 3.3 h0a44026_1
+        - libiconv 1.16 h1de35cc_0
+        - libllvm10 10.0.0 h21ff451_0
+        - llvm-openmp 10.0.0 h28b9765_0
+        - llvm-tools 10.0.0 h21ff451_0
+        - m4 1.4.18 h1de35cc_1
+        - make 4.2.1 h3efe00b_1
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - perl 5.26.2 h4e221da_0
+        - pkg-config 0.29.2 h3efe00b_8
+        - python 3.7.7 hf48f09d_4
+        - readline 8.0 h1de35cc_0
+        - sqlite 3.32.3 hffcf06c_0
+        - tapi 1000.10.8 ha1b3eb9_0
+        - tk 8.6.10 hb0a8c7a_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    host:
+        - ca-certificates 2020.1.1 0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 haf1e3a3_0
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - tk 8.6.10 hb0a8c7a_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - libedit >=3.1.20191231,<3.2.0a0
+        - libedit >=3.1.20191231,<4.0a0
+        - openssl >=1.1.1g,<1.1.2a
+test:
+    commands:
+        - conda inspect linkages -p $PREFIX krb5
+        - conda inspect objects -p $PREFIX krb5
+    requires:
+        - python 3.7.*
+about:
+    home: http://web.mit.edu/kerberos/
+    license: MIT
+    license_file: doc/notice.rst
+    summary: A network authentication protocol.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - chenghlee
+        - mariusvniekerk
+        - mingwandroid
+        - ocefpaf
+        - pelson

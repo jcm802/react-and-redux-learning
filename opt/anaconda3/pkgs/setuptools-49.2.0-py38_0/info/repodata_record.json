@@ -1,0 +1,25 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "certifi >=2016.9.26",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "setuptools-49.2.0-py38_0.conda",
+  "legacy_bz2_md5": "7f03d603620d9596bf92e5bcb549e667",
+  "legacy_bz2_size": 976325,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "e1dab8f8864371bf6f71b31cf2642b31",
+  "name": "setuptools",
+  "sha256": "754312a6e66f0514a7f2051096a983deacbb6aeba018d92c9f54feecaa533a21",
+  "size": 764496,
+  "subdir": "osx-64",
+  "timestamp": 1594754017004,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/setuptools-49.2.0-py38_0.conda",
+  "version": "49.2.0"
+}

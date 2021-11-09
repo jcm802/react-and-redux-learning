@@ -1,0 +1,61 @@
+# This file created by conda-build 3.18.9
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/heapdict-1.0.1-on-linux_canary, last modified Thu Sep 26 01:47:41 2019
+# ------------------------------------------------
+
+package:
+    name: heapdict
+    version: 1.0.1
+source:
+    sha256: 8495f57b3e03d8e46d5f1b2cc62ca881aca392fd5cc048dc0aa2e1a6d23ecdb6
+    url: https://pypi.io/packages/source/H/HeapDict/HeapDict-1.0.1.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: /tmp/build/80754af9/heapdict_1569462734260/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place/bin/python
+        -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+    string: py_0
+requirements:
+    build:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2019.8.28 0
+        - certifi 2019.9.11 py27_0
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.1 he6710b0_1
+        - openssl 1.1.1d h7b6447c_1
+        - pip 19.2.3 py27_0
+        - python 2.7.16 h9bab390_7
+        - readline 7.0 h7b6447c_5
+        - setuptools 41.2.0 py27_0
+        - sqlite 3.29.0 h7b6447c_0
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.33.6 py27_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python
+test:
+    imports:
+        - heapdict
+about:
+    description: 'heapdict implements the MutableMapping ABC, meaning it works pretty
+        much
+
+        like a regular Python dict. It''s designed to be used as a priority queue.
+
+        '
+    dev_url: https://github.com/DanielStutzbach/heapdict
+    doc_source_url: https://github.com/DanielStutzbach/heapdict/blob/master/README.rst
+    doc_url: https://pypi.python.org/pypi/HeapDict
+    home: http://stutzbachenterprises.com/
+    license: BSD 3-Clause
+    license_file: LICENSE
+    summary: A heap with decrease-key and increase-key operations
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - mrocklin
+        - ocefpaf

@@ -1,0 +1,26 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "backcall-0.2.0-py_0.conda",
+  "legacy_bz2_md5": "3d4549a36a54448196be416097f0ff64",
+  "legacy_bz2_size": 14367,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "aec219de04062440ce5052069c3a619b",
+  "name": "backcall",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "96e75cced5f6a0e3a32f4ab1a2e3a22b60ed708abf102fcfa11b3eb74b358e95",
+  "size": 14933,
+  "subdir": "noarch",
+  "timestamp": 1592327815702,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/backcall-0.2.0-py_0.conda",
+  "version": "0.2.0"
+}

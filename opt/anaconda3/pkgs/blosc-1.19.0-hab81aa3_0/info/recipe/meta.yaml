@@ -1,0 +1,80 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/3f87fe51-e7cf-45af-709e-e415e1325cff/volume/rsync-recipes/blosc-1.19.0-on-osx, last modified Thu Jun 18 14:42:05 2020
+# ------------------------------------------------
+
+package:
+    name: blosc
+    version: 1.19.0
+source:
+    sha256: cf3d6193fece9becddb62248b9981bf78cf1c7faf58150fd520d4755cd622488
+    url: https://github.com/Blosc/c-blosc/archive/v1.19.0.tar.gz
+build:
+    number: '0'
+    run_exports:
+        - blosc >=1.19.0,<2.0a0
+    string: hab81aa3_0
+requirements:
+    build:
+        - bzip2 1.0.8 h1de35cc_0
+        - ca-certificates 2020.1.1 0
+        - cctools 927.0.2 h5ba7a2e_4
+        - clang 10.0.0 default_hf57f61e_0
+        - clang_osx-64 10.0.0 h05bbb7f_1
+        - clangxx 10.0.0 default_hf57f61e_0
+        - clangxx_osx-64 10.0.0 h05bbb7f_1
+        - cmake 3.14.0 haff7e42_0
+        - compiler-rt 10.0.0 h47ead80_0
+        - compiler-rt_osx-64 10.0.0 hbcc88fd_0
+        - expat 2.2.6 h0a44026_0
+        - krb5 1.17.1 hddcf347_0
+        - ld64 450.3 h3c32e8a_4
+        - libcurl 7.69.1 h051b688_0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 haf1e3a3_0
+        - libllvm10 10.0.0 h21ff451_0
+        - libssh2 1.9.0 ha12b0ac_1
+        - llvm-openmp 10.0.0 h28b9765_0
+        - llvm-tools 10.0.0 h21ff451_0
+        - make 4.2.1 h3efe00b_1
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - rhash 1.3.8 ha12b0ac_0
+        - tapi 1000.10.8 ha1b3eb9_0
+        - tk 8.6.10 hb0a8c7a_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    host:
+        - libcxx 10.0.0 1
+        - lz4-c 1.9.2 h0a44026_0
+        - snappy 1.1.7 he62c110_3
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+        - zstd 1.4.4 h1990bb4_3
+    run:
+        - libcxx >=10.0.0
+        - lz4-c >=1.9.2,<1.10.0a0
+        - snappy >=1.1.7,<2.0a0
+        - zlib >=1.2.11,<1.3.0a0
+        - zstd >=1.4.4,<1.4.5.0a0
+test:
+    commands:
+        - test -e $PREFIX/include/blosc.h
+        - test -e $PREFIX/include/blosc-export.h
+        - test -e $PREFIX/lib/libblosc.a
+        - test -e $PREFIX/lib/libblosc${SHLIB_EXT}
+about:
+    home: https://github.com/Blosc/c-blosc
+    license: BSD-3-Clause
+    license_file: LICENSES/BLOSC.txt
+    summary: A blocking, shuffling and loss-less compression library that can be faster
+        than `memcpy()`
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - FrancescElies
+        - beckermr
+        - danielfrg
+        - jakirkham
+        - msarahan

@@ -1,0 +1,28 @@
+{
+  "build": "hc5f4afa_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "gettext",
+    "libcxx >=10.0.0",
+    "libffi >=3.3,<3.4.0a0",
+    "libiconv >=1.16,<2.0a0",
+    "pcre >=8.44,<9.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "features": "",
+  "fn": "glib-2.65.0-hc5f4afa_0.conda",
+  "legacy_bz2_md5": "3242e61a3e7e88a3b2af8c64684b5f62",
+  "legacy_bz2_size": 3391863,
+  "license": "LGPL-2.1",
+  "md5": "b7ab248e1ce327285eeb26a8a8094aaa",
+  "name": "glib",
+  "sha256": "088393131717ea49587f2159120c16ac9fc7ff85bcbd1e13dd550dece0e5318f",
+  "size": 2816807,
+  "subdir": "osx-64",
+  "timestamp": 1593199634197,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/glib-2.65.0-hc5f4afa_0.conda",
+  "version": "2.65.0"
+}

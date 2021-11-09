@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "python"
+  ],
+  "license": "Public Domain",
+  "license_family": "Public-Domain",
+  "name": "filelock",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1559860745800,
+  "version": "3.0.12"
+}

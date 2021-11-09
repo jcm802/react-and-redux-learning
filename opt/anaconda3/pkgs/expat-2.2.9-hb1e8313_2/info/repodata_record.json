@@ -1,0 +1,24 @@
+{
+  "build": "hb1e8313_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=10.0.0"
+  ],
+  "features": "",
+  "fn": "expat-2.2.9-hb1e8313_2.conda",
+  "legacy_bz2_md5": "a0df559ed762f3170529a1d0d68844da",
+  "legacy_bz2_size": 134053,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "0f4e2ad1b457edf98a2120e5dd7be2e1",
+  "name": "expat",
+  "sha256": "032c78dcad2a8f1422a9f1e83f51cbf34568cf26b0e615c4725bdd94c439afa1",
+  "size": 115124,
+  "subdir": "osx-64",
+  "timestamp": 1593113643970,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/expat-2.2.9-hb1e8313_2.conda",
+  "version": "2.2.9"
+}

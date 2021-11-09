@@ -1,0 +1,23 @@
+{
+  "build": "py38haf1e3a3_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "bitarray-1.4.0-py38haf1e3a3_0.conda",
+  "legacy_bz2_md5": "3bad2283f57b7ad50a5b842281db300d",
+  "legacy_bz2_size": 85471,
+  "license": "PSF",
+  "md5": "c19dd43fecae6389fe3d1672f75588e6",
+  "name": "bitarray",
+  "sha256": "54b2ca53920ae9c3f4cb388e3c25828e8796419b8311beb23acc2c2100f02c0c",
+  "size": 86890,
+  "subdir": "osx-64",
+  "timestamp": 1594754068297,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/bitarray-1.4.0-py38haf1e3a3_0.conda",
+  "version": "1.4.0"
+}

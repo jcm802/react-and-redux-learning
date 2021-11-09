@@ -1,0 +1,72 @@
+# This file created by conda-build 3.18.11
+# ------------------------------------------------
+
+package:
+    name: libcurl
+    version: 7.71.1
+source:
+    sha256: 9d52a4d80554f9b0d460ea2be5d7be99897a1a9f681ffafe739169afd6b4f224
+    url: http://curl.haxx.se/download/curl-7.71.1.tar.bz2
+build:
+    number: 1
+    run_exports:
+        - libcurl >=7.71.1,<8.0a0
+    string: h8a08a2b_1
+requirements:
+    build:
+        - cctools 927.0.2 h5ba7a2e_4
+        - clang 10.0.0 default_hf57f61e_0
+        - clang_osx-64 10.0.0 h05bbb7f_1
+        - clangxx 10.0.0 default_hf57f61e_0
+        - compiler-rt 10.0.0 h47ead80_0
+        - compiler-rt_osx-64 10.0.0 hbcc88fd_0
+        - ld64 450.3 h3c32e8a_4
+        - libcxx 10.0.0 1
+        - libllvm10 10.0.0 h21ff451_1
+        - llvm-openmp 10.0.0 h28b9765_0
+        - llvm-tools 10.0.0 h21ff451_1
+        - tapi 1000.10.8 ha1b3eb9_0
+    host:
+        - ca-certificates 2020.6.24 0
+        - krb5 1.18.2 h75d18d8_0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 h1de35cc_1
+        - libssh2 1.9.0 ha12b0ac_1
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - krb5 >=1.18.2,<1.19.0a0
+        - libssh2 >=1.9.0,<2.0a0
+        - openssl >=1.1.1g,<1.1.2a
+        - zlib >=1.2.11,<1.3.0a0
+test:
+    commands:
+        - curl-config --features
+        - curl-config --protocols
+        - test -f ${PREFIX}/lib/libcurl${SHLIB_EXT}
+        - test ! -f ${PREFIX}/lib/libcurl.a
+about:
+    description: 'Curl is an open source command line tool and library for transferring
+        data
+
+        with URL syntax. It is used in command lines or scripts to transfer data.
+
+        '
+    dev_url: https://github.com/curl/curl
+    doc_source_url: https://github.com/curl/curl/tree/master/docs
+    doc_url: https://curl.haxx.se/docs/
+    home: http://curl.haxx.se/
+    license: MIT/X derivate (http://curl.haxx.se/docs/copyright.html)
+    license_family: MIT
+    license_file: COPYING
+    summary: tool and library for transferring data with URL syntax
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - mingwandroid
+        - msarahan
+        - ocefpaf
+        - xylar

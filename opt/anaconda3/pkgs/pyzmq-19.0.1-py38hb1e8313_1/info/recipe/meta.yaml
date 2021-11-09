@@ -1,0 +1,95 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/aed6ce95-a4db-4393-7117-bc03f48e0bbb/volume/rsync-recipes/pyzmq-19.0.1-python_3.8-on-osx, last modified Wed Jun 24 15:30:05 2020
+# ------------------------------------------------
+
+package:
+    name: pyzmq
+    version: 19.0.1
+source:
+    sha256: 13a5638ab24d628a6ade8f794195e1a1acd573496c3b85af2f1183603b7bf5e0
+    url: https://pypi.io/packages/source/p/pyzmq/pyzmq-19.0.1.tar.gz
+build:
+    ignore_run_exports:
+        - libcxx
+        - libsodium
+    number: '1'
+    string: py38hb1e8313_1
+requirements:
+    build:
+        - cctools 927.0.2 h5ba7a2e_4
+        - clang 10.0.0 default_hf57f61e_0
+        - clang_osx-64 10.0.0 h05bbb7f_1
+        - clangxx 10.0.0 default_hf57f61e_0
+        - clangxx_osx-64 10.0.0 h05bbb7f_1
+        - compiler-rt 10.0.0 h47ead80_0
+        - compiler-rt_osx-64 10.0.0 hbcc88fd_0
+        - ld64 450.3 h3c32e8a_4
+        - libcxx 10.0.0 1
+        - libiconv 1.16 h1de35cc_0
+        - libllvm10 10.0.0 h21ff451_0
+        - llvm-openmp 10.0.0 h28b9765_0
+        - llvm-tools 10.0.0 h21ff451_0
+        - pkg-config 0.29.2 h3efe00b_8
+        - tapi 1000.10.8 ha1b3eb9_0
+    host:
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.6.20 py38_0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 haf1e3a3_0
+        - libffi 3.3 h0a44026_1
+        - libsodium 1.0.18 h1de35cc_0
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - pip 20.1.1 py38_1
+        - python 3.8.3 h26836e1_1
+        - readline 8.0 h1de35cc_0
+        - setuptools 47.3.1 py38_0
+        - sqlite 3.32.3 hffcf06c_0
+        - tk 8.6.10 hb0a8c7a_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h1de35cc_0
+        - zeromq 4.3.2 hb1e8313_2
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - python >=3.8,<3.9.0a0
+        - zeromq >=4.3.2,<4.4.0a0
+        - zeromq >=4.3.2,<4.4.0a0
+test:
+    commands:
+        - py.test --pyargs zmq.tests.test_socket
+    imports:
+        - zmq
+        - zmq.backend.cython.socket
+        - zmq.backend.cython.utils
+        - zmq.devices.monitoredqueue
+    requires:
+        - pytest
+about:
+    description: 'PyZMQ contains Python bindings for 0MQ. 0MQ is a lightweight and
+        fast
+
+        messaging implementation.
+
+        '
+    dev_url: https://github.com/zeromq/pyzmq
+    doc_source_url: https://github.com/zeromq/pyzmq/blob/master/docs/source/index.rst
+    doc_url: https://pyzmq.readthedocs.org/
+    home: https://github.com/zeromq/pyzmq
+    license: BSD 3-clause
+    license_family: BSD
+    license_file: COPYING.BSD
+    summary: Python bindings for zeromq
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - JohanMabille
+        - SylvainCorlay
+        - chenghlee
+        - jakirkham
+        - mingwandroid
+        - minrk
+        - msarahan
+        - ocefpaf
+        - pelson

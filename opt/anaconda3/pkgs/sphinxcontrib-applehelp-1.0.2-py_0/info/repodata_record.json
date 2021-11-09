@@ -1,0 +1,26 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.5"
+  ],
+  "features": "",
+  "fn": "sphinxcontrib-applehelp-1.0.2-py_0.conda",
+  "legacy_bz2_md5": "f3908647cbef04ffedede886bde569ef",
+  "legacy_bz2_size": 30281,
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "md5": "cc81794aa5469ba725c420c30e4ef052",
+  "name": "sphinxcontrib-applehelp",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "ce7a3cf88f3785ff223bc7995ba38265d3121b1b725ddc71e6f02cbd67928720",
+  "size": 27669,
+  "subdir": "noarch",
+  "timestamp": 1584458680255,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/sphinxcontrib-applehelp-1.0.2-py_0.conda",
+  "version": "1.0.2"
+}

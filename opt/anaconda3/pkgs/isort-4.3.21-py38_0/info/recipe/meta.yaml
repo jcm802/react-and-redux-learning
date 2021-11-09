@@ -1,0 +1,73 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/c8bee49e-1a0b-4fb0-470e-7a5cbbac5c0d/volume/aggregate/isort-feedstock/recipe, last modified Tue Nov 19 04:02:05 2019
+# ------------------------------------------------
+
+package:
+    name: isort
+    version: 4.3.21
+source:
+    sha256: 54da7e92468955c4fceacd0c86bd0ec997b0e1ee80d97f67c35a78b719dccab1
+    url: https://pypi.io/packages/source/i/isort/isort-4.3.21.tar.gz
+build:
+    entry_points:
+        - isort = isort.main:main
+    number: '0'
+    script: /opt/concourse/worker/volumes/live/c8bee49e-1a0b-4fb0-470e-7a5cbbac5c0d/volume/isort_1574157841303/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin/python
+        -m pip install . --no-deps -vv
+    string: py38_0
+requirements:
+    host:
+        - ca-certificates 2019.10.16 0
+        - certifi 2019.9.11 py38_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20181209 hb402a30_0
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1d h1de35cc_3
+        - pip 19.3.1 py38_0
+        - python 3.8.0 h359304d_2
+        - readline 7.0 h1de35cc_5
+        - setuptools 41.6.0 py38_0
+        - sqlite 3.30.1 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.33.6 py38_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - python >=3.8,<3.9.0a0
+        - setuptools
+test:
+    commands:
+        - isort --help
+    imports:
+        - isort
+about:
+    description: 'isort is a Python utility / library to sort imports alphabetically,
+        and
+
+        automatically separated into sections. It provides a command line utility,
+
+        Python library and plugins for various editors to quickly sort all your
+
+        imports. It currently cleanly supports Python 2.6 - 3.5 using pies to
+
+        achieve this without ugly hacks and/or py2to3.
+
+        '
+    dev_url: https://github.com/timothycrosley/isort
+    doc_source_url: https://github.com/timothycrosley/isort/blob/develop/README.rst
+    doc_url: http://isort.readthedocs.io/en/latest/
+    home: https://github.com/timothycrosley/isort
+    license: MIT
+    license_file: LICENSE
+    summary: A Python utility / library to sort Python imports.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - goanpeca
+        - nehaljwani
+        - nicoddemus
+        - ocefpaf

@@ -1,0 +1,26 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "pytz"
+  ],
+  "features": "",
+  "fn": "babel-2.8.0-py_0.conda",
+  "legacy_bz2_md5": "1a7f7e1d65c9c3ba1e7517732ff63707",
+  "legacy_bz2_size": 6297396,
+  "license": "BSD 3-clause",
+  "md5": "501ac10d20577fa3931e5385d329d785",
+  "name": "babel",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "30ec9e12d17c0dcd4e38c7640f26187a1053c80ed97d063aadc015aeebee08bf",
+  "size": 5582175,
+  "subdir": "noarch",
+  "timestamp": 1578411259545,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/babel-2.8.0-py_0.conda",
+  "version": "2.8.0"
+}

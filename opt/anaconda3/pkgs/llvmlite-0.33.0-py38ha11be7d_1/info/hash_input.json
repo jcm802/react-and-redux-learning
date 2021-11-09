@@ -1,0 +1,5 @@
+{
+  "zlib": "1.2",
+  "CONDA_BUILD_SYSROOT": "/opt/MacOSX10.10.sdk",
+  "MACOSX_DEPLOYMENT_TARGET": "10.9"
+}

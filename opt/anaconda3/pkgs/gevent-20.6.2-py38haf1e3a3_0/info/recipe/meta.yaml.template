@@ -1,0 +1,72 @@
+{% set name = "gevent" %}
+{% set version = "20.6.2" %}
+{% set sha256 = "a23c2abf08e851c988723f6a2996d495f513a2c0dc70f9956af03af8debdb5d1" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+  patches:
+    - 0001-Allow-include-flags-to-be-present-in-CFLAGS.patch
+
+build:
+  number: 0
+  script:
+    - copy %SRC_DIR%\deps\c-ares\ares_build.h.dist %SRC_DIR%\deps\c-ares\ares_build.h  # [win]
+    - {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv
+  missing_dso_whitelist:  # [osx]
+    - /usr/lib/libresolv.9.dylib  # [osx]
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - make      # [unix]
+
+  host:
+    # cffi 1.4.0 is the general minimum version
+    # With Python 3 version 1.11.3 is minimum
+    # On windows 1.11.5 is the minimum
+    # Rather than special casing each of these use a single minimum version
+    - cffi >=1.11.5
+    - pip
+    - python
+
+  run:
+    - cffi >=1.11.5
+    - python
+    - greenlet >=0.4.14
+    - zope.event
+    - zope.interface
+    - setuptools
+
+test:
+  requires:
+    - pip
+  imports:
+    - gevent
+    - gevent.libev
+  commands:
+    - python -m pip check
+
+about:
+  home: https://www.gevent.org
+  license: MIT
+  license_family: MIT
+  license_file:
+    - LICENSE
+    - deps/libuv/LICENSE
+    - deps/libev/LICENSE
+    - deps/c-ares/LICENSE.md
+  summary: Coroutine-based network library
+  description: |
+    Gevent uses greenlet to provide a high-level synchronous API on top of the libev event loop.
+  doc_url: https://www.gevent.org/contents.html
+  dev_url: https://github.com/gevent/gevent
+
+extra:
+  recipe-maintainers:
+    - nehaljwani

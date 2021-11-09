@@ -1,0 +1,66 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/autopep8-1.5.3-on-linux_64, last modified Wed Jun 17 16:53:15 2020
+# ------------------------------------------------
+
+package:
+    name: autopep8
+    version: 1.5.3
+source:
+    sha256: 60fd8c4341bab59963dafd5d2a566e94f547e660b9b396f772afe67d8481dbf0
+    url: https://pypi.io/packages/source/a/autopep8/autopep8-1.5.3.tar.gz
+build:
+    entry_points:
+        - autopep8 = autopep8:main
+    noarch: python
+    number: '0'
+    script: /tmp/build/80754af9/autopep8_1592412889138/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place/bin/python
+        -m pip install . -vv
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.4.5.2 py36_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.3 he6710b0_1
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1g h7b6447c_0
+        - pip 20.1.1 py36_1
+        - python 3.6.10 h7579374_2
+        - readline 8.0 h7b6447c_0
+        - setuptools 47.3.0 py36_0
+        - sqlite 3.31.1 h62c20be_1
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.34.2 py36_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - pycodestyle >=2.6
+        - python
+        - toml
+test:
+    commands:
+        - pip check
+        - autopep8 --help
+    imports:
+        - autopep8
+    requires:
+        - pip
+about:
+    dev_url: https://github.com/hhatto/autopep8
+    home: https://github.com/hhatto/autopep8
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: A tool that automatically formats Python code to conform to the PEP 8
+        style guide
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ocefpaf
+        - pmlandwehr

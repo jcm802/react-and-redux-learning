@@ -1,0 +1,23 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "ipython_genutils-0.2.0-py38_0.conda",
+  "legacy_bz2_md5": "61b8f4e0c62a2a311356f8ba19f94841",
+  "legacy_bz2_size": 40026,
+  "license": "BSD 3-Clause",
+  "md5": "f334543cee884412fee268387106d902",
+  "name": "ipython_genutils",
+  "sha256": "6a15e977ac0f18be9f2e0c58f2687c1cee7167876ff12fbd73c6a438698df50d",
+  "size": 40391,
+  "subdir": "osx-64",
+  "timestamp": 1572438109731,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/ipython_genutils-0.2.0-py38_0.conda",
+  "version": "0.2.0"
+}

@@ -1,0 +1,10 @@
+site-packages/et_xmlfile-1.0.1-py3.7.egg-info/PKG-INFO
+site-packages/et_xmlfile-1.0.1-py3.7.egg-info/SOURCES.txt
+site-packages/et_xmlfile-1.0.1-py3.7.egg-info/dependency_links.txt
+site-packages/et_xmlfile-1.0.1-py3.7.egg-info/top_level.txt
+site-packages/et_xmlfile/__init__.py
+site-packages/et_xmlfile/tests/__init__.py
+site-packages/et_xmlfile/tests/common_imports.py
+site-packages/et_xmlfile/tests/helper.py
+site-packages/et_xmlfile/tests/test_incremental_xmlfile.py
+site-packages/et_xmlfile/xmlfile.py

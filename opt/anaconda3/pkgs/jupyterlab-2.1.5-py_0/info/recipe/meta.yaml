@@ -1,0 +1,104 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/jupyterlab-2.1.5-on-linux_64, last modified Mon Jun 29 16:12:09 2020
+# ------------------------------------------------
+
+package:
+    name: jupyterlab
+    version: 2.1.5
+source:
+    fn: jupyterlab-2.1.5.tar.gz
+    sha256: ca7b92491c32b66ad97be4a44d79aa702e4b6c59167e4189d5ce8cc742b15298
+    url: https://pypi.io/packages/source/j/jupyterlab/jupyterlab-2.1.5.tar.gz
+build:
+    entry_points:
+        - jlpm = jupyterlab.jlpmapp:main
+        - jupyter-lab = jupyterlab.labapp:main
+        - jupyter-labextension = jupyterlab.labextensions:main
+    noarch: python
+    number: '0'
+    script: /tmp/build/80754af9/jupyterlab_1593447226451/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/bin/python
+        -m pip install --install-option="--skip-npm" . -vv
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.6.20 py38_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20191231 h7b6447c_0
+        - libffi 3.3 he6710b0_1
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_1
+        - nodejs 10.13.0 he6710b0_0
+        - openssl 1.1.1g h7b6447c_0
+        - pip 20.1.1 py38_1
+        - python 3.8.3 hcff3b4d_0
+        - readline 8.0 h7b6447c_0
+        - setuptools 47.3.1 py38_0
+        - sqlite 3.32.3 h62c20be_0
+        - tk 8.6.10 hbc83047_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - jinja2 >=2.10
+        - jupyterlab_server >=1.1.0,<2.0.0
+        - notebook >=4.3.1
+        - python >=3.5
+        - tornado !=6.0.0,!=6.0.1,!=6.0.2
+test:
+    commands:
+        - jupyter lab --version
+        - jlpm --version
+        - jlpm versions
+        - jupyter labextension list
+        - jupyter lab path
+        - jupyter lab build
+        - jupyter lab clean
+    imports:
+        - jupyterlab
+    requires:
+        - nodejs >=10
+app:
+    entry: jupyter lab
+    icon: icon.png
+    summary: JupyterLab PRE-ALPHA
+    type: desk
+about:
+    description: 'JupyterLab is the next-generation user interface for Project Jupyter.
+        It offers all the familiar building blocks of the classic Jupyter Notebook
+        (notebook, terminal, text editor, file browser, rich outputs, etc.) in a flexible
+        and powerful user inteface. Eventually, JupyterLab will replace the classic
+        Jupyter Notebook.
+
+        JupyterLab can be extended using extensions that are npm packages and use
+        our public APIs. You can search for the GitHub topic or npm keyword `jupyterlab-extension`
+        to find extensions. To learn more about extensions, see our user documentation.
+
+        JupyterLab is suitable for general usage. For JupyterLab extension developers,
+        the extension APIs will continue to evolve.
+
+        '
+    dev_url: https://github.com/jupyterlab/jupyterlab
+    doc_url: https://jupyterlab.readthedocs.io
+    home: https://github.com/jupyterlab/jupyterlab
+    license: BSD-3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: 'An extensible environment for interactive and reproducible computing,
+        based on the Jupyter Notebook and Architecture.
+
+        '
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - afshin
+        - blink1073
+        - ellisonbg
+        - ian-r-rose
+        - jasongrout
+        - jochym
+        - saulshanabrook

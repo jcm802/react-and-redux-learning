@@ -1,0 +1,62 @@
+# This file created by conda-build 3.18.10
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/e8b41f2e-a5dc-41c4-4333-5219aefb1816/volume/rsync-recipes/libspatialindex-1.9.3-on-osx, last modified Wed Nov  6 11:23:39 2019
+# ------------------------------------------------
+
+package:
+    name: libspatialindex
+    version: 1.9.3
+source:
+    sha256: 7b44340a3edc55c11abfc453bb60f148b29f569cef9e1148583e76132e9c7379
+    url: https://github.com/libspatialindex/libspatialindex/archive/1.9.3.tar.gz
+build:
+    number: '0'
+    run_exports:
+        - libspatialindex >=1.9.3,<1.9.4.0a0
+    string: h0a44026_0
+requirements:
+    build:
+        - bzip2 1.0.8 h1de35cc_0
+        - ca-certificates 2019.10.16 0
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_18
+        - clangxx 4.0.1 1
+        - clangxx_osx-64 4.0.1 h22b1bf0_18
+        - cmake 3.14.0 haff7e42_0
+        - compiler-rt 4.0.1 hcfea43d_1
+        - expat 2.2.6 h0a44026_0
+        - krb5 1.16.1 hddcf347_7
+        - ld64 274.2 1
+        - libcurl 7.65.3 h051b688_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20181209 hb402a30_0
+        - libssh2 1.8.2 ha12b0ac_0
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+        - make 4.2.1 h3efe00b_1
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1d h1de35cc_3
+        - rhash 1.3.8 ha12b0ac_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    host:
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+    run:
+        - libcxx >=4.0.1
+test:
+    commands:
+        - test -f ${PREFIX}/lib/libspatialindex_c${SHLIB_EXT}
+about:
+    home: http://libspatialindex.github.io
+    license: MIT
+    license_file: COPYING
+    summary: Extensible framework for robust spatial indexing
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ocefpaf

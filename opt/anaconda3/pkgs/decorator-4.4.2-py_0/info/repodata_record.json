@@ -1,0 +1,25 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "decorator-4.4.2-py_0.conda",
+  "legacy_bz2_md5": "4e298eec53d4a26726195d61ae144faf",
+  "legacy_bz2_size": 14160,
+  "license": "BSD-3-Clause",
+  "md5": "3f5146ff080437ecb0e1583a6021c634",
+  "name": "decorator",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "d891054eeab74502ce4ecc9fda670149c533eeade16bd20b19ff6e3ab928bac6",
+  "size": 14224,
+  "subdir": "noarch",
+  "timestamp": 1584027029921,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/decorator-4.4.2-py_0.conda",
+  "version": "4.4.2"
+}

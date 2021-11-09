@@ -1,0 +1,88 @@
+{% set version = "0.23.1" %}
+
+package:
+  name: scikit-learn
+  version: {{ version }}
+
+source:
+  url: https://github.com/scikit-learn/scikit-learn/archive/{{ version }}.tar.gz
+  sha256: 3596ede14e1edcfee2e10ecf2a52cd10b2df3f8b763fe14d6e99141e6ca5ecba
+
+build:
+  number: 0
+  script: python -m pip install --no-deps --ignore-installed .  --verbose
+  skip: True  # [blas_impl == 'openblas' and win]
+  skip: True  # [py<35]
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+    - llvm-openmp  # [osx]
+  host:
+    - python
+    - pip
+    - llvm-openmp  # [osx]
+    - cython >=0.28.5
+    - mkl-devel  {{ mkl }}  # [blas_impl == 'mkl']
+    - openblas-devel {{ openblas }}  # [blas_impl == 'openblas']
+    - numpy-devel  {{ numpy }}
+    - scipy >=0.17.0
+    - joblib >=0.11
+    - threadpoolctl
+  run:
+    - python
+    - llvm-openmp  # [osx]
+    - scipy
+    - joblib >=0.11
+    - threadpoolctl
+
+
+# Some tests take alot of memory, and seem to cause segfaults when memory runs out
+{% set test_cpus = 1 %}
+
+{% set tests_to_skip = "_not_a_real_test" %}
+# Fixed in 0.22.1 -- https://github.com/scikit-learn/scikit-learn/issues/15774
+{% set tests_to_skip = tests_to_skip + " or test_pca_dtype_preservation" %}               # [ppc64le]
+# Can fail on aarch64 -- https://github.com/scikit-learn/scikit-learn/issues/15821
+{% set tests_to_skip = tests_to_skip + " or test_uniform_grid" %}                         # [aarch64]
+# Can fail -- https://github.com/scikit-learn/scikit-learn/issues/15818
+{% set tests_to_skip = tests_to_skip + " or test_sag_regressor_computed_correct" %}       # [linux]
+# Occasionally fails on aarch64 -- https://github.com/scikit-learn/scikit-learn/issues/15825
+{% set tests_to_skip = tests_to_skip + " or test_unreachable_accuracy" %}                 # [aarch64]
+# skip network tests -- https://github.com/scikit-learn/scikit-learn/issues/16743
+{% set tests_to_skip = tests_to_skip + " or network" %}
+
+test:
+  requires:
+    - pytest >=3.3.0
+    - cython >=0.28.5
+    - pytest-xdist
+    - pytest-timeout
+  imports:
+    - sklearn
+  commands:
+    - set OPENBLAS_NUM_THREADS=1          # [win]
+    - set OMP_NUM_THREADS=1               # [win]
+    - export OPENBLAS_NUM_THREADS=1       # [not win]
+    - export OMP_NUM_THREADS=1            # [not win]
+    - pytest --timeout 300 -n {{ test_cpus }} --verbose --pyargs sklearn -k "not ({{ tests_to_skip }})"
+
+about:
+  home: http://scikit-learn.org/
+  license: BSD-3-Clause
+  license_file: COPYING
+  summary: A set of python modules for machine learning and data mining
+
+extra:
+  recipe-maintainers:
+    - amueller
+    - astaric
+    - jakirkham
+    - ogrisel
+    - ocefpaf
+    - lesteve
+    - msarahan
+    - jnothman
+    - rth
+    - adrinjalali

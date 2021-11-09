@@ -1,0 +1,43 @@
+{% set version = "2.0.0" %}
+{% set sha256 = "df3bac3df4c2c01363f3dd2cfa78cce2840a79b9f1c2d2de9ce8d31683992f52" %}
+{% set pkg_name = "snowballstemmer" %}
+
+package:
+  name: {{ pkg_name }}
+  version: {{ version }}
+
+source:
+  fn: {{ pkg_name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ pkg_name[0] }}/{{ pkg_name }}/{{ pkg_name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  noarch: python
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
+
+requirements:
+  host:
+    - pip
+    - python
+  run:
+    - python
+
+test:
+  imports:
+    - snowballstemmer
+
+about:
+  home: https://github.com/shibukawa/snowball_py
+  license: BSD-2-Clause
+  summary: 'Snowball stemming library collection for Python'
+  description: |
+    Snowball is a small string processing language designed for creating
+    stemming algorithms for use in Information Retrieval. The Snowball
+    compiler translates a Snowball script into another language - currently
+    ISO C, Java and Python are supported.
+  dev_url: https://github.com/shibukawa/snowball_py
+
+extra:
+  recipe-maintainers:
+    - chohner

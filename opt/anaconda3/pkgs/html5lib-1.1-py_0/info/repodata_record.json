@@ -1,0 +1,28 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "six >=1.9",
+    "webencodings"
+  ],
+  "features": "",
+  "fn": "html5lib-1.1-py_0.conda",
+  "legacy_bz2_md5": "55727fc1bbdb82fba5e600e15b1fbe80",
+  "legacy_bz2_size": 94055,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "db124af3030657ec01eee57ebd9f3b6a",
+  "name": "html5lib",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "61cb7388edfa28c649225081365f83ecebdb32f6262337c5edc8c9beeb56c060",
+  "size": 95377,
+  "subdir": "noarch",
+  "timestamp": 1593446248463,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/html5lib-1.1-py_0.conda",
+  "version": "1.1"
+}

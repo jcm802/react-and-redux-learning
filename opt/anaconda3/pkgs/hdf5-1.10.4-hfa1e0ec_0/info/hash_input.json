@@ -1,0 +1,6 @@
+{
+  "cxx_compiler": "clangxx",
+  "c_compiler": "clang",
+  "zlib": "1.2",
+  "fortran_compiler": "gfortran"
+}

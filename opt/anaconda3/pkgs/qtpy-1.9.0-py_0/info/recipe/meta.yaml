@@ -1,0 +1,66 @@
+# This file created by conda-build 3.18.9
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/qtpy-1.9.0-on-linux_canary, last modified Fri Aug 16 11:57:35 2019
+# ------------------------------------------------
+
+package:
+    name: qtpy
+    version: 1.9.0
+source:
+    fn: qtpy-1.9.0.tar.gz
+    sha256: 2db72c44b55d0fe1407be8fba35c838ad0d6d3bb81f23007886dc1fc0f459c8d
+    url: https://pypi.io/packages/source/q/qtpy/QtPy-1.9.0.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2019.5.15 1
+        - certifi 2019.6.16 py27_1
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.1 he6710b0_1
+        - openssl 1.1.1c h7b6447c_1
+        - pip 19.1.1 py27_0
+        - python 2.7.16 h8b3fad2_3
+        - readline 7.0 h7b6447c_5
+        - setuptools 41.0.1 py27_0
+        - sqlite 3.29.0 h7b6447c_0
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.33.4 py27_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python
+test:
+    requires:
+        - pyqt
+    script:
+        - QT_API=pyqt5 qtpy
+        - QT_API=pyqt5 qtpy.QtGui
+about:
+    description: 'QtPy is a small abstraction layer that lets you write applications
+        using a
+
+        single api call to either PyQt or PySide.
+
+        '
+    dev_url: https://github.com/spyder-ide/qtpy
+    doc_source_url: https://github.com/spyder-ide/qtpy/blob/master/README.md
+    doc_url: https://pypi.python.org/pypi/QtPy
+    home: https://github.com/spyder-ide/qtpy
+    license: MIT
+    license_file: LICENSE.txt
+    summary: Abtraction layer for PyQt5/PyQt4/PySide
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - Nodd
+        - astrofrog-conda-forge
+        - ccordoba12
+        - goanpeca

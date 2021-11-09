@@ -1,0 +1,119 @@
+{
+  "build": "h1de35cc_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/lzo-2.10-h1de35cc_2",
+  "features": "",
+  "files": [
+    "include/lzo/lzo1.h",
+    "include/lzo/lzo1a.h",
+    "include/lzo/lzo1b.h",
+    "include/lzo/lzo1c.h",
+    "include/lzo/lzo1f.h",
+    "include/lzo/lzo1x.h",
+    "include/lzo/lzo1y.h",
+    "include/lzo/lzo1z.h",
+    "include/lzo/lzo2a.h",
+    "include/lzo/lzo_asm.h",
+    "include/lzo/lzoconf.h",
+    "include/lzo/lzodefs.h",
+    "include/lzo/lzoutil.h",
+    "lib/liblzo2.2.0.0.dylib",
+    "lib/liblzo2.2.dylib",
+    "lib/liblzo2.a",
+    "lib/liblzo2.dylib",
+    "lib/pkgconfig/lzo2.pc",
+    "libexec/lzo/examples/lzopack",
+    "libexec/lzo/examples/lzotest",
+    "libexec/lzo/examples/simple",
+    "libexec/lzo/examples/testmini",
+    "share/doc/lzo/AUTHORS",
+    "share/doc/lzo/COPYING",
+    "share/doc/lzo/LZO.FAQ",
+    "share/doc/lzo/LZO.TXT",
+    "share/doc/lzo/LZOAPI.TXT",
+    "share/doc/lzo/NEWS",
+    "share/doc/lzo/THANKS"
+  ],
+  "fn": "lzo-2.10-h1de35cc_2.conda",
+  "legacy_bz2_md5": "e21d621e38d16751aba68c744867fc49",
+  "legacy_bz2_size": 183884,
+  "license": "GPL v2+",
+  "license_family": "GPL2",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/lzo-2.10-h1de35cc_2",
+    "type": 1
+  },
+  "md5": "f8edb9b421f23287391550fc331bce4b",
+  "name": "lzo",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/lzo-2.10-h1de35cc_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/liblzo2.2.0.0.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/9ab2d8c9-cf92-410b-7790-75d504571409/volume/lzo_1587075720060/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "ea076977f303813481e96891be4e03bdead93139e4d4ec1e9d7f7096909c203e",
+        "sha256_in_prefix": "ddc37772ddd5c103192a196deb4cccba533b21ea6f9e05513174831c90660927",
+        "size_in_bytes": 189044
+      },
+      {
+        "_path": "lib/pkgconfig/lzo2.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "1e26097934e2a2e0193fd4b5ce0a6af5c7615d520630fc284d768b588ec1f81a",
+        "sha256_in_prefix": "7c74ba91c7ae83cdc3380aaf3937a75fb1d7dbb6d77f5a71e58e3eda7b5006f0",
+        "size_in_bytes": 616
+      },
+      {
+        "_path": "libexec/lzo/examples/lzopack",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/9ab2d8c9-cf92-410b-7790-75d504571409/volume/lzo_1587075720060/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "bd56cf54c2bace0bc7fb44543a5469eb64df2fb25050ab1e086b1cfb47d49240",
+        "sha256_in_prefix": "cb3d6ba10c5952274ae5a7ecd77bbc0ccd0681a470ab2c9beac1015b0d565c4c",
+        "size_in_bytes": 31584
+      },
+      {
+        "_path": "libexec/lzo/examples/lzotest",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/9ab2d8c9-cf92-410b-7790-75d504571409/volume/lzo_1587075720060/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "5f04a35e1729187bc11eda00f9ac06694a4166c38b51df541baf3a774cf125cf",
+        "sha256_in_prefix": "5756542ebd75c1685e0b4e791f28c8ffaa0ec9011c4791b61973161a8cb15faf",
+        "size_in_bytes": 227856
+      },
+      {
+        "_path": "libexec/lzo/examples/simple",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/9ab2d8c9-cf92-410b-7790-75d504571409/volume/lzo_1587075720060/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "6ec2ecb027b7b95890f405109c65b7ab33d6b52b8711866de58db31b9ef4e9ce",
+        "sha256_in_prefix": "2d468ac37392a73972aad6ce1ed323d82e21830ebd9dbb0018ce29d08985fa5b",
+        "size_in_bytes": 18236
+      },
+      {
+        "_path": "libexec/lzo/examples/testmini",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/9ab2d8c9-cf92-410b-7790-75d504571409/volume/lzo_1587075720060/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "c3e5a764772f725a7ea1c5d01fcbbae3d813e8ac58a08685711ac68da3c731c8",
+        "sha256_in_prefix": "99487142c1d8396ceb8e8e01211d85c09c350f8a405b7b8ab51f1e86dc3e95c5",
+        "size_in_bytes": 22300
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "lzo==2.10=h1de35cc_2",
+  "sha256": "a88d56c3b2cdbd474f1bfaf4586f308f894ca4b61599f7bea7694121151149b2",
+  "size": 141649,
+  "subdir": "osx-64",
+  "timestamp": 1587075909161,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/lzo-2.10-h1de35cc_2.conda",
+  "version": "2.10"
+}

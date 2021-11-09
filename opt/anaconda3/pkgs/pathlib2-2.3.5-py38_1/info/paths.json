@@ -1,0 +1,59 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.8/site-packages/pathlib2-2.3.5.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.8/site-packages/pathlib2-2.3.5.dist-info/LICENSE.rst",
+      "path_type": "hardlink",
+      "sha256": "f8e02f1a07e4c6fc59a4bee831ddde26b97064105c423b9e24340f35aaa80262",
+      "size_in_bytes": 1152
+    },
+    {
+      "_path": "lib/python3.8/site-packages/pathlib2-2.3.5.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "471ed8d237e02893cc8b4746a1336ade6f7dae1bab5bb4daf78038ae8e928ac9",
+      "size_in_bytes": 3301
+    },
+    {
+      "_path": "lib/python3.8/site-packages/pathlib2-2.3.5.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "f18bb8f86b2ffba3d7a191510e6563ac09d134b7672a0d9be21b38f949ca2cd1",
+      "size_in_bytes": 713
+    },
+    {
+      "_path": "lib/python3.8/site-packages/pathlib2-2.3.5.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "lib/python3.8/site-packages/pathlib2-2.3.5.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "ed96442497609588d962de3fbb04f5c325b03855f022dfa1a9bf16ca54d04f3a",
+      "size_in_bytes": 140
+    },
+    {
+      "_path": "lib/python3.8/site-packages/pathlib2-2.3.5.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "b4d3e48ac16218116c3d49c220783adaf485964c7fd4d3bce8877c95b2667c54",
+      "size_in_bytes": 9
+    },
+    {
+      "_path": "lib/python3.8/site-packages/pathlib2/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "3417eee7069ca6cd72d58b655d548f27c15b1385ad217b9cae9e6e39834e3be5",
+      "size_in_bytes": 59133
+    },
+    {
+      "_path": "lib/python3.8/site-packages/pathlib2/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "8ab064469329bde88e1c92e3f9d6c44b95370efa28247641fcf2d28f5bf94e0b",
+      "size_in_bytes": 49551
+    }
+  ],
+  "paths_version": 1
+}

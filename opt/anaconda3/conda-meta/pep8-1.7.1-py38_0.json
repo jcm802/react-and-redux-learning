@@ -1,0 +1,56 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/pep8-1.7.1-py38_0",
+  "features": "",
+  "files": [
+    "bin/pep8",
+    "lib/python3.8/site-packages/__pycache__/pep8.cpython-38.pyc",
+    "lib/python3.8/site-packages/pep8-1.7.1-py3.8.egg-info/PKG-INFO",
+    "lib/python3.8/site-packages/pep8-1.7.1-py3.8.egg-info/SOURCES.txt",
+    "lib/python3.8/site-packages/pep8-1.7.1-py3.8.egg-info/dependency_links.txt",
+    "lib/python3.8/site-packages/pep8-1.7.1-py3.8.egg-info/entry_points.txt",
+    "lib/python3.8/site-packages/pep8-1.7.1-py3.8.egg-info/namespace_packages.txt",
+    "lib/python3.8/site-packages/pep8-1.7.1-py3.8.egg-info/not-zip-safe",
+    "lib/python3.8/site-packages/pep8-1.7.1-py3.8.egg-info/top_level.txt",
+    "lib/python3.8/site-packages/pep8.py"
+  ],
+  "fn": "pep8-1.7.1-py38_0.conda",
+  "legacy_bz2_md5": "451fa85d5cfdd4bba83467d064dd829b",
+  "legacy_bz2_size": 53180,
+  "license": "MIT",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/pep8-1.7.1-py38_0",
+    "type": 1
+  },
+  "md5": "0126a627fc5cc670194a341ecaf0d2d7",
+  "name": "pep8",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/pep8-1.7.1-py38_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/pep8",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "e8c88c66298575282539f1f27c6df235ac3757c25b6d02e751b1420034e3bffe",
+        "sha256_in_prefix": "cf5daa3bc9bd8ccb65148e896116576735d5cad6ca6119a7e3af0dcf7ab1f463",
+        "size_in_bytes": 236
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pep8==1.7.1=py38_0",
+  "sha256": "f1776cb313ba639775e8340a96139de6bb4056770a9cd59963a2d5ac67eb4fd0",
+  "size": 54307,
+  "subdir": "osx-64",
+  "timestamp": 1573490527108,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pep8-1.7.1-py38_0.conda",
+  "version": "1.7.1"
+}

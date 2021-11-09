@@ -1,0 +1,92 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/78aec834-bbf0-47a7-799f-96dd2cf589ab/volume/rsync-recipes/gevent-20.6.2-python_3.8-on-osx, last modified Wed Jun 24 09:08:50 2020
+# ------------------------------------------------
+
+package:
+    name: gevent
+    version: 20.6.2
+source:
+    fn: gevent-20.6.2.tar.gz
+    patches:
+        - 0001-Allow-include-flags-to-be-present-in-CFLAGS.patch
+    sha256: a23c2abf08e851c988723f6a2996d495f513a2c0dc70f9956af03af8debdb5d1
+    url: https://pypi.io/packages/source/g/gevent/gevent-20.6.2.tar.gz
+build:
+    missing_dso_whitelist:
+        - /usr/lib/libresolv.9.dylib
+    number: '0'
+    script:
+        - /opt/concourse/worker/volumes/live/78aec834-bbf0-47a7-799f-96dd2cf589ab/volume/gevent_1593009579767/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/bin/python
+            -m pip install . --no-deps --ignore-installed -vvv
+    string: py38haf1e3a3_0
+requirements:
+    build:
+        - cctools 927.0.2 h5ba7a2e_4
+        - clang 10.0.0 default_hf57f61e_0
+        - clang_osx-64 10.0.0 h05bbb7f_1
+        - clangxx 10.0.0 default_hf57f61e_0
+        - compiler-rt 10.0.0 h47ead80_0
+        - compiler-rt_osx-64 10.0.0 hbcc88fd_0
+        - ld64 450.3 h3c32e8a_4
+        - libcxx 10.0.0 1
+        - libllvm10 10.0.0 h21ff451_0
+        - llvm-openmp 10.0.0 h28b9765_0
+        - llvm-tools 10.0.0 h21ff451_0
+        - make 4.2.1 h3efe00b_1
+        - tapi 1000.10.8 ha1b3eb9_0
+    host:
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.6.20 py38_0
+        - cffi 1.14.0 py38hc512035_1
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 haf1e3a3_0
+        - libffi 3.3 h0a44026_1
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - pip 20.1.1 py38_1
+        - pycparser 2.20 py_0
+        - python 3.8.3 h26836e1_1
+        - readline 8.0 h1de35cc_0
+        - setuptools 47.3.1 py38_0
+        - sqlite 3.32.3 hffcf06c_0
+        - tk 8.6.10 hb0a8c7a_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - cffi >=1.11.5
+        - greenlet >=0.4.14
+        - python >=3.8,<3.9.0a0
+        - setuptools
+        - zope.event
+        - zope.interface
+test:
+    commands:
+        - python -m pip check
+    imports:
+        - gevent
+        - gevent.libev
+    requires:
+        - pip
+about:
+    description: 'Gevent uses greenlet to provide a high-level synchronous API on
+        top of the libev event loop.
+
+        '
+    dev_url: https://github.com/gevent/gevent
+    doc_url: https://www.gevent.org/contents.html
+    home: https://www.gevent.org
+    license: MIT
+    license_family: MIT
+    license_file:
+        - LICENSE
+        - deps/c-ares/LICENSE.md
+        - deps/libev/LICENSE
+        - deps/libuv/LICENSE
+    summary: Coroutine-based network library
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - nehaljwani

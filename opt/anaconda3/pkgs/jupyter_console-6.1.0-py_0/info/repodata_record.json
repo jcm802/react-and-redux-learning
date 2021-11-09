@@ -1,0 +1,30 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "ipykernel",
+    "ipython",
+    "jupyter_client",
+    "prompt_toolkit >=2.0.0,<3.1.0,!=3.0.0,!=3.0.1",
+    "pygments",
+    "python >=3.5"
+  ],
+  "features": "",
+  "fn": "jupyter_console-6.1.0-py_0.conda",
+  "legacy_bz2_md5": "a4ceac47ef6921a23abe587d45364897",
+  "legacy_bz2_size": 24384,
+  "license": "BSD-3-Clause",
+  "md5": "cf263cf41cb14e6467b6f51a58094d0e",
+  "name": "jupyter_console",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "50b3870dc8cb8f6ccc080a0293ac0a67b411fe9e06371e01e98fc496f34d28a0",
+  "size": 24774,
+  "subdir": "noarch",
+  "timestamp": 1579795616930,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/jupyter_console-6.1.0-py_0.conda",
+  "version": "6.1.0"
+}

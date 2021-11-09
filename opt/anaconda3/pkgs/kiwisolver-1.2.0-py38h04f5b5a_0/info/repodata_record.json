@@ -1,0 +1,25 @@
+{
+  "build": "py38h04f5b5a_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "kiwisolver-1.2.0-py38h04f5b5a_0.conda",
+  "legacy_bz2_md5": "adc6911296ba46c0df2e6eac15ceae5f",
+  "legacy_bz2_size": 63000,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "729604cc451a205348e2f40ba2546529",
+  "name": "kiwisolver",
+  "sha256": "620507b15c9263ef20940c5af479a8f4b04d864663da30a2ff1f28d84dc91eac",
+  "size": 56005,
+  "subdir": "osx-64",
+  "timestamp": 1588546606368,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/kiwisolver-1.2.0-py38h04f5b5a_0.conda",
+  "version": "1.2.0"
+}

@@ -1,0 +1,66 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/rope-0.17.0-on-linux_64, last modified Mon May 11 20:39:34 2020
+# ------------------------------------------------
+
+package:
+    name: rope
+    version: 0.17.0
+source:
+    sha256: 658ad6705f43dcf3d6df379da9486529cf30e02d9ea14c5682aa80eb33b649e1
+    url: https://pypi.io/packages/source/r/rope/rope-0.17.0.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: /tmp/build/80754af9/rope_1589229676782/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin/python
+        -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.4.5.1 py36_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.3 he6710b0_1
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1g h7b6447c_0
+        - pip 20.0.2 py36_3
+        - python 3.6.10 h7579374_2
+        - readline 8.0 h7b6447c_0
+        - setuptools 46.2.0 py36_0
+        - sqlite 3.31.1 h62c20be_1
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.34.2 py36_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python
+test:
+    imports:
+        - rope
+        - rope.base
+        - rope.base.oi
+        - rope.base.oi.type_hinting
+        - rope.base.oi.type_hinting.providers
+        - rope.base.oi.type_hinting.resolvers
+        - rope.base.utils
+        - rope.contrib
+        - rope.refactor
+        - rope.refactor.importutils
+about:
+    dev_url: https://github.com/python-rope/rope
+    doc_source_url: https://github.com/python-rope/rope/tree/master/docs
+    doc_url: https://pypi.python.org/pypi/rope
+    home: https://github.com/python-rope/rope
+    license: GPL 2.0
+    license_file: COPYING
+    summary: A python refactoring library
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jjhelmus
+        - pmlandwehr

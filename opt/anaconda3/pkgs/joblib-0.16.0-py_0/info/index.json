@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.6",
+    "setuptools"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "joblib",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1594236190633,
+  "version": "0.16.0"
+}

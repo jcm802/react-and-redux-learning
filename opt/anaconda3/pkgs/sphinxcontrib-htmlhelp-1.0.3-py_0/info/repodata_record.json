@@ -1,0 +1,26 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.5"
+  ],
+  "features": "",
+  "fn": "sphinxcontrib-htmlhelp-1.0.3-py_0.conda",
+  "legacy_bz2_md5": "996288dde6e9c712f4cb62a7a02a3e03",
+  "legacy_bz2_size": 29394,
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "md5": "e2d0dafe22d7f65ecaa5ac306b5099a4",
+  "name": "sphinxcontrib-htmlhelp",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "1dfdb0aa45cf75c3bea029fff98e3d7e28c4a9c47b98df3da8b8b4cefa984340",
+  "size": 27577,
+  "subdir": "noarch",
+  "timestamp": 1584458685978,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/sphinxcontrib-htmlhelp-1.0.3-py_0.conda",
+  "version": "1.0.3"
+}

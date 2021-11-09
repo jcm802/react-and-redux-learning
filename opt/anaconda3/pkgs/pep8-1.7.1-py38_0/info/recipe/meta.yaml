@@ -1,0 +1,60 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/d419014f-853b-4153-64e3-446f011b603d/volume/aggregate/pep8-feedstock/recipe, last modified Mon Nov 11 10:37:07 2019
+# ------------------------------------------------
+
+package:
+    name: pep8
+    version: 1.7.1
+source:
+    fn: pep8-1.7.1.tar.gz
+    sha256: fe249b52e20498e59e0b5c5256aa52ee99fc295b26ec9eaa85776ffdb9fe6374
+    url: https://pypi.io/packages/source/p/pep8/pep8-1.7.1.tar.gz
+build:
+    entry_points:
+        - pep8 = pep8:_main
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py38_0
+requirements:
+    host:
+        - ca-certificates 2019.10.16 0
+        - certifi 2019.9.11 py38_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20181209 hb402a30_0
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1d h1de35cc_3
+        - python 3.8.0 h359304d_2
+        - readline 7.0 h1de35cc_5
+        - setuptools 41.6.0 py38_0
+        - sqlite 3.30.1 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - python >=3.8,<3.9.0a0
+test:
+    commands:
+        - pep8 --help
+        - pep8 --version
+about:
+    description: 'pep8 is a tool to check your Python code against some of the style
+
+        conventions in PEP 8.
+
+        '
+    dev_url: https://github.com/PyCQA/pep8
+    doc_source_url: https://github.com/PyCQA/pep8/blob/master/docs/index.rst
+    doc_url: http://pep8.readthedocs.org/
+    home: http://pep8.readthedocs.org/
+    license: MIT
+    summary: Python style guide checker
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - jjhelmus
+        - pmlandwehr

@@ -1,0 +1,25 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.8/__pycache__/_sysconfigdata_x86_64_apple_darwin13_4_0.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "47fb6cd139b3fb96c0d521c63301e7c0b36b8998bfb73be0f10512987da5e3c1",
+      "size_in_bytes": 34938
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gmpy2-2.0.8-py3.8.egg-info",
+      "path_type": "hardlink",
+      "sha256": "16ea1710a2c9f865e8cef40ca007b2fbd1380230d9529adedb234cf4a5aa8026",
+      "size_in_bytes": 1018
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gmpy2.cpython-38-darwin.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/deed6fc3-8838-432b-51f2-d2bd67451c2e/volume/gmpy2_1572878714193/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+      "sha256": "41149e4bd9700dfeffdaf1547ac7b924db69803d2330d9c87430535ca82cae9f",
+      "size_in_bytes": 502436
+    }
+  ],
+  "paths_version": 1
+}

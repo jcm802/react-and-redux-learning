@@ -1,0 +1,103 @@
+{
+  "paths": [
+    {
+      "_path": "python-scripts/qdarkstyle",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "18719be5bf3ec27550d18da74c3f93747cbd0d1eebf0d6a1d5d5f41ec33dcc14",
+      "size_in_bytes": 278
+    },
+    {
+      "_path": "site-packages/QDarkStyle-2.8.1.dist-info/AUTHORS.rst",
+      "path_type": "hardlink",
+      "sha256": "d41dab743842f3aa9a9e524ba276333ee60f1834c75cc13833ddb00bbb0490cc",
+      "size_in_bytes": 1148
+    },
+    {
+      "_path": "site-packages/QDarkStyle-2.8.1.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/QDarkStyle-2.8.1.dist-info/LICENSE.rst",
+      "path_type": "hardlink",
+      "sha256": "5b0c75c0f235edfe8b8e225fea2487e146096d6f38c645e7349e10fdf325ec09",
+      "size_in_bytes": 19580
+    },
+    {
+      "_path": "site-packages/QDarkStyle-2.8.1.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "251cb08b41f28ec48fa54ed768f0f6fb471b131f5a877b5e49bca89e2ea583f2",
+      "size_in_bytes": 2743
+    },
+    {
+      "_path": "site-packages/QDarkStyle-2.8.1.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "1705d92df12eea1f0355384fea8b01adb48637f9cf934eb306613443eb208a20",
+      "size_in_bytes": 1712
+    },
+    {
+      "_path": "site-packages/QDarkStyle-2.8.1.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "site-packages/QDarkStyle-2.8.1.dist-info/entry_points.txt",
+      "path_type": "hardlink",
+      "sha256": "eee802a2c59031d1f9c850da70c409e860758d1cc5ae425c76b78e3bf99a174c",
+      "size_in_bytes": 57
+    },
+    {
+      "_path": "site-packages/QDarkStyle-2.8.1.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "a013ade85a57cdcfca56edb03619bf8651f68f3965db28ef577397fc0791f322",
+      "size_in_bytes": 11
+    },
+    {
+      "_path": "site-packages/qdarkstyle/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "2362a2a30b911c9ed60d3a76577c518227ccadd6d2c0585dafcca283936ca4ff",
+      "size_in_bytes": 11565
+    },
+    {
+      "_path": "site-packages/qdarkstyle/__main__.py",
+      "path_type": "hardlink",
+      "sha256": "6e34d412fd07b0faa84d398f968c93ba5cc9c19db7e1c1cbd5ef0a82d3b912e2",
+      "size_in_bytes": 2064
+    },
+    {
+      "_path": "site-packages/qdarkstyle/palette.py",
+      "path_type": "hardlink",
+      "sha256": "14cd5dcc2b4875dc9417cc43eac7a9de69cf85a938aa168e7ec240007e468885",
+      "size_in_bytes": 2494
+    },
+    {
+      "_path": "site-packages/qdarkstyle/style_rc.py",
+      "path_type": "hardlink",
+      "sha256": "99cc18e91750df9b45de189571e885ae18d82c91dd48a108b4594e2016fd9e8f",
+      "size_in_bytes": 682737
+    },
+    {
+      "_path": "site-packages/qdarkstyle/utils/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "9db2cf6a81f9f9b926c14f35ecbab3504d19dd6f99c461e9a736f95d6c89bf77",
+      "size_in_bytes": 134
+    },
+    {
+      "_path": "site-packages/qdarkstyle/utils/images.py",
+      "path_type": "hardlink",
+      "sha256": "2d419d20524de54df45e0b377efa5f2e6deba1470703aacb0aaa4beac55ce9d2",
+      "size_in_bytes": 8958
+    },
+    {
+      "_path": "site-packages/qdarkstyle/utils/scss.py",
+      "path_type": "hardlink",
+      "sha256": "1d103de3d6309e1013354cfd6dbbc74127b29f93dd9f00131d0b4693eea3399e",
+      "size_in_bytes": 8439
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "toml-0.10.1-py_0.conda",
+  "legacy_bz2_md5": "93523ebfee95e873e2dd14e77c692620",
+  "legacy_bz2_size": 20372,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "1b644e2153dff00c27514b97d74fbd30",
+  "name": "toml",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "ece8f8fb87fcdd4b41e98d6adcc95712ecbceb7d6b08d14bb0215889130f19a3",
+  "size": 20565,
+  "subdir": "noarch",
+  "timestamp": 1592853744871,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/toml-0.10.1-py_0.conda",
+  "version": "0.10.1"
+}

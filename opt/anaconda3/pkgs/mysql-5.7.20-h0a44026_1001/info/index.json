@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "h0a44026_1001",
+  "build_number": 1001,
+  "depends": [
+    "libcxx >=4.0.1"
+  ],
+  "license": "GPL-2.0",
+  "license_family": "GPL",
+  "name": "mysql",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1540586555876,
+  "version": "5.7.20"
+}

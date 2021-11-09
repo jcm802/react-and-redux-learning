@@ -1,0 +1,45 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/ptyprocess-0.6.0-py38_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/ptyprocess-0.6.0-py3.8.egg-info",
+    "lib/python3.8/site-packages/ptyprocess/__init__.py",
+    "lib/python3.8/site-packages/ptyprocess/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/ptyprocess/__pycache__/_fork_pty.cpython-38.pyc",
+    "lib/python3.8/site-packages/ptyprocess/__pycache__/ptyprocess.cpython-38.pyc",
+    "lib/python3.8/site-packages/ptyprocess/__pycache__/util.cpython-38.pyc",
+    "lib/python3.8/site-packages/ptyprocess/_fork_pty.py",
+    "lib/python3.8/site-packages/ptyprocess/ptyprocess.py",
+    "lib/python3.8/site-packages/ptyprocess/util.py"
+  ],
+  "fn": "ptyprocess-0.6.0-py38_0.conda",
+  "legacy_bz2_md5": "74a0fc093f3bfc54bea4df5ac5175f1b",
+  "legacy_bz2_size": 23492,
+  "license": "ISC",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/ptyprocess-0.6.0-py38_0",
+    "type": 1
+  },
+  "md5": "7abf50c0fd450588d96fd01537ae0f49",
+  "name": "ptyprocess",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/ptyprocess-0.6.0-py38_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "ptyprocess==0.6.0=py38_0",
+  "sha256": "464745ca1e9919657b1319e3fbbd81789933df379fad500f5f0236b2fd9d78d4",
+  "size": 23496,
+  "subdir": "osx-64",
+  "timestamp": 1573040899438,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/ptyprocess-0.6.0-py38_0.conda",
+  "version": "0.6.0"
+}

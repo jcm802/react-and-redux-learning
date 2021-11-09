@@ -1,0 +1,69 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/3cdac083-a618-4c6a-47c1-6e46df3cc417/volume/rsync-recipes/setuptools-49.2.0-python_3.8-on-osx, last modified Tue Jul 14 14:10:22 2020
+# ------------------------------------------------
+
+package:
+    name: setuptools
+    version: 49.2.0
+source:
+    patches:
+        - 0001-Remove-exact-pinning-on-certifi-and-wincertstore.patch
+        - 0002-disable-downloads-inside-conda-build.patch
+    sha256: 912a31fde26ec8e87ce74000a06ce2f57fe3cef35603beec3b1839ccbafa5edb
+    url: https://github.com/pypa/setuptools/archive/v49.2.0.tar.gz
+build:
+    entry_points:
+        - easy_install = setuptools.command.easy_install:main
+    number: '0'
+    string: py38_0
+requirements:
+    host:
+        - ca-certificates 2020.6.24 0
+        - certifi 2020.6.20 py38_0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 h1de35cc_1
+        - libffi 3.3 hb1e8313_2
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - python 3.8.3 h26836e1_2
+        - readline 8.0 h1de35cc_0
+        - sqlite 3.32.3 hffcf06c_0
+        - tk 8.6.10 hb0a8c7a_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - certifi >=2016.9.26
+        - python >=3.8,<3.9.0a0
+test:
+    commands:
+        - easy_install --help
+    imports:
+        - easy_install
+        - pkg_resources
+        - setuptools
+about:
+    description: 'Setuptools is a fully-featured, actively-maintained, and stable
+        library
+
+        designed to facilitate packaging Python projects.
+
+        '
+    dev_url: https://github.com/pypa/setuptools
+    doc_source_url: https://github.com/pypa/setuptools/tree/master/docs
+    doc_url: http://pythonhosted.org/setuptools/
+    home: https://github.com/pypa/setuptools
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: Download, build, install, upgrade, and uninstall Python packages
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - jjhelmus
+        - mingwandroid
+        - msarahan
+        - nicoddemus
+        - ocefpaf

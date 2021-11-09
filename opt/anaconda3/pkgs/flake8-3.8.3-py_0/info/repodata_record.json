@@ -1,0 +1,31 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "importlib-metadata",
+    "mccabe >=0.6.0,<0.7.0",
+    "pycodestyle >=2.6.0,<2.7.0",
+    "pyflakes >=2.2.0,<2.3.0",
+    "python >=3",
+    "setuptools >=30.0.0"
+  ],
+  "features": "",
+  "fn": "flake8-3.8.3-py_0.conda",
+  "legacy_bz2_md5": "78a514d24fdd7888a11e9a0c665a354c",
+  "legacy_bz2_size": 98000,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "36f6da7ee2df03acf4c4ff8f1b3dec7f",
+  "name": "flake8",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "055fe3fa7974581703ec22218e8badd11a7573932f0c520efa91f2476fdf9412",
+  "size": 137421,
+  "subdir": "noarch",
+  "timestamp": 1592258365001,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/flake8-3.8.3-py_0.conda",
+  "version": "3.8.3"
+}

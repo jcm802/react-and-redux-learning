@@ -1,0 +1,21 @@
+{
+  "build": "hb0f4f8b_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "gettext-0.19.8.1-hb0f4f8b_2.conda",
+  "legacy_bz2_md5": "5166e68ea050d39c5a29bcf755b7c4eb",
+  "legacy_bz2_size": 3577857,
+  "license": "GPLv2",
+  "md5": "014c9fd32806fea23e24ec49af16f8a6",
+  "name": "gettext",
+  "sha256": "f26eab8834ac0156dd7a60d842a90882e611e54e5a675cea6420aae119f8866d",
+  "size": 2786583,
+  "subdir": "osx-64",
+  "timestamp": 1505583297042,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/gettext-0.19.8.1-hb0f4f8b_2.conda",
+  "version": "0.19.8.1"
+}

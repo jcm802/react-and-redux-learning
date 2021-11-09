@@ -1,0 +1,16 @@
+lib/python3.8/site-packages/bitarray-1.4.0.dist-info/INSTALLER
+lib/python3.8/site-packages/bitarray-1.4.0.dist-info/METADATA
+lib/python3.8/site-packages/bitarray-1.4.0.dist-info/RECORD
+lib/python3.8/site-packages/bitarray-1.4.0.dist-info/WHEEL
+lib/python3.8/site-packages/bitarray-1.4.0.dist-info/direct_url.json
+lib/python3.8/site-packages/bitarray-1.4.0.dist-info/top_level.txt
+lib/python3.8/site-packages/bitarray/__init__.py
+lib/python3.8/site-packages/bitarray/__pycache__/__init__.cpython-38.pyc
+lib/python3.8/site-packages/bitarray/__pycache__/test_bitarray.cpython-38.pyc
+lib/python3.8/site-packages/bitarray/__pycache__/test_util.cpython-38.pyc
+lib/python3.8/site-packages/bitarray/__pycache__/util.cpython-38.pyc
+lib/python3.8/site-packages/bitarray/_bitarray.cpython-38-darwin.so
+lib/python3.8/site-packages/bitarray/_util.cpython-38-darwin.so
+lib/python3.8/site-packages/bitarray/test_bitarray.py
+lib/python3.8/site-packages/bitarray/test_util.py
+lib/python3.8/site-packages/bitarray/util.py

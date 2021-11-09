@@ -1,0 +1,25 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "alabaster-0.7.12-py_0.conda",
+  "legacy_bz2_md5": "5436966db3bdbc98589b57e22f7e4114",
+  "legacy_bz2_size": 16143,
+  "license": "BSD 3-Clause",
+  "md5": "bb4eb5e62602626aad84aee057451c3e",
+  "name": "alabaster",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "caeb11e55e4d45b7463aa385821946ff4bd2e403794b52915d39b60a0dac539d",
+  "size": 16286,
+  "subdir": "noarch",
+  "timestamp": 1572437519123,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/alabaster-0.7.12-py_0.conda",
+  "version": "0.7.12"
+}

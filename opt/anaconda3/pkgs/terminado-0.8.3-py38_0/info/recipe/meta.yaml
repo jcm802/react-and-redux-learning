@@ -1,0 +1,63 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/367b4022-7127-4db4-4801-01f9079f4009/volume/rsync-recipes/terminado-0.8.3-python_3.8-on-osx, last modified Wed Nov 20 11:40:06 2019
+# ------------------------------------------------
+
+package:
+    name: terminado
+    version: 0.8.3
+source:
+    sha256: 4804a774f802306a7d9af7322193c5390f1da0abb429e082a10ef1d46e6fb2c2
+    url: https://pypi.io/packages/source/t/terminado/terminado-0.8.3.tar.gz
+build:
+    number: '0'
+    script: /opt/concourse/worker/volumes/live/367b4022-7127-4db4-4801-01f9079f4009/volume/terminado_1574271799326/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place/bin/python
+        setup.py install
+    string: py38_0
+requirements:
+    host:
+        - ca-certificates 2019.10.16 0
+        - certifi 2019.9.11 py38_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20181209 hb402a30_0
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1d h1de35cc_3
+        - python 3.8.0 h359304d_2
+        - readline 7.0 h1de35cc_5
+        - setuptools 41.6.0 py38_0
+        - sqlite 3.30.1 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - ptyprocess
+        - python >=3.8,<3.9.0a0
+        - tornado >=4
+test:
+    imports:
+        - terminado
+    requires:
+        - nose
+about:
+    description: 'Terminado is a Tornado websocket backend for the term.js Javascript
+
+        terminal emulator library.
+
+        '
+    dev_url: https://github.com/takluyver/terminado
+    doc_source_url: https://github.com/takluyver/terminado/blob/master/doc/index.rst
+    doc_url: http://terminado.readthedocs.org/en/latest/
+    home: https://github.com/jupyter/terminado
+    license: BSD-2-Clause
+    license_file: LICENSE
+    summary: Terminals served by tornado websockets
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - blink1073
+        - ocefpaf
+        - pelson
+        - takluyver

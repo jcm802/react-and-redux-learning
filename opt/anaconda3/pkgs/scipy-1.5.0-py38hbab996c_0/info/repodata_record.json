@@ -1,0 +1,29 @@
+{
+  "build": "py38hbab996c_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "blas 1.0 mkl",
+    "libcxx >=10.0.0",
+    "libgfortran >=3.0.1,<4.0.0.a0",
+    "mkl >=2019.4,<2020.0a0",
+    "mkl-service >=2,<3.0a0",
+    "numpy >=1.16.6,<2.0a0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "scipy-1.5.0-py38hbab996c_0.conda",
+  "legacy_bz2_md5": "52153e674a0bfa22f695ef1992009502",
+  "legacy_bz2_size": 17910539,
+  "license": "BSD 3-Clause",
+  "md5": "0d4482fb87ed05febdd727b5a158fa27",
+  "name": "scipy",
+  "sha256": "063758dbbb0be5202aac65cacf5be9221608698d134dd16625795bf9f9f10ca7",
+  "size": 13966111,
+  "subdir": "osx-64",
+  "timestamp": 1593104747525,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/scipy-1.5.0-py38hbab996c_0.conda",
+  "version": "1.5.0"
+}

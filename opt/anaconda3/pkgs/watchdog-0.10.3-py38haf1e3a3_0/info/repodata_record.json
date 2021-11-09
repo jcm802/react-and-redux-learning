@@ -1,0 +1,26 @@
+{
+  "build": "py38haf1e3a3_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "argh >=0.24.1",
+    "pathtools >=0.1.1",
+    "python >=3.8,<3.9.0a0",
+    "pyyaml >=3.10"
+  ],
+  "features": "",
+  "fn": "watchdog-0.10.3-py38haf1e3a3_0.conda",
+  "legacy_bz2_md5": "585b05b81ba607232077ceb97928e573",
+  "legacy_bz2_size": 101178,
+  "license": "Apache 2.0",
+  "md5": "123f5e6336235339ecaf03d17b89880e",
+  "name": "watchdog",
+  "sha256": "d225623f4bf76074ba54a386a4cdadf5033df68b9f82da083ec85335603d1b55",
+  "size": 98767,
+  "subdir": "osx-64",
+  "timestamp": 1593447469029,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/watchdog-0.10.3-py38haf1e3a3_0.conda",
+  "version": "0.10.3"
+}

@@ -1,0 +1,43 @@
+{
+  "build": "py38ha12b0ac_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcurl >=7.67.0,<8.0a0",
+    "openssl >=1.1.1d,<1.1.2a",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/pycurl-7.43.0.5-py38ha12b0ac_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/curl/__init__.py",
+    "lib/python3.8/site-packages/curl/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pycurl-7.43.0.5-py3.8.egg-info",
+    "lib/python3.8/site-packages/pycurl.cpython-38-darwin.so"
+  ],
+  "fn": "pycurl-7.43.0.5-py38ha12b0ac_0.conda",
+  "legacy_bz2_md5": "0444e592bf68b938ed0a282eb1b390bd",
+  "legacy_bz2_size": 76419,
+  "license": "LGPL, MIT",
+  "license_family": "LGPL",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/pycurl-7.43.0.5-py38ha12b0ac_0",
+    "type": 1
+  },
+  "md5": "c9bcd04197c159f0921c7d8e319af300",
+  "name": "pycurl",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/pycurl-7.43.0.5-py38ha12b0ac_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "pycurl==7.43.0.5=py38ha12b0ac_0",
+  "sha256": "08689128f49d57d0fc37cee16ca0c200b7337b1c03ea35f6937f85f17aacb3dc",
+  "size": 69277,
+  "subdir": "osx-64",
+  "timestamp": 1580835683680,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pycurl-7.43.0.5-py38ha12b0ac_0.conda",
+  "version": "7.43.0.5"
+}

@@ -1,0 +1,26 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "itsdangerous-1.1.0-py_0.conda",
+  "legacy_bz2_md5": "434eda64f30c5a497afba0726d8e7dbd",
+  "legacy_bz2_size": 17382,
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "7ed0a03ce72cfd2555445e5926c4763c",
+  "name": "itsdangerous",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "cba71b7e2d9e2167eedd0774099fc406c5d79a7f0a80e725d6f9386bc6b56e54",
+  "size": 17864,
+  "subdir": "noarch",
+  "timestamp": 1572439204184,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/itsdangerous-1.1.0-py_0.conda",
+  "version": "1.1.0"
+}

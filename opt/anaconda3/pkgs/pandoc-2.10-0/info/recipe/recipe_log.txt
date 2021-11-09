@@ -1,0 +1,1087 @@
+commit 1c63cc8567cc7f6c04f016d956944af3b395df78
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Jul 15 10:53:56 2020 -0400
+
+    do no use compiler jinja to avoid unneeded hash
+    
+    When {{ compiler('c') }} is used in a recipe, even when not used for a
+    particular platform, the compiler contributes to the hash. This is not needed
+    here and should be avoided. Explicitly specifying gcc_linux-ppc64le pulls in
+    the needed sysroot and run_exports while avoiding introducing a hash in the
+    package name.
+
+commit 91e3924695b169442803630b44ee64f827b5ad57
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Jul 14 18:40:58 2020 -0400
+
+    repack pandoc 2.2.1 RPM from Fedora on ppc64le
+    
+    Upstream does not provide a ppc64le binary so repackage a RPM from EPEL.
+
+commit 80c68ac570b2efca2fe8812dbe1e213b5234f825
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu Jun 25 17:38:07 2020 -0500
+
+    update windows hashes
+
+commit a455dd3db2ebe085eca9c09bf5d45e2f4b9c03c8
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Jun 25 15:53:40 2018 -0500
+
+    use zip sources on windows
+
+commit 8cbc342d69fe5c7a7b6586c25971bbe01e514643
+Author: Maggie-M <maggie.mari@continuum.io>
+Date:   Thu Aug 31 20:59:27 2017 -0500
+
+    expand about section
+
+commit 7621e85e70af042962f2102834a4ce77fbdb650f
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 08:09:44 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit fe70d645fe728b1dd210c6925378a872fb726cc8
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sun May 17 05:09:53 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 060275b211a68eae9e0414cedcdffb54128cb464
+Merge: cda6e47 6710893
+Author: Peter Zagubisalo <peter.zagubisalo@gmail.com>
+Date:   Tue Apr 14 13:24:55 2020 +0700
+
+    Merge pull request #65 from regro-cf-autotick-bot/2.9.2.1
+    
+    pandoc v2.9.2.1
+
+commit 6710893f8ec9fb4300718523c979e6e79ff55af2
+Author: Peter Zagubisalo <peter.zagubisalo@gmail.com>
+Date:   Tue Apr 14 12:55:56 2020 +0700
+
+    Stop binary_relocation on OSX 2
+
+commit 44ea9cf8e7acef3646aca4978d1032e7ba5e70c1
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Apr 13 18:28:37 2020 -0500
+
+    Stop binary_relocation on OSX
+
+commit fd422e45336f1935cf62008062cf1daa0a029a35
+Author: Peter Zagubisalo <peter.zagubisalo@gmail.com>
+Date:   Mon Apr 13 21:49:21 2020 +0700
+
+    Update meta.yaml
+
+commit 71c158539ad3ef124c057226797480d5c9d90df3
+Author: Peter Zagubisalo <peter.zagubisalo@gmail.com>
+Date:   Mon Apr 13 21:22:07 2020 +0700
+
+    Update meta.yaml
+
+commit 6c6e98f393da7d8efe0f2482a5b0888f57a25a37
+Author: Peter Zagubisalo <peter.zagubisalo@gmail.com>
+Date:   Mon Apr 13 21:20:26 2020 +0700
+
+    Update build.sh
+
+commit ce2085251b413348bc102475337df73b1f51fea9
+Author: Peter Zagubisalo <peter.zagubisalo@gmail.com>
+Date:   Mon Apr 13 20:36:32 2020 +0700
+
+    Update meta.yaml
+
+commit d90b37bfb97869f8249548c1f0c9fd878a3d24bf
+Author: Peter Zagubisalo <peter.zagubisalo@gmail.com>
+Date:   Mon Apr 13 20:34:59 2020 +0700
+
+    Update build.sh
+
+commit 4874d6b1fcc9dadd6c1ae1a37fbf48bf9bb09af2
+Author: Peter Zagubisalo <peter.zagubisalo@gmail.com>
+Date:   Mon Apr 13 20:16:38 2020 +0700
+
+    Update meta.yaml
+
+commit 481193983980dea25f70e846a26ae6e6ff06d965
+Author: Peter Zagubisalo <peter.zagubisalo@gmail.com>
+Date:   Mon Apr 13 19:35:51 2020 +0700
+
+    Update build.sh
+
+commit f183dbc9cd39cf3d2e3ec78d93f09fe39e7b848f
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Mon Apr 13 12:02:19 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.6.16, and conda-forge-pinning 2020.04.12.13.56.44
+
+commit 41515f25a301b6f12000068e4dca3c6921564238
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 24 15:52:54 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.1, conda-smithy 3.6.15, and conda-forge-pinning 2020.03.23
+
+commit 33c69c36553ef12695fb25e5b96ba4a58a3640c0
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 24 15:52:21 2020 +0000
+
+    updated v2.9.2.1
+
+commit cda6e4724d3303adebe8fa9547c4f1f46a47e1e4
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 22:48:04 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 7fd18b231006a95054ea697f3db68cb30b5527cf
+Merge: 9250e9c 5971aca
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Feb 16 15:35:54 2020 -0300
+
+    Merge pull request #64 from regro-cf-autotick-bot/2.9.2
+    
+    pandoc v2.9.2
+
+commit 5971acab61835477dc3cee13e4d25cf2ae9b753b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Feb 16 17:17:16 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.8, and conda-forge-pinning 2020.02.12
+
+commit 406f92d5bc27b63f909439e6c6a3269cd5d9f80e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Feb 16 17:16:33 2020 +0000
+
+    updated v2.9.2
+
+commit 9250e9cd3eadc514b41a371a42947de6114fef8f
+Merge: 7b0afc5 fd36eef
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Jan 6 06:53:45 2020 -0300
+
+    Merge pull request #63 from regro-cf-autotick-bot/2.9.1.1
+    
+    pandoc v2.9.1.1
+
+commit fd36eef6beda4444da23835198291385ff981d3c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jan 6 06:14:29 2020 +0000
+
+    updated v2.9.1.1
+
+commit 7b0afc5e2d0b6c008216c6ba9cf8954f200e6f7d
+Merge: f1d2cae 4e390c2
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Dec 23 15:05:01 2019 -0300
+
+    Merge pull request #62 from regro-cf-autotick-bot/2.9.1
+    
+    pandoc v2.9.1
+
+commit 4e390c2ea4d1ba6c5ceefb8f258112fa48590125
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Dec 23 17:43:16 2019 +0000
+
+    updated v2.9.1
+
+commit f1d2cae8a3ff0e6aed78237a3ada4d10190a43d9
+Merge: 64e9845 5964fff
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Dec 12 09:50:42 2019 -0300
+
+    update to v2.9 (#61)
+    
+    update to v2.9
+
+commit 5964fff4bc06ed4dceaa627fb325f974fd90fea6
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Thu Dec 12 09:34:00 2019 -0300
+
+    update to v2.9
+
+commit 64e98455e7a31f952773cf5807c4d6275db42fc2
+Merge: 0aa7fa0 848b022
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Dec 6 06:02:41 2019 -0300
+
+    Merge pull request #60 from regro-cf-autotick-bot/2.8.1
+    
+    pandoc v2.8.1
+
+commit 848b02215f94187c908ce5da2f2fe08be0e62dc3
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Dec 6 06:20:11 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.3, and conda-forge-pinning 2019.12.02
+
+commit 6fc0ba2590b747e75eb708ecd5f6f52d9a130634
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Dec 6 06:19:41 2019 +0000
+
+    updated v2.8.1
+
+commit 0aa7fa002fcf5b36a0b18f3b5fd67175e3c32289
+Merge: d5216fa 7923f01
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Nov 27 17:14:01 2019 -0300
+
+    pandoc v2.8.0.1 (#59)
+    
+    pandoc v2.8.0.1
+
+commit 7923f0141497727400e2bcf06d044cc711a3a4c5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Nov 27 17:21:13 2019 +0000
+
+    updated v2.8.0.1
+
+commit d5216fa37c7104542e1944e9054e166ea1f12f74
+Merge: 8d5d42d 1c8d486
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Nov 25 13:06:13 2019 -0300
+
+    V2.8 (#58)
+    
+    V2.8
+
+commit 1c8d486957c30ea0ac44e87fc4861d9e498d08f9
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Nov 25 11:31:25 2019 -0300
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.2, and conda-forge-pinning 2019.11.20
+
+commit 34d320bf5b9c52802f0a94a53f8c0f6a92d3ba87
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Nov 25 11:31:23 2019 -0300
+
+    v2.8
+
+commit 8d5d42dfd2f1b3b7532bcbe890cefc6898e662eb
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 18:23:51 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit f005a110854e98cad4cb3b2172e98bcab094a443
+Merge: 7e98803 c3d9aa8
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Jun 12 09:44:56 2019 -0400
+
+    pandoc v2.7.3 (#57)
+    
+    pandoc v2.7.3
+
+commit c3d9aa86356c0622dbf6a05e6a8ece7d27a3419e
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Wed Jun 12 09:27:52 2019 -0400
+
+    simplify build
+
+commit cdcdff36d981c4727682624b4481e561a9752df2
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Wed Jun 12 09:27:41 2019 -0400
+
+    MNT: Re-rendered with conda-build 3.18.2, conda-smithy 3.3.6, and conda-forge-pinning 2019.06.06
+
+commit f9898f5dbd36e8ebc929935b39ae39aa14cd6c39
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Wed Jun 12 09:27:37 2019 -0400
+
+    downgrade conda-build
+
+commit b0bf6a2ce8d766c21b746b4467307d99a01b6bfe
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Wed Jun 12 09:27:12 2019 -0400
+
+    use azure for osx
+
+commit 2b23f9131c3a67cc0144b0d0cd6bf64516eb0218
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jun 12 06:31:43 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.2, conda-smithy 3.3.7, and conda-forge-pinning 2019.06.09
+
+commit e6d76a18821d368b057b47a17bb237a112ba63a2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jun 12 06:31:31 2019 +0000
+
+    updated v2.7.3
+
+commit 7e98803099a93aa761f912d2b2287608ecffd90a
+Merge: 68d0d39 a1fa687
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Apr 6 14:47:51 2019 -0500
+
+    Merge pull request #56 from regro-cf-autotick-bot/2.7.2
+    
+    pandoc v2.7.2
+
+commit a1fa6871af7dd54e374a1d969c7a98b6fda10e06
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Apr 6 16:40:52 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.2, and conda-forge-pinning 2019.03.17
+
+commit b7753c9d1c63a47c71c084fdc4c531c23ff53007
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Apr 6 16:40:41 2019 +0000
+
+    updated v2.7.2
+
+commit 68d0d395d7f20bf442a39d8ca0232cefca94d168
+Merge: 621f06a 24541f2
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Mar 14 16:27:10 2019 -0300
+
+    Merge pull request #55 from regro-cf-autotick-bot/2.7.1
+    
+    pandoc v2.7.1
+
+commit 24541f2d623d905084de81e6ae59eea7cc4f67ca
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Mar 14 17:33:01 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.03.14
+
+commit 000a8ca18387ccdf88a8d3a94859e1a7e80b37d7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Mar 14 17:32:48 2019 +0000
+
+    updated v2.7.1
+
+commit 621f06a57517617793c39d2fd6468fcae45f7810
+Merge: 5b66aa0 1485763
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Fri Feb 8 07:44:41 2019 -0500
+
+    Merge pull request #52 from kiwi0fruit/master
+    
+    gmp and zlib deps are obsolete
+
+commit 1485763b46a6becaaa68426a5fc15ae0a124603b
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Feb 8 07:15:19 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.13, and conda-forge-pinning 2019.01.29
+
+commit 58c337a1e973cb1c5d4ea3eaebf56cdfc8cb7885
+Author: Peter Zagubisalo <peter.zagubisalo@gmail.com>
+Date:   Fri Feb 8 14:14:17 2019 +0700
+
+    Update meta.yaml
+
+commit fbe99e508de2a944362f9a07903ca442399e3c21
+Author: Peter Zagubisalo <peter.zagubisalo@gmail.com>
+Date:   Fri Feb 8 13:36:50 2019 +0700
+
+    first test if gmp and zlib deps are obsolete
+    
+    https://github.com/jgm/pandoc/issues/5281
+
+commit 5b66aa0fa2eae737335af7979a927fd6485dca99
+Merge: 158361b 0f219be
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Jan 31 09:22:38 2019 -0200
+
+    Merge pull request #50 from regro-cf-autotick-bot/2.6
+    
+    pandoc v2.6
+
+commit 0f219be303864ac576ab8c63d79a2f951be87829
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jan 31 08:14:26 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.12, and conda-forge-pinning 2019.01.29
+
+commit bead401d61f9b21af247860c4e110e496a3f4a0b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jan 31 08:14:16 2019 +0000
+
+    updated v2.6
+
+commit 158361bbcd50b25eb8344818c03fde50711f0739
+Merge: d5861af 0fa3616
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Jan 21 12:14:53 2019 -0200
+
+    Merge pull request #49 from kiwi0fruit/patch-1
+    
+    fix install dir on win
+
+commit 0fa36169d33dd53b75dd1dde9e0e144669282d8e
+Author: Peter Zagubisalo <peter.zagubisalo@gmail.com>
+Date:   Mon Jan 21 04:09:16 2019 +0700
+
+    Update .appveyor.yml
+
+commit 5938969de1cebea168ac08db055520d92478903e
+Author: Peter Zagubisalo <peter.zagubisalo@gmail.com>
+Date:   Mon Jan 21 04:06:32 2019 +0700
+
+    Update fast_finish_ci_pr_build.sh
+
+commit 04de0a8d7fe3f08f583e500144b548d0a8a850b9
+Author: Peter Zagubisalo <peter.zagubisalo@gmail.com>
+Date:   Mon Jan 21 03:44:44 2019 +0700
+
+    Create LICENSE
+
+commit 0f0c391f11041d64ceb0580595e343d95fc58646
+Author: Peter Zagubisalo <peter.zagubisalo@gmail.com>
+Date:   Mon Jan 21 03:44:14 2019 +0700
+
+    Delete LICENSE
+
+commit 93b15c5d2da386700e1383da0f1e747f485f9bef
+Author: Peter Zagubisalo <peter.zagubisalo@gmail.com>
+Date:   Mon Jan 21 03:41:11 2019 +0700
+
+    Create LICENSE
+
+commit e225a9234c9b909d144c4befed2dbb1ae1d17709
+Author: Peter Zagubisalo <peter.zagubisalo@gmail.com>
+Date:   Mon Jan 21 03:40:08 2019 +0700
+
+    Update meta.yaml
+
+commit ee3b98966f47048ca535431437a9b847ae4ec046
+Author: Peter Zagubisalo <peter.zagubisalo@gmail.com>
+Date:   Mon Jan 21 01:55:28 2019 +0700
+
+    incr. build
+
+commit 4d798e4b35d41ff35f3faa0f67404cadce718465
+Author: Peter Zagubisalo <peter.zagubisalo@gmail.com>
+Date:   Mon Jan 21 01:52:07 2019 +0700
+
+    fix install dir on win
+    
+    fixes https://github.com/conda-forge/pandoc-feedstock/issues/28
+
+commit d5861afaa7cc4399413ccb55862db65b7641c055
+Merge: 2d27b03 c10d0ff
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Nov 28 12:58:56 2018 -0200
+
+    Merge pull request #47 from ocefpaf/v2.5
+    
+    v2.5
+
+commit c10d0ff08a880b398ffcc08de33d59e2ce4d55c8
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Wed Nov 28 11:00:14 2018 -0200
+
+    v2.5
+
+commit 2d27b03db8214a45afe0e9b262053752fc12945a
+Merge: a9a785d 6ca7132
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Nov 24 21:30:23 2018 -0200
+
+    Merge pull request #45 from ocefpaf/update_to_2.4
+    
+    update to 2.4
+
+commit 6ca713297b99096b564788a5614d969e9e9a722e
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Nov 24 18:30:55 2018 -0200
+
+    use circle for OS X
+
+commit 628c79bd0bd03ba2a356a684187c02ca1f9d39f1
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Nov 24 13:52:58 2018 -0200
+
+    workaround fnames
+
+commit bc80b177a169395183048ce9a4889f7849f9406c
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Tue Nov 6 13:19:36 2018 -0200
+
+    update to 2.4
+
+commit a9a785dd1ce079f613ee5e92dbaafb041c1721b9
+Merge: ae80922 385a281
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Sep 30 17:48:09 2018 -0300
+
+    Merge pull request #44 from ocefpaf/update_to_v2.3.1
+    
+    update to v2.3.1
+
+commit 385a28191d746298ac018688bba80019e7fb0979
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun Sep 30 17:36:24 2018 -0300
+
+    update to v2.3.1
+
+commit ae80922a71682267cfa32343e7e78466fd1e566d
+Merge: 1309f74 fe39653
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Sep 25 15:55:27 2018 -0300
+
+    Merge pull request #42 from ocefpaf/update_to_v2.3
+    
+    Update to v2.3
+
+commit fe39653551725251ba049c4022ae818e249ae8e6
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Tue Sep 25 15:34:01 2018 -0300
+
+    fix url
+
+commit 336cd34318e7d9e13532d4818211c3ec7a89ddad
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Tue Sep 25 15:07:47 2018 -0300
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.11
+
+commit 9a10729425dea7b87acc1ae05c01baec9646f751
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Tue Sep 25 15:07:40 2018 -0300
+
+    update to v2.3
+
+commit 1309f74f2998fa08247e0fe5e3d7c71792bcc681
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 16:59:30 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 5a79eebfbbcf286671a9f4cfa5d1c94fcdcda704
+Merge: 1e99f1d ec4cdd9
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Jul 18 16:17:03 2018 -0500
+
+    Merge pull request #39 from gandalfsaxe/patch-2
+    
+    updated windows version to latest fixed
+
+commit ec4cdd9213a3218ea81c2fce0b49c8f5842c5b94
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Jul 18 15:56:07 2018 -0500
+
+    Update meta.yaml
+
+commit 9e4e9239e163da03cb695527096674da1f2309e2
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Jul 18 15:54:57 2018 -0500
+
+    Update meta.yaml
+
+commit 0302c92e4b79c40c0382ff6b7a3b2ec0c8c554f5
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Jul 18 15:54:27 2018 -0500
+
+    fix fn
+
+commit 1669ce6606e064911313251592b3ef2cd4879f0f
+Author: Gandalf Saxe <gandalfsaxe@gmail.com>
+Date:   Wed Jul 18 18:15:46 2018 +0200
+
+    updated windows version to latest fixed
+    
+    There was a problem with some o fthe the 2.2.2 installers, see [issue](https://github.com/jgm/pandoc/issues/4775) and [discussion](https://groups.google.com/forum/#!topic/pandoc-discuss/UDIxM2k5ZZU).
+    
+    2.2.2-1 fixes that.
+
+commit 1e99f1da50e7c758c126f7ebb492511e8bf53739
+Merge: 28b22ce ab3b581
+Author: Jan Katins <jasc@gmx.net>
+Date:   Mon Jul 16 15:52:38 2018 +0200
+
+    Merge pull request #38 from regro-cf-autotick-bot/2.2.2
+    
+    pandoc v2.2.2
+
+commit ab3b5818ce1a27fe4edeae1d493a4bbb1ca261e6
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jul 16 05:10:17 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.01
+
+commit 134010db921a3bb14f98f374387970bd8526df84
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jul 16 05:09:55 2018 +0000
+
+    updated v2.2.2
+
+commit 28b22ce94b20a2fd27521a82edc9709af0d2cd17
+Merge: deab308 1ddada1
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat May 12 09:22:28 2018 -0400
+
+    Merge pull request #36 from ocefpaf/update_to_2.2.1
+    
+    update to 2.2.1
+
+commit 1ddada14a51e87884d99d70eafde2ed3f5ed790b
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri May 11 18:33:23 2018 -0400
+
+    update to 2.2.1
+
+commit deab3085521f3d23ac347c46bf0e6654488b40cc
+Merge: e7d7db7 64cc206
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue May 1 20:06:09 2018 -0300
+
+    Merge pull request #34 from ocefpaf/update_to_2.2
+    
+    update to 2.2
+
+commit 64cc20654df3b421b45533cab8a1c86b9fd40756
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue May 1 18:45:32 2018 -0300
+
+    Update bld.bat
+
+commit 5c9dcde41a9f07dd88182674f05280daa3f735ef
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Apr 27 18:09:39 2018 -0300
+
+    fix fname
+
+commit 5947863ff1559433b9d35f376783c37b6c1a1215
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Apr 27 17:45:02 2018 -0300
+
+    fix url
+
+commit cb0b593dd16fba660e63de4a4d2bb467a569241e
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Apr 27 20:35:08 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.2 and pinning 2018.04.26
+
+commit cb0d5e4165eaa9effbd105f018a7579a7be489eb
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Apr 27 17:08:15 2018 -0300
+
+    update to 2.2
+
+commit e7d7db77062560f9d8d46731c171838ac824e072
+Merge: 4ecd717 ef50ed1
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Mar 19 08:25:41 2018 -0300
+
+    Merge pull request #33 from ocefpaf/update_to_2.1.3
+    
+    update to 2.1.3
+
+commit ef50ed17f3b83027387a61412c3459f80e170a0b
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Mar 19 08:11:53 2018 -0300
+
+    update to 2.1.3
+
+commit 4ecd7176f4e4c5239dbbc34709d9432b9d52aa72
+Merge: 7c3bfc1 0e93cfb
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Mar 3 20:20:38 2018 -0300
+
+    Merge pull request #30 from ocefpaf/update_to_2.1.2
+    
+    update to 2.1.2
+
+commit 0e93cfb42986abb4fbd606180ee8b19d4381da28
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Mar 3 05:19:51 2018 -0300
+
+    update to 2.1.2
+
+commit 7c3bfc18b1cba3b4499d9e9ae28c416b6b045285
+Merge: ac8e16c 2f8a052
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Jan 22 09:09:43 2018 -0200
+
+    Merge pull request #29 from ocefpaf/update_to_2.1.1
+    
+    update to 2.1.1
+
+commit 2f8a052485872a16c8129da3703c08e00e4866cc
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Jan 19 21:20:38 2018 -0200
+
+    janschulz is not jankatins
+
+commit 7f4ed8f432c8a9b751a8baf37c42cbd98cb11298
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Thu Jan 18 17:39:11 2018 -0200
+
+    looks like janschulz changed his github handle :-/
+
+commit c06086a70416c89dc02a982f80e604a94b1a3a7d
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Thu Jan 18 17:37:31 2018 -0200
+
+    update to 2.1.1
+
+commit ac8e16c3b2a541e00cc467aeb5d5c79046fa9d63
+Merge: f6691c3 7784a6c
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Jan 8 15:34:24 2018 -0300
+
+    Merge pull request #26 from ocefpaf/update_to_2.1
+    
+    Update to 2.1
+
+commit 7784a6cf8aa95f7e3109216a45aa01006d537649
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Jan 8 13:18:32 2018 -0300
+
+    rerender
+
+commit be3a9ca66d08813eb077e77dc9c7c0d601e15517
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Jan 8 13:18:28 2018 -0300
+
+    update to 2.1
+
+commit f6691c36eb5237a0b0d1b227381d5ae99e9866c8
+Merge: cc7cc2a 08c5df4
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Dec 13 11:04:52 2017 -0200
+
+    Merge pull request #25 from ocefpaf/update_to_2.0.5
+    
+    update to 2.0.5
+
+commit 08c5df44001d2cceb4fb68b84fa638b651fe8985
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Wed Dec 13 10:03:51 2017 -0200
+
+    update to 2.0.5
+
+commit cc7cc2a2214da4fb8277f451d1515c0d5f5f4b4b
+Merge: c2c698e 07e572b
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Dec 4 09:37:08 2017 -0200
+
+    Merge pull request #24 from ocefpaf/2.0.4
+    
+    Update to 2.0.4
+
+commit 07e572bccdc5ea00fcb59de04ce842b5d6678111
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Dec 4 07:42:02 2017 -0200
+
+    2.0.4
+
+commit c2c698e6aad4401e4bcb24abd6b69cb6329b30e3
+Merge: d48d21c 0872505
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Nov 29 15:50:22 2017 -0200
+
+    Merge pull request #23 from ocefpaf/2.0.3
+    
+    update to 2.0.3
+
+commit 0872505a76e9778f0ef9d6dc75f6d4545aa502b0
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Wed Nov 29 12:00:04 2017 -0200
+
+    update to 2.0.3
+
+commit d48d21c2c4681bf64f1f8c056fa4d8fafa333514
+Merge: b26b43b b83b7cd
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Nov 4 17:18:59 2017 -0200
+
+    Merge pull request #22 from ocefpaf/pin_zlib_1.2.11
+    
+    pin zlib 1.2.11
+
+commit b83b7cd5edeff7006f37223d28478360f440ae24
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Nov 4 15:23:43 2017 -0200
+
+    pin zlib 1.2.11
+
+commit b26b43ba3a61e9e7eaf3df44c639e592107ac4b7
+Merge: 9305b2c 2b9779b
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Oct 31 14:10:30 2017 -0200
+
+    Merge pull request #19 from dhimmel/pandoc-2.0
+    
+    Upgrade to pandoc 2.0
+
+commit 2b9779b2041b2b90f5dd3a5c69927ffd8089eefe
+Author: Daniel Himmelstein <daniel.himmelstein@gmail.com>
+Date:   Tue Oct 31 10:36:33 2017 -0400
+
+    Upgrade to pandoc 2.0.0.1
+    
+    https://github.com/jgm/pandoc/releases/tag/2.0.0.1
+
+commit fe9178dbd4b7d246629bb4e687b47c7fb240f042
+Author: Daniel Himmelstein <daniel.himmelstein@gmail.com>
+Date:   Mon Oct 30 11:19:59 2017 -0400
+
+    Upgrade to pandoc 2.0
+    
+    Release notes at:
+    https://github.com/jgm/pandoc/releases/tag/2.0
+    http://pandoc.org/releases.html#pandoc-2.0-29-oct-2017
+    
+    Use pandoc-2.0-3-amd64.deb for linux binary. See
+    https://github.com/jgm/pandoc/issues/4006#issuecomment-340518039
+    
+    Generated SHA-256 checksums using:
+    
+    > curl --silent --location $URL | sha256sum
+    
+    Previousely, was not using --location, so checksums were not for
+    the file download but a redirect page.
+    
+    Linux: data.tar.gz renamed data.tar.xz
+
+commit 9305b2c0247b33b11810cefa72a8cc01e63c86fb
+Merge: 7a6df74 3c65f2c
+Author: Jan Schulz <jasc@gmx.net>
+Date:   Tue Oct 31 09:57:23 2017 +0100
+
+    Merge pull request #20 from dhimmel/conda-smithy-2.4.2
+    
+    MNT: Re-rendered with conda-smithy 2.4.2
+
+commit 3c65f2ceee1c3864f20dc74f0df40b127567b754
+Author: Daniel Himmelstein <daniel.himmelstein@gmail.com>
+Date:   Mon Oct 30 14:37:28 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.4.2
+
+commit 7a6df74f7eb85d1cbdec5e5d8338ba05cd77b13d
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:01:13 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit a14b6221cce35150580081972b2a0000dcce4aea
+Merge: aaa9f06 e511663
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Jan 30 11:17:51 2017 -0300
+
+    Merge pull request #15 from ocefpaf/bump
+    
+    Bump
+
+commit e511663e36f44888fae0be38c449faf0a084989d
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Mon Jan 30 11:16:02 2017 -0300
+
+    rerender with auto
+
+commit a424ddda5def0dae70d5217f9113a438fb8dc842
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Mon Jan 30 11:15:53 2017 -0300
+
+    update to 1.19.2
+
+commit aaa9f06d52d0a0a170c1e1243e25b079700d542b
+Merge: ccdc218 d0ed562
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Dec 12 08:56:24 2016 -0300
+
+    Merge pull request #14 from ocefpaf/bump
+    
+    Bump
+
+commit d0ed56204624e63fb0602316d20c416d56a69c1e
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Mon Dec 12 08:05:51 2016 -0300
+
+    Update to 1.19.1
+
+commit 54dcb5e961854d07d9c4362d7afa41edd80c97c5
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Mon Dec 12 08:05:45 2016 -0300
+
+    rerendered with auto without conda-build 2
+
+commit ccdc218d569ad4962a700763393e093aefccad42
+Merge: f0882c7 3908156
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Dec 5 11:26:57 2016 -0200
+
+    Merge pull request #13 from ocefpaf/bump
+    
+    Bump
+
+commit 390815685eb34a889bf3866b494dcc19c698fe4f
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Mon Dec 5 10:19:14 2016 -0300
+
+    Update to 1.19
+
+commit e321cd0f8fbef3c45d1184939d2203256fce9363
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Mon Dec 5 10:19:06 2016 -0300
+
+    refresh
+
+commit f0882c7515a09bd856e767c638831492e90395e5
+Merge: dc4b2ec ffb0b21
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Oct 27 10:37:44 2016 -0300
+
+    Merge pull request #12 from ocefpaf/version_bump
+    
+    Version bump
+
+commit ffb0b211b14b663de41806cc596d9b77179c530a
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Thu Oct 27 07:23:40 2016 -0300
+
+    Version bump
+
+commit dc4b2ecb916f40238b863444dbff5db8403f2b3d
+Merge: fe38c5d 78960c6
+Author: Jan Schulz <jasc@gmx.net>
+Date:   Sat Oct 22 15:53:36 2016 +0200
+
+    Merge pull request #11 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 78960c68546a839a7d2ed11cfb106aea4e682229
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Oct 22 06:03:40 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.3.3.
+
+commit fe38c5d51e74d3b5c24209f864a83d0eb7c9ffc0
+Merge: 45dcfdc b2dec77
+Author: Jan Schulz <jasc@gmx.net>
+Date:   Mon Jul 18 14:45:46 2016 +0200
+
+    Merge pull request #10 from ocefpaf/update
+    
+    Updated to 1.17.2
+
+commit b2dec77f4364d643fbb4a91abcd70b52d08fc506
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Sun Jul 17 14:17:50 2016 -0300
+
+    Updated to 1.17.2
+
+commit 45dcfdc3f46941686eacb762b3f49a8955276131
+Merge: 4d3012f 7d77fb3
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Jun 22 14:12:59 2016 -0300
+
+    Merge pull request #9 from ocefpaf/update
+    
+    Update
+
+commit 7d77fb3792f3f1db5b9696604f2abd99cdc089fe
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Jun 21 16:11:47 2016 -0300
+
+    Update to 1.17.1
+
+commit f16417d48e64c0fbb4ec5d2d5a145c277887408c
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Jun 21 16:11:44 2016 -0300
+
+    rerender
+
+commit 4d3012f75614d07566390580a0ddaf0878256a4e
+Merge: 459bbb9 f21b370
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun May 15 08:37:37 2016 -0300
+
+    Merge pull request #8 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit f21b3700e29452e1c2db302f0b0a2de468d4e716
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun May 15 05:43:38 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.3.
+    
+    [ci skip]
+
+commit 459bbb95c8d8bf47aa83a5e9a903e7c74810c932
+Merge: 2970587 124c3ab
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Apr 28 11:14:20 2016 -0300
+
+    Merge pull request #6 from ocefpaf/fix_lint
+    
+    Fix lint
+
+commit 124c3abdc26de0b10e1c288aa10c9a1d9c22c5b6
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Thu Apr 28 11:04:30 2016 -0300
+
+    Fix lint
+
+commit 9a48b7825e7c79e084bbbf75645d32880c0bad2b
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Thu Apr 28 11:04:21 2016 -0300
+
+    rerender
+
+commit 297058725c6e6f5575477695394ada0dbf35e4cc
+Merge: ed81cf0 eea2a6b
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Mar 25 12:08:44 2016 -0300
+
+    Merge pull request #4 from ocefpaf/pandoc_1.17.0.2
+    
+    pandoc 1.17.0.2
+
+commit eea2a6bd43dab8f7737cf6ef59a8e1e7912f38cb
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Wed Mar 23 13:57:27 2016 -0300
+
+    pandoc 1.17.0.2
+
+commit ed81cf03c0c7763f6128d7e8c3a2502df7a999c7
+Merge: 58a618c 87fcc19
+Author: Jan Schulz <jasc@gmx.net>
+Date:   Wed Mar 23 00:22:26 2016 +0100
+
+    Merge pull request #3 from janschulz/master
+    
+    pandoc v1.17.0.1
+
+commit 87fcc19cb97030287c416dd6364e0824fc5ca379
+Author: Jan Schulz <jasc@gmx.net>
+Date:   Tue Mar 22 22:30:18 2016 +0100
+
+    pandoc v1.17.0.1
+
+commit 58a618c7eba03356d63bd660ea47c90050a8fdb5
+Merge: 2cffcd3 38f6c8e
+Author: Jan Schulz <jasc@gmx.net>
+Date:   Wed Mar 16 10:27:05 2016 +0100
+
+    Merge pull request #2 from JanSchulz/master
+    
+    Fix maintainer listing
+
+commit 38f6c8e334b2633a717179ef0af629ce7c4037f0
+Author: Jan Schulz <jasc@gmx.net>
+Date:   Wed Mar 16 10:25:04 2016 +0100
+
+    Fix maintainer listing
+
+commit 2cffcd3ccc710b754f1d86fd79b99a1838ec3351
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Mar 12 11:02:16 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit f5c497054731eb04da4a10e6d1c0f2612a972872
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Mar 12 11:01:57 2016 +0000
+
+    Initial commit of the pandoc feedstock.

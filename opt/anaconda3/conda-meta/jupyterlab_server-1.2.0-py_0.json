@@ -1,0 +1,157 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "jinja2 >=2.10",
+    "json5",
+    "jsonschema >=3.0.1",
+    "notebook >=4.2.0",
+    "python >=3.5",
+    "requests"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/jupyterlab_server-1.2.0-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/jupyterlab_server-1.2.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/jupyterlab_server-1.2.0.dist-info/LICENSE",
+    "lib/python3.8/site-packages/jupyterlab_server-1.2.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/jupyterlab_server-1.2.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/jupyterlab_server-1.2.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/jupyterlab_server-1.2.0.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/jupyterlab_server-1.2.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/jupyterlab_server/__init__.py",
+    "lib/python3.8/site-packages/jupyterlab_server/_version.py",
+    "lib/python3.8/site-packages/jupyterlab_server/app.py",
+    "lib/python3.8/site-packages/jupyterlab_server/handlers.py",
+    "lib/python3.8/site-packages/jupyterlab_server/listings_handler.py",
+    "lib/python3.8/site-packages/jupyterlab_server/process.py",
+    "lib/python3.8/site-packages/jupyterlab_server/process_app.py",
+    "lib/python3.8/site-packages/jupyterlab_server/server.py",
+    "lib/python3.8/site-packages/jupyterlab_server/servertest.py",
+    "lib/python3.8/site-packages/jupyterlab_server/settings_handler.py",
+    "lib/python3.8/site-packages/jupyterlab_server/templates/403.html",
+    "lib/python3.8/site-packages/jupyterlab_server/templates/error.html",
+    "lib/python3.8/site-packages/jupyterlab_server/templates/index.html",
+    "lib/python3.8/site-packages/jupyterlab_server/tests/__init__.py",
+    "lib/python3.8/site-packages/jupyterlab_server/tests/app-settings/overrides.json",
+    "lib/python3.8/site-packages/jupyterlab_server/tests/schemas/@jupyterlab/apputils-extension/themes.json",
+    "lib/python3.8/site-packages/jupyterlab_server/tests/schemas/@jupyterlab/codemirror-extension/commands.json",
+    "lib/python3.8/site-packages/jupyterlab_server/tests/schemas/@jupyterlab/shortcuts-extension/package.json.orig",
+    "lib/python3.8/site-packages/jupyterlab_server/tests/schemas/@jupyterlab/shortcuts-extension/plugin.json",
+    "lib/python3.8/site-packages/jupyterlab_server/tests/test_settings_api.py",
+    "lib/python3.8/site-packages/jupyterlab_server/tests/test_workspaces_api.py",
+    "lib/python3.8/site-packages/jupyterlab_server/tests/utils.py",
+    "lib/python3.8/site-packages/jupyterlab_server/tests/workspaces/foo-2c26.jupyterlab-workspace",
+    "lib/python3.8/site-packages/jupyterlab_server/tests/workspaces/foo-92dd.jupyterlab-workspace",
+    "lib/python3.8/site-packages/jupyterlab_server/themes_handler.py",
+    "lib/python3.8/site-packages/jupyterlab_server/workspaces_handler.py",
+    "lib/python3.8/site-packages/jupyterlab_server/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyterlab_server/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyterlab_server/__pycache__/app.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyterlab_server/__pycache__/handlers.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyterlab_server/__pycache__/listings_handler.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyterlab_server/__pycache__/process.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyterlab_server/__pycache__/process_app.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyterlab_server/__pycache__/server.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyterlab_server/__pycache__/servertest.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyterlab_server/__pycache__/settings_handler.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyterlab_server/tests/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyterlab_server/tests/__pycache__/test_settings_api.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyterlab_server/tests/__pycache__/test_workspaces_api.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyterlab_server/tests/__pycache__/utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyterlab_server/__pycache__/themes_handler.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyterlab_server/__pycache__/workspaces_handler.cpython-38.pyc"
+  ],
+  "fn": "jupyterlab_server-1.2.0-py_0.conda",
+  "legacy_bz2_md5": "314e9533e01cd4b9e5a36f83444555c1",
+  "legacy_bz2_size": 24928,
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/jupyterlab_server-1.2.0-py_0",
+    "type": 1
+  },
+  "md5": "dbf166cd2dbf602281afc84feb4bae75",
+  "name": "jupyterlab_server",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/jupyterlab_server-1.2.0-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/jupyterlab_server/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyterlab_server/__pycache__/_version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyterlab_server/__pycache__/app.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyterlab_server/__pycache__/handlers.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyterlab_server/__pycache__/listings_handler.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyterlab_server/__pycache__/process.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyterlab_server/__pycache__/process_app.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyterlab_server/__pycache__/server.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyterlab_server/__pycache__/servertest.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyterlab_server/__pycache__/settings_handler.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyterlab_server/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyterlab_server/tests/__pycache__/test_settings_api.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyterlab_server/tests/__pycache__/test_workspaces_api.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyterlab_server/tests/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyterlab_server/__pycache__/themes_handler.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyterlab_server/__pycache__/workspaces_handler.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "jupyterlab_server==1.2.0=py_0",
+  "sha256": "f83306102f0e30bef8adb83c7c6ebc660eea9346ae4dcfdf46e18f7c1b136731",
+  "size": 25165,
+  "subdir": "noarch",
+  "timestamp": 1594164480694,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/jupyterlab_server-1.2.0-py_0.conda",
+  "version": "1.2.0"
+}

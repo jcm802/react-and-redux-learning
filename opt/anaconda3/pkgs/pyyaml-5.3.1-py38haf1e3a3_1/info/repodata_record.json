@@ -1,0 +1,25 @@
+{
+  "build": "py38haf1e3a3_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "yaml >=0.2.5,<0.3.0a0"
+  ],
+  "features": "",
+  "fn": "pyyaml-5.3.1-py38haf1e3a3_1.conda",
+  "legacy_bz2_md5": "5f5e095c2dfec8e07dcadec1f35e81b0",
+  "legacy_bz2_size": 185783,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "b297484f559874837317cd4e74dffc13",
+  "name": "pyyaml",
+  "sha256": "4e2f0fa47e0287b1d644fc5573120234f4f148f4afeffe1d112af55a6db18d4a",
+  "size": 172522,
+  "subdir": "osx-64",
+  "timestamp": 1593124817968,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pyyaml-5.3.1-py38haf1e3a3_1.conda",
+  "version": "5.3.1"
+}

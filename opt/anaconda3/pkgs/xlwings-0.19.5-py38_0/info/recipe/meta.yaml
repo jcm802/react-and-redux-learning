@@ -1,0 +1,62 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/03e0d0ed-5ebc-4cc1-78bb-15454772d640/volume/rsync-recipes/xlwings-0.19.5-python_3.8-on-osx, last modified Wed Jul  8 14:39:39 2020
+# ------------------------------------------------
+
+package:
+    name: xlwings
+    version: 0.19.5
+source:
+    fn: xlwings-0.19.5.tar.gz
+    sha256: 34cdec0a8a84d105906959e91f6df1f400b2953f3570213b94fc676c1d70ead8
+    url: https://pypi.io/packages/source/x/xlwings/xlwings-0.19.5.tar.gz
+build:
+    entry_points:
+        - xlwings = xlwings.cli:main
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py38_0
+requirements:
+    host:
+        - ca-certificates 2020.6.24 0
+        - certifi 2020.6.20 py38_0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 haf1e3a3_0
+        - libffi 3.3 hb1e8313_2
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - python 3.8.3 h26836e1_2
+        - readline 8.0 h1de35cc_0
+        - setuptools 47.3.1 py38_0
+        - sqlite 3.32.3 hffcf06c_0
+        - tk 8.6.10 hb0a8c7a_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - appscript >=1.0.1
+        - psutil >=2.0
+        - python >=3.8,<3.9.0a0
+test:
+    commands:
+        - xlwings -h
+    imports:
+        - xlwings
+        - xlwings.conversion
+about:
+    description: 'xlwings is a BSD-licensed Python library that makes it easy to call
+        Python from Excel and vice versa.
+
+        '
+    dev_url: https://github.com/ZoomerAnalytics/xlwings
+    doc_source_url: https://github.com/ZoomerAnalytics/xlwings/blob/master/docs/quickstart.rst
+    doc_url: http://docs.xlwings.org/en/stable/index.html
+    home: http://xlwings.org/
+    license: 3-clause BSD
+    license_family: BSD
+    license_file: LICENSE.txt
+    summary: Interact with Excel from Python and vice versa
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - fzumstein

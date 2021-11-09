@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py38hb1e8313_1",
+  "build_number": 1,
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "zeromq >=4.3.2,<4.4.0a0"
+  ],
+  "license": "BSD 3-clause",
+  "license_family": "BSD",
+  "name": "pyzmq",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1593033430364,
+  "version": "19.0.1"
+}

@@ -1,0 +1,706 @@
+commit ff6b4494e76fa44b6e0cd53b65422598b4f90259
+Merge: 8c5b228 9dc44be
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Mon Jul 29 12:38:38 2019 -0700
+
+    Merge pull request #56 from regro-cf-autotick-bot/7.5.1
+    
+    ipywidgets v7.5.1
+
+commit 9dc44be1eaa8823def397a31b83ee0ea615d1aa1
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jul 29 19:27:54 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.07.26
+
+commit 82a0210e9bafe544227f44e4504832abdf149948
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jul 29 19:27:40 2019 +0000
+
+    updated v7.5.1
+
+commit 8c5b2288450688c8f1dd9ab4c49c6cdfef171987
+Merge: 3a34bd6 5b103e6
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Tue Jul 2 07:24:38 2019 +0100
+
+    Merge pull request #55 from regro-cf-autotick-bot/7.5.0
+    
+    ipywidgets v7.5.0
+
+commit 5b103e606843d932aa83fc942f0b291eb0e8c699
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jul 1 23:23:35 2019 +0000
+
+    updated v7.5.0
+
+commit 3a34bd6c0930b452dd5c2fc989bde3453f3a5115
+Merge: 7a24224 077ecd5
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Fri Sep 14 15:08:55 2018 -0700
+
+    Merge pull request #54 from regro-cf-autotick-bot/7.4.2
+    
+    ipywidgets v7.4.2
+
+commit 077ecd5a1375449314254aa6a15735dd36811c8b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Sep 14 21:09:07 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.11
+
+commit 6fdc648fe8b86b6cf65a442c7a7c844afc28c5b8
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Sep 14 21:09:00 2018 +0000
+
+    updated v7.4.2
+
+commit 7a242242c2c0663db436d2825c3c42954d464782
+Merge: 8b0df62 e63b91a
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Fri Aug 31 14:52:44 2018 -0700
+
+    Merge pull request #50 from regro-cf-autotick-bot/7.4.1
+    
+    ipywidgets v7.4.1
+
+commit e63b91a52a3164be3752f9947990c6cf37abe50c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Aug 31 21:18:15 2018 +0000
+
+    updated v7.4.1
+
+commit 8b0df6243ccf12b4f337c0ec9a386cb4ff7187b1
+Merge: 12a9a54 7474eed
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Tue Aug 7 08:34:49 2018 +0200
+
+    Merge pull request #49 from regro-cf-autotick-bot/7.4.0
+    
+    ipywidgets v7.4.0
+
+commit 7474eed18d33c22003567978a2bf5ed85521c22f
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Tue Aug 7 01:57:06 2018 +0200
+
+    Update widgetsnbextension
+
+commit 273df32ffd90ed5546a764e6e6a45a0145a8033d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Aug 6 23:11:38 2018 +0000
+
+    updated v7.4.0
+
+commit 12a9a54fe90fb092799fd34c8a3c7ecbc35811a6
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:08:01 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 3d390799ce52eaa3f4ada6ce4af548c792df23f8
+Merge: fdcdd71 fa5f62b
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Thu Aug 2 08:07:00 2018 -0700
+
+    Merge pull request #48 from jasongrout/732
+    
+    Update to 7.3.2
+
+commit fa5f62b6cbc236688b43f6fba8a758bf2c837ab7
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Aug 2 14:49:01 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.10 and pinning 2018.07.24
+
+commit 337f13a098fbba6842a0a635540ad86a37bc54a4
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Thu Aug 2 07:47:12 2018 -0700
+
+    Update to 7.3.2
+
+commit fdcdd716ac4c392289a897c09eb2f98981f1a062
+Merge: 37b9c81 eebe556
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Mon Jul 30 21:34:24 2018 +0200
+
+    Merge pull request #47 from jjhelmus/ar_sync
+    
+    Sync with AnacondaRecipes
+
+commit eebe55674381249c198319212084edc365cd67ca
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Aug 13 09:15:29 2017 +0000
+
+    Update about section
+
+commit 008e0a85d5a0d304a066162bafdc8df8e8b6f6fa
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sat Jul 29 15:47:19 2017 +0000
+
+    Make recipe cross-compile capable
+
+commit 37b9c81c1a9d4a9f2c21e524cab8575930e3fabb
+Merge: cfba224 2c3324a
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Thu Jul 26 23:05:39 2018 -0700
+
+    Merge pull request #46 from jasongrout/731
+    
+    Upgrade to 7.3.1 and switch to noarch.
+
+commit 2c3324afea2ce93779361df7ad87a73fd3f772e0
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Jul 27 05:57:42 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.8 and pinning 2018.07.24
+
+commit 7b9be7cd7f09bf4505b66d275d79ad2ad865bffc
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Thu Jul 26 22:56:56 2018 -0700
+
+    Upgrade to 7.3.1 and switch to noarch.
+
+commit cfba224430b9c54c44423afbe5952ba6305c23f2
+Merge: 5f9cd7c cccd924
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Tue Jul 17 22:39:55 2018 -0700
+
+    Merge pull request #43 from regro-cf-autotick-bot/7.3.0
+    
+    ipywidgets v7.3.0
+
+commit cccd9242d930c2498877d2fba92b83e4208c7519
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Jul 17 22:25:09 2018 -0700
+
+    license file is LICENSE
+
+commit 818183c9fa54ef4623ae3219350ba483fb4dc8e9
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Tue Jul 17 17:23:11 2018 -0700
+
+    Update widgetsnbextension dependency
+
+commit 6dccd8da21fe16dce1c69fcb3e5ea0928aa9324a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jul 18 00:10:00 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.15
+
+commit c707a9a7106219f5ec8e48baab59d4dbeeac429e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jul 18 00:09:54 2018 +0000
+
+    updated v7.3.0
+
+commit 5f9cd7cd7d71fc215c89353c40f84e302c851e2e
+Merge: 4693075 4428007
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Mon Apr 16 14:19:43 2018 -0700
+
+    Merge pull request #40 from jasongrout/7.2-dependency
+    
+    Update widgetsnbextension dependency to a patch release to match the …
+
+commit 4428007d6769f27c558ebf2ceedb200a91936f76
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Mon Apr 16 08:46:03 2018 -0700
+
+    Update widgetsnbextension dependency only update to patch releases to match the package setup.py requirements.
+
+commit 469307540c5ba5defc358f5cbf931a89c74d5327
+Merge: 778141d 28ae7a7
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Thu Apr 12 19:36:29 2018 -0700
+
+    Merge pull request #36 from jasongrout/721
+    
+    Update to 7.2.1
+
+commit 28ae7a744ccb0ef4afc4f51029ef17a1ae5b86c8
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Thu Apr 12 18:04:13 2018 -0700
+
+    Update to 7.2.1
+
+commit 778141d2e195d00344bc51f5fc1c5c9e5af56ccf
+Merge: 9b33828 cd9c193
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Sun Apr 1 13:12:54 2018 +0200
+
+    Merge pull request #35 from pbugnion/720
+    
+    Release version 7.2.0
+
+commit cd9c1936a912447fa0e6415b8ecefb797d125143
+Author: Pascal Bugnion <pascal@bugnion.org>
+Date:   Sun Apr 1 09:40:58 2018 +0100
+
+    Bump required version of widgetsnbextension
+
+commit 8c06b3a043195f9b3ca99de303821ff3374ac896
+Author: Pascal Bugnion <pascal@bugnion.org>
+Date:   Sun Apr 1 09:38:01 2018 +0100
+
+    Add Pascal to list of maintainers
+
+commit e37d98faf5ddbd44049a503524559129ec5cea26
+Author: Pascal Bugnion <pascal@bugnion.org>
+Date:   Sun Apr 1 09:37:39 2018 +0100
+
+    Release version 7.2.0
+
+commit 9b33828d87b1cbdda0c9eade3812c544ed1c14cf
+Merge: 674ed5b 92b6508
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Thu Feb 15 18:26:56 2018 -0800
+
+    Merge pull request #34 from jasongrout/712
+    
+    Update to 7.1.2
+
+commit 92b6508c0834e438b753344ad328cd59302b6d5c
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Thu Feb 15 17:22:21 2018 -0800
+
+    Update to 7.1.2
+
+commit 674ed5b28afbb3edeabec5cbf03e637b0cf285b8
+Merge: 58673a0 16f06f8
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Wed Jan 24 15:32:27 2018 +0100
+
+    Merge pull request #33 from jasongrout/711
+    
+    7.1.1
+
+commit 16f06f8899c6e1019cee6933ff90d750194f8dbf
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Wed Jan 24 14:05:30 2018 +0100
+
+    7.1.1
+
+commit 58673a0ba0e0d1261548f57b7ffd833d3a1ebc03
+Merge: 089b10d 9352cd6
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Wed Dec 27 16:51:19 2017 -0700
+
+    Merge pull request #32 from jasongrout/710
+    
+    update to 7.1.0
+
+commit 9352cd61c4c8aa676e4fb881443a12941661e0fd
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Dec 27 23:00:17 2017 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit 0d0f9fccd4e56857358c119ec037220ba94e06bf
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Wed Dec 27 08:11:52 2017 -0700
+
+    update to 7.1.0
+
+commit 089b10d08220e1a7d509cfa6cd0a83ce32c265c4
+Merge: 11d1950 ecbda5f
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Thu Nov 16 20:55:18 2017 -0800
+
+    Merge pull request #30 from ocefpaf/update
+    
+    update to 7.0.5
+
+commit ecbda5f5731d360e4721c3f6c2031aac92d22de2
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Thu Nov 16 17:48:22 2017 -0800
+
+    Update to ipywidgets 7.0.5
+
+commit b00fcc69a63207b36120b7618d63c7e7fcdd4a4a
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Thu Nov 16 10:16:07 2017 -0200
+
+    update to 7.0.4
+
+commit 11d19508d0a92e63e509a7dd06ee4eaf21cebee2
+Merge: 6074761 972fed3
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Fri Oct 27 18:29:22 2017 -0700
+
+    Merge pull request #29 from conda-forge/noarch
+    
+    Delete the noarch
+
+commit 972fed35153da0c3aa7d417b028ac850b7249fb4
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Oct 28 00:01:32 2017 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.2
+
+commit c91e0221af7b524eea036294fd15d842632af106
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Fri Oct 27 16:56:35 2017 -0700
+
+    Delete the noarch
+    
+    noarch packages are only supported in conda 4.3 or later, which was released in Dec 2016 - it's too soon to switch to noarch. We'll switch later after more people have a chance to upgrade to conda 4.3 or later.
+
+commit 6074761b4c1bdebce4c734bf885e361bae920b9f
+Merge: a5ee450 a34b5e7
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Oct 23 10:30:07 2017 -0200
+
+    Merge pull request #28 from ocefpaf/update_7.0.3
+    
+    Update 7.0.3
+
+commit a34b5e7503a7480ceae89053c3a9f6a512150c5e
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Oct 23 10:22:56 2017 -0200
+
+    update to 7.0.3
+
+commit ba59be70b1a0687c8b140b3a6049b5a1aa1579b6
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Oct 23 10:22:46 2017 -0200
+
+    rerender
+
+commit a5ee450344b3e44d1abf051a04ffa01bc41e19f2
+Merge: c202214 5cf2566
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Sep 16 11:40:39 2017 -0300
+
+    Merge pull request #27 from jasongrout/noarch
+    
+    Make the package a noarch package
+
+commit 5cf25669d2ad4395b2d6c8215ad68f78d45c9ae3
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Sat Sep 16 08:33:22 2017 -0600
+
+    MNT: Re-rendered with conda-smithy 2.4.0
+
+commit b8d637d9d6aecdbab3ca0e84747966e1adfc256b
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Sat Sep 16 08:32:46 2017 -0600
+
+    Make the recipe noarch: python
+
+commit c2022141777740813f2533eff34e6a6da11e06f7
+Merge: 9514142 7a35b5d
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Sat Sep 16 09:56:50 2017 -0400
+
+    Merge pull request #25 from jasongrout/7.0.1
+    
+    Update to 7.0.1
+
+commit 7a35b5db19e6aed6b7ee580d52ef9ad7e5832b57
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Fri Sep 15 23:48:29 2017 -0400
+
+    Update to 7.0.1
+
+commit 9514142d8043555c56203a28fb3e3628aa9bc4b8
+Merge: 3dc51d4 7e8e9ba
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Fri Sep 1 13:44:11 2017 -0400
+
+    Merge pull request #22 from SylvainCorlay/widgetsnbextension-dependency
+    
+    Tighter version requirement on widgetsnbextension
+
+commit 7e8e9ba276db1ea4744472bb825c6cd0d3211f27
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Mon Aug 28 16:52:18 2017 -0400
+
+    Also require traitlets<5.0.0
+
+commit c9a321e1ad1b27b0f91644707b193001cce9189c
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Mon Aug 28 11:47:29 2017 -0400
+
+    Tighter version requirement on widgetsnbextension
+
+commit 3dc51d4c47663a32fe29cfc572a4f565697297db
+Merge: c37e441 f51e908
+Author: Matt Craig <mattwcraig@gmail.com>
+Date:   Sat Aug 19 23:27:56 2017 -0500
+
+    Merge pull request #21 from jasongrout/update7
+    
+    Update to 7.0.0
+
+commit f51e9085ef0fc7e3f4e29df650bd5bd4219c9546
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Sat Aug 19 08:09:34 2017 -0400
+
+    Add Maarten as a maintainer
+
+commit 710fac203ae8ac61efe20b329316c9567b9c89b3
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Sat Aug 19 08:09:05 2017 -0400
+
+    Update meta.yaml
+
+commit c37e441c9a361c2874852966c97f4dd72591f5ae
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 19 05:04:51 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 83408c22b722a865093dd08e99300c3e34a09ea6
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Fri Aug 18 15:04:01 2017 -0400
+
+    Update to 7.0.0
+
+commit 2921d48fc7d9d644bdd87119c9ccc4901df82ac3
+Merge: beaa826 beb8795
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Wed Mar 1 10:03:48 2017 +0100
+
+    Merge pull request #16 from SylvainCorlay/release-6
+    
+    Release 6.0.0
+
+commit beb87959189ccd0e67dbadba5a960690aaed8438
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Wed Mar 1 08:27:03 2017 +0100
+
+    Release 6.0.0
+
+commit beaa826cf1fda5883df983bcd2bb87081d8b1e94
+Merge: c808855 8a7d850
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Jan 27 15:34:13 2017 -0500
+
+    Merge pull request #15 from melund/master
+    
+    Rerendered with conda-smithy to enable py36
+
+commit 8a7d8506a301a051d3912271856d91178fc20fb8
+Author: Morten Enemark Lund <melund@gmail.com>
+Date:   Thu Jan 26 09:04:31 2017 +0100
+
+    Rerendered with conda-smithy to enable py36
+    
+    Also added jasongrout, as this seem to be an outstanding PR
+
+commit c808855803e37738ac85a832b67aae84e0a8f080
+Merge: 35896bb 3ae371b
+Author: Phil Elson <pelson.pub@gmail.com>
+Date:   Mon Oct 3 16:00:49 2016 +0100
+
+    Merge pull request #13 from jakirkham/req_pip
+    
+    Require `pip`
+
+commit 3ae371b27be2264f5340f5d26cd20f7c3b620fb9
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Oct 3 10:30:49 2016 -0400
+
+    recipe: Require `pip` during build time.
+
+commit 9265d76bcfc7cbb042dd148e9892f41b54a1416b
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Oct 3 10:22:21 2016 -0400
+
+    MNT: Re-render with conda-smithy 1.3.0.
+
+commit 35896bb8b9b458bf45add4129fc329810461de8c
+Merge: 3b7000f fa12b90
+Author: Phil Elson <pelson.pub@gmail.com>
+Date:   Mon Oct 3 07:27:30 2016 +0100
+
+    Merge pull request #11 from tylere/patch-1
+    
+    Added a license_file entry
+
+commit fa12b90a20cd82c6a4f9e6fab3e5b13305c6622b
+Author: Tyler Erickson <tylerickson@gmail.com>
+Date:   Thu Sep 8 14:54:29 2016 -0700
+
+    Added a license_file entry
+    
+    Added a license_file entry so the license is included in the package.
+
+commit 3b7000f476792256eb186b3cbc073f1b39ca3188
+Merge: eabfb96 9f47561
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Thu Jul 14 17:58:27 2016 -0500
+
+    Merge pull request #10 from SylvainCorlay/5.2.2
+    
+    Release 5.2.2
+
+commit 9f47561d62eace4462a653e0a56df24af42da0e7
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Thu Jul 14 16:16:08 2016 -0500
+
+    Release 5.2.2
+
+commit eabfb96d2faab3dc399e653d79561ca0ccdeeee7
+Merge: adfe3b0 ccecb93
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu May 26 18:21:43 2016 +0200
+
+    Merge pull request #9 from SylvainCorlay/515
+    
+    Release 5.1.5
+
+commit ccecb9310f76d4e31d109b2be8943962ff10cf02
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Wed May 25 15:25:42 2016 +0200
+
+    Release 5.1.5
+
+commit adfe3b01f7c42b88a7d1ec46a41ec95f3cf77ec4
+Merge: 0ac6834 2d1d80c
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu May 19 10:05:37 2016 +0200
+
+    Merge pull request #8 from SylvainCorlay/Version_requirements
+    
+    Version requirements
+
+commit 2d1d80c93eeaa721131bb878b8b1939a3714f23f
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Thu May 19 03:46:44 2016 +0200
+
+    Version requirements
+
+commit 0ac6834a31706a29f04040cd7cb4188859640aa4
+Merge: bc4a29b 596131d
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Wed May 18 08:39:23 2016 -0400
+
+    Merge pull request #7 from SylvainCorlay/5.1.4
+    
+    Release 5.1.4
+
+commit 596131da44403f4c9939a6ab3ddf399e2a3ff493
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Wed May 18 01:24:21 2016 +0200
+
+    Release 5.1.4
+
+commit bc4a29b4ce4cbfba12ac31340cbbbb1403f31c32
+Merge: 7113b31 57e92ee
+Author: Phil Elson <pelson.pub@gmail.com>
+Date:   Sat May 14 11:25:47 2016 +0100
+
+    Merge pull request #6 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit 57e92ee036af5c967f52da0f3a9a056ba21348a5
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri May 13 20:44:58 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.3.
+    
+    [ci skip]
+
+commit 7113b311d51973ab87279b145a20dba62b4ab0cd
+Merge: 82c5a16 f7a92b0
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu May 5 10:42:30 2016 -0400
+
+    Merge pull request #3 from ocefpaf/bump
+    
+    Updated to 5.0.0
+
+commit f7a92b0bf87e7b68648d8e30491bc0a0823bfaf2
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Wed May 4 12:57:26 2016 -0300
+
+    Update summary
+
+commit e43290574d9e4fbe42b05d3a0e4bd0c091fbd2a5
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue May 3 05:40:48 2016 -0300
+
+    Update to 5.1.3
+
+commit 8526543abb35b5273d5474864034514ba60c478d
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Sun May 1 15:13:11 2016 -0300
+
+    Add willingc
+
+commit 45a63e203263c5e102c37f1efcdbeac7d835b601
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Sat Apr 30 21:32:32 2016 -0300
+
+    Add SylvainCorlay
+
+commit 017a65a442aac9ede6d594b11473095bda60ced9
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Sat Apr 30 21:20:07 2016 -0300
+
+    Updated to 5.1.2
+
+commit 248bbf877a450bc4f1630db5a58e4260580bf112
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Sat Apr 30 21:19:57 2016 -0300
+
+    Re-render
+
+commit 6fd03026014ef6922e86d8edfb597bd2bd82e25f
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Thu Apr 28 08:44:34 2016 -0300
+
+    Update to 5.1.0
+
+commit 5ddee31f0570a094a2533bf2321f6a066c41adf2
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Thu Apr 28 08:41:02 2016 -0300
+
+    Add widgetsnbextension
+
+commit f1ba8e5808ff0a437d8c48a56c6dca8dc6fbfee7
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Thu Apr 28 08:40:52 2016 -0300
+
+    rerender
+
+commit a33dfb7034e1369ac286253127564eb29d8ff911
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Wed Apr 27 12:54:25 2016 -0300
+
+    Fix home URL
+
+commit 87ef1981b048577710913755b43bdc4f98f1bb90
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Wed Apr 20 08:32:17 2016 -0300
+
+    Updated to 5.0.0
+
+commit 82c5a1612d919f64d17177914387cb29797d4e26
+Merge: f142858 642fc4b
+Author: Phil Elson <pelson.pub@gmail.com>
+Date:   Mon Apr 18 18:34:24 2016 +0100
+
+    Merge pull request #2 from jakirkham/add_jakirkham
+    
+    Add @jakirkham as a maintainer
+
+commit 642fc4be233f7d3cc82c4d87a247a5a4a02cfbe4
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Apr 18 12:19:04 2016 -0400
+
+    recipe: Add @jakirkham as a maintainer. [ci skip]
+
+commit f142858ef732f0bba2073f0cd486b2e4e757734b
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Apr 14 14:24:54 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit b17e4ed1dd8933082a9bdaced54bc0e3a7a7ee39
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Apr 14 14:22:44 2016 +0000
+
+    Initial commit of the ipywidgets feedstock.

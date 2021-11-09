@@ -1,0 +1,30 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "click",
+    "joblib",
+    "python >=3.5",
+    "regex",
+    "tqdm"
+  ],
+  "features": "",
+  "fn": "nltk-3.5-py_0.conda",
+  "legacy_bz2_md5": "25a25efc0f2f0614783434739beb6b7a",
+  "legacy_bz2_size": 1104327,
+  "license": "Apache 2.0",
+  "license_family": "Apache",
+  "md5": "5b9f085596fced219a31d7576ac67b95",
+  "name": "nltk",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "856e726875080b8a633d695ac40ba16fffb671ddb176490919c24cb443a0c4b2",
+  "size": 999322,
+  "subdir": "noarch",
+  "timestamp": 1592496121693,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/nltk-3.5-py_0.conda",
+  "version": "3.5"
+}

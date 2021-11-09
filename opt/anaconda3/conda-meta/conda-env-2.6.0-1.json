@@ -1,0 +1,33 @@
+{
+  "build": "1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/conda-env-2.6.0-1",
+  "features": "",
+  "files": [],
+  "fn": "conda-env-2.6.0-1.conda",
+  "legacy_bz2_md5": "a29a55f26a84c182a3e9625ac2f6cef0",
+  "legacy_bz2_size": 3068,
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/conda-env-2.6.0-1",
+    "type": 1
+  },
+  "md5": "331feddff07297d7a2b3ddce55906580",
+  "name": "conda-env",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/conda-env-2.6.0-1.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "conda-env==2.6.0=1",
+  "sha256": "476ec8313d1e237fc8cf58c40208ae526224958926377717664cbfdbae3743ac",
+  "size": 3364,
+  "subdir": "osx-64",
+  "timestamp": 1531066575882,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/conda-env-2.6.0-1.conda",
+  "version": "2.6.0"
+}

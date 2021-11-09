@@ -1,0 +1,77 @@
+{
+  "paths": [
+    {
+      "_path": "bin/xmlwf",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/850161f9-7439-45f9-512e-2440fefbbbcc/volume/expat_1593113417332/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+      "sha256": "d109efa1fa32a27d6b463176e27b07c8ac7ea1ab15e246dc0faafa2430bd7cbf",
+      "size_in_bytes": 30944
+    },
+    {
+      "_path": "include/expat.h",
+      "path_type": "hardlink",
+      "sha256": "d4f9c873c11bbfd58d793456a1bb40c7e8c719d6e6f33048ba7b8156d6daae68",
+      "size_in_bytes": 41473
+    },
+    {
+      "_path": "include/expat_config.h",
+      "path_type": "hardlink",
+      "sha256": "e5cbec86560e4e1d61ccb339774c6fef1c547aac04fce672283f980371914a7a",
+      "size_in_bytes": 3833
+    },
+    {
+      "_path": "include/expat_external.h",
+      "path_type": "hardlink",
+      "sha256": "0215a7cd90a6643a751ded053beb0fc6721d78ff3be65ae4653d262b8e7403fe",
+      "size_in_bytes": 5528
+    },
+    {
+      "_path": "lib/libexpat.1.6.11.dylib",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/850161f9-7439-45f9-512e-2440fefbbbcc/volume/expat_1593113417332/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+      "sha256": "bd2aca2ed4935dc1465270c2017c9bfef115b6ba27f325b192af5ee30c96b7a5",
+      "size_in_bytes": 162404
+    },
+    {
+      "_path": "lib/libexpat.1.dylib",
+      "path_type": "softlink",
+      "sha256": "bd2aca2ed4935dc1465270c2017c9bfef115b6ba27f325b192af5ee30c96b7a5",
+      "size_in_bytes": 162404
+    },
+    {
+      "_path": "lib/libexpat.a",
+      "path_type": "hardlink",
+      "sha256": "17b4be2a30b8ba84ed1ef07933354c61d4e966bd5784e07004ce60b8140dcddf",
+      "size_in_bytes": 190280
+    },
+    {
+      "_path": "lib/libexpat.dylib",
+      "path_type": "softlink",
+      "sha256": "bd2aca2ed4935dc1465270c2017c9bfef115b6ba27f325b192af5ee30c96b7a5",
+      "size_in_bytes": 162404
+    },
+    {
+      "_path": "lib/pkgconfig/expat.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "310d388a6db3723f590d61949c4f5bc324be85961039aed0acd334de25a8ec84",
+      "size_in_bytes": 254
+    },
+    {
+      "_path": "share/doc/expat/AUTHORS",
+      "path_type": "hardlink",
+      "sha256": "59f14371c6b75912cfebb46e6247ee5146766e803a0365b124e5d3011e7d0877",
+      "size_in_bytes": 142
+    },
+    {
+      "_path": "share/doc/expat/changelog",
+      "path_type": "hardlink",
+      "sha256": "b4a0dfeb2680c78f1ded01273febd6d22c04867b42c342761d1f3a634993f0ed",
+      "size_in_bytes": 38571
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,24 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "ply-3.11-py38_0.conda",
+  "legacy_bz2_md5": "a889b62b08120235069f4a585d1c531a",
+  "legacy_bz2_size": 81282,
+  "license": "BSD 3-clause",
+  "license_family": "BSD",
+  "md5": "64c899a5d5b76bf3e69ede25b5c1797c",
+  "name": "ply",
+  "sha256": "fb53ee2f029dcf0dca1742211f77a7b26d292cbe822918a3580295ea6e661973",
+  "size": 82203,
+  "subdir": "osx-64",
+  "timestamp": 1573040647753,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/ply-3.11-py38_0.conda",
+  "version": "3.11"
+}

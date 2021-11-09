@@ -1,0 +1,40 @@
+{% set name = "wurlitzer" %}
+{% set version = "2.0.1" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: d08f0728a998441aac3d7a0f8cd6dfed2ba2525144878fb49599b719085b7543
+
+build:
+  skip: true  # [win]
+  number: 0
+  script: python -m pip install --no-deps --ignore-installed .
+
+requirements:
+  host:
+    - python
+    - pip
+  run:
+    - python
+    - selectors2  # [py==27]
+
+test:
+  imports:
+    - wurlitzer
+
+about:
+  home: https://github.com/minrk/wurlitzer
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: 'Capture C-level stdout/stderr in Python'
+
+extra:
+  recipe-maintainers:
+    - minrk
+    - bjodah
+    - asmeurer

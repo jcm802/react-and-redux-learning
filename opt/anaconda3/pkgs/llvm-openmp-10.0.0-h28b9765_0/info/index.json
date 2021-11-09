@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "h28b9765_0",
+  "build_number": 0,
+  "constrains": [
+    "clangdev 10.0.0|10.0.0.*",
+    "llvmdev 10.0.0|10.0.0.*",
+    "openmp 10.0.0|10.0.0.*"
+  ],
+  "depends": [],
+  "license": "NCSA",
+  "name": "llvm-openmp",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1589550841331,
+  "version": "10.0.0"
+}

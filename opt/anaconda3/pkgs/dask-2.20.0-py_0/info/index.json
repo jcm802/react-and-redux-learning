@@ -1,0 +1,28 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "constrains": [
+    "openssl !=1.1.1e"
+  ],
+  "depends": [
+    "bokeh >=1.0.0,!=2.0.0",
+    "cloudpickle >=0.2.2",
+    "cytoolz >=0.8.2",
+    "dask-core 2.20.0.*",
+    "distributed >=2.20.0",
+    "fsspec >=0.6.0",
+    "numpy >=1.13.0",
+    "pandas >=0.23.0",
+    "partd >=0.3.10",
+    "python >=3.6",
+    "toolz >=0.8.2"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "dask",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1594419522711,
+  "version": "2.20.0"
+}

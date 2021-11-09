@@ -1,0 +1,52 @@
+{
+  "build": "py38h1de35cc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/ujson-1.35-py38h1de35cc_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/__pycache__/_sysconfigdata_x86_64_apple_darwin13_4_0.cpython-38.pyc",
+    "lib/python3.8/site-packages/ujson-1.35-py3.8.egg-info/PKG-INFO",
+    "lib/python3.8/site-packages/ujson-1.35-py3.8.egg-info/SOURCES.txt",
+    "lib/python3.8/site-packages/ujson-1.35-py3.8.egg-info/dependency_links.txt",
+    "lib/python3.8/site-packages/ujson-1.35-py3.8.egg-info/top_level.txt",
+    "lib/python3.8/site-packages/ujson.cpython-38-darwin.so"
+  ],
+  "fn": "ujson-1.35-py38h1de35cc_0.conda",
+  "legacy_bz2_md5": "a9084eedee633398990481ac0bb7b0ba",
+  "legacy_bz2_size": 33300,
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/ujson-1.35-py38h1de35cc_0",
+    "type": 1
+  },
+  "md5": "53334b8cae767417cda022b0a4cefd33",
+  "name": "ujson",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/ujson-1.35-py38h1de35cc_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/ujson.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/2a4d270d-717f-4844-4ef9-fd1fa4dc115a/volume/ujson_1573201152015/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "4210071d0e083add2ee9b84d2ab554cf9f390cc46ab7e60e81f8671509dd674c",
+        "sha256_in_prefix": "715749ff9f7f5c5bb3b51cf9437df974950fdbc02196da9e8fdbb728f134c77d",
+        "size_in_bytes": 46780
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "ujson==1.35=py38h1de35cc_0",
+  "sha256": "c8dddbef157a4428ed087c91c33dd6d13bf64b595aa0cd62f550d82da25776a3",
+  "size": 32359,
+  "subdir": "osx-64",
+  "timestamp": 1573201174452,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/ujson-1.35-py38h1de35cc_0.conda",
+  "version": "1.35"
+}

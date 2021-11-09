@@ -1,0 +1,79 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/5f0313b4-ff69-4d9d-5c31-e01b223dabd6/volume/rsync-recipes/python-language-server-0.34.1-python_3.8-on-osx, last modified Tue Jul  7 17:43:06 2020
+# ------------------------------------------------
+
+package:
+    name: python-language-server
+    version: 0.34.1
+source:
+    sha256: b96ff466b5aa24e212493de863899298f229a9e250e7353972563c7f2495d23d
+    url: https://pypi.org/packages/source/p/python-language-server/python-language-server-0.34.1.tar.gz
+build:
+    entry_points:
+        - pyls = pyls.__main__:main
+    number: '0'
+    script: /opt/concourse/worker/volumes/live/5f0313b4-ff69-4d9d-5c31-e01b223dabd6/volume/python-language-server_1594161914367/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/bin/python
+        -m pip install . --no-deps -vv
+    string: py38_0
+requirements:
+    host:
+        - ca-certificates 2020.6.24 0
+        - certifi 2020.6.20 py38_0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 haf1e3a3_0
+        - libffi 3.3 hb1e8313_2
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - pip 20.1.1 py38_1
+        - python 3.8.3 h26836e1_2
+        - readline 8.0 h1de35cc_0
+        - setuptools 47.3.1 py38_0
+        - sqlite 3.32.3 hffcf06c_0
+        - tk 8.6.10 hb0a8c7a_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - autopep8
+        - flake8 >=3.8.0
+        - jedi >=0.17.0,<0.18.0a0
+        - mccabe >=0.6.0,<0.7.0
+        - pluggy
+        - pycodestyle >=2.6.0,<2.7.0
+        - pydocstyle >=2.0.0
+        - pyflakes >=2.2.0,<2.3.0
+        - pylint
+        - python >=3.8,<3.9.0a0
+        - python-jsonrpc-server >=0.3.2
+        - rope >=0.10.5
+        - setuptools
+        - ujson <=1.35
+        - yapf
+test:
+    commands:
+        - python -m pip check
+        - pyls --help
+    requires:
+        - pip
+about:
+    description: 'A Python 2.7 and 3.4+ implementation of the Language Server Protocol
+
+        making use of Jedi, pycodestyle, Pyflakes and YAPF.
+
+        '
+    dev_url: https://github.com/palantir/python-language-server
+    home: https://github.com/palantir/python-language-server
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: An implementation of the Language Server Protocol for Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - andfoy
+        - ccordoba12
+        - goanpeca
+        - mariusvniekerk
+        - rlaverde

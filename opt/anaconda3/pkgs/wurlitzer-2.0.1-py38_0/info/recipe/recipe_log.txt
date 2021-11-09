@@ -1,0 +1,119 @@
+commit 42b375be0ef950ec03fe1624a23960aaf33b5001
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Jul 14 14:09:16 2020 -0500
+
+    DOR 2.0.1
+
+commit c281bb5909c625a8d66d0181022a1bfecd46bbf6
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Nov 20 14:59:57 2019 -0600
+
+    correct typo in requirement name, selectors
+
+commit fe5197874e736ecf6f78460af3bff8ad3b78f752
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Nov 20 13:23:06 2019 -0600
+
+    add py27 requirement on selector2
+
+commit 05d4c7def3b09defdb8c418f24beebe922aea790
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Nov 20 13:22:54 2019 -0600
+
+    DNR update to 2.0.0
+
+commit 144454466023e170777e87e74c7c22290441f0a0
+Merge: cdd1b60 42b863d
+Author: Björn Dahlgren <bjodah@gmail.com>
+Date:   Sat Nov 2 16:49:26 2019 +0100
+
+    Merge pull request #5 from regro-cf-autotick-bot/rebuild-python3801
+    
+    Rebuild for python38
+
+commit 42b863d2863bd3e370c99963bba813c378b3c0c2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 2 10:29:21 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.1, and conda-forge-pinning 2019.11.01
+
+commit 61d40d7ab33fa7d4ad0812064fdbd4e01fa72029
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 2 10:29:06 2019 +0000
+
+    bump build number
+
+commit cdd1b60d3b48f6666aceb4e1a2a21fee9852e5c3
+Merge: 32e4708 f1d88a5
+Author: Björn Dahlgren <bjodah@gmail.com>
+Date:   Thu Jun 13 12:11:19 2019 +0200
+
+    Merge pull request #3 from regro-cf-autotick-bot/1.0.3
+    
+    wurlitzer v1.0.3
+
+commit f1d88a5167cb6c938aea23f8541c375db1cc672d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jun 13 09:29:10 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.2, conda-smithy 3.3.7, and conda-forge-pinning 2019.06.09
+
+commit 10a114ccaa3ccd9f63504ffb67f123ddb05900ad
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jun 13 09:28:55 2019 +0000
+
+    updated v1.0.3
+
+commit 32e470863977b38499b39914a19cd689e42cd16b
+Merge: cf73d15 380db90
+Author: Björn Dahlgren <bjodah@gmail.com>
+Date:   Thu Oct 4 10:23:58 2018 +0200
+
+    Merge pull request #2 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit 380db90b2564f85edc55458e95b0c04443128fe8
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Oct 4 07:15:51 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.01
+
+commit 341939683f1b3dd1c09f7d3aaff24f799deea3ff
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Oct 4 07:15:44 2018 +0000
+
+    bump build number
+
+commit cf73d1590f0251bd19ce98bac4675f4f1295f22c
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 19:29:28 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 946607900356a60ca0dfcaee4c5c6f4984d6d7b7
+Merge: 45c2969 6565f11
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Sun Jul 1 23:24:51 2018 +0200
+
+    Merge pull request #1 from asmeurer/asmeurer
+    
+    Add myself as a maintainer
+
+commit 6565f11c9f8db2dc09e39ea2363825d0577a91dd
+Author: Aaron Meurer <asmeurer@gmail.com>
+Date:   Sun Jul 1 15:11:47 2018 -0600
+
+    Add myself as a maintainer
+
+commit 45c296995f45fe59487c359fbcc24d0339c110b9
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Jul 1 06:19:09 2018 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit d0347f94925ccc175ebb60ae64d9f9cde15aa98e
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Jul 1 06:18:23 2018 +0000
+
+    Initial feedstock commit with conda-smithy 3.1.6.

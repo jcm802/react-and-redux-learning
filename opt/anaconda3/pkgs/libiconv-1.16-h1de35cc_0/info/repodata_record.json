@@ -1,0 +1,21 @@
+{
+  "build": "h1de35cc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "libiconv-1.16-h1de35cc_0.conda",
+  "legacy_bz2_md5": "958cd626d57ef8782b14e5e64c0cc6e1",
+  "legacy_bz2_size": 1393687,
+  "license": "GPL and LGPL",
+  "md5": "756e7949af3ed1627fdabbbefac778f9",
+  "name": "libiconv",
+  "sha256": "835c188eb24efffea3ce9305198fe26ade0e27e4a5282becfbed29d04699d2b3",
+  "size": 709132,
+  "subdir": "osx-64",
+  "timestamp": 1587658984505,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/libiconv-1.16-h1de35cc_0.conda",
+  "version": "1.16"
+}

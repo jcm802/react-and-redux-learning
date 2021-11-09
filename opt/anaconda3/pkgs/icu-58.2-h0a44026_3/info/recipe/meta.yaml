@@ -1,0 +1,94 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/55ac5f65-0d2f-4c2c-41aa-7b10b5ab5750/volume/rsync-recipes/icu-58.2-on-osx, last modified Mon Apr 27 16:30:46 2020
+# ------------------------------------------------
+
+package:
+    name: icu
+    version: '58.2'
+source:
+    fn: icu4c-58_2-src.tgz
+    patches:
+        - CVE-2017-14952.patch
+        - CVE-2017-15396.patch
+        - CVE-2017-15422.patch
+        - CVE-2017-7867_CVE-2017-7868.patch
+        - CVE-2020-10531.patch
+    sha256: 2b0a4410153a9b20de0e20c7d8b66049a72aef244b53683d0d7521371683da0c
+    url:
+        - http://download.icu-project.org/files/icu4c/58.2/icu4c-58_2-src.tgz
+        - https://sourceforge.net/projects/icu/files/ICU4C/58.2/icu4c-58_2-src.tgz/download
+build:
+    number: '3'
+    run_exports:
+        - icu >=58.2,<59.0a0
+    string: h0a44026_3
+requirements:
+    build:
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_18
+        - clangxx 4.0.1 1
+        - clangxx_osx-64 4.0.1 h22b1bf0_18
+        - compiler-rt 4.0.1 hcfea43d_1
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+        - make 4.2.1 h3efe00b_1
+    host:
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+    run:
+        - libcxx >=4.0.1
+test:
+    commands:
+        - test -f $PREFIX/lib/libicudata.a
+        - test -f $PREFIX/lib/libicudata.58.2.dylib
+        - test -f $PREFIX/lib/libicui18n.a
+        - test -f $PREFIX/lib/libicui18n.58.2.dylib
+        - test -f $PREFIX/lib/libicuio.a
+        - test -f $PREFIX/lib/libicuio.58.2.dylib
+        - test -f $PREFIX/lib/libicutest.a
+        - test -f $PREFIX/lib/libicutest.58.2.dylib
+        - test -f $PREFIX/lib/libicutu.a
+        - test -f $PREFIX/lib/libicutu.58.2.dylib
+        - test -f $PREFIX/lib/libicuuc.a
+        - test -f $PREFIX/lib/libicuuc.58.2.dylib
+        - genbrk --help
+        - gencfu --help
+        - gencnval --help
+        - gendict --help
+        - icuinfo --help
+        - icu-config --help
+        - makeconv gb-18030-2000.ucm
+        - conda inspect linkages -p $PREFIX icu
+        - conda inspect objects -p $PREFIX icu
+    files:
+        - de.txt
+        - gb-18030-2000.ucm
+about:
+    description: 'ICU is a mature, widely used set of C/C++ and Java libraries providing
+
+        Unicode and Globalization support for software applications. ICU is
+
+        widely portable and gives applications the same results on all platforms
+
+        and between C/C++ and Java software.
+
+        '
+    dev_url: http://source.icu-project.org/repos/icu/
+    doc_url: http://site.icu-project.org/design
+    home: http://site.icu-project.org/
+    license: MIT
+    summary: International Components for Unicode.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ccordoba12
+        - chenghlee
+        - jakirkham
+        - msarahan
+        - ocefpaf

@@ -1,0 +1,32 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [
+    "pytest-faulthandler >=2"
+  ],
+  "depends": [
+    "attrs >=17.4.0",
+    "more-itertools >=4.0",
+    "packaging",
+    "pluggy >=0.12,<1.0",
+    "py >=1.5.0",
+    "python >=3.8,<3.9.0a0",
+    "setuptools >=40.0",
+    "wcwidth"
+  ],
+  "features": "",
+  "fn": "pytest-5.4.3-py38_0.conda",
+  "legacy_bz2_md5": "387570156ff7d108302b383f0f8482dd",
+  "legacy_bz2_size": 404650,
+  "license": "MIT",
+  "md5": "330d6e5b3abb8390a7a83aea2264ef83",
+  "name": "pytest",
+  "sha256": "26dbe20b22eecc8d7900bda6a9170353f528777b86be8c4e1ee99e75724d9caf",
+  "size": 399089,
+  "subdir": "osx-64",
+  "timestamp": 1592323137098,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pytest-5.4.3-py38_0.conda",
+  "version": "5.4.3"
+}

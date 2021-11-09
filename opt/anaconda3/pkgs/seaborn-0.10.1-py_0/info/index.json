@@ -1,0 +1,20 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "matplotlib >=2.1.2",
+    "numpy >=1.13.3",
+    "pandas >=0.22.0",
+    "python >=3.6",
+    "scipy >=1.0.1"
+  ],
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "name": "seaborn",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1588473326458,
+  "version": "0.10.1"
+}

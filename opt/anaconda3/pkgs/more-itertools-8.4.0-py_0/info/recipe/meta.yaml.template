@@ -1,0 +1,44 @@
+{% set name = "more-itertools" %}
+{% set version = "8.4.0" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 68c70cc7167bdf5c7c9d8f6954a7837089c6a36bf565383919bb595efb8a17e5
+
+build:
+  number: 0
+  noarch: python
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
+
+requirements:
+  host:
+    - pip
+    - python >=3.4
+  run:
+    - python >=3.4
+
+test:
+  imports:
+    - more_itertools
+  commands:
+    - pip check
+  requires:
+    - pip
+
+about:
+  home: https://github.com/more-itertools/more-itertools
+  license_file: LICENSE
+  license: MIT
+  license_family: MIT
+  summary: More routines for operating on iterables, beyond itertools
+  dev_url: https://github.com/more-itertools/more-itertools
+  doc_url: https://more-itertools.readthedocs.io/en/latest/api.html
+
+extra:
+  recipe-maintainers:
+    - pmlandwehr
+    - dbast

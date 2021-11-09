@@ -1,0 +1,24 @@
+{
+  "build": "py38_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "pandocfilters-1.4.2-py38_1.conda",
+  "legacy_bz2_md5": "1f09e80c47a582672ae9eaea054f8281",
+  "legacy_bz2_size": 13657,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "2cfeb289518540f5522a0fb2814e119d",
+  "name": "pandocfilters",
+  "sha256": "12053c3724d92d3fdbfcd9fa3840d7a718a3c49340169dec18a52d34524cb990",
+  "size": 13523,
+  "subdir": "osx-64",
+  "timestamp": 1573490410391,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pandocfilters-1.4.2-py38_1.conda",
+  "version": "1.4.2"
+}

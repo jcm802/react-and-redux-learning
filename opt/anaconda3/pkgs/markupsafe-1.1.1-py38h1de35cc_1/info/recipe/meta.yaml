@@ -1,0 +1,78 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/cb778296-98db-45ad-411e-6f726e102dc3/volume/pull-recipes-markupsafe/recipe, last modified Fri Jul 10 03:57:37 2020
+# ------------------------------------------------
+
+package:
+    name: markupsafe
+    version: 1.1.1
+source:
+    sha256: 29872e92839765e546828bb7754a68c418d927cd064fd4708fab9fe9c8bb116b
+    url: https://pypi.io/packages/source/M/MarkupSafe/MarkupSafe-1.1.1.tar.gz
+build:
+    number: '1'
+    script: /opt/concourse/worker/volumes/live/cb778296-98db-45ad-411e-6f726e102dc3/volume/markupsafe_1594371638608/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac/bin/python
+        -m pip install . --no-deps -vv
+    string: py38h1de35cc_1
+requirements:
+    build:
+        - cctools 927.0.2 h5ba7a2e_4
+        - clang 10.0.0 default_hf57f61e_0
+        - clang_osx-64 10.0.0 h05bbb7f_1
+        - clangxx 10.0.0 default_hf57f61e_0
+        - compiler-rt 10.0.0 h47ead80_0
+        - compiler-rt_osx-64 10.0.0 hbcc88fd_0
+        - ld64 450.3 h3c32e8a_4
+        - libcxx 10.0.0 1
+        - libllvm10 10.0.0 h21ff451_0
+        - llvm-openmp 10.0.0 h28b9765_0
+        - llvm-tools 10.0.0 h21ff451_0
+        - tapi 1000.10.8 ha1b3eb9_0
+    host:
+        - ca-certificates 2020.6.24 0
+        - certifi 2020.6.20 py38_0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 haf1e3a3_0
+        - libffi 3.3 hb1e8313_2
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - pip 20.1.1 py38_1
+        - python 3.8.3 h26836e1_2
+        - readline 8.0 h1de35cc_0
+        - setuptools 47.3.1 py38_0
+        - sqlite 3.32.3 hffcf06c_0
+        - tk 8.6.10 hb0a8c7a_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - python >=3.8,<3.9.0a0
+test:
+    imports:
+        - markupsafe
+about:
+    description: 'MarkupSafe is a library for Python that implements a unicode string
+        that
+
+        is aware of HTML escaping rules and can be used to implement automatic
+
+        string escaping. It is used by Jinja 2, the Mako templating engine, the
+
+        Pylons web framework and many more.
+
+        '
+    dev_url: https://github.com/pallets/markupsafe
+    doc_source_url: https://github.com/pallets/markupsafe/blob/master/README.rst
+    doc_url: https://pypi.python.org/pypi/MarkupSafe
+    home: https://www.palletsprojects.com/p/markupsafe
+    license: BSD-3-Clause
+    license_family: BSD
+    license_file: LICENSE.rst
+    summary: A Python module that implements the jinja2.Markup string
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ocefpaf
+        - pelson
+        - scopatz

@@ -1,0 +1,24 @@
+{
+  "build": "py38h0a44026_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "sip-4.19.8-py38h0a44026_0.conda",
+  "legacy_bz2_md5": "8d4950bd6f62ce650865497a0f17265e",
+  "legacy_bz2_size": 259523,
+  "license": "GPL-3.0",
+  "md5": "84705931131b402f1b428ed0e20585f9",
+  "name": "sip",
+  "sha256": "14b296a8e6a8e6a17026a7746f701a473cdcf304338f28627eb3eb1a61df1b9d",
+  "size": 244883,
+  "subdir": "osx-64",
+  "timestamp": 1579625937818,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/sip-4.19.8-py38h0a44026_0.conda",
+  "version": "4.19.8"
+}

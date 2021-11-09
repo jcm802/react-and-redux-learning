@@ -1,0 +1,345 @@
+commit 63d44667a8c792c403de67bc78e513637a302080
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Aug 13 13:18:36 2017 +0000
+
+    Update about section
+
+commit a56d626d88183135280a84466cae5830585fcac1
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 07:59:24 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit 697a75f93594e3edd9d410fb6a1d985456746e17
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sun May 17 00:19:51 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 6cb896538893f471a7c472a6e7c1ffc0774a8bec
+Merge: 4fc1236 6a9af4c
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Sun Apr 19 13:12:10 2020 +0000
+
+    nbformat v5.0.6
+    
+    automerged PR by regro-cf-autotick-bot-action
+
+commit 6a9af4cedb0753d7b0a4b8d194c0b65951e529d7
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun Apr 19 10:07:56 2020 -0300
+
+    add pip check
+
+commit 5234d6e6722f882abc89df77f44fbe3e452be385
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Apr 18 18:26:09 2020 +0000
+
+    updated v5.0.6
+
+commit 4fc123692ce1b15b6a8d450f6b8166f75a6ebb25
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 22:20:53 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 2f2dc1f2abcf58465c55992ac3ab48feafe1e6d8
+Merge: 00e6243 c5f913b
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Jan 23 09:44:11 2020 +0100
+
+    nbformat v5.0.4 (#16)
+    
+    nbformat v5.0.4
+
+commit c5f913b4ed1de19eb98f7961791e1bd1f74b5495
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Jan 23 09:39:59 2020 +0100
+
+    missing hash
+
+commit 40e2e7b11136209bae6ff3090924fde2701057a8
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jan 22 22:14:04 2020 +0000
+
+    updated v5.0.4
+
+commit 00e62432ffacd074bfe84ebe1c55997e28fb46cf
+Merge: 250375a dee6a9b
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Jan 7 12:55:34 2020 -0300
+
+    nbformat v5.0.3 (#15)
+    
+    nbformat v5.0.3
+
+commit dee6a9b85c4088feb66ba61ce99e87118d805990
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Tue Jan 7 11:53:53 2020 -0300
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2020.01.05
+
+commit b719e004b2ec537ab85b5cfbce23e5bd863e360f
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Tue Jan 7 11:53:50 2020 -0300
+
+    fix metadata
+
+commit 1d01c594504bb534d8096660093f4fe886442843
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jan 7 00:11:52 2020 +0000
+
+    updated v5.0.3
+
+commit 250375aa78c29c27b7b5ac40e16c10fdd26591ff
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:16:13 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 32a11d120241230b2bc90fd1a43bb280f718c907
+Merge: 709aba5 6fef2b9
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Mon Jul 16 18:22:20 2018 -0500
+
+    Merge pull request #12 from regro-cf-autotick-bot/noarch_migration
+    
+    Suggestion: add noarch
+
+commit 6fef2b975bf5f037ff013ae06612b615cbbf37a2
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Mon Jul 9 12:49:36 2018 +0200
+
+    Use Python 3.6 for noarch builds
+
+commit afb7a3c3e80b88be87b2050ba59be6f4562f829f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jul 7 09:12:58 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.01
+
+commit 9b247f57f4200e36888845748098f1ce28f6aedb
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jul 7 09:12:53 2018 +0000
+
+    add noarch
+
+commit 709aba51e29b121227493ae5807518c06128223f
+Merge: 8c557fd 0915c7f
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Sep 13 01:14:55 2017 -0400
+
+    Merge pull request #11 from jakirkham-feedstocks/re-render__master__2.4.0
+    
+    MNT: Re-rendered with conda-smithy 2.4.0
+
+commit 0915c7f4c65109c7005385edff350d915b18aa46
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Sep 12 20:32:28 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.4.0
+
+commit 8c557fdbee444511b650be8afa1945be8e490772
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:28:52 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit f4a87a7361a9f2aa48bff0a647cba38be5c582d6
+Merge: 8566186 d356ca7
+Author: Thomas Kluyver <takowl@gmail.com>
+Date:   Mon Aug 21 10:15:46 2017 +0100
+
+    Merge pull request #8 from mpacer/4.4.0_release
+    
+    update version number to 4.4.0
+
+commit d356ca7e8bf5b904d73aa0c3fd17c97668af421e
+Author: M Pacer <mpacer@berkeley.edu>
+Date:   Sun Aug 20 17:37:57 2017 -0700
+
+    Add mpacer to recipe maintainers
+
+commit 80053d3c9280738824a07c723fc67732c7285632
+Author: M Pacer <mpacer@berkeley.edu>
+Date:   Sun Aug 20 17:30:31 2017 -0700
+
+    update sha hash
+
+commit f7e1eec8cf5b5254a8cf2cc8baee84717437dbcc
+Author: M Pacer <mpacer@berkeley.edu>
+Date:   Sun Aug 20 16:40:00 2017 -0700
+
+    update version number to 4.4.0
+
+commit 856618661571bdac91ab4c7411199864fc12c923
+Merge: 6d9d638 8ec0c4d
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Sat Apr 22 16:04:15 2017 +0200
+
+    Merge pull request #7 from haraldschilly/patch-1
+    
+    updating to release 4.3.0
+
+commit 8ec0c4d75943dd3b1bd5da6f981f566e08aed3b2
+Author: Harald Schilly <harald.schilly@gmail.com>
+Date:   Fri Apr 21 22:23:51 2017 +0200
+
+    fixing summary line according to setup.py
+
+commit bad9611ad44c2de4482f88da186cce72a0a9cc60
+Author: Harald Schilly <harald.schilly@gmail.com>
+Date:   Fri Apr 21 22:14:57 2017 +0200
+
+    fixes to "about" section
+
+commit d716334479ef556924d72ac0a08929a3afc5aad8
+Author: Harald Schilly <harald.schilly@gmail.com>
+Date:   Fri Apr 21 20:46:02 2017 +0200
+
+    sha256sum
+
+commit b4d077c38a635a94ec0db2834eb5ff7e43f3f7ff
+Author: Harald Schilly <harald.schilly@gmail.com>
+Date:   Fri Apr 21 20:37:41 2017 +0200
+
+    updating to release 4.3.0
+
+commit 6d9d638af98aa70d4aea0e86fc675ce7581ba84e
+Merge: 444116a e312a0a
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Feb 20 00:28:36 2017 -0500
+
+    Merge pull request #6 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit e312a0af0eb0100313a161d2b78a5e2e5ca1954c
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Feb 20 01:39:43 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.1.0.
+
+commit 444116a637159f11a857d40007d67ad9929c7acc
+Merge: 747cad4 822c5ef
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Dec 9 14:15:39 2016 +0100
+
+    Merge pull request #4 from minrk/42
+    
+    release 4.2
+
+commit 747cad404b45865f8fb56d0cffd92ac755914fcf
+Merge: 4f4c4b3 3c1c72c
+Author: Thomas Kluyver <takowl@gmail.com>
+Date:   Fri Dec 9 13:22:15 2016 +0100
+
+    Merge pull request #5 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 3c1c72c4a880405ba5e40701feffcdf6d742fe47
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Dec 9 01:40:08 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.6.1.
+
+commit 822c5ef99cc62aca3f0b8b0cba40ff1548f6cdb6
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Dec 1 12:02:13 2016 +0100
+
+    release 4.2
+
+commit 04d7cf18620a2cd6bc8713fa8872b29197d20759
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Dec 1 12:00:42 2016 +0100
+
+    MNT: Re-rendered with conda-smithy 1.6.1 [ ci skip ]
+
+commit 4f4c4b33f57c03b77056ae8960b91c1dcc2a509f
+Merge: 64bd228 8398014
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Wed Aug 31 12:24:49 2016 +0200
+
+    Merge pull request #3 from minrk/4.1
+    
+    4.1
+
+commit 83980148fcc7e8072b91d55beada36465b5f6584
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Sat Aug 13 22:53:46 2016 +0200
+
+    add conda entrypoint
+    
+    workaround conda bug in normal entry points
+
+commit f37602a0c2879e0377ef63f851810043d2f0b39b
+Merge: 390f57a e52d4af
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Aug 12 11:09:24 2016 +0200
+
+    Merge pull request #1 from ocefpaf/update
+    
+    Do not use pip for now
+
+commit e52d4afcae69d7e9d4929819d3e5634aee619c6d
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Thu Aug 11 11:31:48 2016 -0300
+
+    rerender
+
+commit 3d08939b0123da309fe9aaf31a69e8244c916aa5
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Thu Aug 11 11:26:04 2016 -0300
+
+    Do not use pip for now
+
+commit 390f57aeb4fe782b748ff2d8534c9e62ed49adf6
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Wed Aug 10 13:51:02 2016 +0200
+
+    4.1
+
+commit 64bd2285acb54d828ca3731c488bf2f54ee56c00
+Merge: 68de4cc eb29108
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri May 13 08:01:40 2016 -0400
+
+    Merge pull request #2 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit eb2910891c558f3394a1a536e1148a09be613bf4
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri May 13 08:43:28 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.3.
+    
+    [ci skip]
+
+commit 68de4cc679b0287136a74d4802e78cf4cef9ca95
+Merge: 3d0961b f61bcbc
+Author: Phil Elson <pelson.pub@gmail.com>
+Date:   Mon Apr 18 18:33:49 2016 +0100
+
+    Merge pull request #1 from jakirkham/add_jakirkham
+    
+    Add @jakirkham as a maintainer
+
+commit f61bcbca9df737f55b3e65b7c8067675ffdf53af
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Apr 18 12:10:34 2016 -0400
+
+    recipe: Add @jakirkham as a maintainer. [ci skip]
+
+commit 3d0961bd533c806976192d2577f85feb66db5c4f
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Apr 14 14:26:23 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit fa402e6981790f0a2c41616bc0ad4016dafaaccd
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Apr 14 14:23:20 2016 +0000
+
+    Initial commit of the nbformat feedstock.

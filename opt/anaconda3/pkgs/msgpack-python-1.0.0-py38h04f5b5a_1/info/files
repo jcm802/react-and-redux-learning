@@ -1,0 +1,17 @@
+lib/python3.8/site-packages/msgpack-1.0.0.dist-info/COPYING
+lib/python3.8/site-packages/msgpack-1.0.0.dist-info/INSTALLER
+lib/python3.8/site-packages/msgpack-1.0.0.dist-info/METADATA
+lib/python3.8/site-packages/msgpack-1.0.0.dist-info/RECORD
+lib/python3.8/site-packages/msgpack-1.0.0.dist-info/WHEEL
+lib/python3.8/site-packages/msgpack-1.0.0.dist-info/top_level.txt
+lib/python3.8/site-packages/msgpack/__init__.py
+lib/python3.8/site-packages/msgpack/__pycache__/__init__.cpython-38.pyc
+lib/python3.8/site-packages/msgpack/__pycache__/_version.cpython-38.pyc
+lib/python3.8/site-packages/msgpack/__pycache__/exceptions.cpython-38.pyc
+lib/python3.8/site-packages/msgpack/__pycache__/ext.cpython-38.pyc
+lib/python3.8/site-packages/msgpack/__pycache__/fallback.cpython-38.pyc
+lib/python3.8/site-packages/msgpack/_cmsgpack.cpython-38-darwin.so
+lib/python3.8/site-packages/msgpack/_version.py
+lib/python3.8/site-packages/msgpack/exceptions.py
+lib/python3.8/site-packages/msgpack/ext.py
+lib/python3.8/site-packages/msgpack/fallback.py

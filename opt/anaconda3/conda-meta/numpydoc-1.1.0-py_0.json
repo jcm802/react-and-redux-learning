@@ -1,0 +1,140 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "sphinx"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/numpydoc-1.1.0-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/numpydoc-1.1.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/numpydoc-1.1.0.dist-info/LICENSE.txt",
+    "lib/python3.8/site-packages/numpydoc-1.1.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/numpydoc-1.1.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/numpydoc-1.1.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/numpydoc-1.1.0.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/numpydoc-1.1.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/numpydoc/__init__.py",
+    "lib/python3.8/site-packages/numpydoc/__main__.py",
+    "lib/python3.8/site-packages/numpydoc/docscrape.py",
+    "lib/python3.8/site-packages/numpydoc/docscrape_sphinx.py",
+    "lib/python3.8/site-packages/numpydoc/numpydoc.py",
+    "lib/python3.8/site-packages/numpydoc/templates/numpydoc_docstring.rst",
+    "lib/python3.8/site-packages/numpydoc/tests/test_docscrape.py",
+    "lib/python3.8/site-packages/numpydoc/tests/test_full.py",
+    "lib/python3.8/site-packages/numpydoc/tests/test_main.py",
+    "lib/python3.8/site-packages/numpydoc/tests/test_numpydoc.py",
+    "lib/python3.8/site-packages/numpydoc/tests/test_validate.py",
+    "lib/python3.8/site-packages/numpydoc/tests/test_xref.py",
+    "lib/python3.8/site-packages/numpydoc/tests/tinybuild/Makefile",
+    "lib/python3.8/site-packages/numpydoc/tests/tinybuild/conf.py",
+    "lib/python3.8/site-packages/numpydoc/tests/tinybuild/index.rst",
+    "lib/python3.8/site-packages/numpydoc/tests/tinybuild/numpydoc_test_module.py",
+    "lib/python3.8/site-packages/numpydoc/validate.py",
+    "lib/python3.8/site-packages/numpydoc/xref.py",
+    "lib/python3.8/site-packages/numpydoc/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/numpydoc/__pycache__/__main__.cpython-38.pyc",
+    "lib/python3.8/site-packages/numpydoc/__pycache__/docscrape.cpython-38.pyc",
+    "lib/python3.8/site-packages/numpydoc/__pycache__/docscrape_sphinx.cpython-38.pyc",
+    "lib/python3.8/site-packages/numpydoc/__pycache__/numpydoc.cpython-38.pyc",
+    "lib/python3.8/site-packages/numpydoc/tests/__pycache__/test_docscrape.cpython-38.pyc",
+    "lib/python3.8/site-packages/numpydoc/tests/__pycache__/test_full.cpython-38.pyc",
+    "lib/python3.8/site-packages/numpydoc/tests/__pycache__/test_main.cpython-38.pyc",
+    "lib/python3.8/site-packages/numpydoc/tests/__pycache__/test_numpydoc.cpython-38.pyc",
+    "lib/python3.8/site-packages/numpydoc/tests/__pycache__/test_validate.cpython-38.pyc",
+    "lib/python3.8/site-packages/numpydoc/tests/__pycache__/test_xref.cpython-38.pyc",
+    "lib/python3.8/site-packages/numpydoc/tests/tinybuild/__pycache__/conf.cpython-38.pyc",
+    "lib/python3.8/site-packages/numpydoc/tests/tinybuild/__pycache__/numpydoc_test_module.cpython-38.pyc",
+    "lib/python3.8/site-packages/numpydoc/__pycache__/validate.cpython-38.pyc",
+    "lib/python3.8/site-packages/numpydoc/__pycache__/xref.cpython-38.pyc"
+  ],
+  "fn": "numpydoc-1.1.0-py_0.conda",
+  "legacy_bz2_md5": "69f9085b7bbe4067163fcb338444f61d",
+  "legacy_bz2_size": 42249,
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/numpydoc-1.1.0-py_0",
+    "type": 1
+  },
+  "md5": "6303edcb01e121e5126185b4ac60800a",
+  "name": "numpydoc",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/numpydoc-1.1.0-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/numpydoc/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/numpydoc/__pycache__/__main__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/numpydoc/__pycache__/docscrape.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/numpydoc/__pycache__/docscrape_sphinx.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/numpydoc/__pycache__/numpydoc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/numpydoc/tests/__pycache__/test_docscrape.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/numpydoc/tests/__pycache__/test_full.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/numpydoc/tests/__pycache__/test_main.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/numpydoc/tests/__pycache__/test_numpydoc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/numpydoc/tests/__pycache__/test_validate.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/numpydoc/tests/__pycache__/test_xref.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/numpydoc/tests/tinybuild/__pycache__/conf.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/numpydoc/tests/tinybuild/__pycache__/numpydoc_test_module.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/numpydoc/__pycache__/validate.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/numpydoc/__pycache__/xref.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "numpydoc==1.1.0=py_0",
+  "sha256": "36680fd241758e00e962a8c85044153d14cd71ac6c7b6b2d58a27ccdaf311dc5",
+  "size": 42562,
+  "subdir": "noarch",
+  "timestamp": 1594166787672,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/numpydoc-1.1.0-py_0.conda",
+  "version": "1.1.0"
+}

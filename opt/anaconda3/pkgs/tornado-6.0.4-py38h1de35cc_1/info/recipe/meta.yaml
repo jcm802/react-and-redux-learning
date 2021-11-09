@@ -1,0 +1,85 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/5ea9848c-5d58-4f74-4a05-54d514b2e390/volume/rsync-recipes/tornado-6.0.4-python_3.8-on-osx, last modified Thu Mar 12 10:20:07 2020
+# ------------------------------------------------
+
+package:
+    name: tornado
+    version: 6.0.4
+source:
+    sha256: 0fe2d45ba43b00a41cd73f8be321a44936dc1aba233dee979f17a042b83eb6dc
+    url: https://pypi.io/packages/source/t/tornado/tornado-6.0.4.tar.gz
+build:
+    number: '1'
+    script: /opt/concourse/worker/volumes/live/5ea9848c-5d58-4f74-4a05-54d514b2e390/volume/tornado_1584027306380/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/bin/python
+        -m pip install . --no-deps -vv
+    string: py38h1de35cc_1
+requirements:
+    build:
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_18
+        - compiler-rt 4.0.1 hcfea43d_1
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+    host:
+        - ca-certificates 2020.1.1 0
+        - certifi 2019.11.28 py38_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20181209 hb402a30_0
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.2 h0a44026_0
+        - openssl 1.1.1d h1de35cc_4
+        - pip 20.0.2 py38_1
+        - python 3.8.1 h359304d_1
+        - readline 7.0 h1de35cc_5
+        - setuptools 46.0.0 py38_0
+        - sqlite 3.31.1 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - python >=3.8,<3.9.0a0
+test:
+    commands:
+        - pip check
+    imports:
+        - tornado
+        - tornado.gen
+        - tornado.netutil
+        - tornado.platform
+        - tornado.test
+    requires:
+        - pip
+about:
+    description: 'Tornado is a Python web framework and asynchronous networking library.
+
+        By using non-blocking network I/O, Tornado can scale to tens of thousands
+
+        of open connections, making it ideal for long polling, WebSockets, and
+
+        other applications that require a long-lived connection to each user.
+
+        '
+    dev_url: https://github.com/tornadoweb/tornado
+    doc_source_url: https://github.com/tornadoweb/tornado/blob/stable/docs/index.rst
+    doc_url: http://www.tornadoweb.org/en/stable/
+    home: http://www.tornadoweb.org/
+    license: Apache-2.0
+    license_family: Apache
+    license_file: LICENSE
+    license_url: http://www.apache.org/licenses/LICENSE-2.0
+    summary: A Python web framework and asynchronous networking library, originally
+        developed at FriendFeed.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - ocefpaf
+        - pelson

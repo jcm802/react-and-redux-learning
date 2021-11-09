@@ -1,0 +1,5 @@
+{
+  "dbus": "1",
+  "cxx_compiler": "clangxx",
+  "c_compiler": "clang"
+}

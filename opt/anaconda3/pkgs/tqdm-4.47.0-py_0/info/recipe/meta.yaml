@@ -1,0 +1,63 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/tqdm-4.47.0-on-linux_64, last modified Mon Jun 29 15:58:06 2020
+# ------------------------------------------------
+
+package:
+    name: tqdm
+    version: 4.47.0
+source:
+    sha256: 63ef7a6d3eb39f80d6b36e4867566b3d8e5f1fe3d6cb50c5e9ede2b3198ba7b7
+    url: https://pypi.io/packages/source/t/tqdm/tqdm-4.47.0.tar.gz
+build:
+    entry_points:
+        - tqdm = tqdm.cli:main
+    noarch: python
+    number: '0'
+    script: /tmp/build/80754af9/tqdm_1593446365756/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin/python
+        -m pip install . --no-deps -vv
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.6.20 py36_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20191231 h7b6447c_0
+        - libffi 3.3 he6710b0_1
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1g h7b6447c_0
+        - pip 20.1.1 py36_1
+        - python 3.6.10 h7579374_2
+        - readline 8.0 h7b6447c_0
+        - setuptools 47.3.1 py36_0
+        - sqlite 3.32.3 h62c20be_0
+        - tk 8.6.10 hbc83047_0
+        - wheel 0.34.2 py36_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python
+test:
+    commands:
+        - tqdm --help
+        - tqdm -v
+    imports:
+        - tqdm
+about:
+    dev_url: https://github.com/tqdm/tqdm
+    doc_url: https://github.com/tqdm/tqdm
+    home: https://pypi.python.org/pypi/tqdm
+    license: MPLv2.0, MIT
+    license_family: MIT
+    license_file: LICENCE
+    summary: A Fast, Extensible Progress Meter
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - casperdcl
+        - ericdill
+        - pmlandwehr

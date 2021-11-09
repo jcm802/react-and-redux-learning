@@ -1,0 +1,16 @@
+site-packages/itsdangerous-1.1.0.dist-info/INSTALLER
+site-packages/itsdangerous-1.1.0.dist-info/LICENSE.rst
+site-packages/itsdangerous-1.1.0.dist-info/METADATA
+site-packages/itsdangerous-1.1.0.dist-info/RECORD
+site-packages/itsdangerous-1.1.0.dist-info/WHEEL
+site-packages/itsdangerous-1.1.0.dist-info/top_level.txt
+site-packages/itsdangerous/__init__.py
+site-packages/itsdangerous/_compat.py
+site-packages/itsdangerous/_json.py
+site-packages/itsdangerous/encoding.py
+site-packages/itsdangerous/exc.py
+site-packages/itsdangerous/jws.py
+site-packages/itsdangerous/serializer.py
+site-packages/itsdangerous/signer.py
+site-packages/itsdangerous/timed.py
+site-packages/itsdangerous/url_safe.py

@@ -1,0 +1,26 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "decorator",
+    "ipython_genutils",
+    "python >=3.8,<3.9.0a0",
+    "six"
+  ],
+  "features": "",
+  "fn": "traitlets-4.3.3-py38_0.conda",
+  "legacy_bz2_md5": "6f5b07373bcc241e38d4852dd9387098",
+  "legacy_bz2_size": 137923,
+  "license": "BSD-3-Clause",
+  "md5": "a33672eec5f9f020cfc5a8ffaec4b5cc",
+  "name": "traitlets",
+  "sha256": "b7ac393eace0cf780ed86022e214299163a39bc290f76539ce2c7169d57b1998",
+  "size": 141276,
+  "subdir": "osx-64",
+  "timestamp": 1573555026418,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/traitlets-4.3.3-py38_0.conda",
+  "version": "4.3.3"
+}

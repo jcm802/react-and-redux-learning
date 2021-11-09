@@ -1,0 +1,15 @@
+{
+  "c_compiler": "clang",
+  "readline": "8.0",
+  "CONDA_BUILD_SYSROOT": "/opt/MacOSX10.10.sdk",
+  "openssl": "1.1.1",
+  "cxx_compiler_version": "10",
+  "zlib": "1.2",
+  "sqlite": "3",
+  "libffi": "3.3",
+  "xz": "5",
+  "c_compiler_version": "10",
+  "cxx_compiler": "clangxx",
+  "tk": "8.6",
+  "bzip2": "1.0"
+}

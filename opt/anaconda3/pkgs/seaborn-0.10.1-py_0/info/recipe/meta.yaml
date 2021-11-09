@@ -1,0 +1,73 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/seaborn-0.10.1-on-linux_canary, last modified Sun May  3 02:32:37 2020
+# ------------------------------------------------
+
+package:
+    name: seaborn
+    version: 0.10.1
+source:
+    fn: seaborn-0.10.1.tar.gz
+    sha256: 2d1a0c9d6bd1bc3cadb0364b8f06540f51322a670cf8438d0fde1c1c7317adc0
+    url: https://pypi.io/packages/source/s/seaborn/seaborn-0.10.1.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py_0
+requirements:
+    build:
+        - libdrm-cos6-x86_64 2.4.65 hd39d64f_0
+        - libx11-common-cos6-x86_64 1.6.4 h023ea50_0
+        - libx11-cos6-x86_64 1.6.4 h64a1553_0
+        - mesa-libgl-cos6-x86_64 11.0.7 h045e36e_0
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.4.5.1 py38_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1g h7b6447c_0
+        - pip 20.0.2 py38_1
+        - python 3.8.2 hcf32534_0
+        - readline 8.0 h7b6447c_0
+        - setuptools 46.1.3 py38_0
+        - sqlite 3.31.1 h62c20be_1
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - matplotlib >=2.1.2
+        - numpy >=1.13.3
+        - pandas >=0.22.0
+        - python >=3.6
+        - scipy >=1.0.1
+test:
+    imports:
+        - seaborn
+about:
+    description: 'Seaborn is a Python visualization library based on matplotlib. It
+
+        provides a high-level interface for drawing attractive statistical graphics.
+
+        '
+    dev_url: https://github.com/mwaskom/seaborn
+    doc_source_url: https://github.com/mwaskom/seaborn/blob/master/doc/index.rst
+    doc_url: https://seaborn.pydata.org
+    home: https://seaborn.pydata.org
+    license: BSD 3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: Statistical data visualization
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - croth1
+        - msarahan
+        - r-jain1

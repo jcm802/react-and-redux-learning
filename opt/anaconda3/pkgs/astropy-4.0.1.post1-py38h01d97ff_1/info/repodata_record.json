@@ -1,0 +1,24 @@
+{
+  "build": "py38h01d97ff_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.16.6,<2.0a0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "astropy-4.0.1.post1-py38h01d97ff_1.conda",
+  "legacy_bz2_md5": "3cced2ca41f6539dee02b1483635a26b",
+  "legacy_bz2_size": 7849008,
+  "license": "BSD-3-Clause",
+  "md5": "ff6793376fd86f7e41a39439cef71174",
+  "name": "astropy",
+  "sha256": "40725429d418b6afb94f6a50b61a8bc4cf05ae9551268c3a05ca20c9b5a834fc",
+  "size": 6299080,
+  "subdir": "osx-64",
+  "timestamp": 1589560866008,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/astropy-4.0.1.post1-py38h01d97ff_1.conda",
+  "version": "4.0.1.post1"
+}

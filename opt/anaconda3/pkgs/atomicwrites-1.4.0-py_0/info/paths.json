@@ -1,0 +1,47 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/atomicwrites-1.4.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/atomicwrites-1.4.0.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "878329f0bd878ad015129ce8bda82f481e86ec2e80831e909c0d67171d922e73",
+      "size_in_bytes": 1069
+    },
+    {
+      "_path": "site-packages/atomicwrites-1.4.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "0b4f3cf4b51ab9235b460ccec0b8dc23e44553e43b20202f3cfc5293fa453784",
+      "size_in_bytes": 5585
+    },
+    {
+      "_path": "site-packages/atomicwrites-1.4.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "f330d8bd5a7b9b0328669acc6d4bfdb3cb4143e6ce5549cad49e6361a63b3753",
+      "size_in_bytes": 644
+    },
+    {
+      "_path": "site-packages/atomicwrites-1.4.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "site-packages/atomicwrites-1.4.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "92ceb8cca55492b97666bacfd38e82b32b5795219ff202c6f887285e93727a87",
+      "size_in_bytes": 13
+    },
+    {
+      "_path": "site-packages/atomicwrites/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "37f2c58cc3b49d0f4d5ccc86413a1dde6cb83a8752097f8552c847513855dbfe",
+      "size_in_bytes": 6794
+    }
+  ],
+  "paths_version": 1
+}

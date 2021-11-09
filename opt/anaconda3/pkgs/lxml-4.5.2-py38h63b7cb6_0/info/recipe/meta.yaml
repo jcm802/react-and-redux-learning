@@ -1,0 +1,89 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/d42457f0-83be-4fb6-6c8d-8f9319a861b0/volume/rsync-recipes/lxml-4.5.2-python_3.8-on-osx, last modified Wed Jul 15 10:24:44 2020
+# ------------------------------------------------
+
+package:
+    name: lxml
+    version: 4.5.2
+source:
+    sha256: cdc13a1682b2a6241080745b1953719e7fe0850b40a5c71ca574f090a1391df6
+    url: https://pypi.io/packages/source/l/lxml/lxml-4.5.2.tar.gz
+build:
+    number: '0'
+    script: /opt/concourse/worker/volumes/live/d42457f0-83be-4fb6-6c8d-8f9319a861b0/volume/lxml_1594826854945/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_/bin/python
+        -m pip install . -vv
+    string: py38h63b7cb6_0
+requirements:
+    build:
+        - cctools 927.0.2 h5ba7a2e_4
+        - clang 10.0.0 default_hf57f61e_0
+        - clang_osx-64 10.0.0 h05bbb7f_1
+        - clangxx 10.0.0 default_hf57f61e_0
+        - compiler-rt 10.0.0 h47ead80_0
+        - compiler-rt_osx-64 10.0.0 hbcc88fd_0
+        - ld64 450.3 h3c32e8a_4
+        - libcxx 10.0.0 1
+        - libllvm10 10.0.0 h21ff451_1
+        - llvm-openmp 10.0.0 h28b9765_0
+        - llvm-tools 10.0.0 h21ff451_1
+        - tapi 1000.10.8 ha1b3eb9_0
+    host:
+        - ca-certificates 2020.6.24 0
+        - certifi 2020.6.20 py38_0
+        - cython 0.29.20 py38hb1e8313_0
+        - icu 58.2 h0a44026_3
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 h1de35cc_1
+        - libffi 3.3 hb1e8313_2
+        - libiconv 1.16 h1de35cc_0
+        - libxml2 2.9.10 h3b9e6c8_1
+        - libxslt 1.1.34 h83b36ba_0
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - pip 20.1.1 py38_1
+        - python 3.8.3 h26836e1_2
+        - readline 8.0 h1de35cc_0
+        - setuptools 49.1.0 py38_0
+        - sqlite 3.32.3 hffcf06c_0
+        - tk 8.6.10 hb0a8c7a_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - libxml2 >=2.9.10,<2.10.0a0
+        - libxslt >=1.1.34,<2.0a0
+        - python >=3.8,<3.9.0a0
+test:
+    commands:
+        - pip check
+    imports:
+        - lxml
+        - lxml.etree
+        - lxml.objectify
+    requires:
+        - pip
+about:
+    description: 'The lxml XML toolkit is a Pythonic binding for the C libraries libxml2
+        and
+
+        libxslt. It is unique in that it combines the speed and XML feature
+
+        completeness of these libraries with the simplicity of a native Python API,
+
+        mostly compatible but superior to the well-known ElementTree API.
+
+        '
+    dev_url: https://github.com/lxml/lxml
+    doc_source_url: https://github.com/lxml/lxml/tree/master/doc
+    doc_url: http://lxml.de/index.html#documentation
+    home: http://lxml.de/
+    license: BSD-3-Clause and GPL-2.0-only and ZPL-2.0 and LicenseRef-ElementTree
+    license_file: LICENSES.txt
+    summary: Pythonic binding for the C libraries libxml2 and libxslt.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jjhelmus
+        - ocefpaf

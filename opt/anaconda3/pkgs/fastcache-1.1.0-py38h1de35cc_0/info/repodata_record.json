@@ -1,0 +1,24 @@
+{
+  "build": "py38h1de35cc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "fastcache-1.1.0-py38h1de35cc_0.conda",
+  "legacy_bz2_md5": "63eabaf8e69f228f0edcb5f682ea4991",
+  "legacy_bz2_size": 36375,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "720bd55f462c25c13a1803ee7882cb2c",
+  "name": "fastcache",
+  "sha256": "b59e5ab652c752229b6db353ef497fb45024d27865415db7a8eb1bfb1a7f6a72",
+  "size": 35579,
+  "subdir": "osx-64",
+  "timestamp": 1572878527446,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/fastcache-1.1.0-py38h1de35cc_0.conda",
+  "version": "1.1.0"
+}

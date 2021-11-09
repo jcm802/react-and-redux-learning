@@ -1,0 +1,43 @@
+{% set version = "1.0.3" %}
+
+package:
+  name: sphinxcontrib-htmlhelp
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/s/sphinxcontrib-htmlhelp/sphinxcontrib-htmlhelp-{{ version }}.tar.gz
+  sha256: e8f5bb7e31b2dbb25b9cc435c8ab7a79787ebf7f906155729338f3156d93659b
+
+build:
+  number: 0
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+
+requirements:
+  host:
+    - python >=3.5
+    - pip
+  run:
+    - python >=3.5
+
+test:
+  requires:
+    - pip
+    # This is a circular dependency b/c sphinx depends on this package now :-/
+    - sphinx >=2
+  commands:
+    - pip check
+  imports:
+    - sphinxcontrib
+    - sphinxcontrib.htmlhelp
+
+about:
+  home: http://sphinx-doc.org/
+  license: BSD-2-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: sphinxcontrib-htmlhelp is a sphinx extension which ...
+
+extra:
+  recipe-maintainers:
+    - ocefpaf

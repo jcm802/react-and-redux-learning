@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "py38_0",
+  "build_number": 0,
+  "depends": [
+    "appscript >=1.0.1",
+    "psutil >=2.0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "license": "3-clause BSD",
+  "license_family": "BSD",
+  "name": "xlwings",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1594237352749,
+  "version": "0.19.5"
+}

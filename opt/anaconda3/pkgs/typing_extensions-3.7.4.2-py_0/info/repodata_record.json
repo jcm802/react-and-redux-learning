@@ -1,0 +1,26 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.5"
+  ],
+  "features": "",
+  "fn": "typing_extensions-3.7.4.2-py_0.conda",
+  "legacy_bz2_md5": "1d5846e57a2f77b7119d338e54dc1a92",
+  "legacy_bz2_size": 29246,
+  "license": "PSF-2.0",
+  "license_family": "PSF",
+  "md5": "66298bbae2d575a32f246102be6ce93b",
+  "name": "typing_extensions",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "87147d706cefad667af28a8b38c28d80f9c0d3507cf5f379078fe4d230918037",
+  "size": 28056,
+  "subdir": "noarch",
+  "timestamp": 1592847914794,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/typing_extensions-3.7.4.2-py_0.conda",
+  "version": "3.7.4.2"
+}

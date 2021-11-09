@@ -1,0 +1,27 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "locket",
+    "python >=3.5",
+    "toolz"
+  ],
+  "features": "",
+  "fn": "partd-1.1.0-py_0.conda",
+  "legacy_bz2_md5": "7287e65b5f31bb1b7fc75c8e46f010ee",
+  "legacy_bz2_size": 20606,
+  "license": "BSD 3-Clause",
+  "md5": "fa10a0623b027cd5b075d6d14c45e778",
+  "name": "partd",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "786e9610626c5e9dfc24c33b7f97a84c9264d3d48348dc83a2448df992583887",
+  "size": 20530,
+  "subdir": "noarch",
+  "timestamp": 1574700037855,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/partd-1.1.0-py_0.conda",
+  "version": "1.1.0"
+}

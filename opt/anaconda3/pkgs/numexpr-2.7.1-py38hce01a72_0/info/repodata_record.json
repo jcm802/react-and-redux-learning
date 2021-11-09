@@ -1,0 +1,28 @@
+{
+  "build": "py38hce01a72_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "blas 1.0 mkl",
+    "libcxx >=4.0.1",
+    "mkl >=2019.4,<2020.0a0",
+    "mkl-service >=2,<3.0a0",
+    "numpy >=1.14.6,<2.0a0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "numexpr-2.7.1-py38hce01a72_0.conda",
+  "legacy_bz2_md5": "fa655bc6cd3014010c80019281901be5",
+  "legacy_bz2_size": 135802,
+  "license": "MIT",
+  "md5": "4f89c5ba6da4a0fb0a292a5a47d192c2",
+  "name": "numexpr",
+  "sha256": "d9720e16c4c6a2ac42971e86c28ee52c37cbb69aa4e654bded483f34b24455c1",
+  "size": 124875,
+  "subdir": "osx-64",
+  "timestamp": 1580839514244,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/numexpr-2.7.1-py38hce01a72_0.conda",
+  "version": "2.7.1"
+}

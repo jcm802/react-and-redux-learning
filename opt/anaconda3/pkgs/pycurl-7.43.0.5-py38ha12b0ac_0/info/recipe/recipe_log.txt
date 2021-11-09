@@ -1,0 +1,207 @@
+commit 55a8bbd7548957e2f8abb6a90bbfcd28ab9dcc79
+Merge: 9eb4aed 9e36403
+Author: Chris Burr <chrisburr@users.noreply.github.com>
+Date:   Sun Feb 2 01:01:50 2020 +0100
+
+    Merge pull request #8 from regro-cf-autotick-bot/bot-pr_arch
+    
+    Arch Migrator
+
+commit 9e364030f39f80faa0fb5d966fb52956d3653ff4
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Feb 1 16:17:04 2020 +0000
+
+    migration: ArchRebuild
+
+commit 9eb4aed6662cd607260e9ce547e9783601e09de7
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Thu Jan 30 00:26:51 2020 -0500
+
+    [bot-automerge] pycurl v7.43.0.5
+    
+    automerged PR by regro-cf-autotick-bot-action
+
+commit a332594f0f24d8f332eff0b86a2c6b103c50706c
+Merge: 139d9cc 5eb9cb7
+Author: Chris Burr <chrisburr@users.noreply.github.com>
+Date:   Tue Jan 28 22:14:03 2020 +0100
+
+    Merge pull request #6 from conda-forge-linter/conda_forge_admin_5
+    
+    [ci skip] ***NO_CI*** adding bot automerge
+
+commit 5eb9cb710b3a342ca01059e40e7b4078e60039ff
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Jan 28 20:45:49 2020 +0000
+
+    [ci skip] ***NO_CI*** added bot automerge
+
+commit 139d9ccb0bd82fbf5448a7f6bc37da8c85ed3230
+Merge: 70077c3 5cbce17
+Author: Chris Burr <chrisburr@users.noreply.github.com>
+Date:   Wed Jan 15 07:39:20 2020 +0100
+
+    Merge pull request #4 from regro-cf-autotick-bot/7.43.0.4
+    
+    pycurl v7.43.0.4
+
+commit 5cbce17afcaa700939b0c277665f75cd1334a685
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jan 15 06:14:18 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2020.01.10
+
+commit b9cc44a96c23f688fa79abf65ee6c5415295e524
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jan 15 06:13:45 2020 +0000
+
+    updated v7.43.0.4
+
+commit 70077c30df2261966bb3b1ef39c5bfaf3642e8f7
+Merge: 6f3b19f 0ef50cc
+Author: Chris Burr <chrisburr@users.noreply.github.com>
+Date:   Sun Nov 3 08:23:40 2019 +1030
+
+    Merge pull request #3 from regro-cf-autotick-bot/rebuild-python3801
+    
+    Rebuild for python38
+
+commit 0ef50ccb710fb5e741befe958c297aa7a437610e
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Nov 2 21:27:38 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.10, conda-smithy 3.6.1, and conda-forge-pinning 2019.11.01
+
+commit d495fd2add96c06904f683f71b6156892894e8e4
+Author: Chris Burr <chrisburr@users.noreply.github.com>
+Date:   Sun Nov 3 07:16:09 2019 +1030
+
+    Update conda-forge.yml
+
+commit 6d2e6ad19e59f2fdb8e3de0865020a4f6daca3a7
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Nov 2 12:16:06 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.10, conda-smithy 3.6.1, and conda-forge-pinning 2019.11.01
+
+commit 92a5eb65d7d54a4f88485042ff702c4061c4e84d
+Author: Chris Burr <chrisburr@users.noreply.github.com>
+Date:   Sat Nov 2 22:44:40 2019 +1030
+
+    Update conda-forge.yml
+
+commit 42fac725ce6d3c8fc7eff112b505256c297df08a
+Author: Chris Burr <chrisburr@users.noreply.github.com>
+Date:   Sat Nov 2 16:16:48 2019 +1030
+
+    Update bld.bat
+
+commit fe9af81bb36b6d78fddf24e78022a84324398eab
+Author: Chris Burr <chrisburr@users.noreply.github.com>
+Date:   Sat Nov 2 14:36:25 2019 +1030
+
+    Update bld.bat
+
+commit 7921e49327556ff1e8dadb3a13739f62d1fd2e6e
+Author: Chris Burr <chrisburr@users.noreply.github.com>
+Date:   Sat Nov 2 14:26:31 2019 +1030
+
+    Update bld.bat
+
+commit 08bd7ae86cee58d8d02a801b22db0975a5a64cfa
+Author: Chris Burr <chrisburr@users.noreply.github.com>
+Date:   Sat Nov 2 14:14:03 2019 +1030
+
+    Add debug output
+
+commit 3319915632254feed5ff638a1a4d22eeb4988bda
+Author: Chris Burr <chrisburr@users.noreply.github.com>
+Date:   Sat Nov 2 05:39:53 2019 +1030
+
+    Update meta.yaml
+
+commit a6017f7e91beb5e1ad6b634260b01a8b8aaaca64
+Author: Chris Burr <chrisburr@users.noreply.github.com>
+Date:   Sat Nov 2 04:45:03 2019 +1030
+
+    Add vs2015_runtime to runtime dependences
+
+commit c5ed56e2c313c9d33c66345eda787ee965e53538
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Nov 1 16:27:58 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.10, conda-smithy 3.6.0, and conda-forge-pinning 2019.11.01
+
+commit 969eef1dfd2deb118d49dfa9ff1042cbe678a65e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Nov 1 16:27:40 2019 +0000
+
+    bump build number
+
+commit 6f3b19f65df2e564b53478b1c55a31f4426af348
+Merge: d9c6a15 23ba2f2
+Author: Chris Burr <chrisburr@users.noreply.github.com>
+Date:   Thu Oct 10 17:05:23 2019 +0200
+
+    Merge pull request #2 from regro-cf-autotick-bot/7.43.0.3
+    
+    pycurl v7.43.0.3
+
+commit 23ba2f2b0f3c1f250553473937332f790bc8caf9
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Oct 10 14:04:19 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.5.0, and conda-forge-pinning 2019.10.08
+
+commit 54619a917f06d8bb722ecea47e5bbceb4dbca76f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Oct 10 14:04:02 2019 +0000
+
+    updated v7.43.0.3
+
+commit d9c6a15e4c3855fb1cb9fb103658f481a64c1f9f
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 20:20:19 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit bacb574fbad0f3ce5a33982e7c6c120cadb67d1f
+Merge: d198fc6 ef48b45
+Author: Chris Burr <chrisburr@users.noreply.github.com>
+Date:   Sun Jun 2 22:11:42 2019 +0100
+
+    Merge pull request #1 from jmreicha/multiarch
+    
+    Add multiarch builds
+
+commit ef48b457f3f02c6655c023ea8844e162e673436c
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun May 26 03:14:45 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.4, and conda-forge-pinning 2019.05.25
+
+commit c6d16da21dda220447cddc85041988d0da9975f9
+Author: Josh Reichardt <josh.reichardt@gmail.com>
+Date:   Sat May 25 19:59:04 2019 -0700
+
+    Bump version
+
+commit 9145efac721383adb76f76a1cdf7d7bd089b17cc
+Author: Josh Reichardt <josh.reichardt@gmail.com>
+Date:   Sat May 25 19:56:33 2019 -0700
+
+    Add multiarch support
+
+commit d198fc61394b35679123831440102a8860f4e370
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon May 6 12:48:19 2019 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 05fcce2d357c85493e44b6b98dc320c8b1cb19bc
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon May 6 12:40:51 2019 +0000
+
+    Initial feedstock commit with conda-smithy 3.3.4.

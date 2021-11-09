@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "h9066e36_1",
+  "build_number": 1,
+  "depends": [
+    "gmp >=6.1.2"
+  ],
+  "license": "LGPL-3.0-only",
+  "name": "mpfr",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1593117609730,
+  "version": "4.0.2"
+}

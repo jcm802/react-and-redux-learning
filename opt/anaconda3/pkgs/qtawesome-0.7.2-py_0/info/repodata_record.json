@@ -1,0 +1,27 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "qtpy",
+    "six"
+  ],
+  "features": "",
+  "fn": "qtawesome-0.7.2-py_0.conda",
+  "legacy_bz2_md5": "ac1c0b5d520858abfe85c6a5d8b51c36",
+  "legacy_bz2_size": 826044,
+  "license": "MIT",
+  "md5": "1db103f0268b5fe0d3043e78f6338075",
+  "name": "qtawesome",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "83cb765f412459fd4853f9adbc1603fe7f578db04acab23966a9efa5602180f6",
+  "size": 740909,
+  "subdir": "noarch",
+  "timestamp": 1592328360667,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/qtawesome-0.7.2-py_0.conda",
+  "version": "0.7.2"
+}

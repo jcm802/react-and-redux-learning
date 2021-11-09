@@ -1,0 +1,23 @@
+{
+  "build": "py38haf1e3a3_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "appscript-1.1.1-py38haf1e3a3_0.conda",
+  "legacy_bz2_md5": "6f2dc886bd70dc5c8dbdb5d1f6881d41",
+  "legacy_bz2_size": 137946,
+  "license": "Public Domain",
+  "md5": "c40c3f23eeeaa5261bdc7e5d34a40dc2",
+  "name": "appscript",
+  "sha256": "9d4756514676078ca64f78bfea11c6102168827658f026bc5e6a244eb9c6d549",
+  "size": 135496,
+  "subdir": "osx-64",
+  "timestamp": 1594840236795,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/appscript-1.1.1-py38haf1e3a3_0.conda",
+  "version": "1.1.1"
+}

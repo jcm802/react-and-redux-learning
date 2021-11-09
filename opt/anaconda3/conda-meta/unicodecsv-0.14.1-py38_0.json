@@ -1,0 +1,49 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/unicodecsv-0.14.1-py38_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/unicodecsv-0.14.1-py3.8.egg-info/PKG-INFO",
+    "lib/python3.8/site-packages/unicodecsv-0.14.1-py3.8.egg-info/SOURCES.txt",
+    "lib/python3.8/site-packages/unicodecsv-0.14.1-py3.8.egg-info/dependency_links.txt",
+    "lib/python3.8/site-packages/unicodecsv-0.14.1-py3.8.egg-info/top_level.txt",
+    "lib/python3.8/site-packages/unicodecsv/__init__.py",
+    "lib/python3.8/site-packages/unicodecsv/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/unicodecsv/__pycache__/py2.cpython-38.pyc",
+    "lib/python3.8/site-packages/unicodecsv/__pycache__/py3.cpython-38.pyc",
+    "lib/python3.8/site-packages/unicodecsv/__pycache__/test.cpython-38.pyc",
+    "lib/python3.8/site-packages/unicodecsv/py2.py",
+    "lib/python3.8/site-packages/unicodecsv/py3.py",
+    "lib/python3.8/site-packages/unicodecsv/test.py"
+  ],
+  "fn": "unicodecsv-0.14.1-py38_0.conda",
+  "legacy_bz2_md5": "bd3a083c75e2ce111a5068318db4ec8a",
+  "legacy_bz2_size": 26670,
+  "license": "BSD",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/unicodecsv-0.14.1-py38_0",
+    "type": 1
+  },
+  "md5": "2cceb2a3d3ebe4190a5a0761ac61c98b",
+  "name": "unicodecsv",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/unicodecsv-0.14.1-py38_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "unicodecsv==0.14.1=py38_0",
+  "sha256": "37824d190dab05412aa9ee2354347806139b6205c546527b3fc190b80d730223",
+  "size": 27758,
+  "subdir": "osx-64",
+  "timestamp": 1573201204075,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/unicodecsv-0.14.1-py38_0.conda",
+  "version": "0.14.1"
+}

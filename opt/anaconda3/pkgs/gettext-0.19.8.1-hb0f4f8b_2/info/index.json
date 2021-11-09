@@ -1,0 +1,12 @@
+{
+  "arch": "x86_64",
+  "build": "hb0f4f8b_2",
+  "build_number": 2,
+  "depends": [],
+  "license": "GPLv2",
+  "name": "gettext",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1505583297042,
+  "version": "0.19.8.1"
+}

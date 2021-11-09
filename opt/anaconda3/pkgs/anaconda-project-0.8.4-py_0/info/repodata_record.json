@@ -1,0 +1,30 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "anaconda-client",
+    "python",
+    "requests",
+    "ruamel_yaml",
+    "tornado >=4.2"
+  ],
+  "features": "",
+  "fn": "anaconda-project-0.8.4-py_0.conda",
+  "legacy_bz2_md5": "3d8410f0feee830d145f263ee8103329",
+  "legacy_bz2_size": 220625,
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "a567fe10e4aa89b12676e0065752dd8f",
+  "name": "anaconda-project",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "53cc53bf347d0cef433973012e53442078e307849b5c22b075e1eaf3524e94bb",
+  "size": 214825,
+  "subdir": "noarch",
+  "timestamp": 1571960110792,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/anaconda-project-0.8.4-py_0.conda",
+  "version": "0.8.4"
+}

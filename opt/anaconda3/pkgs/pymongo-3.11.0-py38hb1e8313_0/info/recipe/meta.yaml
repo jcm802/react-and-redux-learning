@@ -1,0 +1,74 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/0749982a-3d20-435b-7148-e5148c51e5de/volume/rsync-recipes/pymongo-3.11.0-python_3.8-on-osx, last modified Wed Aug 12 10:11:11 2020
+# ------------------------------------------------
+
+package:
+    name: pymongo
+    version: 3.11.0
+source:
+    fn: pymongo-3.11.0.tar.gz
+    sha256: e45b318c56f5f385635df06685104ae22f3c9977addaa2dad0d1dc94f31f20c7
+    url: https://github.com/mongodb/mongo-python-driver/archive/3.11.0.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    script_env:
+        - TRAVIS
+    string: py38hb1e8313_0
+requirements:
+    build:
+        - cctools 927.0.2 h5ba7a2e_4
+        - clang 10.0.0 default_hf57f61e_0
+        - clang_osx-64 10.0.0 h05bbb7f_1
+        - clangxx 10.0.0 default_hf57f61e_0
+        - clangxx_osx-64 10.0.0 h05bbb7f_1
+        - compiler-rt 10.0.0 h47ead80_0
+        - compiler-rt_osx-64 10.0.0 hbcc88fd_0
+        - ld64 450.3 h3c32e8a_4
+        - libcxx 10.0.0 1
+        - libllvm10 10.0.0 h21ff451_1
+        - llvm-openmp 10.0.0 h28b9765_0
+        - llvm-tools 10.0.0 h21ff451_1
+        - tapi 1000.10.8 ha1b3eb9_0
+    host:
+        - ca-certificates 2020.6.24 0
+        - certifi 2020.6.20 py38_0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 h1de35cc_1
+        - libffi 3.3 hb1e8313_2
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - python 3.8.5 h26836e1_0
+        - readline 8.0 h1de35cc_0
+        - setuptools 49.3.1 py38_0
+        - sqlite 3.32.3 hffcf06c_0
+        - tk 8.6.10 hb0a8c7a_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - libcxx >=10.0.0
+        - python >=3.8,<3.9.0a0
+test:
+    imports:
+        - bson
+        - gridfs
+        - pymongo
+    requires:
+        - mongodb
+        - setuptools
+    source_files:
+        - .
+about:
+    home: https://github.com/mongodb/mongo-python-driver
+    license: Apache 2.0
+    license_file: LICENSE
+    summary: Python driver for MongoDB http://www.mongodb.org
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - CJ-Wright
+        - jakirkham
+        - licode
+        - tacaswell

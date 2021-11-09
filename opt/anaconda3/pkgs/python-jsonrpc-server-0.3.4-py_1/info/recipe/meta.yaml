@@ -1,0 +1,63 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/pull-recipes-python-jsonrpc-server/recipe, last modified Fri Jul 10 16:11:40 2020
+# ------------------------------------------------
+
+package:
+    name: python-jsonrpc-server
+    version: 0.3.4
+source:
+    sha256: c73bf5495c9dd4d2f902755bedeb6da5afe778e0beee82f0e195c4655352fe37
+    url: https://pypi.io/packages/source/p/python-jsonrpc-server/python-jsonrpc-server-0.3.4.tar.gz
+build:
+    noarch: python
+    number: '1'
+    script: /tmp/build/80754af9/python-jsonrpc-server_1594397536060/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/bin/python
+        -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+    string: py_1
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.6.24 0
+        - certifi 2020.6.20 py37_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20191231 h7b6447c_0
+        - libffi 3.3 he6710b0_2
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1g h7b6447c_0
+        - pip 20.1.1 py37_1
+        - python 3.7.7 hcff3b4d_5
+        - readline 8.0 h7b6447c_0
+        - setuptools 47.3.1 py37_0
+        - sqlite 3.32.3 h62c20be_0
+        - tk 8.6.10 hbc83047_0
+        - wheel 0.34.2 py37_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - future
+        - python
+        - ujson <=1.35
+test:
+    commands:
+        - python -m pip check
+    imports:
+        - pyls_jsonrpc
+        - pyls_jsonrpc.dispatchers
+    requires:
+        - pip
+about:
+    dev_url: https://github.com/palantir/python-jsonrpc-server
+    home: https://github.com/palantir/python-jsonrpc-server
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: A Python 2.7 and 3.4+ server implementation of the JSON RPC 2.0 protocol.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - andfoy
+        - ccordoba12

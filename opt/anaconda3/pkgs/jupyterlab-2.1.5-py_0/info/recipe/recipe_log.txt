@@ -1,0 +1,2462 @@
+commit 751c3e80715fcadf7b8a15a03f91cd3d00a10d40
+Author: Nicholas Bollweg <nbollweg@continuum.io>
+Date:   Thu Sep 7 15:07:23 2017 -0400
+
+    add app section
+
+commit ce8be0fb910edffd22cc86c7430acf7907d33970
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Mon Jun 22 19:02:44 2020 -0400
+
+    updated v2.1.5 (#224)
+    
+    Co-authored-by: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+
+commit aec1e5039a590d7e326f63a7ee8a4bf68b119a97
+Author: Simon Li <orpheus+devel@gmail.com>
+Date:   Mon Jun 15 16:44:28 2020 +0100
+
+    Remove jupyter-labhub entrypoint (#223)
+    
+    * Remove jupyter-labhub entrypoint
+    
+    This was removed in JupyterLab 2 https://github.com/jupyterlab/jupyterlab/pull/8000
+    
+    * Bump build number
+
+commit 8a519be3d5652faf7106e51077b3b5910e8cebd5
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Mon Jun 1 07:48:21 2020 -0400
+
+    updated v2.1.4 (#222)
+    
+    Co-authored-by: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+
+commit 5f806845906fc209be4652dcb39347803e96e92d
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Sat May 23 08:14:51 2020 -0400
+
+    jupyterlab v2.1.3 (#220)
+    
+    * updated v2.1.3
+    
+    * MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.3, and conda-forge-pinning 2020.05.20.21.21.18
+    
+    Co-authored-by: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+
+commit 889ef4560a03edea9cc1c2b3bf879a5d5468ff1b
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 07:41:27 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit 320855f593ed1ca9e3436d1575a2a5203f102f9c
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat May 16 14:51:37 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 75e3710dcf38ee18115edd3da573a4aacedf5e19
+Merge: d4dfa17 134ab90
+Author: Saul Shanabrook <s.shanabrook@gmail.com>
+Date:   Mon May 4 10:55:56 2020 -0400
+
+    Merge pull request #218 from regro-cf-autotick-bot/2.1.2_h2e0a5f
+    
+    jupyterlab v2.1.2
+
+commit 134ab90d12c4490d33ed206950524cca1aa57602
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon May 4 14:47:32 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.0, and conda-forge-pinning 2020.05.04.05.46.47
+
+commit 8b4375c6f6aad1a0f63bd18a2c64e6250e25a72d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon May 4 14:47:06 2020 +0000
+
+    updated v2.1.2
+
+commit d4dfa17ceec8ac86cafb2209b168c8e5ffa2a6de
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Fri Apr 24 08:30:13 2020 -0400
+
+    updated v2.1.1 (#215)
+    
+    Co-authored-by: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+
+commit fe7501ded792877ed2404f2feb721007538c21ce
+Author: Jeremy Tuloup <jeremy.tuloup@gmail.com>
+Date:   Fri Apr 24 08:57:29 2020 +0200
+
+    Update to jupyterlab_server >= 1.1.0 (#213)
+    
+    * Update to jupyterlab_server >= 1.1.0
+    
+    * Bump build number
+    
+    * MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.6.17, and conda-forge-pinning 2020.04.22.03.51.02
+    
+    Co-authored-by: conda-forge-linter <github-actions@email.com>
+
+commit d0faf70314ce7ba7cb189d6a79c1c7155c1412eb
+Merge: 291f2f1 0b2fe96
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Mon Apr 6 15:31:04 2020 -0700
+
+    Merge pull request #208 from jasongrout/2.1.0
+    
+    Update to 2.1.0
+
+commit 0b2fe9645a265509d2b20a0601be1b0102e9f818
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Mon Apr 6 15:23:12 2020 -0700
+
+    Update to 2.1.0
+
+commit 291f2f1f54176c09b78d2302311dc443426a86b4
+Merge: a00115d dde1577
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Mon Apr 6 15:05:17 2020 -0700
+
+    Merge pull request #207 from jasongrout/2.0.2
+    
+    2.0.2
+
+commit dde15771ee6bb2e31f54e307c98be625d0138a42
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Mon Apr 6 21:54:07 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.6.15, and conda-forge-pinning 2020.04.07
+
+commit 893618f11d083e7830ee5f9c4e53ee93ca6bea8d
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Mon Apr 6 14:52:47 2020 -0700
+
+    fix lint error
+
+commit 39fa6b329c771ceb043103559ca787b9b5f87d12
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Mon Apr 6 14:51:44 2020 -0700
+
+    Update to 2.0.2
+
+commit ec9432f0513beb1d941b142d08d734d870dd094d
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Mon Apr 6 14:51:39 2020 -0700
+
+    Add Saul to maintainers
+
+commit a00115dd6501a765e06f04411237a080623dcd58
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Fri Mar 6 09:46:30 2020 -0500
+
+    updated v2.0.1 (#204)
+    
+    Co-authored-by: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+
+commit 3848afa39120e9e0b516349250b04d9d22f179f8
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 21:13:03 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 5078107fc0d3bda9daa63e9652faeca5c6b80389
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Sat Feb 29 19:58:07 2020 -0800
+
+    Bump the nodejs requirement to node 12. (#203)
+    
+    See https://github.com/jupyterlab/jupyterlab/issues/7675
+
+commit 620e6c0b19a5a34c8f490931544ec8328062252e
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Fri Feb 28 13:42:42 2020 -0500
+
+    updated v2.0.0 (#202)
+
+commit c07ecbedde59b6a134d4a77e223fa8528dac9039
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Fri Jan 24 12:27:44 2020 -0500
+
+    updated v1.2.6 (#198)
+
+commit 1c9627a1081618973042112e03280d124340dd93
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Thu Jan 16 21:02:28 2020 -0500
+
+    updated v1.2.5 (#197)
+
+commit ff1c5f0eea5f8175976398f7745bac779e093c9b
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Thu Dec 12 17:11:28 2019 -0500
+
+    jupyterlab v1.2.4 (#194)
+    
+    * updated v1.2.4
+    
+    * MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.3, and conda-forge-pinning 2019.12.02
+
+commit d44b14cfc023a2b383f64bcfbe2c1ae920d6543e
+Merge: 149af5b a019578
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Tue Nov 12 13:42:57 2019 -0800
+
+    Merge pull request #192 from regro-cf-autotick-bot/1.2.3
+    
+    jupyterlab v1.2.3
+
+commit a019578191b1609219136c7683d76005f6cb0ff6
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Nov 12 21:22:34 2019 +0000
+
+    updated v1.2.3
+
+commit 149af5bc26d47055d52384dd3c7ab0a93984859f
+Merge: b1b3c71 7fd4b88
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Fri Nov 8 07:28:57 2019 -0500
+
+    Merge pull request #191 from regro-cf-autotick-bot/1.2.2
+    
+    jupyterlab v1.2.2
+
+commit 7fd4b8841a986809e41fc259434dfa7817e1e1bb
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Nov 8 12:20:54 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.2, and conda-forge-pinning 2019.11.01
+
+commit 02a50d29f48797dd7d230a47e7615b055349a743
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Nov 8 12:20:38 2019 +0000
+
+    updated v1.2.2
+
+commit b1b3c714858e164ddc30934b57e7b5c3bc1d1154
+Merge: 7d626f9 f446b8a
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Sat Nov 2 13:25:03 2019 -0400
+
+    Merge pull request #188 from jasongrout/1.2.1
+    
+    1.2.1
+
+commit f446b8a376bd7ec3d72921a84ec9b556b4659f50
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Sat Nov 2 13:14:53 2019 -0400
+
+    1.2.1
+
+commit 7d626f904207b837293b2fd72cfe92f9a93ea4d0
+Merge: cb06b0f 8cc767b
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Tue Oct 29 16:12:53 2019 -0700
+
+    Merge pull request #187 from jasongrout/1.2.0
+    
+    1.2.0
+
+commit 8cc767be140fa565b546b4dbccfc9a90ccdab9b5
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Oct 29 23:04:23 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.10, conda-smithy 3.6.0, and conda-forge-pinning 2019.10.28
+
+commit a5e97cf2bb22f0d4e83d91d67d9a4601faef48dd
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Tue Oct 29 16:01:57 2019 -0700
+
+    1.2.0
+
+commit cb06b0f1ce72f8c23c391e0c733f55f8c29cb40f
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Wed Sep 18 19:33:12 2019 -0400
+
+    updated v1.1.4 (#181)
+
+commit b773f7522d70ad31884d5264c1aaa604976beed9
+Merge: 6ec6566 16fdb32
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Tue Sep 10 07:39:13 2019 -0700
+
+    Merge pull request #180 from regro-cf-autotick-bot/1.1.3
+    
+    jupyterlab v1.1.3
+
+commit 16fdb32d8c8a892e593e234f97733b6158897c16
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Sep 10 14:16:58 2019 +0000
+
+    updated v1.1.3
+
+commit 6ec656672cd024e73695f2fafeb8b31bd2f2b17f
+Merge: 80a202f c6ff3e6
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Sat Sep 7 07:53:49 2019 -0700
+
+    Merge pull request #179 from regro-cf-autotick-bot/1.1.2
+    
+    jupyterlab v1.1.2
+
+commit c6ff3e6dafa138dfa019fb4e3e7dcc25119fa586
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Sep 7 14:39:05 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.5, and conda-forge-pinning 2019.08.27
+
+commit 027bad914a7f44a0e99ac636edccdf965eaae016
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Sep 7 14:38:42 2019 +0000
+
+    updated v1.1.2
+
+commit 80a202fa7d4ffdd4a9750c0dd418ed2dfbccbf51
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 18:38:38 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit 1505ff5ea346dc500007591714528fadb2e5d656
+Merge: 3d04ed8 f1cf232
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Thu Aug 29 18:48:49 2019 -0700
+
+    Merge pull request #177 from regro-cf-autotick-bot/1.1.1
+    
+    jupyterlab v1.1.1
+
+commit f1cf232ede7565ba738779514f0e4d6542e83f2c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Aug 30 01:22:37 2019 +0000
+
+    updated v1.1.1
+
+commit 3d04ed845b32a57705d193278ea928771af41e44
+Merge: c4cfaca 1076d28
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Wed Aug 28 16:03:05 2019 -0700
+
+    Merge pull request #176 from jasongrout/110
+    
+    Update to 1.1.0, switch to noarch
+
+commit 1076d2822e69c83901c579bd45f8bcf6cbef17df
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Aug 28 22:49:50 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.08.27
+
+commit 7f69fa7d451bfaac12354cc6a70cbfabdddb61b1
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Wed Aug 28 15:47:55 2019 -0700
+
+    Update to 1.1.0, switch to noarch
+
+commit c4cfaca34452e05b5c128054a7d23ba11405ab93
+Merge: cc57515 2d35cf7
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Wed Aug 28 15:43:02 2019 -0700
+
+    Merge pull request #175 from regro-cf-autotick-bot/1.0.10
+    
+    jupyterlab v1.0.10
+
+commit 2d35cf7e979438af1aa66c38b830f98c3fe24e9b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Aug 28 22:25:22 2019 +0000
+
+    updated v1.0.10
+
+commit cc57515468dce8068d4b91106e6457ca18584d30
+Merge: a144f8a 56a0dbf
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Wed Aug 21 11:38:24 2019 -0700
+
+    Merge pull request #171 from regro-cf-autotick-bot/1.0.9
+    
+    jupyterlab v1.0.9
+
+commit 56a0dbf797f4f6d089926d650dff757c6e4772e4
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Aug 21 18:22:51 2019 +0000
+
+    updated v1.0.9
+
+commit a144f8acfbb7eccf03ffcf884ad0db2e8eac6e6a
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Wed Aug 21 11:51:22 2019 -0400
+
+    jupyterlab v1.0.8 (#170)
+    
+    * updated v1.0.8
+    
+    * add jinja2 dep
+
+commit 35ae6a31eacdcc7cca3b685aa7cbcaa879c6ca5d
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Wed Aug 21 06:45:22 2019 -0400
+
+    updated v1.0.7 (#169)
+
+commit f3cd0cfb2f23f27ac7898275942017eb18121fce
+Merge: 7226ef0 8962699
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Tue Aug 20 12:21:08 2019 -0700
+
+    Merge pull request #168 from fcollonval/fix-jlpm
+    
+    Add entry point for jlpm to fix Windows error
+
+commit 896269931d2161bf4cea25bac4c0d03929a4aecd
+Author: Frederic Collonval <fcollonval@gmail.com>
+Date:   Tue Aug 20 20:14:32 2019 +0200
+
+    Add entry point for jlpm to fix Windows error
+
+commit 7226ef09f27cad73263c49fe03db92a403b2a25b
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Fri Aug 16 21:49:49 2019 -0400
+
+    updated v1.0.6 (#167)
+
+commit 38413500aa7952f06b5ad500f2ac145a2c4e7258
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Fri Aug 9 20:44:25 2019 -0400
+
+    updated v1.0.5 (#165)
+
+commit e57874a0f6c4b12b4a88b78420b16869471bb948
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Fri Jul 26 14:58:42 2019 -0400
+
+    updated v1.0.4 (#164)
+
+commit 479b322ab534f5f685c683448dd59a6bb84f3b89
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Thu Jul 25 19:42:53 2019 -0400
+
+    jupyterlab v1.0.3 (#163)
+    
+    * updated v1.0.3
+    
+    * MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.07.23
+
+commit b3ff3054004f4392812fe2bb25e513683825ff4d
+Merge: bc61e01 8bc26e7
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Tue Jul 9 21:46:45 2019 -0500
+
+    Merge pull request #162 from regro-cf-autotick-bot/1.0.2
+    
+    jupyterlab v1.0.2
+
+commit 8bc26e78fbeb38851d764a881d8faa48364fe67f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jul 10 02:23:46 2019 +0000
+
+    updated v1.0.2
+
+commit bc61e015ce4d880165ed79c14158ba1aa78c105c
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Wed Jul 3 14:22:54 2019 -0400
+
+    jupyterlab v1.0.1 (#158)
+    
+    * updated v1.0.1
+    
+    * Add `tornado` constraint
+    
+    Include the same `tornado` version constraint that is in the `setup.py`
+    for this version.
+
+commit 18bb33371d73a20e06aa5f489a67ba7bf1bf06aa
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Fri Jun 28 18:22:09 2019 -0400
+
+    jupyterlab v1.0.0 (#157)
+    
+    * updated v1.0.0
+    
+    * MNT: Re-rendered with conda-build 3.18.6, conda-smithy 3.4.0, and conda-forge-pinning 2019.06.27
+    
+    * Bump server dep
+
+commit 30b32f847bc7384860a46ec1e56b1be0242bad1c
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Sun May 5 09:56:30 2019 -0400
+
+    updated v0.35.6 (#154)
+
+commit b79930795afd000f82fdc47bd3d25fcaebe27b26
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Sun May 5 08:25:37 2019 -0400
+
+    updated v0.35.6 (#153)
+
+commit 10aba74662f7f7b4ff87812aaef874184677845f
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Thu Apr 25 08:11:59 2019 -0400
+
+    jupyterlab v0.35.5 (#152)
+    
+    * updated v0.35.5
+    
+    * MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.3, and conda-forge-pinning 2019.04.24
+
+commit 9786a41979e4c76480399f6cfc0912a1646de6de
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Sat Nov 3 21:43:26 2018 -0400
+
+    updated v0.35.4 (#149)
+
+commit 70607039fdab660a20674d8e93f6481b73c52d11
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Sun Oct 28 21:31:46 2018 -0400
+
+    updated v0.35.3 (#148)
+
+commit 9adb79c8e2360591c2ae9fe27a6b8b9dbbd3a8cf
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Wed Oct 17 07:01:35 2018 -0400
+
+    jupyterlab v0.35.2 (#147)
+    
+    * updated v0.35.2
+    
+    * MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.16
+
+commit 3aa0c5bf16e6733200c977f16678fe291166ba4e
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Sat Oct 13 22:45:05 2018 -0400
+
+    updated v0.35.1 (#146)
+
+commit c06156e8d69ecbb022a45e1f57849f28a38b1e45
+Merge: 8d2acf9 fc0ac64
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Mon Oct 8 12:38:48 2018 -0700
+
+    Merge pull request #145 from jasongrout/35-1
+    
+    Fix python 3.6 and windows builds.
+
+commit fc0ac642178c8cf04bb28115f8611884ccb2aba1
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Mon Oct 8 09:54:58 2018 -0700
+
+    Fix python 3.6 and windows builds.
+    
+    From @isuruf on the conda-forge gitter channel: https://gitter.im/conda-forge/conda-forge.github.io?at=5bbb8adb271506518dd861b7
+    
+    > python matrix builds are used if you have just - python as a requirement.
+    > - python >= 3.5 means conda-build can use any python version >= 3.5 as a run requirement, but what we actually want is the python version that it built against as the run requirement”
+
+commit 8d2acf95f94cf8776ab215382e864e6919602301
+Merge: 8ac1c3a 5595908
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Fri Oct 5 18:53:02 2018 -0700
+
+    Merge pull request #144 from jasongrout/35
+    
+    Upgrade to 0.35
+
+commit 559590863d35b90610899e426084744a675bec0e
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Fri Oct 5 09:49:02 2018 -0700
+
+    Make sure we don't attempt a build on python 2.7
+
+commit f19e3806e8e9a6f305d802f8fb7593515d8bdfd1
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Fri Oct 5 09:45:01 2018 -0700
+
+    Pull in changes from #110
+
+commit 806079666c1e07c712330b3d7f7378483b99132c
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Fri Oct 5 09:22:56 2018 -0700
+
+    Upgrade to 0.35
+    
+    Also delete the unlink scripts to move towards noarch (see the migration plan at https://github.com/conda-forge/jupyterlab-feedstock/issues/111)
+
+commit 8ac1c3ae71173e04d535901a9fd5ab4b23a9a4a1
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Fri Oct 5 09:16:53 2018 -0400
+
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2 (#141)
+    
+    * bump build number
+    
+    * MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.01
+
+commit e8a2ba039ef34f1bfb3ee8dff734e847188f660b
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Fri Sep 21 23:36:22 2018 -0400
+
+    updated v0.34.12 (#140)
+
+commit bebfeb09bfba86e0a603295d5b6137975fcefe28
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Wed Sep 19 07:53:46 2018 -0400
+
+    updated v0.34.11 (#139)
+
+commit 2ae5e013de68f1360628fa857506315526ac5a59
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Thu Sep 13 06:39:58 2018 -0400
+
+    updated v0.34.10 (#138)
+
+commit 717260f4ac36c180da83279fe71bd3459405a1eb
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Tue Sep 11 05:19:21 2018 -0400
+
+    updated v0.34.9 (#137)
+
+commit b0e9f566eb98afe3eaf3fb26d20c75520e46cc3a
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Sat Sep 8 16:29:42 2018 -0400
+
+    updated v0.34.8 (#136)
+
+commit 6ed7184101a4802f5dc558fd323d163f7b2d250e
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Fri Aug 31 10:21:07 2018 -0400
+
+    updated v0.34.7 (#135)
+
+commit 4d0bc6e4badc2a4dc4b1046a5f05e769a5359973
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Thu Aug 30 05:40:26 2018 -0400
+
+    updated v0.34.6 (#134)
+
+commit 91da36170b430ad7214ff057f40c0de5a9cd80e6
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Wed Aug 29 06:30:13 2018 -0400
+
+    updated v0.34.5 (#133)
+
+commit c593c71f01f8d27c99a9727d760bd61a811fe948
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Tue Aug 28 06:28:51 2018 -0400
+
+    updated v0.34.4 (#132)
+
+commit 22afe335a983bee175dff87099eb69f882b36f2c
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Mon Aug 27 05:15:40 2018 -0400
+
+    updated v0.34.3 (#131)
+
+commit 8494bc57938d58e609964deb8528b0dc66ad5f0f
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Fri Aug 24 11:47:55 2018 -0400
+
+    updated v0.34.2 (#130)
+
+commit 0db8ae66668a899824bd58ea7196f4db0172464f
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Tue Aug 21 17:54:32 2018 -0400
+
+    jupyterlab v0.34.1 (#129)
+    
+    * updated v0.34.1
+    
+    * MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.08.21
+
+commit d224a32d8b0da0f04a26611b955a95e6e18559f2
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Sun Aug 19 05:44:29 2018 -0500
+
+    release 0.34 (#128)
+    
+    * release 0.34
+    
+    * MNT: Re-rendered with conda-smithy 3.1.11 and pinning 2018.08.14
+    
+    * Require nodejs
+
+commit d01b7137a9b4ce5a3d95b9f1791421c607d65593
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Thu Aug 16 06:21:23 2018 -0400
+
+    updated v0.33.12 (#126)
+
+commit d4d8794bfbbd81ce8f7a80b7d715bb88a3470f25
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Tue Aug 14 07:20:50 2018 -0400
+
+    updated v0.33.11 (#125)
+
+commit 22787d33a0167facd18958a0774a8826156b66ec
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Sun Aug 12 23:20:41 2018 -0400
+
+    jupyterlab v0.33.10 (#124)
+    
+    * updated v0.33.10
+    
+    * MNT: Re-rendered with conda-smithy 3.1.11 and pinning 2018.08.05
+
+commit 59b4785b895ccd0153d9bab2ebdbf1de2aa5defe
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Wed Aug 8 06:32:17 2018 -0400
+
+    updated v0.33.8 (#123)
+
+commit 0ab66eb2719baa714d46dae7c32961e26b188813
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Mon Aug 6 08:19:37 2018 -0400
+
+    jupyterlab v0.33.7 (#122)
+    
+    * updated v0.33.7
+    
+    * MNT: Re-rendered with conda-smithy 3.1.10 and pinning 2018.08.05
+
+commit 69ee74c914f118580466cafbf830c4d477871ef7
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:17:43 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 909ee3dfe7e78a847175c0420d3a2642f24c2299
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Thu Aug 2 22:33:52 2018 -0400
+
+    updated v0.33.6 (#121)
+
+commit 8ca60da0bdfd6bf9490a385c52884f4e98bb7ed4
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Sun Jul 29 10:06:38 2018 -0400
+
+    updated v0.33.4 (#119)
+
+commit a36ef339afe4178d46885ed0ca4e216fcaf9668d
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Sun Jul 29 05:21:47 2018 -0400
+
+    updated v0.33.3 (#118)
+
+commit 636ed444b992df9d50d260e6059c87116e549df3
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Sat Jul 28 15:04:33 2018 -0400
+
+    updated v0.33.2 (#117)
+
+commit e0c569a290c4b41bb30decea964d07cb8fe3fd89
+Merge: e0cf256 cdf6b32
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Sat Jul 28 08:11:55 2018 -0500
+
+    Merge pull request #114 from blink1073/release-0.33.1
+    
+    Release 0.33.1
+
+commit cdf6b32650222c9e36b562bc54a0a756ea43fbc5
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Sat Jul 28 07:29:39 2018 -0500
+
+    Release 0.33.1
+
+commit e0cf2565f1246f46dea03167d39bd58f431bd626
+Merge: 5706ba8 28a6e08
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Thu Jul 26 20:51:35 2018 -0700
+
+    Merge pull request #112 from jasongrout/33
+    
+    Update to 0.33.0
+
+commit 28a6e08578be7aa3b0fd0855870c9b9ae7b2344b
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Jul 27 00:50:25 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.8 and pinning 2018.07.24
+
+commit 3aa180c9b7c48a801bc3f59f3d6ce342a171f67b
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Thu Jul 26 17:48:12 2018 -0700
+
+    Update to 0.33.0
+
+commit 5706ba82f4aab079d3a21b1c095a096909c22c76
+Merge: 0262da8 f71ca0c
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Fri Apr 27 23:30:01 2018 -0700
+
+    Merge pull request #109 from jasongrout/0321
+    
+    Update to 0.32.1
+
+commit f71ca0caac288bc83a0154b99a0a85c82358d44c
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Apr 28 06:05:48 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.2 and pinning 2018.04.26
+
+commit 2684e72e4a48211576597f1e87a8cabfdb04b7e9
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Fri Apr 27 23:02:11 2018 -0700
+
+    Update to 0.32.1
+
+commit 0262da83bf0fdd0855efcb1aa0146c8be4ef62ea
+Merge: 4ca0284 507b057
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Wed Apr 18 21:46:03 2018 -0700
+
+    Merge pull request #108 from bollwyvl/fix/jsdeps-on-win-redo
+    
+    --skip-npm in setup, don't build wheels, test commands, Re-rendered with conda-smithy 3.1.1 and pinning 2018.04.18
+
+commit 507b057272e472829178d19551559e10c99ba734
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Wed Apr 18 23:16:05 2018 -0400
+
+    needs subprocess32 on windows
+
+commit 12cce0d8809a67123bc046da8b87758ffc8331a1
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Wed Apr 18 22:36:19 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 3.1.1 and pinning 2018.04.18
+
+commit 4ca02843aae9c1cd3b37e9550a5c6bb5de9fbded
+Merge: b9380a3 46d43ac
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Mon Apr 16 14:22:02 2018 -0700
+
+    Merge pull request #107 from jasongrout/release32
+    
+    Release 0.32.0
+
+commit 46d43ac3ffa2030f41998f07c4e3c1f65bbf8ad7
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Mon Apr 16 13:13:25 2018 -0700
+
+    Add Ian, Darian, and Brian as maintainers
+
+commit 50ff00e408fc744cda01f05646be878f9b23f41c
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Mon Apr 16 13:11:56 2018 -0700
+
+    Update to 0.32.0.
+    
+    Also updated build to use the new instructions at https://conda-forge.org/docs/meta.html#use-pip
+
+commit b9380a34b5ba35186415e92fd6aee8dcb55d166f
+Merge: d24db03 a3c843b
+Author: Paweł T. Jochym <jochym@users.noreply.github.com>
+Date:   Wed Mar 7 14:33:01 2018 +0100
+
+    Merge pull request #106 from blink1073/release-0.31.12
+    
+    Release 0.31.12
+
+commit a3c843b55156119c13b38f9622bca547221cdb3f
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Mar 6 15:46:05 2018 -0600
+
+    Release 0.31.12
+
+commit d24db0388055f35a55164a0f07db8b5de7a5c244
+Merge: ea08e57 2bd0813
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon Mar 5 08:27:31 2018 -0600
+
+    Merge pull request #105 from blink1073/release-0.31.11
+    
+    Release 0.31.11
+
+commit 2bd0813c7f4f6cb90f18bdc6e2c5d4aadfccfd7d
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon Mar 5 08:23:07 2018 -0600
+
+    Release 0.31.11
+
+commit ea08e5799e8740f372f8abce9185b2486064acd5
+Merge: d40b68e 275e1fc
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Feb 28 15:51:46 2018 -0600
+
+    Merge pull request #103 from blink1073/release-0.31.10
+    
+    Release 0.31.10
+
+commit 275e1fc4e5eddef78391f6a7cfaa3660306dfb50
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Feb 28 15:45:39 2018 -0600
+
+    Release 0.31.10
+
+commit d40b68e9d08d8d10240bd34758a97792cc70707f
+Merge: b46c6b5 8d6e442
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Feb 28 09:09:16 2018 -0600
+
+    Merge pull request #102 from blink1073/release-0.31.9
+    
+    Release 0.31.9
+
+commit 8d6e442685438c2a8c1585ccc84c19258c5edab3
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Feb 28 09:03:42 2018 -0600
+
+    Release 0.31.9
+
+commit b46c6b512a2a5cf4cb06781664f9fc2827a3b152
+Merge: 6798d4b cec01c4
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Feb 15 20:05:45 2018 -0600
+
+    Merge pull request #100 from blink1073/release-0.31.8
+    
+    Release 0.31.8
+
+commit cec01c4a51bc5c668e9ac387010ac74d69ee82d1
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Feb 15 20:01:33 2018 -0600
+
+    Release 0.31.8
+
+commit 6798d4b4f6de7859fe8483c020adf735db2c9268
+Merge: 29a0fab ef04f88
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Feb 15 12:09:32 2018 -0600
+
+    Merge pull request #99 from blink1073/release-0.31.6
+    
+    Release 0.31.6
+
+commit ef04f88c8bf75088861d65091b44edb6700da4dd
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Feb 15 11:54:07 2018 -0600
+
+    Release 0.31.6
+
+commit 29a0fab9bd6b0598863e3dcf7355ca4b8d6a74ec
+Merge: d8edbd7 cf0d7fa
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Feb 7 16:33:13 2018 -0600
+
+    Merge pull request #98 from blink1073/release-0.31.5
+    
+    Release 0.31.5
+
+commit cf0d7fa8a65ff453d454d0b2e452b09b944144ca
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Feb 7 16:28:46 2018 -0600
+
+    Release 0.31.5
+
+commit d8edbd7d6d2421407ec9e90aeeeab9733e64e4ee
+Merge: 4c22962 9d2973c
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Feb 7 10:09:56 2018 -0600
+
+    Merge pull request #97 from jochym/master
+    
+    Add myself ( @jochym ) as a co-maintainer
+
+commit 9d2973cf90d91b70c13c3fa193d824011c288508
+Author: Paweł T. Jochym <jochym@users.noreply.github.com>
+Date:   Wed Feb 7 12:47:37 2018 +0100
+
+    Add myself ( @jochym ) as a co-maintainer
+
+commit 4c22962d70937cab19d7a7a7d360c294fb1317a2
+Merge: afb8ed7 eb21b6b
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Feb 6 10:41:20 2018 -0600
+
+    Merge pull request #96 from blink1073/release-0.31.4
+    
+    Release 0.31.4
+
+commit eb21b6b0e5d55c0ae50c4b5d588819cbd1b380ac
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Feb 6 10:36:07 2018 -0600
+
+    Release 0.31.4
+
+commit afb8ed7aa1d015114d41119c85893c2ba884dff0
+Merge: e79df37 8647204
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon Feb 5 14:53:40 2018 -0600
+
+    Merge pull request #95 from blink1073/release-0.31.3
+    
+    Release 0.31.3
+
+commit 8647204a4ec3ba0ab91c444703ebbfd0711cb7ce
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon Feb 5 14:43:37 2018 -0600
+
+    Release 0.31.3
+
+commit e79df37f4f960a66045ea7e3348d040bec9fc75f
+Merge: 25f8696 d09baaa
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Jan 25 23:12:05 2018 +0100
+
+    Merge pull request #94 from blink1073/release-0.31.2
+    
+    Release 0.31.2
+
+commit d09baaa467b555b08e10d3695b3480be02a921fa
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Jan 25 23:00:05 2018 +0100
+
+    Release 0.31.2
+
+commit 25f86963fe9c17261f42d269373a1d166d36c517
+Merge: 2a1b119 68063d5
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Sat Jan 13 04:34:00 2018 -0600
+
+    Merge pull request #93 from blink1073/release-0.31.1
+    
+    Release 0.31.1
+
+commit 68063d5d0b549a52c65d2e5e119ad284b800e2f3
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Sat Jan 13 04:25:13 2018 -0600
+
+    Release 0.31.1
+
+commit 2a1b1194985941f87125baef9e1fc1cd9d121cd4
+Merge: f079b9f 84f0070
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Jan 11 05:33:26 2018 -0600
+
+    Merge pull request #91 from blink1073/release-0.31.0
+    
+    Release jupyterlab 0.31
+
+commit 84f00703c5691f3c23683eece866b85f4e60f1ab
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Jan 11 11:11:51 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit 1e7c54d868e42862f700bd916513c7a9865a8a10
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Jan 11 05:02:47 2018 -0600
+
+    Release jupyterlab 0.31
+
+commit f079b9ff0ed0aa894afaeba1b5766623b6a31143
+Merge: e4488c3 f2d1894
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Dec 12 05:35:04 2017 -0600
+
+    Merge pull request #90 from blink1073/release-0.30.6
+    
+    Release 0.30.6
+
+commit f2d189439d1cae5c968fa68280f5181ca84a6cf3
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon Dec 11 09:30:58 2017 -0600
+
+    Release 0.30.6
+
+commit e4488c3e136f20b8d9abd943c02ab3cb914164af
+Merge: 15f52c8 af23321
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Dec 8 05:01:12 2017 -0600
+
+    Merge pull request #89 from blink1073/release-0.30.5
+    
+    Release 0.30.5
+
+commit af23321f161b4f4852613eba732afe7d64cd5c3b
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Dec 8 04:58:00 2017 -0600
+
+    Release 0.30.5
+
+commit 15f52c86f96e3fd5cf8dd120ea702837bb2386cc
+Merge: 568918c cfa0b8a
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Dec 7 07:53:19 2017 -0600
+
+    Merge pull request #88 from blink1073/release-0.30.4
+    
+    Release 0.30.4
+
+commit cfa0b8aef487a0705614cad4fc04551b93733402
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Dec 7 07:47:26 2017 -0600
+
+    Release 0.30.4
+
+commit 568918c5b96caa5240126e6d9149be0057baf420
+Merge: 985e40b a7a24f5
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Dec 5 15:55:33 2017 -0600
+
+    Merge pull request #87 from blink1073/release-0.30.2
+    
+    Release 0.30.2
+
+commit a7a24f5692a4501f62d137909dd258a0ec2a395a
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Dec 5 21:51:50 2017 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.4
+
+commit 925331e0a793eab145c1697176b4396c73441665
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Dec 5 15:47:39 2017 -0600
+
+    Release 0.30.2
+
+commit 985e40bd2dab26000d421accdad5be59ed6d7831
+Merge: 683b6db 22a952b
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Dec 5 05:40:39 2017 -0600
+
+    Merge pull request #86 from blink1073/release-0.30.0
+    
+    Release 0.30.1
+
+commit 22a952b9e021cbd18523610298517ede25088ac3
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Dec 5 05:35:51 2017 -0600
+
+    bump to 0.30.1
+
+commit 775d981cb0f5a4d8768009ec55155fc35f33cae5
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Dec 5 05:25:32 2017 -0600
+
+    formatting
+
+commit 77451b6e85258fb7d540a43adaf7ab437bb9d3a8
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Dec 5 05:24:28 2017 -0600
+
+    Release 0.30.0
+
+commit 683b6dbd5897c7ac1e6dc4f7952e6abc0f4e7f26
+Merge: 774c9dc 6d5fb58
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Nov 17 06:52:02 2017 -0600
+
+    Merge pull request #84 from blink1073/release-0.29.2
+    
+    Release 0.29.2
+
+commit 6d5fb58d4c338faffcee195f641575a290243936
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Nov 17 06:43:47 2017 -0600
+
+    fix formatting
+
+commit 45df93615832ed88beddfa88d1a1dc85c9ce9607
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Nov 17 06:42:54 2017 -0600
+
+    fix formatting
+
+commit 2a5acd5e93242463899bbfcbd32c891773b73e35
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Nov 17 06:41:04 2017 -0600
+
+    formatting
+
+commit 13fe9353177b1191402cd814223523ffc3193ef2
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Nov 17 06:40:14 2017 -0600
+
+    fix formatting
+
+commit 22f8d656fa83fbd5c0efeff42aa906c5c43e9183
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Nov 17 06:37:14 2017 -0600
+
+    Release 0.29.2
+
+commit 774c9dcb9d9561ffd78df27a2bf7da06a3c85c0d
+Merge: 2f66d4f 0b6fbbe
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Nov 9 13:10:58 2017 -0600
+
+    Merge pull request #83 from blink1073/release-0.29.0
+    
+    Release 0.29.1
+
+commit 0b6fbbec65931d72f93c65cf46787f98f03d6ffd
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Nov 9 11:20:45 2017 -0600
+
+    Bump to 0.29.1
+
+commit d1010f1f87d9e8925323f6bdee37262a8ad8d6af
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Nov 9 10:20:23 2017 -0600
+
+    Release 0.29.0
+
+commit 2f66d4f134418d55217baef12263f5892963286d
+Merge: 383d5f6 f1af2f1
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Nov 9 03:49:13 2017 -0600
+
+    Merge pull request #82 from blink1073/release-0.28.15
+    
+    Release 0.28.15
+
+commit f1af2f15eae005010c844ba296880bbd0f0d1b0a
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Nov 9 03:44:04 2017 -0600
+
+    Release 0.28.15
+
+commit 383d5f6dc5702890f04aed3e3bdfa44d173df87d
+Merge: d3cb9a1 fc2ffec
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Nov 7 03:37:42 2017 -0600
+
+    Merge pull request #81 from blink1073/release-0.28.14
+    
+    Release 0.28.14
+
+commit fc2ffec68c1df9a87e6a3f2c2c90de3e06cfd275
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Nov 7 03:34:08 2017 -0600
+
+    Release 0.28.14
+
+commit d3cb9a19240cdef629c327e931b6945a72094224
+Merge: 4d25070 9943aa0
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon Nov 6 12:01:00 2017 -0600
+
+    Merge pull request #80 from blink1073/release-0.28.13
+    
+    Release 0.28.13
+
+commit 9943aa03733d5ff2a20daab36579ed31fb4969eb
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon Nov 6 11:40:38 2017 -0600
+
+    Release 0.28.13
+
+commit 4d250703e429730585a061ec52b46e1d8e0bf1e4
+Merge: d633f91 470b68b
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Oct 31 13:02:53 2017 -0500
+
+    Merge pull request #79 from blink1073/release-0.28.12
+    
+    Release 0.28.12
+
+commit 470b68bfa3238d2ea794d3c00fb6feba0590971a
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Oct 31 12:59:27 2017 -0500
+
+    Release 0.28.12
+
+commit d633f9178e16ba8abfbfb3fd38e7ba6f80b05b88
+Merge: 28f8f99 d14ccee
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Oct 25 13:45:59 2017 -0500
+
+    Merge pull request #78 from blink1073/release-0.27.2
+    
+    Release 0.27.2
+
+commit d14ccee21032ae6645ccae81f222f5e12a310cd4
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Oct 25 13:41:30 2017 -0500
+
+    Release 0.27.2
+
+commit 28f8f9979d8bdcba48a912a0b013ea222899a962
+Merge: f535910 6c1728a
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Oct 25 13:36:19 2017 -0500
+
+    Merge pull request #77 from blink1073/release-0.28.10
+    
+    Release 0.28.11
+
+commit 6c1728a1390189a1bd1a60858e303526db532282
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Oct 25 13:30:35 2017 -0500
+
+    Release 0.28.11
+
+commit 4427ce9b177536ae7f6e43169ec4effc2b6fa8ed
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Oct 25 13:24:27 2017 -0500
+
+    Release 0.28.10
+
+commit f53591015d684d3f5fdd590a66f54bf43313bcd0
+Merge: ca203f1 234b969
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Oct 25 08:46:28 2017 -0500
+
+    Merge pull request #76 from blink1073/release-0.27.1
+    
+    Release 0.27.1
+
+commit 234b969477b67ac164d21a3e9e399c1e0edd4671
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Oct 25 08:39:06 2017 -0500
+
+    Release 0.27.1
+
+commit ca203f126dde06293f2117b7c40e39bca98ea721
+Merge: 301cb70 c00dcbd
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Oct 25 08:39:41 2017 -0500
+
+    Merge pull request #75 from blink1073/release-0.28.8
+    
+    Release 0.28.8
+
+commit c00dcbd380335987195c6c60398c3a55be757d5b
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Oct 25 08:31:43 2017 -0500
+
+    Release 0.28.8
+
+commit 301cb70f7b0efc2f5957504021f46bc866c2b60e
+Merge: 15037a6 6fdcda5
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Oct 24 14:41:27 2017 -0500
+
+    Merge pull request #74 from blink1073/release-0.28.6
+    
+    Release 0.28.7
+
+commit 6fdcda53d8d3eb75a48e1b10b81b1fbde62273f8
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Oct 24 14:36:52 2017 -0500
+
+    Bump to 0.28.7
+
+commit ab72398802dbfa6fc207327556912dd95a9e747c
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Oct 24 14:27:09 2017 -0500
+
+    Release 0.28.6
+
+commit 15037a6805baea97e600ff6480004810a054c45e
+Merge: 7d13775 491330e
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Oct 20 10:50:04 2017 -0500
+
+    Merge pull request #73 from blink1073/release-0.28.5
+    
+    Release 0.28.5
+
+commit 491330eb1d600f280e188598a8144ad537f13ebc
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Oct 20 10:35:46 2017 -0500
+
+    Release 0.28.5
+
+commit 7d137754977d033f21c07428858726b28366210c
+Merge: d847a2a 26f1eb6
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Oct 18 16:52:31 2017 -0500
+
+    Merge pull request #72 from blink1073/release-0.28.4
+    
+    Release 0.28.4
+
+commit 26f1eb6aabb4f87ee77db79cdc156f43c3ae9a20
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Oct 18 16:43:03 2017 -0500
+
+    Release 0.28.4
+
+commit d847a2a9334c684aaacddba7474642f2240eccc3
+Merge: 8d5ca41 af4180b
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Oct 18 09:45:06 2017 -0500
+
+    Merge pull request #71 from blink1073/release-0.29.0.dev0
+    
+    Release 0.28.3
+
+commit af4180b8dab41ccb56453354b3cbac9f5b376ffd
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Oct 18 07:44:51 2017 -0500
+
+    Release 0.28.3
+
+commit 5a0d0d0edd4e6d1badc824a6f169df8d18e29a3a
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Oct 17 16:17:40 2017 -0500
+
+    Bump to 0.28.2
+
+commit 0497448fc371159e3a73a9ae0e63e19168f72483
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Oct 17 12:30:26 2017 -0500
+
+    Add license_file metadata
+
+commit 55f074ea602c673ce5f1d2252447a32187149f70
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Oct 17 10:40:31 2017 -0500
+
+    Release 0.28.1
+
+commit 8d5ca41de018512778153cd73a85a2fab52341f6
+Merge: 304ccb7 00efc0e
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Oct 17 04:56:02 2017 -0500
+
+    Merge pull request #69 from blink1073/release-0.28.0
+    
+    Release 0.28.0
+
+commit 00efc0e26d9d131c0a1da786defb499e5701df2a
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon Oct 16 17:43:20 2017 -0500
+
+    Reset build number
+
+commit 714a8ce80468082584e2cb49fb8465b1a625b780
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon Oct 16 17:01:03 2017 -0500
+
+    Release 0.28.0
+
+commit 304ccb70996724a3d820e12ec4681b5f88212421
+Merge: c43a856 b9bcf67
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Oct 5 12:20:13 2017 -0500
+
+    Merge pull request #68 from blink1073/trigger-build
+    
+    Trigger a build
+
+commit b9bcf6769100a072123c80fdbc85332d6c092a81
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Oct 5 12:15:45 2017 -0500
+
+    Trigger a build
+
+commit c43a856da6efb3203d695fe6a45a3b9b751f81e1
+Merge: 569ea17 69bd6d5
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Oct 5 12:14:48 2017 -0500
+
+    Merge pull request #67 from blink1073/avoid-unlink-errors
+    
+    Avoid warning when removing a conda environment
+
+commit 69bd6d536b01afedb2a2285de68ba950325ae113
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Oct 5 11:00:07 2017 -0500
+
+    Simplify logic
+
+commit 6afa18cb6d732e015a1b642996c03c9e552777bc
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Oct 5 10:50:13 2017 -0500
+
+    Remove debug
+
+commit 3254fd3956a0fddf9bf9f45d5351f1cf67b31c78
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Oct 5 10:48:48 2017 -0500
+
+    Avoid warning when removing a conda environment
+
+commit 569ea171e8ee9c37a246b4664ddfd43ef452b532
+Merge: 773a3bc 820ceff
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon Aug 28 15:46:38 2017 -0400
+
+    Merge pull request #66 from blink1073/fix-requirement
+    
+    Fix version requirements
+
+commit 820ceffcac2f25bd9af44974de9b1a43340e2b03
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon Aug 28 15:27:41 2017 -0400
+
+    Fix version requirements
+
+commit 773a3bc32aadf68cb6a968e1ba5ebe366c2465f0
+Merge: 9a4458f 2320ae6
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Aug 22 23:34:08 2017 -0400
+
+    Merge pull request #65 from blink1073/release-0.27.0
+    
+    Release 0.27.0
+
+commit 2320ae694e9f5a18de83fe0631177a0b3bba5478
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Aug 22 23:29:45 2017 -0400
+
+    Release 0.27.0
+
+commit 9a4458f885588fff3406482dd03998313c8f6c23
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Aug 17 01:37:43 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 2f6ad375f518e7c169a83b1554f397193cb67392
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Aug 17 00:35:52 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 4b487e4c1dbf7018a3ae196c5b4e54778bb1b4b0
+Merge: 51c805e 5cb970b
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon Aug 7 17:48:04 2017 -0500
+
+    Merge pull request #64 from blink1073/release-0.26.5
+    
+    Release 0.26.5
+
+commit 5cb970bf446553a993275bd74ee507983125f536
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon Aug 7 16:47:49 2017 -0500
+
+    Release 0.26.5
+
+commit 51c805e03bb3e0d6fe7d0fa755cf037f7ec63dca
+Merge: 47c096b 6894e25
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Jul 26 14:40:59 2017 -0500
+
+    Merge pull request #63 from blink1073/release-0.26.4
+    
+    Release 0.26.4
+
+commit 6894e25740b95cd37e108ff223fa5e5642a4678c
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Jul 26 14:27:09 2017 -0500
+
+    Release 0.26.4
+
+commit 47c096bec70cbd81e389850a3e2f172a7af2b841
+Merge: 5ae246d 9f9ebb0
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Sat Jul 22 07:59:31 2017 -0500
+
+    Merge pull request #62 from blink1073/release-0.26.3
+    
+    Release 0.26.3
+
+commit 9f9ebb08e8d4c1108661c64d18c3c50c385e9929
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Sat Jul 22 07:48:14 2017 -0500
+
+    Release 0.26.3
+
+commit 5ae246db7e4cf6a52f1bdf3c25760f3d2778f343
+Merge: d874d49 6f3b9bd
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Jul 21 18:24:13 2017 -0500
+
+    Merge pull request #61 from blink1073/release-0.26.1
+    
+    Release 0.26.2
+
+commit 6f3b9bd87568b10921540fd848119e2732adcce9
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Jul 21 17:49:10 2017 -0500
+
+    bump to 0.26.2
+
+commit 364fad3ca7716e95943ee9f8564d7f39f2fb68d9
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Jul 21 15:22:20 2017 -0500
+
+    Release 0.26.1
+
+commit d874d499e11acec34acd52d03627231b8937b0c0
+Merge: 86b7432 623cb98
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Jul 21 13:54:27 2017 -0500
+
+    Merge pull request #60 from blink1073/release-0.26.0
+    
+    Release 0.26.0
+
+commit 623cb983919d8e5568703e923f566296e94ea171
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Jul 21 13:18:11 2017 -0500
+
+    Release 0.26.0
+
+commit 86b7432a091c627e0de7a95937801a6f5962e62a
+Merge: 6a753df d3355bc
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon Jul 10 13:23:57 2017 -0500
+
+    Merge pull request #59 from blink1073/release-0.25.2
+    
+    Release 0.25.2
+
+commit d3355bcd6501d96ab968e5b39eafde542fa6fe7a
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon Jul 10 12:35:05 2017 -0500
+
+    Release 0.25.2
+
+commit 6a753dfd6d4afcd0d0018512ff462197fbc65f99
+Merge: 36821ca 732efd8
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Jul 7 12:46:12 2017 -0500
+
+    Merge pull request #58 from blink1073/release-0.25.1
+    
+    Release 0.25.1
+
+commit 732efd83af69d350992feb34651ff85aba7178c0
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Jul 7 12:31:03 2017 -0500
+
+    Release 0.25.1
+
+commit 36821ca09c5ae11003cd3793cb6da0949f014dc1
+Merge: ec7d699 fb9f12d
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Jul 7 10:37:15 2017 -0500
+
+    Merge pull request #57 from blink1073/release-0.25.0
+    
+    Release 0.25.0
+
+commit fb9f12d52a67d14b1ab54c5cc82d44bdaf0bb2a8
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Jul 7 07:39:12 2017 -0500
+
+    Release 0.25.0
+
+commit ec7d699634ca7ee99fc7e84f8d54f344e1e0fbc0
+Merge: 6d9a98b 70ba13c
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Jun 16 14:31:46 2017 -0500
+
+    Merge pull request #56 from blink1073/release-0.24.1
+    
+    Release 0.24.1
+
+commit 70ba13ccca0a7337406c29ade5470e50c9217273
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Jun 16 13:49:00 2017 -0500
+
+    Release 0.24.1
+
+commit 6d9a98b95a9730ce1f0026ada9eb7047f51ab0d5
+Merge: c244ba0 003daac
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Jun 16 10:07:50 2017 -0500
+
+    Merge pull request #55 from blink1073/release-0.24.0
+    
+    Release 0.24.0
+
+commit 003daace41d15ad1152cd76ca70b39c738dbc935
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Jun 16 07:28:59 2017 -0500
+
+    Release 0.24.0
+
+commit c244ba0f8977dc8cd710a3cc14184f50409827f3
+Merge: 5e40dda 5d4fd2d
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon Jun 5 13:34:13 2017 -0500
+
+    Merge pull request #54 from blink1073/release-0.23.2
+    
+    Release 0.23.2
+
+commit 5d4fd2daa6e02303e08f04464ff2a29b053e6a1a
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon Jun 5 12:49:27 2017 -0500
+
+    Release 0.23.3
+
+commit 5e40dda8b9cd497eef3d55dba99ec9a2deabd77e
+Merge: a2076c8 8d87ad5
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Jun 2 15:12:56 2017 -0700
+
+    Merge pull request #53 from blink1073/release-0.23.0
+    
+    Release 0.23.0
+
+commit 8d87ad56d0612caa0674c046d596678e459a90d2
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Jun 2 11:24:45 2017 -0700
+
+    Update to 0.23.1
+
+commit df1f6ea1a58a1b6b629bb51c3a1fb5eaf681bf85
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Jun 1 18:42:05 2017 -0700
+
+    Release 0.23.0
+
+commit a2076c86c9544841e9a49828af7ac4215de3fb98
+Merge: 0cead37 afdd560
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon May 22 11:14:14 2017 -0500
+
+    Merge pull request #52 from blink1073/release-0.22.1
+    
+    Release 0.22.1
+
+commit afdd560704044811e3c22ac36b640991d3e749ac
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon May 22 10:49:44 2017 -0500
+
+    Release 0.22.1
+
+commit 0cead378e82feb3ad9a9635de7bd5f22e92f92bc
+Merge: 8a393d6 871d545
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu May 18 15:00:33 2017 -0500
+
+    Merge pull request #51 from blink1073/release-0.22.0
+    
+    Release 0.22
+
+commit 871d54550c3beac4d1a5d16b0ce77ee2edb89ed2
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu May 18 14:11:47 2017 -0500
+
+    Release 0.22
+
+commit 8a393d67d88766840d709c93f7859fc35ac399f6
+Merge: 617fa1f 02cca4a
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue May 9 16:58:12 2017 -0500
+
+    Merge pull request #50 from blink1073/release-0.21.0
+    
+    Release 0.21.0
+
+commit 02cca4a2bea0bfa09a0455d6e1492ac02d4be1ac
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue May 9 16:18:56 2017 -0500
+
+    Release 0.21.0
+
+commit 617fa1f4029854f5726f3f2a975047eff7487cb4
+Merge: 3f908f4 fbdbb31
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue May 9 07:45:24 2017 -0500
+
+    Merge pull request #49 from blink1073/release-0.20.4
+    
+    Update to 0.20.4
+
+commit fbdbb3101f48ea80ee409bbbdf90810b567e6dd5
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue May 9 07:34:49 2017 -0500
+
+    fix formatting
+
+commit 3194f449bd6b793c5a7bd813c48abd7eeac84262
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue May 9 07:30:55 2017 -0500
+
+    update to 0.20.4
+
+commit 3f908f4d82f83cc5ddbff9232d406cca076f6159
+Merge: be1e2ce 654a0ab
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Thu Apr 27 09:26:17 2017 -0400
+
+    Merge pull request #48 from jasongrout/v0.20.3
+    
+    update to 0.20.3
+
+commit 654a0ab7cd6ac29c5edc4201a0236b363b813735
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Thu Apr 27 09:13:37 2017 -0400
+
+    update to 0.20.3
+
+commit be1e2ce6e2def8331ac86c9b06d074a76a6622e1
+Merge: 5c0df3f 6d26454
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Apr 25 10:30:50 2017 -0500
+
+    Merge pull request #47 from blink1073/release-0.20.2
+    
+    Release 0.20.2
+
+commit 6d26454a7ec406bfe893da1ce9d741e1b9b4e62e
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Apr 25 08:38:10 2017 -0500
+
+    Release 0.20.2
+
+commit 5c0df3f57308369d6a5cc0a05d7b02f620bb407b
+Merge: 2019433 1368dee
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Apr 11 06:28:30 2017 -0500
+
+    Merge pull request #44 from dhirschfeld/patch-1
+    
+    Release 0.19.0
+
+commit 1368dee4aea58aec835eb723544b6879f9f939a7
+Author: Dave Hirschfeld <dhirschfeld@users.noreply.github.com>
+Date:   Tue Apr 11 11:13:44 2017 +1000
+
+    Release 0.19.0
+
+commit 2019433461729dbf3578daf7038923e3c9fd0fe5
+Merge: 93959a2 ee0f505
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Mar 24 07:52:39 2017 -0500
+
+    Merge pull request #43 from blink1073/release-0.18.1
+    
+    Release 0.18.1
+
+commit ee0f5055dd3b92e2a39a83e14290d6f6e62d0f0b
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Mar 24 03:54:06 2017 -0500
+
+    Release 0.18.1
+
+commit 93959a24a87672e67509eec872a283f29212bacb
+Merge: 754b2a9 1eaff2b
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Mar 23 13:20:43 2017 -0500
+
+    Merge pull request #42 from blink1073/release-0.18.0
+    
+    Release 0.18.0
+
+commit 1eaff2b9f1554ccd6f45a218178f27dfff51d0f8
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Mar 23 10:12:08 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 2.2.1
+
+commit c87ad0a54797eb5b648eec3348e29f28d2fcab5c
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Mar 21 16:44:01 2017 -0500
+
+    Update the home link
+
+commit c6b994cc6a3b10c502789350c640bea329595c50
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Mar 21 10:53:13 2017 -0500
+
+    Release 0.18.0
+
+commit 754b2a9ed28ae74abee4e3642bc7389c1ed1ad01
+Merge: 0c804a3 73b35ba
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Mar 14 04:51:30 2017 -0500
+
+    Merge pull request #41 from blink1073/release-0.17.5
+    
+    Release 0.17.5
+
+commit 73b35ba0cd490f406372ac6eb62377e60c208dd4
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon Mar 13 14:23:46 2017 -0500
+
+    Release 0.17.5
+
+commit 0c804a359025ec1034a01e4b24834c965f59dbe1
+Merge: e26ac72 8b1a44a
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon Mar 6 07:32:39 2017 -0600
+
+    Merge pull request #40 from blink1073/release-0.17.4
+    
+    Release 0.17.4
+
+commit 8b1a44a46fdb6b722cf9a88da73084b64c5bb88e
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon Mar 6 05:40:03 2017 -0600
+
+    Release 0.17.4
+
+commit e26ac722e65ece5f17f380f1872fbf2d3206916b
+Merge: e4eba63 374b0dc
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Sat Mar 4 03:39:11 2017 -0600
+
+    Merge pull request #39 from blink1073/release-0.17.1
+    
+    Release 0.17.1
+
+commit 374b0dcd6160a33539123a24a3c40e9f24fe3483
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Mar 3 13:04:32 2017 -0600
+
+    bump to 0.17.2
+
+commit 3f54c47fd81c32971b51a440899b617278568beb
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Mar 3 10:45:07 2017 -0600
+
+    Release 0.17.1
+
+commit e4eba63e0463cbc6297b0ac7e64ea60890df5768
+Merge: 29b90a3 4a48830
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Mar 1 15:25:26 2017 -0600
+
+    Merge pull request #38 from blink1073/release-0.17
+    
+    Release 0.17.0
+
+commit 4a488309677a497ed06ec1957e0743c5b2f72fe9
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Mar 1 07:19:53 2017 -0600
+
+    Release 0.17.0
+
+commit 29b90a35e4a5df72c3600fd393d314335a738933
+Merge: 88eae9a bbf3f0a
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Sat Feb 25 05:28:58 2017 -0600
+
+    Merge pull request #37 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit bbf3f0a765eaeb12a42543c27cb345d21a25b9cd
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Feb 24 01:48:25 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.1.0.
+
+commit 88eae9aaa07474d3cb46cd520c1dd357e8e1347a
+Merge: d172f42 11bef46
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Feb 19 12:57:36 2017 -0500
+
+    Merge pull request #35 from jakirkham/join_pr_33_master
+    
+    Merge PR 33 into master
+
+commit d172f42f3a9e279ce6facf05d8a3c311a971ecd9
+Merge: 2f81b4e 886a860
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Feb 14 12:16:24 2017 -0600
+
+    Merge pull request #36 from blink1073/release-0.16.2
+    
+    Release 0.16.2
+
+commit 886a8605a27ce8b746aa723217e227340e085d5b
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Feb 14 10:38:27 2017 -0600
+
+    Release 0.16.2
+
+commit 11bef46529d2b009ba335d8d7c1d08789adfae45
+Merge: eb1c431 2f81b4e
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Feb 10 18:33:51 2017 -0500
+
+    Merge remote-tracking branch conda-forge/master into conda-forge/jasongrout-patch-1
+    
+    [ci skip]
+
+commit 2f81b4ee13f2c62a86a3bd3f176d775136eba85f
+Merge: f849c51 be9a562
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Feb 9 14:38:49 2017 -0600
+
+    Merge pull request #34 from blink1073/release-0.16
+    
+    Release 0.16.0
+
+commit be9a562c3a27935fdedebeff846a66a0103d6b0c
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Feb 9 14:18:05 2017 -0600
+
+    Release 0.16.0
+
+commit eb1c431f192ed4b034e949a9c5d80f3e620db372
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Thu Feb 9 14:01:55 2017 -0500
+
+    0.15.1
+
+commit f849c51488c2c81528435aa279863458bb14e155
+Merge: 799b17e 7787d0e
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Feb 1 05:22:04 2017 -0600
+
+    Merge pull request #32 from blink1073/release-0.15.0
+    
+    Release 0.15.0
+
+commit 7787d0e4f3a919661632b4b7922093a10180cb9f
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Jan 31 12:17:54 2017 -0600
+
+    Release 0.15.0
+
+commit 799b17e8271081316117a523086bfcfe0504218e
+Merge: a5f6236 4e87c5a
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Jan 25 13:55:01 2017 -0600
+
+    Merge pull request #31 from blink1073/release-0.14
+    
+    Release 0.14.0
+
+commit 4e87c5ab1b6e94e8794f14a209e6b5934c41374d
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Jan 25 12:59:04 2017 -0600
+
+    Release 0.14.0
+
+commit a5f62363962d4df389c6403825bd115fb9314329
+Merge: a6e4d9d 3984aa3
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Jan 25 12:59:38 2017 -0600
+
+    Merge pull request #30 from blink1073/release-0.13.2
+    
+    Release 0.13.2
+
+commit 3984aa3be194679c6d0ecf7987a1341fdeb18544
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Jan 25 12:43:17 2017 -0600
+
+    release 0.13.2
+
+commit a6e4d9d015301668a4bbdf746466c678d8126b7e
+Merge: 52aed4f 5447716
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Jan 19 05:22:14 2017 -0600
+
+    Merge pull request #29 from blink1073/entry-points
+    
+    Add entry points
+
+commit 54477160acc0a816485c81c102e0ce417ccd6112
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Jan 19 05:13:33 2017 -0600
+
+    Add entry points
+
+commit 52aed4ff9410aedc42c0d5cb8f5cbe6b57cb622a
+Merge: 2e8319c 423da76
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Jan 19 05:10:56 2017 -0600
+
+    Merge pull request #28 from blink1073/bump-0.13
+    
+    Bump 0.13 and rerender
+
+commit 423da767d0456ea9be37006218110dc0a13792cc
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Jan 18 13:24:58 2017 -0600
+
+    Bump to 0.13.1
+
+commit 0d7988b6bb25222257f96d9cea2d98e7cf7930ac
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Jan 18 12:33:32 2017 -0600
+
+    Bump release to 0.13
+
+commit 1ebe2504154b9112b639e29238f81e90f6c2b98a
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Jan 18 12:33:25 2017 -0600
+
+    MNT: Re-rendered with conda-smithy 2.0.0
+
+commit 2e8319c81b631a183beaa1f4efaaa7b90cc6803c
+Merge: c782aa1 37f35ed
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Dec 22 05:59:14 2016 -0600
+
+    Merge pull request #27 from blink1073/bump-0.12
+    
+    Bump to 0.12
+
+commit 37f35ed23e3638f6a132b5f70e34b2b8cdac750f
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Dec 22 05:51:46 2016 -0600
+
+    bump to 0.12.1
+
+commit 4e110b56284d7929d86b36b9f773dcbdc1eee52c
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Dec 22 05:39:27 2016 -0600
+
+    Bump to 0.12
+
+commit c782aa15e679c3fa23033316bfe1b732a7f184b0
+Merge: aff8c38 13cdd49
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Dec 1 13:44:41 2016 -0600
+
+    Merge pull request #25 from blink1073/bump-0.11.2
+    
+    Bump to 0.11.2
+
+commit 13cdd4900044db99c71b5bce29ac7b5a501a4598
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Dec 1 13:31:06 2016 -0600
+
+    Bump to 0.11.2
+
+commit aff8c38254b9c332e656f90f4d0debae516fffa6
+Merge: fcbd566 8a9125b
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Dec 1 09:16:57 2016 -0600
+
+    Merge pull request #24 from blink1073/bump-0.11
+    
+    Bump to 0.11
+
+commit 8a9125b81801ff0a37eb2726534bc159f0c61f74
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Dec 1 07:34:46 2016 -0600
+
+    Bump 0.11.1
+
+commit 93b58a2cf166f1cff6e381180f1151d016ba8ff3
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Dec 1 06:51:37 2016 -0600
+
+    Bump to 0.11
+
+commit fcbd5663536f459b02608ba147493fe60be92fa2
+Merge: 2926e29 c99bfc4
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon Nov 21 13:18:54 2016 -0600
+
+    Merge pull request #23 from blink1073/bump-0.10
+    
+    Bump to 0.10
+
+commit c99bfc4fa804051e759afe394cd0147677f1831f
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon Nov 21 13:07:11 2016 -0600
+
+    Bump to 0.10
+
+commit 2926e296195d2506dc8b5234c83a93f5cbf25ddf
+Merge: dd96c78 d4c64f6
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Nov 18 14:48:06 2016 -0600
+
+    Merge pull request #22 from blink1073/bump-0.9.1
+    
+    Bump to 0.9.1
+
+commit d4c64f6f2628965d89bc09163c88e546dcc0f0eb
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Nov 18 14:42:05 2016 -0600
+
+    Bump to 0.9.1
+
+commit dd96c78109366ffea2557136a179e05b2e4d74fc
+Merge: 2ae8abe 2b3af9b
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Nov 18 14:16:19 2016 -0600
+
+    Merge pull request #21 from blink1073/bump-0.9
+    
+    Bump to 0.9
+
+commit 2b3af9bc64bd0fec8419962237f26412083186aa
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Nov 18 14:12:12 2016 -0600
+
+    Address linter error
+
+commit 36a3a525ce8d62b36963778a40b7233256ccc8f1
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Nov 18 14:08:47 2016 -0600
+
+    Bump to 0.9
+
+commit 2ae8abeb121857cfccc9da9edef882daa189d214
+Merge: 25411e2 74f2c8e
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Nov 4 13:18:20 2016 -0500
+
+    Merge pull request #20 from blink1073/rerender-0.8
+    
+    Smithy rerender for 0.8
+
+commit 74f2c8e37e99ae8c4e4f2b80b18b0a51a4f49b98
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Nov 4 13:11:34 2016 -0500
+
+    More rerender changes
+
+commit 7b9f1a68e3b6ba5c385c3414bea383befed6bcfd
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Nov 4 12:55:33 2016 -0500
+
+    Smithy rerender
+
+commit 25411e2e2c2d3c0419ee512cdc143ce54dcf84b5
+Merge: 19f8536 e23b6f5
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Nov 3 14:59:38 2016 -0500
+
+    Merge pull request #19 from blink1073/bump-0.8
+    
+    Bump to 0.8
+
+commit e23b6f5e6aba291e17e8c6e940752ac3436733c5
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Nov 3 14:54:28 2016 -0500
+
+    Bump to 0.8
+
+commit 19f85364072b41c66ca2dd523d85418910f0bd2a
+Merge: deec5e1 8d30cb6
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Oct 27 13:43:59 2016 -0500
+
+    Merge pull request #18 from blink1073/bump-0.7
+    
+    Bump to 0.7
+
+commit 8d30cb65a8a1adc0d7d7f94a71ff054e07db30d6
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Oct 27 13:40:07 2016 -0500
+
+    Bump to 0.7
+
+commit deec5e11f6717bc4ca23c0ecaac2e35a30e4758d
+Merge: 68bfe67 d9110c9
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Oct 26 11:56:54 2016 -0500
+
+    Merge pull request #17 from blink1073/bump-0.6
+    
+    Bump to 0.6
+
+commit d9110c9b6f4b1aaef39b22077c521a25235e5535
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Wed Oct 26 11:51:32 2016 -0500
+
+    bump to 0.6
+
+commit 68bfe67bf9b581fad5d0705e549ec48ebcc90809
+Merge: 47b4eb9 0d1412a
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Oct 16 17:53:10 2016 -0400
+
+    Merge pull request #15 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 0d1412a6217f39c71cfdabe093cdd23bb885f08b
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Oct 15 20:45:34 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.3.3.
+
+commit 47b4eb9e86c5239244caaae0cd32ab93b3177594
+Merge: 2b0b73e 9bbd07d
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Oct 8 21:38:07 2016 -0400
+
+    Merge pull request #14 from blink1073/rerender
+    
+    MNT: Re-rendered with conda-smithy 1.3.2
+
+commit 9bbd07d6a984f6c50a491d7a78f25fdaa06839af
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Oct 7 10:33:59 2016 -0500
+
+    MNT: Re-rendered with conda-smithy 1.3.2
+
+commit 2b0b73e81998487f596a852cfb88474ac3556694
+Merge: b76a0d7 47299a7
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Oct 7 09:23:32 2016 -0500
+
+    Merge pull request #13 from blink1073/bump-.5
+    
+    Bump to 0.5 and ensure emails are always sent
+
+commit 47299a709fb5fe6a1f528dac7f90f6d17f85eec6
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Fri Oct 7 09:17:55 2016 -0500
+
+    Bump the version and ensure emails are always sent
+
+commit b76a0d7eee9959663d0504b313994f0ed79da60f
+Merge: 4066fa2 e22c99b
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Sep 29 14:01:23 2016 -0500
+
+    Merge pull request #12 from blink1073/0.4.1
+    
+    Bump to 0.4.1
+
+commit e22c99bebca854e3f197e4cd494018f4ded8acc1
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Thu Sep 29 13:50:08 2016 -0500
+
+    Bump to 0.4.1
+
+commit 4066fa270931788efaefef258953289942bfad80
+Merge: 9203610 a39e2ab
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Tue Sep 20 16:42:10 2016 -0400
+
+    Merge pull request #10 from jasongrout/0.3
+    
+    bump to 0.3.0
+
+commit a39e2aba6eec29ab1558488f786c8d8efe816b1e
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Tue Sep 13 13:51:53 2016 -0400
+
+    Use conda-smithy to rerender the recipe.
+
+commit 24866c491ffcd89d5c2b73cfc711b6085169d393
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Mon Sep 12 15:10:41 2016 -0400
+
+    bump to version 0.3.0
+
+commit 9203610b1cbb0717614a0f69e3bec33c98bab80a
+Merge: 45251e2 db9ae7b
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon Aug 15 15:13:26 2016 -0500
+
+    Merge pull request #8 from blink1073/0.2.0
+    
+    Bump to 0.2.0
+
+commit db9ae7be1750dac22b75df1da6b3bc590a60d984
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Mon Aug 15 14:55:37 2016 -0500
+
+    Bump to 0.2.0
+
+commit 45251e2fcb6b4bbf2ad38dd789b760a54b117f49
+Merge: 0d2b3ba afd52b8
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Wed Jul 27 23:56:55 2016 -0400
+
+    Merge pull request #7 from jasongrout/nooutput
+    
+    Eliminate output from pre/post scripts.
+
+commit afd52b8c149d0f96414767851665830a24e85e5b
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Wed Jul 27 19:30:25 2016 -0400
+
+    Eliminate output from pre/post scripts.
+
+commit 0d2b3ba773b6563f3eba4eb4ca15576c9df1da7e
+Merge: 6c25d2d 6cf1975
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Wed Jul 27 19:16:23 2016 -0400
+
+    Merge pull request #6 from jasongrout/0.1.2
+    
+    bump to 0.1.2
+
+commit 6cf197520c9834aff45f390bbd5b4ae7d2abda72
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Wed Jul 27 19:00:08 2016 -0400
+
+    bump to 0.1.2
+
+commit 6c25d2d44eba20a3ef626ee72465b2781bfd8758
+Merge: cb412dd eddbdcf
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Fri Jul 15 23:03:08 2016 -0500
+
+    Merge pull request #4 from jasongrout/next
+    
+    bump to 0.1.1
+
+commit eddbdcffacdeaa048333f54d305d1352c0e7816d
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Fri Jul 15 18:04:13 2016 -0500
+
+    bump to 0.1.1
+
+commit cb412dd0985a91b64f5d23f7d01c898ef926a8a1
+Merge: 4b0f022 461642d
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Fri Jul 15 13:47:28 2016 -0500
+
+    Merge pull request #2 from jasongrout/next
+    
+    0.0.13
+
+commit 461642d5f2f9a28c665b57e1d8050def70bd5965
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Fri Jul 15 13:30:20 2016 -0500
+
+    fix update issues
+
+commit 4a21e2c5e99c72b56ab5964338b1a4584335ba6b
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Fri Jul 15 13:13:41 2016 -0500
+
+    0.0.13
+
+commit 4b0f022d3b909d198e05c25a3e33b6aa086d74b4
+Merge: 8a86097 e2f7210
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Wed Jun 29 06:34:05 2016 -0400
+
+    Merge pull request #1 from jasongrout/0.0.10
+    
+    Update to version 0.0.10
+
+commit 8a86097dee038a739f21f8626099cce90c09838a
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Jun 29 10:30:38 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 08dcfabbdfb4ec294ce3dab5ab69eb91fadbf4d2
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Jun 29 00:58:02 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit e2f7210bfa1cbc035c27d9feab7a581508a0b6ee
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Tue Jun 28 16:35:11 2016 -0400
+
+    Update to version 0.0.10
+
+commit d21cb72cbf4067385fbd0c350cab670d8150befe
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Jun 28 14:05:11 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 050a27e2aab1ac8028678e80b0c6f2afaa2b09e5
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Jun 28 14:00:03 2016 +0000
+
+    Initial commit of the jupyterlab feedstock.

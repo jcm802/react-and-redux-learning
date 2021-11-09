@@ -1,0 +1,87 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/b85f92c6-532f-477a-492e-a7c5ce34ead0/volume/rsync-recipes/h5py-2.10.0-python_3.8-on-osx, last modified Tue Jan 28 18:59:33 2020
+# ------------------------------------------------
+
+package:
+    name: h5py
+    version: 2.10.0
+source:
+    sha256: 2a8369f74d079dbfe35aebbf56b565a5d2e7bea6d3cdba682b4d456128a23b5e
+    url: https://github.com/h5py/h5py/archive/2.10.0.tar.gz
+build:
+    number: '0'
+    string: py38h3134771_0
+requirements:
+    build:
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_18
+        - compiler-rt 4.0.1 hcfea43d_1
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+    host:
+        - blas 1.0 mkl
+        - ca-certificates 2019.11.27 0
+        - certifi 2019.11.28 py38_0
+        - cython 0.29.14 py38h0a44026_0
+        - hdf5 1.10.4 hfa1e0ec_0
+        - intel-openmp 2019.4 233
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20181209 hb402a30_0
+        - libffi 3.2.1 h475c297_4
+        - libgfortran 3.0.1 h93005f0_2
+        - libiconv 1.15 hdd342a3_7
+        - mkl 2019.4 233
+        - mkl-service 2.3.0 py38hfbe908c_0
+        - ncurses 6.1 h0a44026_1
+        - numpy-base 1.11.3 py38h6575580_15
+        - numpy-devel 1.11.3 py38h4ba5984_15
+        - openssl 1.1.1d h1de35cc_3
+        - pip 20.0.2 py38_0
+        - pkg-config 0.29.2 h3efe00b_8
+        - pkgconfig 1.4.0 py38_0
+        - python 3.8.1 h359304d_1
+        - readline 7.0 h1de35cc_5
+        - setuptools 45.1.0 py38_0
+        - six 1.14.0 py38_0
+        - sqlite 3.30.1 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.33.6 py38_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - hdf5 >=1.10.4,<1.10.5.0a0
+        - numpy >=1.11.3,<2.0a0
+        - python >=3.8,<3.9.0a0
+        - six
+test:
+    imports:
+        - h5py
+    requires:
+        - pytest
+about:
+    description: 'H5py uses straightforward NumPy and Python metaphors, like dictionary
+        and
+
+        NumPy array syntax.
+
+        '
+    dev_url: https://github.com/h5py/h5py
+    doc_url: http://docs.h5py.org
+    home: http://www.h5py.org/
+    license: BSD-3-Clause
+    license_file: licenses/license.txt
+    summary: Read and write HDF5 files from Python.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - ocefpaf
+        - pitrou
+        - tacaswell

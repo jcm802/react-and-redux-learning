@@ -1,0 +1,26 @@
+{
+  "build": "py38h0a44026_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1",
+    "python >=3.8,<3.9.0a0",
+    "unixodbc >=2.3.7,<2.4.0a0"
+  ],
+  "features": "",
+  "fn": "pyodbc-4.0.30-py38h0a44026_0.conda",
+  "legacy_bz2_md5": "124b6029662ae15a190efdbf9135b269",
+  "legacy_bz2_size": 70510,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "9029f83330d12de3bcda06948bae18c1",
+  "name": "pyodbc",
+  "sha256": "50546eca6d2433c6bfee2d1305eb1e996ecd5b8639f4ccb6f5731a7241b22261",
+  "size": 65925,
+  "subdir": "osx-64",
+  "timestamp": 1581354030381,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pyodbc-4.0.30-py38h0a44026_0.conda",
+  "version": "4.0.30"
+}

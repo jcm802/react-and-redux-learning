@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "py_1",
+  "build_number": 1,
+  "depends": [
+    "backports",
+    "python"
+  ],
+  "license": "Python-2.0",
+  "license_family": "PSF",
+  "name": "backports.weakref",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1560422196084,
+  "version": "1.0.post1"
+}

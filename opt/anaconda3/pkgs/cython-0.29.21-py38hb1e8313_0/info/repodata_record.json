@@ -1,0 +1,25 @@
+{
+  "build": "py38hb1e8313_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=10.0.0",
+    "python >=3.8,<3.9.0a0",
+    "setuptools"
+  ],
+  "features": "",
+  "fn": "cython-0.29.21-py38hb1e8313_0.conda",
+  "legacy_bz2_md5": "770685778bbfc798d25e452ccaf9f282",
+  "legacy_bz2_size": 2112438,
+  "license": "Apache-2.0",
+  "md5": "23613e423aa7a032fadaa12fd0a51602",
+  "name": "cython",
+  "sha256": "50569af9b2a25dfdf89f4186f567cab96cdde41f683a5efd2f1d28be9d74633f",
+  "size": 1947568,
+  "subdir": "osx-64",
+  "timestamp": 1594835120949,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/cython-0.29.21-py38hb1e8313_0.conda",
+  "version": "0.29.21"
+}

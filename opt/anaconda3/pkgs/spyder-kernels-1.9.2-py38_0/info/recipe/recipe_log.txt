@@ -1,0 +1,639 @@
+commit 288f1b09150a4745dc29f90e479847aebf51938f
+Merge: b3c0b5b 6dd95e3
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Fri Jul 10 09:36:50 2020 -0500
+
+    Merge pull request #54 from regro-cf-autotick-bot/1.9.2_h23ebf1
+    
+    spyder-kernels v1.9.2
+
+commit 6dd95e36790b34af29daca33f61ff148291a02d5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jul 10 06:06:47 2020 +0000
+
+    updated v1.9.2
+
+commit b3c0b5b2773392b4353a942153b5f086ee8a59eb
+Merge: 7eabd5f 3c326b1
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Jul 8 13:48:01 2020 -0700
+
+    Merge pull request #52 from regro-cf-autotick-bot/rebuild-pypy-0-1
+    
+    Rebuild for pypy
+
+commit 3c326b163abe23e1cb1838491609c144b4544722
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Wed Jul 8 19:45:57 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.4, and conda-forge-pinning 2020.07.07.19.27.52
+
+commit 81bd7a6aff9e367eab87c1a43310743f47cd5819
+Merge: dc6f8f0 7eabd5f
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Jul 8 14:42:50 2020 -0500
+
+    Merge branch 'master' into rebuild-pypy-0-1
+
+commit 7eabd5f0a4ed1e8bf96c2c19b7680758b4bcd6e6
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Wed May 20 01:20:59 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit e2b0ed424b38408b9442de0963a5da8c5d282264
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon May 18 09:51:03 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit cfb926c6576a314005b938e4caf2771dcaf4b9ee
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Wed May 13 01:17:16 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TurnOff
+
+commit e554160a662311356751ce8e246878c52d83eb28
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue May 12 09:25:02 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 26a0c2ee83797dd55263b71882a66765288b8b91
+Merge: 76ba445 e06da5b
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed May 6 12:22:20 2020 -0500
+
+    Merge pull request #53 from regro-cf-autotick-bot/1.9.1_hf88af5
+    
+    spyder-kernels v1.9.1
+
+commit e06da5b578c819e23c4c1fa2622a18bdc59a9330
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed May 6 16:46:58 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.0, and conda-forge-pinning 2020.05.04.19.59.17
+
+commit 96f38d971ce7f3401cefd3ee25d55dc5130d651a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed May 6 16:46:15 2020 +0000
+
+    updated v1.9.1
+
+commit dc6f8f04b5f1e99cda257cc464400ce709a8d1ab
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Mar 27 02:49:44 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.1, conda-smithy 3.6.15, and conda-forge-pinning 2020.03.24
+
+commit aa4a8321782f53e80a882a7914cc09fabd60069e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Mar 27 02:49:16 2020 +0000
+
+    Rebuild for pypy
+
+commit 76ba4457e949833cf4f0be44d50d476b46fdd6f2
+Merge: 12959e1 76e23b9
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Mar 15 08:45:47 2020 -0500
+
+    Merge pull request #51 from regro-cf-autotick-bot/1.9.0
+    
+    spyder-kernels v1.9.0
+
+commit 76e23b950b502b3d3990fd5109309376be6e943d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Mar 14 19:34:40 2020 +0000
+
+    updated v1.9.0
+
+commit 12959e1980a9db9b6317f8757f268d460ea12b80
+Merge: b7ce736 d93d44a
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sat Mar 14 12:32:31 2020 -0500
+
+    Merge pull request #50 from regro-cf-autotick-bot/bot-pr_arch
+    
+    Arch Migrator
+
+commit d93d44a4cc47ccd4b99b8932f0eb61d2a17491bc
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Mar 14 06:42:28 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.0, conda-smithy 3.6.12, and conda-forge-pinning 2020.03.13
+
+commit 1db47d07b631f584e27ee435dadfd5ea6ce8eeb2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Mar 14 06:42:06 2020 +0000
+
+    migration: ArchRebuild
+
+commit b7ce736a54a5616954da59153b152a936dca8568
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue Mar 3 05:15:52 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 7c947cfdeddd3426b491adae428ac7e95bcfd53a
+Merge: 0cb0bf5 901a22e
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Thu Jan 30 10:20:14 2020 -0500
+
+    Merge pull request #49 from nerohmot/master
+    
+    Add aarch64 support
+
+commit 901a22e6d1e900e2d007154ace5175e454ea3a2d
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Jan 30 14:40:59 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.6, and conda-forge-pinning 2020.01.27
+
+commit 17d558158e7f5b3f3e0dcfc62084a26a0fe73395
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Fri Jan 24 11:45:03 2020 -0500
+
+    Change aarch64 provider to default
+
+commit a9d4edab7d00fd864d881290afc27a3a7f34742c
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Jan 16 16:53:46 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2020.01.10
+
+commit 257f004ddb37022c54a366260c9e634df1ed8a86
+Author: Tom Hören <horen.tom@gmail.com>
+Date:   Thu Jan 16 17:48:02 2020 +0100
+
+    added aarch64 support
+
+commit 0cb0bf5bdc6d4181fdf96f92f10f40d9634720e6
+Merge: f44a527 2378a42
+Author: Marcel Bargull <mbargull@users.noreply.github.com>
+Date:   Mon Jan 13 14:17:23 2020 +0000
+
+    Merge pull request #46 from conda-forge-linter/conda_forge_admin_45
+    
+    MNT: rerender
+
+commit 2378a428f64ba5c1d824e412d9634c6070f05041
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Jan 13 12:35:51 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2020.01.10
+
+commit f44a527796a01e300932bcb056e54b8c78b8a49b
+Merge: 97ddcb3 d648fca
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Jan 12 23:56:36 2020 -0500
+
+    Merge pull request #42 from regro-cf-autotick-bot/rebuild-python3801
+    
+    Rebuild for python38
+
+commit d648fcae80c35c74de5ab59b0318774ca0af375a
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Jan 12 15:56:40 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2020.01.10
+
+commit 97ddcb306b1c7aa16c8dc374aed732dcf87fe776
+Merge: e1828ab 584a944
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Thu Dec 5 16:24:02 2019 -0500
+
+    Merge pull request #44 from regro-cf-autotick-bot/1.8.1
+    
+    spyder-kernels v1.8.1
+
+commit 584a944399ea89cf071d3bef57eb01be577852d0
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Dec 5 20:51:23 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.3, and conda-forge-pinning 2019.12.02
+
+commit 5b17f75f21b11d0efb492dc7eb514e6183864b12
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Thu Dec 5 15:49:11 2019 -0500
+
+    Don't move this package to the beta label anymore
+
+commit bf3988b3a612201abf343041b7a047e8090dc500
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Dec 5 20:23:16 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.3, and conda-forge-pinning 2019.12.02
+
+commit cbbe573423ab8ba55a7094bd99a9f4840d9d3dea
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Dec 5 20:22:58 2019 +0000
+
+    updated v1.8.1
+
+commit f62a4004c59eca8f362669b5b74d7c6778559aa3
+Merge: 821aa8b e1828ab
+Author: Marcel Bargull <marcel.bargull@udo.edu>
+Date:   Wed Nov 27 14:39:11 2019 +0100
+
+    Merge branch 'upstream/master' into rebuild-python3801
+
+commit e1828ab3f5ad1ef743df918213f8f7a987caed2e
+Merge: d73164e 45b6cea
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Nov 17 23:31:50 2019 -0500
+
+    Merge pull request #43 from ccordoba12/v1.8.0
+    
+    Update to v1.8.0
+
+commit 45b6cea4e6bbc7270cf26d2dc246e08a3b57a9c4
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Nov 18 04:23:33 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.2, and conda-forge-pinning 2019.11.14
+
+commit a1c8af20c1a83bc4e4d7336de6188e8a25c21689
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Nov 17 23:21:26 2019 -0500
+
+    Update to v1.8.0
+
+commit 821aa8b5d2273ec7fa549f2e550dc21e71597d6a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Nov 5 20:22:51 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.1, and conda-forge-pinning 2019.11.01
+
+commit de529ec73c37767b4453d907811effe64727641b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Nov 5 20:22:33 2019 +0000
+
+    bump build number
+
+commit d73164e2feb48fa017b8151e6a10dfef21df8f7a
+Merge: 5159a74 a0e6a3a
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sat Nov 2 15:36:48 2019 -0500
+
+    Merge pull request #41 from regro-cf-autotick-bot/1.7.0
+    
+    spyder-kernels v1.7.0
+
+commit a0e6a3adcffc5baf7c9ea16bfdb7d724f15efd12
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sat Nov 2 15:23:44 2019 -0500
+
+    Update dependencies
+
+commit 589e66e825eddfac5769d7d228af8d29cae422c9
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 2 20:17:18 2019 +0000
+
+    updated v1.7.0
+
+commit 5159a749f2db6254b40d6922f0c926da25b1fd93
+Merge: c2b98da 60db6d5
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Oct 16 13:01:22 2019 -0500
+
+    Merge pull request #40 from ccordoba12/v1.6.0
+    
+    Update to 1.6.0
+
+commit 60db6d5c287611f0ee83cb0a5264724f6dd13f1f
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Oct 16 17:44:39 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.10, conda-smithy 3.6.0, and conda-forge-pinning 2019.10.11
+
+commit 736d6f4c5691854dadc694b3db52c89f1d31f66d
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Oct 16 12:42:41 2019 -0500
+
+    Update to 1.6.0
+
+commit c2b98da9ab79d711388c4769a75a44faadedd928
+Merge: c5a3f47 f7a01a3
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Sep 15 08:49:21 2019 -0500
+
+    Merge pull request #39 from ccordoba12/v1.5.0
+    
+    Update to 1.5.0
+
+commit f7a01a33ae9dcb7b37408d8acb98ca1077926ffd
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Sep 15 13:38:06 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.6, and conda-forge-pinning 2019.09.08
+
+commit 1b09d15f5fa474c8e640b0d598285d05491c5b75
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Sep 15 15:36:11 2019 +0200
+
+    Update to 1.5.0
+
+commit c5a3f474c33284e064c787bbdec117a993f57400
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 19:51:18 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit 5b9c3ac5ce18338265b3c3f9d3c9c701dedd5383
+Merge: a4b3c60 d04c28b
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Mon Jun 24 06:18:37 2019 -0500
+
+    Merge pull request #36 from regro-cf-autotick-bot/1.4.0
+    
+    spyder-kernels v1.4.0
+
+commit d04c28b07b219d2500e28602d098363b495d6f7e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jun 24 10:28:26 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.4, conda-smithy 3.3.7, and conda-forge-pinning 2019.06.19
+
+commit 37ef48d977cd74920ac1ee4ed55828df491661ce
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jun 24 10:28:10 2019 +0000
+
+    updated v1.4.0
+
+commit a4b3c6033196b9ae873440f8a7ee0529c4c407dc
+Merge: 8b5b951 bbbd4fd
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Mon Apr 8 06:46:27 2019 -0500
+
+    Merge pull request #33 from regro-cf-autotick-bot/1.3.3
+    
+    spyder-kernels v1.3.3
+
+commit bbbd4fdc9f4ed23b8e568f873c40e691c0f7abc5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Apr 8 11:31:29 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.2, and conda-forge-pinning 2019.03.17
+
+commit 2b10c262f71112f89db29464de2e07d6328ad45b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Apr 8 11:31:15 2019 +0000
+
+    updated v1.3.3
+
+commit 8b5b951005a4053f4744559d05b291d809a5748f
+Merge: 0e4fe3e 5ea89ee
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Mon Feb 11 09:22:31 2019 +0100
+
+    Merge pull request #31 from regro-cf-autotick-bot/1.3.2
+    
+    spyder-kernels v1.3.2
+
+commit 5ea89ee8bde03bd1cc283e16ce245ea1f196bcd7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Feb 10 13:12:33 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.13, and conda-forge-pinning 2019.01.29
+
+commit 8e83199583261399ccfad18d40d5679f20ca0a18
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Feb 10 13:12:22 2019 +0000
+
+    updated v1.3.2
+
+commit 0e4fe3ee1dd0a640db5c504cf20309a35cb05d1f
+Merge: b3305c4 f5aadf1
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Mon Feb 4 09:16:35 2019 +0100
+
+    Merge pull request #29 from regro-cf-autotick-bot/1.3.1
+    
+    spyder-kernels v1.3.1
+
+commit f5aadf1c2fb5c99f02359f8446f62e884cd2d49f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Feb 3 22:14:20 2019 +0000
+
+    updated v1.3.1
+
+commit b3305c4649102596cb749a4f0ac65d81b72e3d5e
+Merge: a8f0d92 2ca0b6b
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Feb 3 10:25:33 2019 +0100
+
+    Merge pull request #27 from regro-cf-autotick-bot/1.3.0
+    
+    spyder-kernels v1.3.0
+
+commit 2ca0b6b683bbac64ba08b87cc618ffdf65bb4181
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Feb 2 19:14:10 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.12, and conda-forge-pinning 2019.01.29
+
+commit 5699380c8f2297dcdc1c6af18c45135122d54bb8
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Feb 2 19:13:59 2019 +0000
+
+    updated v1.3.0
+
+commit a8f0d92e1a14e843599a8876efa3ffa22509bf2b
+Merge: 7ecf46b 3b69fd2
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sat Dec 29 12:36:23 2018 -0500
+
+    Merge pull request #25 from ccordoba12/use-beta-channel
+    
+    Move 1.0+ versions to the beta channel
+
+commit 3b69fd2825963841b455fd80bccfc45cadc5cd0d
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Dec 27 01:29:59 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2018.12.18
+
+commit 89122e044ec909477b5de6993e72e0e59bbd6a35
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Dec 26 20:23:19 2018 -0500
+
+    Move 1.0+ versions to the beta channel
+
+commit 7ecf46b607b43178088ccfd28baa296209f5ffcf
+Merge: 4e29d61 128d704
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Dec 26 18:26:13 2018 -0500
+
+    Merge pull request #23 from regro-cf-autotick-bot/1.2.0
+    
+    spyder-kernels v1.2.0
+
+commit 128d7049d6f7cc87c5e3ec65be9e4b69d9bb71af
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Dec 26 23:07:26 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2018.12.18
+
+commit 5af8e87fe665624f0e6563d7b90f154995ca7779
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Dec 26 18:05:55 2018 -0500
+
+    Increase max_py_ver
+
+commit 16b8b02ac04a8f43f4c58c335e7331684f4f130e
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Dec 26 22:38:36 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2018.12.18
+
+commit d63a8ead9f081987c8a85f4d7fde9a44186b84b8
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Dec 26 17:37:52 2018 -0500
+
+    Port changes from 0.x branch
+
+commit f1cc8aacce4148babd008ad21f248dee60de281b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Dec 26 20:13:36 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2018.12.18
+
+commit 27963512ebe5978f0ee024e83d1f8c50cca071f1
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Dec 26 20:13:30 2018 +0000
+
+    updated v1.2.0
+
+commit 4e29d61a81092d0e7a54473880183bcc6d40c686
+Merge: f1f4fca 5784b15
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sat Aug 11 22:46:10 2018 -0500
+
+    Merge pull request #13 from ccordoba12/v1.1
+    
+    Update to 1.1.0
+
+commit 5784b15693efe69cc39c77b05d6a57de103f1fa5
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sat Aug 11 17:21:35 2018 -0500
+
+    Update to 1.1.0
+
+commit f1f4fcadaa23e2de176ce7c1d6b3d6a157e04731
+Merge: 750504c 9a8ac42
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Thu Aug 9 21:23:09 2018 -0500
+
+    Merge pull request #11 from regro-cf-autotick-bot/1.0.3
+    
+    spyder-kernels v1.0.3
+
+commit 9a8ac4289a922fbaeea7766cd78462c4163dae53
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Thu Aug 9 21:10:21 2018 -0500
+
+    Fix License file and update pins
+
+commit 90c08fc0b615791f6b8025dfbf782c6872e4b875
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Aug 9 23:17:07 2018 +0000
+
+    updated v1.0.3
+
+commit 750504c4072852b81935e37746d6ac16d6696cfa
+Merge: 351689d c279daa
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Aug 5 21:32:44 2018 -0500
+
+    Merge pull request #8 from CAM-Gerlach/update-desc-metadata-master
+    
+    Update description and metadata on master
+
+commit c279daa7b5608e1fbdfab1e0c281836193dc0bfc
+Author: C.A.M. Gerlach <widenetservices@gmail.com>
+Date:   Sun Aug 5 20:34:34 2018 -0500
+
+    Rerender feedstock with conda-smithy after meta.yaml change
+
+commit 13a560c50442571bd484317abb3b0d567eec0d1b
+Author: C.A.M. Gerlach <widenetservices@gmail.com>
+Date:   Sun Aug 5 20:30:32 2018 -0500
+
+    Increment build number
+
+commit 73c60b561a5d231f480cbfc790dac9395c5f4eca
+Author: C.A.M. Gerlach <widenetservices@gmail.com>
+Date:   Sun Aug 5 20:30:11 2018 -0500
+
+    Update master readme with desc and URL changes from PR #7 for 0.x
+
+commit 351689d2acaa5d93742d6819b5a0af480d6ec7fa
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 18:28:55 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 45f7ed3d3b2ddc1d70e4e84624fbdfba4d0b269e
+Merge: a4161d3 4a6beaf
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sat Jul 21 15:15:08 2018 -0500
+
+    Merge pull request #5 from regro-cf-autotick-bot/noarch_migration
+    
+    Suggestion: add noarch
+
+commit 4a6beaf19359a3bc8f8bba036c90514567cca4bf
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jul 7 20:44:33 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.01
+
+commit 71c66383cefb99604270081cd010ca89450db656
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jul 7 20:44:28 2018 +0000
+
+    add noarch
+
+commit a4161d3be9328735b4d0fee9dab35b8cb994ffbe
+Merge: d193536 71601db
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Mon Jun 25 15:23:54 2018 -0500
+
+    Merge pull request #4 from ccordoba12/v1.0.1
+    
+    Update to 1.0.1
+
+commit 71601db041593458d9e213c2fcda595b54f27e9c
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Mon Jun 25 15:11:26 2018 -0500
+
+    Update to 1.0.1
+
+commit d1935364c7fbc96208e7d3b3cc7fa2288880aadc
+Merge: 75ae5b7 821a24d
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Jun 24 20:20:19 2018 -0500
+
+    Merge pull request #2 from ccordoba12/v1.0.0
+    
+    Update to 1.0.0
+
+commit 821a24d3ac6503c45dd551e4e8c4bb3c9bce97b4
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Jun 24 18:09:12 2018 -0500
+
+    Update to 1.0.0
+
+commit 75ae5b74367ed780c0ed096505e3a1c3700808b3
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Jun 22 22:35:50 2018 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 92d1e31beae9c5dd31c5ffac2624af97f38a0554
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Jun 22 22:30:31 2018 +0000
+
+    Initial feedstock commit with conda-smithy 3.1.6.

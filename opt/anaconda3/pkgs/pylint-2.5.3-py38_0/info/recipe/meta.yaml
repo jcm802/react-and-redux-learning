@@ -1,0 +1,90 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/0a2a544e-806a-4267-74b2-a3f95578c3f2/volume/rsync-recipes/pylint-2.5.3-python_3.8-on-osx, last modified Thu Jun 18 10:53:58 2020
+# ------------------------------------------------
+
+package:
+    name: pylint
+    version: 2.5.3
+source:
+    sha256: 7dd78437f2d8d019717dbf287772d0b2dbdfd13fc016aa7faa08d67bccc46adc
+    url: https://pypi.io/packages/source/p/pylint/pylint-2.5.3.tar.gz
+build:
+    entry_points:
+        - epylint = pylint:run_epylint
+        - pylint = pylint:run_pylint
+        - pyreverse = pylint:run_pyreverse
+        - symilar = pylint:run_symilar
+    number: '0'
+    script: /opt/concourse/worker/volumes/live/0a2a544e-806a-4267-74b2-a3f95578c3f2/volume/pylint_1592498630326/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/bin/python
+        -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+    string: py38_0
+requirements:
+    host:
+        - attrs 19.3.0 py_0
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.4.5.2 py38_0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20181209 hb402a30_0
+        - libffi 3.3 h0a44026_1
+        - more-itertools 8.4.0 py_0
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - packaging 20.4 py_0
+        - pip 20.1.1 py38_1
+        - pluggy 0.13.1 py38_0
+        - py 1.8.2 py_0
+        - pyparsing 2.4.7 py_0
+        - pytest 5.4.3 py38_0
+        - pytest-runner 5.2 py_0
+        - python 3.8.3 h26836e1_1
+        - readline 8.0 h1de35cc_0
+        - setuptools 47.3.0 py38_0
+        - six 1.15.0 py_0
+        - sqlite 3.31.1 h5c1f38d_1
+        - tk 8.6.8 ha441bb4_0
+        - wcwidth 0.2.4 py_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - astroid >=2.4.0,<2.5
+        - isort >=4.2.5,<5
+        - mccabe >=0.6,<0.7
+        - python >=3.8,<3.9.0a0
+        - toml >=0.7.1
+test:
+    commands:
+        - pylint --help
+        - type epylint
+        - pyreverse --help
+        - symilar --help
+    imports:
+        - pylint
+        - pylint.checkers
+        - pylint.extensions
+        - pylint.pyreverse
+        - pylint.reporters
+        - pylint.reporters.ureports
+about:
+    description: 'Pylint is a tool that checks for errors in Python code, tries to
+        enforce a
+
+        coding standard and looks for code smells.
+
+        '
+    dev_url: https://github.com/PyCQA/pylint/
+    doc_source_url: https://github.com/PyCQA/pylint/blob/master/doc/index.rst
+    doc_url: https://pylint.readthedocs.io/en/latest/
+    home: http://www.pylint.org/
+    license: GPL-2.0-only
+    license_file: COPYING
+    summary: python code static checker
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - goanpeca
+        - jakirkham
+        - jjhelmus
+        - timleslie

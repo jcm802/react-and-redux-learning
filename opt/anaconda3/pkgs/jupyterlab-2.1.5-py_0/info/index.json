@@ -1,0 +1,25 @@
+{
+  "app_entry": "jupyter lab",
+  "app_type": "desk",
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "jinja2 >=2.10",
+    "jupyterlab_server >=1.1.0,<2.0.0",
+    "notebook >=4.3.1",
+    "python >=3.5",
+    "tornado !=6.0.0,!=6.0.1,!=6.0.2"
+  ],
+  "icon": "717340b6962ac8f292a17e7fa60ab5e7.png",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "jupyterlab",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "summary": "JupyterLab PRE-ALPHA",
+  "timestamp": 1593447259410,
+  "type": "app",
+  "version": "2.1.5"
+}

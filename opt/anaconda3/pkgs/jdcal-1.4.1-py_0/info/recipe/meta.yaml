@@ -1,0 +1,58 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/jdcal-1.4.1-on-linux_canary, last modified Mon Apr 29 15:11:52 2019
+# ------------------------------------------------
+
+package:
+    name: jdcal
+    version: 1.4.1
+source:
+    fn: jdcal-1.4.1.tar.gz
+    sha256: 472872e096eb8df219c23f2689fc336668bdb43d194094b5cc1707e1640acfc8
+    url: https://pypi.io/packages/source/j/jdcal/jdcal-1.4.1.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py_0
+requirements:
+    host:
+        - ca-certificates 2019.1.23 0
+        - certifi 2019.3.9 py27_0
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 8.2.0 hdf63c60_1
+        - libstdcxx-ng 8.2.0 hdf63c60_1
+        - ncurses 6.1 he6710b0_1
+        - openssl 1.1.1b h7b6447c_1
+        - pip 19.1 py27_0
+        - python 2.7.16 h9bab390_0
+        - readline 7.0 h7b6447c_5
+        - setuptools 41.0.0 py27_0
+        - sqlite 3.28.0 h7b6447c_0
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.33.1 py27_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python
+test:
+    imports:
+        - jdcal
+about:
+    description: 'This module contains functions for converting between Julian dates
+        and calendar dates.
+
+        '
+    dev_url: https://github.com/phn/jdcal
+    doc_source_url: https://github.com/phn/jdcal/blob/master/README.rst
+    doc_url: https://github.com/phn/jdcal/blob/master/README.rst
+    home: https://github.com/phn/jdcal
+    license: BSD 2-Clause
+    license_family: BSD
+    license_file: LICENSE.txt
+    summary: Julian dates from proleptic Gregorian and Julian calendars.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - curtisalexander

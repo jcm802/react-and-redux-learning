@@ -1,0 +1,18 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "et_xmlfile",
+    "jdcal",
+    "python >=3.6"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "openpyxl",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1594167414549,
+  "version": "3.0.4"
+}

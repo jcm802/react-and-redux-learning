@@ -1,0 +1,65 @@
+{
+  "build": "py38h04f5b5a_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/msgpack-python-1.0.0-py38h04f5b5a_1",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/msgpack-1.0.0.dist-info/COPYING",
+    "lib/python3.8/site-packages/msgpack-1.0.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/msgpack-1.0.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/msgpack-1.0.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/msgpack-1.0.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/msgpack-1.0.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/msgpack/__init__.py",
+    "lib/python3.8/site-packages/msgpack/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/msgpack/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/msgpack/__pycache__/exceptions.cpython-38.pyc",
+    "lib/python3.8/site-packages/msgpack/__pycache__/ext.cpython-38.pyc",
+    "lib/python3.8/site-packages/msgpack/__pycache__/fallback.cpython-38.pyc",
+    "lib/python3.8/site-packages/msgpack/_cmsgpack.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/msgpack/_version.py",
+    "lib/python3.8/site-packages/msgpack/exceptions.py",
+    "lib/python3.8/site-packages/msgpack/ext.py",
+    "lib/python3.8/site-packages/msgpack/fallback.py"
+  ],
+  "fn": "msgpack-python-1.0.0-py38h04f5b5a_1.conda",
+  "legacy_bz2_md5": "2cfecfddb97481fe94b64a3576858a82",
+  "legacy_bz2_size": 90599,
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/msgpack-python-1.0.0-py38h04f5b5a_1",
+    "type": 1
+  },
+  "md5": "b518902dce561cef9c7f2b7e697e0017",
+  "name": "msgpack-python",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/msgpack-python-1.0.0-py38h04f5b5a_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/msgpack/_cmsgpack.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/83208558-2af4-414c-456f-5e8b625c4ffc/volume/msgpack-python_1585079204824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "fbef12ad272f49a5daa6a6be8b9e48fcee769bcd5dcd8136c11af7d9e8d6159f",
+        "sha256_in_prefix": "274bbbef5b2c9ee5d09b190d3994115957582fcb3fc8edbc01d58226137595fd",
+        "size_in_bytes": 147132
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "msgpack-python==1.0.0=py38h04f5b5a_1",
+  "sha256": "ea81665a2b7302d7b3904876a4e14812d69fec622a54c994e3eb99ab3c3e6904",
+  "size": 83062,
+  "subdir": "osx-64",
+  "timestamp": 1585079419215,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/msgpack-python-1.0.0-py38h04f5b5a_1.conda",
+  "version": "1.0.0"
+}

@@ -1,0 +1,221 @@
+commit a1a427a8aebf5d1135f06ef3fbf4aeef2d1b76d8
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Mar 28 02:09:26 2018 -0500
+
+    Reduce optimization level for linux-32 build
+
+commit dda77719b7dfc2264361a7c692698549a4d2fa69
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Mar 28 02:09:02 2018 -0500
+
+    Add run_exports section
+
+commit d5b4a8d9d2ae9eaa23859eb1036871ef32280ebe
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Mar 7 11:34:57 2018 -0600
+
+    add make as build dep on ppc64le
+
+commit a1fb3dea25e9c52a996a268126b60a55e946c678
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Jul 13 11:49:41 2017 +0000
+
+    Simplify recipe for CB3
+
+commit 6204fe7397392e614dab4435588afd56692efd44
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Aug 27 17:37:31 2017 +0100
+
+    Remove MACOSX_DEPLOYMENT_TARGET=10.7
+
+commit 5473b60c3e8a8a413fcd1233ef2648b291a4436b
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Aug 27 17:27:57 2017 +0100
+
+    Generalize logging
+
+commit 39c064402b8840c6a265362b625b10816fe16a00
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Mar 27 12:03:19 2018 -0500
+
+    Update vs2008 solution files for v1.0.16
+
+commit fa188885cde56126b2847e154097dd87f94a1435
+Author: Travis CI User <travis@example.org>
+Date:   Thu Mar 1 23:05:21 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit eb8b18e69873995c0a2121b514d16ce77e576a8f
+Author: Travis CI User <travis@example.org>
+Date:   Thu Mar 1 23:04:53 2018 +0000
+
+    updated v1.0.16
+
+commit 3a29864d6ccd706760b9b07e3d553214940aa47c
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Nov 19 18:00:56 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 4d77246efd2632fb5a04a093c61d0ecedb7b7bb2
+Merge: d5dfed0 54e48ad
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Nov 19 12:27:28 2017 -0500
+
+    Merge pull request #8 from AnacondaRecipes/cf_sync
+    
+    Fix support for win
+
+commit 54e48ad102da2ee39e611975c804da0ebcb4f7b3
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Nov 19 05:36:49 2017 +0000
+
+    Bump build number
+
+commit 95804bc7804fd69938b24705a342bbad4fb21b4d
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sat Nov 18 14:08:21 2017 -0600
+
+    Fix support for win
+    
+    - Make sure version.h is generated using the vbs script
+    - Make sure the symbols are exported properly for the generated libs
+    - Make sure include\sodium is copied correctly
+
+commit d5dfed007cd874385c6a89c0337cab79b8794b33
+Merge: 5329ac5 7f8d4da
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Oct 26 09:50:48 2017 +0200
+
+    Merge pull request #7 from nehaljwani/bump-version-1.0.15
+    
+    Bump version, add support for win
+
+commit 7f8d4da47e8898869fb740ba284cd0034066da6d
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Oct 21 13:14:23 2017 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.2
+
+commit b411740e0f439d5a5d257f74f74945f86585684a
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sat Oct 21 05:14:51 2017 -0500
+
+    Bump version, add support for win
+
+commit ed724913f544d0247bb8641a929b7982a48f14f2
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sat Oct 21 05:14:51 2017 -0500
+
+    Bump version, add support for win
+
+commit 5329ac58cbac5d678e62b662f242993bed175c41
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:19:41 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 44ffccb353c23098da665dfe3b95ceea2b33f06f
+Merge: fa28a5a 78ebd45
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Jan 20 11:51:01 2017 -1000
+
+    Merge pull request #6 from jakirkham/re-render__master__2.0.0
+    
+    MNT: Re-rendered with conda-smithy 2.0.0 [ci skip]
+
+commit 78ebd45e4263c1c6d221b0a612d2abbb30571e68
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Jan 17 20:27:20 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 2.0.0
+
+commit fa28a5a082d680ca5b0e1d9df5bed59bdd301497
+Merge: 7c3ac35 e52a6ee
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Jan 12 10:38:06 2017 -0500
+
+    Merge pull request #5 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit e52a6eeb1678172ef8fd1102ecce8dd1d5697b5b
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Jan 12 01:35:22 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.7.0.
+
+commit 7c3ac359bb345688ace655921d00ca77bf53f834
+Merge: 0f62524 764ef22
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Jun 24 12:09:57 2016 +0100
+
+    Merge pull request #4 from jakirkham/bump_1_0_10
+    
+    Bump to version 1.0.10
+
+commit 764ef225c35729f189652c3196cb026141a4d476
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Jun 20 15:04:57 2016 -0400
+
+    recipe: Bump to version 1.0.10.
+
+commit 0f6252400220eddcde5e43bdf09162f1b6ba8a8d
+Merge: c3d0c58 792803b
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue May 17 18:35:28 2016 -0400
+
+    Merge pull request #3 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit 792803ba16daaa0640615b4eda537981c5e976b3
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue May 17 21:43:48 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.3.
+    
+    [ci skip]
+
+commit c3d0c58b481706595322731fa9cc6ae44d7b4717
+Merge: 1be6637 8fb3ca0
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Apr 5 23:40:54 2016 -0400
+
+    Merge pull request #2 from jakirkham/add_minrk
+    
+    Add minrk
+
+commit 8fb3ca02c2f41a5ce68196d563c09ed5770ce751
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Apr 5 23:29:39 2016 -0400
+
+    recipe: Add @minrk as a maintainer.
+
+commit 1be6637a75153bca52d536177eaf9cdb9a99f4b6
+Merge: c4bf900 bd899a7
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Apr 5 23:25:37 2016 -0400
+
+    Merge pull request #1 from jakirkham/re_render_0_8_3
+    
+    Re-render using conda-smithy v0.8.3
+
+commit bd899a7ea7c2b79c675f6d634b8fc057757cbf4a
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Apr 5 23:21:10 2016 -0400
+
+    Re-render using conda-smithy v0.8.3.
+
+commit c4bf9009524a3018927fdc09221aed5084b5fdb5
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Apr 3 03:40:00 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 3b7aec0a5538deddca1a20fb904b18e61e939ca5
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Apr 3 03:39:19 2016 +0000
+
+    Initial commit of the libsodium feedstock.

@@ -1,0 +1,21 @@
+{
+  "build": "h1de35cc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "libsodium-1.0.18-h1de35cc_0.conda",
+  "legacy_bz2_md5": "b622efec408361995816c7ded7b5625a",
+  "legacy_bz2_size": 365163,
+  "license": "ISC",
+  "md5": "dc65d21181274fa72d5eea2ba9cc1c35",
+  "name": "libsodium",
+  "sha256": "6c3adf188a1d522fd2b7c0dd69afb2ef93acf887b7c253715af6ee3c6c17cc8d",
+  "size": 242133,
+  "subdir": "osx-64",
+  "timestamp": 1581701250028,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/libsodium-1.0.18-h1de35cc_0.conda",
+  "version": "1.0.18"
+}

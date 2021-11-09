@@ -1,0 +1,185 @@
+commit 223e57144f5bd441984e0c4c83ce7f18a8bf866d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Sep 9 16:25:26 2017 +0100
+
+    Add sphinxcontrib namespace package dependency
+
+commit c040a2ea913bc780d0a08dc47082810bda6a2551
+Merge: 0458c9c 01e39f2
+Author: chris <mail@chohner.com>
+Date:   Sun Jun 28 13:32:29 2020 +0200
+
+    Merge pull request #8 from regro-cf-autotick-bot/1.2.3_hdb1b3b
+    
+    sphinxcontrib-websupport v1.2.3
+
+commit 01e39f253da54d09bd1eccf1aabcff729439e025
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jun 27 14:14:33 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.3, and conda-forge-pinning 2020.06.24.16.31.11
+
+commit ea8f3ec81bb2457011ea9dc3cb047edb4b3aba3d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jun 27 14:13:24 2020 +0000
+
+    updated v1.2.3
+
+commit 0458c9c605e9d80588fc55f1c071c7a621aacb8f
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Wed May 20 00:46:20 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 0ed502ec78ceeaaa4c92319cdcf23e670c9bc867
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon May 18 09:49:19 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit cc963c09f2a445c4642546001fd285410cb351f1
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Wed May 13 01:15:30 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TurnOff
+
+commit dab5e0bb3a9ebcbe83761f76dd3732a59c7137a1
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue May 12 09:14:57 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit f14c002210da2d2608ec2a568265c7f6d17d2583
+Merge: 2b86731 38990af
+Author: chris <mail@chohner.com>
+Date:   Wed Apr 29 13:10:27 2020 +0200
+
+    Merge pull request #7 from regro-cf-autotick-bot/1.2.2_hde6bb0
+    
+    sphinxcontrib-websupport v1.2.2
+
+commit 38990af4fe151c005bec64dcf5391341e7c6cdde
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Apr 29 08:43:50 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.0, and conda-forge-pinning 2020.04.28.13.02.26
+
+commit 3a237305988e78d200b5d5dcc281ff5a42c378ad
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Apr 29 08:43:11 2020 +0000
+
+    updated v1.2.2
+
+commit 2b867311eeab41c2f57716e941fb723b4b5b4fea
+Merge: 3216f2d 3896004
+Author: chris <mail@chohner.com>
+Date:   Sat Mar 21 19:07:30 2020 +0100
+
+    Merge pull request #6 from regro-cf-autotick-bot/1.2.1
+    
+    sphinxcontrib-websupport v1.2.1
+
+commit 389600412666f2ab411a771f0e02c45351596029
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Mar 21 09:28:13 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.1, conda-smithy 3.6.14, and conda-forge-pinning 2020.03.20
+
+commit 5e29a2b61b2509bacb4f12369f2720b5c64d66ff
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Mar 21 09:27:40 2020 +0000
+
+    updated v1.2.1
+
+commit 3216f2d752b5736c3549e1e94d59936c16ebcad4
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue Mar 3 05:14:41 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 3684f7384349b8c4d9f20497a005d8486b254b06
+Merge: f936207 ea2b031
+Author: chris <mail@chohner.com>
+Date:   Mon May 20 01:01:57 2019 +0200
+
+    Merge pull request #4 from regro-cf-autotick-bot/1.1.2
+    
+    sphinxcontrib-websupport v1.1.2
+
+commit ea2b0315a21f0b4655e7dcd57d17e100d2f003e4
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun May 19 10:25:40 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.4, and conda-forge-pinning 2019.05.11
+
+commit ed9cafa11445444c5d453630895042c5a0b7d0c2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun May 19 10:25:29 2019 +0000
+
+    updated v1.1.2
+
+commit f9362077b783226a69a8e275ea48f25740ad4c62
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 18:17:35 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit e1600daed7c096bc131492137236ca901222d7ae
+Merge: 3fc6ae9 4262f7f
+Author: chris <mail@chohner.com>
+Date:   Mon Jul 9 11:50:52 2018 +0200
+
+    Merge pull request #2 from regro-cf-autotick-bot/noarch_migration
+    
+    Suggestion: add noarch
+
+commit 4262f7fb24f4e738e98840c9fe9f07acc99b5aa7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jul 9 09:48:13 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.01
+
+commit e65bb853862fcfb6267c98e1c228bb80bf3047da
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jul 9 09:48:08 2018 +0000
+
+    add noarch
+
+commit 3fc6ae9fc31e4863d1d64b826916028c839259c0
+Merge: eff750b e68e333
+Author: chris <mail@chohner.com>
+Date:   Wed Jun 6 12:03:59 2018 +0200
+
+    Merge pull request #1 from regro-cf-autotick-bot/1.1.0
+    
+    sphinxcontrib-websupport v1.1.0
+
+commit e68e333ce3f775679b7426fb51c8c6a18b093251
+Author: Travis CI User <travis@example.org>
+Date:   Tue Jun 5 17:46:01 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.5 and pinning 2018.05.22
+
+commit 7cf38ddeffe50608e96556ce225d9c070f518fd4
+Author: Travis CI User <travis@example.org>
+Date:   Tue Jun 5 17:45:33 2018 +0000
+
+    updated v1.1.0
+
+commit eff750b9d8a2d7a5cc82ad3da5b7c05ac44fbcd3
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 21:52:40 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 5b9255bf6d0bc6db21665f4c232dc3b15cf1a999
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed May 17 21:00:30 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 8474daf95ac543277df0c0fad1f67f6b7da350cb
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed May 17 20:58:05 2017 +0000
+
+    Initial feedstock commit with conda-smithy 2.3.1.

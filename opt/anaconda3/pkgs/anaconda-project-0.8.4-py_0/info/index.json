@@ -1,0 +1,20 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "anaconda-client",
+    "python",
+    "requests",
+    "ruamel_yaml",
+    "tornado >=4.2"
+  ],
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "name": "anaconda-project",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1571960110792,
+  "version": "0.8.4"
+}

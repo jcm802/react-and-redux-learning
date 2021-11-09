@@ -1,0 +1,105 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.8/site-packages/bitarray-1.4.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.8/site-packages/bitarray-1.4.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "6d3166bbd42f13269b1e8826dd35e4bb64a89e39932fb0ca5d0297116af04006",
+      "size_in_bytes": 941
+    },
+    {
+      "_path": "lib/python3.8/site-packages/bitarray-1.4.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "1db5df41f70a89dfcde00bc275373f6ba81001ac2d0ca4b23e1f7c7ac89e449f",
+      "size_in_bytes": 1193
+    },
+    {
+      "_path": "lib/python3.8/site-packages/bitarray-1.4.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "1e273806bec7caa425a3f5818962b9f14bc4a200a75a79f4d13387274314aa97",
+      "size_in_bytes": 109
+    },
+    {
+      "_path": "lib/python3.8/site-packages/bitarray-1.4.0.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "d081d4a24264f1ae508e2fb291b10f884f24b72863a80c60b545aed100d49a37",
+      "size_in_bytes": 140
+    },
+    {
+      "_path": "lib/python3.8/site-packages/bitarray-1.4.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "70b7687881e8b53c21e1e1d27bcab2f2e985ef3cf2c5433dd08f3315bdbfc618",
+      "size_in_bytes": 9
+    },
+    {
+      "_path": "lib/python3.8/site-packages/bitarray/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "22c537eb4e3828893f8cd2990d8601eb89432939c26ef840093941755f634a08",
+      "size_in_bytes": 3122
+    },
+    {
+      "_path": "lib/python3.8/site-packages/bitarray/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "c4679ebfd29cbcb679d92dc39a84a98caad14fbe5333d07b3e320a833170b75e",
+      "size_in_bytes": 3824
+    },
+    {
+      "_path": "lib/python3.8/site-packages/bitarray/__pycache__/test_bitarray.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "0f055742102033f47d6ab47aa7391b5798ae6a7e92a41ebb9c0c1bd016b024d2",
+      "size_in_bytes": 73285
+    },
+    {
+      "_path": "lib/python3.8/site-packages/bitarray/__pycache__/test_util.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "438eb56df59bad65e90b8a55d31958b8cbb5991c37f29651f3b3c093d670efec",
+      "size_in_bytes": 22326
+    },
+    {
+      "_path": "lib/python3.8/site-packages/bitarray/__pycache__/util.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "b215b12c33930f66e0f1d0dcee73b8bb6c114090444cdc0ff6ac095b44fb5d2e",
+      "size_in_bytes": 7613
+    },
+    {
+      "_path": "lib/python3.8/site-packages/bitarray/_bitarray.cpython-38-darwin.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9034c98d-f3e3-4444-48f0-092269ed9919/volume/bitarray_1594753940633/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "7dc39cb6538f21b8b19c01351a333ca290acca82815d4436bea760158295f317",
+      "size_in_bytes": 58928
+    },
+    {
+      "_path": "lib/python3.8/site-packages/bitarray/_util.cpython-38-darwin.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9034c98d-f3e3-4444-48f0-092269ed9919/volume/bitarray_1594753940633/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "673ac8bfdd07c141bfee01c28d2cc6e09919f1596f78c0df25432f73dac8eca9",
+      "size_in_bytes": 14172
+    },
+    {
+      "_path": "lib/python3.8/site-packages/bitarray/test_bitarray.py",
+      "path_type": "hardlink",
+      "sha256": "f34c577ca3a996cf94aee50c7780cbd1b74387c3e2a55330e84e3f49e3e454da",
+      "size_in_bytes": 82646
+    },
+    {
+      "_path": "lib/python3.8/site-packages/bitarray/test_util.py",
+      "path_type": "hardlink",
+      "sha256": "9fb6973ed75856abf0dbe0cde7fa0dcba494affd8ffce6803a048d8a1018f503",
+      "size_in_bytes": 26487
+    },
+    {
+      "_path": "lib/python3.8/site-packages/bitarray/util.py",
+      "path_type": "hardlink",
+      "sha256": "1f0f03cefe27ac3f2503bd571d1814559814c94b83ae1b15d312e8c449b284c8",
+      "size_in_bytes": 9467
+    }
+  ],
+  "paths_version": 1
+}

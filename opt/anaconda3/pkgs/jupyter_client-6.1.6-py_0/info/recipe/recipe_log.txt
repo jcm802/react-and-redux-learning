@@ -1,0 +1,872 @@
+commit 079a42362f1f4b6ff56c0b4cfea496782b17c211
+Merge: be0d015 d485523
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Tue Jul 14 09:06:42 2020 -0400
+
+    Merge pull request #46 from regro-cf-autotick-bot/6.1.6_ha939f9
+    
+    jupyter_client v6.1.6
+
+commit d4855234de588597a1e3f423f0c3366eb776dc05
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Tue Jul 14 08:56:27 2020 -0400
+
+    update dependencies, run tests under coverage
+
+commit b4ef7259e0762e3b2c4b87091d09319ec793fa86
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jul 14 04:38:26 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.4, and conda-forge-pinning 2020.07.13.05.23.11
+
+commit 54896aa4c9972cb4e3c65bf841397449f5b897c7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jul 14 04:38:18 2020 +0000
+
+    updated v6.1.6
+
+commit be0d015565c8e68c9716cbc56d3b2dc1c6be1406
+Merge: 65a7883 083f782
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Tue Jun 30 20:09:12 2020 -0400
+
+    Merge pull request #45 from regro-cf-autotick-bot/6.1.5_h2f1a22
+    
+    jupyter_client v6.1.5
+
+commit 083f782095c9f127298b044b1a190548eee03190
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jun 30 22:57:25 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.3, and conda-forge-pinning 2020.06.24.16.31.11
+
+commit 025058c08e89190614320fc360383e2f503806e7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jun 30 22:57:01 2020 +0000
+
+    updated v6.1.5
+
+commit 65a78835b9a3671b525d01b7ecc3ae441bda14a1
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 07:40:58 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit 084c2ce33b35fb4f4bd57d7a63d18b63c60ed748
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat May 16 14:37:00 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 15e3f6773a2640b906342eb7272aa6a4dece04c1
+Merge: 3062934 947df79
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Mon Apr 13 19:58:43 2020 -0400
+
+    Merge pull request #44 from regro-cf-autotick-bot/6.1.3_h4fa88a
+    
+    jupyter_client v6.1.3
+
+commit 947df791681068478ca218089192b8b5b71954dc
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Apr 13 20:30:41 2020 +0000
+
+    updated v6.1.3
+
+commit 3062934876c541501e917c188d50e8d0eb94f921
+Merge: e078184 5f9cdaf
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Thu Mar 26 20:35:42 2020 -0400
+
+    Merge pull request #43 from regro-cf-autotick-bot/6.1.2
+    
+    jupyter_client v6.1.2
+
+commit 5f9cdaf648080978510a770067f84d38a1451c8e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Mar 26 19:32:29 2020 +0000
+
+    updated v6.1.2
+
+commit e07818486acf2ea2f9b81bb488a457eb36be5829
+Merge: c9d5641 eeb4720
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Wed Mar 25 20:12:31 2020 -0400
+
+    Merge pull request #42 from regro-cf-autotick-bot/6.1.1
+    
+    jupyter_client v6.1.1
+
+commit eeb47209dfc1b025976d59d842aeb6e7f36a11b9
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Mar 25 22:24:13 2020 +0000
+
+    updated v6.1.1
+
+commit c9d564143fe992245cdcaf5dea058900f2fa8127
+Merge: 14c865b 9abc0ae
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Thu Mar 19 22:00:02 2020 -0400
+
+    Merge pull request #41 from regro-cf-autotick-bot/6.1.0
+    
+    jupyter_client v6.1.0
+
+commit 9abc0ae7aeda8963d34b2908e98fca94bb20e6a5
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Thu Mar 19 21:52:30 2020 -0400
+
+    remove sphinx test dependency
+
+commit b143e4b94527e80a20ff70b00c49a6c41e676ff7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Mar 20 01:35:27 2020 +0000
+
+    updated v6.1.0
+
+commit 14c865b86b46dde85c0e61328e4c1b0e2ee151b4
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 21:11:17 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 391c465b4cad7a3acad8feca2dc28ef6016cf1f0
+Merge: 557c00f d8974e8
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Mon Feb 24 19:44:23 2020 -0500
+
+    Merge pull request #39 from bollwyvl/add-noarch-python
+    
+    jupyter_client 6.0.0, noarch python
+
+commit d8974e8101209604071b78b4e7b8a0c2f3fdefde
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Feb 24 13:14:14 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.8, and conda-forge-pinning 2020.02.20
+
+commit 8ca035abbd2c5b6e539e5a5d1be67c387946d867
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Mon Feb 24 07:54:15 2020 -0500
+
+    make noarch python, but don't rerender yet
+
+commit 7b22d7d2ed1385a8c999bc2dca335ef8961e7679
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 24 05:20:07 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.8, and conda-forge-pinning 2020.02.20
+
+commit 406cc11c358ebb243fd743af829528d68baef8da
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 24 05:19:26 2020 +0000
+
+    updated v6.0.0
+
+commit 557c00f4e02649a132d9d84b78112a21d2c8fe99
+Merge: 884a038 edfe8bf
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Mon Jan 13 20:48:28 2020 -0500
+
+    Merge pull request #37 from bollwyvl/bottom-pin-jupyter-core-pywin
+    
+    (Re)Update bottom pins for jupyter_core and pywin32
+
+commit edfe8bfbbc3373649d48731dd75faa26e9b9456f
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Jan 12 02:02:54 2020 -0500
+
+    update bottom pins for jupyter_core and pywin32
+
+commit 884a0381dc4f38d27f02357e9d1f97abc2dfe8a3
+Merge: 2399976 f7785ea
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Wed Jan 8 14:47:27 2020 +0200
+
+    5.3.4 (with updated meta and tests) (#34)
+    
+    5.3.4 (with updated meta and tests)
+    
+    Co-authored-by: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+
+commit 2399976cb2505e7223c10a1e2a229525bb2ac6bb
+Merge: 522ad4a 81bc33d
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu Jan 2 09:12:01 2020 +0530
+
+    Merge pull request #31 from regro-cf-autotick-bot/rebuildaarch64_and_ppc64le_addition1_arch
+    
+    Arch Migrator
+
+commit 81bc33d0b9e20ef9306ccb5a8c8c46a00b242a49
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Jan 2 03:21:12 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2019.12.18
+
+commit 2afd77d31e14dd1389ec92dd18b6f34a637ff6c0
+Merge: 804d8db 522ad4a
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu Jan 2 08:50:15 2020 +0530
+
+    Merge branch 'master' into rebuildaarch64_and_ppc64le_addition1_arch
+
+commit f7785ea3d54eb454a8008355a0c497505e69f8e0
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Nov 17 13:33:28 2019 -0500
+
+    blanket skip py38/win for now, try PYTHONIOENCODING
+
+commit 4f9fa96dd5812c9ac57f293421944a60648d9137
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Nov 17 01:19:14 2019 -0500
+
+    skip client stuff on win
+
+commit ee97319902aeaad60df7999ecf92cf711f8b8702
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Nov 17 01:17:44 2019 -0500
+
+    yet more skips
+
+commit 6091df2f20830beb6125f5bfc27081ad3b3f2eae
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Nov 17 01:15:59 2019 -0500
+
+    skip more on osx/py38
+
+commit b0b3160acc795f365716eb5ae7d7e0333b142cd8
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Nov 17 01:03:19 2019 -0500
+
+    remove cov args
+
+commit 01c62d16b04f0b89ed33ccfe1961968703bc11e2
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Nov 17 00:56:22 2019 -0500
+
+    put pytest back in test deps
+
+commit cf3ab207c17c08c849a14f19c6e3310731850df9
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Nov 17 00:50:04 2019 -0500
+
+    more skips
+
+commit 5bed7cbac98d359b988331f08cc450164b6088f1
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Nov 17 00:28:41 2019 -0500
+
+    move stuff over to tests in python
+
+commit 95286aa906897e692e634c04f72c5c13dc2e551e
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sat Nov 16 23:38:56 2019 -0500
+
+    add some skips
+
+commit d9efaf8e21bf8180c1eae3ac38577d793dccbffa
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sat Nov 16 23:29:08 2019 -0500
+
+    try adding azure pytest integration
+
+commit b9a84564491810b755113687060b97ae6ff579d0
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sat Nov 16 22:59:09 2019 -0500
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.2, and conda-forge-pinning 2019.11.14
+
+commit 23e01e0ba8d5b92584efb7b3e68fc83e2a91749b
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sat Nov 16 22:55:49 2019 -0500
+
+    update deps, metadata, add tests
+
+commit 56a65e5cd3c2613cce72300c8952ebbe9d9d70a7
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Wed Nov 13 20:46:39 2019 -0500
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.2, and conda-forge-pinning 2019.11.13
+
+commit 532cfbff4c838310cbea51658b0cefe2d435977b
+Merge: e1270d3 522ad4a
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Wed Nov 13 20:43:41 2019 -0500
+
+    merge master
+
+commit 522ad4aa7bbc5eb2936100945729feb52315129d
+Merge: c52f5ee 6e9f234
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Nov 3 09:36:30 2019 -0500
+
+    Rebuild for python38 (#33)
+    
+    Rebuild for python38
+
+commit 6e9f234b6016167b83faeacfe93bfd7a00f13ad5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Nov 3 14:23:20 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.1, and conda-forge-pinning 2019.11.01
+
+commit fdc9decbb468987bd728f8a438d8a416d65f6548
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Nov 3 14:23:00 2019 +0000
+
+    bump build number
+
+commit e1270d30ec764c2f4db076f5dc473c1ad4601eeb
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Oct 8 22:20:56 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.5.0, and conda-forge-pinning 2019.10.01
+
+commit 460c57aa56235d12ab3e213ea7c21059a292970d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Oct 8 22:20:41 2019 +0000
+
+    updated v5.3.4
+
+commit c52f5eef054d01f113e06752d5da5c215d3c1d90
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Oct 2 16:05:36 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit 804d8dbbd11c9635faa02284305616149cb118fa
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Sep 24 23:23:15 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.8, and conda-forge-pinning 2019.09.24
+
+commit a255f756047554d24d1bcbb061f3463c8a10f200
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Sep 24 23:22:59 2019 +0000
+
+    bump build number
+
+commit d31e7aaba4b92b52ab7a993f2b1c46bc819e4496
+Merge: 6a0aabd 8e49fad
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Sep 24 10:46:00 2019 +0200
+
+    Merge pull request #30 from minrk/master
+    
+    require pywin32 on Windows
+
+commit 8e49fad94d3d3ffc8e7a4a523e8894fcbd182800
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Sep 24 10:29:05 2019 +0200
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.8, and conda-forge-pinning 2019.09.08
+
+commit 4874bb6c106434db2396a8de104be3f6c96b48b4
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Sep 24 10:28:33 2019 +0200
+
+    require pywin32 on Windows
+    
+    this means we cant use noarch
+
+commit 6a0aabd25d1a1e002722fa194e07a21e2d8f9610
+Merge: d55d2c6 4893f8a
+Author: Jonathan J. Helmus <jjhelmus@gmail.com>
+Date:   Mon Sep 23 13:32:56 2019 -0500
+
+    Merge pull request #28 from regro-cf-autotick-bot/5.3.3
+    
+    jupyter_client v5.3.3
+
+commit 4893f8a741fb8e4b45c2043ac824d744b9e4725d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Sep 17 19:17:48 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.7, and conda-forge-pinning 2019.09.08
+
+commit 324800eddc17b793f2b48c81b5f3f9ad126fc3e5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Sep 17 19:17:36 2019 +0000
+
+    updated v5.3.3
+
+commit d55d2c64126c4d68b35177ce0673f0d2a82c5862
+Merge: 18aa945 8e7bc3d
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Wed Jul 10 00:50:42 2019 +0200
+
+    Merge pull request #26 from SylvainCorlay/5.3.1
+    
+    Release 5.3.1
+
+commit 8e7bc3d695d569e9873a36cac5a5ff1bafe38666
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Wed Jul 10 00:45:10 2019 +0200
+
+    Release 5.3.1
+
+commit 18aa945a46f7c5f2684c9b9a89189f9c1d36cbac
+Merge: 0d81fd3 eb50999
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Jul 8 07:35:40 2019 -0500
+
+    Merge pull request #24 from regro-cf-autotick-bot/5.3.0
+    
+    jupyter_client v5.3.0
+
+commit 0d81fd347fadd13f09c510daa76a55145675f290
+Merge: 892ee3a 4882194
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Jul 8 07:34:14 2019 -0500
+
+    Merge pull request #25 from SylvainCorlay/maintainer
+    
+    Add myself as a maintainer
+
+commit 4882194d29ad20ec588cd4f104c82200e489ccc9
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Mon Jul 8 11:23:02 2019 +0200
+
+    Add myself as a maintainer
+
+commit eb5099923ece5ba3c6b2f6aa5b8589168bfb7314
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 7 22:26:31 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.4.0, and conda-forge-pinning 2019.07.04
+
+commit 39e24bb71370ed704e77d8ef861832e3b7991552
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 7 22:26:21 2019 +0000
+
+    updated v5.3.0
+
+commit 892ee3ac043cabc4cfa97a5fd1ab4b0370df0e8a
+Merge: 11b2e56 0bb59c6
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Mar 5 13:27:14 2019 +0100
+
+    Merge pull request #23 from minrk/unpin-better
+    
+    better revert of tornado pinning
+
+commit 0bb59c6735eff4b593995d3deca9075220b7fc5f
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Mar 5 12:30:52 2019 +0100
+
+    better revert of tornado pinning
+    
+    - bump the build number to get the fresh upload
+    - preserve updated script
+
+commit 11b2e56bd4875a207fd2c878349b9c48e6237115
+Merge: 34cfc11 88cccf0
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Mar 5 12:28:47 2019 +0100
+
+    Merge pull request #22 from minrk/unpin-tornado
+    
+    Revert "pin tornado"
+
+commit 88cccf02615745fb5952be15ef3543eb1f9d16c2
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Mar 5 12:22:54 2019 +0100
+
+    Revert "pin tornado"
+    
+    This reverts commit a570a7aa8631948d340ac8be67b2c17e3bcf31da.
+
+commit 34cfc11ee64f899242000098bda2f56502292a7e
+Merge: bfed7a5 759475a
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Mar 4 12:21:58 2019 -0300
+
+    Merge pull request #21 from ocefpaf/pin_tornado
+    
+    pin tornado
+
+commit 759475a7b37c8c5c096a557658bf2b9746f26e61
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Mar 4 12:17:14 2019 -0300
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.02.24
+
+commit a570a7aa8631948d340ac8be67b2c17e3bcf31da
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Mar 4 12:08:00 2019 -0300
+
+    pin tornado
+
+commit bfed7a5c31485c06aca0b2cbd0f68004281e743c
+Merge: 7c1f6e1 c091633
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Jan 27 09:17:34 2019 -0200
+
+    Merge pull request #20 from kiwi0fruit/patch-1
+    
+    bugfix
+
+commit c0916332aeee9256e941b82121755592d9e6cab8
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Jan 27 10:28:52 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.7, conda-smithy 3.2.10, and conda-forge-pinning 2019.01.21
+
+commit ddc3f8dff909fb8cc81a8c1744fd88535cd7d202
+Author: Peter Zagubisalo <peter.zagubisalo@gmail.com>
+Date:   Sun Jan 27 17:28:00 2019 +0700
+
+    bugfix
+
+commit 7c1f6e18258a50ec8601747456a24f67bd1d2db2
+Merge: 3566289 623f099
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Dec 10 13:22:14 2018 -0200
+
+    Merge pull request #19 from regro-cf-autotick-bot/5.2.4
+    
+    jupyter_client v5.2.4
+
+commit 623f0995999211b98b851a4e62cb0cc718be656c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Dec 10 15:15:23 2018 +0000
+
+    updated v5.2.4
+
+commit 35662891f1c8bb87e68a4d934bbdcc19c0dcb492
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:10:26 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 120d5c24405145988b4856f4d702656835013fb0
+Merge: 66b0ecc 691c6c3
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Mon Jul 9 13:10:22 2018 +0200
+
+    Merge pull request #18 from regro-cf-autotick-bot/noarch_migration
+    
+    Suggestion: add noarch
+
+commit 691c6c3418251cbca036171651cdf57b4fb596e7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 8 03:43:25 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.01
+
+commit 61a43b4de5395050450760e2844d0f7f09c28fce
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 8 03:43:20 2018 +0000
+
+    add noarch
+
+commit 66b0ecc6d96dffffd6939cdbb33b7651d85d2c09
+Merge: 5e6c1ff 445d858
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Mon Mar 12 18:19:18 2018 +0100
+
+    Merge pull request #17 from minrk/523
+    
+    5.2.3
+
+commit 445d8585d7bf5daf5cc6d446290a5cd3ffb7d446
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Mon Mar 12 17:14:01 2018 +0100
+
+    5.2.3
+
+commit 5e6c1fffe941111dbd079cb034484e1958ae3f6c
+Merge: 5b91739 fe77de8
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Jan 24 17:01:42 2018 -0200
+
+    Merge pull request #16 from minrk/522
+    
+    release 5.2.2
+
+commit fe77de8a814e4775734db1dc49e7cf6ae9629910
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Wed Jan 24 18:46:33 2018 +0100
+
+    release 5.2.2
+    
+    includes missing tornado dependency
+
+commit 5b91739dbf51eeb6a43b226f67842920eb8e0ec6
+Merge: 6978f02 fb68139
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Jan 5 15:58:30 2018 +0100
+
+    Merge pull request #15 from Carreau/release-5-2-1
+    
+    Updates Jupyter_client to 5.2.1
+
+commit fb68139f09c41dab860caa7ea3f230e112414f8d
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Jan 3 14:49:24 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit e87f1af859b23c963dfa301e9185aba7a1b0a645
+Author: Matthias Bussonnier <bussonniermatthias@gmail.com>
+Date:   Wed Jan 3 10:50:10 2018 +0100
+
+    Updates Jupyter_client to 5.2.1
+    
+    Also adds me as maintainer.
+    
+    This is a really minor update which mostly contain a fix for pip/wheel,
+    but still update conda-forge for consistency.
+
+commit 6978f02e988d39699dfe8a08c902cce24a4964ee
+Merge: 47fa0f0 ab3644d
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Mon Dec 18 17:42:31 2017 +0100
+
+    Merge pull request #14 from takluyver/patch-1
+    
+    Release 5.2.0
+
+commit ab3644d0e455458182768c3aa7b9b2d3b0ea889a
+Author: Thomas Kluyver <thomas@kluyver.me.uk>
+Date:   Mon Dec 18 13:49:58 2017 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.4
+
+commit e0f265672668e9bb5adee2ecb8aed09b6fa8560f
+Author: Thomas Kluyver <thomas@kluyver.me.uk>
+Date:   Mon Dec 18 13:45:51 2017 +0000
+
+    Disable noarch again for now
+
+commit 79cc0e8525e3792f0a1f662ae0d50c20fc28e0d3
+Author: Thomas Kluyver <thomas@kluyver.me.uk>
+Date:   Mon Dec 18 13:22:48 2017 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.4
+
+commit 9e18e632f1831147550914dfa420842d1fabd00e
+Author: Thomas Kluyver <thomas@kluyver.me.uk>
+Date:   Mon Dec 18 13:21:00 2017 +0000
+
+    Use noarch python
+
+commit 4bb7dc32f248e32a747ecf5521b6139de94cfab8
+Author: Thomas Kluyver <takowl@gmail.com>
+Date:   Mon Dec 18 12:35:44 2017 +0000
+
+    Release 5.2.0
+
+commit 47fa0f0aa87e4625504f4dd594d1c641061c04bf
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:28:43 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 7cf641e6f1b6638f5233de2bf3d94b6a05cfe8db
+Merge: ebbd231 35599ec
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Sun Jun 25 08:47:15 2017 +0200
+
+    Merge pull request #13 from minrk/51
+    
+    5.1.0
+
+commit 35599ec99100e9ba7a155fb698f1c5e6a7d9f6f1
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Jun 22 14:29:54 2017 +0200
+
+    5.1.0
+
+commit ebbd23161fde42cd902d2bd38fb467ca27a784df
+Merge: f8b9bc6 d3a5f10
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Wed Apr 5 11:06:05 2017 +0200
+
+    Merge pull request #12 from minrk/501
+    
+    5.0.1
+
+commit d3a5f1035dc960e896ffe574e8435f68d592c38f
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Apr 4 16:45:03 2017 +0200
+
+    release 5.0.1
+
+commit f8b9bc6fca14ce3e64a1053335623033cdf9bc48
+Merge: c0343a3 8ef58ab
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Mar 30 19:19:08 2017 +0200
+
+    Merge pull request #11 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 8ef58ab8640801e7a06a66ffbf0ad60346472287
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Mar 30 01:42:44 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.2.2.
+
+commit c0343a3bc8190b91f066e151a5979351057c52c6
+Merge: 2f4d48b 39b69bc
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Mon Feb 20 20:12:32 2017 +0100
+
+    Merge pull request #10 from minrk/5.0
+    
+    5.0.0
+
+commit 39b69bc9581de9b70f5700510033aea7d42965e8
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Mon Feb 20 17:00:23 2017 +0100
+
+    release 5.0.0
+
+commit 6ed7baf35da360be7888df403febb2f084205a61
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Mon Feb 20 16:56:03 2017 +0100
+
+    MNT: Re-rendered with conda-smithy 2.1.0
+
+commit 2f4d48b788de7811cdc8de637db353a7d6ad6a4b
+Merge: ec9741a eef5374
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Jan 8 15:40:19 2017 -0300
+
+    Merge pull request #9 from ocefpaf/py36
+    
+    Py36
+
+commit eef537451ed938e751972133139dbe01961338c7
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Sun Jan 8 09:24:28 2017 -0300
+
+    Add maintainer
+
+commit 54b1ea6e11b399364117d81dec2a06e5c5a4b1dc
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Sun Jan 8 09:24:17 2017 -0300
+
+    rerender with auto
+
+commit ec9741ab054cda7eda845dcd24182c9efb9ff0dd
+Merge: 6588678 2d560f4
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Oct 13 10:57:27 2016 +0200
+
+    Merge pull request #7 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 2d560f4d7fe9edfde080779f50d807de993fb870
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Oct 13 01:36:24 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.3.2.
+
+commit 6588678f7d845bdb0523e1905d2355005b98ec54
+Merge: 00f2a29 85f2795
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Mon Sep 5 15:38:26 2016 +0200
+
+    Merge pull request #6 from minrk/4.4
+    
+    release 4.4
+
+commit 85f2795c156445f73ae1ca5d2e1f4f598698b25a
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Sep 1 10:38:26 2016 +0200
+
+    add about.license_file
+
+commit 0ecfd21b4ce5ad32d7438851dc3d9911be6f0a31
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Wed Aug 31 17:20:25 2016 +0200
+
+    release 4.4
+
+commit 8b8dd0f7ce381df27b5b238aaddf336e1012608d
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Wed Aug 31 17:19:52 2016 +0200
+
+    rerender [ci skip]
+    
+    with conda-smithy 1.1.2
+
+commit 00f2a2962217274d05c9d2fc36406061fc57254a
+Merge: bd47958 e54cb44
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Jul 1 13:33:13 2016 +0200
+
+    Merge pull request #5 from jakirkham/bump_4_3_0
+    
+    Bump to version 4.3.0
+
+commit e54cb4469eb53b2e630a170a566ea175b42703fc
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed Jun 29 16:11:53 2016 -0400
+
+    recipe: Bump to version 4.3.0.
+
+commit bd47958a9dee4081c0747bb45e6953b85500c728
+Merge: e32b259 ceb661f
+Author: Phil Elson <pelson.pub@gmail.com>
+Date:   Fri May 13 13:59:02 2016 +0100
+
+    Merge pull request #4 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit ceb661f58bac6bc71aa6c06221b943c57a936aa1
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri May 13 12:56:34 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.3.
+    
+    [ci skip]
+
+commit e32b259c6717290b5b373839e36bd8c945000d73
+Merge: 6a10aa2 673557b
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu May 5 14:45:33 2016 -0400
+
+    Merge pull request #3 from jakirkham/re_render_0_9_3_dev2
+    
+    Re-render with `conda-smithy` 0.9.3.dev2
+
+commit 6a10aa238a9ed10693cbf3676cc3f5e108831d9d
+Merge: 8796e2a ed219ae
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu May 5 19:44:46 2016 +0100
+
+    Merge pull request #1 from jakirkham/add_jakirkham
+    
+    Add @jakirkham as a maintainer
+
+commit 673557bf7fec718d256f5c1ede8e154090a9a5d3
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu May 5 14:20:21 2016 -0400
+
+    Re-render with `conda-smithy` 0.9.3.dev2.
+
+commit ed219aec36b4819155480e8397489a272853b042
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun May 1 17:25:49 2016 -0400
+
+    recipe: Add @jakirkham.
+
+commit 8796e2a5f044c8166026cf6b687d151f456c694d
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Apr 14 14:25:24 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit a3924563452c19235f552404d84c5c1f2e33ab70
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Apr 14 14:22:53 2016 +0000
+
+    Initial commit of the jupyter_client feedstock.

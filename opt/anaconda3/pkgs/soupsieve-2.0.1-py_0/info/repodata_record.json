@@ -1,0 +1,25 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.5"
+  ],
+  "features": "",
+  "fn": "soupsieve-2.0.1-py_0.conda",
+  "legacy_bz2_md5": "8a616069527ab705b1947580c9c4d296",
+  "legacy_bz2_size": 33515,
+  "license": "MIT",
+  "md5": "ed7885f78dfa2cb62dd369f113763e0b",
+  "name": "soupsieve",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "4f87567204d6f687688c3de46f66d7ade6643c02602c8a5491ab819370d20675",
+  "size": 34086,
+  "subdir": "noarch",
+  "timestamp": 1590081281472,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/soupsieve-2.0.1-py_0.conda",
+  "version": "2.0.1"
+}

@@ -1,0 +1,80 @@
+# This file created by conda-build 3.18.7
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/conda-verify-3.4.2-on-linux_canary, last modified Thu Jul 18 16:05:49 2019
+# ------------------------------------------------
+
+package:
+    name: conda-verify
+    version: 3.4.2
+source:
+    fn: conda-verify-3.4.2.tar.gz
+    sha256: 0fc0af337ffcdfcb88b61e5411c9b7e56448fc6701522b4119bdbd65063311ae
+    url: https://github.com/conda/conda-verify/archive/3.4.2.tar.gz
+build:
+    entry_points:
+        - conda-verify = conda_verify.cli:cli
+    noarch: python
+    number: '1'
+    script: /tmp/build/80754af9/conda-verify_1563467202554/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/bin/python
+        -m pip install . --no-deps
+    string: py_1
+requirements:
+    build:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2019.5.15 0
+        - certifi 2019.6.16 py27_0
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.1 he6710b0_1
+        - openssl 1.1.1c h7b6447c_1
+        - pip 19.1.1 py27_0
+        - python 2.7.16 h9bab390_0
+        - readline 7.0 h7b6447c_5
+        - setuptools 41.0.1 py27_0
+        - sqlite 3.29.0 h7b6447c_0
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.33.4 py27_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - backports.functools_lru_cache
+        - backports.tempfile
+        - click
+        - conda-package-handling >=1.0.4
+        - future
+        - jinja2
+        - python
+        - pyyaml
+        - six
+        - tqdm
+test:
+    commands:
+        - conda-verify --version
+        - conda-verify --help
+    imports:
+        - conda_verify
+about:
+    description: 'conda-verify is a tool for (passively) verifying conda recipes and
+        conda
+
+        packages.
+
+        '
+    home: https://github.com/conda/conda-verify
+    license: BSD 3-Clause
+    license_file: LICENSE.txt
+    summary: tool for validating conda recipes and conda packages
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - jjhelmus
+        - mandeep
+        - msarahan
+        - mwcraig
+        - ocefpaf
+        - patricksnape
+        - pelson
+        - scopatz

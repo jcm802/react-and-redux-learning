@@ -1,0 +1,101 @@
+commit 2e11ccb7b67c5c10daec67fe39aebdae304d7a26
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Dec 16 17:12:23 2019 -0600
+
+    update to 1.6.0
+
+commit 620f9223bcd4dc07acdd97c4b597a9fa3cf4e1ed
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Nov 6 16:32:50 2019 -0600
+
+    1.5.0
+
+commit b220dd56fdd4fd45ecb7208a1161b443db763f59
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri May 10 10:39:49 2019 -0500
+
+    add jjhelmus as maintainer
+
+commit f7c3623644011ec0be64d08923f0c7a1604d848f
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri May 10 10:39:27 2019 -0500
+
+    1.4.0, simplify
+
+commit fb02080e23045ce8d3ca400d3db6d28e6063b93b
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Aug 13 17:40:52 2017 +0000
+
+    Update about section
+
+commit 0cad9cf213b701365ab099d70499a26f582c459a
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 18:34:33 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit c743da40655b4ee6352e82a6810faa6bb09dda2e
+Merge: 25b1594 688e6bd
+Author: Peter M. Landwehr <plandweh@andrew.cmu.edu>
+Date:   Tue Jul 10 22:25:30 2018 -0700
+
+    Merge pull request #2 from regro-cf-autotick-bot/noarch_migration
+    
+    Suggestion: add noarch
+
+commit 688e6bdd667406af8fcb5889bf89e55d8ca87bdd
+Author: Peter M. Landwehr <plandweh@andrew.cmu.edu>
+Date:   Tue Jul 10 22:22:59 2018 -0700
+
+    pypi, reqs
+
+commit 43952d2f0c5bd87a0de93c2d5c8e3817d1292deb
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 8 18:47:13 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.01
+
+commit 64a7c822a35a98dc50f32a41628ea14db4320d54
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 8 18:47:08 2018 +0000
+
+    add noarch
+
+commit 25b1594c7ab73ea5dbed1b75b3b435006a810187
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 21:48:44 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 980d1a40f7ae6c5ea12a5779f84640f8e8f715ab
+Merge: 6bb0315 a37028d
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Mon Apr 17 13:06:01 2017 -0700
+
+    Merge pull request #1 from pmlandwehr/master
+    
+    Ticked version, rerendered if needed. (Double-check reqs!)
+
+commit a37028d1f8875890308935c99a57a60694a702d1
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Mon Apr 17 12:28:47 2017 -0700
+
+    Update doc url
+
+commit 48f0a0d21b05dbb26fd29679abf6844d0908bcb0
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Sun Apr 16 22:12:43 2017 -0700
+
+    Tick version to 1.3.2
+
+commit 6bb031593282e33f17c76075a974eb94d6b057f6
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Mar 31 02:26:04 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit bf5f83d5e21c27f6e151eca1988382a8f84c08c0
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Mar 31 02:22:59 2017 +0000
+
+    Initial feedstock commit with conda-smithy 2.2.2.

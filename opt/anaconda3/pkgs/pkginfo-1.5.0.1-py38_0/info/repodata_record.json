@@ -1,0 +1,24 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "pkginfo-1.5.0.1-py38_0.conda",
+  "legacy_bz2_md5": "f898ced477103da6a96661d5b129fa5e",
+  "legacy_bz2_size": 42120,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "f4132b57743674784ca95fe9159cd274",
+  "name": "pkginfo",
+  "sha256": "dafecaeeb409a59ca5bda878ad6922722c795e9c9526c59e78fba2cc5b5e2de4",
+  "size": 43847,
+  "subdir": "osx-64",
+  "timestamp": 1573040613998,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pkginfo-1.5.0.1-py38_0.conda",
+  "version": "1.5.0.1"
+}

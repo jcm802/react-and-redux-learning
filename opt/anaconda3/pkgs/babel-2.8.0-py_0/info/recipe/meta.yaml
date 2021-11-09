@@ -1,0 +1,71 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/babel-2.8.0-on-linux_64, last modified Tue Jan  7 15:25:17 2020
+# ------------------------------------------------
+
+package:
+    name: babel
+    version: 2.8.0
+source:
+    fn: Babel-2.8.0.tar.gz
+    sha256: 1aac2ae2d0d8ea368fa90906567f5c08463d98ade155c0c4bfedd6a0f7160e38
+    url: https://pypi.io/packages/source/B/Babel/Babel-2.8.0.tar.gz
+build:
+    entry_points:
+        - pybabel = babel.messages.frontend:main
+    noarch: python
+    number: '0'
+    script: /tmp/build/80754af9/babel_1578411205126/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/bin/python
+        -m pip install . --no-deps -vv
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2019.11.27 0
+        - certifi 2019.11.28 py27_0
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.1 he6710b0_1
+        - openssl 1.1.1d h7b6447c_3
+        - pip 19.3.1 py27_0
+        - python 2.7.17 h9bab390_0
+        - pytz 2019.3 py_0
+        - readline 7.0 h7b6447c_5
+        - setuptools 44.0.0 py27_0
+        - sqlite 3.30.1 h7b6447c_0
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.33.6 py27_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python
+        - pytz
+test:
+    commands:
+        - pybabel --help
+    imports:
+        - babel
+        - babel.localtime
+        - babel.messages
+about:
+    description: 'Babel is an integrated collection of utilities that assist in
+
+        internationalizing and localizing Python applications, with an emphasis
+
+        on web-base applications.
+
+        '
+    dev_url: https://github.com/python-babel/babel
+    doc_source_url: https://github.com/python-babel/babel/blob/master/docs/index.rst
+    doc_url: http://babel.pocoo.org/en/latest/#user-documentation
+    home: http://babel.pocoo.org/
+    license: BSD 3-clause
+    license_file: LICENSE
+    summary: Utilities to internationalize and localize Python applications
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - frol
+        - nehaljwani

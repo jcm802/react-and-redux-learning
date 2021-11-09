@@ -1,0 +1,68 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/filelock-3.0.12-on-linux_64, last modified Thu Jun  6 20:53:22 2019
+# ------------------------------------------------
+
+package:
+    name: filelock
+    version: 3.0.12
+source:
+    fn: filelock-3.0.12.tar.gz
+    sha256: 18d82244ee114f543149c66a6e0c14e9c4f8a1044b5cdaadd0f82159d6a6ff59
+    url: https://pypi.io/packages/source/f/filelock/filelock-3.0.12.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py_0
+requirements:
+    host:
+        - ca-certificates 2019.5.15 0
+        - certifi 2019.3.9 py27_0
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 8.2.0 hdf63c60_1
+        - libstdcxx-ng 8.2.0 hdf63c60_1
+        - ncurses 6.1 he6710b0_1
+        - openssl 1.1.1c h7b6447c_1
+        - pip 19.1.1 py27_0
+        - python 2.7.16 h9bab390_0
+        - readline 7.0 h7b6447c_5
+        - setuptools 41.0.1 py27_0
+        - sqlite 3.28.0 h7b6447c_0
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.33.4 py27_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python
+test:
+    imports:
+        - filelock
+about:
+    description: 'A filelock provides a synchronisation mechanism between different
+
+        instances of your application, similar to a thread lock. It can be
+
+        used to signalize that files, directories or other resources are
+
+        currently used or manipulated (Think of a sync.lock file). Only the
+
+        existence of the lockfile is watched for this purpose. The file itself
+
+        can not be written and is always empty.
+
+        '
+    dev_url: https://github.com/benediktschmitt/py-filelock
+    doc_source_url: https://github.com/benediktschmitt/py-filelock/tree/master/docs
+    doc_url: https://filelock.readthedocs.io/en/latest/
+    home: https://github.com/benediktschmitt/py-filelock
+    license: Public Domain
+    license_family: Public-Domain
+    license_file: LICENSE
+    summary: A platform independent file lock.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - mariusvniekerk

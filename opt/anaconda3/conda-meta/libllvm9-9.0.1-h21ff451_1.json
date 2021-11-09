@@ -1,0 +1,68 @@
+{
+  "build": "h21ff451_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/libllvm9-9.0.1-h21ff451_1",
+  "features": "",
+  "files": [
+    "lib/libLLVM-9.dylib",
+    "lib/libLTO.9.dylib",
+    "lib/libRemarks.9.dylib"
+  ],
+  "fn": "libllvm9-9.0.1-h21ff451_1.conda",
+  "legacy_bz2_md5": "f50c3e9cbf1623930dbd1f334e63c55a",
+  "legacy_bz2_size": 20055618,
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/libllvm9-9.0.1-h21ff451_1",
+    "type": 1
+  },
+  "md5": "8e90a8399631150d34c1b02dddc80260",
+  "name": "libllvm9",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/libllvm9-9.0.1-h21ff451_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libLLVM-9.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/3708a9d7-f68b-46d1-6a05-b414f36dc18b/volume/llvm-package_1594476641746/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "682a1e68c9943487331db41b3ef77408a37c20085739dcd5cfae6b78d01de4cb",
+        "sha256_in_prefix": "18acdf52e10c58c7f55f28970d209876d578810aa3d54210ed7a4e5faeef8398",
+        "size_in_bytes": 70243032
+      },
+      {
+        "_path": "lib/libLTO.9.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/3708a9d7-f68b-46d1-6a05-b414f36dc18b/volume/llvm-package_1594476641746/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "315bac867eb315237b20c4aacfbf77ce5b540b316ad167938586474ffb5ff88a",
+        "sha256_in_prefix": "621e283d227e1ba6a8b8c9fe9ba4e6f8a2d1c9604e9a103e9e7f0c158189d777",
+        "size_in_bytes": 156868
+      },
+      {
+        "_path": "lib/libRemarks.9.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/3708a9d7-f68b-46d1-6a05-b414f36dc18b/volume/llvm-package_1594476641746/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "0a5a45b93fb3979162750e18fda05b9384e8fdcc3c53721aaebff822d623ec8f",
+        "sha256_in_prefix": "6806a1f567b2d2a57cacb74d16053b84206086fd9bb034a3de3165bd2b7224d7",
+        "size_in_bytes": 10744
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "libllvm9==9.0.1=h21ff451_1",
+  "sha256": "15aa7df715c11ed112c42ef8bc263545806df1003c86250d812bcea4f69af94e",
+  "size": 16119811,
+  "subdir": "osx-64",
+  "timestamp": 1594479074350,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/libllvm9-9.0.1-h21ff451_1.conda",
+  "version": "9.0.1"
+}

@@ -1,0 +1,76 @@
+{
+  "build": "hb1e8313_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=10.0.0"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/expat-2.2.9-hb1e8313_2",
+  "features": "",
+  "files": [
+    "bin/xmlwf",
+    "include/expat.h",
+    "include/expat_config.h",
+    "include/expat_external.h",
+    "lib/libexpat.1.6.11.dylib",
+    "lib/libexpat.1.dylib",
+    "lib/libexpat.a",
+    "lib/libexpat.dylib",
+    "lib/pkgconfig/expat.pc",
+    "share/doc/expat/AUTHORS",
+    "share/doc/expat/changelog"
+  ],
+  "fn": "expat-2.2.9-hb1e8313_2.conda",
+  "legacy_bz2_md5": "a0df559ed762f3170529a1d0d68844da",
+  "legacy_bz2_size": 134053,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/expat-2.2.9-hb1e8313_2",
+    "type": 1
+  },
+  "md5": "0f4e2ad1b457edf98a2120e5dd7be2e1",
+  "name": "expat",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/expat-2.2.9-hb1e8313_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/xmlwf",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/850161f9-7439-45f9-512e-2440fefbbbcc/volume/expat_1593113417332/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "d109efa1fa32a27d6b463176e27b07c8ac7ea1ab15e246dc0faafa2430bd7cbf",
+        "sha256_in_prefix": "1dd75c95445571c26a6b9ac5ba1b0c100525e431f14f2b1f2275197ac07be484",
+        "size_in_bytes": 30944
+      },
+      {
+        "_path": "lib/libexpat.1.6.11.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/850161f9-7439-45f9-512e-2440fefbbbcc/volume/expat_1593113417332/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "bd2aca2ed4935dc1465270c2017c9bfef115b6ba27f325b192af5ee30c96b7a5",
+        "sha256_in_prefix": "8171de5f68d6adac42b317ff3f5f1d4be5b8fa668c17776bd521a36d4fd7ffc4",
+        "size_in_bytes": 162404
+      },
+      {
+        "_path": "lib/pkgconfig/expat.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "310d388a6db3723f590d61949c4f5bc324be85961039aed0acd334de25a8ec84",
+        "sha256_in_prefix": "43f25b14004df3afb1b354093a897c316855de28089ca8803d420f605f996ffb",
+        "size_in_bytes": 254
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "expat==2.2.9=hb1e8313_2",
+  "sha256": "032c78dcad2a8f1422a9f1e83f51cbf34568cf26b0e615c4725bdd94c439afa1",
+  "size": 115124,
+  "subdir": "osx-64",
+  "timestamp": 1593113643970,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/expat-2.2.9-hb1e8313_2.conda",
+  "version": "2.2.9"
+}

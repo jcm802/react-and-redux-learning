@@ -1,0 +1,33 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "ipykernel >=4.1",
+    "ipython_genutils",
+    "jupyter_client >=4.1",
+    "jupyter_core",
+    "pygments",
+    "pyqt",
+    "python",
+    "qtpy",
+    "traitlets"
+  ],
+  "features": "",
+  "fn": "qtconsole-4.7.5-py_0.conda",
+  "legacy_bz2_md5": "c0d185d0bd3968259608b566dc108d33",
+  "legacy_bz2_size": 95949,
+  "license": "BSD 3-Clause",
+  "md5": "9bb9315a65e37a9ed4ff9edf8157789c",
+  "name": "qtconsole",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "d5111d4aa441974bfa7898e6e0c7d769fb521ddfa2e9713826b307246a6dc080",
+  "size": 98017,
+  "subdir": "noarch",
+  "timestamp": 1592848642590,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/qtconsole-4.7.5-py_0.conda",
+  "version": "4.7.5"
+}

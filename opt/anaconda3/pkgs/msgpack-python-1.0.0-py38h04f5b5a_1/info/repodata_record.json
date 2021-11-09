@@ -1,0 +1,25 @@
+{
+  "build": "py38h04f5b5a_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "msgpack-python-1.0.0-py38h04f5b5a_1.conda",
+  "legacy_bz2_md5": "2cfecfddb97481fe94b64a3576858a82",
+  "legacy_bz2_size": 90599,
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "b518902dce561cef9c7f2b7e697e0017",
+  "name": "msgpack-python",
+  "sha256": "ea81665a2b7302d7b3904876a4e14812d69fec622a54c994e3eb99ab3c3e6904",
+  "size": 83062,
+  "subdir": "osx-64",
+  "timestamp": 1585079419215,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/msgpack-python-1.0.0-py38h04f5b5a_1.conda",
+  "version": "1.0.0"
+}

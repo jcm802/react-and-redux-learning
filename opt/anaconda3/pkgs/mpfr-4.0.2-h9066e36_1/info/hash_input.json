@@ -1,0 +1,5 @@
+{
+  "gmp": "6.1",
+  "c_compiler_version": "10",
+  "c_compiler": "clang"
+}

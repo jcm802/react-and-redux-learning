@@ -1,0 +1,25 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "entrypoints",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "keyring-21.2.1-py38_0.conda",
+  "legacy_bz2_md5": "852e59cdda4d99c2d16506a5b7b02bcb",
+  "legacy_bz2_size": 56735,
+  "license": "Python Software Foundation or MIT",
+  "license_family": "MIT",
+  "md5": "114d0186e0062db43b7354d4cc6d4264",
+  "name": "keyring",
+  "sha256": "a5cb49932d11c4ef39442b1a6a1706e5afce1134802dcf521e74526b7beec1be",
+  "size": 58843,
+  "subdir": "osx-64",
+  "timestamp": 1593109841900,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/keyring-21.2.1-py38_0.conda",
+  "version": "21.2.1"
+}

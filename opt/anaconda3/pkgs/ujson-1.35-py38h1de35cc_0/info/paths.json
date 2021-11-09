@@ -1,0 +1,43 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.8/__pycache__/_sysconfigdata_x86_64_apple_darwin13_4_0.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "939a42d89534b6bfcccace584909f0c300f8e4c146b016b803b5b50c6c1fdb61",
+      "size_in_bytes": 34938
+    },
+    {
+      "_path": "lib/python3.8/site-packages/ujson-1.35-py3.8.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "0ae6b8542b46da53c456abfd8722544db563745096249e9c9cde8864cf6d39d5",
+      "size_in_bytes": 20737
+    },
+    {
+      "_path": "lib/python3.8/site-packages/ujson-1.35-py3.8.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "95b36df59834edb572dfc66b45211b88b5de5ad6e24363d206e4cfdb784b60cb",
+      "size_in_bytes": 435
+    },
+    {
+      "_path": "lib/python3.8/site-packages/ujson-1.35-py3.8.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.8/site-packages/ujson-1.35-py3.8.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "201318b952021d68bdc6798c376d9434c10561fd784dc702ee8f6e60f872720d",
+      "size_in_bytes": 6
+    },
+    {
+      "_path": "lib/python3.8/site-packages/ujson.cpython-38-darwin.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/2a4d270d-717f-4844-4ef9-fd1fa4dc115a/volume/ujson_1573201152015/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+      "sha256": "4210071d0e083add2ee9b84d2ab554cf9f390cc46ab7e60e81f8671509dd674c",
+      "size_in_bytes": 46780
+    }
+  ],
+  "paths_version": 1
+}

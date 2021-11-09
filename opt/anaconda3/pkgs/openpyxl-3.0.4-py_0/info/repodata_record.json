@@ -1,0 +1,28 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "et_xmlfile",
+    "jdcal",
+    "python >=3.6"
+  ],
+  "features": "",
+  "fn": "openpyxl-3.0.4-py_0.conda",
+  "legacy_bz2_md5": "380e45ffe14d255b6161f6efdee1085d",
+  "legacy_bz2_size": 155681,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "b1d8758c4cc4c3f8bcae5f9aa449b898",
+  "name": "openpyxl",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "7161822509a0b4a3a709c3027c8599b88012ff25d863a291e3d3b6ca2923a780",
+  "size": 160887,
+  "subdir": "noarch",
+  "timestamp": 1594167414549,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/openpyxl-3.0.4-py_0.conda",
+  "version": "3.0.4"
+}

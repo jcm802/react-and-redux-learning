@@ -1,0 +1,52 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/decorator-4.4.2-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/decorator-4.4.2.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/decorator-4.4.2.dist-info/LICENSE.txt",
+    "lib/python3.8/site-packages/decorator-4.4.2.dist-info/METADATA",
+    "lib/python3.8/site-packages/decorator-4.4.2.dist-info/RECORD",
+    "lib/python3.8/site-packages/decorator-4.4.2.dist-info/WHEEL",
+    "lib/python3.8/site-packages/decorator-4.4.2.dist-info/pbr.json",
+    "lib/python3.8/site-packages/decorator-4.4.2.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/decorator.py",
+    "lib/python3.8/site-packages/__pycache__/decorator.cpython-38.pyc"
+  ],
+  "fn": "decorator-4.4.2-py_0.conda",
+  "legacy_bz2_md5": "4e298eec53d4a26726195d61ae144faf",
+  "legacy_bz2_size": 14160,
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/decorator-4.4.2-py_0",
+    "type": 1
+  },
+  "md5": "3f5146ff080437ecb0e1583a6021c634",
+  "name": "decorator",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/decorator-4.4.2-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/__pycache__/decorator.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "decorator==4.4.2=py_0",
+  "sha256": "d891054eeab74502ce4ecc9fda670149c533eeade16bd20b19ff6e3ab928bac6",
+  "size": 14224,
+  "subdir": "noarch",
+  "timestamp": 1584027029921,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/decorator-4.4.2-py_0.conda",
+  "version": "4.4.2"
+}

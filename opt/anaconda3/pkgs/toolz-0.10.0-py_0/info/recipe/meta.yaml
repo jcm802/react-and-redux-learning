@@ -1,0 +1,73 @@
+# This file created by conda-build 3.18.7
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/toolz-0.10.0-on-linux_64, last modified Mon Jul 15 16:00:48 2019
+# ------------------------------------------------
+
+package:
+    name: toolz
+    version: 0.10.0
+source:
+    sha256: 08fdd5ef7c96480ad11c12d472de21acd32359996f69a5259299b540feba4560
+    url: https://pypi.io/packages/source/t/toolz/toolz-0.10.0.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: /tmp/build/80754af9/toolz_1563206582423/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/bin/python
+        -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2019.5.15 0
+        - certifi 2019.6.16 py27_0
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.1 he6710b0_1
+        - openssl 1.1.1c h7b6447c_1
+        - pip 19.1.1 py27_0
+        - python 2.7.16 h9bab390_0
+        - readline 7.0 h7b6447c_5
+        - setuptools 41.0.1 py27_0
+        - sqlite 3.28.0 h7b6447c_0
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.33.4 py27_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python
+test:
+    imports:
+        - toolz
+        - toolz.curried
+        - toolz.functoolz
+        - toolz.sandbox
+about:
+    description: 'Toolz provides a set of utility functions for iterators, functions,
+        and
+
+        dictionaries. These functions interoperate well and form the building
+
+        blocks of common data analytic operations. They extend the standard
+
+        libraries itertools and functools and borrow heavily from the standard
+
+        libraries of contemporary functional languages.
+
+        '
+    dev_url: https://github.com/pytoolz/toolz
+    doc_source_url: https://github.com/pytoolz/toolz/blob/master/doc/source/index.rst
+    doc_url: http://toolz.readthedocs.org/en/latest/
+    home: http://toolz.readthedocs.org/
+    license: BSD 3-Clause
+    license_file: LICENSE.txt
+    summary: A functional standard library for Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - eriknw
+        - jakirkham
+        - jcrist
+        - mrocklin
+        - ocefpaf

@@ -1,0 +1,67 @@
+{
+  "build": "py38h1de35cc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/lazy-object-proxy-1.4.3-py38h1de35cc_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/__pycache__/_sysconfigdata_x86_64_apple_darwin13_4_0.cpython-38.pyc",
+    "lib/python3.8/site-packages/lazy_object_proxy-1.4.3.dist-info/AUTHORS.rst",
+    "lib/python3.8/site-packages/lazy_object_proxy-1.4.3.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/lazy_object_proxy-1.4.3.dist-info/LICENSE",
+    "lib/python3.8/site-packages/lazy_object_proxy-1.4.3.dist-info/METADATA",
+    "lib/python3.8/site-packages/lazy_object_proxy-1.4.3.dist-info/RECORD",
+    "lib/python3.8/site-packages/lazy_object_proxy-1.4.3.dist-info/WHEEL",
+    "lib/python3.8/site-packages/lazy_object_proxy-1.4.3.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/lazy_object_proxy/__init__.py",
+    "lib/python3.8/site-packages/lazy_object_proxy/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/lazy_object_proxy/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/lazy_object_proxy/__pycache__/compat.cpython-38.pyc",
+    "lib/python3.8/site-packages/lazy_object_proxy/__pycache__/simple.cpython-38.pyc",
+    "lib/python3.8/site-packages/lazy_object_proxy/__pycache__/slots.cpython-38.pyc",
+    "lib/python3.8/site-packages/lazy_object_proxy/__pycache__/utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/lazy_object_proxy/_version.py",
+    "lib/python3.8/site-packages/lazy_object_proxy/cext.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/lazy_object_proxy/compat.py",
+    "lib/python3.8/site-packages/lazy_object_proxy/simple.py",
+    "lib/python3.8/site-packages/lazy_object_proxy/slots.py",
+    "lib/python3.8/site-packages/lazy_object_proxy/utils.py"
+  ],
+  "fn": "lazy-object-proxy-1.4.3-py38h1de35cc_0.conda",
+  "legacy_bz2_md5": "19480e49e78d0602ee8e3bbcb3d97c0f",
+  "legacy_bz2_size": 37587,
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/lazy-object-proxy-1.4.3-py38h1de35cc_0",
+    "type": 1
+  },
+  "md5": "eb5cb9a569051e1c7c053f6bad049dca",
+  "name": "lazy-object-proxy",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/lazy-object-proxy-1.4.3-py38h1de35cc_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/lazy_object_proxy/cext.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/cefb2791-3622-408a-6b93-9b5ae536805d/volume/lazy-object-proxy_1573080599877/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "bd75f287da4aeb6f539b69170e2588a4c1d1b2de10864a3b6f3ab39bc3908296",
+        "sha256_in_prefix": "c520d5ba39d070c733adaac3542a7eb66a9d37bd81638a37ce53708717861e0c",
+        "size_in_bytes": 33044
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "lazy-object-proxy==1.4.3=py38h1de35cc_0",
+  "sha256": "8b96d59474b2ecdf675f96ef3136a6b2cb3127caa86dece983712fbf80efa48d",
+  "size": 35675,
+  "subdir": "osx-64",
+  "timestamp": 1573080914639,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/lazy-object-proxy-1.4.3-py38h1de35cc_0.conda",
+  "version": "1.4.3"
+}

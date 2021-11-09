@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/backports.weakref-1.0.post1-py2.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "262175c646dabf8cb9ace852ff7dc9c1851d904368afe44d98bc778654899108",
+      "size_in_bytes": 2612
+    },
+    {
+      "_path": "site-packages/backports.weakref-1.0.post1-py2.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "fbdd300a710130b9fa7b5dc240346fbab65eea36d0739888a7dd8958c80495e0",
+      "size_in_bytes": 345
+    },
+    {
+      "_path": "site-packages/backports.weakref-1.0.post1-py2.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "site-packages/backports.weakref-1.0.post1-py2.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "7068da2cc3a8051d452b4029a23b73595995893b49ec91882bf1f05e212cbed5",
+      "size_in_bytes": 10
+    },
+    {
+      "_path": "site-packages/backports/weakref.py",
+      "path_type": "hardlink",
+      "sha256": "24311ebd85db648def8a1b097ad0b58d00131c9b6969f2728a571b5a0f6131a3",
+      "size_in_bytes": 5238
+    }
+  ],
+  "paths_version": 1
+}

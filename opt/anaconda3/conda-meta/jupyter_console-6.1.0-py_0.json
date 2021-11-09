@@ -1,0 +1,122 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "ipykernel",
+    "ipython",
+    "jupyter_client",
+    "prompt_toolkit >=2.0.0,<3.1.0,!=3.0.0,!=3.0.1",
+    "pygments",
+    "python >=3.5"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/jupyter_console-6.1.0-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/jupyter_console-6.1.0.dist-info/COPYING.md",
+    "lib/python3.8/site-packages/jupyter_console-6.1.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/jupyter_console-6.1.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/jupyter_console-6.1.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/jupyter_console-6.1.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/jupyter_console-6.1.0.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/jupyter_console-6.1.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/jupyter_console/__init__.py",
+    "lib/python3.8/site-packages/jupyter_console/__main__.py",
+    "lib/python3.8/site-packages/jupyter_console/_version.py",
+    "lib/python3.8/site-packages/jupyter_console/app.py",
+    "lib/python3.8/site-packages/jupyter_console/completer.py",
+    "lib/python3.8/site-packages/jupyter_console/ptshell.py",
+    "lib/python3.8/site-packages/jupyter_console/tests/__init__.py",
+    "lib/python3.8/site-packages/jupyter_console/tests/test_console.py",
+    "lib/python3.8/site-packages/jupyter_console/tests/test_image_handler.py",
+    "lib/python3.8/site-packages/jupyter_console/tests/writetofile.py",
+    "lib/python3.8/site-packages/jupyter_console/zmqhistory.py",
+    "lib/python3.8/site-packages/jupyter_console/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyter_console/__pycache__/__main__.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyter_console/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyter_console/__pycache__/app.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyter_console/__pycache__/completer.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyter_console/__pycache__/ptshell.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyter_console/tests/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyter_console/tests/__pycache__/test_console.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyter_console/tests/__pycache__/test_image_handler.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyter_console/tests/__pycache__/writetofile.cpython-38.pyc",
+    "lib/python3.8/site-packages/jupyter_console/__pycache__/zmqhistory.cpython-38.pyc",
+    "bin/jupyter-console"
+  ],
+  "fn": "jupyter_console-6.1.0-py_0.conda",
+  "legacy_bz2_md5": "a4ceac47ef6921a23abe587d45364897",
+  "legacy_bz2_size": 24384,
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/jupyter_console-6.1.0-py_0",
+    "type": 1
+  },
+  "md5": "cf263cf41cb14e6467b6f51a58094d0e",
+  "name": "jupyter_console",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/jupyter_console-6.1.0-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/jupyter_console/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyter_console/__pycache__/__main__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyter_console/__pycache__/_version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyter_console/__pycache__/app.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyter_console/__pycache__/completer.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyter_console/__pycache__/ptshell.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyter_console/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyter_console/tests/__pycache__/test_console.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyter_console/tests/__pycache__/test_image_handler.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyter_console/tests/__pycache__/writetofile.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/jupyter_console/__pycache__/zmqhistory.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/jupyter-console",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "jupyter_console==6.1.0=py_0",
+  "sha256": "50b3870dc8cb8f6ccc080a0293ac0a67b411fe9e06371e01e98fc496f34d28a0",
+  "size": 24774,
+  "subdir": "noarch",
+  "timestamp": 1579795616930,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/jupyter_console-6.1.0-py_0.conda",
+  "version": "6.1.0"
+}

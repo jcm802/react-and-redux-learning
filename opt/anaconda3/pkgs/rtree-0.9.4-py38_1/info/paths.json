@@ -1,0 +1,77 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.8/site-packages/Rtree-0.9.4.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.8/site-packages/Rtree-0.9.4.dist-info/LICENSE.txt",
+      "path_type": "hardlink",
+      "sha256": "269081ad7241c9e138643460e14c581b06e7a26a81915c1c6613fe3e295d870d",
+      "size_in_bytes": 1137
+    },
+    {
+      "_path": "lib/python3.8/site-packages/Rtree-0.9.4.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "9326dde34678eaa468333f17925073cc7b897d3487d076ddf73a44ca4a304ae7",
+      "size_in_bytes": 2495
+    },
+    {
+      "_path": "lib/python3.8/site-packages/Rtree-0.9.4.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "33be9564103ac967e7bef6250bc04caf898bc35897ff2d897938fd98e475ace0",
+      "size_in_bytes": 816
+    },
+    {
+      "_path": "lib/python3.8/site-packages/Rtree-0.9.4.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+      "size_in_bytes": 92
+    },
+    {
+      "_path": "lib/python3.8/site-packages/Rtree-0.9.4.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "4f5f67b4b01e841ded6794bdaab2e07e217593d37580fe7a3ffd7e4ec05aef6e",
+      "size_in_bytes": 6
+    },
+    {
+      "_path": "lib/python3.8/site-packages/rtree/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "af68fcb98875c009434fcb608b2a7c8615a343f942793c3ae5c687e4d96c4191",
+      "size_in_bytes": 75
+    },
+    {
+      "_path": "lib/python3.8/site-packages/rtree/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "b2765c2c5f4470ab6f4762c748bf8e7a4894945eaaf362a71c3c3cac2eb37ee2",
+      "size_in_bytes": 228
+    },
+    {
+      "_path": "lib/python3.8/site-packages/rtree/__pycache__/core.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "635237ba07cb196635f6abaa9372f34e7b6f01dc38e7abb02ccb4218d898a123",
+      "size_in_bytes": 11504
+    },
+    {
+      "_path": "lib/python3.8/site-packages/rtree/__pycache__/index.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "97d754866cbe5759552607bdfa9015c0953849708f8ecf84787f2d8ffea7d8ae",
+      "size_in_bytes": 73127
+    },
+    {
+      "_path": "lib/python3.8/site-packages/rtree/core.py",
+      "path_type": "hardlink",
+      "sha256": "16091c6e993ab010e802e0064224f7e28eb082e7c1182e461fbea74b4ebc7f9f",
+      "size_in_bytes": 30083
+    },
+    {
+      "_path": "lib/python3.8/site-packages/rtree/index.py",
+      "path_type": "hardlink",
+      "sha256": "cc1392e4e8404a8f3e332ea480422a644f976756cc3f04553b75620d3d853978",
+      "size_in_bytes": 83484
+    }
+  ],
+  "paths_version": 1
+}

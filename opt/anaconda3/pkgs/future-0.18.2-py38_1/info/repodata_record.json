@@ -1,0 +1,24 @@
+{
+  "build": "py38_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "future-0.18.2-py38_1.conda",
+  "legacy_bz2_md5": "903e6f00ac272cd5c8c0516ebe4e48a7",
+  "legacy_bz2_size": 736959,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "60214124311640eda1056e9833410730",
+  "name": "future",
+  "sha256": "a29abb8308cecc6dcf6dc1ace85803ffd84385e18556dcf4e45985ce330610e3",
+  "size": 657036,
+  "subdir": "osx-64",
+  "timestamp": 1591810743580,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/future-0.18.2-py38_1.conda",
+  "version": "0.18.2"
+}

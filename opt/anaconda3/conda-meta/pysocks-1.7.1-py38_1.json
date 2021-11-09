@@ -1,0 +1,48 @@
+{
+  "build": "py38_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/pysocks-1.7.1-py38_1",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/PySocks-1.7.1.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/PySocks-1.7.1.dist-info/LICENSE",
+    "lib/python3.8/site-packages/PySocks-1.7.1.dist-info/METADATA",
+    "lib/python3.8/site-packages/PySocks-1.7.1.dist-info/RECORD",
+    "lib/python3.8/site-packages/PySocks-1.7.1.dist-info/WHEEL",
+    "lib/python3.8/site-packages/PySocks-1.7.1.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/PySocks-1.7.1.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/__pycache__/socks.cpython-38.pyc",
+    "lib/python3.8/site-packages/__pycache__/sockshandler.cpython-38.pyc",
+    "lib/python3.8/site-packages/socks.py",
+    "lib/python3.8/site-packages/sockshandler.py"
+  ],
+  "fn": "pysocks-1.7.1-py38_1.conda",
+  "legacy_bz2_md5": "6837a4c11fb0126b4422d0caaa1b6296",
+  "legacy_bz2_size": 27255,
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/pysocks-1.7.1-py38_1",
+    "type": 1
+  },
+  "md5": "54d4dfc99989f03cefe7d922a741f3cf",
+  "name": "pysocks",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/pysocks-1.7.1-py38_1.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "pysocks==1.7.1=py38_1",
+  "sha256": "a1e49c1397e7e65952bfc3182d1c6e82b04b6eaa8c41f66b61dc558c801e3396",
+  "size": 28048,
+  "subdir": "osx-64",
+  "timestamp": 1594394684547,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pysocks-1.7.1-py38_1.conda",
+  "version": "1.7.1"
+}

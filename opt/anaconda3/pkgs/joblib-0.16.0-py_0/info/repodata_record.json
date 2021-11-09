@@ -1,0 +1,26 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6",
+    "setuptools"
+  ],
+  "features": "",
+  "fn": "joblib-0.16.0-py_0.conda",
+  "legacy_bz2_md5": "793ab7295f5c35c367c587b12586c31c",
+  "legacy_bz2_size": 214743,
+  "license": "BSD-3-Clause",
+  "md5": "5ee89d7ea2b666323202d055ecfc85eb",
+  "name": "joblib",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "c20b78d9e8a640decd2310d48d934b95af531626ea83e38f8d9f6329679c4753",
+  "size": 214549,
+  "subdir": "noarch",
+  "timestamp": 1594236190633,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/joblib-0.16.0-py_0.conda",
+  "version": "0.16.0"
+}

@@ -1,0 +1,26 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "attrs-19.3.0-py_0.conda",
+  "legacy_bz2_md5": "ebeb075ab07bf93a297ecfda7f76decb",
+  "legacy_bz2_size": 39520,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "225d76536a6cdf382f89eae7bad10bab",
+  "name": "attrs",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "f45e4a606fa5275617dc73bb8e2b8193d57a595b25b472672d60c22b19ec03cf",
+  "size": 40564,
+  "subdir": "noarch",
+  "timestamp": 1571758424609,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/attrs-19.3.0-py_0.conda",
+  "version": "19.3.0"
+}

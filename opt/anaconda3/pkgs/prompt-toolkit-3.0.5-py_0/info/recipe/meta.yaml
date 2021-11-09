@@ -1,0 +1,63 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/prompt-toolkit-3.0.5-on-linux_64, last modified Tue Jun  2 17:58:09 2020
+# ------------------------------------------------
+
+package:
+    name: prompt-toolkit
+    version: 3.0.5
+source:
+    sha256: 563d1a4140b63ff9dd587bda9557cffb2fe73650205ab6f4383092fb882e7dc8
+    url: https://pypi.io/packages/source/p/prompt_toolkit/prompt_toolkit-3.0.5.tar.gz
+build:
+    noarch: python
+    number: '0'
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.4.5.1 py38_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.3 he6710b0_1
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1g h7b6447c_0
+        - pip 20.0.2 py38_3
+        - python 3.8.3 hcff3b4d_0
+        - readline 8.0 h7b6447c_0
+        - setuptools 46.4.0 py38_0
+        - sqlite 3.31.1 h62c20be_1
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - pygments
+        - python >=3.6
+        - six >=1.9.0
+        - wcwidth
+about:
+    description: 'prompt_toolkit is a library for building powerful interactive command
+
+        lines and terminal applications in Python. It can be a pure Python
+
+        replacement for GNU readline, but it can be much more than that.
+
+        '
+    dev_url: https://github.com/jonathanslenders/python-prompt-toolkit
+    doc_url: http://python-prompt-toolkit.readthedocs.io
+    home: https://github.com/jonathanslenders/python-prompt-toolkit
+    license: BSD-3-Clause
+    license_file: LICENSE
+    summary: Library for building powerful interactive command lines in Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - asmeurer
+        - jakirkham
+        - ocefpaf
+        - scopatz

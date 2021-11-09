@@ -1,0 +1,455 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "ipython_genutils",
+    "jsonschema >=2.4,!=2.5.0",
+    "jupyter_core",
+    "python >=3.5",
+    "traitlets >=4.1"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/nbformat-5.0.7-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/nbformat-5.0.7.dist-info/COPYING.md",
+    "lib/python3.8/site-packages/nbformat-5.0.7.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/nbformat-5.0.7.dist-info/METADATA",
+    "lib/python3.8/site-packages/nbformat-5.0.7.dist-info/RECORD",
+    "lib/python3.8/site-packages/nbformat-5.0.7.dist-info/WHEEL",
+    "lib/python3.8/site-packages/nbformat-5.0.7.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/nbformat-5.0.7.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/nbformat/__init__.py",
+    "lib/python3.8/site-packages/nbformat/_compat.py",
+    "lib/python3.8/site-packages/nbformat/_version.py",
+    "lib/python3.8/site-packages/nbformat/converter.py",
+    "lib/python3.8/site-packages/nbformat/current.py",
+    "lib/python3.8/site-packages/nbformat/notebooknode.py",
+    "lib/python3.8/site-packages/nbformat/reader.py",
+    "lib/python3.8/site-packages/nbformat/sentinel.py",
+    "lib/python3.8/site-packages/nbformat/sign.py",
+    "lib/python3.8/site-packages/nbformat/tests/__init__.py",
+    "lib/python3.8/site-packages/nbformat/tests/base.py",
+    "lib/python3.8/site-packages/nbformat/tests/invalid.ipynb",
+    "lib/python3.8/site-packages/nbformat/tests/test2.ipynb",
+    "lib/python3.8/site-packages/nbformat/tests/test3.ipynb",
+    "lib/python3.8/site-packages/nbformat/tests/test4.ipynb",
+    "lib/python3.8/site-packages/nbformat/tests/test4custom.ipynb",
+    "lib/python3.8/site-packages/nbformat/tests/test4docinfo.ipynb",
+    "lib/python3.8/site-packages/nbformat/tests/test4jupyter_metadata.ipynb",
+    "lib/python3.8/site-packages/nbformat/tests/test4jupyter_metadata_timings.ipynb",
+    "lib/python3.8/site-packages/nbformat/tests/test4plus.ipynb",
+    "lib/python3.8/site-packages/nbformat/tests/test_api.py",
+    "lib/python3.8/site-packages/nbformat/tests/test_convert.py",
+    "lib/python3.8/site-packages/nbformat/tests/test_nbformat.py",
+    "lib/python3.8/site-packages/nbformat/tests/test_reader.py",
+    "lib/python3.8/site-packages/nbformat/tests/test_sign.py",
+    "lib/python3.8/site-packages/nbformat/tests/test_validator.py",
+    "lib/python3.8/site-packages/nbformat/v1/__init__.py",
+    "lib/python3.8/site-packages/nbformat/v1/convert.py",
+    "lib/python3.8/site-packages/nbformat/v1/nbbase.py",
+    "lib/python3.8/site-packages/nbformat/v1/nbjson.py",
+    "lib/python3.8/site-packages/nbformat/v1/rwbase.py",
+    "lib/python3.8/site-packages/nbformat/v1/tests/__init__.py",
+    "lib/python3.8/site-packages/nbformat/v1/tests/nbexamples.py",
+    "lib/python3.8/site-packages/nbformat/v1/tests/test_json.py",
+    "lib/python3.8/site-packages/nbformat/v1/tests/test_nbbase.py",
+    "lib/python3.8/site-packages/nbformat/v2/__init__.py",
+    "lib/python3.8/site-packages/nbformat/v2/convert.py",
+    "lib/python3.8/site-packages/nbformat/v2/nbbase.py",
+    "lib/python3.8/site-packages/nbformat/v2/nbjson.py",
+    "lib/python3.8/site-packages/nbformat/v2/nbpy.py",
+    "lib/python3.8/site-packages/nbformat/v2/nbxml.py",
+    "lib/python3.8/site-packages/nbformat/v2/rwbase.py",
+    "lib/python3.8/site-packages/nbformat/v2/tests/__init__.py",
+    "lib/python3.8/site-packages/nbformat/v2/tests/nbexamples.py",
+    "lib/python3.8/site-packages/nbformat/v2/tests/test_json.py",
+    "lib/python3.8/site-packages/nbformat/v2/tests/test_nbbase.py",
+    "lib/python3.8/site-packages/nbformat/v2/tests/test_nbpy.py",
+    "lib/python3.8/site-packages/nbformat/v3/__init__.py",
+    "lib/python3.8/site-packages/nbformat/v3/convert.py",
+    "lib/python3.8/site-packages/nbformat/v3/nbbase.py",
+    "lib/python3.8/site-packages/nbformat/v3/nbformat.v3.schema.json",
+    "lib/python3.8/site-packages/nbformat/v3/nbjson.py",
+    "lib/python3.8/site-packages/nbformat/v3/nbpy.py",
+    "lib/python3.8/site-packages/nbformat/v3/rwbase.py",
+    "lib/python3.8/site-packages/nbformat/v3/tests/__init__.py",
+    "lib/python3.8/site-packages/nbformat/v3/tests/formattest.py",
+    "lib/python3.8/site-packages/nbformat/v3/tests/nbexamples.py",
+    "lib/python3.8/site-packages/nbformat/v3/tests/test_json.py",
+    "lib/python3.8/site-packages/nbformat/v3/tests/test_misc.py",
+    "lib/python3.8/site-packages/nbformat/v3/tests/test_nbbase.py",
+    "lib/python3.8/site-packages/nbformat/v3/tests/test_nbpy.py",
+    "lib/python3.8/site-packages/nbformat/v4/__init__.py",
+    "lib/python3.8/site-packages/nbformat/v4/convert.py",
+    "lib/python3.8/site-packages/nbformat/v4/nbbase.py",
+    "lib/python3.8/site-packages/nbformat/v4/nbformat.v4.0.schema.json",
+    "lib/python3.8/site-packages/nbformat/v4/nbformat.v4.1.schema.json",
+    "lib/python3.8/site-packages/nbformat/v4/nbformat.v4.2.schema.json",
+    "lib/python3.8/site-packages/nbformat/v4/nbformat.v4.3.schema.json",
+    "lib/python3.8/site-packages/nbformat/v4/nbformat.v4.4.schema.json",
+    "lib/python3.8/site-packages/nbformat/v4/nbformat.v4.schema.json",
+    "lib/python3.8/site-packages/nbformat/v4/nbjson.py",
+    "lib/python3.8/site-packages/nbformat/v4/rwbase.py",
+    "lib/python3.8/site-packages/nbformat/v4/tests/__init__.py",
+    "lib/python3.8/site-packages/nbformat/v4/tests/formattest.py",
+    "lib/python3.8/site-packages/nbformat/v4/tests/nbexamples.py",
+    "lib/python3.8/site-packages/nbformat/v4/tests/test_convert.py",
+    "lib/python3.8/site-packages/nbformat/v4/tests/test_json.py",
+    "lib/python3.8/site-packages/nbformat/v4/tests/test_nbbase.py",
+    "lib/python3.8/site-packages/nbformat/v4/tests/test_validate.py",
+    "lib/python3.8/site-packages/nbformat/validator.py",
+    "lib/python3.8/site-packages/nbformat/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/__pycache__/_compat.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/__pycache__/converter.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/__pycache__/current.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/__pycache__/notebooknode.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/__pycache__/reader.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/__pycache__/sentinel.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/__pycache__/sign.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/tests/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/tests/__pycache__/base.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/tests/__pycache__/test_api.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/tests/__pycache__/test_convert.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/tests/__pycache__/test_nbformat.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/tests/__pycache__/test_reader.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/tests/__pycache__/test_sign.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/tests/__pycache__/test_validator.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v1/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v1/__pycache__/convert.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v1/__pycache__/nbbase.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v1/__pycache__/nbjson.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v1/__pycache__/rwbase.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v1/tests/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v1/tests/__pycache__/nbexamples.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v1/tests/__pycache__/test_json.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v1/tests/__pycache__/test_nbbase.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v2/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v2/__pycache__/convert.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v2/__pycache__/nbbase.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v2/__pycache__/nbjson.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v2/__pycache__/nbpy.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v2/__pycache__/nbxml.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v2/__pycache__/rwbase.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v2/tests/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v2/tests/__pycache__/nbexamples.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v2/tests/__pycache__/test_json.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v2/tests/__pycache__/test_nbbase.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v2/tests/__pycache__/test_nbpy.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v3/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v3/__pycache__/convert.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v3/__pycache__/nbbase.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v3/__pycache__/nbjson.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v3/__pycache__/nbpy.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v3/__pycache__/rwbase.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v3/tests/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v3/tests/__pycache__/formattest.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v3/tests/__pycache__/nbexamples.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v3/tests/__pycache__/test_json.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v3/tests/__pycache__/test_misc.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v3/tests/__pycache__/test_nbbase.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v3/tests/__pycache__/test_nbpy.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v4/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v4/__pycache__/convert.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v4/__pycache__/nbbase.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v4/__pycache__/nbjson.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v4/__pycache__/rwbase.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v4/tests/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v4/tests/__pycache__/formattest.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v4/tests/__pycache__/nbexamples.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v4/tests/__pycache__/test_convert.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v4/tests/__pycache__/test_json.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v4/tests/__pycache__/test_nbbase.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/v4/tests/__pycache__/test_validate.cpython-38.pyc",
+    "lib/python3.8/site-packages/nbformat/__pycache__/validator.cpython-38.pyc",
+    "bin/jupyter-trust"
+  ],
+  "fn": "nbformat-5.0.7-py_0.conda",
+  "legacy_bz2_md5": "0c819597e9ba89e57a9e0d5f8894ccde",
+  "legacy_bz2_size": 105475,
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/nbformat-5.0.7-py_0",
+    "type": 1
+  },
+  "md5": "a79a6b8519be83d6fcc541b73d6b9135",
+  "name": "nbformat",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/nbformat-5.0.7-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/__pycache__/_compat.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/__pycache__/_version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/__pycache__/converter.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/__pycache__/current.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/__pycache__/notebooknode.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/__pycache__/reader.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/__pycache__/sentinel.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/__pycache__/sign.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/tests/__pycache__/base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/tests/__pycache__/test_api.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/tests/__pycache__/test_convert.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/tests/__pycache__/test_nbformat.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/tests/__pycache__/test_reader.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/tests/__pycache__/test_sign.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/tests/__pycache__/test_validator.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v1/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v1/__pycache__/convert.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v1/__pycache__/nbbase.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v1/__pycache__/nbjson.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v1/__pycache__/rwbase.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v1/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v1/tests/__pycache__/nbexamples.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v1/tests/__pycache__/test_json.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v1/tests/__pycache__/test_nbbase.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v2/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v2/__pycache__/convert.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v2/__pycache__/nbbase.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v2/__pycache__/nbjson.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v2/__pycache__/nbpy.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v2/__pycache__/nbxml.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v2/__pycache__/rwbase.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v2/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v2/tests/__pycache__/nbexamples.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v2/tests/__pycache__/test_json.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v2/tests/__pycache__/test_nbbase.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v2/tests/__pycache__/test_nbpy.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v3/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v3/__pycache__/convert.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v3/__pycache__/nbbase.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v3/__pycache__/nbjson.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v3/__pycache__/nbpy.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v3/__pycache__/rwbase.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v3/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v3/tests/__pycache__/formattest.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v3/tests/__pycache__/nbexamples.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v3/tests/__pycache__/test_json.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v3/tests/__pycache__/test_misc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v3/tests/__pycache__/test_nbbase.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v3/tests/__pycache__/test_nbpy.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v4/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v4/__pycache__/convert.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v4/__pycache__/nbbase.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v4/__pycache__/nbjson.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v4/__pycache__/rwbase.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v4/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v4/tests/__pycache__/formattest.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v4/tests/__pycache__/nbexamples.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v4/tests/__pycache__/test_convert.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v4/tests/__pycache__/test_json.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v4/tests/__pycache__/test_nbbase.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/v4/tests/__pycache__/test_validate.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nbformat/__pycache__/validator.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/jupyter-trust",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "nbformat==5.0.7=py_0",
+  "sha256": "eb37b0597ad8c67db95a9bddca452c0f8d834c78990daecb86c22c693e4d3831",
+  "size": 91350,
+  "subdir": "noarch",
+  "timestamp": 1592327265225,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/nbformat-5.0.7-py_0.conda",
+  "version": "5.0.7"
+}

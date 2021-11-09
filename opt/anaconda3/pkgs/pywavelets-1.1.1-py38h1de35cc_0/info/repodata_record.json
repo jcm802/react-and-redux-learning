@@ -1,0 +1,24 @@
+{
+  "build": "py38h1de35cc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.14.6,<2.0a0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "pywavelets-1.1.1-py38h1de35cc_0.conda",
+  "legacy_bz2_md5": "161b3bd662da634b7a494f5d3d0c98ef",
+  "legacy_bz2_size": 4531715,
+  "license": "MIT",
+  "md5": "af0aa060f12069b2c6856023e791c7a5",
+  "name": "pywavelets",
+  "sha256": "091ef87565498241779f713782b7eccda05e7d1306aca73692f5d466456b7001",
+  "size": 3597431,
+  "subdir": "osx-64",
+  "timestamp": 1574080413070,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pywavelets-1.1.1-py38h1de35cc_0.conda",
+  "version": "1.1.1"
+}

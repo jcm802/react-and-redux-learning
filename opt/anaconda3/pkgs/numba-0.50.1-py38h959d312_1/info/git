@@ -1,0 +1,19 @@
+==> git log -n1 <==
+commit bfd9be18f19eb2a28ad25fb77a84b0dd92748ddf
+Author: Siu Kwan Lam <michael.lam.sk@gmail.com>
+Date:   Wed Jun 24 14:03:10 2020 -0500
+
+    Fix changelog format
+==> git describe --tags --dirty <==
+0.50.1
+==> git status <==
+HEAD detached at 0.50.1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	build_env_setup.sh
+	conda_build.sh
+	metadata_conda_debug.yaml
+	record.txt
+
+nothing added to commit but untracked files present (use "git add" to track)

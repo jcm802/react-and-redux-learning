@@ -1,0 +1,1 @@
+["jinja2", "tbb >=2018.0.5", "clang_osx-64 10.*", "scipy", "cffi", "intel-openmp", "ipython", "pip", "numpy <1.18", "clangxx_osx-64 10.*", "setuptools"]

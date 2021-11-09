@@ -1,0 +1,14 @@
+site-packages/json5-0.9.5.dist-info/INSTALLER
+site-packages/json5-0.9.5.dist-info/METADATA
+site-packages/json5-0.9.5.dist-info/RECORD
+site-packages/json5-0.9.5.dist-info/WHEEL
+site-packages/json5-0.9.5.dist-info/entry_points.txt
+site-packages/json5-0.9.5.dist-info/top_level.txt
+site-packages/json5/__init__.py
+site-packages/json5/__main__.py
+site-packages/json5/arg_parser.py
+site-packages/json5/host.py
+site-packages/json5/lib.py
+site-packages/json5/parser.py
+site-packages/json5/tool.py
+site-packages/json5/version.py

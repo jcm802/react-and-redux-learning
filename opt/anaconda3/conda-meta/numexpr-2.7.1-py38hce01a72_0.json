@@ -1,0 +1,86 @@
+{
+  "build": "py38hce01a72_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "blas 1.0 mkl",
+    "libcxx >=4.0.1",
+    "mkl >=2019.4,<2020.0a0",
+    "mkl-service >=2,<3.0a0",
+    "numpy >=1.14.6,<2.0a0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/numexpr-2.7.1-py38hce01a72_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/numexpr-2.7.1.dist-info/AUTHORS.txt",
+    "lib/python3.8/site-packages/numexpr-2.7.1.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/numexpr-2.7.1.dist-info/LICENSE.txt",
+    "lib/python3.8/site-packages/numexpr-2.7.1.dist-info/METADATA",
+    "lib/python3.8/site-packages/numexpr-2.7.1.dist-info/RECORD",
+    "lib/python3.8/site-packages/numexpr-2.7.1.dist-info/WHEEL",
+    "lib/python3.8/site-packages/numexpr-2.7.1.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/numexpr/__config__.py",
+    "lib/python3.8/site-packages/numexpr/__init__.py",
+    "lib/python3.8/site-packages/numexpr/__pycache__/__config__.cpython-38.pyc",
+    "lib/python3.8/site-packages/numexpr/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/numexpr/__pycache__/cpuinfo.cpython-38.pyc",
+    "lib/python3.8/site-packages/numexpr/__pycache__/expressions.cpython-38.pyc",
+    "lib/python3.8/site-packages/numexpr/__pycache__/necompiler.cpython-38.pyc",
+    "lib/python3.8/site-packages/numexpr/__pycache__/utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/numexpr/__pycache__/version.cpython-38.pyc",
+    "lib/python3.8/site-packages/numexpr/cpuinfo.py",
+    "lib/python3.8/site-packages/numexpr/expressions.py",
+    "lib/python3.8/site-packages/numexpr/interpreter.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/numexpr/necompiler.py",
+    "lib/python3.8/site-packages/numexpr/tests/__init__.py",
+    "lib/python3.8/site-packages/numexpr/tests/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/numexpr/tests/__pycache__/test_numexpr.cpython-38.pyc",
+    "lib/python3.8/site-packages/numexpr/tests/test_numexpr.py",
+    "lib/python3.8/site-packages/numexpr/utils.py",
+    "lib/python3.8/site-packages/numexpr/version.py"
+  ],
+  "fn": "numexpr-2.7.1-py38hce01a72_0.conda",
+  "legacy_bz2_md5": "fa655bc6cd3014010c80019281901be5",
+  "legacy_bz2_size": 135802,
+  "license": "MIT",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/numexpr-2.7.1-py38hce01a72_0",
+    "type": 1
+  },
+  "md5": "4f89c5ba6da4a0fb0a292a5a47d192c2",
+  "name": "numexpr",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/numexpr-2.7.1-py38hce01a72_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/numexpr/__config__.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "d69becad0948b78c9624ed58dd81d9ba6649cb0d8e352f9d89d659e9dd1db1da",
+        "sha256_in_prefix": "28e0de81fbd36f7367a28601d31b09b9e97cf83705faad7bdaa3bdc2643f1da7",
+        "size_in_bytes": 1147
+      },
+      {
+        "_path": "lib/python3.8/site-packages/numexpr/interpreter.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/0068f992-3a72-47c6-4a10-a3714c9c0c34/volume/numexpr_1580839183769/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "7f6cbe3fa1b5349375509eacc2339948952b29fcef7abfca6bcadbb23846755f",
+        "sha256_in_prefix": "7d9e9d76806499552c64d73b7d1cb46414ff7089f0f86827c301eca587d1e072",
+        "size_in_bytes": 154120
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "numexpr==2.7.1=py38hce01a72_0",
+  "sha256": "d9720e16c4c6a2ac42971e86c28ee52c37cbb69aa4e654bded483f34b24455c1",
+  "size": 124875,
+  "subdir": "osx-64",
+  "timestamp": 1580839514244,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/numexpr-2.7.1-py38hce01a72_0.conda",
+  "version": "2.7.1"
+}

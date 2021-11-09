@@ -1,0 +1,59 @@
+{
+  "paths": [
+    {
+      "_path": "bin/sqlite3",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/11ffe144-d423-4f81-56c8-24085aded71c/volume/sqlite_1592847621484/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+      "sha256": "657b5b416c5f78cc7608b06525c35f65289c2be3f9d0259df4dcfae1f3c3e872",
+      "size_in_bytes": 1860756
+    },
+    {
+      "_path": "include/sqlite3.h",
+      "path_type": "hardlink",
+      "sha256": "96a7c868bda3160973772924eff2c778df31f7d3d5148bf07a0078771a5b97b7",
+      "size_in_bytes": 581356
+    },
+    {
+      "_path": "include/sqlite3ext.h",
+      "path_type": "hardlink",
+      "sha256": "f28f682ee2810392b037a5a308c60d63dafae5fc4d72d015e9b7460ca1ca6657",
+      "size_in_bytes": 35269
+    },
+    {
+      "_path": "lib/libsqlite3.0.dylib",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/11ffe144-d423-4f81-56c8-24085aded71c/volume/sqlite_1592847621484/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+      "sha256": "a4691ce35981cb3ae656c22b952a160d817df43c413908a25cb6cf30e8f69fd3",
+      "size_in_bytes": 1620576
+    },
+    {
+      "_path": "lib/libsqlite3.a",
+      "path_type": "hardlink",
+      "sha256": "987ab6a960363c892c710b20b959e86359b495ecf0315e2be6583c363d933afe",
+      "size_in_bytes": 1997112
+    },
+    {
+      "_path": "lib/libsqlite3.dylib",
+      "path_type": "softlink",
+      "sha256": "a4691ce35981cb3ae656c22b952a160d817df43c413908a25cb6cf30e8f69fd3",
+      "size_in_bytes": 1620576
+    },
+    {
+      "_path": "lib/pkgconfig/sqlite3.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "61551350624a9801514362d2c658f2b415fd86832b6f1fd1d34ddf409ef8e76c",
+      "size_in_bytes": 289
+    },
+    {
+      "_path": "share/man/man1/sqlite3.1",
+      "path_type": "hardlink",
+      "sha256": "fb3333f3a5deabad321ca7c332e059cbf3b8bb1a39f24d95700876c2ddd26c86",
+      "size_in_bytes": 8928
+    }
+  ],
+  "paths_version": 1
+}

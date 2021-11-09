@@ -1,0 +1,3 @@
+lib/libtbb.dylib
+lib/libtbbmalloc.dylib
+lib/libtbbmalloc_proxy.dylib

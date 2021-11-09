@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "python",
+    "sortedcontainers >=2.0"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "name": "sortedcollections",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1592328091058,
+  "version": "1.2.1"
+}

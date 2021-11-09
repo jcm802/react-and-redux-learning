@@ -1,0 +1,77 @@
+# This file created by conda-build 3.16.1
+# meta.yaml template originally from:
+# /Users/distiller/test/recipe, last modified Fri Oct 26 12:47:06 2018
+# ------------------------------------------------
+
+package:
+    name: mysql
+    version: 5.7.20
+source:
+    fn: mysql-boost-5.7.20.tar.gz
+    sha256: 260582844ac18222ce2826f48b6c7ca387990b19ddb88331af26738b394e42a4
+    url: https://downloads.mysql.com/archives/get/file/mysql-boost-5.7.20.tar.gz
+build:
+    merge_build_host: true
+    number: '1001'
+    string: h0a44026_1001
+requirements:
+    build:
+        - bzip2 1.0.6 1
+        - ca-certificates 2018.10.15 ha4d7672_0
+        - cctools 895 h7512d6f_0
+        - clang 4.0.1 h662ec87_0
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - clangxx 4.0.1 hc9b4283_0
+        - clangxx_osx-64 4.0.1 h22b1bf0_11
+        - cmake 3.12.3 h011004d_0
+        - compiler-rt 4.0.1 h5487866_0
+        - curl 7.61.1 h74213dd_2
+        - expat 2.2.5 hfc679d8_2
+        - krb5 1.16.1 hbb41f41_0
+        - ld64 274.2 h7c2db76_0
+        - libcurl 7.61.1 hbdb9355_2
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 haf1bffa_1
+        - libssh2 1.8.0 h5b517e9_2
+        - libuv 1.23.2 h470a237_0
+        - llvm 4.0.1 hc748206_0
+        - llvm-lto-tapi 4.0.1 h6701bc3_0
+        - ncurses 6.1 hfc679d8_1
+        - openssl 1.0.2p h470a237_1
+        - perl 5.26.2 h16c6ff1_0
+        - rhash 1.3.6 h470a237_1
+        - tk 8.6.8 ha92aebf_0
+        - xz 5.2.4 h470a237_1
+        - zlib 1.2.11 h470a237_3
+    host:
+        - libcxx 7.0.0 h2d50403_0
+        - llvm-meta 7.0.0 0
+    run:
+        - libcxx >=4.0.1
+test:
+    commands:
+        - mysql_config --version
+        - my_print_defaults --version
+        - mysqld --help --verbose
+        - command -v mysql.server
+about:
+    description: 'The MySQL(TM) software delivers a very fast, multi-threaded, multi-user,
+
+        and robust SQL (Structured Query Language) database server. MySQL Server
+
+        is intended for mission-critical, heavy-load production systems as well
+
+        as for embedding into mass-deployed software.
+
+        '
+    home: https://www.mysql.com/
+    license: GPL-2.0
+    license_family: GPL
+    license_file: COPYING
+    summary: Open source relational database management system.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - beckermr

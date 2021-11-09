@@ -1,0 +1,50 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/8e77cd79-41ba-4c74-4e4e-83c90370539e/volume/rsync-recipes/navigator-updater-0.2.1-python_3.8-on-osx, last modified Tue Jun 30 17:25:00 2020
+# ------------------------------------------------
+
+package:
+    name: navigator-updater
+    version: 0.2.1
+source:
+    git_rev: v0.2.1
+    git_url: https://github.com/ContinuumIO/navigator-updater.git
+build:
+    entry_points:
+        - navigator-updater = navigator_updater.app.main:main
+    osx_is_app: true
+    string: py38_0
+requirements:
+    host:
+        - ca-certificates 2020.6.24 0
+        - certifi 2020.6.20 py38_0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 haf1e3a3_0
+        - libffi 3.3 h0a44026_1
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - python 3.8.3 h26836e1_1
+        - readline 8.0 h1de35cc_0
+        - setuptools 47.3.1 py38_0
+        - sqlite 3.32.3 hffcf06c_0
+        - tk 8.6.10 hb0a8c7a_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - pyqt >=5.6
+        - python >=3.8,<3.9.0a0
+        - python.app
+        - qtpy >=1.2
+test:
+    commands:
+        - navigator-updater --help
+    imports:
+        - navigator_updater
+about:
+    home: https://github.com/ContinuumIO/navigator-updater
+    license: proprietary - Continuum Analytics, Inc.
+    license_family: Proprietary
+    summary: Anaconda Navigator Updater
+extra:
+    copy_test_source_files: true
+    final: true

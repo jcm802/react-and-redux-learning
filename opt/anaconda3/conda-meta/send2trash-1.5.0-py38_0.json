@@ -1,0 +1,55 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/send2trash-1.5.0-py38_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/Send2Trash-1.5.0-py3.8.egg-info/PKG-INFO",
+    "lib/python3.8/site-packages/Send2Trash-1.5.0-py3.8.egg-info/SOURCES.txt",
+    "lib/python3.8/site-packages/Send2Trash-1.5.0-py3.8.egg-info/dependency_links.txt",
+    "lib/python3.8/site-packages/Send2Trash-1.5.0-py3.8.egg-info/top_level.txt",
+    "lib/python3.8/site-packages/send2trash/__init__.py",
+    "lib/python3.8/site-packages/send2trash/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/send2trash/__pycache__/compat.cpython-38.pyc",
+    "lib/python3.8/site-packages/send2trash/__pycache__/exceptions.cpython-38.pyc",
+    "lib/python3.8/site-packages/send2trash/__pycache__/plat_gio.cpython-38.pyc",
+    "lib/python3.8/site-packages/send2trash/__pycache__/plat_osx.cpython-38.pyc",
+    "lib/python3.8/site-packages/send2trash/__pycache__/plat_other.cpython-38.pyc",
+    "lib/python3.8/site-packages/send2trash/__pycache__/plat_win.cpython-38.pyc",
+    "lib/python3.8/site-packages/send2trash/compat.py",
+    "lib/python3.8/site-packages/send2trash/exceptions.py",
+    "lib/python3.8/site-packages/send2trash/plat_gio.py",
+    "lib/python3.8/site-packages/send2trash/plat_osx.py",
+    "lib/python3.8/site-packages/send2trash/plat_other.py",
+    "lib/python3.8/site-packages/send2trash/plat_win.py"
+  ],
+  "fn": "send2trash-1.5.0-py38_0.conda",
+  "legacy_bz2_md5": "839053fb24c3a71c4b234499fa2a1324",
+  "legacy_bz2_size": 16606,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/send2trash-1.5.0-py38_0",
+    "type": 1
+  },
+  "md5": "e7b0bb99a45c19423f04cb3ea3092572",
+  "name": "send2trash",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/send2trash-1.5.0-py38_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "send2trash==1.5.0=py38_0",
+  "sha256": "88616c8f3604968e7b567902fecd8897fc899ad25ad3fdc7af1dab9a07b0c280",
+  "size": 17650,
+  "subdir": "osx-64",
+  "timestamp": 1573201093394,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/send2trash-1.5.0-py38_0.conda",
+  "version": "1.5.0"
+}

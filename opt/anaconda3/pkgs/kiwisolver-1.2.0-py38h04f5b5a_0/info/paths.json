@@ -1,0 +1,49 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.8/site-packages/kiwisolver-1.2.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.8/site-packages/kiwisolver-1.2.0.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "26da8d49744796f2601fb5fe9e5d8b9e8102064ca60a8dc1825b6177cb05450c",
+      "size_in_bytes": 3279
+    },
+    {
+      "_path": "lib/python3.8/site-packages/kiwisolver-1.2.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "189ae14aa277ee028a59df65a8fba5b46de670fd35df129e1cb0fb432179cf83",
+      "size_in_bytes": 1718
+    },
+    {
+      "_path": "lib/python3.8/site-packages/kiwisolver-1.2.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "b1de85d8654bd519120d302389ddfab95df8ddc172b4208a275524c7bb20ebb2",
+      "size_in_bytes": 589
+    },
+    {
+      "_path": "lib/python3.8/site-packages/kiwisolver-1.2.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "1e273806bec7caa425a3f5818962b9f14bc4a200a75a79f4d13387274314aa97",
+      "size_in_bytes": 109
+    },
+    {
+      "_path": "lib/python3.8/site-packages/kiwisolver-1.2.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "c6ac168fba121e5a488dcc3640c25bf29b9314f7630c13bbf00669f608d387d7",
+      "size_in_bytes": 11
+    },
+    {
+      "_path": "lib/python3.8/site-packages/kiwisolver.cpython-38-darwin.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/c326af56-7768-4b51-7338-ab2448f0b9b7/volume/kiwisolver_1588546349638/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+      "sha256": "e94b6d811d74a15ff106c3771c31d4b558e1c4240679df4018c6a9c1886d92de",
+      "size_in_bytes": 162296
+    }
+  ],
+  "paths_version": 1
+}

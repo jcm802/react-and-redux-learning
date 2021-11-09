@@ -1,0 +1,59 @@
+commit adc135b35324f2e245430216c410c2b796ab5f1a
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Jun 16 12:15:14 2020 -0500
+
+    DOR: update to 0.2.0, add flit as host requirement
+
+commit 1b3c2ecdcaea7626f39cb0128659a1e79c8b8e08
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Apr 2 13:07:25 2018 -0500
+
+    build -> host
+
+commit af178817c07eab9caaf98cfb47cb92f16be3338c
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 06:45:23 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit b66af51ec70d1439abc9be08420de045ba82c118
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Fri May 15 19:27:14 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit f9ebf4a54209e0346deec514c23fc582f45d3dfa
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Wed May 13 03:02:24 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TurnOff
+
+commit e3683dd62f83c8b3e837fb2c5b63f7de2de71bb9
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue May 12 20:25:37 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 0190c42060f930c05d0ed58a41626f355f5f4629
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 15:24:01 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 85cdf80d86dedd48c7e2e1d5e708d793112d2513
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 19:25:34 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 7fe5abf5efff51ff5531237e8ff51c74ba4e4155
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Apr 2 13:43:37 2018 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit fad733b365c833fd747546ce5e2e6ec2f8f124cb
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Apr 2 13:42:43 2018 +0000
+
+    Initial feedstock commit with conda-smithy 2.4.5.

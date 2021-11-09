@@ -1,0 +1,11 @@
+site-packages/cloudpickle-1.5.0.dist-info/INSTALLER
+site-packages/cloudpickle-1.5.0.dist-info/LICENSE
+site-packages/cloudpickle-1.5.0.dist-info/METADATA
+site-packages/cloudpickle-1.5.0.dist-info/RECORD
+site-packages/cloudpickle-1.5.0.dist-info/WHEEL
+site-packages/cloudpickle-1.5.0.dist-info/direct_url.json
+site-packages/cloudpickle-1.5.0.dist-info/top_level.txt
+site-packages/cloudpickle/__init__.py
+site-packages/cloudpickle/cloudpickle.py
+site-packages/cloudpickle/cloudpickle_fast.py
+site-packages/cloudpickle/compat.py

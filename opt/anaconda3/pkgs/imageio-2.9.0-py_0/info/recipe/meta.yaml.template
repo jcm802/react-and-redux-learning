@@ -1,0 +1,48 @@
+{% set version = "2.9.0" %}
+{% set sha256 = "52ddbaeca2dccf53ba2d6dec5676ca7bc3b2403ef8b37f7da78b7654bb3e10f0" %}
+
+package:
+  name: imageio
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/i/imageio/imageio-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  number: 0
+  noarch: python
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv
+  entry_points:
+    - imageio_download_bin = imageio.__main__:download_bin_main
+    - imageio_remove_bin = imageio.__main__:remove_bin_main
+
+requirements:
+  host:
+    - pip
+    - python >=3
+  run:
+    - python >=3
+    - numpy
+    - pillow
+
+test:
+  imports:
+    - imageio
+  commands:
+    - imageio_download_bin -h
+    - imageio_remove_bin -h
+
+about:
+  home: https://imageio.github.io
+  doc_url: https://imageio.readthedocs.io
+  dev_url: https://github.com/imageio/imageio
+  summary: A Python library for reading and writing image data
+  license: BSD-2-Clause
+  license_file: LICENSE
+
+extra:
+  recipe-maintainers:
+    - almarklein
+    - blink1073
+    - jni

@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "python"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "name": "json5",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1591727027261,
+  "version": "0.9.5"
+}

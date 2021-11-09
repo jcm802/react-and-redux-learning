@@ -1,0 +1,24 @@
+{
+  "build": "py38_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "setuptools"
+  ],
+  "features": "",
+  "fn": "clyent-1.2.2-py38_1.conda",
+  "legacy_bz2_md5": "148a60765334ec6c76a54ff515f0f2b4",
+  "legacy_bz2_size": 19257,
+  "license": "BSD 3-Clause",
+  "md5": "75b74188300cdc797167d788ebe9479d",
+  "name": "clyent",
+  "sha256": "206554c9d932825bfc05fa0c548f6a2e0cd29f3df20369ad006a1845dff6ebdc",
+  "size": 20207,
+  "subdir": "osx-64",
+  "timestamp": 1574156291455,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/clyent-1.2.2-py38_1.conda",
+  "version": "1.2.2"
+}

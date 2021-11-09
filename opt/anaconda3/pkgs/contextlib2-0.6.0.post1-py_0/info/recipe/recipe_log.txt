@@ -1,0 +1,352 @@
+commit 16aeec4cc7a62e7620e0c745d445dab486ec930d
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Aug 13 06:42:26 2017 +0000
+
+    Update about section
+
+commit 8a6e92220fa8e9d8d35ddb013567b0c782e995aa
+Merge: e608db7 64eb2b0
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Oct 10 10:07:20 2019 -0400
+
+    Merge pull request #15 from regro-cf-autotick-bot/0.6.0.post1
+    
+    contextlib2 v0.6.0.post1
+
+commit 64eb2b096cf587f315c0dba5aa56650acebdf09d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Oct 10 13:20:16 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.5.0, and conda-forge-pinning 2019.10.08
+
+commit bec6838e58123c178b0e6dc32747493304d4900c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Oct 10 13:20:00 2019 +0000
+
+    updated v0.6.0.post1
+
+commit e608db74a11dd3f68c3f6014d3f691c3c11b5995
+Merge: 1aa6a22 05ba9f2
+Author: Ryan May <rmay@ucar.edu>
+Date:   Sun Sep 22 15:41:27 2019 -0600
+
+    Merge pull request #14 from regro-cf-autotick-bot/0.6.0
+    
+    contextlib2 v0.6.0
+
+commit 05ba9f2ed3efcceeede1f8f244428cc450cf4f7e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Sep 22 20:41:47 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.8, and conda-forge-pinning 2019.09.08
+
+commit ea00c8169b95d560a68184657110b74e77f491f7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Sep 22 20:41:34 2019 +0000
+
+    updated v0.6.0
+
+commit 1aa6a22257718eec9ebef8beda93bb9c0f982c85
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 16:58:44 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit c7740d21f08df6f92060b8e3ccd619bb3466467e
+Merge: fd9b192 dd9fd4e
+Author: Ryan May <rmay31@gmail.com>
+Date:   Sun Jul 8 21:28:41 2018 -0600
+
+    Merge pull request #13 from regro-cf-autotick-bot/noarch_migration
+    
+    Suggestion: add noarch
+
+commit dd9fd4effbcaaa05154051e4bd55b7d3011be55b
+Author: Ryan May <rmay@ucar.edu>
+Date:   Sun Jul 8 22:22:53 2018 -0500
+
+    MNT: Fix up recipe lint
+
+commit e8d21c38d98c0d0f8315da876b7cff15cc81777d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jul 9 00:45:35 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.01
+
+commit 2f906a6c7db26fffb55a6612213b9110f261723c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jul 9 00:45:30 2018 +0000
+
+    add noarch
+
+commit fd9b192349f83e2b4dc6088623aa1235ac730eb1
+Merge: 7318e4f bb23cfe
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Mar 25 15:42:43 2018 -0400
+
+    Merge pull request #12 from jakirkham-feedstocks/refresh_pkg
+    
+    Refresh package
+
+commit bb23cfe0d0a610dca85184c0c2de80812a7dc92e
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Mar 23 17:53:00 2018 -0400
+
+    Bump build number to 1
+    
+    Rebuild now that we are installing with `pip` and the license metadata
+    has been updated.
+
+commit 79cca65c9b7258c4c2d0c6e36fc63d02e67988b2
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Mar 23 17:47:51 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+    
+    Now that the license version has been added, re-render to update the
+    README to include this information.
+
+commit 2a9fe0abd6d01302731d640579f9a3dd42adc646
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Mar 23 17:37:07 2018 -0400
+
+    Specify license version
+    
+    This uses the PSF 2 license.
+
+commit bec87733acb881c4e86e659fd4589c1981dff471
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Mar 23 17:35:37 2018 -0400
+
+    Use `pip` to install
+    
+    Switch to using `pip` to do the install as it is now the preferred way
+    of install Python packages in conda-forge.
+
+commit bb8b6f4aac269b0f3df415368c58170cf71866ef
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Mar 23 17:34:30 2018 -0400
+
+    Swap `build/number` and `build/script`
+    
+    Typically we have build number first. So add it first.
+
+commit 08197ede3bdb948665e014938cd4b4ba774adc05
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Mar 23 17:46:29 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit 7318e4f3ec79cab8fb3465f4ef88904bef79c03f
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 18:59:18 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit c4474b0ae01d0901a185233f79a46c40bdbae46f
+Merge: 1114616 669a83d
+Author: Ryan May <rmay31@gmail.com>
+Date:   Mon May 15 16:08:49 2017 -0600
+
+    Merge pull request #11 from dopplershift/updates
+    
+    Updates
+
+commit 669a83d98b8245a042bd9143e5d04e46f79805f3
+Author: Ryan May <rmay@ucar.edu>
+Date:   Mon May 15 15:03:44 2017 -0600
+
+    ENH: Update to 0.5.5
+
+commit a4dd2905e06d9e4e335f64ebbe1f43d86b28f9b4
+Author: Ryan May <rmay@ucar.edu>
+Date:   Mon May 15 15:01:47 2017 -0600
+
+    MNT: Re-rendered with conda-smithy 2.3.1
+
+commit 11146164f1bcf1f6feac950fb41cffc3834a2048
+Merge: de6dbcb 1d05a1d
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Mar 10 22:30:01 2017 -0500
+
+    Merge pull request #10 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 1d05a1dca7475e530f358a3f2e217dbfa466275a
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Mar 10 01:39:32 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.1.1.
+
+commit de6dbcb8dbb3b8909a1ce70a7a6c9f58750c278b
+Merge: a368e7b fdd9e6c
+Author: Ryan May <rmay31@gmail.com>
+Date:   Wed Feb 8 08:50:06 2017 -0700
+
+    Merge pull request #9 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit fdd9e6c5c411bdbe5ee7894dc003ff1ab994a18f
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Feb 7 01:38:06 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.0.1.
+
+commit a368e7ba010ab5c9b62d3e2b1d63ee7804ab26a7
+Merge: 757971a 2942a34
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Jan 13 23:56:01 2017 -0500
+
+    Merge pull request #8 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 2942a347bac0801524701b653808deaff0cf39ee
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Jan 14 01:35:02 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.0.0.
+
+commit 757971aba244caecf27fed246400e9437b26e42a
+Merge: 8404b0d 5bd7462
+Author: Ryan May <rmay31@gmail.com>
+Date:   Mon Jan 9 11:25:09 2017 -0700
+
+    Merge pull request #6 from jakirkham/drop_bld_bat
+    
+    Drop bld.bat
+
+commit 8404b0d50c2ee457983377522149a2df2e8ba743
+Merge: 3c45924 03b893a
+Author: Ryan May <rmay31@gmail.com>
+Date:   Mon Jan 9 11:24:57 2017 -0700
+
+    Merge pull request #5 from jakirkham/add_jakirkham
+    
+    Add @jakirkham
+
+commit 3c45924ec48ebcf05e2e66130034aa5eecbfcbd5
+Merge: 83807f6 e504c37
+Author: Ryan May <rmay31@gmail.com>
+Date:   Mon Jan 9 11:24:27 2017 -0700
+
+    Merge pull request #7 from jakirkham/re-render__master__1.7.0
+    
+    Re-render with 1.7.0 and add Python 3.6
+
+commit e504c372e72356184b74dcc8bbe175993fbc549c
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Jan 8 18:00:12 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 1.7.0
+    
+    Also add Python 3.6 support.
+
+commit 5bd74620a5f1f6103af569d391095a028b9619ef
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Jan 8 17:58:02 2017 -0500
+
+    Drop bld.bat as it is not needed anymore.
+    
+    It use to be the case that `bld.bat` was needed as `script` was not
+    respected by `conda-build` on Windows. However, `conda-build` has since
+    been fixed and `bld.bat` is respected. So here we drop the `bld.bat`
+    file so that `script` can be leveraged on all platforms.
+
+commit 03b893abf0b894e0f745cc5e8b933452c3abd3c2
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Jan 8 17:53:47 2017 -0500
+
+    Add @jakirkham as a maintainer.
+
+commit 83807f61f087f1e7415448377be0c08b46471083
+Merge: 3116597 3c756d3
+Author: Ryan May <rmay31@gmail.com>
+Date:   Wed Nov 23 02:59:05 2016 -0700
+
+    Merge pull request #4 from dopplershift/bump-0.5.4
+    
+    Bump to 0.5.4
+
+commit 3c756d3f88a7fc1957cbd7857b8cbad1105e91bd
+Author: Ryan May <rmay31@gmail.com>
+Date:   Wed Nov 23 02:50:44 2016 -0700
+
+    MNT: Add setuptools build dependency
+
+commit bcb37acb6d061192e5516c74478943326b95e901
+Author: Ryan May <rmay31@gmail.com>
+Date:   Wed Nov 23 02:38:53 2016 -0700
+
+    MNT: Re-rendered with conda-smithy 1.5.3
+
+commit 9d24ceea7d2afe9f8431c2c8a23c8405833e0050
+Author: Ryan May <rmay31@gmail.com>
+Date:   Wed Nov 23 02:27:47 2016 -0700
+
+    ENH: Update to contextlib2 0.5.4
+    
+    Update recipe with more metadata and use more templating.
+
+commit 31165971a2be28d8185de492411fae9e70ff0679
+Merge: 5aecdbf 6135e20
+Author: Ryan May <rmay31@gmail.com>
+Date:   Thu Jul 21 14:49:15 2016 -0600
+
+    Merge pull request #3 from dopplershift/bump-0.5.3
+    
+    MNT: Bump to 0.5.3
+
+commit 6135e20cc71c25064bb599ed08ef081eab2c956f
+Author: Ryan May <rmay31@gmail.com>
+Date:   Thu Jul 21 12:42:38 2016 -0600
+
+    MNT: Bump to 0.5.3
+    
+    Also move to pypi.io
+
+commit 5aecdbfe15675b975ce19d436fadfc0defe32670
+Merge: 9e43e0c dce2a3d
+Author: Ryan May <rmay31@gmail.com>
+Date:   Mon May 16 11:20:04 2016 -0600
+
+    Merge pull request #2 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit dce2a3d3d5d47804b809b66dd7b28f53da210751
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat May 14 18:43:46 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.3.
+    
+    [ci skip]
+
+commit 9e43e0c4d366b3269254f7d17df5e614d8d91b07
+Merge: b473ff4 6cb7a09
+Author: Ryan May <rmay31@gmail.com>
+Date:   Wed Mar 9 16:23:52 2016 -0700
+
+    Merge pull request #1 from conda-forge-admin/feedstock_rerender
+    
+    MNT: Re-render the feedstock
+
+commit 6cb7a09b517f646a7e9ecf6b7b83d7094bd58207
+Author: Phil Elson <pelson.pub@gmail.com>
+Date:   Wed Mar 9 19:33:22 2016 +0100
+
+    MNT: Updated the feedstock for conda-smithy version 0.5.1.
+
+commit b473ff48273d100433007dd37bd57274fe4fa30e
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Feb 23 08:50:22 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit afc757e0c9101d5317a0a1bfd61632c7538ef66a
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Feb 23 08:49:57 2016 +0000
+
+    Initial commit of the contextlib2 feedstock.

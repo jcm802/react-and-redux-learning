@@ -1,0 +1,74 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/1c5c293b-9147-4b4b-5a7f-d3f5eddb8470/volume/rsync-recipes/jedi-0.17.1-python_3.8-on-osx, last modified Mon Jun 22 11:02:56 2020
+# ------------------------------------------------
+
+package:
+    name: jedi
+    version: 0.17.1
+source:
+    sha256: 807d5d4f96711a2bcfdd5dfa3b1ae6d09aa53832b182090b222b5efb81f52f63
+    url: https://pypi.io/packages/source/j/jedi/jedi-0.17.1.tar.gz
+build:
+    number: '0'
+    script: /opt/concourse/worker/volumes/live/1c5c293b-9147-4b4b-5a7f-d3f5eddb8470/volume/jedi_1592841952519/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_/bin/python
+        -m pip install . --no-deps -vv
+    string: py38_0
+requirements:
+    host:
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.4.5.2 py38_0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 haf1e3a3_0
+        - libffi 3.3 h0a44026_1
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - pip 20.1.1 py38_1
+        - python 3.8.3 h26836e1_1
+        - readline 8.0 h1de35cc_0
+        - setuptools 47.3.0 py38_0
+        - sqlite 3.32.2 hffcf06c_0
+        - tk 8.6.10 hb0a8c7a_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - parso >=0.7.0,<0.8.0
+        - python >=3.8,<3.9.0a0
+test:
+    imports:
+        - jedi
+        - jedi.api
+        - jedi.common
+        - jedi.inference
+        - jedi.inference.compiled
+        - jedi.inference.compiled.subprocess
+        - jedi.inference.gradual
+        - jedi.inference.value
+        - jedi.plugins
+about:
+    description: 'Jedi is a static analysis tool for Python that can be used in IDEs/editors.
+
+        Its historic focus is autocompletion, but does static analysis for now as
+
+        well. Jedi is fast and is very well tested. It understands Python on a
+
+        deeper level than all other static analysis frameworks for Python.
+
+        '
+    dev_url: https://github.com/davidhalter/jedi/
+    doc_source_url: https://github.com/davidhalter/jedi/blob/master/docs/index.rst
+    doc_url: http://jedi.readthedocs.io/en/latest/
+    home: https://github.com/davidhalter/jedi/
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE.txt
+    summary: An autocompletion tool for Python that can be used for text editors.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - asmeurer
+        - goanpeca
+        - nehaljwani
+        - ocefpaf

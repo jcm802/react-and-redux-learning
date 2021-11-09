@@ -1,0 +1,752 @@
+commit 33c10383955d417c6f877cbcbd25f677bd9ca148
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Apr 18 13:43:01 2020 +0200
+
+    Odds and sods
+
+commit f539bb78fdbd8e384c13925ddafdcba762931ba0
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Apr 18 11:16:20 2020 +0200
+
+    Try swapping ninja for jom
+
+commit e2034789fccaf5ffc198eee32c515562fd45ea7f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Apr 18 11:15:48 2020 +0200
+
+    Trying to fix windows 32-bit build
+
+commit aa8686e750b97d0654b570c7c20e885c5b3037ca
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Apr 18 08:45:22 2020 +0200
+
+    Remove lzo as it is GPL-v2+, remove unused openssl on macOS
+
+commit 13a88ceb504b8069a8ca89aab5b6782e88273e88
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Apr 17 04:33:00 2020 +0200
+
+    Use curl
+
+commit 96eee8a226419551a7f695e1de486e7b6a1e6790
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Apr 17 01:35:27 2020 +0200
+
+    Use curl to download test 7z from Qt on Windows
+
+commit a864af628a951572aa42c02f8c9a61a3423e77a3
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Apr 16 15:43:08 2020 +0200
+
+    Update to 3.4.2, re-work patches (git format), add tests
+
+commit 91b5070a975113982439ea4373a4f7e3f8e18af1
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Sat Apr 11 05:22:16 2020 -0400
+
+    Rebuild for lz4_c192 (#50)
+    
+    * Rebuild for lz4_c192
+    
+    * MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.6.16, and conda-forge-pinning 2020.04.10.23.07.47
+    
+    Co-authored-by: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+
+commit 0d65e477cce8900d47fd7ab17dd3989be75ec49a
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 21:26:16 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit e619c9b0bee6e7de395a23203f93d219a27e7132
+Merge: 1966cf4 9ef2028
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Fri Nov 22 19:36:21 2019 -0500
+
+    Rollback to 3.3.3 (#45)
+    
+    Rollback to 3.3.3
+
+commit 9ef20287112ac0e005c9ae2f517b1bf0bdf18e43
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Fri Nov 15 18:18:13 2019 -0500
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.2, and conda-forge-pinning 2019.11.14
+    
+    Re-render to ensure pinnings are in place.
+
+commit 3de16891d53be0820acb95f477b0bc8325889e4d
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Fri Nov 15 17:20:11 2019 -0500
+
+    Rollback to 3.3.3
+    
+    As we have had some issues with 3.4.0 and zip files, rollback to 3.3.3.
+    Should also make sure we don't accidentally produce more broken
+    `libarchive` packages. Tries to use the commit below for the rollback as
+    much as possible
+    
+    ref: https://github.com/conda-forge/libarchive-feedstock/commit/839ed344cd6ba8c2a67754d2517841212e240d67
+
+commit 1966cf433718cc947bab18a5e97ec51bd2c9cc64
+Merge: 18623e5 8aa4cbc
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Nov 15 18:57:48 2019 -0300
+
+    Merge pull request #44 from regro-cf-autotick-bot/rebuild-zstd-1.4.401
+    
+    Rebuild for zstd-1.4.4
+
+commit 8aa4cbc98309e82710250b8c35fec1964653aa6b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Nov 15 21:23:05 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.2, and conda-forge-pinning 2019.11.14
+
+commit aa1e2cc21dd5ae3d4af576b6176862362a16dfa4
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Nov 15 21:22:46 2019 +0000
+
+    bump build number
+
+commit 18623e50f863dcd9709d3ba3d292a072a77d3f9a
+Merge: 589b235 0ddc756
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sun Oct 20 08:15:20 2019 -0400
+
+    Merge pull request #42 from regro-cf-autotick-bot/rebuildzstd-1.4.30
+    
+    Rebuild for zstd-1.4.3
+
+commit 0ddc756564e4fc160e2b3adf32cb770bfefaff22
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Oct 15 05:17:33 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.10, conda-smithy 3.6.0, and conda-forge-pinning 2019.10.11
+
+commit 8aaff47bd333a1929d5870b1164e9d8d0dc660e1
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Oct 15 05:17:17 2019 +0000
+
+    bump build number
+
+commit 589b235581726ece957042f15d89161b86914fd9
+Merge: 0e5d2c1 4e956eb
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Oct 14 20:46:32 2019 -0400
+
+    Merge pull request #41 from conda-forge-linter/conda_forge_admin_40
+    
+    Disable VC 9 again
+
+commit 4e956ebfbbbb349415299f15a0ce42058f4ef9ec
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Mon Oct 14 19:46:22 2019 -0400
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.6.0, and conda-forge-pinning 2019.10.11
+    
+    Now that VC versions before 14 are skipped, re-render to update the CI
+    configuration files and other feedstock files accordingly.
+
+commit 166d4cfa34bfe580dda76737e416e0df0754f1cf
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Mon Oct 14 18:35:36 2019 -0400
+
+    Uncomment older VC skip
+    
+    We have been unable to build this feedstock against older VC versions
+    since it has existed. In fact it is still failing currently. So go ahead
+    and uncomment this skip to ignore the builds with older VC versions.
+    These will be dropped soon anyways (with the EOL of Python 2 fast
+    approaching).
+
+commit 52affd3bf4f68f6ac942df4f036a31eaced8d7f4
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Oct 14 22:32:48 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.6.0, and conda-forge-pinning 2019.10.11
+
+commit 0e5d2c18538e3a2b2ea75afedf6323628bf4ece5
+Merge: 5927f3c a3e9ecc
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Aug 5 14:17:19 2019 -0300
+
+    Merge pull request #37 from AnacondaRecipes/3.4.0
+    
+    3.4.0
+
+commit a3e9ecc2c49a1122d8f39202d7c907e4e9d783ec
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Mon Aug 5 11:33:09 2019 -0500
+
+    move patch files into patches folder (match CF)
+
+commit 6a58ce40a6dfeddf30ce5165fa6d7a1c7ea66d62
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Mon Aug 5 11:32:44 2019 -0500
+
+    rely on run_exports
+
+commit 3c8b35d868f49f7ece69697a2e28d15522b8973a
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Sun Aug 4 14:32:53 2019 -0500
+
+    3.4.0
+
+commit 839ed344cd6ba8c2a67754d2517841212e240d67
+Merge: e88a4c0 5927f3c
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Sun Aug 4 14:08:58 2019 -0500
+
+    merge with conda-forge
+
+commit 5927f3cccfbf9367a3f5d63d67cf27fd6302b2ff
+Merge: a634088 8df7747
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Jul 8 20:16:31 2019 +0200
+
+    Merge pull request #36 from jjhelmus/libiconv_fix
+    
+    include libiconv on linux
+
+commit 8df7747c71855ba5a24b87f238644d24fac11f97
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Jun 28 21:11:03 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.6, conda-smithy 3.4.0, and conda-forge-pinning 2019.06.27
+
+commit 9d8bb4bb3e0fc29557d765201a60ce73fdd79de0
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri Jun 28 16:03:35 2019 -0500
+
+    include libiconv on linux
+    
+    Include libiconv in the host requirements on linux.
+    
+    Alternatively the libiconv implementation included with glibc could be
+    used but getting ./configure to ignore the stand alone version pulled in
+    by libxml2 seems difficult.  It seem as if --without-libiconv-prefix could
+    be used but in tests that argument did not work.
+    
+    closes #35
+
+commit a6340882e773966c20cbad1851a2d2b78431453c
+Merge: 1fb4e51 6320b19
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri May 31 13:34:41 2019 -0300
+
+    Rebuild for zstd-1.4.0 (#32)
+    
+    Rebuild for zstd-1.4.0
+
+commit 6320b195315ac12749b7d8a4c9f1704c7e37edba
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri May 31 15:42:14 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.2, conda-smithy 3.3.4, and conda-forge-pinning 2019.05.31
+
+commit 0a39a76db2bde305910a6fb029eaa05a4034f220
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri May 31 15:42:00 2019 +0000
+
+    bump build number
+
+commit 1fb4e515063f08f1acae2c32aa5b8c8d28d25e22
+Merge: e7e1dae 561b48e
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Apr 30 11:02:38 2019 -0400
+
+    Merge pull request #31 from xhochy/rerender
+    
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.4, and conda-forge-pinning 2019.04.25
+
+commit 561b48eebeda37e1d17d85d60d60446aa65cfeab
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Tue Apr 30 16:09:07 2019 +0200
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.4, and conda-forge-pinning 2019.04.25
+
+commit e7e1dae6ce0bf38879cd44a380116644085c275e
+Merge: 6780716 0e8252f
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Apr 16 21:05:53 2019 -0400
+
+    Merge pull request #30 from regro-cf-autotick-bot/rebuildlz4-c-1.8.30
+    
+    Rebuild for lz4-c-1.8.3
+
+commit 0e8252f9aaf2012e14095f15d1738ebb19771522
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Apr 16 23:32:02 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.2, and conda-forge-pinning 2019.04.12
+
+commit fc4ad0f2453f9679c4c780c71900a63eacf9c55c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Apr 16 23:31:50 2019 +0000
+
+    bump build number
+
+commit 6780716eb66bc1973dc67063cfce511326fe58d7
+Merge: 439e83e 549135a
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Mar 10 21:38:09 2019 -0500
+
+    Merge pull request #29 from regro-cf-autotick-bot/rebuildaarch64_and_ppc64le_addition1_arch
+    
+    Arch Migrator
+
+commit 549135a655a2065e86138540ce81760b40324588
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Mar 11 01:52:37 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.03.10
+
+commit b8294da3a8238671b4fa501baddfd8534fd193ce
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 5 13:43:45 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.03.04
+
+commit e8c6442631de625b22cfc955fabd26b2806fc2a9
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 5 13:43:33 2019 +0000
+
+    bump build number
+
+commit 439e83e7b40073427aa6a9c7ebae24d133d7173d
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Mon Feb 25 17:59:50 2019 -0500
+
+    Update conda-forge.yml
+
+commit f119c3edddd61723f6a6a59f026d08ead9157ace
+Merge: 0f38aaa 18440be
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Mon Feb 25 17:57:48 2019 -0500
+
+    Merge pull request #28 from regro-cf-autotick-bot/rebuildopenssl
+    
+    Rebuild for OpenSSL
+
+commit 18440beb1ccf3e4500d7671f6e8905f77df0cac9
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 25 20:28:44 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.14, and conda-forge-pinning 2019.02.24
+
+commit e213455a3c90c403cf643f9830b08b26cb572a23
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 25 20:28:33 2019 +0000
+
+    bump build number
+
+commit 0f38aaa2edb66a246cc7e49cd23f9c23eb245b2d
+Merge: ed0f302 5a6b5ae
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Dec 29 22:55:22 2018 -0500
+
+    Merge pull request #23 from jakirkham-feedstocks/disable_vs2008
+    
+    Disable VS 2008
+
+commit 5a6b5ae56e34addeca074d4cb1371fbb2daa0d42
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Dec 29 22:45:25 2018 -0500
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2018.12.28
+    
+    Now that VS 2008 builds are skipped, re-render to remove the
+    corresponding CI configuration related to these builds.
+
+commit e9994dfb7ba363d32c36bcd71424e6c31cdc3f0f
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Dec 29 22:45:04 2018 -0500
+
+    Skip Windows VS 2008
+    
+    Currently VS 2008 doesn't build correctly for us. So disable that build
+    until it can be fixed.
+
+commit ed0f3028ea98e24c2e4067adbc1bdf107614f924
+Merge: 69aaaa5 e2ad424
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Dec 29 22:41:18 2018 -0500
+
+    Merge pull request #22 from sodre/add-run-exports
+    
+    Add run_exports to libarchive
+
+commit e2ad424c4331c005d40f112e0b475956a047bc31
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Dec 27 00:27:31 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2018.12.18
+
+commit 9dd9c087ea0e47a45cb4e158d370e38cd8b4117b
+Author: Patrick Sodré <psodre@gmail.com>
+Date:   Thu Dec 27 00:25:53 2018 +0000
+
+    Bump the build number
+
+commit 50f5a6e91e6c6b2b2a713a0d5563f108a1ab0b7e
+Author: Patrick Sodré <psodre@gmail.com>
+Date:   Thu Dec 27 00:11:51 2018 +0000
+
+    Add run_exports to libarchive
+    
+    cc: @jakirkham
+    xref: https://github.com/conda-forge/singularity-feedstock/pull/14#discussion_r239152464
+
+commit e88a4c0344a11977faff66085e24c4db94f6879b
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Dec 12 12:02:32 2018 -0600
+
+    libarchive does not use OpenSSL on macOS
+
+commit b10f60e477b4f8ba12fa87728194bbdecb9352d4
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Nov 7 13:57:36 2018 -0600
+
+    Use ninja
+
+commit eeccef055e6f584cc8868ba5390a577ba13fa941
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Nov 5 22:07:54 2018 -0600
+
+    Add m2-patch and bump build to 4
+
+commit 234f85880a6cb86750cf8ffdb3939b3e76301bf3
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Nov 5 21:53:11 2018 -0600
+
+    Fix VC9 patch
+
+commit 69aaaa5c0e0f437644e01c909428f56c7ea0a559
+Merge: 9db249b e405008
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Oct 6 12:29:14 2018 -0300
+
+    Merge pull request #19 from ocefpaf/sync
+    
+    Sync
+
+commit e405008d007d63b2d744468d4d364cad976e6480
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Oct 5 14:58:00 2018 -0300
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.01
+
+commit 570eb61bde4aa9e85e27cbc5293936d440c555d7
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Oct 5 14:57:58 2018 -0300
+
+    sync
+
+commit 02ded7bd13c7f4b69415cfb99a344625fbe5050a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 21 20:20:59 2018 +0100
+
+    Add zstd to libarchive
+
+commit 9db249b3d321b10e9afd9c8f41c5323cfc62a19e
+Merge: 1979e99 d691990
+Author: Björn Grüning <bjoern@gruenings.eu>
+Date:   Fri Sep 14 09:20:26 2018 +0200
+
+    Merge pull request #18 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit d691990635b04bc1c8a12ebfe4da7d10c1712563
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Sep 13 17:14:46 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.11
+
+commit def8897005448479868d0074c98c049656c71cae
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Sep 13 17:14:24 2018 +0000
+
+    bump build number
+
+commit 1979e99c92294f5d2db9da49fdcc50978a750be8
+Merge: a1225e8 ec56392
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Sep 11 20:05:41 2018 -0400
+
+    Merge pull request #17 from regro-cf-autotick-bot/3.3.3
+    
+    libarchive v3.3.3
+
+commit 94033be5e82f84c046b069e421c72d973c6bb6f8
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 4 13:58:35 2018 +0100
+
+    Windows fixes for 3.3.3
+
+commit 37cea47d8b03818445a64bace88c1ec12288d6b5
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 4 11:03:54 2018 +0100
+
+    Update to 3.3.3
+
+commit ec56392fb1e088197da73da4d23f55797017279e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Sep 4 04:14:18 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.08.31
+
+commit 1f49f800120a3f6ee0ad988b49cbe89df00bd340
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Sep 4 04:14:09 2018 +0000
+
+    updated v3.3.3
+
+commit a1225e8021354757308fef374acb8b33e5bd98fa
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:17:28 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 3775d5bdeb12f2c8449db412d3db05f26275eccd
+Merge: 51ee4be 3c3b7fa
+Author: Björn Grüning <bjoern@gruenings.eu>
+Date:   Fri Jul 6 00:24:21 2018 +0200
+
+    Merge pull request #16 from regro-cf-autotick-bot/compiler_migration2
+    
+    Migrate to Jinja2 compiler syntax
+
+commit 3c3b7fa601aafb1cd0351ebb6e30aeb93b695670
+Author: Travis CI User <travis@example.org>
+Date:   Sun Jun 24 05:07:48 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.06.19
+
+commit 00e6a680d55b102f850aeaacaba85dadd01e45cd
+Author: Travis CI User <travis@example.org>
+Date:   Sun Jun 24 05:07:41 2018 +0000
+
+    migrated to Jinja2 compiler syntax build
+
+commit 99d01d0f5a4c197e1c807e3e020168bc92f5c557
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Jun 20 05:48:47 2018 -0700
+
+    Support symlinks on Windows (WIP)
+
+commit 34c3075572b88fea40e9a22bb1d306ec4d3a448a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed May 23 03:05:08 2018 +0100
+
+    Fix CVE-2017-14166 and CVE-2017-14502
+
+commit 015e8fe969b86ae0ec268b9580d169964f70a583
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Apr 25 01:26:48 2018 +0100
+
+    Add make dep for unix
+
+commit f7d0716d0d43170a87b45cf86cd20d328553ad88
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Apr 25 00:58:45 2018 +0100
+
+    CMake/VC: Use the right runtime DLL
+
+commit 753d9def3ca7e57af161393398ce94d2d9202317
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Apr 23 23:35:42 2018 +0100
+
+    Fix comments
+
+commit 4632ec252009c3f2fbf700759a4fcf293e3bc56c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Apr 23 18:08:17 2018 +0100
+
+    More VC9 support
+
+commit 177a4e320c15480568a24407baf785d4e7bd516f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Apr 23 10:45:59 2018 -0500
+
+    Add VC9 lz4 support
+
+commit 7a6daf2be74cb6a0132e557d4312358399d9e6e4
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Apr 22 15:36:38 2018 +0100
+
+    VC9 compat patches
+
+commit 46150edf78ce8f464b6f286290801c5ec6f3cbec
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Apr 22 15:04:29 2018 +0100
+
+    VS2008 support
+
+commit 30cb0a1dcb4aef808003c938a2cee8fce6c46a01
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Mar 27 17:01:23 2018 +0100
+
+    Fix xar seek bug
+
+commit 51ee4bedbad50905941aeff19559b17459ce65f7
+Merge: f73c554 285e579
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Jan 9 06:49:58 2018 -0300
+
+    Merge pull request #14 from jschueller/332
+    
+    Update to 3.3.2
+
+commit 285e579ab31c7fc74f547c962a7b4533ea48f863
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Jan 6 11:28:05 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit 740ae9c3af31ad5cd58d97ceec54385e5009b370
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Sat Jan 6 12:23:09 2018 +0100
+
+    Update to 3.3.2
+
+commit c09f73d83a90d38247b690a88b6ce2b1d90badc3
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Dec 28 14:10:17 2017 +0000
+
+    Add xar tests for all builds
+
+commit bee6b3f3774e356813e8dcd377dc84a03f0f5210
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Dec 27 20:56:37 2017 +0000
+
+    Test that we can list a xar file on macOS
+
+commit 45b95083a23b17afbb49a7edffb80ad038e92abd
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Dec 16 18:20:13 2017 +0000
+
+    Hack around cmake bug in FindLZMA ..
+    
+    CMake looks for lzma.lib but xz creates liblzma.lib
+
+commit 16cdcbe9717b4f60afa8a107ca18ac7e5612c850
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Dec 15 12:43:11 2017 +0000
+
+    Add Windows VS2015 support
+
+commit e3c68542dd84cd01c34b4caab17754d5aa51e1f2
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Nov 4 21:41:05 2017 +0000
+
+    Rewrite, link to every compression library
+
+commit 8662abcca9c607dca98b6ac1ee91e38c54d2b346
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Nov 3 03:26:25 2017 -0700
+
+    Add xz and zlib dependencies
+
+commit 6e5a1e97c6b1edb4c93682b93edf811f3797d92c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Nov 2 11:08:48 2017 +0000
+
+    Update to 3.3.2, use cross-compilers, libiconv only needed for macOS
+
+commit f73c554d2a24f23d35912a461111543ee3fca8e5
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:49:31 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 220e557009816657c64d97296018614412e97666
+Merge: a1f819a 928f24d
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Dec 30 18:13:18 2016 -0500
+
+    Merge pull request #10 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 928f24dfc0d0afc9f677773ad8cd6e0eccbd2717
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Dec 20 01:38:53 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.7.0.
+
+commit a1f819a4af092edce98abfff9580da65072fb62a
+Merge: c81fa85 9aa11aa
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Jul 18 10:22:50 2016 -0400
+
+    Merge pull request #8 from jakirkham/bump_xz_pinning
+    
+    Change the `xz` pinning to 5.2.x
+
+commit 9aa11aa97ec5924073028cf5d32855e5c84e2c2f
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Jul 18 10:02:40 2016 -0400
+
+    recipe: Change the `xz` pinning to 5.2.x.
+
+commit c81fa856540a28f15167b3b90552a384480f6d60
+Merge: 7f0a6bb b67e2fd
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Jun 23 01:43:07 2016 -0400
+
+    Merge pull request #7 from jakirkham/unpin_conda-build
+    
+    Unpin conda-build
+
+commit b67e2fd8fc05f47bd4228b2d14c221f700983f46
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Jun 23 00:12:02 2016 -0400
+
+    recipe: Bump build number.
+
+commit 7464f0b3c395df12e6e4bfe85d926fd0a6f9557b
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Jun 23 00:11:39 2016 -0400
+
+    travis: Unpin conda-build.
+
+commit 7f0a6bb193607b7a436412be6d727940d9a5f0dc
+Merge: 83a8513 8e692bb
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Jun 21 15:32:38 2016 -0400
+
+    Merge pull request #5 from jakirkham/skip_make_check
+    
+    Skip `make check`
+
+commit 8e692bb9d10e31448d2a65c1c88c79c09f283e61
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Jun 21 11:47:37 2016 -0400
+
+    recipe: Comment `make check`.
+
+commit 83a8513a72c42ef821f8eed89361a5cf1d6919b6
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Jun 20 14:20:51 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit f5e184859f20c0574720365ebebb6a3f98ebb8b5
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Jun 20 13:56:53 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 54ba03cd1fe7ee61cc2e852bed564da57e6afed4
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Jun 20 13:38:58 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 78883f952b72c609dfc5c3d30247cc54dd6462c2
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Jun 20 13:36:52 2016 +0000
+
+    Initial commit of the libarchive feedstock.

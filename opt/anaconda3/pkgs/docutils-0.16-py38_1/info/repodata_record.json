@@ -1,0 +1,23 @@
+{
+  "build": "py38_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "docutils-0.16-py38_1.conda",
+  "legacy_bz2_md5": "3a8dd1a64fdbf930cf6683de097518e2",
+  "legacy_bz2_size": 763867,
+  "license": "Public Domain Dedictation and BSD 2-Clause and PSF 2.1.1 and GPL 3.0",
+  "md5": "74f1d88eef633d3f47eebfb80ca152a9",
+  "name": "docutils",
+  "sha256": "33307af2f7989aeffde3bb778b1b519bff53980f3b7119e508bf5991d6a27931",
+  "size": 682571,
+  "subdir": "osx-64",
+  "timestamp": 1591789481553,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/docutils-0.16-py38_1.conda",
+  "version": "0.16"
+}

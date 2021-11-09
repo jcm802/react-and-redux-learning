@@ -1,0 +1,179 @@
+commit 26d0a2578de664a4b43edd0eb11a3a164d8f48d6
+Merge: 106f2d1 0e35186
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Feb 11 09:23:31 2019 -0200
+
+    Merge pull request #8 from regro-cf-autotick-bot/0.12.0
+    
+    xmltodict v0.12.0
+
+commit 0e351863de5aaec8bad282e9bcd9a4eee1ecb42c
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Feb 11 08:36:25 2019 -0200
+
+    Update meta.yaml
+
+commit 67e6d0ff4ccb9340e8594e48514b5f31d7b45fd5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 11 07:13:05 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.13, and conda-forge-pinning 2019.01.29
+
+commit 10d0e050718eea9d4587f180410cb79fa3f6ca3d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 11 07:12:55 2019 +0000
+
+    updated v0.12.0
+
+commit 106f2d1a7776ee68797d3e7c9c2d0fb89bc3fb96
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:35:37 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit cc8dc1aeea11f4adf66f9a21c970daba92966ffa
+Merge: 596fe71 581faec
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Jul 7 20:36:53 2018 -0300
+
+    Merge pull request #7 from regro-cf-autotick-bot/noarch_migration
+    
+    Suggestion: add noarch
+
+commit 581faec05ed7d4dfd08e86db17e0d6787a853e10
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jul 7 14:24:26 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.01
+
+commit d7ac27d8c82654ba1422cbd005b7b03d83abb8af
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jul 7 14:24:21 2018 +0000
+
+    add noarch
+
+commit 596fe71ca78359246349ba6fcd5e5c07beb1f03a
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 20:16:29 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit bfc70499e430c5b75a7e90cd5c089b69abaf2945
+Merge: a367169 0ea5d7f
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Jun 5 21:37:17 2017 -0300
+
+    Merge pull request #6 from ocefpaf/update_to_0.11.0
+    
+    Update to 0.11.0
+
+commit 0ea5d7fe64a03b0d59f9f018891a5e6d20075ab4
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Mon Jun 5 17:36:10 2017 -0300
+
+    rerender with auto
+
+commit 4cd8f222b75b7e82119df647f5aa3664ff61cb0c
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Mon Jun 5 17:36:08 2017 -0300
+
+    Update to 0.11.0
+
+commit a367169caafc17bab09ccc4319d98fd82e218201
+Merge: c34c81c ca543fa
+Author: Joshua Adelman <synapticarbors@users.noreply.github.com>
+Date:   Fri May 19 09:42:35 2017 -0400
+
+    Merge pull request #5 from synapticarbors/v0.11.0
+    
+    Update to v0.11.0
+
+commit ca543fa181f69ab999d94c8f1c13f5786b8cbb5d
+Author: Joshua L. Adelman <joshua.adelman@gmail.com>
+Date:   Fri May 19 09:20:53 2017 -0400
+
+    Update to v0.11.0
+
+commit 6964b340f30df1397d9a8c17eb969197742cef9f
+Author: Joshua L. Adelman <joshua.adelman@gmail.com>
+Date:   Fri May 19 09:18:55 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.3.1
+
+commit c34c81c2c7e526e099529976f865c4a83a9be976
+Merge: d829af0 ba6b343
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Feb 5 22:20:39 2017 -0300
+
+    Merge pull request #4 from ocefpaf/rerender
+    
+    Re-render...
+
+commit ba6b343e3204abded7a81c3b8c60940a38536c15
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Sun Feb 5 17:25:08 2017 -0300
+
+    add myself
+
+commit 3e56cd22b95ec26e3dc8044d077de728d686404e
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Sun Feb 5 17:24:58 2017 -0300
+
+    re-render with auto
+
+commit d829af02d7e33cf257da265f7978346471916bb1
+Merge: d96648c e37561e
+Author: Joshua Adelman <synapticarbors@users.noreply.github.com>
+Date:   Sat Dec 3 21:27:15 2016 -0500
+
+    Merge pull request #3 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit e37561e99e747a167f76cc2335f5225e55a7d805
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Dec 4 01:37:55 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.6.1.
+
+commit d96648c2b026f42b274f2665fb04ec27f1dca269
+Merge: 9cb99f3 3bbe5c5
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Oct 6 19:39:46 2016 -0400
+
+    Merge pull request #2 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 3bbe5c5e1a1cc3a00a5289247ba998d7b087ad0b
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Oct 6 11:37:47 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.3.2.
+
+commit 9cb99f34f6c1327e29caf4568a02c47d42300224
+Merge: 50e55a1 6284f13
+Author: Joshua Adelman <synapticarbors@users.noreply.github.com>
+Date:   Thu Sep 1 08:45:59 2016 -0400
+
+    Merge pull request #1 from ocefpaf/rerender
+    
+    rerender
+
+commit 6284f1375dec13feb43afc5fb6f62b70a3b3688f
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Thu Sep 1 09:38:55 2016 -0300
+
+    rerender
+
+commit 50e55a127ab872bbb36010ca96085962b2ad4471
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Aug 22 08:49:45 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 0774ab77306714901f7cb2bd528b79bfb9d84616
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Aug 22 08:48:20 2016 +0000
+
+    Initial commit of the xmltodict feedstock.

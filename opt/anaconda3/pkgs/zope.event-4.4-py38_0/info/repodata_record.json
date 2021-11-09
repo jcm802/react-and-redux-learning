@@ -1,0 +1,25 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "setuptools"
+  ],
+  "features": "",
+  "fn": "zope.event-4.4-py38_0.conda",
+  "legacy_bz2_md5": "719bc1b5619593f0b4902aeb1dcc8f73",
+  "legacy_bz2_size": 9714,
+  "license": "Zope Public License",
+  "license_family": "OTHER",
+  "md5": "59f781080fe4b70aa23de44e3319ba0d",
+  "name": "zope.event",
+  "sha256": "958a72be4e89517e9e22a888fd8dfd7e13a698357c0b77afc65456ce0d52673f",
+  "size": 10132,
+  "subdir": "osx-64",
+  "timestamp": 1574155862732,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/zope.event-4.4-py38_0.conda",
+  "version": "4.4"
+}

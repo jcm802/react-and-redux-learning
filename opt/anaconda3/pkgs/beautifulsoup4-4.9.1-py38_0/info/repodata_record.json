@@ -1,0 +1,25 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "soupsieve >=1.2"
+  ],
+  "features": "",
+  "fn": "beautifulsoup4-4.9.1-py38_0.conda",
+  "legacy_bz2_md5": "23191f7495ca2f9c8838ff6f0a08d627",
+  "legacy_bz2_size": 166935,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "0ba14905c3c5a0d09e9f9f7bd9a0e9d4",
+  "name": "beautifulsoup4",
+  "sha256": "97f1284ab140bd133b7b1667114d8b086078708731d886a796e934db1812cd4c",
+  "size": 172156,
+  "subdir": "osx-64",
+  "timestamp": 1591286113949,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/beautifulsoup4-4.9.1-py38_0.conda",
+  "version": "4.9.1"
+}

@@ -1,0 +1,307 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "packaging",
+    "python",
+    "setuptools",
+    "six",
+    "webencodings"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/bleach-3.1.5-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/bleach-3.1.5.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/bleach-3.1.5.dist-info/LICENSE",
+    "lib/python3.8/site-packages/bleach-3.1.5.dist-info/METADATA",
+    "lib/python3.8/site-packages/bleach-3.1.5.dist-info/RECORD",
+    "lib/python3.8/site-packages/bleach-3.1.5.dist-info/WHEEL",
+    "lib/python3.8/site-packages/bleach-3.1.5.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/bleach/__init__.py",
+    "lib/python3.8/site-packages/bleach/_vendor/README.rst",
+    "lib/python3.8/site-packages/bleach/_vendor/__init__.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib-1.0.1.dist-info/DESCRIPTION.rst",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib-1.0.1.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib-1.0.1.dist-info/LICENSE.txt",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib-1.0.1.dist-info/METADATA",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib-1.0.1.dist-info/RECORD",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib-1.0.1.dist-info/WHEEL",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib-1.0.1.dist-info/metadata.json",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib-1.0.1.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/__init__.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/_ihatexml.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/_inputstream.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/_tokenizer.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/_trie/__init__.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/_trie/_base.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/_trie/datrie.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/_trie/py.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/_utils.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/constants.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/filters/__init__.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/filters/alphabeticalattributes.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/filters/base.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/filters/inject_meta_charset.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/filters/lint.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/filters/optionaltags.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/filters/sanitizer.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/filters/whitespace.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/html5parser.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/serializer.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treeadapters/__init__.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treeadapters/genshi.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treeadapters/sax.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treebuilders/__init__.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treebuilders/base.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treebuilders/dom.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treebuilders/etree.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treebuilders/etree_lxml.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treewalkers/__init__.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treewalkers/base.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treewalkers/dom.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treewalkers/etree.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treewalkers/etree_lxml.py",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treewalkers/genshi.py",
+    "lib/python3.8/site-packages/bleach/_vendor/pip_install_vendor.sh",
+    "lib/python3.8/site-packages/bleach/_vendor/vendor.txt",
+    "lib/python3.8/site-packages/bleach/callbacks.py",
+    "lib/python3.8/site-packages/bleach/html5lib_shim.py",
+    "lib/python3.8/site-packages/bleach/linkifier.py",
+    "lib/python3.8/site-packages/bleach/sanitizer.py",
+    "lib/python3.8/site-packages/bleach/utils.py",
+    "lib/python3.8/site-packages/bleach/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/__pycache__/_ihatexml.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/__pycache__/_inputstream.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/__pycache__/_tokenizer.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/_trie/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/_trie/__pycache__/_base.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/_trie/__pycache__/datrie.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/_trie/__pycache__/py.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/__pycache__/_utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/__pycache__/constants.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/filters/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/filters/__pycache__/alphabeticalattributes.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/filters/__pycache__/base.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/filters/__pycache__/inject_meta_charset.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/filters/__pycache__/lint.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/filters/__pycache__/optionaltags.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/filters/__pycache__/sanitizer.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/filters/__pycache__/whitespace.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/__pycache__/html5parser.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/__pycache__/serializer.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treeadapters/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treeadapters/__pycache__/genshi.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treeadapters/__pycache__/sax.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treebuilders/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treebuilders/__pycache__/base.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treebuilders/__pycache__/dom.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treebuilders/__pycache__/etree.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treebuilders/__pycache__/etree_lxml.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treewalkers/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treewalkers/__pycache__/base.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treewalkers/__pycache__/dom.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treewalkers/__pycache__/etree.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treewalkers/__pycache__/etree_lxml.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/_vendor/html5lib/treewalkers/__pycache__/genshi.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/__pycache__/callbacks.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/__pycache__/html5lib_shim.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/__pycache__/linkifier.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/__pycache__/sanitizer.cpython-38.pyc",
+    "lib/python3.8/site-packages/bleach/__pycache__/utils.cpython-38.pyc"
+  ],
+  "fn": "bleach-3.1.5-py_0.conda",
+  "legacy_bz2_md5": "0986670ca9b64dbb0de8be814392058a",
+  "legacy_bz2_size": 118757,
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/bleach-3.1.5-py_0",
+    "type": 1
+  },
+  "md5": "ee6d6f661ed85bc7566d0dddf546dba8",
+  "name": "bleach",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/bleach-3.1.5-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/bleach/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/__pycache__/_ihatexml.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/__pycache__/_inputstream.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/__pycache__/_tokenizer.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/_trie/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/_trie/__pycache__/_base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/_trie/__pycache__/datrie.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/_trie/__pycache__/py.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/__pycache__/_utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/__pycache__/constants.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/filters/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/filters/__pycache__/alphabeticalattributes.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/filters/__pycache__/base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/filters/__pycache__/inject_meta_charset.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/filters/__pycache__/lint.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/filters/__pycache__/optionaltags.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/filters/__pycache__/sanitizer.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/filters/__pycache__/whitespace.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/__pycache__/html5parser.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/__pycache__/serializer.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/treeadapters/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/treeadapters/__pycache__/genshi.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/treeadapters/__pycache__/sax.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/treebuilders/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/treebuilders/__pycache__/base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/treebuilders/__pycache__/dom.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/treebuilders/__pycache__/etree.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/treebuilders/__pycache__/etree_lxml.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/treewalkers/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/treewalkers/__pycache__/base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/treewalkers/__pycache__/dom.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/treewalkers/__pycache__/etree.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/treewalkers/__pycache__/etree_lxml.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/_vendor/html5lib/treewalkers/__pycache__/genshi.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/__pycache__/callbacks.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/__pycache__/html5lib_shim.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/__pycache__/linkifier.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/__pycache__/sanitizer.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bleach/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "bleach==3.1.5=py_0",
+  "sha256": "601f914a9ffbb608f074250513e832c3b92dc55cddb016f056397ec06b6d575d",
+  "size": 118334,
+  "subdir": "noarch",
+  "timestamp": 1592330209330,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/bleach-3.1.5-py_0.conda",
+  "version": "3.1.5"
+}

@@ -1,0 +1,117 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/b83270fe-3db5-45c6-71ed-8c60421a9fa2/volume/rsync-recipes/glib-2.65.0-python_3.6-on-osx, last modified Fri Jun 26 14:21:25 2020
+# ------------------------------------------------
+
+package:
+    name: glib
+    version: 2.65.0
+source:
+    patches:
+        - patches/0001-replace-hardcoded-paths.patch
+        - patches/0002-skip-some-tests.patch
+        - patches/0003-add-install_rpath-to-meson-build-files.patch
+    sha256: b041e63cd0ac1fccb486374022ade040d907aad29b278e27d9e43e9294a6e7a3
+    url: http://ftp.gnome.org/pub/GNOME/sources/glib/2.65/glib-2.65.0.tar.xz
+build:
+    missing_dso_whitelist:
+        - /usr/lib/libresolv.9.dylib
+    number: '0'
+    run_exports:
+        - glib >=2.65.0,<3.0a0
+    string: hc5f4afa_0
+requirements:
+    build:
+        - ca-certificates 2020.1.1 0
+        - cctools 927.0.2 h5ba7a2e_4
+        - clang 10.0.0 default_hf57f61e_0
+        - clang_osx-64 10.0.0 h05bbb7f_1
+        - clangxx 10.0.0 default_hf57f61e_0
+        - clangxx_osx-64 10.0.0 h05bbb7f_1
+        - compiler-rt 10.0.0 h47ead80_0
+        - compiler-rt_osx-64 10.0.0 hbcc88fd_0
+        - ld64 450.3 h3c32e8a_4
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 haf1e3a3_0
+        - libffi 3.3 h0a44026_1
+        - libiconv 1.16 h1de35cc_0
+        - libllvm10 10.0.0 h21ff451_0
+        - llvm-openmp 10.0.0 h28b9765_0
+        - llvm-tools 10.0.0 h21ff451_0
+        - meson 0.52.0 py_0
+        - ncurses 6.2 h0a44026_1
+        - ninja 1.9.0 py38h04f5b5a_0
+        - openssl 1.1.1g h1de35cc_0
+        - pkg-config 0.29.2 h3efe00b_8
+        - python 3.8.3 h26836e1_1
+        - readline 8.0 h1de35cc_0
+        - sqlite 3.32.3 hffcf06c_0
+        - tapi 1000.10.8 ha1b3eb9_0
+        - tk 8.6.10 hb0a8c7a_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    host:
+        - ca-certificates 2020.1.1 0
+        - gettext 0.19.8.1 hb0f4f8b_2
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 haf1e3a3_0
+        - libffi 3.3 h0a44026_1
+        - libiconv 1.16 h1de35cc_0
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - pcre 8.44 hb1e8313_0
+        - python 3.6.10 hf48f09d_2
+        - readline 8.0 h1de35cc_0
+        - sqlite 3.32.3 hffcf06c_0
+        - tk 8.6.10 hb0a8c7a_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - gettext
+        - libcxx >=10.0.0
+        - libffi >=3.3,<3.4.0a0
+        - libiconv >=1.16,<2.0a0
+        - pcre >=8.44,<9.0a0
+        - zlib >=1.2.11,<1.3.0a0
+test:
+    commands:
+        - test -f ${PREFIX}/lib/libglib-2.0.dylib
+        - test ! -f ${PREFIX}/lib/libgobject-2.0.la
+        - gdbus help
+        - gio version
+        - gio-querymodules .
+        - glib-compile-resources --help
+        - glib-compile-schemas --help
+        - gobject-query --help
+        - gresource help
+        - gtester --help
+about:
+    description: 'GLib provides the core application building blocks for libraries
+        and
+
+        applications written in C. It provides the core object system used in
+
+        GNOME, the main loop implementation, and a large set of utility functions
+
+        functions for strings and common data structures.
+
+        '
+    dev_url: https://git.gnome.org/browse/glib/
+    doc_source_url: https://git.gnome.org/browse/glib/tree/docs
+    doc_url: https://developer.gnome.org/glib/unstable/
+    home: https://developer.gnome.org/glib/
+    license: LGPL-2.1
+    license_file: COPYING
+    summary: Provides core application building blocks for libraries and applications
+        written in C.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ccordoba12
+        - chenghlee
+        - isuruf
+        - jakirkham
+        - ocefpaf
+        - pkgw
+        - scopatz

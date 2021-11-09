@@ -1,0 +1,11 @@
+site-packages/pathtools-0.1.2.dist-info/AUTHORS
+site-packages/pathtools-0.1.2.dist-info/INSTALLER
+site-packages/pathtools-0.1.2.dist-info/LICENSE
+site-packages/pathtools-0.1.2.dist-info/METADATA
+site-packages/pathtools-0.1.2.dist-info/RECORD
+site-packages/pathtools-0.1.2.dist-info/WHEEL
+site-packages/pathtools-0.1.2.dist-info/top_level.txt
+site-packages/pathtools/__init__.py
+site-packages/pathtools/path.py
+site-packages/pathtools/patterns.py
+site-packages/pathtools/version.py

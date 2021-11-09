@@ -1,0 +1,24 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "pluggy-0.13.1-py38_0.conda",
+  "legacy_bz2_md5": "08b3d4c25b52139d9b3cca57d4ec0056",
+  "legacy_bz2_size": 32856,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "140ecf9a353d4e4a346f83f6efbdf7a6",
+  "name": "pluggy",
+  "sha256": "a6324f44b26f9104655980cdb97113f25398568e92a20d8f1550103519453678",
+  "size": 33802,
+  "subdir": "osx-64",
+  "timestamp": 1574699682007,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pluggy-0.13.1-py38_0.conda",
+  "version": "0.13.1"
+}

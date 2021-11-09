@@ -1,0 +1,24 @@
+{
+  "build": "py38haf1e3a3_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "greenlet-0.4.16-py38haf1e3a3_0.conda",
+  "legacy_bz2_md5": "382367b10ac26834094123affdd8eba4",
+  "legacy_bz2_size": 23626,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "73e639fe69cf15385cc1615594834ba9",
+  "name": "greenlet",
+  "sha256": "a00bb8081baeb47759b8abaedb717d80cf4b9a661a20bf0590c591c49687b71d",
+  "size": 22953,
+  "subdir": "osx-64",
+  "timestamp": 1592330996633,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/greenlet-0.4.16-py38haf1e3a3_0.conda",
+  "version": "0.4.16"
+}

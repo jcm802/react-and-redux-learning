@@ -1,0 +1,65 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/pycodestyle-2.6.0-on-linux_64, last modified Tue May 26 17:46:04 2020
+# ------------------------------------------------
+
+package:
+    name: pycodestyle
+    version: 2.6.0
+source:
+    fn: pycodestyle-2.6.0.tar.gz
+    sha256: c58a7d2815e0e8d7972bf1803331fb0152f867bd89adf8a01dfd55085434192e
+    url: https://pypi.io/packages/source/p/pycodestyle/pycodestyle-2.6.0.tar.gz
+build:
+    entry_points:
+        - pycodestyle = pycodestyle:_main
+    noarch: python
+    number: '0'
+    script: /tmp/build/80754af9/pycodestyle_1590516305157/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/bin/python
+        -m pip install . --no-deps -vv
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.4.5.1 py36_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.3 he6710b0_1
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1g h7b6447c_0
+        - pip 20.0.2 py36_3
+        - python 3.6.10 h7579374_2
+        - readline 8.0 h7b6447c_0
+        - setuptools 46.4.0 py36_0
+        - sqlite 3.31.1 h62c20be_1
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.34.2 py36_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python
+test:
+    commands:
+        - pycodestyle --help
+        - pycodestyle --version
+about:
+    dev_url: https://github.com/PyCQA/pycodestyle
+    doc_url: https://pycodestyle.readthedocs.io/
+    home: https://pycodestyle.readthedocs.io/
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: Python style guide checker
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - dopplershift
+        - jakirkham
+        - jjhelmus
+        - ocefpaf
+        - pmlandwehr
+        - sigmavirus24

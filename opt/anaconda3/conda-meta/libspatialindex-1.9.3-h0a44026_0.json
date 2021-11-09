@@ -1,0 +1,91 @@
+{
+  "build": "h0a44026_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/libspatialindex-1.9.3-h0a44026_0",
+  "features": "",
+  "files": [
+    "include/spatialindex/LineSegment.h",
+    "include/spatialindex/MVRTree.h",
+    "include/spatialindex/MovingPoint.h",
+    "include/spatialindex/MovingRegion.h",
+    "include/spatialindex/Point.h",
+    "include/spatialindex/RTree.h",
+    "include/spatialindex/Region.h",
+    "include/spatialindex/SpatialIndex.h",
+    "include/spatialindex/TPRTree.h",
+    "include/spatialindex/TimePoint.h",
+    "include/spatialindex/TimeRegion.h",
+    "include/spatialindex/Version.h",
+    "include/spatialindex/capi/BoundsQuery.h",
+    "include/spatialindex/capi/CountVisitor.h",
+    "include/spatialindex/capi/CustomStorage.h",
+    "include/spatialindex/capi/DataStream.h",
+    "include/spatialindex/capi/Error.h",
+    "include/spatialindex/capi/IdVisitor.h",
+    "include/spatialindex/capi/Index.h",
+    "include/spatialindex/capi/LeafQuery.h",
+    "include/spatialindex/capi/ObjVisitor.h",
+    "include/spatialindex/capi/Utility.h",
+    "include/spatialindex/capi/sidx_api.h",
+    "include/spatialindex/capi/sidx_config.h",
+    "include/spatialindex/capi/sidx_export.h",
+    "include/spatialindex/capi/sidx_impl.h",
+    "include/spatialindex/tools/PointerPool.h",
+    "include/spatialindex/tools/PoolPointer.h",
+    "include/spatialindex/tools/Tools.h",
+    "include/spatialindex/tools/rand48.h",
+    "lib/libspatialindex.6.1.1.dylib",
+    "lib/libspatialindex.6.dylib",
+    "lib/libspatialindex.dylib",
+    "lib/libspatialindex_c.6.1.1.dylib",
+    "lib/libspatialindex_c.6.dylib",
+    "lib/libspatialindex_c.dylib"
+  ],
+  "fn": "libspatialindex-1.9.3-h0a44026_0.conda",
+  "legacy_bz2_md5": "b413162bb4075605d0e50cb93d88b66a",
+  "legacy_bz2_size": 431254,
+  "license": "MIT",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/libspatialindex-1.9.3-h0a44026_0",
+    "type": 1
+  },
+  "md5": "5b021c9351fdfe96d5d402028d90095a",
+  "name": "libspatialindex",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/libspatialindex-1.9.3-h0a44026_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libspatialindex.6.1.1.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/e8b41f2e-a5dc-41c4-4333-5219aefb1816/volume/libspatialindex_1573154803277/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "0236e3dbd6592bbf1d2630998bf7fdbd30cb02064671f3f01c5bcd7b9843047d",
+        "sha256_in_prefix": "3b5f73a54ace0fb8e9c8fb582a9af5b39bcd84a3305b09fe544717c5b0ab4fba",
+        "size_in_bytes": 1271504
+      },
+      {
+        "_path": "lib/libspatialindex_c.6.1.1.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/e8b41f2e-a5dc-41c4-4333-5219aefb1816/volume/libspatialindex_1573154803277/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "11db8385c952a1d772973f4fbb3f4479b25c4e26c38d674cbd37138c63115226",
+        "sha256_in_prefix": "acd0d217c7a71409063a8a0a2ef8e5a19f67e07ff99cc35b0862d181b50eb11a",
+        "size_in_bytes": 303812
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "libspatialindex==1.9.3=h0a44026_0",
+  "sha256": "dacf1d9ea81e68ff53a19a2fef5eb1104bfeaa842ebd5c8126c6b588d703085c",
+  "size": 335978,
+  "subdir": "osx-64",
+  "timestamp": 1573155370709,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/libspatialindex-1.9.3-h0a44026_0.conda",
+  "version": "1.9.3"
+}

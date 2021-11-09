@@ -1,0 +1,1839 @@
+commit f17be1ae0b60cc9877af9df95156fb1237e68eae
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri Jan 24 14:36:00 2020 -0600
+
+    0.22.1
+
+commit fa4827c52ee356672852121e979771bf23a1f90c
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Jan 8 12:35:39 2020 -0600
+
+    update
+
+commit 6e344140f924d725bd335de6f97e143e95dd8ec5
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Dec 12 15:22:28 2019 -0600
+
+    clean up unnecessary patches with 0.22 update
+
+commit ba6defd354a31a14ec21bb8e8a4ab40ef6a5fa2c
+Merge: dc3b7a5 393ae35
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Dec 12 15:21:51 2019 -0600
+
+    Merge branch 'master' of github.com:conda-forge/scikit-learn-feedstock
+
+commit 393ae35772f5b85cd79ec92818c2908e39bc706e
+Merge: cd1c39e 7514cf5
+Author: Roman Yurchak <rth.yurchak@pm.me>
+Date:   Tue Dec 10 13:44:40 2019 +0100
+
+    Merge pull request #113 from hmaarrfk/aarch_0.22
+    
+    aarch + ppc64le again for 0.22
+
+commit 7514cf5881567ca4c2148d5ee86cf2b3afc8a065
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Dec 9 09:29:14 2019 -0500
+
+    cleanup the recipe
+
+commit 59063cbaf53bf17e44dad65a985b496102f1af36
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Dec 9 08:43:01 2019 -0500
+
+    try to run the tests that were really slow before OMP setting
+
+commit b7b23c6cd7ead3bbf9ec01111f05990e594b5bcb
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Dec 9 07:38:04 2019 -0500
+
+    set OMP NUM THREADS
+
+commit 912039eb027e2282cda87d7f92c28f60cb0b08e9
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun Dec 8 17:36:09 2019 -0500
+
+    Update meta.yaml
+
+commit 5fac7e4d8ab7249a9f9b22d39c07cd99be232239
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 22:46:24 2019 -0500
+
+    Try to include test_early_stopping_regression
+
+commit 3b1133aba2bdd89f67ba103e1b05e666fc831fc8
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 20:08:27 2019 -0500
+
+    Bump build number
+
+commit 1d35eba708b7cf4baa5869f0422ed6b110815ffa
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 19:29:49 2019 -0500
+
+    Fixup recipe
+
+commit 0b184e8d50a6e83bb23990c544c8938659c9b9cb
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 19:28:17 2019 -0500
+
+    skip even more tess
+
+commit 7a28b1fe03173e846afcbc9d5b8f1ad244d18187
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 18:30:59 2019 -0500
+
+    Lint
+
+commit 4c4a89001f414b6c55b767471f3fb5e4e83bb0b0
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 18:03:46 2019 -0500
+
+    Update meta.yaml
+
+commit 3632acddca6ad6f9ad27da4419a1d4c37fbdc742
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 18:01:17 2019 -0500
+
+    Delete 15775-Increases-tol-for-check_pca_float_dtype_preservation-assertion.patch
+
+commit e82683d48f80bb4fc8d20c7b878d859026ee0672
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 17:52:55 2019 -0500
+
+    Skip an other test on aarch64
+
+commit 71d4a29db95b0cd943222cca1e172e823a2b92a7
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 17:12:48 2019 -0500
+
+    Try to change the quotes for windows
+
+commit f0cce060afceb833af850122265ae72d58636879
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 16:41:31 2019 -0500
+
+    Unify test command between all architectures
+
+commit 1026d2e41c413a3d65113d6e549b416add98747d
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 16:36:01 2019 -0500
+
+    Skip an other test, explain why
+
+commit 99caebe183235a84cb60afff790dbeaba4bce6d6
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 16:11:12 2019 -0500
+
+    Attempt to build extentions with parallel CPUs for speedup
+
+commit a63207d9fda05fbcc6ba529547cdd6d0c7ce8275
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 15:03:07 2019 -0500
+
+    Skip an other test on aarch64
+
+commit c3c7ddc01433c7f21b98ed3fbde764afb5b1cd21
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 14:24:42 2019 -0500
+
+    Remove square bracket selector
+
+commit 9fc0835d7cf4b4a19a2ae72064f7ea13e7c98c6b
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 14:24:01 2019 -0500
+
+    remove pytest sugar
+
+commit 3b1c0d427d9242fb3a4e8ce6060934fbfb4608c4
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 13:48:12 2019 -0500
+
+    Avoid creating too many test workers
+
+commit 5bf1bfe65ca09e35f62c9c195947bc4df0a41065
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 12:41:39 2019 -0500
+
+    Try serial builds with timeout
+
+commit 8bc3fd51b541f0dbcf2c9add828af50675720f04
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 12:23:17 2019 -0500
+
+    Use pytest-timeout as well
+
+commit 0b6d2b180d2863ca0cad054fd4674a10991d2af1
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 12:22:22 2019 -0500
+
+    Try testing with verbose and multiple CPUs again
+
+commit 1dd071d97a477b1fe1cfa26dad3e4974ff9a68f9
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 11:22:16 2019 -0500
+
+    Run with verbose again
+
+commit 34094229a526f71a43fc008f6ab3b6b757c3e18b
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 10:54:48 2019 -0500
+
+    Skip test_sag_regressor_computed_correctly
+
+commit 23999cfa4fb9624c9b86bb22cde6fddbe993ee78
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 09:59:23 2019 -0500
+
+    Depend on pytest-xdist for tests
+
+commit 2d5cb278a492450cb413754a307fbe4077d35d14
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 09:38:43 2019 -0500
+
+    Run tests in parallel
+
+commit 82098ef90a6c227d94de2f7ab4e179df4170b7d8
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 09:37:11 2019 -0500
+
+    Add the patch
+
+commit 1ea8f8bc3a33ffa5ef2fbb75a456727b4bd2a807
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Dec 7 09:36:16 2019 -0500
+
+    Attempt to fix aarch again
+
+commit cd1c39e26472918c2c4c48ef976e2503054d56e5
+Merge: fa62dcd cd900f7
+Author: Joel Nothman <joel.nothman@gmail.com>
+Date:   Wed Dec 4 13:27:06 2019 +1100
+
+    Rebuild for python38 (#112)
+    
+    * bump build number
+    
+    * MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.3, and conda-forge-pinning 2019.12.02
+
+commit cd900f73f54fbad46bd911058e312e4f8f10914d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Dec 3 18:25:09 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.3, and conda-forge-pinning 2019.12.02
+
+commit f4d057fd539810dd60985587d37085038da528e4
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Dec 3 18:24:43 2019 +0000
+
+    bump build number
+
+commit fa62dcd1891702f1f9167372f4b6e7737fddff63
+Merge: 9698071 c94d585
+Author: Adrin Jalali <adrin.jalali@gmail.com>
+Date:   Tue Dec 3 10:46:34 2019 +0100
+
+    scikit-learn v0.22 from regro-cf-autotick-bot/0.22
+    
+    scikit-learn v0.22
+
+commit 969807196ceccb249853f81fb2850ae8874bc0d4
+Author: Joel Nothman <joel.nothman@gmail.com>
+Date:   Tue Dec 3 19:22:57 2019 +1100
+
+    add adrin as maintianer (#111)
+
+commit c94d5856558f5cedcda9eb6e0ed6e817b4fd309a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Dec 2 22:21:27 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.3, and conda-forge-pinning 2019.11.26
+
+commit 33d5b420dbc62e17bc8071aa632f1bcc552ddd1d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Dec 2 22:21:08 2019 +0000
+
+    updated v0.22
+
+commit a98d911ad0c9329c96968fb3f11c5974191311a4
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 18:35:02 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit 5fbca2804547ea6a8bfa09bdd5ad0bb5d44e6ea8
+Merge: 0fbfb16 93c6454
+Author: Joel Nothman <joel.nothman@gmail.com>
+Date:   Tue Jul 30 11:44:39 2019 +1000
+
+    scikit-learn v0.21.3 (#100)
+
+commit 93c6454a942a78457b2ca157f96988c873b0b0b4
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jul 29 21:33:24 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.07.26
+
+commit 17e56eb2ff21e201b53723851fdedb2b8123876e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jul 29 21:32:57 2019 +0000
+
+    updated v0.21.3
+
+commit 0fbfb162a1dd5fe9f6e07e6b1ceb74e6a94b262b
+Author: Roman Yurchak <rth.yurchak@pm.me>
+Date:   Thu Jun 27 12:00:39 2019 +0200
+
+    Add @rth to maintainers (#99)
+
+commit d9a9d3cec233c61bb1b802a181221c1fb1bb62e9
+Merge: 64f9a9d c63639d
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Jun 26 11:20:53 2019 -0300
+
+    Merge pull request #98 from xhochy/rebuildaarch64_and_ppc64le_addition1_arch
+    
+    Rebuild for aarch64 and ppc64le
+
+commit c63639d93243c45ed6ce82616295585c83597870
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Wed Jun 26 11:41:58 2019 +0200
+
+    Skip failing test on aarch64
+
+commit a70426903c1832e262e261405ca79fe67d6ee89a
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Mon Jun 24 18:34:54 2019 +0200
+
+    Bump build number
+
+commit a751e61e85ba24b4addc10fd55ed638c3c2586c2
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Mon Jun 24 18:30:18 2019 +0200
+
+    MNT: Re-rendered with conda-build 3.18.2, conda-smithy 3.3.7, and conda-forge-pinning 2019.06.19
+
+commit 857f570fbf8a12853efb1464802a82ea51d9e2c2
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Mon Jun 24 18:18:39 2019 +0200
+
+    Use numpy pinning from conda-forge-pinning
+
+commit 1458aee77edeb13209c30535fd76f47f22e03ee8
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jun 22 01:30:46 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.3, conda-smithy 3.3.7, and conda-forge-pinning 2019.06.19
+
+commit f799bb16615511dffa93db9fd95af00eee14772f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jun 22 01:30:30 2019 +0000
+
+    bump build number
+
+commit 64f9a9dfe49fa25c2f9ec02ab50c57495d997bcc
+Merge: 46cf1dd 4a80e98
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu May 23 15:42:37 2019 -0300
+
+    Merge pull request #96 from regro-cf-autotick-bot/0.21.2
+    
+    scikit-learn v0.21.2
+
+commit 4a80e98cdd51f1f302c962c885656990acca395a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu May 23 15:27:43 2019 +0000
+
+    updated v0.21.2
+
+commit 46cf1ddbcfa56d8c755fb15105c8e6e39d1158a2
+Merge: b2e54ed 086bb3d
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed May 15 06:28:53 2019 -0300
+
+    scikit-learn v0.21.1 (#93)
+    
+    scikit-learn v0.21.1
+
+commit 086bb3d3979275a5a8c4940c62323e3190cad5b7
+Author: Joel Nothman <joel.nothman@gmail.com>
+Date:   Wed May 15 17:36:06 2019 +1000
+
+    Update sha
+
+commit 7df695af5b5468e0865a457e1c84d5297b12836d
+Author: Joel Nothman <joel.nothman@gmail.com>
+Date:   Wed May 15 14:32:49 2019 +1000
+
+    try correct sha
+
+commit 39bd868cd8928ef138382f5cb4076066e6ac2d32
+Author: Joel Nothman <joel.nothman@gmail.com>
+Date:   Wed May 15 14:31:57 2019 +1000
+
+    Update to 0.21.1
+
+commit d2928685ca50c0068022486e6948acef825da3f1
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun May 12 21:49:52 2019 -0300
+
+    test llvm-openmp
+
+commit fe3a395c7481ab632e4d91375da9d146ac347b85
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun May 12 21:42:35 2019 -0300
+
+    test fopenmp and pip
+
+commit 669341ae9cfbeefb659e33de0b76ad436a9546da
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun May 12 21:00:17 2019 -0300
+
+    add more dep constraints
+
+commit 62cd2181a8bb02cfe3030469a551c4cc051db66b
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun May 12 20:58:38 2019 -0300
+
+    use numpy 1.11.8
+
+commit 323c9719a3853bf2cb41300f927d06d10becbfd8
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun May 12 20:56:06 2019 -0300
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.4, and conda-forge-pinning 2019.05.11
+
+commit 7f7c195009d8a6b0ea101088c015072ca596533a
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun May 12 20:56:04 2019 -0300
+
+    no openmp on macOS
+
+commit a26b2552b5c811e69c2ae4e1587f1997f1a68b6d
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun May 12 20:36:14 2019 -0300
+
+    needs cython for tests
+
+commit b9040e5990e695c302179f20ce8549f5cbc6b569
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun May 12 20:35:05 2019 -0300
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.4, and conda-forge-pinning 2019.05.11
+
+commit 595606ff8e2dd3f17e49f616a64c50c8611887a0
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun May 12 20:35:03 2019 -0300
+
+    fix dependencies
+
+commit 778fe5d2190f05871a47305a32a10e6493cc9494
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu May 9 23:27:05 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.4, and conda-forge-pinning 2019.05.06
+
+commit e700c9eedbf51536a960600e1eb5c2932f102182
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu May 9 23:26:50 2019 +0000
+
+    updated v0.21.0
+
+commit b2e54ed5ff89fafa7c2282fe69bf2cf773805a19
+Merge: 869ddac ecd15a3
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Apr 3 15:32:51 2019 -0500
+
+    Merge pull request #92 from ocefpaf/no_pip
+    
+    no pip
+
+commit ecd15a33b74b6933e3872cb41d98586acef7fb94
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Wed Apr 3 14:20:43 2019 -0500
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.2, and conda-forge-pinning 2019.03.18
+
+commit bfa44e89a072d67236c6b6963587723b10b4ef56
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Wed Apr 3 14:20:41 2019 -0500
+
+    build osx on Azzure
+
+commit 63213ababb8bd2ea52b0f0bec5db60cf34a2bf09
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Wed Apr 3 13:51:50 2019 -0500
+
+    no pip
+
+commit 869ddac85203dd54dd77a788151e7937da5a7c2c
+Merge: 61dc502 f912f2c
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Mar 28 20:42:42 2019 -0300
+
+    Merge pull request #90 from isuruf/win
+    
+    Try windows
+
+commit f912f2cd29a1deb1fb95de8e0d5de3f1c1774613
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Mar 24 10:13:12 2019 -0500
+
+    Remove cblas and lapack
+
+commit 3e5c545f56a6bc5cb326253a5a29047a05c84b41
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Mar 24 10:03:50 2019 -0500
+
+    Try without blas
+
+commit 4e11759438916b11d087cb73343217e16c72b761
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Mar 19 00:57:11 2019 -0500
+
+    Delete cblas.h in libcblas
+    
+    pyx is only compatible with the vendored cblas.h
+
+commit 7587408e288acde0b6b1cc3d525443901055cdb0
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Mar 19 00:16:12 2019 -0500
+
+    Update meta.yaml
+
+commit b943b317decc5a7dfcb0e192d6878469b53d9d9d
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Mar 19 00:10:03 2019 -0500
+
+    Require blas * netlib
+
+commit bc15b883eed31d9cbc1000209e561bc88cbd59a0
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Mar 18 13:42:21 2019 -0500
+
+    Add lapack
+
+commit a7e1e068a4e4171ad8a295d44e866024a2c22716
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Mar 18 13:29:41 2019 -0500
+
+    More verbose
+
+commit 9283601dbfe80d0332197d6459bc9bfaa4fff97e
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Mar 18 12:49:07 2019 -0500
+
+    Fix testing on windows
+
+commit 4eac586ee45525334976a6bc975af8de20607e10
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Mar 18 06:24:31 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.03.17
+
+commit 374b63366a602dd07cdd960a5c6b270d7ea1702b
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Mar 18 01:11:29 2019 -0500
+
+    Try windows
+
+commit dc3b7a5f6d7ba673c124da7af0248da0805c1a25
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Mar 13 09:22:55 2019 -0500
+
+    0.20.3
+
+commit 61dc5024d1e6a7768104bbceb9772137d9ff6acb
+Merge: 81227c2 277b3c1
+Author: Joel Nothman <joel.nothman@gmail.com>
+Date:   Sat Mar 2 22:06:41 2019 +0100
+
+    Merge pull request #89 from regro-cf-autotick-bot/0.20.3
+    
+    scikit-learn v0.20.3
+
+commit 277b3c1e1876255c9cd5c7db6be9858d6325c7b3
+Author: Joel Nothman <joel.nothman@gmail.com>
+Date:   Sat Mar 2 19:06:59 2019 +0100
+
+    empty commit
+
+commit 2e3c65dfc346c0ca6965930ff11b836e0924960b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Mar 1 11:23:41 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.02.24
+
+commit 10181543cde2c4882c2230ad9b26024eb39a6310
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Mar 1 11:23:30 2019 +0000
+
+    updated v0.20.3
+
+commit c0638ab0bb76138d08748c0da80ae1e65232fb3e
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Dec 27 19:53:27 2018 -0600
+
+    update to 0.20.2
+
+commit 81227c2cbe92c4258587a75b1b7f159a606156ee
+Merge: 55c0824 6fed18e
+Author: Olivier Grisel <olivier.grisel@ensta.org>
+Date:   Thu Dec 20 18:42:16 2018 +0100
+
+    Merge pull request #87 from regro-cf-autotick-bot/0.20.2
+    
+    scikit-learn v0.20.2
+
+commit 6fed18e1066672db4cfa5a51f0eddd81887fdc47
+Author: Joel Nothman <joel.nothman@gmail.com>
+Date:   Fri Dec 21 00:04:02 2018 +1100
+
+    Try pytest --verbose to output newlines more often
+
+commit 0163156f077d8738921405dbea0bc59eef409d1d
+Author: Joel Nothman <joel.nothman@gmail.com>
+Date:   Wed Dec 19 19:55:20 2018 +1100
+
+    Updated tag again
+
+commit 973eb774cdddb55ec8b328399214c97bece20b69
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Dec 18 22:48:56 2018 -0500
+
+    Bump build number to 1200
+    
+    Needed for BLAS.
+
+commit 821d38b32edf86250ebca207e9574c2fbbb6c7be
+Author: Joel Nothman <joel.nothman@gmail.com>
+Date:   Wed Dec 19 14:36:09 2018 +1100
+
+    Update meta.yaml
+
+commit b8ec97ce0264563ecd1d1bca31a50bc275b1557b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Dec 18 23:14:06 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2018.12.18
+
+commit a1d3d56c551ca0f483fd11606ad8e82afc2a45ea
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Dec 18 23:13:58 2018 +0000
+
+    updated v0.20.2
+
+commit 11ef9561a5b2c8407a0ec5989e8bd33e9527fe13
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Mon Dec 17 15:06:40 2018 -0600
+
+    xfail omp_cv test due to issue with mkl 2019
+
+commit 6d4fd73598783624209f8d7be4208edd255e7e3e
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri Dec 14 13:40:48 2018 -0600
+
+    Bump version to 0.20.1
+
+commit 55c0824377f935c97dc2bd3f98d7cc6963b53e53
+Merge: 7a03114 c9ecace
+Author: Joel Nothman <joel.nothman@gmail.com>
+Date:   Mon Nov 26 19:13:01 2018 +1100
+
+    Merge pull request #80 from rth/v0.20.1-update
+    
+    Release v0.20.1
+
+commit c9ecace263aadfaa10337d7656c15408578520fc
+Author: Roman Yurchak <rth.yurchak@pm.me>
+Date:   Fri Nov 23 13:32:56 2018 +0100
+
+    Fix SHA256
+
+commit 73e83ee3703dad7a411a05d0b26a547b506b06dd
+Author: Joel Nothman <joel.nothman@gmail.com>
+Date:   Fri Nov 23 13:26:46 2018 +1100
+
+    Updating sha256 after retagging
+
+commit 1786a45216ce91dee245bdb1fe42a4a9c0698267
+Author: Roman Yurchak <rth.yurchak@pm.me>
+Date:   Thu Nov 22 21:41:57 2018 +0100
+
+    Revert templating
+
+commit 7a03114d49973b064286ef65fbe561b87aa7029d
+Author: Joel Nothman <joel.nothman@gmail.com>
+Date:   Thu Nov 22 14:01:06 2018 +1100
+
+    Add myself as a maintainer (#83)
+    
+    and open up a world of opportunity
+
+commit a7562147b828a940db760ecf1dd975107c5c6ba9
+Author: Andreas Müller <t3kcit@gmail.com>
+Date:   Wed Nov 21 21:58:38 2018 -0500
+
+    try to limit the number of openblas cores in testing
+
+commit fa1e4e86e68de1284a5e9cf73739ff4d9c1d9e98
+Author: Andreas Mueller <andreas.mueller@columbia.edu>
+Date:   Wed Nov 21 16:01:16 2018 -0500
+
+    update url for actual release tag
+
+commit 04d4d3f6830c2b935de679b73e94955ac308ee7b
+Author: Roman Yurchak <rth.yurchak@pm.me>
+Date:   Wed Nov 21 08:26:57 2018 +0100
+
+    Branch keeps updating, should pin the commit..
+
+commit 981ff02cb2e271d56a529dc6c5db9531c2111db0
+Author: Roman Yurchak <rth.yurchak@pm.me>
+Date:   Wed Nov 21 00:35:36 2018 +0100
+
+    Fix sha256sum
+
+commit e02ae57dfc565c3c8ba7f9a8ec1376a56cf6aa8d
+Author: Roman Yurchak <rth.yurchak@pm.me>
+Date:   Tue Nov 20 23:05:34 2018 +0100
+
+    Test 0.20.1
+
+commit 0eee8a79315758337c858224907aa0c244bfad45
+Merge: af9e5d6 c4aa39d
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Oct 29 14:20:43 2018 -0400
+
+    Merge pull request #76 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit c4aa39dbf0cbc2faaa412c8f039ec195f7774e16
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Oct 29 14:18:28 2018 -0400
+
+    Revert "Attempt to use a newer numpy as our base?"
+    
+    This reverts commit 27f3e303294da9b7d56f6db254493608cb20aa58.
+
+commit 27f3e303294da9b7d56f6db254493608cb20aa58
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Fri Oct 26 11:24:22 2018 -0400
+
+    Attempt to use a newer numpy as our base?
+
+commit 9b7e71092ae52be5b6360ac0f830be549e160190
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Oct 21 06:51:39 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.16
+
+commit 45e01459ba1ebd084649a0fdce33db1e9bb38beb
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed Oct 17 03:04:22 2018 -0400
+
+    Revert "Hackily try to bypass weird Fortran compiler usage"
+    
+    This reverts commit f49fc31745b720dc5cc7c135b41748fcb6e43bdc.
+
+commit f49fc31745b720dc5cc7c135b41748fcb6e43bdc
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed Oct 17 02:46:16 2018 -0400
+
+    Hackily try to bypass weird Fortran compiler usage
+    
+    For some reason the `devtoolset` compilers want to use Fortran compilers
+    with non-Fortran code. This is a hack that attempts to call GCC a
+    Fortran compiler. Definitely not a real fix and far from ideal. However
+    this is only needed for the legacy compilers and will be removed as soon
+    as they are dropped. So this may be sufficient for now.
+
+commit 31a2ba908ac5cc7e5116fa355c505d6df5883118
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Oct 13 07:57:29 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.11
+
+commit b111f11724e02ba98e4a5086a8cff2e79f4913f1
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Oct 13 07:57:23 2018 +0000
+
+    bump build number
+
+commit 6f7ca160d229263652bc7a401dbcb601610efe31
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Sep 27 08:47:33 2018 -0500
+
+    patches for 0.20.0 osx py27 and win32 py37 issues
+
+commit b58671b289d165e8630ebc69540c15a219dcd666
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Wed Sep 26 10:11:28 2018 -0500
+
+    update to 0.20.0, remove unused patches
+
+commit 51cec25152778d2883abbfae119b88c83246913c
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Sep 20 20:30:36 2018 -0500
+
+    relax numeric constraint in test_t_sne (fail on win-32)
+
+commit af9e5d61d61bdc3d55189c5b06c9bd2e3f145d1f
+Merge: f6bcde6 68444e5
+Author: Olivier Grisel <olivier.grisel@ensta.org>
+Date:   Wed Sep 26 15:17:01 2018 +0200
+
+    Merge pull request #73 from amueller/master_for_0.20.0_final
+    
+    Master for 0.20.0 final
+
+commit 68444e5b80b52703d8fde7746142b89225fac383
+Author: Andreas Mueller <andreas.mueller@columbia.edu>
+Date:   Tue Sep 25 11:17:15 2018 -0400
+
+    update sha for new tag
+
+commit bae80cf489573174bfd2cb4a389907aae6c20605
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Sep 24 15:40:31 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.20
+    
+    Now that CircleCI is being used for macOS builds, re-render to update
+    the CIs accordingly. Namely disabling Travis CI and adding the matrix
+    builds for macOS to CircleCI.
+
+commit 41be3bcf80f4eed3d102f8d45e9a1ed5d1a7911a
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Sep 24 15:37:39 2018 -0400
+
+    Switch macOS builds to CircleCI
+    
+    Travis CI builds are running into log length limits, which are causing
+    the macOS builds there to fail. It's very hard to "fix" the builds to
+    stay within this log length limit and arguably not worth the effort.
+    Given this, simply switch macOS builds to CircleCI where the constraints
+    are generally more reasonable.
+
+commit 8c2c3bb992c3c9ba0e62ae19344468316956767e
+Author: Andreas Mueller <andreas.mueller@columbia.edu>
+Date:   Mon Sep 24 14:54:04 2018 -0400
+
+    remove more superfluous files
+
+commit b477096a6c5921e76b770689100b7541c71dcc2a
+Author: Andreas Mueller <andreas.mueller@columbia.edu>
+Date:   Mon Sep 24 14:53:23 2018 -0400
+
+    remove superfluous files from bad rerender
+
+commit 1fdb2fa4ffefbbc47c0f552e9f23967c25515a01
+Author: Andreas Mueller <andreas.mueller@columbia.edu>
+Date:   Mon Sep 24 14:50:32 2018 -0400
+
+    fix build number and version, remove conda inspect
+
+commit c433013e4506a9bd8dc20bab5fec8e75e87a3a4e
+Author: Andreas Mueller <andreas.mueller@columbia.edu>
+Date:   Mon Sep 24 14:26:34 2018 -0400
+
+    update version ond sha hash for release
+
+commit d15d337af1542fdfd57cb70811f96189cf2743af
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Sep 20 20:30:36 2018 -0500
+
+    relax numeric constraint in test_t_sne (fail on win-32)
+
+commit 2fe70c22b0c2ed7226ae8dce19aae71f8073d650
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Sep 20 08:41:34 2018 -0500
+
+    disable warning assertion in test failing with new numpy
+
+commit 2bbd30ab80391bd3912224cd5a40682a0e8dd1f1
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Wed Sep 19 15:15:56 2018 -0500
+
+    replace pip with older setup.py call (not finding scipy?)
+
+commit b91f8a59eea44a9dcdca376346d2fdaca0324936
+Author: Andreas Mueller <andreas.mueller@columbia.edu>
+Date:   Fri Aug 31 16:23:59 2018 -0400
+
+    fix filename
+
+commit 87d4fa913c603c7fc88906e085c2f02b91abf15d
+Author: Andreas Mueller <andreas.mueller@columbia.edu>
+Date:   Fri Aug 31 16:22:11 2018 -0400
+
+    build RC tag
+
+commit 9075322c90d914fe3acd9fc4c2f4d17c780ccbd8
+Author: Andreas Mueller <andreas.mueller@columbia.edu>
+Date:   Tue Aug 21 13:31:06 2018 -0400
+
+    fix pytest command
+
+commit ff1c02d89d6054f9161e5b15b9bb5778810215a0
+Author: Andreas Mueller <andreas.mueller@columbia.edu>
+Date:   Tue Aug 21 13:03:11 2018 -0400
+
+    add pytest dependency
+
+commit 783d0b278b6dd2fda7e4cdf965bec871ae62ad36
+Author: Andreas Mueller <andreas.mueller@columbia.edu>
+Date:   Tue Aug 21 11:55:37 2018 -0400
+
+    moving to pytest
+
+commit 69b708b1d5d98f2c9c0888eaf1b0b1e9e24ba882
+Author: Andreas Mueller <andreas.mueller@columbia.edu>
+Date:   Tue Aug 21 11:21:47 2018 -0400
+
+    try building master, rerender
+
+commit 368a2e3e8fbfeb8bcafa86414c064dc60b44c41c
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Mon Aug 20 10:22:30 2018 -0500
+
+    clean up patches for update
+
+commit a20ca2132b5e1c49b55722d9b472fa845208ea01
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Jul 24 14:20:08 2018 -0500
+
+    clean up feature stuff
+
+commit 14375c3ad82c75b97b0eb1c3402189ec207c5bd5
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Jul 2 06:55:01 2018 +0000
+
+    Fix broken nomkl selector
+
+commit d6c092f2fcacb10880796ed977ded2e5e50291db
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Jun 29 19:19:14 2018 +0100
+
+    Remove a line
+
+commit e95de733f5f1e0b2d341af0f4c89d8aed1660fe0
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Jun 29 19:13:33 2018 +0100
+
+    Backport test failure
+
+commit 8b093d9325441221dd789d89114bf14015bec7ad
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Jun 17 19:27:20 2018 +0000
+
+    Depends upon mkl directly
+
+commit 676b3af497f2ca3aa462496ae5e6509d0032d5d5
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat May 5 18:30:30 2018 +0100
+
+    Cython >= 0.28.1 compat
+
+commit 0ebfd73f7e8b49af5c3c33ce1a448547bfc3d037
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Jan 31 15:32:19 2018 -0500
+
+    use a single openmp thread on ppc64le
+
+commit 123a7e4f58bc00a4a81a1e37b745a35bd80a7ede
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Jan 28 04:16:23 2018 -0500
+
+    Fix selector for nomkl
+
+commit 70aec86550d625666229dc2fe8e85623ba27d5ed
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Mon Oct 30 08:14:47 2017 -0500
+
+    update to 0.19.1; clean up patches
+
+commit 5fb2c51403515f56748b0c78d2d4da2a4b9ae0d1
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri Nov 3 15:37:44 2017 -0500
+
+    remove stray requires
+
+commit a2781190044536b639fce245aedca06c34cb4cc7
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri Nov 3 11:45:23 2017 -0500
+
+    more linux32 test fixes
+
+commit ee49af3a6e5a720203f04065490460b2a23c490f
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Nov 1 12:09:04 2017 -0500
+
+    fix nomkl test requirement
+
+commit 81aeb7e8400c6b701d0070493f08d3d1ebb2b238
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Nov 1 10:03:22 2017 -0500
+
+    add nomkl to build and test requirements
+
+commit eaaa1df6b3e28e5f26e714a99cfa1a39eba87913
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Sep 14 16:20:51 2017 -0500
+
+    update sklearn for atol in tests
+
+commit c1ce50b32bc4d4816d630b9657983a07496a18e3
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Sep 14 14:49:43 2017 -0500
+
+    backport pr9115 RE: atol in tests
+
+commit c81d0f3e8e47976fbc56e3a5cc56ed7e553bb3e7
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Sep 12 22:09:08 2017 -0500
+
+    use site.cfg embedded in numpy; remove site.cfg stuff
+
+commit 144a0ee7da4dadece23ec1a3d96658e7e2e9ed5c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Sep 11 15:49:45 2017 +0000
+
+    (WIP) Disable tests on linux32
+
+commit 0e252f7f93a196f3873ac0cb07bf03af7f7d0013
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Mon Sep 4 21:16:01 2017 -0500
+
+    add missing cxx compiler
+
+commit 032f03e773a42b367958abf724e628013472a1b2
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Fri Sep 1 08:44:31 2017 -0500
+
+    mkl and cb3
+
+commit f6bcde64895a985cd8a4383681b253998ec600d2
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:14:34 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit c6c4e5c95973851d05f86fa92293da5019e54019
+Merge: 912103f d77ff41
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Jul 28 18:53:49 2018 -0400
+
+    Merge pull request #69 from regro-cf-autotick-bot/compiler_migration2
+    
+    Migrate to Jinja2 compiler syntax
+
+commit d77ff41f5c3e745a854ce68453104feb1ae048f6
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Jul 28 15:12:51 2018 -0400
+
+    Readd features for BLAS
+
+commit d8e9e32e9d6c45b6686fe3aef9c3320cfbab076f
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Jul 28 08:00:36 2018 -0600
+
+    Update meta.yaml
+
+commit d47885e6de100fa1265dde808a303bf44633518c
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Jul 27 22:14:08 2018 -0600
+
+    Remove build scripts and use meta.yaml
+
+commit f0f23713e6c441356ad40b86cbb716df669a37b6
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Fri Jul 27 00:28:42 2018 -0400
+
+    Update meta.yaml
+
+commit bcaaf9cbef0040223740be36c1dfaf247789703a
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Fri Jul 27 00:23:36 2018 -0400
+
+    Update meta.yaml
+
+commit 8abaec9d3bdc17e3a19b310fa358c2c207ed52ae
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jul 25 21:15:33 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.8 and pinning 2018.07.20
+
+commit 296b59f22a676b04d5b9e7bce12c7281d1cbbbdf
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jul 25 21:15:27 2018 +0000
+
+    migrated to Jinja2 compiler syntax build
+
+commit 912103f4f68ac4b8c9bc78e115010187f2c25b00
+Merge: ca8f411 f1e0157
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Jul 15 20:10:40 2018 -0400
+
+    Merge pull request #67 from rth/v0.19.2
+    
+    [MRG] Version 0.19.2
+
+commit f1e0157ca62cf0e07b9ce660f900caf6d5624968
+Author: Roman Yurchak <rth.yurchak@gmail.com>
+Date:   Sun Jul 15 15:18:58 2018 -0500
+
+    Set build number to 200
+
+commit 2f2aa91fc9a29c5c8471fe304498a1a9c6a71fe6
+Author: Roman Yurchak <rth.yurchak@gmail.com>
+Date:   Sun Jul 15 12:02:57 2018 -0500
+
+    Revert "MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.01"
+    
+    This reverts commit c5f7b58a0310d319e882b4ee789af2d512dd0a24.
+
+commit c5f7b58a0310d319e882b4ee789af2d512dd0a24
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Jul 15 16:15:38 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.01
+
+commit 43213773dc140e1451814f72ccb370b6d0290aab
+Author: Roman Yurchak <rth.yurchak@gmail.com>
+Date:   Sun Jul 15 10:40:38 2018 -0500
+
+    Update to 0.19.2 release version
+
+commit 23c70bec2b5c3053016711dee589d9d6c4c23e35
+Author: Roman Yurchak <rth.yurchak@gmail.com>
+Date:   Sat Jul 14 10:33:23 2018 -0500
+
+    Fix SHA256
+
+commit 3f188b10f2a6435d48eca908f4c3721b77bd5cd4
+Author: Roman Yurchak <rth.yurchak@gmail.com>
+Date:   Sat Jul 14 10:28:03 2018 -0500
+
+    Test 0.19.2
+
+commit ca8f4114acc72deeec70c85f4798a05820b72e9a
+Merge: 44bfc0d 437222f
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Nov 16 11:14:01 2017 -0500
+
+    Merge pull request #63 from naoyak/patch-1
+    
+    Build with OpenBLAS 0.2.20
+
+commit 437222f4e9e4c432487ce0c8a069f54332e5b6a9
+Author: Naoya Kanai <naopon@gmail.com>
+Date:   Tue Nov 14 17:23:34 2017 -0800
+
+    Build with OpenBLAS 0.2.20
+
+commit 44bfc0d61a688153caa8485d996c69e0860622b9
+Merge: 959b387 ae67968
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Oct 23 16:50:43 2017 -0400
+
+    Merge pull request #62 from jakirkham-feedstocks/drop_unused_patches
+    
+    Drop unused backport patches [ci skip]
+
+commit ae67968328735b96582f24c89a7825b3a313c650
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Oct 23 15:01:57 2017 -0400
+
+    Drop unused backport patches
+    
+    These patches don't appear to be used anymore in the build. They were
+    there to fix test failures that old `scikit-learn` releases experience.
+    As we are not using the patches and those test failures are gone, this
+    clears them out.
+    
+    [skip ci]
+
+commit 959b3872f292c6bc08c548e450e3ec03b4c23575
+Merge: 6276130 fe04097
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Oct 22 21:43:14 2017 -0400
+
+    Merge pull request #61 from jakirkham-feedstocks/consolidate_branches
+    
+    Consolidate branches [ci skip]
+
+commit fe04097b8d80aae5378a244525ae564da906d7e2
+Merge: 0abbc82 6276130
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Oct 22 21:42:45 2017 -0400
+
+    Merge remote-tracking branch 'conda-forge/master' into consolidate_branches
+    
+    [ci skip]
+
+commit 62761301a3297a039de40a3418ef58cabab044f5
+Merge: 79cc83c 853495c
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Oct 22 20:09:35 2017 -0400
+
+    Merge pull request #60 from amueller/0.19.1
+    
+    0.19.1 release
+
+commit 853495ca5b94747ead57de5188bcb0494516c4a6
+Author: Andreas Müller <t3kcit@gmail.com>
+Date:   Sun Oct 22 14:57:37 2017 -0400
+
+    updated hash
+
+commit 2dd2d7b26757e3224eaa173dcfe6c1220b874859
+Author: Andreas Müller <t3kcit@gmail.com>
+Date:   Sat Oct 21 21:04:40 2017 -0400
+
+    bump version to 0.19.1
+
+commit ba333c041146f3b0af0705f511d1205be5ddbfd3
+Author: Andreas Müller <t3kcit@gmail.com>
+Date:   Sat Oct 21 21:02:54 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.4.2
+
+commit 79cc83c9b714388c558c842db641483fee1fbd14
+Merge: 0f69707 80491d1
+Author: Olivier Grisel <olivier.grisel@ensta.org>
+Date:   Fri Aug 11 23:37:16 2017 +0200
+
+    Merge pull request #59 from amueller/0.19-release
+    
+    0.19 release
+
+commit 0f697072052612f63f2c29b7679bca04661eca9d
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Aug 11 20:51:36 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 80491d19679eb73b7d4cea8d5089bd428edb90f6
+Author: Andreas Mueller <t3kcit@gmail.com>
+Date:   Fri Aug 11 15:47:35 2017 -0400
+
+    update to 0.19.0 release
+
+commit 993c779a1043ecbd62188349971978b055cb8664
+Author: Andreas Mueller <t3kcit@gmail.com>
+Date:   Fri Aug 11 15:46:54 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.3.3
+
+commit c8857b47ee03552eed4cc24cfec2914959270ed8
+Merge: b902f3d cf9ef5a
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Aug 7 21:34:06 2017 -0300
+
+    Merge pull request #58 from ocefpaf/py34
+    
+    force add py34
+
+commit cf9ef5a98f614d70d6e859fd5c467d4b270a1b89
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Aug 7 15:33:22 2017 -0300
+
+    force add py34
+
+commit b902f3d670ebcfca190a4c76cb37be848a9d7167
+Merge: 8f319ed 84626fd
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Aug 7 15:12:41 2017 -0300
+
+    Merge pull request #57 from ocefpaf/sane_numpy
+    
+    Sane numpy
+
+commit 84626fdf589d01e8a19bd02240a5b1cc0b3f8664
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Aug 7 13:31:56 2017 -0300
+
+    try latest conda-smithy
+
+commit 0abbc82454e18168b3b42cfb1559a689c958e499
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Aug 7 10:50:59 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.3.3
+    
+    Re-render to add new Python and NumPy matrix as well.
+
+commit 8ec4b55857e15e60b0aa4f973792005ce51fcd9d
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Aug 7 10:48:34 2017 -0400
+
+    Drop NumPy skip
+
+commit 7c11d5c83e8a853d530615308fe08c99c92e7deb
+Merge: 34f2d91 27ebbcf
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Aug 7 10:47:16 2017 -0400
+
+    Merge branch 'master_np1.12' into 'master'
+
+commit 34f2d9190fc1094aaa362f99dea5d64115416723
+Merge: 8f319ed 0fe434a
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Aug 7 10:46:53 2017 -0400
+
+    Merge branch 'master_np1.11' into 'master'
+
+commit 46d1e8241942fc0a3ec123b13c949cca0e26af1a
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Aug 7 11:25:47 2017 -0300
+
+    add latest cython patches
+
+commit d725d0dcb7fe28bbdc3417b0a334e8126b55b234
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Aug 7 09:55:53 2017 -0300
+
+    scipy os limited to np19
+
+commit 0df7adfc115e7c0bf74235c0a1baf8bcecf6d02c
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Aug 7 09:46:45 2017 -0300
+
+    rerender with auto
+
+commit ab5a420f0e911d4af6f10b9f7377b8c6d3d6586b
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Aug 7 09:46:42 2017 -0300
+
+    sane numpy matrix
+
+commit 0fe434a1bd40065e8bf315252d5ffd1c1423d3b3
+Merge: dbbdb36 beb9b7d
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Jun 23 11:48:53 2017 -0400
+
+    Merge pull request #52 from jakirkham/release_0.18.2_np1.11
+    
+    Release 0.18.2 (NumPy 1.11)
+
+commit 27ebbcf47278a1ef82fd27c159e4b37f02883d60
+Merge: 7881549 973624b
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Jun 23 11:48:35 2017 -0400
+
+    Merge pull request #51 from jakirkham/release_0.18.2_np1.12
+    
+    Release 0.18.2 (NumPy 1.12)
+
+commit 8f319ed0997d14a0c1ebe555d2f00d8209129ae1
+Merge: 7881549 dcae678
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Jun 23 11:47:38 2017 -0400
+
+    Merge pull request #50 from jakirkham/release_0.18.2
+    
+    Release 0.18.2 (NumPy 1.13)
+
+commit beb9b7d34b2c48cab0eb7a528b254f9e060475c6
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed Jun 21 02:11:55 2017 -0400
+
+    Update skip test patch for 0.18.2
+    
+    We did not backport the fixes for these tests into the 0.18.2 release.
+    So we need to update this patch so that it will work correctly with
+    0.18.2.
+
+commit 973624bc2291c12009bdff4b8f316cce6f846d17
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed Jun 21 02:10:46 2017 -0400
+
+    Update skip test patch for 0.18.2
+    
+    We did not backport the fixes for these tests into the 0.18.2 release.
+    So we need to update this patch so that it will work correctly with
+    0.18.2.
+
+commit dcae678ff31486cbabe118792ec8573f82e172ea
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Jun 20 23:45:46 2017 -0400
+
+    Update skip test patch for 0.18.2
+    
+    We did not backport the fixes for these tests into the 0.18.2 release.
+    So we need to update this patch so that it will work correctly with
+    0.18.2.
+
+commit 26d244e9ee7d8e1b69a087a65038e291c1f9f712
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Jun 20 23:53:22 2017 -0400
+
+    Release 0.18.2
+
+commit 1a99124ae5831e521df21cb436513382c136b0bb
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Jun 20 23:50:37 2017 -0400
+
+    Release 0.18.2
+
+commit 677a706a3151b34affd246416c044baa47fb4baf
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Jun 20 23:45:46 2017 -0400
+
+    Release 0.18.2
+
+commit ac7b256ceb3e164446b3a5fbaabf89a00f964d0d
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Jun 20 23:41:57 2017 -0400
+
+    Drop NumPy 1.13 patches
+    
+    These are included in the patch release. So we no longer need to apply
+    the patches ourselves.
+
+commit 5e54da22c8066d6bfe86a7aa21057bb8875f0c85
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Jun 12 04:23:49 2017 -0400
+
+    Apply some patches for NumPy 1.13 support
+
+commit dbbdb36b1fc65a79a6bb8e356c56210f3d0d76f1
+Merge: 5c290b7 22aaa1d
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Jun 9 11:06:35 2017 -0400
+
+    Merge pull request #49 from jakirkham/re-render__master_np1.11__2.3.1
+    
+    MNT: Re-rendered with conda-smithy 2.3.1 [ci skip]
+
+commit 5bff7d4d1943fd42bab627ab301b3c48c1fb9a99
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Jun 9 11:05:20 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.3.1
+    
+    Re-render to add NumPy 1.13 support.
+
+commit 07f79b7522fd7c56001b6d9343e190db41c24ff0
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Jun 9 01:53:01 2017 -0400
+
+    Switch master from NumPy 1.12 to 1.13
+
+commit 7881549af8100e6d8f545895d4420bcd8ed38588
+Merge: 01d8782 49b149a
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Jun 9 11:01:06 2017 -0400
+
+    Merge pull request #48 from jakirkham/re-render__master_np1.12__2.3.1
+    
+    MNT: Re-rendered with conda-smithy 2.3.1 [ci skip]
+
+commit 22aaa1d23c8d30c0085aff0231f4e093581b378b
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Jun 9 01:56:11 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.3.1
+
+commit 49b149a6832654a0bf6e1c851270f03e365ec89b
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Jun 9 01:51:12 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.3.1
+
+commit 01d87826c525c3524314e8b1f940e19935034131
+Merge: d7386ad 6aa2bb1
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Apr 9 01:35:08 2017 -0400
+
+    Merge pull request #46 from jakirkham/merge_np1.10
+    
+    Merge 'conda-forge/maser_np1.10' into 'conda-forge/master' [ci skip]
+
+commit 6aa2bb152e82a3d595d68a7faaf2e4e23110ed62
+Merge: 2fe9fdd d7386ad
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Apr 9 01:32:26 2017 -0400
+
+    Merge remote-tracking branch 'conda-forge/master' into
+    'conda-forge/maser_np1.10'
+    
+    [ci skip]
+
+commit 5c290b7f2796108c1171730cd6370d79b65ab366
+Merge: b347a0b 6a411ae
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Apr 9 01:29:23 2017 -0400
+
+    Merge pull request #44 from conda-forge-admin/feedstock_rerender_master_np1.11
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit d7386ad2fd0041e1a2bf12dc890b5545a744d810
+Merge: f138c0c b0a3d5b
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Apr 9 01:28:52 2017 -0400
+
+    Merge pull request #42 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 6a411aef59af915116151eed593fc36ba94a02d2
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Apr 1 01:38:46 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.2.2.
+
+commit b0a3d5b6afa20e0739289c7af07f4e8bcf3f01ce
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Apr 1 01:37:35 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.2.2.
+
+commit b347a0b1f6d19030574bf142613cdae0ddc95a92
+Merge: d785848 2e4992d
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Mar 28 12:48:35 2017 -0400
+
+    Merge pull request #41 from lesteve/update-to-0.18.1-numpy-1.11
+    
+    Skip failing tests to allow 0.18.1 release on conda-forge for numpy 1.11.
+
+commit f138c0c73230cc2fdd492e12e4712850df3acb93
+Author: Loïc Estève <loic.esteve@ymail.com>
+Date:   Tue Mar 28 18:10:14 2017 +0200
+
+    Skip failing tests to allow 0.18.1 release on conda-forge (#40)
+    
+    Add ocefpaf and lesteve as recipe maintainers.
+
+commit 2e4992ddd149138b54ddc9b27cf68d8fa491ebb3
+Author: Loïc Estève <loic.esteve@ymail.com>
+Date:   Thu Mar 23 09:43:56 2017 +0100
+
+    Skip failing tests to allow 0.18.1 release on conda-forge
+    
+    Add ocefpaf and lesteve as recipe maintainers.
+
+commit c6d0b95851b3066da432f25c37565129fc51bd09
+Merge: ac7eb2f a42593d
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Feb 6 00:11:36 2017 -0500
+
+    Merge pull request #36 from astaric/update-maintainers
+    
+    Update maintainers [ci skip]
+
+commit ac7eb2fbfafb58a2c626a0e2825e8e886594e581
+Merge: c827326 93560e6
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Feb 6 00:01:22 2017 -0500
+
+    Merge pull request #37 from astaric/np112-py36
+    
+    MNT: Re-rendered with conda-smithy 2.0.1
+
+commit 93560e6e0c352e38767370da2aeb69cfd2f38c2c
+Author: astaric <anze.staric@gmail.com>
+Date:   Sun Feb 5 23:58:46 2017 +0100
+
+    MNT: Re-rendered with conda-smithy 2.0.1
+
+commit d78584840418c9def505d0c3a5d15479dc69d95b
+Merge: 90067bb d1defde
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Jan 27 11:00:10 2017 -0500
+
+    Merge pull request #35 from astaric/py3np111
+    
+    Python 3.6 build for numpy 1.11
+
+commit a42593de46ee299260a01a7de98df93fa9f4e07c
+Author: astaric <anze.staric@gmail.com>
+Date:   Fri Jan 27 10:38:42 2017 +0100
+
+    Update maintainers
+
+commit d1defde53b809f661c2e455bdd26d32448164df8
+Author: astaric <anze.staric@gmail.com>
+Date:   Wed Jan 25 23:01:39 2017 +0100
+
+    MNT: Re-rendered with conda-smithy 2.0.1
+
+commit c8273261c50e98b65796b1a13534b2750a08c453
+Merge: 90067bb d2a0fc3
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Jan 24 09:29:36 2017 -0500
+
+    Merge pull request #33 from astaric/numpy-1.12
+    
+    numpy 1.12 and python 3.6 support
+
+commit d2a0fc33cd47b95d02a36399de92ccbfab7bb1c0
+Author: astaric <anze.staric@gmail.com>
+Date:   Fri Jan 20 13:30:00 2017 +0100
+
+    MNT: Re-rendered with conda-smithy 2.0.0
+
+commit 90067bbf0a9e7e493355fd1771fcc319b4bd0fa9
+Merge: 5c64c22 296d01f
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Jan 8 03:30:01 2017 -0500
+
+    Merge pull request #30 from jakirkham/re-render__master__1.7.0
+    
+    MNT: Re-rendered with conda-smithy 1.7.0 [ci skip]
+
+commit 2fe9fdd5f94d0148f02feb9cbddab99ea2a22844
+Merge: 8a80b23 6a21804
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Jan 8 03:29:50 2017 -0500
+
+    Merge pull request #29 from jakirkham/re-render__master_np1.10__1.7.0
+    
+    MNT: Re-rendered with conda-smithy 1.7.0 [ci skip]
+
+commit 296d01f50bac183a7fb2fdc1585b105af4422790
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Jan 8 00:48:08 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 1.7.0
+
+commit 6a218042a58d0d21c19b9fcb29668c49c7d9a7d4
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Jan 8 00:45:04 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 1.7.0
+
+commit 8a80b2316077c7a7b6244b36909367d3bedab4ce
+Merge: fcf32aa dbd572e
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Dec 7 01:46:11 2016 -0500
+
+    Merge pull request #26 from conda-forge-admin/feedstock_version_pin_master_np1.10
+    
+    MNT: Update pinned versions.
+
+commit 5c64c2212802d890b6f0f90a15b9ebffca10f118
+Merge: d32bfd2 465208a
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Dec 7 01:45:57 2016 -0500
+
+    Merge pull request #25 from conda-forge-admin/feedstock_version_pin_master
+    
+    MNT: Update pinned versions.
+
+commit dbd572ef2f33b70d7f9fbb08325ced6017e1c2d7
+Author: conda-forge-admin <conda-forge@googlegroups.com>
+Date:   Wed Dec 7 02:07:18 2016 +0000
+
+    MNT: Updated some of the pinned versions
+
+commit 465208a3b8eda56bf8ea8f64b369a7db2562acf8
+Author: conda-forge-admin <conda-forge@googlegroups.com>
+Date:   Wed Dec 7 02:07:15 2016 +0000
+
+    MNT: Updated some of the pinned versions
+
+commit d32bfd242fb83992a3cfa2554726bc074b34cd5d
+Merge: 66af77e 6c7ae29
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Nov 3 01:56:39 2016 -0400
+
+    Merge pull request #21 from jakirkham/re-render_master_1.4.6
+    
+    MNT: Re-rendered with conda-smithy 1.4.6 [ci skip]
+
+commit fcf32aa1256f47c580d5bfb689e442a2e9940aab
+Merge: bebd406 4fce354
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Nov 3 01:56:03 2016 -0400
+
+    Merge pull request #22 from jakirkham/re-render_master_np1.10_1.4.6
+    
+    MNT: Re-rendered with conda-smithy 1.4.6 [ci skip]
+
+commit 4fce354ca187ac0a3f6ed50b35e8552685c50eb8
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed Nov 2 23:52:22 2016 -0400
+
+    MNT: Re-rendered with conda-smithy 1.4.6
+
+commit 6c7ae29ab6df7c74cf1f8f780bead583e6a21b9b
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed Nov 2 23:49:58 2016 -0400
+
+    MNT: Re-rendered with conda-smithy 1.4.6
+
+commit bebd40664f55046646f8103950ab46994a851a55
+Merge: 35397b6 220f980
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Oct 12 11:49:24 2016 -0400
+
+    Merge pull request #19 from conda-forge-admin/feedstock_rerender_master_np1.10
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 66af77e211e20727ecccf3d9bd1bb8826c9d494a
+Merge: f53d9ef c6b5f24
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Oct 12 11:48:35 2016 -0400
+
+    Merge pull request #18 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 220f980260bfef25cc61a4177aa803b1921a68ad
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Oct 12 05:02:50 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.3.2.
+
+commit c6b5f24d0e0442202d59277a3a650852c20452bf
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Oct 12 05:01:49 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.3.2.
+
+commit f53d9ef162d1b998cdb3e15a5746c3701b8b37dd
+Author: Andreas Mueller <t3kcit@gmail.com>
+Date:   Wed Sep 28 17:31:52 2016 -0400
+
+    Release 0.18 (#11)
+    
+    * 0.18 version bump
+    
+    * use git tag instead of pipy
+    
+    * fix hash, move to sha256
+
+commit 35397b6930be3b06d5f01e07cf1aff2d6c4e6bd5
+Author: Andreas Mueller <t3kcit@gmail.com>
+Date:   Wed Sep 28 17:31:40 2016 -0400
+
+    Release0.18 np1.10 (#17)
+    
+    * 0.18 version bump
+    
+    * use git tag instead of pipy
+    
+    * fix hash, move to sha256
+
+commit ccd34001bc18e1b4b6ba203014d759eca4a9435d
+Merge: b416ccb 4ea44bd
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Sep 28 13:32:04 2016 -0400
+
+    Merge pull request #13 from jakirkham/config_master_np1.11
+    
+    Configure master NumPy 1.11 builds
+
+commit d9ac189701a4b0548fb1922e91d09cfc759b7c64
+Merge: b416ccb 1e7dbd9
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Sep 28 13:31:52 2016 -0400
+
+    Merge pull request #12 from jakirkham/config_master_np1.10
+    
+    Configure master NumPy 1.10 builds
+
+commit 4ea44bd491f81a5183e54f0089f8112bdada0fd1
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Sep 27 16:44:30 2016 -0400
+
+    Re-render with `conda-smithy` version `1.2.0`.
+
+commit 677c6231c923c1b28a76e7d8a076183e3d978daf
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Sep 27 16:42:13 2016 -0400
+
+    recipe: Restrict to NumPy 1.11.x only.
+
+commit 1e7dbd9c1deb02f31ab50966de482a7ad6d48acb
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Sep 27 16:41:02 2016 -0400
+
+    Re-render with `conda-smithy` version `1.2.0`.
+
+commit 95e8716ebc9351e132bd35a2500cbdf07ea588fd
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Sep 27 16:40:01 2016 -0400
+
+    recipe: Restrict to NumPy 1.10.x only.
+
+commit b416ccb4ebef0f3c2a206389a1d01c8c708599f5
+Merge: 566fc21 7f34f94
+Author: Andreas Mueller <t3kcit@gmail.com>
+Date:   Wed Sep 14 11:56:41 2016 -0400
+
+    Merge pull request #4 from jakirkham/re-render_1.2.0
+    
+    Re-render with `conda-smithy` version `1.2.0`
+
+commit 7f34f943ead7471ee6674f3ba7e2bff05c27e3a9
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Sep 13 16:02:57 2016 -0400
+
+    Re-render with `conda-smithy` version `1.2.0`.
+
+commit 566fc211f05265bb3f0f74faa9bdbb8efe0890de
+Merge: 1a6f8a5 2473cb5
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Aug 29 14:43:41 2016 -0400
+
+    Merge pull request #3 from conda-forge-admin/feedstock_version_pin_master
+    
+    MNT: Update pinned versions.
+
+commit 2473cb5320bb566421254da05387e6dcc1bb5715
+Author: conda-forge-admin <conda-forge@googlegroups.com>
+Date:   Sat Aug 27 03:59:57 2016 +0000
+
+    MNT: Updated some of the pinned versions
+
+commit 1a6f8a5ba8f0503b8b3566c6105f39f1d03f2911
+Merge: 1525ced 46b2cf8
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Jul 26 19:40:53 2016 -0400
+
+    Merge pull request #2 from jakirkham/rebuild_openblas
+    
+    Rebuild with parallel OpenBLAS
+
+commit 46b2cf82dd6c30c6f31d3a84a6756c5439908045
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Jul 26 15:01:02 2016 -0400
+
+    recipe: Bump build number and rebuild with new OpenBLAS.
+
+commit 1525ced212d4817451a6ed430ec8e25796ddc006
+Merge: eb3359c 2129a17
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Jun 27 09:38:13 2016 -0400
+
+    Merge pull request #1 from jakirkham/add_maintainers
+    
+    Add @amueller and @ogrisel
+
+commit 2129a175e207ffdbb92e3c8c6a4cfd1820d00e92
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Jun 18 13:50:44 2016 -0400
+
+    recipe: Add @amueller and @ogrisel.
+
+commit eb3359cc434183c3dd0b3e6fe54d8e060e3405f5
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun May 22 02:18:50 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 0536ecb33ea8a0767af77509dc77b6e815ebf9c4
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun May 22 02:17:55 2016 +0000
+
+    Initial commit of the scikit-learn feedstock.

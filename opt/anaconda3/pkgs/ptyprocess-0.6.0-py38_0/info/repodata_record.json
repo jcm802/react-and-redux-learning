@@ -1,0 +1,23 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "ptyprocess-0.6.0-py38_0.conda",
+  "legacy_bz2_md5": "74a0fc093f3bfc54bea4df5ac5175f1b",
+  "legacy_bz2_size": 23492,
+  "license": "ISC",
+  "md5": "7abf50c0fd450588d96fd01537ae0f49",
+  "name": "ptyprocess",
+  "sha256": "464745ca1e9919657b1319e3fbbd81789933df379fad500f5f0236b2fd9d78d4",
+  "size": 23496,
+  "subdir": "osx-64",
+  "timestamp": 1573040899438,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/ptyprocess-0.6.0-py38_0.conda",
+  "version": "0.6.0"
+}

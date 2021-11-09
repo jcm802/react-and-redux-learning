@@ -1,0 +1,10 @@
+{
+  "noarch": {
+    "entry_points": [
+      "imageio_download_bin = imageio.__main__:download_bin_main",
+      "imageio_remove_bin = imageio.__main__:remove_bin_main"
+    ],
+    "type": "python"
+  },
+  "package_metadata_version": 1
+}

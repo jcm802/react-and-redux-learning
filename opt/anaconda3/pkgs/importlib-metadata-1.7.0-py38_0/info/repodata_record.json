@@ -1,0 +1,25 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "zipp >=0.5"
+  ],
+  "features": "",
+  "fn": "importlib-metadata-1.7.0-py38_0.conda",
+  "legacy_bz2_md5": "4f56195c7cb1afcf75d450f1f8a324e9",
+  "legacy_bz2_size": 52061,
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "md5": "8fc0ed97b3f55a03b402b9addc0b886f",
+  "name": "importlib-metadata",
+  "sha256": "df7142d0008e05c1c942d19f754548510e42f828042686b07d85dc8fc18bc254",
+  "size": 53125,
+  "subdir": "osx-64",
+  "timestamp": 1593446545093,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/importlib-metadata-1.7.0-py38_0.conda",
+  "version": "1.7.0"
+}

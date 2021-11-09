@@ -1,0 +1,33 @@
+{
+  "build": "py38h959d312_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [
+    "tbb >=2018.0.5"
+  ],
+  "depends": [
+    "libcxx >=10.0.0",
+    "llvm-openmp >=10.0.0",
+    "llvmlite >=0.33.0 *_1",
+    "llvmlite >=0.33.0,<0.34.0a0",
+    "numpy >=1.14.6,<2.0a0",
+    "python >=3.8,<3.9.0a0",
+    "setuptools",
+    "tbb >=2020.0"
+  ],
+  "features": "",
+  "fn": "numba-0.50.1-py38h959d312_1.conda",
+  "legacy_bz2_md5": "4d628d1d67a10890ec984935e8703ea4",
+  "legacy_bz2_size": 3505778,
+  "license": "BSD 2-clause",
+  "license_family": "BSD",
+  "md5": "05992f01d0f5c441450323d3cec68b6e",
+  "name": "numba",
+  "sha256": "1e456283bf313d1411570ce6ec01a680921be3adedff21104e0928fe51b1a51e",
+  "size": 3142829,
+  "subdir": "osx-64",
+  "timestamp": 1594579290146,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/numba-0.50.1-py38h959d312_1.conda",
+  "version": "0.50.1"
+}

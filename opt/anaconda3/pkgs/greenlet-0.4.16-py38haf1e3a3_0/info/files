@@ -1,0 +1,10 @@
+include/python3.8/greenlet/greenlet.h
+lib/python3.8/site-packages/greenlet-0.4.16.dist-info/AUTHORS
+lib/python3.8/site-packages/greenlet-0.4.16.dist-info/INSTALLER
+lib/python3.8/site-packages/greenlet-0.4.16.dist-info/LICENSE
+lib/python3.8/site-packages/greenlet-0.4.16.dist-info/LICENSE.PSF
+lib/python3.8/site-packages/greenlet-0.4.16.dist-info/METADATA
+lib/python3.8/site-packages/greenlet-0.4.16.dist-info/RECORD
+lib/python3.8/site-packages/greenlet-0.4.16.dist-info/WHEEL
+lib/python3.8/site-packages/greenlet-0.4.16.dist-info/top_level.txt
+lib/python3.8/site-packages/greenlet.cpython-38-darwin.so

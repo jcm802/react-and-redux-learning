@@ -1,0 +1,295 @@
+commit 99915029e6770ea4f34b9f8107474da3011f44ae
+Merge: fa6bfd6 dd141d4
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Mar 3 23:34:57 2020 +0530
+
+    Merge pull request #16 from regro-cf-autotick-bot/3.1.0
+    
+    zipp v3.1.0
+
+commit dd141d47399f0cdf600110bb703ffb427f4284a6
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 3 12:19:26 2020 +0000
+
+    updated v3.1.0
+
+commit fa6bfd6a8927f4ddae9d9abe2a35f36c1921225c
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue Mar 3 06:14:57 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 20889ebad688f4ed7aaeb7a0e20617f1354d98fd
+Merge: f8b8809 bed2213
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri Feb 21 06:45:16 2020 -0500
+
+    Merge pull request #15 from regro-cf-autotick-bot/3.0.0
+    
+    zipp v3.0.0
+
+commit bed2213a72cf3d8246280b93a9014e151c09fdce
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 17 19:14:04 2020 +0000
+
+    updated v3.0.0
+    
+    Also update minimum version req on setuptools_scm
+
+commit f8b8809f006814cdb1665cda3391677ae6036e9a
+Merge: 5e48016 f422769
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Feb 20 08:56:14 2020 -0500
+
+    Merge pull request #14 from regro-cf-autotick-bot/2.2.1
+    
+    zipp v2.2.1
+
+commit f42276989f32f9e643c60789354da5293b1100b5
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Feb 20 08:50:48 2020 -0500
+
+    Add func_timeout to test/requires
+
+commit e67c1c4b00bf6bd40e88c9213b24c6d844640f6a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 17 18:14:33 2020 +0000
+
+    updated v2.2.1
+
+commit 5e48016416fc6c0e3f5814d4fc981f045b6ac1c4
+Merge: f49cde2 2a62ae9
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Feb 9 07:48:59 2020 -0500
+
+    Merge pull request #13 from regro-cf-autotick-bot/2.2.0
+    
+    zipp v2.2.0
+
+commit 2a62ae97d31657f64510b1a416907ccb256aa0d1
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sat Feb 8 08:37:09 2020 -0500
+
+    Move jaraco.itertools to test/requires
+
+commit 8cfdc4d04c61a64737b133b37401240dcf71bfdf
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Feb 7 23:13:28 2020 +0000
+
+    updated v2.2.0
+
+commit f49cde2cad7033f34ca13fea33f60bdfd400c13e
+Merge: 26d127f 1e28460
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Jan 26 21:24:07 2020 -0500
+
+    Merge pull request #12 from regro-cf-autotick-bot/2.1.0
+    
+    zipp v2.1.0
+
+commit 1e28460abf8e9cc7b8cadfed91bad504c4addbc5
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Jan 26 11:20:01 2020 -0500
+
+    Update dependencies
+
+commit a22a33a1f02ecaf331b1462dc34a38e141863cb7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jan 25 22:12:40 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.6, and conda-forge-pinning 2020.01.24
+
+commit a9ab1f7455bdde06a5a87f8dcbadd77ffde41e0e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jan 25 22:12:09 2020 +0000
+
+    updated v2.1.0
+
+commit 26d127faf455663ffe0ee3850fbc5aba0bd20f2c
+Merge: 7298baa f716665
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Jan 22 22:33:33 2020 -0500
+
+    Merge pull request #10 from xhochy/fix-version
+    
+    Simplify version information patch
+
+commit f716665bf911508e9d1e2f7356723df665f3b530
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Wed Jan 22 08:24:59 2020 +0100
+
+    Update meta.yaml
+
+commit 1492a15af5f191b5ff4d3c2dfdfa63f9401b1973
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Wed Jan 22 08:17:16 2020 +0100
+
+    Simplify version information patch
+
+commit 7298baab161604bbee4134ec6d127dfa38a687c0
+Merge: 7acb9ab c19e96a
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Jan 21 17:57:58 2020 -0500
+
+    Merge pull request #9 from bollwyvl/fix-dist-metadata-version
+    
+    patch setup.cfg to include version, run tests, pip check
+
+commit c19e96a9e20af0a2bb63ce464da926dc38d2e212
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Tue Jan 21 17:26:27 2020 -0500
+
+    patch setup.cfg to include version
+
+commit 7acb9abc1dd200f788bd9e5fc45de25c53d0dd4d
+Merge: 11625ba 570d287
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Jan 20 10:36:14 2020 -0500
+
+    Merge pull request #7 from regro-cf-autotick-bot/2.0.0
+    
+    zipp v2.0.0
+
+commit 570d2876d1415523fccaa49f4bcd803f71b67067
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Jan 20 10:14:52 2020 -0500
+
+    Update build & run deps
+
+commit 611cb2e932979e3e41279ba55f4ef12bff5c7d60
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jan 20 01:13:28 2020 +0000
+
+    updated v2.0.0
+
+commit 11625ba6556209384e28f56dcd70dd50546de9c1
+Merge: cdd4c93 0b3a433
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Jan 13 23:06:38 2020 -0500
+
+    Merge pull request #6 from regro-cf-autotick-bot/1.0.0
+    
+    zipp v1.0.0
+
+commit 0b3a4337c33ab11b42b205812c520abf6a6a32e0
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jan 14 00:14:51 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2020.01.10
+
+commit 9a2484f55e8d57ea516a798d60908f89b408e0df
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jan 14 00:14:19 2020 +0000
+
+    updated v1.0.0
+
+commit cdd4c9337b9d9c15a8af371169f527fd19b0af01
+Merge: d651357 5a27432
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sat Aug 24 18:08:44 2019 -0400
+
+    Merge pull request #5 from regro-cf-autotick-bot/0.6.0
+    
+    zipp v0.6.0
+
+commit 5a274321bbb64c9a666762d97730a50b6c1e42e6
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sat Aug 24 17:55:16 2019 -0400
+
+    Add more-itertools as runtime dep
+
+commit e9f4a6d5b42e918ee3729f79c5ee302d8c14f494
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Aug 24 17:32:22 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.08.22
+
+commit 534a9ba927c25eaac47d060f1668ad4e5ee8459d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Aug 24 17:31:53 2019 +0000
+
+    updated v0.6.0
+
+commit d6513573cf50d68ccb2521beab2be69d3414e1a6
+Merge: 5b84998 a51a474
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Fri Aug 2 20:24:28 2019 -0400
+
+    zipp v0.5.2 (#4)
+    
+    zipp v0.5.2
+
+commit a51a4747567408b41e030a2d309a88ac0befe2ff
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 7 21:24:45 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.4.0, and conda-forge-pinning 2019.07.04
+
+commit da44637f3fd0b544d41577d4a61d518cee37f6c9
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 7 21:24:35 2019 +0000
+
+    updated v0.5.2
+
+commit 5b849986b0a5e6de6276191047e95a86bfb4e818
+Merge: da8c31d 995efa4
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Jun 2 01:52:16 2019 +0530
+
+    Merge pull request #3 from regro-cf-autotick-bot/0.5.1
+    
+    zipp v0.5.1
+
+commit 995efa47ff8ce3ac7d56e2e98ab2e466a42ce887
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu May 16 16:29:33 2019 +0000
+
+    updated v0.5.1
+
+commit da8c31d3d47c00ad9588451c2b6f84e99a694799
+Merge: e08a08e 13331cd
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue May 14 21:35:25 2019 +0530
+
+    Merge pull request #2 from regro-cf-autotick-bot/0.5.0
+    
+    zipp v0.5.0
+
+commit 13331cddc17a1f3f26bd0efcc639f506ecffa5b9
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed May 8 19:29:36 2019 +0000
+
+    updated v0.5.0
+
+commit e08a08e07c8d98090e247839befa3ea136dd50d6
+Merge: 926138d 9d2ed87
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Apr 29 00:10:22 2019 +0530
+
+    Merge pull request #1 from regro-cf-autotick-bot/0.4.0
+    
+    zipp v0.4.0
+
+commit 9d2ed87df4695dcac2f8d9e1a9321085697db1d8
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Apr 28 17:30:56 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.4, and conda-forge-pinning 2019.04.25
+
+commit 357ecd9fd55a88c6940a1edeb701c849ab36432b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Apr 28 17:30:36 2019 +0000
+
+    updated v0.4.0
+
+commit 926138d0af0df6d63c3fb2e4e44b3807acf2bf70
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Feb 10 14:29:49 2019 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 1a1952f9347a52876a7d45fdf5a3000be75b050c
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Feb 10 14:27:48 2019 +0000
+
+    Initial feedstock commit with conda-smithy 3.2.13.

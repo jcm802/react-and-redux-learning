@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "0",
+  "build_number": 0,
+  "depends": [
+    "path <13.2",
+    "python >=3.5"
+  ],
+  "license": "MIT",
+  "name": "path.py",
+  "noarch": true,
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1576515485194,
+  "version": "12.4.0"
+}

@@ -1,0 +1,24 @@
+{
+  "build": "py38_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libspatialindex >=1.9.3,<1.9.4.0a0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "rtree-0.9.4-py38_1.conda",
+  "legacy_bz2_md5": "7aef629d8ebf1d4274fa720e55302253",
+  "legacy_bz2_size": 49452,
+  "license": "MIT",
+  "md5": "6d5f1491ff4f61d221f95294db2c5975",
+  "name": "rtree",
+  "sha256": "b07312e6acd4a4eb822386fe1675841dd6bce928bd72d53489b3affe187ff5c0",
+  "size": 48706,
+  "subdir": "osx-64",
+  "timestamp": 1588549689698,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/rtree-0.9.4-py38_1.conda",
+  "version": "0.9.4"
+}

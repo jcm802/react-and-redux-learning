@@ -1,0 +1,26 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "testpath-0.4.4-py_0.conda",
+  "legacy_bz2_md5": "c7e8e3df4d16aa22cbb5f8ae2cd68714",
+  "legacy_bz2_size": 90578,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "57cb09e3fb1951383f6765780cfb2dca",
+  "name": "testpath",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "2880ef8b28444626063c3f77c1297fd8f00b23ea3178fe40de24530e305d38ec",
+  "size": 84471,
+  "subdir": "noarch",
+  "timestamp": 1573942955161,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/testpath-0.4.4-py_0.conda",
+  "version": "0.4.4"
+}

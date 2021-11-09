@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py38_0",
+  "build_number": 0,
+  "depends": [
+    "entrypoints",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "license": "Python Software Foundation or MIT",
+  "license_family": "MIT",
+  "name": "keyring",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1593109841900,
+  "version": "21.2.1"
+}

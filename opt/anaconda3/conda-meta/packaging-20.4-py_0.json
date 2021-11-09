@@ -1,0 +1,116 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "pyparsing >=2.0.2",
+    "python",
+    "six"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/packaging-20.4-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/packaging-20.4.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/packaging-20.4.dist-info/LICENSE",
+    "lib/python3.8/site-packages/packaging-20.4.dist-info/LICENSE.APACHE",
+    "lib/python3.8/site-packages/packaging-20.4.dist-info/LICENSE.BSD",
+    "lib/python3.8/site-packages/packaging-20.4.dist-info/METADATA",
+    "lib/python3.8/site-packages/packaging-20.4.dist-info/RECORD",
+    "lib/python3.8/site-packages/packaging-20.4.dist-info/WHEEL",
+    "lib/python3.8/site-packages/packaging-20.4.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/packaging/__about__.py",
+    "lib/python3.8/site-packages/packaging/__init__.py",
+    "lib/python3.8/site-packages/packaging/_compat.py",
+    "lib/python3.8/site-packages/packaging/_structures.py",
+    "lib/python3.8/site-packages/packaging/_typing.py",
+    "lib/python3.8/site-packages/packaging/markers.py",
+    "lib/python3.8/site-packages/packaging/py.typed",
+    "lib/python3.8/site-packages/packaging/requirements.py",
+    "lib/python3.8/site-packages/packaging/specifiers.py",
+    "lib/python3.8/site-packages/packaging/tags.py",
+    "lib/python3.8/site-packages/packaging/utils.py",
+    "lib/python3.8/site-packages/packaging/version.py",
+    "lib/python3.8/site-packages/packaging/__pycache__/__about__.cpython-38.pyc",
+    "lib/python3.8/site-packages/packaging/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/packaging/__pycache__/_compat.cpython-38.pyc",
+    "lib/python3.8/site-packages/packaging/__pycache__/_structures.cpython-38.pyc",
+    "lib/python3.8/site-packages/packaging/__pycache__/_typing.cpython-38.pyc",
+    "lib/python3.8/site-packages/packaging/__pycache__/markers.cpython-38.pyc",
+    "lib/python3.8/site-packages/packaging/__pycache__/requirements.cpython-38.pyc",
+    "lib/python3.8/site-packages/packaging/__pycache__/specifiers.cpython-38.pyc",
+    "lib/python3.8/site-packages/packaging/__pycache__/tags.cpython-38.pyc",
+    "lib/python3.8/site-packages/packaging/__pycache__/utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/packaging/__pycache__/version.cpython-38.pyc"
+  ],
+  "fn": "packaging-20.4-py_0.conda",
+  "legacy_bz2_md5": "80eb4e4cda8abe15fb013ab97a0b5bd9",
+  "legacy_bz2_size": 36223,
+  "license": "Apache 2.0 or BSD 2-Clause",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/packaging-20.4-py_0",
+    "type": 1
+  },
+  "md5": "c153f3660d2f48562bb44779afccbd8b",
+  "name": "packaging",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/packaging-20.4-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/packaging/__pycache__/__about__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/packaging/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/packaging/__pycache__/_compat.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/packaging/__pycache__/_structures.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/packaging/__pycache__/_typing.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/packaging/__pycache__/markers.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/packaging/__pycache__/requirements.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/packaging/__pycache__/specifiers.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/packaging/__pycache__/tags.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/packaging/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/packaging/__pycache__/version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "packaging==20.4=py_0",
+  "sha256": "7f38370485f22303802895ade98d931c5d17f999d666549d4d7ec0bb72606a1b",
+  "size": 37014,
+  "subdir": "noarch",
+  "timestamp": 1592321463658,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/packaging-20.4-py_0.conda",
+  "version": "20.4"
+}

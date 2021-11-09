@@ -1,0 +1,21 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "importlib-metadata",
+    "mccabe >=0.6.0,<0.7.0",
+    "pycodestyle >=2.6.0,<2.7.0",
+    "pyflakes >=2.2.0,<2.3.0",
+    "python >=3",
+    "setuptools >=30.0.0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "flake8",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1592258365001,
+  "version": "3.8.3"
+}

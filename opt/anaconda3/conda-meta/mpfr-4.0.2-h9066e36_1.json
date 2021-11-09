@@ -1,0 +1,75 @@
+{
+  "build": "h9066e36_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "gmp >=6.1.2"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/mpfr-4.0.2-h9066e36_1",
+  "features": "",
+  "files": [
+    "include/mpf2mpfr.h",
+    "include/mpfr.h",
+    "lib/libmpfr.6.dylib",
+    "lib/libmpfr.a",
+    "lib/libmpfr.dylib",
+    "lib/pkgconfig/mpfr.pc",
+    "share/doc/mpfr/AUTHORS",
+    "share/doc/mpfr/BUGS",
+    "share/doc/mpfr/COPYING",
+    "share/doc/mpfr/COPYING.LESSER",
+    "share/doc/mpfr/FAQ.html",
+    "share/doc/mpfr/NEWS",
+    "share/doc/mpfr/TODO",
+    "share/doc/mpfr/examples/ReadMe",
+    "share/doc/mpfr/examples/can_round.c",
+    "share/doc/mpfr/examples/divworst.c",
+    "share/doc/mpfr/examples/rndo-add.c",
+    "share/doc/mpfr/examples/sample.c",
+    "share/doc/mpfr/examples/version.c",
+    "share/info/mpfr.info"
+  ],
+  "fn": "mpfr-4.0.2-h9066e36_1.conda",
+  "legacy_bz2_md5": "083ab8a04e706f95d97e79de976540fb",
+  "legacy_bz2_size": 607328,
+  "license": "LGPL-3.0-only",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/mpfr-4.0.2-h9066e36_1",
+    "type": 1
+  },
+  "md5": "d29a69b33895ee96e98d53d55287e985",
+  "name": "mpfr",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/mpfr-4.0.2-h9066e36_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libmpfr.6.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/b14d0463-d9ed-461e-6d6d-e845a67edccf/volume/mpfr_1593117303425/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "c26056b6d7f2bcdf5b5bce7be41cf2cc84af4cb59e434789e22481d15312d7f7",
+        "sha256_in_prefix": "7065df391b658d911abd6442a9a07453c6831cc9a4046eee2d6e9091ac00382c",
+        "size_in_bytes": 449924
+      },
+      {
+        "_path": "lib/pkgconfig/mpfr.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "44b281d0d1f698c5d49afee8f1e425af651841eb28c9a61a950a559ff39417d4",
+        "sha256_in_prefix": "c18cc0f051d00ce86e135c001bf3cf444dbece174864649126c26195e98c7d0c",
+        "size_in_bytes": 300
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "mpfr==4.0.2=h9066e36_1",
+  "sha256": "cbc4e6e5ce29f36f49a8217328ff614bbef40f1df9655676a162c8d0c864f051",
+  "size": 443215,
+  "subdir": "osx-64",
+  "timestamp": 1593117609730,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/mpfr-4.0.2-h9066e36_1.conda",
+  "version": "4.0.2"
+}

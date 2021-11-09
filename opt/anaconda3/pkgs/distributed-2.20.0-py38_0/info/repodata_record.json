@@ -1,0 +1,39 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [
+    "openssl !=1.1.1e"
+  ],
+  "depends": [
+    "click >=6.6",
+    "cloudpickle >=1.3.0",
+    "cytoolz >=0.8.2",
+    "dask-core >=2.9.0",
+    "msgpack-python >=0.6.0",
+    "psutil >=5.0",
+    "python >=3.8,<3.9.0a0",
+    "pyyaml",
+    "setuptools",
+    "sortedcontainers !=2.0.0,!=2.0.1",
+    "tblib >=1.6.0",
+    "toolz >=0.8.2",
+    "tornado >=6.0.3",
+    "zict >=0.1.3"
+  ],
+  "features": "",
+  "fn": "distributed-2.20.0-py38_0.conda",
+  "legacy_bz2_md5": "ce23818b59432f670867679741aaa8da",
+  "legacy_bz2_size": 1083129,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "dbfbf575c13bccbf71cf5ccca64001ca",
+  "name": "distributed",
+  "sha256": "c8bc43eb6dd150d76e22ad86ff0ff68dcbfc4aec7ce7232d03018ba6ef037677",
+  "size": 1031148,
+  "subdir": "osx-64",
+  "timestamp": 1594350169531,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/distributed-2.20.0-py38_0.conda",
+  "version": "2.20.0"
+}

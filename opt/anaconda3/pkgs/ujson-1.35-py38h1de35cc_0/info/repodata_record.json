@@ -1,0 +1,23 @@
+{
+  "build": "py38h1de35cc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "ujson-1.35-py38h1de35cc_0.conda",
+  "legacy_bz2_md5": "a9084eedee633398990481ac0bb7b0ba",
+  "legacy_bz2_size": 33300,
+  "license": "BSD 3-Clause",
+  "md5": "53334b8cae767417cda022b0a4cefd33",
+  "name": "ujson",
+  "sha256": "c8dddbef157a4428ed087c91c33dd6d13bf64b595aa0cd62f550d82da25776a3",
+  "size": 32359,
+  "subdir": "osx-64",
+  "timestamp": 1573201174452,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/ujson-1.35-py38h1de35cc_0.conda",
+  "version": "1.35"
+}

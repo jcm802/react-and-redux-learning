@@ -1,0 +1,327 @@
+commit c1324b61e3feef7eaebe1b08cb64c93ee8d4195a
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Sep 24 11:41:15 2019 -0500
+
+    3.9.0
+
+commit 00f18ce44e1fb6397be7342e3070d22fe9425fd7
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Jun 26 16:56:54 2019 -0500
+
+    bump build number
+
+commit 09912db41bb992f27c0b2128d74dbe524174c3a5
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Sep 2 08:54:29 2018 -0500
+
+    Enhance run_tests.sh
+    
+    - Don't spawn mongodb for 32bit pymongo. 32bit mongodb is deprecated
+    - Increase number of max open files to 1024 (required for tests)
+
+commit 706baea19d0035a1641d84e5494b8659bc724d24
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 18:38:50 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit 5b0d59e46224a5d5bc01df66a247dcd65b1023af
+Merge: f60b730 875cc1f
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Fri May 17 22:11:36 2019 -0400
+
+    Merge pull request #14 from regro-cf-autotick-bot/3.8.0
+    
+    pymongo v3.8.0
+
+commit 875cc1fb69c5cbbdbef302c6b706217315deb834
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Apr 22 22:25:51 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.3, and conda-forge-pinning 2019.04.18
+
+commit 63d344327e19823d9c6a2d4bb67f12ada74560ff
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Apr 22 22:25:38 2019 +0000
+
+    updated v3.8.0
+
+commit f60b7300cc69a1aadce11e1aec3d68677c0cbc21
+Merge: 15a85b9 83a49d6
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Tue Feb 19 22:15:26 2019 -0500
+
+    Merge pull request #13 from regro-cf-autotick-bot/3.7.2
+    
+    pymongo v3.7.2
+
+commit 83a49d6649b4789fb3d795ea5c79723999292786
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Feb 3 12:14:31 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.12, and conda-forge-pinning 2019.01.29
+
+commit 69fb75bd33b08dc440f5378930d97dd40ae0ddbf
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Feb 3 12:14:17 2019 +0000
+
+    updated v3.7.2
+
+commit 15a85b95659c12a8600c45ca00fb63fae174d6e9
+Merge: 50b2f69 6eec0f1
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Mon Oct 15 14:13:45 2018 -0400
+
+    Merge pull request #11 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit 6eec0f19e5e6fef02cd05127ae6b8e03e4b1b8b0
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Sep 23 10:09:57 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.20
+
+commit b8949d09ea327ee202c3027eb2469925079b9d8b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Sep 23 10:09:49 2018 +0000
+
+    bump build number
+
+commit 50b2f69d172b61049ddc28d598861b6838a63f25
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 18:39:50 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 6e743f3b48836ebffef26600ce924a84f67ca6fe
+Merge: b2af617 afe8861
+Author: Christopher J. Wright <cjwright4242gh@gmail.com>
+Date:   Tue Jul 24 15:09:20 2018 -0400
+
+    Merge pull request #10 from regro-cf-autotick-bot/3.7.1
+    
+    pymongo v3.7.1
+
+commit afe88615c6adab15c7dd29d5b9344707f9c38055
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Jul 24 15:42:56 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.20
+
+commit fa355e3f3e9c6df10bb8fd98ebd1651346612069
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Mon Jul 16 22:06:48 2018 -0400
+
+    Add compiler bits
+
+commit d4bcd153edda64c7807319822050889837b6c4e7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jul 17 00:13:03 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.15
+
+commit 83419e0e897027e29c0b3bcbdbeb465e4733ef45
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jul 17 00:12:44 2018 +0000
+
+    updated v3.7.1
+
+commit b2af617c9d467461019b7a2b80256796754605b2
+Merge: 608056c c888f6b
+Author: Christopher J. Wright <cjwright4242gh@gmail.com>
+Date:   Wed Mar 21 21:05:18 2018 -0400
+
+    Merge pull request #7 from regro-cf-autotick-bot/3.6.1
+    
+    pymongo v3.6.1
+
+commit 608056cb1efd24b110d2bb421cc4159567b214be
+Merge: be5021c a3341ed
+Author: Eric Dill <ericdill@users.noreply.github.com>
+Date:   Tue Mar 6 22:10:24 2018 -0500
+
+    Merge pull request #8 from ericdill/remove-maintainer
+    
+    Remove myself as maintainer
+
+commit a3341ed251e8502a357f1fd0e005abdbeee77eef
+Author: Eric Dill <thedizzle@gmail.com>
+Date:   Tue Mar 6 22:07:49 2018 -0500
+
+    Remove myself as maintainer [skip ci]
+
+commit c888f6bd3ad3f06a162962bb9059b64d2c8dd4ab
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Mar 4 20:45:50 2018 -0500
+
+    Package the license file
+    
+    Include the license file in the conda package for user inspection.
+
+commit 04198f9c5386bfee5519dc22b29d733749a0a476
+Author: Travis CI User <travis@example.org>
+Date:   Sun Mar 4 22:13:58 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit 706c807851691d0459b6b545bf5a477c2cf0531d
+Author: Travis CI User <travis@example.org>
+Date:   Sun Mar 4 22:12:30 2018 +0000
+
+    updated v3.6.1
+
+commit be5021c2efad8fb4adc91b274cb1acc6dba1cf17
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Dec 17 20:42:04 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit d02dae7f909e8e6ea443c80d791823854d58a936
+Merge: ffdc7b4 0ac6e45
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Dec 17 13:51:24 2017 -0500
+
+    Merge pull request #2 from CJ-Wright/36
+    
+    36
+
+commit 0ac6e45359108da930e17fe372ddf91b47b0c46f
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Dec 17 02:49:18 2017 -0500
+
+    Make `TRAVIS` a pass through variable on macOS
+
+commit 215880c8bff2f408b83ef2be6ab0d93090b63656
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Dec 17 02:38:58 2017 -0500
+
+    Fix guard against Travis CI in tests
+
+commit 4d196860ec7ffb47c0280c7942cc7f70864cb4ef
+Author: christopher <cjwright4242@gmail.com>
+Date:   Sat Dec 16 21:07:46 2017 -0500
+
+    check travis
+
+commit 08336ebb1a63617d740c543e357b88e108144d4e
+Author: christopher <cjwright4242@gmail.com>
+Date:   Sat Dec 16 20:51:25 2017 -0500
+
+    check if running on travis
+
+commit 080c37da797442688e917744e72139d12032c6a3
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Dec 15 17:44:24 2017 -0500
+
+    Drop parameters from URL
+
+commit dc69981bdccc8ec4a0fb668eea9a866af9afd75f
+Author: christopher <cjwright4242@gmail.com>
+Date:   Fri Dec 15 16:39:06 2017 -0500
+
+    check if runtest [travis skip] [skip travis]
+
+commit fb730c6382588552e72f7e29fa3fc5435cd60f08
+Author: christopher <cjwright4242@gmail.com>
+Date:   Wed Dec 13 13:41:37 2017 -0500
+
+    only run full tests on linux
+
+commit c24d92f57fbe7d7184a5a46271a72c55c5dc19da
+Author: christopher <cjwright4242@gmail.com>
+Date:   Wed Dec 13 12:54:21 2017 -0500
+
+    run test script on linux
+
+commit 494304d9d01eb61db99fcc4c2d3a268ce59bf312
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Dec 4 20:42:25 2017 -0500
+
+    Unset REQUESTS_CA_BUNDLE, SSL_CERT_FILE in tests
+
+commit d0de39ff0dcccfe20e022645e3232917f2cdef0a
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Dec 4 20:42:11 2017 -0500
+
+    Add terminal newline to `run_test.sh`
+
+commit 0c8f2c79821d6da32bbcc0f353c27913bb23b51a
+Author: christopher <cjwright4242@gmail.com>
+Date:   Mon Dec 4 15:19:00 2017 -0500
+
+    separate windows out
+
+commit f3ec7a60813320cd6af5ae5b9be2687928cc2874
+Author: christopher <cjwright4242@gmail.com>
+Date:   Mon Dec 4 13:30:58 2017 -0500
+
+    unset ssl cert
+
+commit 5a57216841186c1574d2fa7e9a2503334cc17cc9
+Author: christopher <cjwright4242@gmail.com>
+Date:   Mon Dec 4 13:05:44 2017 -0500
+
+    CA_BUNDLE and ssl cert
+
+commit 74b591a9a56bb260bcbdf784c569b0e49e1dd020
+Author: christopher <cjwright4242@gmail.com>
+Date:   Thu Nov 16 12:50:52 2017 -0500
+
+    copy all the things
+
+commit e7dac47091c0e5edbd1d2d765f236e82c20c915d
+Author: christopher <cjwright4242@gmail.com>
+Date:   Thu Nov 16 12:03:39 2017 -0500
+
+    copy setup.py and tests
+
+commit 7a8ca960e95eb968a6778e6f48d9d9d2475cbcde
+Author: christopher <cjwright4242@gmail.com>
+Date:   Thu Nov 16 12:02:24 2017 -0500
+
+    copy all the files
+
+commit f508fada4e244f19d1a97902d5750711a8aa5512
+Author: christopher <cjwright4242@gmail.com>
+Date:   Thu Nov 16 12:01:16 2017 -0500
+
+    add back run_test and copy all the files over
+
+commit 72c742b2e2284c7cf89310fbc01e6afb059434ce
+Author: christopher <cjwright4242@gmail.com>
+Date:   Wed Nov 15 22:24:58 2017 -0500
+
+    remove run_test
+
+commit 329b9cef142faf1ebc357bc54298cb8f775add16
+Author: christopher <cjwright4242@gmail.com>
+Date:   Wed Nov 15 22:18:16 2017 -0500
+
+    add myself
+
+commit d5a8faa27c24076ba557cdc7115d08753965eae7
+Author: christopher <cjwright4242@gmail.com>
+Date:   Wed Nov 15 22:17:21 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 2.4.3
+
+commit ffdc7b48fdfd379510cf10ee532b3020d792127e
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:54:41 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 73800a78ba5d6c44e09956015e4317b93c4035c0
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Jun 30 23:29:43 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 0e9eb23f979ecfd370e30b43dc9dcd42b62f0fdb
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Jun 30 23:26:10 2016 +0000
+
+    Initial commit of the pymongo feedstock.

@@ -1,0 +1,821 @@
+commit 5f71ec1a6949805ea93e048a8a345d14ee55c8d1
+Author: Cheng H. Lee <clee@anaconda.com>
+Date:   Fri Jun 26 14:17:33 2020 -0500
+
+    Update to glib 2.65.0
+
+commit 943ddb6ef55e9041d29883718fbd6eafbb5a1e97
+Author: Cheng H. Lee <clee@anaconda.com>
+Date:   Thu May 14 12:59:01 2020 -0500
+
+    glib 2.63.1: rebuild with libffi 3.3
+
+commit 9432c854ff257e357851ccef0713199dd7e43577
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Nov 6 09:31:31 2019 -0600
+
+    skip windows
+
+commit 0a1af891a9df04b30aca1687e6475171477baf5c
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Nov 5 12:48:05 2019 -0600
+
+    build.sh modification for 2.63.1
+    
+    Build using an external libiconv on macOS, use libc on Linux.
+
+commit 4cfc92ec2b47d25ebc31b91481aef93a6c937e35
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Nov 5 12:47:57 2019 -0600
+
+    whitelist libresolve on osx
+
+commit 2024757e653149128940e38daaf014e255ce1f0a
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Nov 5 11:17:58 2019 -0600
+
+    rework patches for 2.63.1
+    
+    * Rebase patches on 2.63.1
+    * Move patches to patches directory
+    * Do not apply
+      0001-Manually-link-with-libiconv-whenever-we-use-libintl.patch
+      This appears to be partially upstreamed but is left in the recipe
+
+commit a577f24cfc53901d691b537d4d7518d5e9849697
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Nov 5 11:15:33 2019 -0600
+
+    libiconv and gettext only required on osx
+    
+    On Linux libiconv is included in glibc
+
+commit 7d8241eed337b39da57c151f4f2a06b621d4efb3
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Nov 5 11:15:22 2019 -0600
+
+    expand about section
+
+commit 6cae51ee7171e0d32ccef6743326d785b2c9bf7b
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Nov 5 11:14:35 2019 -0600
+
+    remove conda inspect commands in tests
+    
+    conda-build now does similar checks during post build
+
+commit d6feec08d3a9096a63fa5c41092c3d513e50dd77
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Nov 5 11:13:32 2019 -0600
+
+    update to 2.63.1
+
+commit f34f380283f02f3a8df70f767a316e603813c9a5
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 18:33:10 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit 6a7400d717d4ae41eb451c25b23728f30b4b0388
+Merge: d08c1c1 efee228
+Author: Peter Williams <peter@newton.cx>
+Date:   Fri Jul 12 21:05:30 2019 -0400
+
+    Merge pull request #45 from pkgw/fix-linux-binaries
+    
+    Fix linux binaries
+
+commit efee2285ba396f49ca527793b0b875a712f47fc8
+Author: Peter Williams <peter@newton.cx>
+Date:   Fri Jul 12 19:03:09 2019 -0400
+
+    recipe/meta.yaml: gtester apparently not installed on Windows
+
+commit 4af19bf835702e09ff061b82012c581e96106fd2
+Author: Peter Williams <peter@newton.cx>
+Date:   Fri Jul 12 18:51:10 2019 -0400
+
+    recipe/bld.bat: adopt my Meson workaround
+
+commit 192bdfaa203d952f05403cded742367877d5f011
+Author: Peter Williams <peter@newton.cx>
+Date:   Mon Jul 8 15:00:22 2019 -0400
+
+    gapplication is only provided on Linux
+
+commit 082ae2bfe3d8758aa1773d6a2521e29255063784
+Author: Peter Williams <peter@newton.cx>
+Date:   Mon Jul 8 13:59:51 2019 -0400
+
+    Fix binaries installed on Linux
+    
+    Newer versions of Meson remove the rpaths from binaries, too, which broke
+    them. Fix and add some test infrastructure to attempt to detect any future
+    issues.
+
+commit 861d99cb081184c04856992b4ec5ced85768c556
+Author: Peter Williams <peter@newton.cx>
+Date:   Mon Jul 8 13:59:38 2019 -0400
+
+    recipe/meta.yaml: meson workaround no longer needed (I hope)
+
+commit d08c1c154e737540180e7ac3f6f0dbfea07889c0
+Merge: 2ba3e0e f8c4f7d
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Mon Jun 17 08:37:47 2019 -0400
+
+    Merge pull request #44 from conda-forge-linter/conda_forge_admin_43
+    
+    MNT: rerender
+
+commit f8c4f7d81fdd013597169870cec66384b00c423d
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Jun 17 02:22:22 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.2, conda-smithy 3.3.7, and conda-forge-pinning 2019.06.09
+
+commit 2ba3e0e76c52a0eb37c2d03c6957491b720a63eb
+Merge: e1c4f6c 921610d
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Mon Mar 4 12:10:38 2019 -0500
+
+    Merge pull request #42 from regro-cf-autotick-bot/rebuildaarch64_and_ppc64le_addition_arch
+    
+    Arch Migrator
+
+commit 921610d890048da129ca12c215b832401ead9217
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Mon Mar 4 11:08:03 2019 -0500
+
+    Updated patch for ppc64le failing tests
+
+commit 9f942040abcf0ea888c1e72b359a247a4fd8ab2d
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Mon Mar 4 09:47:09 2019 -0500
+
+    Updated patch
+
+commit 3a83986a938103ba0943d3189daa386028018c20
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sun Mar 3 13:21:15 2019 -0500
+
+    Made the test suite runs exlude flaky tests and bump up timeout duration
+
+commit 4d8c4f1ad198d9dbdb615ac91992760d193d06e6
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sat Mar 2 17:44:15 2019 -0500
+
+    Update hash
+
+commit 365244fa54d1e122c9837af2646cb4c1135015d7
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sat Mar 2 17:39:01 2019 -0500
+
+    Attempt to patch around the problem
+
+commit 608d85feecdb29a7eacb6b0972941e199cc1fe5c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 25 03:18:42 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.14, and conda-forge-pinning 2019.02.24
+
+commit 71b59e0d80f2ec892d13a163abb7e975ae0abca9
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 25 03:18:31 2019 +0000
+
+    bump build number
+
+commit e1c4f6c44927dac593e1e351bcaa8973bdede3c6
+Merge: d41a3c9 c2d4862
+Author: Peter Williams <peter@newton.cx>
+Date:   Sat Dec 29 00:13:25 2018 -0500
+
+    Merge pull request #41 from pkgw/fix-40
+    
+    Fix 40
+
+commit c2d4862fea569c45550903561dd725ede35ee7e1
+Author: Peter Williams <peter@newton.cx>
+Date:   Fri Dec 28 22:39:20 2018 -0500
+
+    recipe/build.sh: newer Docker images seem to fix the issue of undefined $CC
+    
+    But I don't think this PR actually changed the Docker images, so I'm not quite
+    sure why this just surfaced now? Whatever.
+
+commit dcb803b4ea75d5fa5e55d1e6d3d3f088f2033370
+Author: Peter Williams <peter@newton.cx>
+Date:   Fri Dec 28 20:52:15 2018 -0500
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2018.12.28
+
+commit 8d13ba0ccf1bbfed1f2c76f7b38ccb5d2e4aa981
+Author: Peter Williams <peter@newton.cx>
+Date:   Fri Dec 28 20:35:29 2018 -0500
+
+    Work around issue #40
+    
+    As described in #40, on Linux, the new Meson build system futzes with the
+    rpaths of the libraries that it installs in a way that is legal but confuses
+    ldconfig, which can lead to obscure failures for downstream package that use
+    glib and run ldconfig at some point.
+    
+    Closes #40.
+
+commit d41a3c916f86401f65a910c46c7bea33e31a9197
+Merge: 3b82376 a68952d
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Fri Dec 28 11:50:28 2018 -0500
+
+    Merge pull request #39 from pkgw/v2.58.0
+    
+    Update to 2.58.2
+
+commit a68952de4904d4d284c4eefeab3900c9d22e4e23
+Author: Peter Williams <peter@newton.cx>
+Date:   Thu Dec 27 18:58:44 2018 -0500
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2018.12.18
+
+commit 35c67ce7e2864c287e24dc4f6cc6d0adc15d00ef
+Author: Peter Williams <peter@newton.cx>
+Date:   Thu Dec 27 18:58:03 2018 -0500
+
+    Bump to 2.58.2
+    
+    This requires switching the non-Windows builds over to the Meson build system
+    as well.
+
+commit 3b82376501f2fab1b3529d1aa26551e2ca1a6f64
+Merge: 9ec6e80 5ba3e60
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Mon Nov 5 17:43:24 2018 -0500
+
+    Merge pull request #37 from epruesse/patch-3
+    
+    Export pin
+
+commit 5ba3e6055f823343b162e6622873405f53d1fb15
+Author: Elmar Pruesse <epruesse@users.noreply.github.com>
+Date:   Mon Nov 5 10:59:48 2018 -0700
+
+    Export pin
+
+commit 9ec6e80c742d24030af32632fb128f6973e23af3
+Merge: ac2f25c 14aca06
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Oct 8 13:15:50 2018 -0300
+
+    Merge pull request #36 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit 14aca066a0ab733f56b05dfcf25047d73dea7ad1
+Author: Peter Williams <peter@newton.cx>
+Date:   Mon Oct 8 10:56:47 2018 -0400
+
+    recipe/meta.yaml: work around buggy meson 0.48 on Windows
+
+commit 6e60d6013ddf0fb4a414bac25bea90660f6baa93
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Oct 3 05:16:34 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.01
+
+commit c52b6a7553a463fee7ca42891219e2829dce87b0
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Oct 3 05:16:26 2018 +0000
+
+    bump build number
+
+commit ac2f25cb2bf7b557fb94fb245811ff8998806606
+Merge: 78ed0eb e49ed44
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Sep 11 08:36:18 2018 -0300
+
+    Merge pull request #35 from pkgw/windows-msvc
+    
+    Build on Windows with MSVC and update to 2.56.2
+
+commit e49ed442dc60c84c8aaddb7e18570d6f634a3f5d
+Author: Peter Williams <peter@newton.cx>
+Date:   Mon Sep 10 13:58:20 2018 -0400
+
+    Update to 2.56.2.
+
+commit 4b9d2e4cfb4e42ecf9bb792497c505f821b43dfd
+Author: Peter Williams <peter@newton.cx>
+Date:   Tue Sep 4 21:31:31 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.08.31
+
+commit 0cd60cc9d73996688b2e951882519f443a602924
+Author: Peter Williams <peter@newton.cx>
+Date:   Tue Sep 4 21:29:53 2018 -0400
+
+    Build on Windows with MSVC.
+    
+    *Massively* easier and faster to get this going with the Meson build system
+    than with autotools.
+
+commit 78ed0eb36d2173f9e1d97ab4961c309c90f9cf37
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:11:51 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 24e845f5e68eb150e926bd65c638183fc25916c5
+Merge: 784dee1 3b34a50
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Aug 1 15:47:49 2018 -0300
+
+    Merge pull request #31 from scopatz/add-la
+    
+    remove *.la files
+
+commit 3b34a50825906e516ab89ee7c21043ea60e9f2d8
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Wed Aug 1 14:01:07 2018 -0400
+
+    test *.la does not exist
+
+commit 043a674ce24f05376cb8e992430f6162c0692c68
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Wed Aug 1 13:58:05 2018 -0400
+
+    standardize libtool removal
+
+commit d93b8df2acb07b932544fd715068516a5202f9a6
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Wed Aug 1 10:14:55 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 3.1.9 and pinning 2018.07.24
+
+commit 7d3c88cbd1abdaf0e6c1909118add4036080fe9f
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Wed Aug 1 10:12:10 2018 -0400
+
+    reinstate *.la files
+
+commit 784dee15315d790ab08b98cc60c8e3b98ce25759
+Merge: 738ea69 0c93ce5
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Jul 29 18:00:56 2018 -0300
+
+    Merge pull request #28 from ocefpaf/update
+    
+    fix #27
+
+commit 0c93ce5de9a3e6407ffa90a37806da9876921367
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun Jul 29 17:47:31 2018 -0300
+
+    fix #27
+
+commit 738ea695d8106d89cfe7e8b4526634902f0381d3
+Merge: 43eacc6 bb128d3
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Jul 27 12:10:13 2018 -0300
+
+    Merge pull request #26 from ocefpaf/update_recipe
+    
+    update recipe to the new format
+
+commit bb128d3771cdad941ca7286edf564e3eb6304985
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Jul 27 14:53:12 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.8 and pinning 2018.07.24
+
+commit 24e114ced851d947f6fbe0084bc4b3897d796943
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Jul 27 11:52:14 2018 -0300
+
+    update recipe to the new format
+
+commit 43eacc6ad88a3715c99c0e9b90ed3159391f6a87
+Merge: c781fa9 4983b9d
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Fri Nov 24 16:11:23 2017 -0500
+
+    Merge pull request #24 from ocefpaf/update_to_2.55
+    
+    update to 2.55
+
+commit 4983b9d10eb8bde37b6060f356ba7ccbdd033911
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Nov 24 16:33:46 2017 -0200
+
+    update to 2.55
+
+commit c781fa9dba494feade5b9c11e67df32cb3a70564
+Merge: 9624ab4 7a22879
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Nov 23 17:19:02 2017 -0200
+
+    Merge pull request #23 from ocefpaf/pin_libiconv
+    
+    pin iconv to 1.15
+
+commit 7a22879e23133cdfb5ae7df16b3068923050eaa7
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Thu Nov 23 15:13:36 2017 -0200
+
+    pin iconv to 1.15
+
+commit 9624ab4bd16cc7961e024f9440632e84f0b4c2eb
+Merge: 77133ef f7bf916
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Nov 6 09:57:25 2017 -0200
+
+    Merge pull request #22 from ocefpaf/pin_zlib_1.2.11
+    
+    Pin zlib 1.2.11
+
+commit f7bf9162bf660bb747fc3b977258a041233a1aff
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun Nov 5 18:26:41 2017 -0200
+
+    pin zlib 1.2.11
+
+commit a3b69e25bcc04cdbf652f7f4d32045fa4cbe0287
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun Nov 5 18:26:33 2017 -0200
+
+    rerender
+
+commit 77133ef74b21f66864434675f17cd110fe663dcc
+Merge: b87b598 2303933
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Sep 11 19:58:09 2017 -0400
+
+    Merge pull request #21 from jakirkham-feedstocks/rebuild
+    
+    Rebuild
+
+commit 230393316047ac9ff4d5ad8a6829aa94335b6517
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Sep 11 19:56:28 2017 -0400
+
+    Remove empty line
+    
+    Make a trivial change to allow for a rebuild. Ensure there is no net
+    change to the recipe.
+    
+    [ci skip]
+    [skip ci]
+
+commit 1ff32a3507e299f5989402a0bca4f3b7696d8c60
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Sep 11 19:56:00 2017 -0400
+
+    Add empty line
+    
+    Make a trivial change to allow for a rebuild.
+    
+    [ci skip]
+    [skip ci]
+
+commit b87b5980f8536f3e70dcdcb3f5b0fd71168483d0
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:37:51 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit bd5850019f05494ce3134ff47d235e61d86ea2cd
+Merge: 8f7020b 62687f2
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Thu Aug 24 15:57:40 2017 -0400
+
+    Merge pull request #20 from ocefpaf/update_to-2.53.5
+    
+    Update to 2.53.5
+
+commit 62687f2954cc0cbe024e5e1ac5e3dd153ff4ba96
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Aug 11 09:49:13 2017 -0300
+
+    update to 2.53.5
+
+commit 0dd471bb8f02bb9ede7eb264279d0776e932f558
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Aug 11 09:49:07 2017 -0300
+
+    rerender with auto
+
+commit 8f7020ba827dcc641e7da0bf9062978c7b3eeb0c
+Merge: ab80852 60e8238
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Mar 4 12:14:56 2017 -0300
+
+    Merge pull request #18 from pkgw/pr-upstream-2_51_4
+    
+    Update to upstream version 2.51.4
+
+commit 60e8238b11d6f143f7921bf2f78d511c5a8c5066
+Author: Peter Williams <peter@newton.cx>
+Date:   Fri Mar 3 09:49:58 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 2.1.1
+
+commit 142f093bad5b0a2d30fe46fc9a38ab047a0ac34a
+Author: Peter Williams <peter@newton.cx>
+Date:   Fri Mar 3 09:48:59 2017 -0500
+
+    Build with only one version of Python since it's not a runtime dep.
+
+commit 1fc48eb995ff5953715c74e7d3b8498f31b7ae00
+Author: Peter Williams <peter@newton.cx>
+Date:   Fri Mar 3 09:26:36 2017 -0500
+
+    Sadly, fileutils tests still fail
+    
+    Just two out of 3817 tests don't work! Too bad.
+
+commit bffb03e5d7e24496654142d5284050a541da91ce
+Author: Peter Williams <peter@newton.cx>
+Date:   Fri Mar 3 09:15:55 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 2.1.1
+
+commit a1b01a2fd9521e5618bd59ef15bff70944ec5051
+Author: Peter Williams <peter@newton.cx>
+Date:   Fri Mar 3 09:13:34 2017 -0500
+
+    Update to upstream version 2.51.4
+    
+    Plus a tiny bit of recipe tidying.
+
+commit ab8085231cc406dc6ffebb3329084c0db1f1766b
+Merge: 7e17436 3951505
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Dec 12 14:42:25 2016 -0300
+
+    Merge pull request #17 from ocefpaf/no_gdb
+    
+    No gdb
+
+commit 3951505141cc1260c9452e02f08717983a6ce396
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Mon Dec 12 13:02:41 2016 -0300
+
+    No gdb
+
+commit 7e17436d54c87e850ee7c569eb8c4962aa5f9df7
+Merge: 342ec4e dcd95b6
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Dec 8 07:33:53 2016 -0300
+
+    Merge pull request #15 from ocefpaf/bn
+    
+    Forgot to bump the bn
+
+commit dcd95b6f524a4554070c9fdd2a5eec4a05a39065
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Wed Dec 7 16:46:15 2016 -0300
+
+    Forgot to bump the bn
+
+commit 342ec4ea7c4c520a20e3f42a52237e8c8edb3762
+Merge: 66eb5ea f65ed82
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Dec 7 14:30:06 2016 -0300
+
+    Merge pull request #14 from ocefpaf/prefix
+    
+    Prefix
+
+commit f65ed821ffaaa0ff72b78eb522c435a101de29ef
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Dec 6 15:21:25 2016 -0600
+
+    build long prefix package using conda-build 2.x
+
+commit c2af63bdde84ec963aec00e876e13797a7813fbc
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Dec 6 15:14:58 2016 -0600
+
+    MNT: Re-rendered with conda-smithy 1.6.1
+
+commit 66eb5ea3dd641f3994b5a4b6f38ad845ccc89751
+Merge: 0fbe765 4f65b7f
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Dec 6 19:40:45 2016 -0300
+
+    Merge pull request #12 from ocefpaf/bump
+    
+    Bump 2.51
+
+commit 4f65b7f11ee8754ad517a70ce8a267774a92f8ea
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Dec 6 15:07:32 2016 -0300
+
+    No no-cocoa patch.
+
+commit c75c02961928c12373a8d30c1debc76618c55ec0
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Dec 6 12:50:57 2016 -0300
+
+    Bump to 2.51
+
+commit 0fbe765ddb6c96124e4b5af951643fa36cfe69af
+Merge: 7cbafc1 950adc6
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Dec 6 14:37:04 2016 -0300
+
+    Merge pull request #11 from ocefpaf/updates
+    
+    Updates
+
+commit 950adc64e31d61c3b50a1f4e22b2c36591fb9f4c
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Dec 6 12:51:54 2016 -0300
+
+    Comment our inspect.
+
+commit b05878f64df8f73f52ccbc3938c6081450b656ad
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Dec 6 11:34:32 2016 -0300
+
+    Rerender
+
+commit 7cbafc1098a6050fdd6c25c26358cd2ef71d5908
+Merge: 62aa974 4dc2340
+Author: Phil Elson <pelson.pub@gmail.com>
+Date:   Sat Oct 1 06:25:34 2016 +0100
+
+    Merge pull request #10 from conda-forge-admin/recipe_inspect_test_master
+    
+    MNT: Update build/test environment name
+
+commit 4dc234080a160986f0b2da8a70b4659a146272b8
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Oct 1 06:25:14 2016 +0100
+
+    MNT: Replace hard-coded build/test environment name with general PREFIX form.
+    
+    [ci skip]
+
+commit 62aa97430c0664bc1305926bdc3aaa6ff5534f0f
+Merge: 019cbba bcea155
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Jul 8 11:39:14 2016 -0300
+
+    Merge pull request #8 from ocefpaf/pin
+    
+    Pin zlib and remove xz
+
+commit bcea155dc7755e6d9be684db864e64f24de06cfe
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Thu Jul 7 18:51:08 2016 -0300
+
+    Pin zlib and remove xz
+
+commit 019cbba5102ece3d8866d056bb88d21cc2109602
+Merge: 442cafd 8fa8d25
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Mon May 16 09:03:09 2016 -0400
+
+    Merge pull request #6 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit 8fa8d2582b2740ec66cfa8b8a6204110747ec405
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon May 16 10:43:49 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.3.
+    
+    [ci skip]
+
+commit 442cafd2924a868aab560bc34538eeacb20d130b
+Merge: 83a59b7 5766633
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Tue May 10 14:40:32 2016 -0400
+
+    Merge pull request #5 from scopatz/master
+    
+    trigger rebuild due to malformed libffi
+
+commit 5766633715fc5c811955c7de0ce185774d45eba9
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Tue May 10 14:26:17 2016 -0400
+
+    trigger rebuild due to malformed libffi
+
+commit 83a59b7c33c4414a11921419f219b5cf6e58df3e
+Merge: 3bdb4a3 62e3423
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Mon May 9 22:13:08 2016 -0400
+
+    Merge pull request #4 from jakirkham/libffi-version
+    
+    Add strict requirement for libffi (Pt. 2)
+
+commit 62e34232c5564359031e76f6f7dba63fb3c8ba15
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon May 9 21:58:54 2016 -0400
+
+    recipe: Bump build number to 2.
+
+commit d54daab298abf5aa563598118637526ec96b5e85
+Merge: f08f939 3bdb4a3
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon May 9 21:58:19 2016 -0400
+
+    Merge branch 'conda-forge/master' into 'conda-forge/libffi-version'.
+
+commit 3bdb4a3e3c748d44261348326f9f8c12d98f549c
+Merge: 2dfca1a 68ec4bb
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon May 9 21:44:59 2016 -0400
+
+    Merge pull request #2 from conda-forge/no-save-configure-output
+    
+    Simple improvements to configure
+
+commit 68ec4bbf0939b5d12fae7fa906b599b4ad6bdb87
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Mon May 9 20:14:26 2016 -0500
+
+    Restore dumping config.log to CIs output
+
+commit f08f939bc4473f16b0bbcd9ee49a5c2226685cdd
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Mon May 9 20:03:21 2016 -0500
+
+    Add strict requirement for libffi
+    
+    - Also remove pkg-config as run dependency. It shouldn't be needed.
+
+commit 2dfca1aa6cc469ea978e9f2f3d6865deaa4d9181
+Merge: 0d06b41 82da67e
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Mon May 9 20:59:05 2016 -0400
+
+    Merge pull request #1 from jakirkham/various_fixes
+    
+    Various fixes from staged-recipes
+
+commit 49d19af0a6b4548c289da9eb4948b042e4c74dbd
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Mon May 9 19:56:45 2016 -0500
+
+    Remove saving configure output
+    
+    It's unnecessary. We almost never use this trick in other recipes.
+
+commit 82da67e8a9547bc3f8901d91c90bae891be3bcae
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon May 9 20:47:30 2016 -0400
+
+    recipe: Bump build number.
+
+commit be7d7156af8440c9e662a0886f381fd9f9d74b6f
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon May 9 20:46:38 2016 -0400
+
+    recipe: Add @jakirkham as a maintainer.
+
+commit f8cdaca881dbd913f00554dcc2b810f6062ddc2c
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon May 9 20:36:31 2016 -0400
+
+    Revert "recipe: Use Homebrew's notification patch."
+    
+    This reverts commit 4e4c18a3e56fedff0d49049c07b7c261eece4185.
+    
+    That patch does not apply cleanly on 2.48. It looks like it was designed
+    for 2.46.
+
+commit 02c75ed17fbe0a496c86d8b696dbb5132ee946e9
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon May 9 19:54:39 2016 -0400
+
+    recipe: Use Homebrew's notification patch.
+
+commit d32999ec4b2cd0687ecc2d07af9c2b3300ccafdb
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon May 9 19:48:19 2016 -0400
+
+    recipe: Use Homebrew's hardcoded paths patch with a name change.
+
+commit 02949f587b01f6e90840667b227a2a984090fef6
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon May 9 19:42:53 2016 -0400
+
+    recipe/find-libintl.h.patch: Deleted as it is no longer used.
+
+commit 0d06b419d938784b477b196a0e7d11639b400b15
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon May 9 23:33:09 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 2e21a2fc822af383ca3fa838b92d4e44a0cb1d9f
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon May 9 23:32:35 2016 +0000
+
+    Initial commit of the glib feedstock.

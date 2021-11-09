@@ -1,0 +1,313 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "ipykernel >=4.1",
+    "ipython_genutils",
+    "jupyter_client >=4.1",
+    "jupyter_core",
+    "pygments",
+    "pyqt",
+    "python",
+    "qtpy",
+    "traitlets"
+  ],
+  "extracted_package_dir": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/qtconsole-4.7.5-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/qtconsole-4.7.5.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/qtconsole-4.7.5.dist-info/LICENSE",
+    "lib/python3.8/site-packages/qtconsole-4.7.5.dist-info/METADATA",
+    "lib/python3.8/site-packages/qtconsole-4.7.5.dist-info/RECORD",
+    "lib/python3.8/site-packages/qtconsole-4.7.5.dist-info/WHEEL",
+    "lib/python3.8/site-packages/qtconsole-4.7.5.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/qtconsole-4.7.5.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/qtconsole-4.7.5.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/qtconsole/__init__.py",
+    "lib/python3.8/site-packages/qtconsole/__main__.py",
+    "lib/python3.8/site-packages/qtconsole/_version.py",
+    "lib/python3.8/site-packages/qtconsole/ansi_code_processor.py",
+    "lib/python3.8/site-packages/qtconsole/base_frontend_mixin.py",
+    "lib/python3.8/site-packages/qtconsole/bracket_matcher.py",
+    "lib/python3.8/site-packages/qtconsole/call_tip_widget.py",
+    "lib/python3.8/site-packages/qtconsole/client.py",
+    "lib/python3.8/site-packages/qtconsole/comms.py",
+    "lib/python3.8/site-packages/qtconsole/completion_html.py",
+    "lib/python3.8/site-packages/qtconsole/completion_plain.py",
+    "lib/python3.8/site-packages/qtconsole/completion_widget.py",
+    "lib/python3.8/site-packages/qtconsole/console_widget.py",
+    "lib/python3.8/site-packages/qtconsole/frontend_widget.py",
+    "lib/python3.8/site-packages/qtconsole/history_console_widget.py",
+    "lib/python3.8/site-packages/qtconsole/inprocess.py",
+    "lib/python3.8/site-packages/qtconsole/ipython_widget.py",
+    "lib/python3.8/site-packages/qtconsole/jupyter_widget.py",
+    "lib/python3.8/site-packages/qtconsole/kernel_mixins.py",
+    "lib/python3.8/site-packages/qtconsole/kill_ring.py",
+    "lib/python3.8/site-packages/qtconsole/mainwindow.py",
+    "lib/python3.8/site-packages/qtconsole/manager.py",
+    "lib/python3.8/site-packages/qtconsole/pygments_highlighter.py",
+    "lib/python3.8/site-packages/qtconsole/qstringhelpers.py",
+    "lib/python3.8/site-packages/qtconsole/qtconsoleapp.py",
+    "lib/python3.8/site-packages/qtconsole/resources/icon/JupyterConsole.svg",
+    "lib/python3.8/site-packages/qtconsole/rich_ipython_widget.py",
+    "lib/python3.8/site-packages/qtconsole/rich_jupyter_widget.py",
+    "lib/python3.8/site-packages/qtconsole/rich_text.py",
+    "lib/python3.8/site-packages/qtconsole/styles.py",
+    "lib/python3.8/site-packages/qtconsole/svg.py",
+    "lib/python3.8/site-packages/qtconsole/tests/__init__.py",
+    "lib/python3.8/site-packages/qtconsole/tests/test_00_console_widget.py",
+    "lib/python3.8/site-packages/qtconsole/tests/test_ansi_code_processor.py",
+    "lib/python3.8/site-packages/qtconsole/tests/test_app.py",
+    "lib/python3.8/site-packages/qtconsole/tests/test_comms.py",
+    "lib/python3.8/site-packages/qtconsole/tests/test_completion_widget.py",
+    "lib/python3.8/site-packages/qtconsole/tests/test_frontend_widget.py",
+    "lib/python3.8/site-packages/qtconsole/tests/test_jupyter_widget.py",
+    "lib/python3.8/site-packages/qtconsole/tests/test_kill_ring.py",
+    "lib/python3.8/site-packages/qtconsole/tests/test_styles.py",
+    "lib/python3.8/site-packages/qtconsole/usage.py",
+    "lib/python3.8/site-packages/qtconsole/util.py",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/__main__.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/ansi_code_processor.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/base_frontend_mixin.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/bracket_matcher.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/call_tip_widget.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/client.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/comms.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/completion_html.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/completion_plain.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/completion_widget.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/console_widget.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/frontend_widget.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/history_console_widget.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/inprocess.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/ipython_widget.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/jupyter_widget.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/kernel_mixins.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/kill_ring.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/mainwindow.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/manager.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/pygments_highlighter.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/qstringhelpers.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/qtconsoleapp.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/rich_ipython_widget.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/rich_jupyter_widget.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/rich_text.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/styles.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/svg.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/tests/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/tests/__pycache__/test_00_console_widget.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/tests/__pycache__/test_ansi_code_processor.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/tests/__pycache__/test_app.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/tests/__pycache__/test_comms.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/tests/__pycache__/test_completion_widget.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/tests/__pycache__/test_frontend_widget.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/tests/__pycache__/test_jupyter_widget.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/tests/__pycache__/test_kill_ring.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/tests/__pycache__/test_styles.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/usage.cpython-38.pyc",
+    "lib/python3.8/site-packages/qtconsole/__pycache__/util.cpython-38.pyc",
+    "bin/jupyter-qtconsole"
+  ],
+  "fn": "qtconsole-4.7.5-py_0.conda",
+  "legacy_bz2_md5": "c0d185d0bd3968259608b566dc108d33",
+  "legacy_bz2_size": 95949,
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/qtconsole-4.7.5-py_0",
+    "type": 1
+  },
+  "md5": "9bb9315a65e37a9ed4ff9edf8157789c",
+  "name": "qtconsole",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/james_cameron-mowat/opt/anaconda3/pkgs/qtconsole-4.7.5-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/__main__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/_version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/ansi_code_processor.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/base_frontend_mixin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/bracket_matcher.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/call_tip_widget.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/client.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/comms.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/completion_html.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/completion_plain.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/completion_widget.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/console_widget.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/frontend_widget.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/history_console_widget.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/inprocess.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/ipython_widget.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/jupyter_widget.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/kernel_mixins.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/kill_ring.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/mainwindow.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/manager.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/pygments_highlighter.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/qstringhelpers.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/qtconsoleapp.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/rich_ipython_widget.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/rich_jupyter_widget.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/rich_text.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/styles.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/svg.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/tests/__pycache__/test_00_console_widget.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/tests/__pycache__/test_ansi_code_processor.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/tests/__pycache__/test_app.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/tests/__pycache__/test_comms.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/tests/__pycache__/test_completion_widget.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/tests/__pycache__/test_frontend_widget.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/tests/__pycache__/test_jupyter_widget.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/tests/__pycache__/test_kill_ring.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/tests/__pycache__/test_styles.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/usage.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/qtconsole/__pycache__/util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/jupyter-qtconsole",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "qtconsole==4.7.5=py_0",
+  "sha256": "d5111d4aa441974bfa7898e6e0c7d769fb521ddfa2e9713826b307246a6dc080",
+  "size": 98017,
+  "subdir": "noarch",
+  "timestamp": 1592848642590,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/qtconsole-4.7.5-py_0.conda",
+  "version": "4.7.5"
+}

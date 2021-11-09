@@ -1,0 +1,27 @@
+{
+  "build": "py38h3304bdc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "blas 1.0 mkl",
+    "libgfortran >=3.0.1,<4.0.0.a0",
+    "mkl >=2019.4,<2020.0a0",
+    "mkl-service >=2,<3.0a0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "numpy-base-1.18.5-py38h3304bdc_0.conda",
+  "legacy_bz2_md5": "cbabf46b5efc8857f6215dce3eb96c98",
+  "legacy_bz2_size": 5218209,
+  "license": "BSD 3-Clause",
+  "md5": "9c0e5b8ecb4588a8dd83bdf026be6a94",
+  "name": "numpy-base",
+  "sha256": "2bd4c01b77ffe81728f16994fd2a27f0f92967d51afbabda408ef52eeaca4a8b",
+  "size": 4114652,
+  "subdir": "osx-64",
+  "timestamp": 1592510406990,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/numpy-base-1.18.5-py38h3304bdc_0.conda",
+  "version": "1.18.5"
+}

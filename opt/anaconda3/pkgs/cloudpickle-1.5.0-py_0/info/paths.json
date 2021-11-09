@@ -1,0 +1,71 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/cloudpickle-1.5.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/cloudpickle-1.5.0.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "3029ea34173e9fdc233ad315dc6b100bd1ea71f529b1c1af97664a272fdc55f5",
+      "size_in_bytes": 1754
+    },
+    {
+      "_path": "site-packages/cloudpickle-1.5.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "e234f4b213dfd9a74afbffb16960859ec67408f608ab1239001d65ecb2b42032",
+      "size_in_bytes": 4266
+    },
+    {
+      "_path": "site-packages/cloudpickle-1.5.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "02a21cd9367077b83365cdf53fe6c2a26521559c6a81767bea7baeb3f0f55f70",
+      "size_in_bytes": 1148
+    },
+    {
+      "_path": "site-packages/cloudpickle-1.5.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+      "size_in_bytes": 92
+    },
+    {
+      "_path": "site-packages/cloudpickle-1.5.0.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "b89de7f11b7fc90c7e223c72dd1778fffc6bbb5e62b94e77b92690632e1cb19b",
+      "size_in_bytes": 84
+    },
+    {
+      "_path": "site-packages/cloudpickle-1.5.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "cccbf080a89ad137a534a24fe8f6875a5c569849bad0aae250ef1b6f92d16655",
+      "size_in_bytes": 12
+    },
+    {
+      "_path": "site-packages/cloudpickle/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "b3b0e1ffb01cac2fdbed0a49e45a5c83ae91faec756b75da588ede3cff798873",
+      "size_in_bytes": 185
+    },
+    {
+      "_path": "site-packages/cloudpickle/cloudpickle.py",
+      "path_type": "hardlink",
+      "sha256": "203ac3accab4aac2c4efec38aa49117332b96b2bfb9e6174be99abbfd2a5dc25",
+      "size_in_bytes": 30083
+    },
+    {
+      "_path": "site-packages/cloudpickle/cloudpickle_fast.py",
+      "path_type": "hardlink",
+      "sha256": "19ff29e8c4da2766d88d1aec64101542b78ff39acf4e6da6f422ffd9d7c97fd7",
+      "size_in_bytes": 29668
+    },
+    {
+      "_path": "site-packages/cloudpickle/compat.py",
+      "path_type": "hardlink",
+      "sha256": "1507ef88a41335f2b6ec963a857a37e7f13091aca5881837a3d57f86db85f1ee",
+      "size_in_bytes": 354
+    }
+  ],
+  "paths_version": 1
+}

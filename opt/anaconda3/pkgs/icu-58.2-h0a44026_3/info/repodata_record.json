@@ -1,0 +1,23 @@
+{
+  "build": "h0a44026_3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1"
+  ],
+  "features": "",
+  "fn": "icu-58.2-h0a44026_3.conda",
+  "legacy_bz2_md5": "5c5aa862793c874be6ec8d6af7d1f4e4",
+  "legacy_bz2_size": 23669475,
+  "license": "MIT",
+  "md5": "7eb495615609cfaa4e4b1d40cca57735",
+  "name": "icu",
+  "sha256": "bfd08b5e61c92baa46513fb9d44e873defe2ee0270d6869e28727d174c4e3d78",
+  "size": 10640549,
+  "subdir": "osx-64",
+  "timestamp": 1588026009899,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/icu-58.2-h0a44026_3.conda",
+  "version": "58.2"
+}

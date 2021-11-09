@@ -1,0 +1,108 @@
+commit ebc60d8785043d432d3db692da096e9856ff7e56
+Merge: ccdeb9d 2599cd5
+Author: Jonathan J. Helmus <jjhelmus@gmail.com>
+Date:   Wed Jun 26 09:02:25 2019 -0500
+
+    Merge pull request #7 from jjhelmus/wip
+    
+    Update to 0.8.3
+
+commit 2599cd59e017691341cdde6bf1f6fd093d11b5bc
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Jun 25 19:00:00 2019 -0500
+
+    MNT: Re-rendered with conda-build 3.18.5, conda-smithy 3.4.0, and conda-forge-pinning 2019.06.19
+
+commit 7fa1aa6a15d4e8c70e959d84f3a8b5ce97f1fbef
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Jun 25 18:49:47 2019 -0500
+
+    update to 0.8.3
+    
+    * update recipe to 0.8.3
+    * remove patch which was merged upstream
+    * simplify recipe by removing much of the jinja templating
+
+commit ccdeb9d69219dbb387069a934b37a31ae1343df8
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 19:11:35 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit e7f5c5133d75deb4615244f1b29626ac22964da9
+Merge: 35af490 cd9807b
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Mon Jul 16 06:36:47 2018 -0500
+
+    Merge pull request #4 from regro-cf-autotick-bot/noarch_migration
+    
+    Suggestion: add noarch
+
+commit cd9807b7682a18c53f34149e8b99fbb5c6cb9d82
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jul 9 02:47:35 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.01
+
+commit a7fd3d15cfaeedf9d0553f2bc607713b6ef3c73d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jul 9 02:47:29 2018 +0000
+
+    add noarch
+
+commit 35af4904edcf8cd6ececce96c714c429bbb6d88c
+Merge: c0e17b5 fea8e1f
+Author: Gonzalo Peña-Castellanos <goanpeca@gmail.com>
+Date:   Wed Nov 15 23:16:16 2017 -0500
+
+    Merge pull request #3 from goanpeca/Add-version-0.8.2
+    
+    PR: Release version 0.8.2
+
+commit c0e17b55a9f668b27f7c29c7bcc30401f8e5604c
+Merge: ef8e8a2 6fc7864
+Author: Gonzalo Peña-Castellanos <goanpeca@gmail.com>
+Date:   Wed Nov 15 22:59:35 2017 -0500
+
+    Merge pull request #2 from goanpeca/release-0.8.1
+    
+    PR: Update recipe for 0.8.1 release
+
+commit fea8e1fb70c72555a391f03a8566d5f278aa1378
+Author: Gonzalo Pena-Castellanos <goanpeca@gmail.com>
+Date:   Wed Nov 15 10:15:54 2017 -0500
+
+    Update patch to setup.py
+
+commit 6fc7864bb6769ac6a61b76e096736c97592aae49
+Author: Gonzalo Pena-Castellanos <goanpeca@gmail.com>
+Date:   Tue Oct 3 23:15:59 2017 -0400
+
+    Update recipe for 0.8.1 release
+
+commit ef8e8a2bfb7fd7eb4afd4b5f979fa2d3762fbf24
+Merge: f6785ce 4804cec
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Aug 29 14:26:42 2017 -0300
+
+    Merge pull request #1 from AnacondaRecipes/cf_sync
+    
+    Update to 0.8.0
+
+commit 4804cecd2ca590291c37fa1a59d2d4fcb63e11e3
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Aug 29 02:59:11 2017 -0700
+
+    Update to 0.8.0
+
+commit f6785ce6ef7360fa1355ac90d15fd5de81e70eb5
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Aug 17 07:33:22 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 700e8cf598219cc5d793b915891e079c77f0f694
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Aug 17 07:25:23 2017 +0000
+
+    Initial feedstock commit with conda-smithy 2.3.3.

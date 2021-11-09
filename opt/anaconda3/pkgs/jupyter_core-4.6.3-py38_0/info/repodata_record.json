@@ -1,0 +1,25 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "traitlets"
+  ],
+  "features": "",
+  "fn": "jupyter_core-4.6.3-py38_0.conda",
+  "legacy_bz2_md5": "3e1f4b2d82d032ed699b2efdb47a4a22",
+  "legacy_bz2_size": 76567,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "8bf685dddea587762ed663dcc33ecd73",
+  "name": "jupyter_core",
+  "sha256": "40195e1141649ab52d6e1ab377ee543ab1730df1ce22680ffb1051b21ad3fdc5",
+  "size": 72321,
+  "subdir": "osx-64",
+  "timestamp": 1585645889971,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/jupyter_core-4.6.3-py38_0.conda",
+  "version": "4.6.3"
+}

@@ -1,0 +1,40 @@
+{% set name = "json5" %}
+{% set version = "0.9.5" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 703cfee540790576b56a92e1c6aaa6c4b0d98971dc358ead83812aa4d06bdb96
+
+build:
+  number: 0
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv "
+  entry_points:
+    - pyjson5 = json5.tool:main
+
+requirements:
+  host:
+    - pip
+    - python
+  run:
+    - python
+
+test:
+  imports:
+    - json5
+
+about:
+  home: https://github.com/dpranke/pyjson5
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE
+  summary: A Python implementation of the JSON5 data format
+  dev_url: https://github.com/dpranke/pyjson5
+
+extra:
+  recipe-maintainers:
+    - ian-r-rose

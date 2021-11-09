@@ -1,0 +1,26 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "tblib-1.6.0-py_0.conda",
+  "legacy_bz2_md5": "32c0b3e1ee33be6e7c81c52b5c60a7b6",
+  "legacy_bz2_size": 16232,
+  "license": "BSD 2-Clause",
+  "license_family": "BSD",
+  "md5": "a5952dbc9bd5dd764e8c3abf7f65cd55",
+  "name": "tblib",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "12f3ee77fbf264b2d270f00e878be75243aed583d2b4f3fee869bec01677df80",
+  "size": 16066,
+  "subdir": "noarch",
+  "timestamp": 1576538278231,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/tblib-1.6.0-py_0.conda",
+  "version": "1.6.0"
+}

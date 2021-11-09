@@ -1,0 +1,19 @@
+{
+  "arch": "x86_64",
+  "build": "hc5f4afa_0",
+  "build_number": 0,
+  "depends": [
+    "gettext",
+    "libcxx >=10.0.0",
+    "libffi >=3.3,<3.4.0a0",
+    "libiconv >=1.16,<2.0a0",
+    "pcre >=8.44,<9.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "license": "LGPL-2.1",
+  "name": "glib",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1593199634197,
+  "version": "2.65.0"
+}

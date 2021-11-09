@@ -1,0 +1,70 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/pygments-2.6.1-on-linux_64, last modified Tue Mar 17 15:02:12 2020
+# ------------------------------------------------
+
+package:
+    name: pygments
+    version: 2.6.1
+source:
+    sha256: 647344a061c249a3b74e230c739f434d7ea4d8b1d5f3721bc0f3558049b38f44
+    url: https://pypi.io/packages/source/P/Pygments/Pygments-2.6.1.tar.gz
+build:
+    entry_points:
+        - pygmentize = pygments.cmdline:main
+    noarch: python
+    number: '0'
+    script: /tmp/build/80754af9/pygments_1584457439650/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place/bin/python
+        -m pip install . --no-deps -vv
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.1.1 0
+        - certifi 2019.11.28 py38_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_0
+        - openssl 1.1.1d h7b6447c_4
+        - pip 20.0.2 py38_1
+        - python 3.8.1 h0371630_1
+        - readline 7.0 h7b6447c_5
+        - setuptools 46.0.0 py38_0
+        - sqlite 3.31.1 h7b6447c_0
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.4 h14c3975_4
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python >=3.5
+        - setuptools
+test:
+    commands:
+        - pip check
+        - pygmentize -h
+    imports:
+        - pygments
+        - pygments.filters
+        - pygments.formatters
+        - pygments.lexers
+        - pygments.plugin
+        - pygments.styles
+    requires:
+        - pip
+about:
+    home: http://pygments.org/
+    license: BSD-2-clause
+    license_file: LICENSE
+    summary: Pygments is a generic syntax highlighter suitable for use in code hosting,
+        forums, wikis or other applications that need to prettify source code.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - ocefpaf
+        - pelson
+        - scopatz
